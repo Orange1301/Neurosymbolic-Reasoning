@@ -164,7 +164,7 @@
       \visible<4->{
         \begin{exampleblock}{\textbf{Pros}}
           \begin{itemize}
-            \item Generalization and Robustness
+            \item Generalization \& Robustness
             \item Perception
             \item Automated Feature Extraction
           \end{itemize}
@@ -237,7 +237,7 @@
         \visible<8>{
           \node[draw, thick,
                 rounded corners,
-                inner sep=6pt] (NFLT) at (1.775, -0.2) {\textbf{Language Formalization}};
+                inner sep=6pt] (NFLT) at (1.775, -0.2) {\textbf{Semantic Parsing/Language Formalization}};
           \draw[->, thick] (plus) -- (NFLT);
         }
       \end{tikzpicture}
@@ -246,12 +246,68 @@
 \end{frame}
 
 \section{Problem Statement}
-\begin{frame}{Language Formalization}
-  
-\end{frame}
 
-\begin{frame}{Input/Output}
-  
+\begin{frame}{Problem Statement}
+
+    % Part 1: Definition
+    \begin{block}{\textbf{Language Formalization}}
+        The goal is to learn a mapping function $f: \mathcal{X} \rightarrow \mathcal{Y}$ that translates Natural Language sentences ($x_\text{NL}$) into machine-verifiable First-Order Logic formulas ($y_\text{FOL}$).
+    \end{block}
+    \pause
+    \vspace{0.5cm}
+
+    % Part 2: Visualization Input -> Output
+    \begin{columns}[c]
+
+        % Input Column
+        \begin{column}{0.35\textwidth}
+            \centering
+            \textbf{\textcolor{blue}{Input ($x_\text{NL}$)}} \\
+            \vspace{0.1cm}
+            \scriptsize{\textit{Natural Language}} \\
+            \scriptsize{\textit{(Unstructured)}}
+            % \vspace{0.1cm}
+            \begin{alertblock}{}
+                \centering
+                \small
+                "Every student takes a course."
+            \end{alertblock}
+        \end{column}
+
+        % Arrow
+        \begin{column}{0.12\textwidth}
+            % \centering
+            \vspace{0.4cm}
+            \Huge $\xrightarrow{f(x)}$
+        \end{column}
+
+        % Output Column
+        \begin{column}{0.45\textwidth}
+            \centering
+            \textbf{\textcolor{green!40!black}{Output ($y_\text{FOL}$)}} \\
+            \vspace{0.1cm}
+            \scriptsize{\textit{First-Order Logic}} \\
+            \scriptsize{\textit{(Structured)}}
+            % \vspace{0.1cm}
+            \begin{exampleblock}{}
+                \centering
+                \footnotesize
+                $\forall x (\text{Student}(x) \rightarrow \exists y (\text{Course}(y) \wedge \text{Takes}(x, y)))$
+            \end{exampleblock}
+        \end{column}
+        
+    \end{columns}
+
+    \pause
+    \vspace{0.6cm}
+
+    % Part 3: Challenges
+    \textbf{Core Challenges:}
+    \begin{itemize}
+        \item \textbf{The Requirement for Absolute Precision:} Formal languages are syntactically fragile. A formal expression must be 100\% correct to be machine-verifiable.
+        \item \textbf{Data Scarcity and the Expert-Data Bottleneck:} Creating NL-FOL pairs requires professionals with deep knowledge of both the domain and the formal syntax.
+    \end{itemize}
+
 \end{frame}
 
 % --- PART 2: DATA ---
