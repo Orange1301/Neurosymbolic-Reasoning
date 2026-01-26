@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1769443097.90456 "d:/Di hoc/Semester 08/Intro2PLA/Repo/LaTeX/slide.tex" "slide.pdf" "slide" 1769443107.87542 0
+["lualatex"] 1769443243.59221 "d:/Di hoc/Semester 08/Intro2PLA/Repo/LaTeX/slide.tex" "slide.pdf" "slide" 1769443256.93696 0
   "C:/Users/ADMIN/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767540352 97885 0f8769e55a3b63e120fa5fb8166aa505 ""
   "C:/Users/ADMIN/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1763146146 127337 93700ecd909e6aeb44b2b51202d5f7d2 ""
   "C:/Users/ADMIN/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1763245498 128931 53e4cb91af1b1749c47d91eb063c1d84 ""
@@ -335,14 +335,14 @@
   "c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans8-oblique.otf" 1256929440 100084 d11350e3711feceb5daba559bd30a9b6 ""
   "c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans8-regular.otf" 1256929440 94256 a52a5407fe2a4281f96a01e9736568c3 ""
   "c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans9-regular.otf" 1256929440 94552 69b90bffaa90b98b1ae6551613795c72 ""
-  "d:/Di hoc/Semester 08/Intro2PLA/Repo/LaTeX/slide.tex" 1769443097 14978 4fa0a2660e924e337043e05e25ade7ff ""
+  "d:/Di hoc/Semester 08/Intro2PLA/Repo/LaTeX/slide.tex" 1769443222 14878 9e5de48bde433dce03383db57085d6e5 ""
   "imgs/Thinking fast and slow.jpg" 1769348403 92529 081f8cbf7bde32438ccc2994ea87b559 ""
   "imgs/pipeline.pdf" 1769290123 117640 9905bb61f128cd63e7236a2d104a2adf ""
-  "slide.aux" 1769443107 4250 99c1dabc2944de4420dd64121ef335f9 "lualatex"
-  "slide.nav" 1769443107 2718 0b95f5fcfa75d8c388c29a23dc1e5a9b "lualatex"
-  "slide.out" 1769443107 669 c144ebb4b900cd317b485fee885a85e0 "lualatex"
-  "slide.tex" 1769443097 14978 4fa0a2660e924e337043e05e25ade7ff ""
-  "slide.toc" 1769443107 271 b30c2ea321acbff58bd6f867ff8b2b44 "lualatex"
+  "slide.aux" 1769443256 3993 8dc9eebcae35f7eaa24dacc790255844 "lualatex"
+  "slide.nav" 1769443256 2533 9869e0cfc8562ba3085bc2ba06b3e56b "lualatex"
+  "slide.out" 1769443256 669 c144ebb4b900cd317b485fee885a85e0 "lualatex"
+  "slide.tex" 1769443222 14878 9e5de48bde433dce03383db57085d6e5 ""
+  "slide.toc" 1769443256 271 df1c52708f4072ffc2a43a750ecd21fa "lualatex"
   (generated)
   "slide.aux"
   "slide.log"
