@@ -484,6 +484,10 @@ INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.st
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-beamer.sto
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-beamer.sto
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerthemeFrankfurt.sty
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerthemeFrankfurt.sty
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerouterthemesmoothbars.sty
@@ -689,6 +693,8 @@ INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT .\slide.toc
 INPUT .\slide.toc
+INPUT C:\Users\ADMIN\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmmono8-regular.luc
+INPUT C:\Users\ADMIN\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmmono10-regular.luc
 INPUT .\imgs\pipeline.pdf
 INPUT .\imgs\pipeline.pdf
 INPUT .\imgs\pipeline.pdf
@@ -711,6 +717,8 @@ INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
@@ -719,12 +727,16 @@ INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb

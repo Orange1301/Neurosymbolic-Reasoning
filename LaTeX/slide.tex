@@ -15,6 +15,9 @@
 \usetikzlibrary{shapes, arrows, positioning}
 \usepackage{listings} % Chèn code (nếu cần)
 \usepackage{caption}
+\usepackage{array}
+\usepackage{makecell}
+\setcellgapes{2pt}
 
 % --- Theme và Màu sắc ---
 \usetheme{Frankfurt}
@@ -148,13 +151,13 @@
           \visible<2->{
             % --- INPUT ---
             \draw[->, thick] (-2, 4.5) -- (-2, 0) -> (-1, 0);
-            \node at (-0.5, 5.5) {``Is Huy wibu?''};
+            \node[right] at (-3, 5.5) {``Is Huy a good boy?''};
           }
 
           \visible<3->{
             % --- OUTPUT ---
             \draw[->, thick] (8.5, 0) -- (9.5, 0) -> (9.5, 4.5);
-            \node at (9.5, 5.5) {``Yes!''};
+            \node[left] at (10.5, 5.5) {``No, he's wibu.''};
           }
         \end{tikzpicture}
       \end{block}
@@ -275,10 +278,10 @@
         \end{column}
 
         % Arrow
-        \begin{column}{0.12\textwidth}
+        \begin{column}{0.11\textwidth}
             % \centering
             \vspace{0.4cm}
-            \Huge $\xrightarrow{f(x)}$
+            \Huge $\xrightarrow{f(\cdot)}$
         \end{column}
 
         % Output Column
@@ -310,7 +313,6 @@
 
 \end{frame}
 
-% --- PART 2: DATA ---
 \section{Data}
 
 \begin{frame}{Data Source}
@@ -330,6 +332,92 @@ The data used consists of the training sets of the datasets listed in the table 
     \end{tabular}
     \caption{Preliminary statistics of data sources.}
   \end{table}
+\end{frame}
+
+\begin{frame}{Data Source: FOLIO Dataset}
+
+    % Phần 1: Giới thiệu tập dữ liệu
+    \begin{block}{\textbf{FOLIO Dataset}}
+         FOLIO is an expert-written, open-domain, logically complex and diverse dataset for natural language reasoning with first-order logic.
+    \end{block}
+
+    % \vspace{0.3cm}
+    \textbf{Examples:}
+    \begin{table}
+      \centering
+      \tiny
+      \setlength{\tabcolsep}{2pt}
+      % \setlength{\extrarowheight}{2pt}
+      \makegapedcells
+      \renewcommand\theadfont{\tiny\bfseries}
+      \renewcommand\theadset{\renewcommand\arraystretch{0}}
+      \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        \thead{Premises} & \thead{Premises-FOL} & \thead{Conclusion} & \thead{Conclusion-FOL} & \thead{Label} \\
+        \hline
+        \makecell[l]{
+          All rabbits have fur. \\
+          Some pets are rabbits.
+        }
+        &
+        \makecell[l]{
+          $\mathtt{\forall x \ (Rabbit(x) \to Have(x, fur))}$ \\
+          $\mathtt{\exists x \ (Pet(x) \land Rabbit(x))}$
+        }
+        &
+        Some pets do not have fur.
+        &
+        \makecell[l]{
+          $\mathtt{\exists x \ \exists y \ (Pet(x) \land Pet(y) \land \null}$ \\
+          \null\hspace{10pt} $\mathtt{\lnot Have(x, fur) \land \lnot Have(y, fur))}$
+        }
+        &
+        Uncertain
+
+        \\
+
+        \hline
+        \makecell[l]{
+          All tigers are cats. \\
+          No cats are dogs. \\
+          All Bengal tigers are tigers. \\
+          All huskies are dogs. \\
+          Fido is either a Bengal tiger or a cat.
+        }
+        &
+        \makecell[l]{
+          $\mathtt{\forall x \ (Tiger(x) \to Cat(x))}$ \\
+          $\mathtt{\forall x \ (Cat(x) \to ¬Dog(x))}$ \\
+          $\mathtt{\forall x \ (BengalTiger(x) \to Tiger(x))}$ \\
+          $\mathtt{\forall x \ (Husky(x) \to Dog(x))}$ \\
+          $\mathtt{BengalTiger(fido) \oplus Cat(fido)}$
+        }
+        &
+        Fido is neither a dog nor a husky.
+        &
+        $\mathtt{\lnot Dog(fido) \land \lnot Husky(fido)}$
+        &
+        True
+
+        \\
+
+        \hline
+
+        \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} \\
+
+        \hline
+      \end{tabular}
+      \caption{Sample data from the FOLIO dataset.}
+    \end{table}
+
+\end{frame}
+
+\begin{frame}{Data Source: ProofWriter \& RuleTaker}
+  
+\end{frame}
+
+\begin{frame}{Data Source: ReClor \& LogiQA}
+  
 \end{frame}
 
 \begin{frame}{Data Pipeline}
