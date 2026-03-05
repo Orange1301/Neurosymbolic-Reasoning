@@ -47,12 +47,12 @@ def preprocess(data_list):
     '''
     processed_data = []
     for data in data_list:
-        natural = data["premises"] + "\n" + data["conclusion"]
+        natural = data["premises"] + "" + data["conclusion"]
         
-        fol = (data["premises-FOL"] + "\n" + data["conclusion-FOL"])
+        fol = (data["premises-FOL"] + "" + data["conclusion-FOL"])
 
 
-        # raw_fol_text = data["premises-FOL"] + "\n" + data["conclusion-FOL"]
+        # raw_fol_text = data["premises-FOL"] + "" + data["conclusion-FOL"]
         # # translated_fol_text = fol_translate(raw_fol_text)
         # fol = translated_fol_text.split('\n')
 

@@ -1,56 +1,56 @@
 [
     {
-        "story_id": 0,
-        "natural": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.\nTom is not an Eastern wild turkey.\nTom is not an Osceola wild turkey.\nTom is not a Gould's wild turkey.\nTom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.\nTom is a wild turkey.\nTom is an Ocellated wild turkey.",
-        "fol": "∀x (WildTurkey(x) → (EasternWildTurkey(x) ∨ OsceolaWildTurkey(x) ∨ GouldsWildTurkey(x) ∨ MerriamsWildTurkey(x) ∨ RiograndeWildTurkey(x) ∨ OcellatedWildTurkey(x)))\n¬(EasternWildTurkey(tom))\n¬(OsceolaWildTurkey(tom))\n¬(GouldsWildTurkey(tom))\n¬(MerriamsWildTurkey(tom) ∨ RiograndeWildTurkey(tom))\nWildTurkey(tom)\nOcellatedWildTurkey(tom)",
-        "label": "True"
-    },
-    {
-        "story_id": 0,
-        "natural": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.\nTom is not an Eastern wild turkey.\nTom is not an Osceola wild turkey.\nTom is not a Gould's wild turkey.\nTom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.\nTom is a wild turkey.\nTom is an Eastern wild turkey.",
-        "fol": "∀x (WildTurkey(x) → (EasternWildTurkey(x) ∨ OsceolaWildTurkey(x) ∨ GouldsWildTurkey(x) ∨ MerriamsWildTurkey(x) ∨ RiograndeWildTurkey(x) ∨ OcellatedWildTurkey(x)))\n¬(EasternWildTurkey(tom))\n¬(OsceolaWildTurkey(tom))\n¬(GouldsWildTurkey(tom))\n¬(MerriamsWildTurkey(tom) ∨ RiograndeWildTurkey(tom))\nWildTurkey(tom)\nEasternWildTurkey(tom)",
-        "label": "False"
-    },
-    {
-        "story_id": 0,
-        "natural": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.\nTom is not an Eastern wild turkey.\nTom is not an Osceola wild turkey.\nTom is not a Gould's wild turkey.\nTom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.\nTom is a wild turkey.\nJoey is a wild turkey.",
-        "fol": "∀x (WildTurkey(x) → (EasternWildTurkey(x) ∨ OsceolaWildTurkey(x) ∨ GouldsWildTurkey(x) ∨ MerriamsWildTurkey(x) ∨ RiograndeWildTurkey(x) ∨ OcellatedWildTurkey(x)))\n¬(EasternWildTurkey(tom))\n¬(OsceolaWildTurkey(tom))\n¬(GouldsWildTurkey(tom))\n¬(MerriamsWildTurkey(tom) ∨ RiograndeWildTurkey(tom))\nWildTurkey(tom)\nWildTurkey(joey)",
+        "story_id": 426,
+        "natural": "All employees who schedule a meeting with their customers will go to the company building today. \nEveryone who has lunch in the company building schedules meetings with their customers_ \nEmployees have lunch either in the company building or at home.\nIf an employee has lunch at home, they are working remotely from home.\nAll employees who are in other countries work remotely from home. \nNo managers work remotely from home. \nJames will appear in the company today if and only if he is a manager.\nJames has lunch in the company.",
+        "fol": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))\nHasLunch(james, company)",
         "label": "Uncertain"
     },
     {
-        "story_id": 282,
-        "natural": "All squares are four-sided.\nAll four-sided things are shapes. \nAll squares are shapes.",
-        "fol": "∀x (Square(x) → FourSided(x))\n∀x (FourSided(x) → Shape(x))\n∀x (Square(x) → Shape(x))",
-        "label": "True"
-    },
-    {
-        "story_id": 471,
-        "natural": "All rabbits that can be spotted near the campus are cute. \nSome turtles can be spotted near the campus. \nThe only animals that can be spotted near the campus are rabbits and squirrels.\nIf something is skittish, then it is not calm.\nAll the squirrels that can be spotted near the campus are skittish.\nRockie can be spotted near the campus, and it is calm.\nRockie is a turtle.",
-        "fol": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie) \nTurtle(rockie)",
+        "story_id": 426,
+        "natural": "All employees who schedule a meeting with their customers will go to the company building today. \nEveryone who has lunch in the company building schedules meetings with their customers_ \nEmployees have lunch either in the company building or at home.\nIf an employee has lunch at home, they are working remotely from home.\nAll employees who are in other countries work remotely from home. \nNo managers work remotely from home. \nJames will appear in the company today if and only if he is a manager.\nJames does not have lunch in the company.",
+        "fol": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))\n¬HasLunch(james, company)",
         "label": "Uncertain"
     },
     {
-        "story_id": 471,
-        "natural": "All rabbits that can be spotted near the campus are cute. \nSome turtles can be spotted near the campus. \nThe only animals that can be spotted near the campus are rabbits and squirrels.\nIf something is skittish, then it is not calm.\nAll the squirrels that can be spotted near the campus are skittish.\nRockie can be spotted near the campus, and it is calm.\nRockie is not a turtle.",
-        "fol": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie) \n¬Turtle(rockie)",
+        "story_id": 426,
+        "natural": "All employees who schedule a meeting with their customers will go to the company building today. \nEveryone who has lunch in the company building schedules meetings with their customers_ \nEmployees have lunch either in the company building or at home.\nIf an employee has lunch at home, they are working remotely from home.\nAll employees who are in other countries work remotely from home. \nNo managers work remotely from home. \nJames will appear in the company today if and only if he is a manager.\nIf James is either a manager or in other countries,  then James does not either has lunch at home or work remotely from home. If James either has lunch at home or works remotely from home, then he is neither a manager nor does he work in other countries. [contrapositive is more natural]",
+        "fol": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))\nManager(james) → ¬Work(james, home)",
+        "label": "True"
+    },
+    {
+        "story_id": 198,
+        "natural": "When the Monkeypox virus occurs in a being, it may get Monkeypox. \nMonkeypox virus can occur in certain animals.\nHumans are mammals.\nMammals are animals.\nSymptoms of Monkeypox include fever, headache, muscle pains, and tiredness. \nPeople feel tired when they get the flu.\nThere is an animal.",
+        "fol": "∃x (OccurIn(monkeypoxVirus, x) ∧ Get(x, monkeypoxVirus))\n∃x (Animal(x) ∧ OccurIn(monkeypoxVirus, x))\n∀x (Human(x) → Mammal(x))\n∀x (Mammal(x) → Animal(x))\n∃x (SymptonOf(x, monkeypoxVirus) ∧ (Fever(x) ∨ Headache(x) ∨ MusclePain(x) ∨ Tired(x)))\n∀x (Human(x) ∧ Get(x, flu) → Feel(x, tired))\n∃x (Animal(x))",
+        "label": "True"
+    },
+    {
+        "story_id": 198,
+        "natural": "When the Monkeypox virus occurs in a being, it may get Monkeypox. \nMonkeypox virus can occur in certain animals.\nHumans are mammals.\nMammals are animals.\nSymptoms of Monkeypox include fever, headache, muscle pains, and tiredness. \nPeople feel tired when they get the flu.\nNo one gets the flu.",
+        "fol": "∃x (OccurIn(monkeypoxVirus, x) ∧ Get(x, monkeypoxVirus))\n∃x (Animal(x) ∧ OccurIn(monkeypoxVirus, x))\n∀x (Human(x) → Mammal(x))\n∀x (Mammal(x) → Animal(x))\n∃x (SymptonOf(x, monkeypoxVirus) ∧ (Fever(x) ∨ Headache(x) ∨ MusclePain(x) ∨ Tired(x)))\n∀x (Human(x) ∧ Get(x, flu) → Feel(x, tired))\n∀x (Human(x) → ¬Get(x, flu))",
         "label": "Uncertain"
     },
     {
-        "story_id": 471,
-        "natural": "All rabbits that can be spotted near the campus are cute. \nSome turtles can be spotted near the campus. \nThe only animals that can be spotted near the campus are rabbits and squirrels.\nIf something is skittish, then it is not calm.\nAll the squirrels that can be spotted near the campus are skittish.\nRockie can be spotted near the campus, and it is calm.\nRockie is a turtle or cute.",
-        "fol": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie) \nTurtle(rockie) ∨ Cute(rockie)",
+        "story_id": 198,
+        "natural": "When the Monkeypox virus occurs in a being, it may get Monkeypox. \nMonkeypox virus can occur in certain animals.\nHumans are mammals.\nMammals are animals.\nSymptoms of Monkeypox include fever, headache, muscle pains, and tiredness. \nPeople feel tired when they get the flu.\nSymptoms of Monkeypox include coughing.",
+        "fol": "∃x (OccurIn(monkeypoxVirus, x) ∧ Get(x, monkeypoxVirus))\n∃x (Animal(x) ∧ OccurIn(monkeypoxVirus, x))\n∀x (Human(x) → Mammal(x))\n∀x (Mammal(x) → Animal(x))\n∃x (SymptonOf(x, monkeypoxVirus) ∧ (Fever(x) ∨ Headache(x) ∨ MusclePain(x) ∨ Tired(x)))\n∀x (Human(x) ∧ Get(x, flu) → Feel(x, tired))\n∃x (SymptonOf(x, monkeypoxVirus) ∧ Coughing(x))",
+        "label": "Uncertain"
+    },
+    {
+        "story_id": 20,
+        "natural": "A Japanese game company created the game the Legend of Zelda.\nAll games on the Top 10 list are made by Japanese game companies.\nIf a game sells more than one million copies, then it will be included in the Top 10 list.\nThe Legend of Zelda sold more than one million copies.\nThe Legend of Zelda is on the Top 10 list.",
+        "fol": "Game(theLegendofZelda) ∧ ∃x (Japanese(x) ∧ VideoGameCompany(x) ∧ Created(x, theLegendofZelda))\n∀x ∀y ((Game(x) ∧ InTop10(x) ∧ Created(y,x)) → Japanese(y))\n∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x))\n∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(theLegendofZelda,y))\nTop10(thelegendofzelda)",
         "label": "True"
     },
     {
-        "story_id": 471,
-        "natural": "All rabbits that can be spotted near the campus are cute. \nSome turtles can be spotted near the campus. \nThe only animals that can be spotted near the campus are rabbits and squirrels.\nIf something is skittish, then it is not calm.\nAll the squirrels that can be spotted near the campus are skittish.\nRockie can be spotted near the campus, and it is calm.\nIf Rockie is not both a turtle and a squirrel, then Rockie is either cute or skittish.",
-        "fol": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie) \n¬(Turtle(rockie) ∧ Squirrel(rockie)) → Cute(rockie) ⊕ Skittish(rockie)",
-        "label": "True"
+        "story_id": 20,
+        "natural": "A Japanese game company created the game the Legend of Zelda.\nAll games on the Top 10 list are made by Japanese game companies.\nIf a game sells more than one million copies, then it will be included in the Top 10 list.\nThe Legend of Zelda sold more than one million copies.\nFIFA 22 is made by a Japanese video game company.",
+        "fol": "Game(theLegendofZelda) ∧ ∃x (Japanese(x) ∧ VideoGameCompany(x) ∧ Created(x, theLegendofZelda))\n∀x ∀y ((Game(x) ∧ InTop10(x) ∧ Created(y,x)) → Japanese(y))\n∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x))\n∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(theLegendofZelda,y))\n∃x(Created(x, fifa22) ∧ Japanese(x) ∧ VideoGameCompany(x))",
+        "label": "Uncertain"
     },
     {
-        "story_id": 471,
-        "natural": "All rabbits that can be spotted near the campus are cute. \nSome turtles can be spotted near the campus. \nThe only animals that can be spotted near the campus are rabbits and squirrels.\nIf something is skittish, then it is not calm.\nAll the squirrels that can be spotted near the campus are skittish.\nRockie can be spotted near the campus, and it is calm.\nIf Rockie is cute and calm, then Rockie is a skittish turtle.",
-        "fol": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie) \nCute(rockie) ∧ Calm(rockie) → Turtle(rockie) ∧ Skittish(rockie)",
+        "story_id": 20,
+        "natural": "A Japanese game company created the game the Legend of Zelda.\nAll games on the Top 10 list are made by Japanese game companies.\nIf a game sells more than one million copies, then it will be included in the Top 10 list.\nThe Legend of Zelda sold more than one million copies.\nThe Legend of Zelda is not on the Top 10 list.",
+        "fol": "Game(theLegendofZelda) ∧ ∃x (Japanese(x) ∧ VideoGameCompany(x) ∧ Created(x, theLegendofZelda))\n∀x ∀y ((Game(x) ∧ InTop10(x) ∧ Created(y,x)) → Japanese(y))\n∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x))\n∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(theLegendofZelda,y))\n¬Top10(thelegendofzelda)",
         "label": "False"
     },
     {
@@ -72,42 +72,6 @@
         "label": "Uncertain"
     },
     {
-        "story_id": 452,
-        "natural": "All aliens are extraterrestrials.\nIf someone is from Mars, then they are an alien.\nNo extraterrestrials are human.\nAll highly intelligent beings from Earth are humans.\nMarvin is a highly intelligent being.\nMarvin is either from Earth and from Mars, or he is from neither.\nIf Marvin is not from Earth, then Marvin is an extraterrestrial.\nMarvin is an alien.",
-        "fol": "∀x (Alien(x) → Extraterrestrial(x))\n∀x (From(x, mars) → Alien(x))\n∀x (Extraterrestrial(x) → ¬Human(x))\n∀x (HighlyIntelligentBeing(x) ∧ From(x, earth) → Human(x))\nHighlyIntelligentBeing(marvin)\n¬(From(marvin, earth) ⊕ From(marvin, mars))\n¬From(marvin, earth) → Extraterrestrial(marvin)\nAlien(marvin)",
-        "label": "Uncertain"
-    },
-    {
-        "story_id": 452,
-        "natural": "All aliens are extraterrestrials.\nIf someone is from Mars, then they are an alien.\nNo extraterrestrials are human.\nAll highly intelligent beings from Earth are humans.\nMarvin is a highly intelligent being.\nMarvin is either from Earth and from Mars, or he is from neither.\nIf Marvin is not from Earth, then Marvin is an extraterrestrial.\nMarvin is neither a human nor from Mars.",
-        "fol": "∀x (Alien(x) → Extraterrestrial(x))\n∀x (From(x, mars) → Alien(x))\n∀x (Extraterrestrial(x) → ¬Human(x))\n∀x (HighlyIntelligentBeing(x) ∧ From(x, earth) → Human(x))\nHighlyIntelligentBeing(marvin)\n¬(From(marvin, earth) ⊕ From(marvin, mars))\n¬From(marvin, earth) → Extraterrestrial(marvin)\n¬Human(marvin) ∧ ¬From(marvin, mars)",
-        "label": "True"
-    },
-    {
-        "story_id": 452,
-        "natural": "All aliens are extraterrestrials.\nIf someone is from Mars, then they are an alien.\nNo extraterrestrials are human.\nAll highly intelligent beings from Earth are humans.\nMarvin is a highly intelligent being.\nMarvin is either from Earth and from Mars, or he is from neither.\nIf Marvin is not from Earth, then Marvin is an extraterrestrial.\nIf Marvin is not from Mars, then Marvin is a human.",
-        "fol": "∀x (Alien(x) → Extraterrestrial(x))\n∀x (From(x, mars) → Alien(x))\n∀x (Extraterrestrial(x) → ¬Human(x))\n∀x (HighlyIntelligentBeing(x) ∧ From(x, earth) → Human(x))\nHighlyIntelligentBeing(marvin)\n¬(From(marvin, earth) ⊕ From(marvin, mars))\n¬From(marvin, earth) → Extraterrestrial(marvin)\n¬From(marvin, mars) → Human(marvin)",
-        "label": "False"
-    },
-    {
-        "story_id": 340,
-        "natural": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.\nEvery Grand Slam champion at the mixer is a professional tennis player.\nAll Oscar-nominated actors at the mixer are celebrities.\nAll professional tennis players at the mixer are athletes.\nIf a person at the mixer is a celebrity, then they are well paid.\nIf a person at the mixer is an athlete, then they are famous.\nAll well-paid people at the mixer live in tax havens.\nDjokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.\nDjokovic is a Grand Slam champion.",
-        "fol": "∀x (At(x, mixer) → (GrandSlam(x) ∧ Champion(x)) ∨ (OscarNominated(x) ∧ Actor(x)))\n∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))\n∀x (At(x, mixer) ∧ (OscarNominated(x) ∧ Actor(x) → Celebrity(x))\n∀x (At(x, mixer) ∧ Professional(x) ∧ TennisPlayer(x) → Athlete(x))\n∀x (At(x, mixer) ∧ Celebrity(x) → WellPaid(x))\n∀x (At(x, mixer) ∧ Athlete(x) → Famous(x))\n∀x (At(x, mixer) ∧ WellPaid(x) → LiveIn(x, taxHaven))\nAt(djokovic, mixer) ∧ (Famous(djokovic) ∧ Athlete(djokovic) → WellPaid(djokovic))\nGrandSlam(djokovic) ∧ Champion(djokovic)",
-        "label": "Uncertain"
-    },
-    {
-        "story_id": 340,
-        "natural": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.\nEvery Grand Slam champion at the mixer is a professional tennis player.\nAll Oscar-nominated actors at the mixer are celebrities.\nAll professional tennis players at the mixer are athletes.\nIf a person at the mixer is a celebrity, then they are well paid.\nIf a person at the mixer is an athlete, then they are famous.\nAll well-paid people at the mixer live in tax havens.\nDjokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.\nDjokovic lives in a tax haven.",
-        "fol": "∀x (At(x, mixer) → (GrandSlam(x) ∧ Champion(x)) ∨ (OscarNominated(x) ∧ Actor(x)))\n∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))\n∀x (At(x, mixer) ∧ (OscarNominated(x) ∧ Actor(x) → Celebrity(x))\n∀x (At(x, mixer) ∧ Professional(x) ∧ TennisPlayer(x) → Athlete(x))\n∀x (At(x, mixer) ∧ Celebrity(x) → WellPaid(x))\n∀x (At(x, mixer) ∧ Athlete(x) → Famous(x))\n∀x (At(x, mixer) ∧ WellPaid(x) → LiveIn(x, taxHaven))\nAt(djokovic, mixer) ∧ (Famous(djokovic) ∧ Athlete(djokovic) → WellPaid(djokovic))\nLiveIn(djokovic, taxHaven)",
-        "label": "True"
-    },
-    {
-        "story_id": 340,
-        "natural": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.\nEvery Grand Slam champion at the mixer is a professional tennis player.\nAll Oscar-nominated actors at the mixer are celebrities.\nAll professional tennis players at the mixer are athletes.\nIf a person at the mixer is a celebrity, then they are well paid.\nIf a person at the mixer is an athlete, then they are famous.\nAll well-paid people at the mixer live in tax havens.\nDjokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.\nDjokovic does not live in a tax haven.",
-        "fol": "∀x (At(x, mixer) → (GrandSlam(x) ∧ Champion(x)) ∨ (OscarNominated(x) ∧ Actor(x)))\n∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))\n∀x (At(x, mixer) ∧ (OscarNominated(x) ∧ Actor(x) → Celebrity(x))\n∀x (At(x, mixer) ∧ Professional(x) ∧ TennisPlayer(x) → Athlete(x))\n∀x (At(x, mixer) ∧ Celebrity(x) → WellPaid(x))\n∀x (At(x, mixer) ∧ Athlete(x) → Famous(x))\n∀x (At(x, mixer) ∧ WellPaid(x) → LiveIn(x, taxHaven))\nAt(djokovic, mixer) ∧ (Famous(djokovic) ∧ Athlete(djokovic) → WellPaid(djokovic))\n¬LiveIn(djokovic, taxHaven)",
-        "label": "False"
-    },
-    {
         "story_id": 96,
         "natural": "Diamond Mine is a professional wrestling stable formed in WWE.\nRoderick Strong leads Diamond Mine.\nDiamond Mine includes the Creed Brothers and Ivy Nile.\nImperium has a feud with Diamond Mine.\nRoderick Strong leads a professional wrestling stable.",
         "fol": "ProfessionalWrestlingStable(diamondMine) ∧ In(diamondMine, wWE)\nLeads(roderickStrong, diamondMine)\nIncludes(diamondMine, creedBrothers) ∧ Includes(diamondMine, ivyNile)\nFeuds(imperium, diamondMine)\n∃x (Leads(roderickstrong, x) ∧ ProfessionalWrestlingStable(x))",
@@ -115,7 +79,7 @@
     },
     {
         "story_id": 96,
-        "natural": "Diamond Mine is a professional wrestling stable formed in WWE.\nRoderick Strong leads Diamond Mine.\nDiamond Mine includes the Creed Brothers and Ivy Nile.\nImperium has a feud with Diamond Mine.\nRoderick Strong leads the Creed Brothers.",
+        "natural": "Diamond Mine is a professional wrestling stable formed in WWE.\nRoderick Strong leads Diamond Mine.\nDiamond Mine includes the Creed Brothers and Ivy Nile.\nImperium has a feud with Diamond Mine.\nRoderick Strong leads the Creed Brothers_",
         "fol": "ProfessionalWrestlingStable(diamondMine) ∧ In(diamondMine, wWE)\nLeads(roderickStrong, diamondMine)\nIncludes(diamondMine, creedBrothers) ∧ Includes(diamondMine, ivyNile)\nFeuds(imperium, diamondMine)\nLeads(roderickstrong, creedbrothers)",
         "label": "Uncertain"
     },
@@ -127,92 +91,110 @@
     },
     {
         "story_id": 219,
-        "natural": "Symphony No. 9 is a music piece.\nComposers write music pieces.\nBeethoven wrote Symphony No. 9.\nVienna Music Society premiered Symphony No. 9.\nVienna Music Society is an orchestra.\nBeethoven leads the Vienna Music Society.\nOrchestras are led by conductors.\nBeethoven is a composer.",
+        "natural": "Symphony No. 9 is a music piece.\nComposers write music pieces.\nBeethoven wrote Symphony No. 9.\nVienna Music Society premiered Symphony No. 9.\nVienna Music Society is an orchestra.\nBeethoven leads the Vienna Music Society.\nOrchestras are led by conductors_\nBeethoven is a composer.",
         "fol": "MusicPiece(symphony9)\n∀x (MusicPiece(x) → ∃y (Composer(y) ∧ Write(y, x)))\nWrittenby(symphony9, beethoven)\nPremiered(viennaMusicSociety, symphony9)\nOrchestra(viennaMusicSociety)\nLead(beethoven, viennaMusicSociety)\n∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))\nComposer(beethoven)",
         "label": "True"
     },
     {
         "story_id": 219,
-        "natural": "Symphony No. 9 is a music piece.\nComposers write music pieces.\nBeethoven wrote Symphony No. 9.\nVienna Music Society premiered Symphony No. 9.\nVienna Music Society is an orchestra.\nBeethoven leads the Vienna Music Society.\nOrchestras are led by conductors.\nSome orchestras premiered music pieces.",
+        "natural": "Symphony No. 9 is a music piece.\nComposers write music pieces.\nBeethoven wrote Symphony No. 9.\nVienna Music Society premiered Symphony No. 9.\nVienna Music Society is an orchestra.\nBeethoven leads the Vienna Music Society.\nOrchestras are led by conductors_\nSome orchestras premiered music pieces.",
         "fol": "MusicPiece(symphony9)\n∀x (MusicPiece(x) → ∃y (Composer(y) ∧ Write(y, x)))\nWrittenby(symphony9, beethoven)\nPremiered(viennaMusicSociety, symphony9)\nOrchestra(viennaMusicSociety)\nLead(beethoven, viennaMusicSociety)\n∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))\n∃x ∃y (Orchestra(x) ∧ MusicPiece(y) ∧ Premiered(x, y))",
         "label": "True"
     },
     {
         "story_id": 219,
-        "natural": "Symphony No. 9 is a music piece.\nComposers write music pieces.\nBeethoven wrote Symphony No. 9.\nVienna Music Society premiered Symphony No. 9.\nVienna Music Society is an orchestra.\nBeethoven leads the Vienna Music Society.\nOrchestras are led by conductors.\nBeethoven is not a conductor.",
+        "natural": "Symphony No. 9 is a music piece.\nComposers write music pieces.\nBeethoven wrote Symphony No. 9.\nVienna Music Society premiered Symphony No. 9.\nVienna Music Society is an orchestra.\nBeethoven leads the Vienna Music Society.\nOrchestras are led by conductors_\nBeethoven is not a conductor.",
         "fol": "MusicPiece(symphony9)\n∀x (MusicPiece(x) → ∃y (Composer(y) ∧ Write(y, x)))\nWrittenby(symphony9, beethoven)\nPremiered(viennaMusicSociety, symphony9)\nOrchestra(viennaMusicSociety)\nLead(beethoven, viennaMusicSociety)\n∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))\n¬Conductor(beethoven)",
         "label": "False"
     },
     {
         "story_id": 350,
         "natural": "All of Zaha Hadid's design styles that Max adores have interesting geometries.\nNo brutalist buildings that Max adores have interesting geometries.\nEvery style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. \nAll of Kelly Wearstler's design styles that Max adores are evocative.\nAll of Kelly Wearstler's design styles that Max adores are dreamy.\nIf a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.\nA design by Max is a brutalist building.",
-        "fol": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ((ZahaHadid(x) ∧ DesignStyle(x)) ⊕ (KellyWearstler(x) ∧ DesignStyle(x)))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∃x (Adore(max, x) ∧ Design(x) ∧ ByMax(x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))\n∃x (Design(x) ∧ ByMax(x) ∧ BrutalistBuilding(x))",
+        "fol": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ((ZahaHadid(x) ∧ DesignStyle(x)) ⊕ (KellyWearstler(x) ∧ DesignStyle(x))))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∃x (Adore(max, x) ∧ Design(x) ∧ ByMax(x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))\n∃x (Design(x) ∧ ByMax(x) ∧ BrutalistBuilding(x))",
         "label": "Uncertain"
     },
     {
         "story_id": 350,
         "natural": "All of Zaha Hadid's design styles that Max adores have interesting geometries.\nNo brutalist buildings that Max adores have interesting geometries.\nEvery style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. \nAll of Kelly Wearstler's design styles that Max adores are evocative.\nAll of Kelly Wearstler's design styles that Max adores are dreamy.\nIf a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.\nA design by Max is evocative and dreamy.",
-        "fol": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ((ZahaHadid(x) ∧ DesignStyle(x)) ⊕ (KellyWearstler(x) ∧ DesignStyle(x)))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∃x (Adore(max, x) ∧ Design(x) ∧ ByMax(x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))\n∃x (Design(x) ∧ ByMax(x) ∧ Evocative(x) ∧ Dreamy(x))",
+        "fol": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ((ZahaHadid(x) ∧ DesignStyle(x)) ⊕ (KellyWearstler(x) ∧ DesignStyle(x))))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∃x (Adore(max, x) ∧ Design(x) ∧ ByMax(x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))\n∃x (Design(x) ∧ ByMax(x) ∧ Evocative(x) ∧ Dreamy(x))",
         "label": "True"
     },
     {
         "story_id": 350,
         "natural": "All of Zaha Hadid's design styles that Max adores have interesting geometries.\nNo brutalist buildings that Max adores have interesting geometries.\nEvery style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. \nAll of Kelly Wearstler's design styles that Max adores are evocative.\nAll of Kelly Wearstler's design styles that Max adores are dreamy.\nIf a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.\nA design by Max is either evocative or dreamy.",
-        "fol": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ((ZahaHadid(x) ∧ DesignStyle(x)) ⊕ (KellyWearstler(x) ∧ DesignStyle(x)))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∃x (Adore(max, x) ∧ Design(x) ∧ ByMax(x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))\n∃x (Design(x) ∧ ByMax(x) ∧ (Evocative(x) ⊕ Dreamy(x)))",
+        "fol": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ((ZahaHadid(x) ∧ DesignStyle(x)) ⊕ (KellyWearstler(x) ∧ DesignStyle(x))))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∃x (Adore(max, x) ∧ Design(x) ∧ ByMax(x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))\n∃x (Design(x) ∧ ByMax(x) ∧ (Evocative(x) ⊕ Dreamy(x)))",
         "label": "False"
     },
     {
         "story_id": 385,
-        "natural": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. \nEveryone who lost to Iga Świątek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.\nAll female tennis players at Roland Garros 2022 lost to Iga Świątek.\nAll tennis players at Roland Garros 2022 are either female or male.\nAll male tennis players at Roland Garros in 2022 lost to Rafael Nadal.\nIf Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.\nCoco Gauff is at Roland Garros 2022.\nCoco Gauff is among the most active Grand-Slam players.",
-        "fol": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, świątek) ∧  At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (FemaleTennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧  At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → (Female(x) ∧ TennisPlayer(x)) ⊕ (Male(x) ∧ TennisPlayer(x))) \n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧ At(x, rolandGarros2022))\nRankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ (LostTo(cocoGauff, świątek) ∧ LostAt(cocoGauff, rolandGarros2022)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ AtRolandGarros2022(cocoGauff))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)\nMostActivePlayerIn(cocoGauff, majorTennis)",
+        "natural": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. \nEveryone who lost to Iga Świątek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.\nAll female tennis players at Roland Garros 2022 lost to Iga Świątek.\nAll tennis players at Roland Garros 2022 are either female or male.\nAll male tennis players at Roland Garros in 2022 lost to Rafael Nadal.\nIf Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.\nCoco Gauff is at Roland Garros 2022.\nCoco Gauff is among the most active Grand-Slam players_",
+        "fol": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, świątek) ∧  At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (FemaleTennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧  At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → (Female(x) ∧ TennisPlayer(x)) ⊕ (Male(x) ∧ TennisPlayer(x)))\n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧ At(x, rolandGarros2022))\nRankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ (LostTo(cocoGauff, świątek) ∧ LostAt(cocoGauff, rolandGarros2022)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ AtRolandGarros2022(cocoGauff))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)\nMostActivePlayerIn(cocoGauff, majorTennis)",
         "label": "True"
     },
     {
         "story_id": 385,
         "natural": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. \nEveryone who lost to Iga Świątek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.\nAll female tennis players at Roland Garros 2022 lost to Iga Świątek.\nAll tennis players at Roland Garros 2022 are either female or male.\nAll male tennis players at Roland Garros in 2022 lost to Rafael Nadal.\nIf Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.\nCoco Gauff is at Roland Garros 2022.\nCoco Gauff has lost to Rafael Nadal.",
-        "fol": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, świątek) ∧  At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (FemaleTennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧  At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → (Female(x) ∧ TennisPlayer(x)) ⊕ (Male(x) ∧ TennisPlayer(x))) \n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧ At(x, rolandGarros2022))\nRankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ (LostTo(cocoGauff, świątek) ∧ LostAt(cocoGauff, rolandGarros2022)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ AtRolandGarros2022(cocoGauff))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)\nLostTo(cocoGauff, świątek) ∧ At(cocoGauff, rolandGarros2022)",
+        "fol": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, świątek) ∧  At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (FemaleTennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧  At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → (Female(x) ∧ TennisPlayer(x)) ⊕ (Male(x) ∧ TennisPlayer(x)))\n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧ At(x, rolandGarros2022))\nRankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ (LostTo(cocoGauff, świątek) ∧ LostAt(cocoGauff, rolandGarros2022)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ AtRolandGarros2022(cocoGauff))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)\nLostTo(cocoGauff, świątek) ∧ At(cocoGauff, rolandGarros2022)",
         "label": "Uncertain"
     },
     {
         "story_id": 385,
         "natural": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. \nEveryone who lost to Iga Świątek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.\nAll female tennis players at Roland Garros 2022 lost to Iga Świątek.\nAll tennis players at Roland Garros 2022 are either female or male.\nAll male tennis players at Roland Garros in 2022 lost to Rafael Nadal.\nIf Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.\nCoco Gauff is at Roland Garros 2022.\nCoco Gauff is not both a player who lost to Iga Świątek at Roland Garros 2022 and one of the most active players in major tennis.",
-        "fol": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, świątek) ∧  At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (FemaleTennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧  At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → (Female(x) ∧ TennisPlayer(x)) ⊕ (Male(x) ∧ TennisPlayer(x))) \n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧ At(x, rolandGarros2022))\nRankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ (LostTo(cocoGauff, świątek) ∧ LostAt(cocoGauff, rolandGarros2022)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ AtRolandGarros2022(cocoGauff))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)\n¬(LostTo(cocoGauff, świątek) ∧ At(cocoGauff, rolandGarros2022)) ∨ ¬MostActivePlayerIn(cocoGauff, majorTennis)",
+        "fol": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, świątek) ∧  At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (FemaleTennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧  At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → (Female(x) ∧ TennisPlayer(x)) ⊕ (Male(x) ∧ TennisPlayer(x)))\n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, świątek) ∧ At(x, rolandGarros2022))\nRankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ (LostTo(cocoGauff, świątek) ∧ LostAt(cocoGauff, rolandGarros2022)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ AtRolandGarros2022(cocoGauff))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)\n¬(LostTo(cocoGauff, świątek) ∧ At(cocoGauff, rolandGarros2022)) ∨ ¬MostActivePlayerIn(cocoGauff, majorTennis)",
         "label": "False"
     },
     {
-        "story_id": 213,
-        "natural": "All Romance languages are Indo-European languages.\nRomance languages are a language family.\nAll languages within a language family are related to each other.\nFrench and Spanish are both Romance languages.\nGerman is related to Spanish.\nBasque is not related to any other language.\nBasque is a Romance language.",
-        "fol": "∀x (RomanceLanguage(x) → IndoEuropeanLanguage(x))\n∀x (RomanceLanguage(x) → MemberOf(x, languageFamily))\n∀x ∀y ∀z ((MemberOf(x, z) ∧ MemberOf(y, z)) → (Related(x, y) ∧ Related(y, x)))\nRomanceLanguage(french) ∧ RomanceLanguage(spanish)\nRelated(german, spanish)\n∀x (Language(x) → ¬Related(basque, x))\nRomanceLanguage(basque)",
-        "label": "False"
-    },
-    {
-        "story_id": 213,
-        "natural": "All Romance languages are Indo-European languages.\nRomance languages are a language family.\nAll languages within a language family are related to each other.\nFrench and Spanish are both Romance languages.\nGerman is related to Spanish.\nBasque is not related to any other language.\nGerman is a Romance language.",
-        "fol": "∀x (RomanceLanguage(x) → IndoEuropeanLanguage(x))\n∀x (RomanceLanguage(x) → MemberOf(x, languageFamily))\n∀x ∀y ∀z ((MemberOf(x, z) ∧ MemberOf(y, z)) → (Related(x, y) ∧ Related(y, x)))\nRomanceLanguage(french) ∧ RomanceLanguage(spanish)\nRelated(german, spanish)\n∀x (Language(x) → ¬Related(basque, x))\nRomanceLanguage(german)",
+        "story_id": 256,
+        "natural": "All cats are mammals.\nSome pets are not mammals.\nNo pets are cats.",
+        "fol": "∀x (Cat(x) → Mammal(x))\n∃x (Pet(x) ∧ ¬Mammal(x))\n∀x (Pet(x) → ¬Cat(x))",
         "label": "Uncertain"
     },
     {
-        "story_id": 213,
-        "natural": "All Romance languages are Indo-European languages.\nRomance languages are a language family.\nAll languages within a language family are related to each other.\nFrench and Spanish are both Romance languages.\nGerman is related to Spanish.\nBasque is not related to any other language.\nFrench is an Indo-European language.",
-        "fol": "∀x (RomanceLanguage(x) → IndoEuropeanLanguage(x))\n∀x (RomanceLanguage(x) → MemberOf(x, languageFamily))\n∀x ∀y ∀z ((MemberOf(x, z) ∧ MemberOf(y, z)) → (Related(x, y) ∧ Related(y, x)))\nRomanceLanguage(french) ∧ RomanceLanguage(spanish)\nRelated(german, spanish)\n∀x (Language(x) → ¬Related(basque, x))\nIndoEuropeanLanguage(french)",
+        "story_id": 159,
+        "natural": "There are four seasons in a year: Spring, Summer, Fall, and Winter.\nAll students who want to have a long vacation have summer as their favorite season.\nEmma's favorite season is summer.\nMia's favorite season is not the same as Emma's. \nJames wants to have a long vacation.\nJames's favorite season is summer.",
+        "fol": "Season(spring) ∨ Season(summer) ∨ Season(fall) ∨ Season(winter) ∧ (Season(spring) → ¬Season(summer) ∧ ¬Season(fall) ∧ ¬Season(winter)) ∧ (Season(summer) → ¬Season(spring) ∧ ¬Season(fall) ∧ ¬Season(winter)) ∧ (Season(fall) → ¬Season(spring) ∧ ¬Season(summer) ∧ ¬Season(winter)) ∧ (Season(winter) → ¬Season(spring) ∧ ¬Season(summer) ∧ ¬Season(fall))\n∀x (Want(x, longvacation) → Favorite(x, summer))\nFavorite(emma, summer)\n∀x ∀y (Season(x) ∧ Season(y) ∧ Favorite(mia, x) ∧ Favorite(emma, y) → ¬(x=y))\nWant(james, longVacation)\nFavorite(james, summer)",
         "label": "True"
+    },
+    {
+        "story_id": 159,
+        "natural": "There are four seasons in a year: Spring, Summer, Fall, and Winter.\nAll students who want to have a long vacation have summer as their favorite season.\nEmma's favorite season is summer.\nMia's favorite season is not the same as Emma's. \nJames wants to have a long vacation.\nMia's favorite season is spring.",
+        "fol": "Season(spring) ∨ Season(summer) ∨ Season(fall) ∨ Season(winter) ∧ (Season(spring) → ¬Season(summer) ∧ ¬Season(fall) ∧ ¬Season(winter)) ∧ (Season(summer) → ¬Season(spring) ∧ ¬Season(fall) ∧ ¬Season(winter)) ∧ (Season(fall) → ¬Season(spring) ∧ ¬Season(summer) ∧ ¬Season(winter)) ∧ (Season(winter) → ¬Season(spring) ∧ ¬Season(summer) ∧ ¬Season(fall))\n∀x (Want(x, longvacation) → Favorite(x, summer))\nFavorite(emma, summer)\n∀x ∀y (Season(x) ∧ Season(y) ∧ Favorite(mia, x) ∧ Favorite(emma, y) → ¬(x=y))\nWant(james, longVacation)\nFavorite(mia, spring)",
+        "label": "Uncertain"
     },
     {
         "story_id": 2,
         "natural": "Billings is a city in the state of Montana in U.S.\nThe state of Montana includes the cities of Butte, Helena, and Missoula.\nWhite Sulphur Springs and Butte are cities in the same state in U.S.\nThe city of St Pierre is not in the state of Montana.\nAny city in Butte is not in St Pierre.\nA city can only be in one state in U.S.  except for Bristol, Texarkana, Texhoma and Union City.\nButte and St Pierre are in the same state.",
-        "fol": "City(billings) ∧ In(billings, montana)\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana)\n∃x (City(whitesulphursprings) ∧ In(whitesulphursprings, x) ∧ City(butte) ∧ In(butte, x))\nCity(pierre) ∧ ¬(In(pierre, montana))\n∀x ((City(x) ∧ City(butte) ∧ In(x, butte)) → ¬(In(x, pierre)))\n∀x ∃y ((City(x) ∧ (In(x, y) ∧ ¬(x=bristol) ∧ ¬(x=texarkana) ∧ ¬(x=texhoma) ∧ ¬(x=unionCity)) → ¬∃z (¬(z=y) ∧ In(x, z)))\n∃x (In(butte, x) ∧ In(stPierre, x))",
+        "fol": "City(billings) ∧ In(billings, montana)\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana)\n∃x (City(whitesulphursprings) ∧ In(whitesulphursprings, x) ∧ City(butte) ∧ In(butte, x))\nCity(pierre) ∧ ¬(In(pierre, montana))\n∀x ((City(x) ∧ City(butte) ∧ In(x, butte)) → ¬(In(x, pierre)))\n∀x ∃y ((City(x) ∧ (In(x, y) ∧ ¬(x=bristol) ∧ ¬(x=texarkana) ∧ ¬(x=texhoma) ∧ ¬(x=unionCity)) → ¬∃z (¬(z=y) ∧ In(x, z))))\n∃x (In(butte, x) ∧ In(stPierre, x))",
         "label": "False"
     },
     {
         "story_id": 2,
         "natural": "Billings is a city in the state of Montana in U.S.\nThe state of Montana includes the cities of Butte, Helena, and Missoula.\nWhite Sulphur Springs and Butte are cities in the same state in U.S.\nThe city of St Pierre is not in the state of Montana.\nAny city in Butte is not in St Pierre.\nA city can only be in one state in U.S.  except for Bristol, Texarkana, Texhoma and Union City.\nSt Pierre and Bismarck are in the same state.",
-        "fol": "City(billings) ∧ In(billings, montana)\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana)\n∃x (City(whitesulphursprings) ∧ In(whitesulphursprings, x) ∧ City(butte) ∧ In(butte, x))\nCity(pierre) ∧ ¬(In(pierre, montana))\n∀x ((City(x) ∧ City(butte) ∧ In(x, butte)) → ¬(In(x, pierre)))\n∀x ∃y ((City(x) ∧ (In(x, y) ∧ ¬(x=bristol) ∧ ¬(x=texarkana) ∧ ¬(x=texhoma) ∧ ¬(x=unionCity)) → ¬∃z (¬(z=y) ∧ In(x, z)))\n∃x (City(pierre) ∧ In(pierre, x) ∧ City(bismarck) ∧ In(bismarck, x))",
+        "fol": "City(billings) ∧ In(billings, montana)\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana)\n∃x (City(whitesulphursprings) ∧ In(whitesulphursprings, x) ∧ City(butte) ∧ In(butte, x))\nCity(pierre) ∧ ¬(In(pierre, montana))\n∀x ((City(x) ∧ City(butte) ∧ In(x, butte)) → ¬(In(x, pierre)))\n∀x ∃y ((City(x) ∧ (In(x, y) ∧ ¬(x=bristol) ∧ ¬(x=texarkana) ∧ ¬(x=texhoma) ∧ ¬(x=unionCity)) → ¬∃z (¬(z=y) ∧ In(x, z))))\n∃x (City(pierre) ∧ In(pierre, x) ∧ City(bismarck) ∧ In(bismarck, x))",
         "label": "Uncertain"
     },
     {
         "story_id": 2,
         "natural": "Billings is a city in the state of Montana in U.S.\nThe state of Montana includes the cities of Butte, Helena, and Missoula.\nWhite Sulphur Springs and Butte are cities in the same state in U.S.\nThe city of St Pierre is not in the state of Montana.\nAny city in Butte is not in St Pierre.\nA city can only be in one state in U.S.  except for Bristol, Texarkana, Texhoma and Union City.\nMontana is home to the city of Missoula.",
-        "fol": "City(billings) ∧ In(billings, montana)\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana)\n∃x (City(whitesulphursprings) ∧ In(whitesulphursprings, x) ∧ City(butte) ∧ In(butte, x))\nCity(pierre) ∧ ¬(In(pierre, montana))\n∀x ((City(x) ∧ City(butte) ∧ In(x, butte)) → ¬(In(x, pierre)))\n∀x ∃y ((City(x) ∧ (In(x, y) ∧ ¬(x=bristol) ∧ ¬(x=texarkana) ∧ ¬(x=texhoma) ∧ ¬(x=unionCity)) → ¬∃z (¬(z=y) ∧ In(x, z)))\nCity(missoula) ∧ In(missoula, montana)",
+        "fol": "City(billings) ∧ In(billings, montana)\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana)\n∃x (City(whitesulphursprings) ∧ In(whitesulphursprings, x) ∧ City(butte) ∧ In(butte, x))\nCity(pierre) ∧ ¬(In(pierre, montana))\n∀x ((City(x) ∧ City(butte) ∧ In(x, butte)) → ¬(In(x, pierre)))\n∀x ∃y ((City(x) ∧ (In(x, y) ∧ ¬(x=bristol) ∧ ¬(x=texarkana) ∧ ¬(x=texhoma) ∧ ¬(x=unionCity)) → ¬∃z (¬(z=y) ∧ In(x, z))))\nCity(missoula) ∧ In(missoula, montana)",
+        "label": "True"
+    },
+    {
+        "story_id": 442,
+        "natural": "All Brown Swiss cattle are cows.\nSome pets are Brown Swiss Cattle.\nAll cows are domesticated animals.\nAlligators are not domesticated animals.\nTed is an alligator.\nTed is a pet.",
+        "fol": "∀x (BrownSwissCattle(x) → Cow(x))\n∃x (Pet(x) ∧ BrownSwissCattle(x))\n∀x (Cow(x) → DomesticatedAnimal(x))\n∀x (Aligator(x) → ¬DomesticatedAnimal(x))\nAligator(ted)\nPet(ted)",
+        "label": "Uncertain"
+    },
+    {
+        "story_id": 442,
+        "natural": "All Brown Swiss cattle are cows.\nSome pets are Brown Swiss Cattle.\nAll cows are domesticated animals.\nAlligators are not domesticated animals.\nTed is an alligator.\nTed is a pet and Brown Swiss cattle",
+        "fol": "∀x (BrownSwissCattle(x) → Cow(x))\n∃x (Pet(x) ∧ BrownSwissCattle(x))\n∀x (Cow(x) → DomesticatedAnimal(x))\n∀x (Aligator(x) → ¬DomesticatedAnimal(x))\nAligator(ted)\nPet(ted) ∧ BrownSwissCattle(ted)",
+        "label": "False"
+    },
+    {
+        "story_id": 442,
+        "natural": "All Brown Swiss cattle are cows.\nSome pets are Brown Swiss Cattle.\nAll cows are domesticated animals.\nAlligators are not domesticated animals.\nTed is an alligator.\nIf Ted is a Brown Swiss cattle, then Ted is not a pet.",
+        "fol": "∀x (BrownSwissCattle(x) → Cow(x))\n∃x (Pet(x) ∧ BrownSwissCattle(x))\n∀x (Cow(x) → DomesticatedAnimal(x))\n∀x (Aligator(x) → ¬DomesticatedAnimal(x))\nAligator(ted)\nBrownSwissCattle(ted) → ¬Pet(ted)",
         "label": "True"
     },
     {
@@ -234,52 +216,70 @@
         "label": "True"
     },
     {
+        "story_id": 120,
+        "natural": "Badults is a British Sitcom series starring members of Pappy's.\nBadults was piloted in July 2013 on BBC Three.\nThe Working title \"The Secret Dude Society\" was used for Badults.\nAndrew Collins was the script editor for Badults.\nAndrew Collins was the script editor for a series with the working title \"The Secret Dude Society\".",
+        "fol": "∃x (BritishSitcom(badults) ∧ Series(badults) ∧ MemberOf(x, pappys) ∧ Starring(badults, x))\nPilotedIn(badults, july2013) ∧ PilotedOn(badults, bBCThree)\nWorkingTitle(theSecretDudeSociety, badults) ∧ UsedFor(theSecretDudeSociety, badults)\nScriptEditorFor(andrewCollins, badults)\n∃x (ScriptEditorFor(andrewCollins, x) ∧ Series(x) ∧ WorkingTitle(theSecretDudeSociety, x))",
+        "label": "True"
+    },
+    {
+        "story_id": 120,
+        "natural": "Badults is a British Sitcom series starring members of Pappy's.\nBadults was piloted in July 2013 on BBC Three.\nThe Working title \"The Secret Dude Society\" was used for Badults.\nAndrew Collins was the script editor for Badults.\nNo members of Pappy's have starred in a show piloting on BBC Two or BBC Three.",
+        "fol": "∃x (BritishSitcom(badults) ∧ Series(badults) ∧ MemberOf(x, pappys) ∧ Starring(badults, x))\nPilotedIn(badults, july2013) ∧ PilotedOn(badults, bBCThree)\nWorkingTitle(theSecretDudeSociety, badults) ∧ UsedFor(theSecretDudeSociety, badults)\nScriptEditorFor(andrewCollins, badults)\n∀x ∀y (MemberOf(x, pappys) ∧ Starring(y, x) → ¬(PilotedOn(y, bBCTwo) ∨ PilotedOn(y, bBCThree)))",
+        "label": "False"
+    },
+    {
+        "story_id": 322,
+        "natural": "All growth stocks are bought to earn profits from rapid price appreciation.\nIf the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.\nSome stocks are growth stocks.\nAll mature stocks are suitable for a retirement fund.\nKO is a mature stock.\nKO is a stock.",
+        "fol": "∀x (GrowthStock(x) → BoughtToEarnProfitFrom(x, rapidPriceAppreciation))\n∀x (BoughtToEarnProfitFrom(x, earnProfit, rapidPriceAppreciation) → ¬SuitableFor(x, retirementFund))\n∃x (Stock(x) ∧ GrowthStock(x))\n∀x (MatureStock(x) → SuitableFor(x, retirementFund))\nMatureStock(kO)\nStock(kO)",
+        "label": "Uncertain"
+    },
+    {
+        "story_id": 322,
+        "natural": "All growth stocks are bought to earn profits from rapid price appreciation.\nIf the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.\nSome stocks are growth stocks.\nAll mature stocks are suitable for a retirement fund.\nKO is a mature stock.\nKO is a stock and a growth stock.",
+        "fol": "∀x (GrowthStock(x) → BoughtToEarnProfitFrom(x, rapidPriceAppreciation))\n∀x (BoughtToEarnProfitFrom(x, earnProfit, rapidPriceAppreciation) → ¬SuitableFor(x, retirementFund))\n∃x (Stock(x) ∧ GrowthStock(x))\n∀x (MatureStock(x) → SuitableFor(x, retirementFund))\nMatureStock(kO)\n¬GrowthStock(kO)",
+        "label": "False"
+    },
+    {
+        "story_id": 322,
+        "natural": "All growth stocks are bought to earn profits from rapid price appreciation.\nIf the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.\nSome stocks are growth stocks.\nAll mature stocks are suitable for a retirement fund.\nKO is a mature stock.\nIf KO is a growth stock or bought to earn profits from rapid price appreciation, then KO is neither a stock nor is its price volatile.",
+        "fol": "∀x (GrowthStock(x) → BoughtToEarnProfitFrom(x, rapidPriceAppreciation))\n∀x (BoughtToEarnProfitFrom(x, earnProfit, rapidPriceAppreciation) → ¬SuitableFor(x, retirementFund))\n∃x (Stock(x) ∧ GrowthStock(x))\n∀x (MatureStock(x) → SuitableFor(x, retirementFund))\nMatureStock(kO)\nGrowthStock(kO) ∨ BoughtToEarnProfitFrom(kO, earnProfit, rapidPriceAppreciation) → ¬Stock(kO) ∧ ¬BoughtToEarnProfitFrom(kO, rapidPriceAppreciation)",
+        "label": "True"
+    },
+    {
         "story_id": 368,
-        "natural": "If people at Mary's school work in student jobs on campus, then they need to earn money to help pay for their college tuition.\nIf people at Mary's school order takeout frequently in college, then they work in student jobs on campus.\nPeople at Mary's school order takeout frequently in college or enjoy the dining hall meals and recipes.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they are not picky eaters.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\nHannah is at Mary's school.\nHannah works in student jobs on campus and if she needs to earn money to help pay for her college tuition, then she is neither picky nor needs to earn money to help pay for her college tuition.\nHannah needs to earn money to help pay for her college tuition.",
-        "fol": "∀x (At(x, marysSchool) ∧ WorkIn(x, studentJob, campus) → NeedToEarnMoneyToHelpPayFor(x, collegeTuition))\n∀x (At(x, marysSchool) ∧ OrderFrequently(x, takeout) → WorkIn(x, studentJob, campus))\n∀x (At(x, marysSchool) ∧ (OrderFrequently(x, takeout) ∨ Enjoy(x, diningHallMeal)))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → ¬PickyEater(x))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → Spend(x, aLotOfTime, eating) ∧ Spend(x, aLotOfTime, catchingUpWithFriends, diningHall))\nAt(hannah, marysSchool)\n(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))\nNeedToEarnMoneyToHelpPayFor(hannah, collegeTuition)",
+        "natural": "If people at Mary's school work in student jobs on campus, then they need to earn money to help pay for their college tuition.\nIf people at Mary's school order takeout frequently in college, then they work in student jobs on campus.\nPeople at Mary's school order takeout frequently in college or enjoy the dining hall meals and recipes.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they are not picky eaters_\nIf people at Mary's school enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\nHannah is at Mary's school.\nHannah works in student jobs on campus and if she needs to earn money to help pay for her college tuition, then she is neither picky nor needs to earn money to help pay for her college tuition.\nHannah needs to earn money to help pay for her college tuition.",
+        "fol": "∀x (At(x, marysSchool) ∧ WorkIn(x, studentJob, campus) → NeedToEarnMoneyToHelpPayFor(x, collegeTuition))\n∀x (At(x, marysSchool) ∧ OrderFrequently(x, takeout) → WorkIn(x, studentJob, campus))\n∀x (At(x, marysSchool) ∧ (OrderFrequently(x, takeout) ∨ Enjoy(x, diningHallMeal)))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → ¬PickyEater(x))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → Spend(x, aLotOfTime, eating) ∧ Spend(x, aLotOfTime, catchingUpWithFriends, diningHall))\nAt(hannah, marysSchool)\n(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition)))\nNeedToEarnMoneyToHelpPayFor(hannah, collegeTuition)",
         "label": "Uncertain"
     },
     {
         "story_id": 368,
-        "natural": "If people at Mary's school work in student jobs on campus, then they need to earn money to help pay for their college tuition.\nIf people at Mary's school order takeout frequently in college, then they work in student jobs on campus.\nPeople at Mary's school order takeout frequently in college or enjoy the dining hall meals and recipes.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they are not picky eaters.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\nHannah is at Mary's school.\nHannah works in student jobs on campus and if she needs to earn money to help pay for her college tuition, then she is neither picky nor needs to earn money to help pay for her college tuition.\nHannah is at Mary's school and she is not a picky eater and spends a lot of her time eating and catching up with friends in the campus dining halls.",
-        "fol": "∀x (At(x, marysSchool) ∧ WorkIn(x, studentJob, campus) → NeedToEarnMoneyToHelpPayFor(x, collegeTuition))\n∀x (At(x, marysSchool) ∧ OrderFrequently(x, takeout) → WorkIn(x, studentJob, campus))\n∀x (At(x, marysSchool) ∧ (OrderFrequently(x, takeout) ∨ Enjoy(x, diningHallMeal)))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → ¬PickyEater(x))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → Spend(x, aLotOfTime, eating) ∧ Spend(x, aLotOfTime, catchingUpWithFriends, diningHall))\nAt(hannah, marysSchool)\n(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))\n¬(PickyEater(hannah) ∧ Spend(hannah, aLotOfTime, eating) ∧ Spend(hannah, aLotOfTime, catchingUpWithFriends, diningHall))",
+        "natural": "If people at Mary's school work in student jobs on campus, then they need to earn money to help pay for their college tuition.\nIf people at Mary's school order takeout frequently in college, then they work in student jobs on campus.\nPeople at Mary's school order takeout frequently in college or enjoy the dining hall meals and recipes.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they are not picky eaters_\nIf people at Mary's school enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\nHannah is at Mary's school.\nHannah works in student jobs on campus and if she needs to earn money to help pay for her college tuition, then she is neither picky nor needs to earn money to help pay for her college tuition.\nHannah is at Mary's school and she is not a picky eater and spends a lot of her time eating and catching up with friends in the campus dining halls.",
+        "fol": "∀x (At(x, marysSchool) ∧ WorkIn(x, studentJob, campus) → NeedToEarnMoneyToHelpPayFor(x, collegeTuition))\n∀x (At(x, marysSchool) ∧ OrderFrequently(x, takeout) → WorkIn(x, studentJob, campus))\n∀x (At(x, marysSchool) ∧ (OrderFrequently(x, takeout) ∨ Enjoy(x, diningHallMeal)))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → ¬PickyEater(x))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → Spend(x, aLotOfTime, eating) ∧ Spend(x, aLotOfTime, catchingUpWithFriends, diningHall))\nAt(hannah, marysSchool)\n(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition)))\n¬(PickyEater(hannah) ∧ Spend(hannah, aLotOfTime, eating) ∧ Spend(hannah, aLotOfTime, catchingUpWithFriends, diningHall))",
         "label": "True"
     },
     {
         "story_id": 368,
-        "natural": "If people at Mary's school work in student jobs on campus, then they need to earn money to help pay for their college tuition.\nIf people at Mary's school order takeout frequently in college, then they work in student jobs on campus.\nPeople at Mary's school order takeout frequently in college or enjoy the dining hall meals and recipes.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they are not picky eaters.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\nHannah is at Mary's school.\nHannah works in student jobs on campus and if she needs to earn money to help pay for her college tuition, then she is neither picky nor needs to earn money to help pay for her college tuition.\nHannah is at Mary's school and she either is not a picky eater or, if she is, then she spends a lot of her time eating and catching up with friends in the campus dining halls.",
-        "fol": "∀x (At(x, marysSchool) ∧ WorkIn(x, studentJob, campus) → NeedToEarnMoneyToHelpPayFor(x, collegeTuition))\n∀x (At(x, marysSchool) ∧ OrderFrequently(x, takeout) → WorkIn(x, studentJob, campus))\n∀x (At(x, marysSchool) ∧ (OrderFrequently(x, takeout) ∨ Enjoy(x, diningHallMeal)))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → ¬PickyEater(x))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → Spend(x, aLotOfTime, eating) ∧ Spend(x, aLotOfTime, catchingUpWithFriends, diningHall))\nAt(hannah, marysSchool)\n(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))\nPickyEater(hannah) ⊕ (Spend(hannah, aLotOfTime, eating) ∧ Spend(hannah, aLotOfTime, catchingUpWithFriends, diningHall))",
+        "natural": "If people at Mary's school work in student jobs on campus, then they need to earn money to help pay for their college tuition.\nIf people at Mary's school order takeout frequently in college, then they work in student jobs on campus.\nPeople at Mary's school order takeout frequently in college or enjoy the dining hall meals and recipes.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they are not picky eaters_\nIf people at Mary's school enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\nHannah is at Mary's school.\nHannah works in student jobs on campus and if she needs to earn money to help pay for her college tuition, then she is neither picky nor needs to earn money to help pay for her college tuition.\nHannah is at Mary's school and she either is not a picky eater or, if she is, then she spends a lot of her time eating and catching up with friends in the campus dining halls.",
+        "fol": "∀x (At(x, marysSchool) ∧ WorkIn(x, studentJob, campus) → NeedToEarnMoneyToHelpPayFor(x, collegeTuition))\n∀x (At(x, marysSchool) ∧ OrderFrequently(x, takeout) → WorkIn(x, studentJob, campus))\n∀x (At(x, marysSchool) ∧ (OrderFrequently(x, takeout) ∨ Enjoy(x, diningHallMeal)))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → ¬PickyEater(x))\n∀x (At(x, marysSchool) ∧ Enjoy(x, diningHallMeal) → Spend(x, aLotOfTime, eating) ∧ Spend(x, aLotOfTime, catchingUpWithFriends, diningHall))\nAt(hannah, marysSchool)\n(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition)))\nPickyEater(hannah) ⊕ (Spend(hannah, aLotOfTime, eating) ∧ Spend(hannah, aLotOfTime, catchingUpWithFriends, diningHall))",
         "label": "False"
     },
     {
-        "story_id": 319,
-        "natural": "No baked sweets are spicy.\nAll cupcakes are baked sweets.\nAll mala hotpots are spicy.\nAll products from Baked by Melissa are cupcakes.\nDried Thai chilies are spicy or mala hotpots or not baked sweets.\nDried Thai chilies are products of Baked by Melissa.",
-        "fol": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)\nProduct(driedThaiChili) ∧ From(driedThaiChili, bakedByMelissa)",
+        "story_id": 306,
+        "natural": "If a restaurant is listed in Yelp’s recommendations, then the restaurant has not received many negative reviews.\nAll restaurants with a rating greater than four are listed in Yelp’s recommendations.\nSome restaurants that do not provide take-out service receive many negative reviews.\nAll restaurants that are popular among local residents have ratings greater than four.\nThe Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.\nIf the Hamden Plaza Subway store provides take-out service and receives many negative reviews, then its rating is greater than 4 and it does not provide take-out service.",
+        "fol": "∀x ∃y (ListedIn(x, yelpRecommendation) → NegativeReview(y) ∧ ¬Receive(x, y))\n∀x ∀y (HaveRating(x, y) ∧ GreaterThan(y, 4) → ListedIn(x, yelpRecommendation))\n∃x ∃y (¬Provide(x, takeOutService) → NegativeReview(y) ∧ Receive(x, y))\n∀x ∀y (PopularAmong(x, localResidents) → HaveRating(x, y) ∧ GreaterThan(y, 4))\n∀x (HaveRating(hamdenPlazaSubway, x) ∧ GreaterThan(x, 4) ⊕ PopularAmong(hamdenPlazaSubway, localResidents))\n∃x ((TakeOutService(hamdenPlazaSubway) ∧ NegativeReview(x) ∧ Receive(hamdenPlazaSubway, x) → PopularAmong(hamdenPlazaSubway, localResidents) ∧ ¬Provide(hamdenPlazaSubway, takeOutService)))",
         "label": "False"
     },
     {
-        "story_id": 319,
-        "natural": "No baked sweets are spicy.\nAll cupcakes are baked sweets.\nAll mala hotpots are spicy.\nAll products from Baked by Melissa are cupcakes.\nDried Thai chilies are spicy or mala hotpots or not baked sweets.\nDried Thai chilies are not products of Baked by Melissa.",
-        "fol": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)\n¬(Product(driedThaiChili) ∧ From(driedThaiChili, bakedByMelissa))",
+        "story_id": 306,
+        "natural": "If a restaurant is listed in Yelp’s recommendations, then the restaurant has not received many negative reviews.\nAll restaurants with a rating greater than four are listed in Yelp’s recommendations.\nSome restaurants that do not provide take-out service receive many negative reviews.\nAll restaurants that are popular among local residents have ratings greater than four.\nThe Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.\nThe Hamden Plaza Subway store provides take-out service or does not receive many negative reviews.",
+        "fol": "∀x ∃y (ListedIn(x, yelpRecommendation) → NegativeReview(y) ∧ ¬Receive(x, y))\n∀x ∀y (HaveRating(x, y) ∧ GreaterThan(y, 4) → ListedIn(x, yelpRecommendation))\n∃x ∃y (¬Provide(x, takeOutService) → NegativeReview(y) ∧ Receive(x, y))\n∀x ∀y (PopularAmong(x, localResidents) → HaveRating(x, y) ∧ GreaterThan(y, 4))\n∀x (HaveRating(hamdenPlazaSubway, x) ∧ GreaterThan(x, 4) ⊕ PopularAmong(hamdenPlazaSubway, localResidents))\n∃x (Provide(hamdenPlazaSubway, takeOutService) ∨ (NegativeReview(x) ∧ ¬Receive(hamdenPlazaSubway, x)))",
         "label": "True"
     },
     {
-        "story_id": 319,
-        "natural": "No baked sweets are spicy.\nAll cupcakes are baked sweets.\nAll mala hotpots are spicy.\nAll products from Baked by Melissa are cupcakes.\nDried Thai chilies are spicy or mala hotpots or not baked sweets.\nDried Thai chilies are a mala hotpot.",
-        "fol": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)\nMalaHotpot(driedThaiChili)",
+        "story_id": 306,
+        "natural": "If a restaurant is listed in Yelp’s recommendations, then the restaurant has not received many negative reviews.\nAll restaurants with a rating greater than four are listed in Yelp’s recommendations.\nSome restaurants that do not provide take-out service receive many negative reviews.\nAll restaurants that are popular among local residents have ratings greater than four.\nThe Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.\nThe Hamden Plaza store does not provide take-out service.",
+        "fol": "∀x ∃y (ListedIn(x, yelpRecommendation) → NegativeReview(y) ∧ ¬Receive(x, y))\n∀x ∀y (HaveRating(x, y) ∧ GreaterThan(y, 4) → ListedIn(x, yelpRecommendation))\n∃x ∃y (¬Provide(x, takeOutService) → NegativeReview(y) ∧ Receive(x, y))\n∀x ∀y (PopularAmong(x, localResidents) → HaveRating(x, y) ∧ GreaterThan(y, 4))\n∀x (HaveRating(hamdenPlazaSubway, x) ∧ GreaterThan(x, 4) ⊕ PopularAmong(hamdenPlazaSubway, localResidents))\n¬Provide(hamdenPlazaSubway, takeOutService)",
         "label": "Uncertain"
-    },
-    {
-        "story_id": 319,
-        "natural": "No baked sweets are spicy.\nAll cupcakes are baked sweets.\nAll mala hotpots are spicy.\nAll products from Baked by Melissa are cupcakes.\nDried Thai chilies are spicy or mala hotpots or not baked sweets.\nDried Thai chilies are neither products of Baked by Melissa nor baked sweets.",
-        "fol": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)\n¬(Product(driedThaiChili) ∧ From(driedThaiChili, bakedByMelissa)) ∧ ¬BakedSweet(driedThaiChili)",
-        "label": "True"
-    },
-    {
-        "story_id": 319,
-        "natural": "No baked sweets are spicy.\nAll cupcakes are baked sweets.\nAll mala hotpots are spicy.\nAll products from Baked by Melissa are cupcakes.\nDried Thai chilies are spicy or mala hotpots or not baked sweets.\nDried Thai chilies are cupcakes and products of Baked by Melissa.",
-        "fol": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)\nCupcake(driedThaiChili) ∧ Product(driedThaiChili) ∧ From(driedThaiChili, bakedByMelissa)",
-        "label": "False"
     },
     {
         "story_id": 245,
@@ -288,94 +288,82 @@
         "label": "True"
     },
     {
-        "story_id": 58,
-        "natural": "Books contain tons of knowledge.\nWhen a person reads a book, that person gains knowledge. \nIf a person gains knowledge, they become smarter.\nHarry read the book “Walden” by Henry Thoreau.\nWalden contains knowledge.",
-        "fol": "∀x (Book(x) → Contains(x, knowledge))\n∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))\n∀x (Gains(x, knowledge) → Smarter(x))\nReadBook(harry, walden) ∧ Book(walden)\nGains(harry, knowledge)",
+        "story_id": 197,
+        "natural": "It costs $205 to take the GRE test, which is cheaper than $300.\nETS provides financial aid to those GRE applicants who prove economic hardship.\nThose living in single-parent families or having few resources available to them can prove economic hardship.\nTom lives in a single-parent family.\nTom's dad has been out of work, and Tom has few resources available to them. \nTom is applying to take the GRE test.\nETS provides financial aid to Tom.",
+        "fol": "Cost(gRE, 205) ∧ Cheaper(205, 300)\n∀x (ApplicantOf(x, gre) ∧ Prove(x, economicHardship) → ProvideTo(ets, financialAid, x))\n∀x (LivingIn(x, singleParentFamily) ∨ AvailableTo(fewResources, x) → Prove(x, economicHardship))\nLivingIn(tom, singleParentFamily)\nOutOfWork(tomsDad) ∧ AvailableTo(fewResources, tom)\nApplicantOf(tom, gre)\nProvidesFinancialAidTo(eTS, tom)",
         "label": "True"
     },
     {
-        "story_id": 58,
-        "natural": "Books contain tons of knowledge.\nWhen a person reads a book, that person gains knowledge. \nIf a person gains knowledge, they become smarter.\nHarry read the book “Walden” by Henry Thoreau.\nHarry is smarter than before.",
-        "fol": "∀x (Book(x) → Contains(x, knowledge))\n∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))\n∀x (Gains(x, knowledge) → Smarter(x))\nReadBook(harry, walden) ∧ Book(walden)\nSmarter(harry)",
+        "story_id": 197,
+        "natural": "It costs $205 to take the GRE test, which is cheaper than $300.\nETS provides financial aid to those GRE applicants who prove economic hardship.\nThose living in single-parent families or having few resources available to them can prove economic hardship.\nTom lives in a single-parent family.\nTom's dad has been out of work, and Tom has few resources available to them. \nTom is applying to take the GRE test.\nIt costs below US $300 to take the GRE test.",
+        "fol": "Cost(gRE, 205) ∧ Cheaper(205, 300)\n∀x (ApplicantOf(x, gre) ∧ Prove(x, economicHardship) → ProvideTo(ets, financialAid, x))\n∀x (LivingIn(x, singleParentFamily) ∨ AvailableTo(fewResources, x) → Prove(x, economicHardship))\nLivingIn(tom, singleParentFamily)\nOutOfWork(tomsDad) ∧ AvailableTo(fewResources, tom)\nApplicantOf(tom, gre)\nCost(gRE, x) ∧ Cheaper(x, 300)",
         "label": "True"
     },
     {
-        "story_id": 58,
-        "natural": "Books contain tons of knowledge.\nWhen a person reads a book, that person gains knowledge. \nIf a person gains knowledge, they become smarter.\nHarry read the book “Walden” by Henry Thoreau.\nA smarter person has gained knowledge.",
-        "fol": "∀x (Book(x) → Contains(x, knowledge))\n∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))\n∀x (Gains(x, knowledge) → Smarter(x))\nReadBook(harry, walden) ∧ Book(walden)\n∀x (Smarter(x) → GainKnowledge(x))",
-        "label": "Uncertain"
-    },
-    {
-        "story_id": 191,
-        "natural": "A natural language processing task can be categorized as either a language generation task or a language understanding task.\nIf the output of a natural language processing task is a text sequence, then it is a language generation task.\nMachine translation is a natural language processing task.\nThe output of machine translation is a text sequence.\nMachine translation is a language generation task.",
-        "fol": "∀x (NaturalLanguageProcessingTask(x) → LanguageGenerationTask(x) ⊕ LanguageUnderstandingTask(x))\n∀x (NaturalLanguageProcessingTasks(x) ∧ OutputSequence(x, text) → LanguageGenerationTask(x))\nNaturalLanguageProcessingTask(machineTranslation)\nOutputSequence(machineTranslation, text)\nLanguageGenerationTask(machineTranslation)",
-        "label": "True"
-    },
-    {
-        "story_id": 191,
-        "natural": "A natural language processing task can be categorized as either a language generation task or a language understanding task.\nIf the output of a natural language processing task is a text sequence, then it is a language generation task.\nMachine translation is a natural language processing task.\nThe output of machine translation is a text sequence.\nMachine translation is a language understanding task.",
-        "fol": "∀x (NaturalLanguageProcessingTask(x) → LanguageGenerationTask(x) ⊕ LanguageUnderstandingTask(x))\n∀x (NaturalLanguageProcessingTasks(x) ∧ OutputSequence(x, text) → LanguageGenerationTask(x))\nNaturalLanguageProcessingTask(machineTranslation)\nOutputSequence(machineTranslation, text)\nLanguageUnderstandingTask(machineTranslation)",
-        "label": "False"
-    },
-    {
-        "story_id": 472,
-        "natural": "Animals are either invertebrates or vertebrates.\nAll animals with backbones reproduce by male-and-female mating. \nAll vertebrate animals have a backbone.\nAll bees do not reproduce by male-and-female mating.\nAll queen bees are bees.\nHarry is a bee.\nHarry is a queen bee.",
-        "fol": "∀x (Animal(x) → Invertebrate(x) ⊕ Vertebrate(x))\n∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, male-and-femaleMating))\n∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))\n∀x (Bee(x) → ¬ReproduceBy(x, male-and-femaleMating))\n∀x (QueenBee(x) → Bee(x))\nBee(harry)\nQueenBee(harry)",
-        "label": "Uncertain"
-    },
-    {
-        "story_id": 472,
-        "natural": "Animals are either invertebrates or vertebrates.\nAll animals with backbones reproduce by male-and-female mating. \nAll vertebrate animals have a backbone.\nAll bees do not reproduce by male-and-female mating.\nAll queen bees are bees.\nHarry is a bee.\nHarry is an invertebrate or a queen bee.",
-        "fol": "∀x (Animal(x) → Invertebrate(x) ⊕ Vertebrate(x))\n∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, male-and-femaleMating))\n∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))\n∀x (Bee(x) → ¬ReproduceBy(x, male-and-femaleMating))\n∀x (QueenBee(x) → Bee(x))\nBee(harry)\nInvertebrate(harry) ∨ QueenBee(harry)",
-        "label": "True"
-    },
-    {
-        "story_id": 472,
-        "natural": "Animals are either invertebrates or vertebrates.\nAll animals with backbones reproduce by male-and-female mating. \nAll vertebrate animals have a backbone.\nAll bees do not reproduce by male-and-female mating.\nAll queen bees are bees.\nHarry is a bee.\nIf Harry is either both a vertebrate and an animal with a backbone, or neither a vertebrate nor an animal with a backbone, then Harry is neither an invertebrate nor a queen bee.",
-        "fol": "∀x (Animal(x) → Invertebrate(x) ⊕ Vertebrate(x))\n∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, male-and-femaleMating))\n∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))\n∀x (Bee(x) → ¬ReproduceBy(x, male-and-femaleMating))\n∀x (QueenBee(x) → Bee(x))\nBee(harry)\n¬(Invertebrate(harry) ⊕ With(harry, backbone)) → ¬Invertebrate(harry) ∧ ¬QueenBee(harry)",
+        "story_id": 197,
+        "natural": "It costs $205 to take the GRE test, which is cheaper than $300.\nETS provides financial aid to those GRE applicants who prove economic hardship.\nThose living in single-parent families or having few resources available to them can prove economic hardship.\nTom lives in a single-parent family.\nTom's dad has been out of work, and Tom has few resources available to them. \nTom is applying to take the GRE test.\nNo one taking the GRE test has financial aid provided to them by something.",
+        "fol": "Cost(gRE, 205) ∧ Cheaper(205, 300)\n∀x (ApplicantOf(x, gre) ∧ Prove(x, economicHardship) → ProvideTo(ets, financialAid, x))\n∀x (LivingIn(x, singleParentFamily) ∨ AvailableTo(fewResources, x) → Prove(x, economicHardship))\nLivingIn(tom, singleParentFamily)\nOutOfWork(tomsDad) ∧ AvailableTo(fewResources, tom)\nApplicantOf(tom, gre)\n¬(∃x ∃y (Applicant(x, gRE) ∧ ProvidesFinancialAidTo(y, x)))",
         "label": "False"
     },
     {
         "story_id": 361,
         "natural": "If people spill a lot of food on their clothing, then they are not notably tidy.\nAll clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.\nIf people are cleanly, then they are notably tidy.\nIf people value order and spotlessness, then they are cleanly.\nAll people whose families prioritize order and spotlessness themselves value order and spotlessness.\nPeter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly\nPeter is notably tidy.",
-        "fol": "∀x (Spill(x, aLotOfFood, clothing) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillOn(x, aLotOfFood, clothing))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (Value(x, order) ∧ Value(x, spotlessness) → Cleanly(x))\n∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness)) \n¬(Spill(peter, aLotOfFood, clothing) ⊕ Cleanly(peter))\nNotablyTidy(peter)",
+        "fol": "∀x (Spill(x, aLotOfFood, clothing) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillOn(x, aLotOfFood, clothing))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (Value(x, order) ∧ Value(x, spotlessness) → Cleanly(x))\n∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness)))\n¬(Spill(peter, aLotOfFood, clothing) ⊕ Cleanly(peter))\nNotablyTidy(peter)",
         "label": "Uncertain"
     },
     {
         "story_id": 361,
         "natural": "If people spill a lot of food on their clothing, then they are not notably tidy.\nAll clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.\nIf people are cleanly, then they are notably tidy.\nIf people value order and spotlessness, then they are cleanly.\nAll people whose families prioritize order and spotlessness themselves value order and spotlessness.\nPeter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly\nPeter is either a  clumsy foodie who goes out frequently to find new food restaurants to try or he is someone whose family prioritizes order and spotlessness.",
-        "fol": "∀x (Spill(x, aLotOfFood, clothing) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillOn(x, aLotOfFood, clothing))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (Value(x, order) ∧ Value(x, spotlessness) → Cleanly(x))\n∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness)) \n¬(Spill(peter, aLotOfFood, clothing) ⊕ Cleanly(peter))\nClumsyFoodie(peter) ∨ (∃y (FamilyOf(y, peter) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)))",
+        "fol": "∀x (Spill(x, aLotOfFood, clothing) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillOn(x, aLotOfFood, clothing))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (Value(x, order) ∧ Value(x, spotlessness) → Cleanly(x))\n∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness)))\n¬(Spill(peter, aLotOfFood, clothing) ⊕ Cleanly(peter))\nClumsyFoodie(peter) ∨ (∃y (FamilyOf(y, peter) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)))",
         "label": "False"
     },
     {
         "story_id": 361,
         "natural": "If people spill a lot of food on their clothing, then they are not notably tidy.\nAll clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.\nIf people are cleanly, then they are notably tidy.\nIf people value order and spotlessness, then they are cleanly.\nAll people whose families prioritize order and spotlessness themselves value order and spotlessness.\nPeter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly\nPeter is either both a clumsy foodie who goes out frequently to find new food restaurants to try and issomeone whose family prioritizes order and spotlessness, or he neither is a clumsy foodie who goes out frequently to find new food restaurants to try nor does his family prioritize order and spotlessness.",
-        "fol": "∀x (Spill(x, aLotOfFood, clothing) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillOn(x, aLotOfFood, clothing))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (Value(x, order) ∧ Value(x, spotlessness) → Cleanly(x))\n∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness)) \n¬(Spill(peter, aLotOfFood, clothing) ⊕ Cleanly(peter))\n¬(ClumsyFoodie(peter) ⊕ (∃y (FamilyOf(y, peter) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness))))",
+        "fol": "∀x (Spill(x, aLotOfFood, clothing) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillOn(x, aLotOfFood, clothing))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (Value(x, order) ∧ Value(x, spotlessness) → Cleanly(x))\n∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness)))\n¬(Spill(peter, aLotOfFood, clothing) ⊕ Cleanly(peter))\n¬(ClumsyFoodie(peter) ⊕ (∃y (FamilyOf(y, peter) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness))))",
         "label": "True"
     },
     {
-        "story_id": 262,
-        "natural": "All fir trees are evergreens.\nSome objects of worship are fir trees.\nSome evergreens are not objects of worship.",
-        "fol": "∀x (FirTree(x) → Evergreen(x))\n∃x ∃y (ObjectOfWorship(x) ∧ ObjectOfWorship(y) ∧ FirTree(x) ∧ FirTree(y) ∧ ¬(x=y))\n∃x ∃y (Evergreen(x) ∧ Evergreen(y) ∧ ¬ObjectOfWorship(x) ∧ ¬ObjectOfWorship(y) ∧ ¬(x=y))",
+        "story_id": 151,
+        "natural": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.\nBarutin Cove is on the southwest coast of Snow Island.\nSnow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.\nAntarctica is located on the South Shetland Islands. \nIf place A is located in place B and place B is located in place C, then place A is located in place C.\nBarutin Cove is named after all islands in Antarctica.",
+        "fol": "Cove(barutinCove) ∧ NamedAfter(barutinCove, barutinSettlement) ∧ LocatedIn(barutinSettlement, bulgaria)\nLocatedIn(barutinCove, snowIsland)\nLocatedIn(snowIsland, southShetlandIslands) ∧ LocatedIn(greenwichIsland, southShetlandIslands) ∧ LocatedIn(deceptionIsland, southShetlandIslands)\nLocatedIn(southShetlandIslands, antarctica)\n∀x ∀y ∀z ((LocatedIn(x, y) ∧ LocatedIn(y, z)) → LocatedIn(x, z))\n∀x (LocatedIn(x, antarctica) → NamedAfter(barutinCove, x))",
         "label": "Uncertain"
     },
     {
-        "story_id": 183,
-        "natural": "If a man is taller than another man, the taller one can block the other's shooting.\nMichael is a man who is taller than everyone else in his class.\nIf person x is taller than person y, and person y is taller than person z, then x is taller than z\nPeter is a man who is taller than Michael.\nMichael can block any shooting from a person as long as the person does not jump when shooting.\nMichael cannot block Windy's shooting.\nEvery shooter who can jump when shooting is a great shooter.\nPeter is shorter than a man in Michael's class.",
-        "fol": "∀x ∀y (Man(x) ∧ Man(y) ∧ Taller(x, y) → CanBlock(x, y))\n∀x (Man(x) ∧ SameClass(x, michael) ∧ ¬(x=michael) → Taller(michael, x))\n∀x ∀y ∀z ((Taller(x, y) ∧ Taller(y, z)) → Taller(x, z))\nMan(peter) ∧ Taller(peter, michael)\n∀x (¬JumpWhenShooting(x) → CanBlock(michael, x))\n¬CanBlock(michael, windy)\n∀x (JumpWhenShooting(x) → GreatShooter(x))\n∃x (Man(x) ∧ SameClass(x, michael) ∧ ¬Taller(peter, x))",
+        "story_id": 151,
+        "natural": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.\nBarutin Cove is on the southwest coast of Snow Island.\nSnow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.\nAntarctica is located on the South Shetland Islands. \nIf place A is located in place B and place B is located in place C, then place A is located in place C.\nThere is at least one cove in Antarctica named after a place in Bulgaria.",
+        "fol": "Cove(barutinCove) ∧ NamedAfter(barutinCove, barutinSettlement) ∧ LocatedIn(barutinSettlement, bulgaria)\nLocatedIn(barutinCove, snowIsland)\nLocatedIn(snowIsland, southShetlandIslands) ∧ LocatedIn(greenwichIsland, southShetlandIslands) ∧ LocatedIn(deceptionIsland, southShetlandIslands)\nLocatedIn(southShetlandIslands, antarctica)\n∀x ∀y ∀z ((LocatedIn(x, y) ∧ LocatedIn(y, z)) → LocatedIn(x, z))\n∃x ∃y (Cove(x) ∧ LocatedIn(x, antarctica) ∧ NameAfter(x, y) ∧ LocatedIn(y, bulgaria))",
+        "label": "True"
+    },
+    {
+        "story_id": 151,
+        "natural": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.\nBarutin Cove is on the southwest coast of Snow Island.\nSnow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.\nAntarctica is located on the South Shetland Islands. \nIf place A is located in place B and place B is located in place C, then place A is located in place C.\nBarutin Cove is not located in Antarctica.",
+        "fol": "Cove(barutinCove) ∧ NamedAfter(barutinCove, barutinSettlement) ∧ LocatedIn(barutinSettlement, bulgaria)\nLocatedIn(barutinCove, snowIsland)\nLocatedIn(snowIsland, southShetlandIslands) ∧ LocatedIn(greenwichIsland, southShetlandIslands) ∧ LocatedIn(deceptionIsland, southShetlandIslands)\nLocatedIn(southShetlandIslands, antarctica)\n∀x ∀y ∀z ((LocatedIn(x, y) ∧ LocatedIn(y, z)) → LocatedIn(x, z))\n¬LocatedIn(barutinCove, antarctica)",
         "label": "False"
     },
     {
-        "story_id": 183,
-        "natural": "If a man is taller than another man, the taller one can block the other's shooting.\nMichael is a man who is taller than everyone else in his class.\nIf person x is taller than person y, and person y is taller than person z, then x is taller than z\nPeter is a man who is taller than Michael.\nMichael can block any shooting from a person as long as the person does not jump when shooting.\nMichael cannot block Windy's shooting.\nEvery shooter who can jump when shooting is a great shooter.\nWindy is a great shooter.",
-        "fol": "∀x ∀y (Man(x) ∧ Man(y) ∧ Taller(x, y) → CanBlock(x, y))\n∀x (Man(x) ∧ SameClass(x, michael) ∧ ¬(x=michael) → Taller(michael, x))\n∀x ∀y ∀z ((Taller(x, y) ∧ Taller(y, z)) → Taller(x, z))\nMan(peter) ∧ Taller(peter, michael)\n∀x (¬JumpWhenShooting(x) → CanBlock(michael, x))\n¬CanBlock(michael, windy)\n∀x (JumpWhenShooting(x) → GreatShooter(x))\nGreatShooter(windy)",
-        "label": "True"
+        "story_id": 295,
+        "natural": "Some affection is love.\nSome love is positive.\nSome affection is positive.",
+        "fol": "∃x (Affection(x) ∧ Love(x))\n∃x (Love(x) ∧ Positive(x))\n∃x (Affection(x) ∧ Positive(x))",
+        "label": "Uncertain"
     },
     {
-        "story_id": 183,
-        "natural": "If a man is taller than another man, the taller one can block the other's shooting.\nMichael is a man who is taller than everyone else in his class.\nIf person x is taller than person y, and person y is taller than person z, then x is taller than z\nPeter is a man who is taller than Michael.\nMichael can block any shooting from a person as long as the person does not jump when shooting.\nMichael cannot block Windy's shooting.\nEvery shooter who can jump when shooting is a great shooter.\nPeter can block Windy's shooting.",
-        "fol": "∀x ∀y (Man(x) ∧ Man(y) ∧ Taller(x, y) → CanBlock(x, y))\n∀x (Man(x) ∧ SameClass(x, michael) ∧ ¬(x=michael) → Taller(michael, x))\n∀x ∀y ∀z ((Taller(x, y) ∧ Taller(y, z)) → Taller(x, z))\nMan(peter) ∧ Taller(peter, michael)\n∀x (¬JumpWhenShooting(x) → CanBlock(michael, x))\n¬CanBlock(michael, windy)\n∀x (JumpWhenShooting(x) → GreatShooter(x))\nCanBlock(peter, windy)",
+        "story_id": 315,
+        "natural": "If something can transport multiple passengers, then they are not one-seaters_\nAll Tesla Model 3 can transport multiple passengers_\nAll single-seat electric cars are one-seaters_\nAll Solo EV cars are single-seat electric cars_ \nIf John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. \nJohn's car is a Tesla Model 3.",
+        "fol": "∀x (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z)) → ¬OneSeater(x))\n∀x (TeslaModel3(x) → (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z))))\n∀x (SingleSeat(x) ∧ ElectricCar(x) → OneSeater(x))\n∀x (SoloEV(x) ∧ Car(x) → SingleSeat(x) ∧ ElectricCar(x))\n¬TeslaModel3(johnsCar) → ¬(TeslaModel3(johnsCar) ∨ (SingleSeat(x) ∧ ElectricCar(johnsCar)))\nTeslaModel3(johnsCar)",
         "label": "Uncertain"
+    },
+    {
+        "story_id": 315,
+        "natural": "If something can transport multiple passengers, then they are not one-seaters_\nAll Tesla Model 3 can transport multiple passengers_\nAll single-seat electric cars are one-seaters_\nAll Solo EV cars are single-seat electric cars_ \nIf John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. \nJohn's car is a Solo EV.",
+        "fol": "∀x (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z)) → ¬OneSeater(x))\n∀x (TeslaModel3(x) → (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z))))\n∀x (SingleSeat(x) ∧ ElectricCar(x) → OneSeater(x))\n∀x (SoloEV(x) ∧ Car(x) → SingleSeat(x) ∧ ElectricCar(x))\n¬TeslaModel3(johnsCar) → ¬(TeslaModel3(johnsCar) ∨ (SingleSeat(x) ∧ ElectricCar(johnsCar)))\nSoloEV(johnsCar) ∧ Car(johnsCar)",
+        "label": "False"
+    },
+    {
+        "story_id": 315,
+        "natural": "If something can transport multiple passengers, then they are not one-seaters_\nAll Tesla Model 3 can transport multiple passengers_\nAll single-seat electric cars are one-seaters_\nAll Solo EV cars are single-seat electric cars_ \nIf John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. \nJohn's car is not a Solo EV.",
+        "fol": "∀x (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z)) → ¬OneSeater(x))\n∀x (TeslaModel3(x) → (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z))))\n∀x (SingleSeat(x) ∧ ElectricCar(x) → OneSeater(x))\n∀x (SoloEV(x) ∧ Car(x) → SingleSeat(x) ∧ ElectricCar(x))\n¬TeslaModel3(johnsCar) → ¬(TeslaModel3(johnsCar) ∨ (SingleSeat(x) ∧ ElectricCar(johnsCar)))\n¬(SoloEV(johnsCar) ∧ Car(johnsCar))",
+        "label": "True"
     },
     {
         "story_id": 467,
@@ -394,6 +382,30 @@
         "natural": "All of Peter's pets that are mammals are also animals.\nAll monkeys are mammals. \nPeter's pets are all either monkeys or birds. \nPeter's birds can fly.\nAll animals that are Peter's pets can breathe.\nIf Peter's pet can fly, then it has wings.\nRock is Peter's pet.\nRock can fly, or Rock is a bird, or Rock cannot breathe. \nRock does not have wings.",
         "fol": "∀x (PetersPet(x) ∧ Mammal(x) → Animal(x))\n∀x (Monkey(x) → Mammal(x))\n∀x (PetersPet(x) → Monkey(x) ⊕  Bird(x))\n∀x (Bird(x) → CanFly(x))\n∀x (PetersPet(x) ∧ Animal(x) → Breathe(x))\n∀x (PetersPet(x) ∧ CanFly(x) → ∃y ∃z (¬(y=z) ∧ Wing(y) ∧ Wing(z) ∧ Have(x, y) ∧ Have(x, z)))\nPeterSPet(rock)\nCanFly(rock) ∨ Bird(rock) ∨ ¬Breathe(rock)\n¬(∃y ∃z (¬(y=z) ∧ Wing(y) ∧ Wing(z) ∧ Have(rock, y) ∧ Have(rock, z)))",
         "label": "False"
+    },
+    {
+        "story_id": 330,
+        "natural": "All people who make wedding plans are people who are engaged.\nAll people who invite others to come to their ceremony make wedding plans.\nAnyone who has a well-attended wedding invites others to come to their ceremony.\nSome people that have well-attended weddings have larger families.\nIf John is engaged, then John does not invite friends to their ceremony and make wedding plans.\nIf John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. \nJohn has a larger family.",
+        "fol": "∀x (Make(x, weddingPlan) → Engaged(x))\n∀x (∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)) → Make(x, weddingPlan))\n∀x (Have(x, wellAttendedWedding) → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)))\n∃x (Have(x, wellAttendedWedding) ∧ Have(x, largerFamily))\nEngaged(john) → ¬(∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(john, y, wedding) ∧ Invite(john, z, comeTo, wedding))) ∧ Make(john, weddingPlan)\nHave(john, largerFamily) → Have(john, wellAttendedWedding) ⊕ ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ Invite(x, y, comeTo, wedding) ∧ InviteToComeTo(x, z, wedding))\nHave(john, largeFamily)",
+        "label": "False"
+    },
+    {
+        "story_id": 330,
+        "natural": "All people who make wedding plans are people who are engaged.\nAll people who invite others to come to their ceremony make wedding plans.\nAnyone who has a well-attended wedding invites others to come to their ceremony.\nSome people that have well-attended weddings have larger families.\nIf John is engaged, then John does not invite friends to their ceremony and make wedding plans.\nIf John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. \nJohn does not have a larger family.",
+        "fol": "∀x (Make(x, weddingPlan) → Engaged(x))\n∀x (∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)) → Make(x, weddingPlan))\n∀x (Have(x, wellAttendedWedding) → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)))\n∃x (Have(x, wellAttendedWedding) ∧ Have(x, largerFamily))\nEngaged(john) → ¬(∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(john, y, wedding) ∧ Invite(john, z, comeTo, wedding))) ∧ Make(john, weddingPlan)\nHave(john, largerFamily) → Have(john, wellAttendedWedding) ⊕ ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ Invite(x, y, comeTo, wedding) ∧ InviteToComeTo(x, z, wedding))\n¬Have(john, largerFamily)",
+        "label": "True"
+    },
+    {
+        "story_id": 330,
+        "natural": "All people who make wedding plans are people who are engaged.\nAll people who invite others to come to their ceremony make wedding plans.\nAnyone who has a well-attended wedding invites others to come to their ceremony.\nSome people that have well-attended weddings have larger families.\nIf John is engaged, then John does not invite friends to their ceremony and make wedding plans.\nIf John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. \nJohn is engaged.",
+        "fol": "∀x (Make(x, weddingPlan) → Engaged(x))\n∀x (∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)) → Make(x, weddingPlan))\n∀x (Have(x, wellAttendedWedding) → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)))\n∃x (Have(x, wellAttendedWedding) ∧ Have(x, largerFamily))\nEngaged(john) → ¬(∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(john, y, wedding) ∧ Invite(john, z, comeTo, wedding))) ∧ Make(john, weddingPlan)\nHave(john, largerFamily) → Have(john, wellAttendedWedding) ⊕ ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ Invite(x, y, comeTo, wedding) ∧ InviteToComeTo(x, z, wedding))\nEngaged(john)",
+        "label": "Uncertain"
+    },
+    {
+        "story_id": 330,
+        "natural": "All people who make wedding plans are people who are engaged.\nAll people who invite others to come to their ceremony make wedding plans.\nAnyone who has a well-attended wedding invites others to come to their ceremony.\nSome people that have well-attended weddings have larger families.\nIf John is engaged, then John does not invite friends to their ceremony and make wedding plans.\nIf John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. \nJohn neither has a larger family nor does he invite others to his wedding.",
+        "fol": "∀x (Make(x, weddingPlan) → Engaged(x))\n∀x (∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)) → Make(x, weddingPlan))\n∀x (Have(x, wellAttendedWedding) → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)))\n∃x (Have(x, wellAttendedWedding) ∧ Have(x, largerFamily))\nEngaged(john) → ¬(∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(john, y, wedding) ∧ Invite(john, z, comeTo, wedding))) ∧ Make(john, weddingPlan)\nHave(john, largerFamily) → Have(john, wellAttendedWedding) ⊕ ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ Invite(x, y, comeTo, wedding) ∧ InviteToComeTo(x, z, wedding))\n¬Have(john, largerFamily) ∧ ¬(∃y ∃z (¬(y=john) ∧ ¬(z=john) ∧ ¬(y=z) ∧ InviteToComeTo(john, y, wedding) ∧ InviteToComeTo(john, z, wedding)))",
+        "label": "True"
     },
     {
         "story_id": 26,
@@ -432,40 +444,58 @@
         "label": "False"
     },
     {
-        "story_id": 131,
-        "natural": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.\nUnsupervised learning algorithms do not require labeled data.\nThe state-of-the-art text summarization model is trained with machine learning algorithms.\nReinforcement learning is not used to train the state-of-the-art text summarization model.\nThe Machine Learning algorithm for training text summarization models requires labeled data.\nSupervised learning is used to train the state-of-the-art text summarization model.",
-        "fol": "∀x (MachineLearningAlgorithm(x) → SupervisedLearningAlgorithm(x) ∨ UnsupervisedLearningAlgorithm(x) ∨ ReinforcementLearningAlgorithm(x))\n∀x (UnsupervisedLearningAlgorithm(x) → ¬Require(x, labeledData))\n∀x (TrainedWith(stateOfTheArtTextSummarizationModel, x) → MachineLearningAlgorithm(x))\n∀x (ReinforcementLearningAlgorithm(x) → ¬TrainedWith(stateOfTheArtTextSummarizationModel, x))\n∀x ((MachineLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x)) → Require(x, labeledData))\n∃x (SupervisedLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x))",
-        "label": "True"
-    },
-    {
-        "story_id": 131,
-        "natural": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.\nUnsupervised learning algorithms do not require labeled data.\nThe state-of-the-art text summarization model is trained with machine learning algorithms.\nReinforcement learning is not used to train the state-of-the-art text summarization model.\nThe Machine Learning algorithm for training text summarization models requires labeled data.\nUnsupervised learning is used to train the state-of-the-art text summarization model.",
-        "fol": "∀x (MachineLearningAlgorithm(x) → SupervisedLearningAlgorithm(x) ∨ UnsupervisedLearningAlgorithm(x) ∨ ReinforcementLearningAlgorithm(x))\n∀x (UnsupervisedLearningAlgorithm(x) → ¬Require(x, labeledData))\n∀x (TrainedWith(stateOfTheArtTextSummarizationModel, x) → MachineLearningAlgorithm(x))\n∀x (ReinforcementLearningAlgorithm(x) → ¬TrainedWith(stateOfTheArtTextSummarizationModel, x))\n∀x ((MachineLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x)) → Require(x, labeledData))\n∃x (UnsupervisedLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x))",
-        "label": "False"
-    },
-    {
         "story_id": 46,
         "natural": "Breeding back is a form of artificial selection by the deliberate selective breeding of domestic animals.\nHeck cattle were bred back in the 1920s to resemble the aurochs.\nHeck cattle are animals.\nAurochs are animals.\nSome animals to be bred back resemble extinct animals.\nSome Heck cattle are artificially selected.",
-        "fol": "∀x (BreedingBack(x) → (ArtificialSelection(x) ∧ DeliberateSelectiveBreedingOfDomesticAnimals(x)))\n∃x ∃y (HeckCattle(x) ∧ BreedingBack(x) ∧ Auroch(y) ∧ Resemble(x, y))\n∀x (HeckCattle(x) → Animal(x))\n∀x (Auroch(x) → Animal(x))\n∃x ∃y (Animal(x) ∧ Animal(y) ∧ (¬(x=y)) ∧ BreedingBack(x) ∧ BreedingBack(y) ∧ (∃w(Dead(w) ∧ Resemble(x, w)) ∧ (¬(w=z)) ∧ (∃z(Dead(z) ∧ Resemble(y, z))))\n∃x ∃y(HeckCattle(x) ∧ ArtificialSelection(x) ∧ (¬(x=y)) ∧ HeckCattle(y) ∧ ArtificialSelection(y))",
+        "fol": "∀x (BreedingBack(x) → (ArtificialSelection(x) ∧ DeliberateSelectiveBreedingOfDomesticAnimals(x)))\n∃x ∃y (HeckCattle(x) ∧ BreedingBack(x) ∧ Auroch(y) ∧ Resemble(x, y))\n∀x (HeckCattle(x) → Animal(x))\n∀x (Auroch(x) → Animal(x))\n∃x ∃y (Animal(x) ∧ Animal(y) ∧ (¬(x=y)) ∧ BreedingBack(x) ∧ BreedingBack(y) ∧ (∃w(Dead(w) ∧ Resemble(x, w)) ∧ (¬(w=z)) ∧ (∃z(Dead(z) ∧ Resemble(y, z)))))\n∃x ∃y(HeckCattle(x) ∧ ArtificialSelection(x) ∧ (¬(x=y)) ∧ HeckCattle(y) ∧ ArtificialSelection(y))",
         "label": "True"
     },
     {
         "story_id": 46,
         "natural": "Breeding back is a form of artificial selection by the deliberate selective breeding of domestic animals.\nHeck cattle were bred back in the 1920s to resemble the aurochs.\nHeck cattle are animals.\nAurochs are animals.\nSome animals to be bred back resemble extinct animals.\nAurochs are extinct.",
-        "fol": "∀x (BreedingBack(x) → (ArtificialSelection(x) ∧ DeliberateSelectiveBreedingOfDomesticAnimals(x)))\n∃x ∃y (HeckCattle(x) ∧ BreedingBack(x) ∧ Auroch(y) ∧ Resemble(x, y))\n∀x (HeckCattle(x) → Animal(x))\n∀x (Auroch(x) → Animal(x))\n∃x ∃y (Animal(x) ∧ Animal(y) ∧ (¬(x=y)) ∧ BreedingBack(x) ∧ BreedingBack(y) ∧ (∃w(Dead(w) ∧ Resemble(x, w)) ∧ (¬(w=z)) ∧ (∃z(Dead(z) ∧ Resemble(y, z))))\n∀x (Auroch(x) → Dead(x))",
+        "fol": "∀x (BreedingBack(x) → (ArtificialSelection(x) ∧ DeliberateSelectiveBreedingOfDomesticAnimals(x)))\n∃x ∃y (HeckCattle(x) ∧ BreedingBack(x) ∧ Auroch(y) ∧ Resemble(x, y))\n∀x (HeckCattle(x) → Animal(x))\n∀x (Auroch(x) → Animal(x))\n∃x ∃y (Animal(x) ∧ Animal(y) ∧ (¬(x=y)) ∧ BreedingBack(x) ∧ BreedingBack(y) ∧ (∃w(Dead(w) ∧ Resemble(x, w)) ∧ (¬(w=z)) ∧ (∃z(Dead(z) ∧ Resemble(y, z)))))\n∀x (Auroch(x) → Dead(x))",
         "label": "Uncertain"
     },
     {
-        "story_id": 258,
-        "natural": "All humans are mortal.\nAll Greeks are humans.\nSome Greeks are mortal.",
-        "fol": "∀x (Human(x) → Mortal(x))\n∀x (Greek(x) → Human(x))\n∃x ∃y (Greek(x) ∧ Greek(y) ∧ Mortal(x) ∧ Mortal(y) ∧ ¬(x=y))",
+        "story_id": 483,
+        "natural": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.\nIf someone has United States citizenship, then they can register to vote in the United States.\nA person either has United States citizenship or Taiwanese citizenship.\nNo Russian Federation officials hold Taiwanese citizenship. \nVladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. \nEkaterina she can register to vote in the United States, or she is a Russian federation official.\nVladimir is a Russian federation official",
+        "fol": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)\nRussian(vladimir) ∧ FederationOfficial(vladimir)",
         "label": "Uncertain"
     },
     {
-        "story_id": 292,
-        "natural": "A hawk never swims. \nSome birds are hawks.\nAll birds swim.",
-        "fol": "∀x (Hawk(x) → ¬Swim(x))\n∃x ∃y (Bird(x) ∧ Bird(y) ∧ Hawk(x) ∧ Hawk(y) ∧ ¬(x=y))\n∀x (Bird(x) → Swim(x))",
+        "story_id": 483,
+        "natural": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.\nIf someone has United States citizenship, then they can register to vote in the United States.\nA person either has United States citizenship or Taiwanese citizenship.\nNo Russian Federation officials hold Taiwanese citizenship. \nVladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. \nEkaterina she can register to vote in the United States, or she is a Russian federation official.\nVladimir is not a Russian federation official",
+        "fol": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)\n¬(Russian(vladimir) ∧ FederationOfficial(vladimir))",
+        "label": "Uncertain"
+    },
+    {
+        "story_id": 483,
+        "natural": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.\nIf someone has United States citizenship, then they can register to vote in the United States.\nA person either has United States citizenship or Taiwanese citizenship.\nNo Russian Federation officials hold Taiwanese citizenship. \nVladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. \nEkaterina she can register to vote in the United States, or she is a Russian federation official.\nEkaterina can participate in the 2024 United States presidential election or is a manager at Gazprom.",
+        "fol": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)\nCanParticipateIn(ekaterina, 2024UnitedStatesElection) ∨ ManagerAt(ekaterina, gazprom)",
+        "label": "True"
+    },
+    {
+        "story_id": 483,
+        "natural": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.\nIf someone has United States citizenship, then they can register to vote in the United States.\nA person either has United States citizenship or Taiwanese citizenship.\nNo Russian Federation officials hold Taiwanese citizenship. \nVladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. \nEkaterina she can register to vote in the United States, or she is a Russian federation official.\nEkaterina can participate in the 2024 United States presidential election or Vladimir is a manager at Gazprom.",
+        "fol": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)\nCanParticipateIn(ekaterina, 2024UnitedStatesElection) ⊕ ManagerAt(vladimir, gazprom)",
+        "label": "True"
+    },
+    {
+        "story_id": 483,
+        "natural": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.\nIf someone has United States citizenship, then they can register to vote in the United States.\nA person either has United States citizenship or Taiwanese citizenship.\nNo Russian Federation officials hold Taiwanese citizenship. \nVladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. \nEkaterina she can register to vote in the United States, or she is a Russian federation official.\nIt is not true that Ekaterina can register to vote in the United States and Vladimir can participate in the 2024 United States presidential election.",
+        "fol": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)\nCanRegisterToVoteIn(ekaterina, unitedStates) ∧ CanParticipateIn(vladimir, 2024UnitedStatesElection)",
         "label": "False"
+    },
+    {
+        "story_id": 217,
+        "natural": "If George likes music, he wants to compose.\nIf George has access to a program, he can compose.\nIf George can compose and wants to compose, he will compose.\nIf George likes music and has access to a program, he will compose.",
+        "fol": "LikeMusic(george) → WantToCompose(george)\nAccesstoProgram(george) → CanCompose(george)\n(WantToCompose(george) ∧ CanCompose(george)) → WillCompose(george)\n(LikeMusic(george) ∧ AccesstoProgram(george)) → WillCompose(george)",
+        "label": "True"
+    },
+    {
+        "story_id": 217,
+        "natural": "If George likes music, he wants to compose.\nIf George has access to a program, he can compose.\nIf George can compose and wants to compose, he will compose.\nIf George will not compose, George can not compose.",
+        "fol": "LikeMusic(george) → WantToCompose(george)\nAccesstoProgram(george) → CanCompose(george)\n(WantToCompose(george) ∧ CanCompose(george)) → WillCompose(george)\n¬WantToCompose(george) → ¬WillCompose(george)",
+        "label": "Uncertain"
     },
     {
         "story_id": 107,
@@ -486,22 +516,22 @@
         "label": "False"
     },
     {
-        "story_id": 355,
-        "natural": "All people who eat salads regularly are very conscious about their health and eating habits.\nAll people who grew up in health-conscious childhood homes eat salads regularly.\nAll people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.\nAll people who disregard their physical well-being are not very conscious about their health and eating habits.\nIf people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.\nTaylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.\nTaylor eats salads regularly.",
-        "fol": "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatinggHabit))\n∀x (GrewUpIn(x, health-consciousChildhoodHome) → RegularlyEat(x, salad))\n∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, health-consciousChildhoodHome))\n∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))\n∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))\n¬(GrowUpIn(taylor, health-consciousChildhoodHome) ⊕ Disregard(taylor, physicalWellbeing))\nRegularlyEat(taylor, salad)",
+        "story_id": 386,
+        "natural": "If something is a deadly disease, then it comes with a low survival rate. \nSevere cancers are deadly diseases.\nBile duct cancer is a severe form cancer. \nAll Cholangiocarcinoma is bile duct cancer.\nMild flu comes with a low survival rate.\nColorectal cancer is not both a bile duct cancer and with a low survival rate.\nColorectal cancer is a kind of severe cancer",
+        "fol": "∀x (DeadlyDiseases(x) → ComeWith(x, lowSurvivalRate))\n∀x (SevereCancer(x) → DeadlyDiseases(x))\n∀x (BileDuctCancer(x) → SevereCancer(x))\n∀x (Cholangiocarcinoma(x) → BileDuctCancer(x))\n∀x (MildFlu(x) → ¬ComeWith(x, lowSurvivalRate))\n¬(BileDuctCancer(colorectalCancer) ∧ ComeWith(colorectalCancer, lowSurvivalRate))\nSevereCancer(colorectalCancer)",
         "label": "Uncertain"
     },
     {
-        "story_id": 355,
-        "natural": "All people who eat salads regularly are very conscious about their health and eating habits.\nAll people who grew up in health-conscious childhood homes eat salads regularly.\nAll people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.\nAll people who disregard their physical well-being are not very conscious about their health and eating habits.\nIf people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.\nTaylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.\nTaylor visits the gym at least once a day.",
-        "fol": "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatinggHabit))\n∀x (GrewUpIn(x, health-consciousChildhoodHome) → RegularlyEat(x, salad))\n∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, health-consciousChildhoodHome))\n∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))\n∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))\n¬(GrowUpIn(taylor, health-consciousChildhoodHome) ⊕ Disregard(taylor, physicalWellbeing))\nVisitDaily(taylor, gym)",
-        "label": "False"
+        "story_id": 386,
+        "natural": "If something is a deadly disease, then it comes with a low survival rate. \nSevere cancers are deadly diseases.\nBile duct cancer is a severe form cancer. \nAll Cholangiocarcinoma is bile duct cancer.\nMild flu comes with a low survival rate.\nColorectal cancer is not both a bile duct cancer and with a low survival rate.\nIf colorectal cancer is a kind of bile duct cancer or a form of Cholangiocarcinoma, then colorectal cancer is a kind of bile duct cancer and a kind of mild flu.",
+        "fol": "∀x (DeadlyDiseases(x) → ComeWith(x, lowSurvivalRate))\n∀x (SevereCancer(x) → DeadlyDiseases(x))\n∀x (BileDuctCancer(x) → SevereCancer(x))\n∀x (Cholangiocarcinoma(x) → BileDuctCancer(x))\n∀x (MildFlu(x) → ¬ComeWith(x, lowSurvivalRate))\n¬(BileDuctCancer(colorectalCancer) ∧ ComeWith(colorectalCancer, lowSurvivalRate))\n¬(BileDuctCancer(colorectalCancer) ∨ Cholangiocarcinoma(colorectalCancer)) ∨ (BileDuctCancer(colorectalCancer) ∧ MildFlu(colorectalCancer))",
+        "label": "True"
     },
     {
-        "story_id": 355,
-        "natural": "All people who eat salads regularly are very conscious about their health and eating habits.\nAll people who grew up in health-conscious childhood homes eat salads regularly.\nAll people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.\nAll people who disregard their physical well-being are not very conscious about their health and eating habits.\nIf people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.\nTaylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.\nTaylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day.",
-        "fol": "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatinggHabit))\n∀x (GrewUpIn(x, health-consciousChildhoodHome) → RegularlyEat(x, salad))\n∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, health-consciousChildhoodHome))\n∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))\n∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))\n¬(GrowUpIn(taylor, health-consciousChildhoodHome) ⊕ Disregard(taylor, physicalWellbeing))\n¬GrowUpIn(taylor, health-consciousChildhoodHome) ∧ ¬VisitDaily(taylor, gym))",
-        "label": "True"
+        "story_id": 386,
+        "natural": "If something is a deadly disease, then it comes with a low survival rate. \nSevere cancers are deadly diseases.\nBile duct cancer is a severe form cancer. \nAll Cholangiocarcinoma is bile duct cancer.\nMild flu comes with a low survival rate.\nColorectal cancer is not both a bile duct cancer and with a low survival rate.\nColorectal cancer is a form of Cholangiocarcinoma and it is a kind of mild flu or a kind of bile duct cancer, or all of the above.",
+        "fol": "∀x (DeadlyDiseases(x) → ComeWith(x, lowSurvivalRate))\n∀x (SevereCancer(x) → DeadlyDiseases(x))\n∀x (BileDuctCancer(x) → SevereCancer(x))\n∀x (Cholangiocarcinoma(x) → BileDuctCancer(x))\n∀x (MildFlu(x) → ¬ComeWith(x, lowSurvivalRate))\n¬(BileDuctCancer(colorectalCancer) ∧ ComeWith(colorectalCancer, lowSurvivalRate))\nCholangiocarcinoma(colorectalCancer) ∧ (MildFlu(colorectalCancer) ∨ BileDuctCancer(colorectalCancer))",
+        "label": "False"
     },
     {
         "story_id": 259,
@@ -510,51 +540,45 @@
         "label": "False"
     },
     {
-        "story_id": 441,
-        "natural": "No one nice to animals is also mean to animals.\nSome grumpy people are mean to animals.\nAll animal lovers are nice to animals.\nAll pet owners love animals.\nTom is a pet owner.\nTom is a grumpy person.",
-        "fol": "∀x (NiceTo(x, animal) → ¬MeanTo(x, animal))\n∃x (Grumpy(x) ∧ MeanTo(x, animal))\n∀x (AnimalLover(x) → NiceTo(x, animal))\n∀x (PetOwner(x) → AnimalLover(x))\nPetOwner(tom)\nGrumpy(tom)",
+        "story_id": 456,
+        "natural": "Some professional basketball players are not American nationals.\nAll professional basketball players can do jump shots.\nIf someone can jump shots, they leap straight into the air.\nIf someone leaps straight into the air, they activate their leg muscles. \nYuri does not activate his leg muscles.\nYuri is an American national.",
+        "fol": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)\nAmericanNational(yuri)",
         "label": "Uncertain"
     },
     {
-        "story_id": 441,
-        "natural": "No one nice to animals is also mean to animals.\nSome grumpy people are mean to animals.\nAll animal lovers are nice to animals.\nAll pet owners love animals.\nTom is a pet owner.\nTom is not both a grumpy person and mean to animals.",
-        "fol": "∀x (NiceTo(x, animal) → ¬MeanTo(x, animal))\n∃x (Grumpy(x) ∧ MeanTo(x, animal))\n∀x (AnimalLover(x) → NiceTo(x, animal))\n∀x (PetOwner(x) → AnimalLover(x))\nPetOwner(tom)\n¬(Grumpy(tom) ∧ MeanTo(tom, animal))",
+        "story_id": 456,
+        "natural": "Some professional basketball players are not American nationals.\nAll professional basketball players can do jump shots.\nIf someone can jump shots, they leap straight into the air.\nIf someone leaps straight into the air, they activate their leg muscles. \nYuri does not activate his leg muscles.\nYuri is not an American professional basketball player.",
+        "fol": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)\n¬(AmericanNational(yuri) ∧ Professional(yuri) ∧ BasketballPlayer(yuri))",
         "label": "True"
     },
     {
-        "story_id": 441,
-        "natural": "No one nice to animals is also mean to animals.\nSome grumpy people are mean to animals.\nAll animal lovers are nice to animals.\nAll pet owners love animals.\nTom is a pet owner.\nIf Tom is not both a grumpy person and mean to animals, then Tom is neither a grumpy person nor an animal lover.",
-        "fol": "∀x (NiceTo(x, animal) → ¬MeanTo(x, animal))\n∃x (Grumpy(x) ∧ MeanTo(x, animal))\n∀x (AnimalLover(x) → NiceTo(x, animal))\n∀x (PetOwner(x) → AnimalLover(x))\nPetOwner(tom)\n¬(Grumpy(tom) ∧ MeanTo(tom, animal)) → ¬Grumpy(tom) ∧ ¬AnimalLover(tom))",
+        "story_id": 456,
+        "natural": "Some professional basketball players are not American nationals.\nAll professional basketball players can do jump shots.\nIf someone can jump shots, they leap straight into the air.\nIf someone leaps straight into the air, they activate their leg muscles. \nYuri does not activate his leg muscles.\nYuri is an American professional basketball player.",
+        "fol": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)\nAmericanNational(yuri) ∧ Professional(yuri) ∧ BasketballPlayer(yuri)",
         "label": "False"
     },
     {
-        "story_id": 64,
-        "natural": "A podcast is not a novel.\nIf a person is born in American City, the person is American.\nIf a book is a novel and it is written by a person, then the person is a novel writer.\nDani Shapiro is an American writer.\nFamily History is written by Dani Shapiro.\nFamily History is a novel written in 2003.\nDani Shapiro created a podcast called Family Secrets.\nBoston is an American city.\nDani Shapiro is a novel writer.",
-        "fol": "∀x (Podcast(x) → ¬Novel(x))\n∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))\n∀x ∀y ((Novel(x) ∧ WrittenBy(x, y)) → WritesNovel(y))\nAmerican(dani_Shapiro) ∧ Writer(dani_Shapiro)\nWrittenBy(family_History, dani_Shapiro)\nNovel(family_History) ∧ WrittenIn(family_History, yr2003)\nPodcast(family_Secrets) ∧ CreatedBy(family_Secrets, dani_Shapiro)\nCity(boston) ∧ American(boston)\nWritesNovel(dani_Shapiro)",
-        "label": "True"
-    },
-    {
-        "story_id": 64,
-        "natural": "A podcast is not a novel.\nIf a person is born in American City, the person is American.\nIf a book is a novel and it is written by a person, then the person is a novel writer.\nDani Shapiro is an American writer.\nFamily History is written by Dani Shapiro.\nFamily History is a novel written in 2003.\nDani Shapiro created a podcast called Family Secrets.\nBoston is an American city.\nFamily Secrets is a novel.",
-        "fol": "∀x (Podcast(x) → ¬Novel(x))\n∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))\n∀x ∀y ((Novel(x) ∧ WrittenBy(x, y)) → WritesNovel(y))\nAmerican(dani_Shapiro) ∧ Writer(dani_Shapiro)\nWrittenBy(family_History, dani_Shapiro)\nNovel(family_History) ∧ WrittenIn(family_History, yr2003)\nPodcast(family_Secrets) ∧ CreatedBy(family_Secrets, dani_Shapiro)\nCity(boston) ∧ American(boston)\nIsNovel(family_Secrets)",
+        "story_id": 456,
+        "natural": "Some professional basketball players are not American nationals.\nAll professional basketball players can do jump shots.\nIf someone can jump shots, they leap straight into the air.\nIf someone leaps straight into the air, they activate their leg muscles. \nYuri does not activate his leg muscles.\nIf Yuri does not leap straight into the air, then Yuri is an American professional basketball player.",
+        "fol": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)\n¬LeapStraightIntoAir(yuri) → (AmericanNational(yuri) ∧ Professional(yuri) ∧ BasketballPlayer(yuri))",
         "label": "False"
     },
     {
-        "story_id": 64,
-        "natural": "A podcast is not a novel.\nIf a person is born in American City, the person is American.\nIf a book is a novel and it is written by a person, then the person is a novel writer.\nDani Shapiro is an American writer.\nFamily History is written by Dani Shapiro.\nFamily History is a novel written in 2003.\nDani Shapiro created a podcast called Family Secrets.\nBoston is an American city.\nDani Shapiro was born in Boston.",
-        "fol": "∀x (Podcast(x) → ¬Novel(x))\n∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))\n∀x ∀y ((Novel(x) ∧ WrittenBy(x, y)) → WritesNovel(y))\nAmerican(dani_Shapiro) ∧ Writer(dani_Shapiro)\nWrittenBy(family_History, dani_Shapiro)\nNovel(family_History) ∧ WrittenIn(family_History, yr2003)\nPodcast(family_Secrets) ∧ CreatedBy(family_Secrets, dani_Shapiro)\nCity(boston) ∧ American(boston)\nBornIn(dani_Shapiro, boston)",
-        "label": "Uncertain"
+        "story_id": 456,
+        "natural": "Some professional basketball players are not American nationals.\nAll professional basketball players can do jump shots.\nIf someone can jump shots, they leap straight into the air.\nIf someone leaps straight into the air, they activate their leg muscles. \nYuri does not activate his leg muscles.\nIf Yuri is not an American professional basketball player, then Yuri is a professional basketball player.",
+        "fol": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)\n¬(AmericanNational(yuri) ∧ Professional(yuri) ∧ BasketballPlayer(yuri)) → (Professional(yuri) ∧ BasketballPlayer(yuri))",
+        "label": "False"
     },
     {
         "story_id": 140,
         "natural": "The winner of the 1992 du Maurier Classic was Steinhauer.\nSteinhauer participated in the 1992 du Maurier Classic.\nOne six-way tie was on the leaderboard, and one person in the six-way tie was from Belgium.\nDescampe is from Belgium and is on the leaderboard of the 1992 du Maurier Classic.\nAll people on the leaderboard of the 1992 du Maurier Classic participated in the 1992 du Maurier Classic.\nSteinhauer was not the winner of the 1992 du Maurier Classic.",
-        "fol": "WinnerOf(steinhauer, duMaurierClassic, year1992)\nParticipate(duMaurierClassic, steinhauer, year1992)\n∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y))\nFrom(descampe, belgium) ∧ OnLeaderBoardOf(descampe, duMaurierClassic)\n∀x (LeaderBoard(maurier, x) → Participate(maurier, x))\n¬WinnerOf(steinhauer, duMaurierClassic, year1992)",
+        "fol": "WinnerOf(steinhauer, duMaurierClassic, year1992)\nParticipate(duMaurierClassic, steinhauer, year1992)\n∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y)\nFrom(descampe, belgium) ∧ OnLeaderBoardOf(descampe, duMaurierClassic)\n∀x (LeaderBoard(maurier, x) → Participate(maurier, x))\n¬WinnerOf(steinhauer, duMaurierClassic, year1992)",
         "label": "False"
     },
     {
         "story_id": 140,
         "natural": "The winner of the 1992 du Maurier Classic was Steinhauer.\nSteinhauer participated in the 1992 du Maurier Classic.\nOne six-way tie was on the leaderboard, and one person in the six-way tie was from Belgium.\nDescampe is from Belgium and is on the leaderboard of the 1992 du Maurier Classic.\nAll people on the leaderboard of the 1992 du Maurier Classic participated in the 1992 du Maurier Classic.\nDescampe is in the six-way tie in the leaderboard of the 1992 du Maurier Classic.",
-        "fol": "WinnerOf(steinhauer, duMaurierClassic, year1992)\nParticipate(duMaurierClassic, steinhauer, year1992)\n∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y))\nFrom(descampe, belgium) ∧ OnLeaderBoardOf(descampe, duMaurierClassic)\n∀x (LeaderBoard(maurier, x) → Participate(maurier, x))\nSixWayTie(descampe)",
+        "fol": "WinnerOf(steinhauer, duMaurierClassic, year1992)\nParticipate(duMaurierClassic, steinhauer, year1992)\n∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y)\nFrom(descampe, belgium) ∧ OnLeaderBoardOf(descampe, duMaurierClassic)\n∀x (LeaderBoard(maurier, x) → Participate(maurier, x))\nSixWayTie(descampe)",
         "label": "Uncertain"
     },
     {

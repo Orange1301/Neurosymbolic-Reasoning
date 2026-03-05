@@ -96,7 +96,8 @@ count_error = 0
 for data in test_data:
     total += 1
     try:
-        predicted = check_conclusion(data["fol"][:-1], data["fol"][-1])
+        fol_list = data["fol"].split('\n')
+        predicted = check_conclusion(fol_list[:-1], fol_list[-1])
         label = data["label"]
 
         if (predicted != label):
@@ -106,12 +107,21 @@ for data in test_data:
         else:
             # print("Correct: ", label)
             count_correct += 1
-    except Exception:
+    except Exception as e:
         count_error += 1
+        print("Error:", e)
 
 print("Total: ", total)
 print("Correct: ", count_correct)
 print("Wrong: ", count_wrong)
 print("Error:", count_error)
+
+'''
+For folio_train.json: 
+- Total:  955
+- Correct:  537
+- Wrong:  370
+- Error: 48
+'''
 
 
