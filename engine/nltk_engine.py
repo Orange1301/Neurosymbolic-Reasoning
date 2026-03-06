@@ -1,7 +1,7 @@
 import nltk
 from nltk.sem.logic import LogicParser
 from nltk.inference import Prover9
-import regex as re
+import regex as re  
 
 parser = LogicParser()
 prover9_path = 'C:\\Program Files (x86)\\Prover9-Mace4\\bin-win32' 
@@ -20,7 +20,8 @@ def translate_fol(fol_text: str):
         '⊕': '^',
         '¬': '-',
         '→': '->', 
-        '⟷': '<->'
+        '⟷': '<->',
+        '↔': '<->'
     }
     for k, v in replacements.items():
         fol_text = fol_text.replace(k, v)
@@ -46,15 +47,23 @@ def is_valid_fol(fol_list):
     except Exception:
         return False
 
-def check_conclusion(premises_list, conclusion_str):
+def check_conclusion(premises, conclusion):
+    '''
+    This function is the engine. It checks whether the conclusion is True/False/Uncertain based on the list of premises.
+    Args:
+        premises: list[str]
+        conclusion: str
+    Returns: 
+        str ("True"/"False"/"Uncertain")
+    '''
     # Read fol strings
     parser = LogicParser()
-    translated_premises = [translate_fol(p) for p in premises_list]
-    translated_conclusion = translate_fol(conclusion_str)
+    translated_premises = [translate_fol(p) for p in premises]
+    translated_conclusion = translate_fol(conclusion)
 
-    # if (not is_valid_fol(translated_premises) or not is_valid_fol([translated_conclusion])):
-    #     error_msg = f"Invalid FOL syntax detected!"
-    #     raise ValueError(error_msg)
+    if (not is_valid_fol(translated_premises) or not is_valid_fol([translated_conclusion])):
+        error_msg = f"Invalid FOL syntax detected!"
+        raise ValueError(error_msg)
     
     try:
         parsed_premises = [parser.parse(p) for p in translated_premises]
@@ -74,16 +83,16 @@ def check_conclusion(premises_list, conclusion_str):
 
     return "Uncertain"
 
-# Quick test ------------------------
+# TEST ON 1 SAMPLE ------------------------
 # premises = [
 #     "∀x (InThisClub(x) ∧ PerformOftenIn(x, schoolTalentShow) → Attend(x, schoolEvent) ∧ VeryEngagedWith(x, schoolEvent))",
 #     "InThisClub(bonnie) ∧ PerformOftenIn(bonnie, schoolTalentShow)" 
 # ]
 # conclusion = "Attend(bonnie, schoolEvent)"
 
-# print(f"Result: {check_fol_string(premises, conclusion)}")
+# print(f"Result: {check_conclusion(premises, conclusion)}")
 
-# Test on mock_data.json ----------------
+# TEST ON MOCK DATA ----------------
 import json
 with open('mock_data.json', 'r', encoding='utf-8') as f:
     test_data = json.load(f)
@@ -102,14 +111,13 @@ for data in test_data:
 
         if (predicted != label):
             count_wrong += 1
-            # wrong_predictions.append((data["story_id"], predicted, label))
             print((data["story_id"], predicted, label))
         else:
-            # print("Correct: ", label)
             count_correct += 1
     except Exception as e:
         count_error += 1
-        print("Error:", e)
+        story_id = data["story_id"]
+        print(f"{story_id}: {e}")
 
 print("Total: ", total)
 print("Correct: ", count_correct)
@@ -122,6 +130,20 @@ For folio_train.json:
 - Correct:  537
 - Wrong:  370
 - Error: 48
+
+For folio_valid.json:
+- Total:  97
+- Correct:  68
+- Wrong:  29
+- Error: 0
+
+For folio_test.json:
+- Total:  97
+- Correct:  68
+- Wrong:  28
+- Error: 1
+
+FACT: The wrong answers and errors are not the engine's fault, it's because those samples' fols are incorrect.
 '''
 
 

@@ -462,24 +462,6 @@
         "label": "False"
     },
     {
-        "story_id": 318,
-        "natural": "Some show airing at 8 pm on Monday gives out roses on TV.\nIf a show gives out roses on TV, then the show is an episode of The Bachelor.\nThe Bachelor portrays the lives of real people.\nAll shows portraying the lives of real people are reality TV shows.\nBreaking Bad is a show.\nBreaking Bad is not a reality TV show.\nBreaking Bad is on Monday at 8 pm.",
-        "fol": "∃x (Show(x) ∧ AiringAtOn(x, 8PMMonday) ∧ GivenOutOn(x, rose, tV))\n∀x (Show(x) ∧ GivenOutOnAt(rose, tV, x) → TheBachelor(x))\n∀x (TheBachelor(x) → Portray(x, lifeOfRealPeople))\n∀x (Portray(x, liveOfRealPeople) → RealityTVShow(x))\nShow(breakingBad)\n¬RealityTVShow(breakingBad)\n∀x (MondayAt8PM(x) ∧ On(breakingBad, x))",
-        "label": "Uncertain"
-    },
-    {
-        "story_id": 318,
-        "natural": "Some show airing at 8 pm on Monday gives out roses on TV.\nIf a show gives out roses on TV, then the show is an episode of The Bachelor.\nThe Bachelor portrays the lives of real people.\nAll shows portraying the lives of real people are reality TV shows.\nBreaking Bad is a show.\nBreaking Bad is not a reality TV show.\nBreaking Bad is a TV show in which roses are given out on Monday at 8 pm.",
-        "fol": "∃x (Show(x) ∧ AiringAtOn(x, 8PMMonday) ∧ GivenOutOn(x, rose, tV))\n∀x (Show(x) ∧ GivenOutOnAt(rose, tV, x) → TheBachelor(x))\n∀x (TheBachelor(x) → Portray(x, lifeOfRealPeople))\n∀x (Portray(x, liveOfRealPeople) → RealityTVShow(x))\nShow(breakingBad)\n¬RealityTVShow(breakingBad)\n∀x ∀y (MondayAt8PM(x) ∧ Rose(y) ∧ GivenOutOn(y, tv) ∧ On(tv, x) ∧ From(y, breakingBad))",
-        "label": "False"
-    },
-    {
-        "story_id": 318,
-        "natural": "Some show airing at 8 pm on Monday gives out roses on TV.\nIf a show gives out roses on TV, then the show is an episode of The Bachelor.\nThe Bachelor portrays the lives of real people.\nAll shows portraying the lives of real people are reality TV shows.\nBreaking Bad is a show.\nBreaking Bad is not a reality TV show.\nIf roses are given out during Breaking Bad, then it is on Monday at 8 pm.",
-        "fol": "∃x (Show(x) ∧ AiringAtOn(x, 8PMMonday) ∧ GivenOutOn(x, rose, tV))\n∀x (Show(x) ∧ GivenOutOnAt(rose, tV, x) → TheBachelor(x))\n∀x (TheBachelor(x) → Portray(x, lifeOfRealPeople))\n∀x (Portray(x, liveOfRealPeople) → RealityTVShow(x))\nShow(breakingBad)\n¬RealityTVShow(breakingBad)\n∀x ∀y ((Rose(y) ∧ GivenOutOn(y, tv) ∧ On(tv, x) ∧ From(y, breakingBad)) → MondayAt8PM(x))",
-        "label": "True"
-    },
-    {
         "story_id": 355,
         "natural": "All people who eat salads regularly are very conscious about their health and eating habits.\nAll people who grew up in health-conscious childhood homes eat salads regularly.\nAll people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.\nAll people who disregard their physical well-being are not very conscious about their health and eating habits.\nIf people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.\nTaylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.\nTaylor eats salads regularly.",
         "fol": "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatinggHabit))\n∀x (GrewUpIn(x, health_consciousChildhoodHome) → RegularlyEat(x, salad))\n∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, health_consciousChildhoodHome))\n∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))\n∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))\n¬(GrowUpIn(taylor, health_consciousChildhoodHome) ⊕ Disregard(taylor, physicalWellbeing))\nRegularlyEat(taylor, salad)",
