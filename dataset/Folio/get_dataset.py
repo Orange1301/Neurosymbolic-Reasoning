@@ -1,7 +1,8 @@
+from sklearn.model_selection import train_test_split
 from datasets import load_dataset
+from model.DataFilter import DataFilter
 import json
-from nltk.sem.logic import LogicParser
-import re
+import os
 
 dataset = load_dataset("yale-nlp/FOLIO")
 
@@ -30,29 +31,42 @@ def preprocess(data_list):
 
     return processed_data
 
-# Save train dataset 
-train_save_path = f"folio_train.json"
-train_data_list = dataset['train'].to_list()
+def save_data_list_to_json(data, path):
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
-processed_train_data = preprocess(train_data_list)
+SAVE_DIR = './output/'
+if not os.path.exists(SAVE_DIR):
+    os.makedirs(SAVE_DIR, exist_ok=True)
+    
+TEST_SAVE_PATH = os.path.join(SAVE_DIR, 'folio_test.json')
+VALID_SAVE_PATH = os.path.join(SAVE_DIR, 'folio_valid.json')
+TRAIN_SAVE_PATH = os.path.join(SAVE_DIR, 'folio_train.json')
 
-with open(train_save_path, "w", encoding="utf-8") as f:
-    json.dump(processed_train_data, f, ensure_ascii=False, indent=4)
-
-# Save valid and test dataset 
-from sklearn.model_selection import train_test_split
-
-valid_save_path = "folio_valid.json"
-test_save_path = "folio_test.json"
-
-processed_data = preprocess(dataset['validation'].to_list())
-story_ids = set([d["story_id"] for d in processed_data])
+processed_examined_data = preprocess(dataset['validation'].to_list())
+story_ids = set([d["story_id"] for d in processed_examined_data])
 valid_ids, test_ids = train_test_split(list(story_ids), test_size=0.5)
 
-processed_valid_data = [d for d in processed_data if d["story_id"] in valid_ids]
-processed_test_data = [d for d in processed_data if d["story_id"] in test_ids]
+processed_test_data = [d for d in processed_examined_data if d["story_id"] in test_ids]
+processed_valid_data = [d for d in processed_examined_data if d["story_id"] in valid_ids]
+processed_train_data = preprocess(dataset['train'].to_list())
 
-with open(valid_save_path, "w", encoding="utf-8") as f:
-    json.dump(processed_valid_data, f, ensure_ascii=False, indent=4)
-with open(test_save_path, "w", encoding="utf-8") as f:
-    json.dump(processed_test_data, f, ensure_ascii=False, indent=4)
+# NOTICE: Always filter with this order (Test -> Valid -> Train)
+logic_filter = DataFilter()
+final_test_data = logic_filter.filter_list(processed_test_data)
+final_valid_data = logic_filter.filter_list(processed_valid_data)
+final_train_data = logic_filter.filter_list(processed_train_data)
+
+save_data_list_to_json(final_test_data, TEST_SAVE_PATH)
+save_data_list_to_json(final_valid_data, VALID_SAVE_PATH)
+save_data_list_to_json(final_train_data, TRAIN_SAVE_PATH)
+
+print('Before filtering:')
+print(f'- Train: {len(processed_train_data)}')
+print(f'- Valid: {len(processed_valid_data)}')
+print(f'- Test: {len(processed_test_data)}')
+print('=' * 20)
+print('After filtering:')
+print(f'- Train: {len(final_train_data)}')
+print(f'- Valid: {len(final_valid_data)}')
+print(f'- Test: {len(final_test_data)}')
