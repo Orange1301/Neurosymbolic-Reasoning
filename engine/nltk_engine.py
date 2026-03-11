@@ -57,7 +57,6 @@ def check_conclusion(premises, conclusion):
         str ("True"/"False"/"Uncertain")
     '''
     # Read fol strings
-    parser = LogicParser()
     translated_premises = [translate_fol(p) for p in premises]
     translated_conclusion = translate_fol(conclusion)
 

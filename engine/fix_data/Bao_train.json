@@ -1,29 +1,5 @@
 [
     {
-        "id": "folio_train_791",
-        "natural": [
-            "Imagine Dragons are an American pop-rock band.",
-            "The lead singer of Imagine Dragons is Dan.",
-            "Dan is also a songwriter.",
-            "All lead singers are singers_",
-            "All singers are musicians.",
-            "Demons is one of the most popular singles of Imagine Dragons.",
-            "Some singles of Imagine Dragons have been on Billboard Hot 100.",
-            "Demons has been on Billboard Hot 100."
-        ],
-        "fol": [
-            "American(imagineDragon) ∧ Rogit ckBand(imagineDragon)",
-            "LeadSinger(imagineDragon, dan)",
-            "SongWriter(dan)",
-            "∀x ∀y (LeadSinger(x, y) → Singer(y))",
-            "∀x (Singer(x) → Musician(x))",
-            "PopularSingle(imagineDragon, demons)",
-            "∃x ∃y (PopularSingle(imagineDragon, x) ∧ BillboardHot100(x)) ∧ (¬(x=y)) ∧ (PopularSingle(imagineDragon, y) ∧ BillboardHot100(y))",
-            "BillboardHot100(demons)"
-        ],
-        "label": "Uncertain"
-    },
-    {
         "id": "folio_train_795",
         "natural": [
             "Common utilities include water, electricity, gas, heating, sewer, trash, and recycling.",
