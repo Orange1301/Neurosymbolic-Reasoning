@@ -97,7 +97,7 @@ import json
 with open('mock_data.json', 'r', encoding='utf-8') as f:
     test_data = json.load(f)
 
-wrong_predictions = []
+wrong_data = []
 total = 0
 count_correct = 0
 count_wrong = 0
@@ -105,19 +105,25 @@ count_error = 0
 for data in test_data:
     total += 1
     try:
-        fol_list = data["fol"].split('\n')
-        predicted = check_conclusion(fol_list[:-1], fol_list[-1])
+        # fol_list = data["fol"].split('\n')
+        # predicted = check_conclusion(fol_list[:-1], fol_list[-1])
+        predicted = check_conclusion(data["fol_premises"].split('\n'), data["fol_conclusion"])
         label = data["label"]
 
         if (predicted != label):
             count_wrong += 1
-            print((data["story_id"], predicted, label))
+            wrong_data.append(data)
+            print((data["id"], predicted, label))
         else:
             count_correct += 1
     except Exception as e:
         count_error += 1
-        story_id = data["story_id"]
+        story_id = data["id"]
+        wrong_data.append(data)
         print(f"{story_id}: {e}")
+
+with open("wrong_folio_train.json", "w", encoding="utf-8") as f:
+    json.dump(wrong_data, f, ensure_ascii=False, indent=4)
 
 print("Total: ", total)
 print("Correct: ", count_correct)
@@ -127,9 +133,9 @@ print("Error:", count_error)
 '''
 For folio_train.json: 
 - Total:  955
-- Correct:  537
-- Wrong:  370
-- Error: 48
+- Correct:  540
+- Wrong:  373
+- Error: 42
 
 For folio_valid.json:
 - Total:  97

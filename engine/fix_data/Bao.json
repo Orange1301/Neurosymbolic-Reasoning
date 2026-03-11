@@ -1,0 +1,1276 @@
+[
+    {
+        "id": "folio_train_791",
+        "natural": [
+            "Imagine Dragons are an American pop-rock band.",
+            "The lead singer of Imagine Dragons is Dan.",
+            "Dan is also a songwriter.",
+            "All lead singers are singers_",
+            "All singers are musicians.",
+            "Demons is one of the most popular singles of Imagine Dragons.",
+            "Some singles of Imagine Dragons have been on Billboard Hot 100.",
+            "Demons has been on Billboard Hot 100."
+        ],
+        "fol": [
+            "American(imagineDragon) ∧ Rogit ckBand(imagineDragon)",
+            "LeadSinger(imagineDragon, dan)",
+            "SongWriter(dan)",
+            "∀x ∀y (LeadSinger(x, y) → Singer(y))",
+            "∀x (Singer(x) → Musician(x))",
+            "PopularSingle(imagineDragon, demons)",
+            "∃x ∃y (PopularSingle(imagineDragon, x) ∧ BillboardHot100(x)) ∧ (¬(x=y)) ∧ (PopularSingle(imagineDragon, y) ∧ BillboardHot100(y))",
+            "BillboardHot100(demons)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_795",
+        "natural": [
+            "Common utilities include water, electricity, gas, heating, sewer, trash, and recycling.",
+            "Many apartment rents cover the cost of water and electricity.",
+            "Susan lives in an apartment where the rent covers all utilities.",
+            "The rent of the apartment where Ava lives does not cover any utility expenses.",
+            "Noah lives in an apartment where the rent does not cover heating.",
+            "Noah needs to pay the water bill."
+        ],
+        "fol": [
+            "CommonUtilities(water) ∧ CommonUtilities(electricity) ∧ CommonUtilities(gas) ∧ CommonUtilities(heating)",
+            "∃x (Apartment(x) ∧ Cover(x, water) ∧ Cover(x, electricity))",
+            "∀x (Apartment(x) ∧ LiveIn(susan, x) ∧ Cover(x, water) ∧ Cover(x, electricity) ∧ Cover(x, gas) ∧ Cover(x, heating))",
+            "∀x (Apartment(x) ∧ LiveIn(ava, x) ∧ ¬Cover(x, water) ∧ ¬Cover(x, electricity) ∧ ¬Cover(x, gas) ∧ ¬Cover(x, heating))",
+            "∀x (Apartment(x) ∧ LiveIn(noah, x) ∧ ¬Cover(x, heating))",
+            "∀x (Apartment(x) ∧ LiveIn(noah, x) ∧ ¬Cover(x, water))"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_799",
+        "natural": [
+            "All clothes are products. ",
+            "No products are perfect. ",
+            "All dresses are clothes.",
+            "All skirts are dresses. ",
+            "If the fabric bundle is a piece of clothing, then the fabric bundle is a perfect dress.",
+            "The fabric bundle is a skirt."
+        ],
+        "fol": [
+            "∀x (Clothes(x) → Product(x))",
+            "∀x (Product(x) → ¬Perfect(x))",
+            "∀x (Dress(x) → Clothes(x))",
+            "∀x (Skirt(x) → Dress(x))",
+            "Clothes(fabricBundle) → Perfect(fabricBundle) ∧ Dress(fabricBundle)",
+            "Skirt(fabricbundle)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_800",
+        "natural": [
+            "All clothes are products. ",
+            "No products are perfect. ",
+            "All dresses are clothes.",
+            "All skirts are dresses. ",
+            "If the fabric bundle is a piece of clothing, then the fabric bundle is a perfect dress.",
+            "The fabric bundle is not a skirt."
+        ],
+        "fol": [
+            "∀x (Clothes(x) → Product(x))",
+            "∀x (Product(x) → ¬Perfect(x))",
+            "∀x (Dress(x) → Clothes(x))",
+            "∀x (Skirt(x) → Dress(x))",
+            "Clothes(fabricBundle) → Perfect(fabricBundle) ∧ Dress(fabricBundle)",
+            "¬Skirt(fabricbundle)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_802",
+        "natural": [
+            "All pets are animals.",
+            "Pets can be either a dog or a cat.",
+            "If a person has a pet, they care for that pet. ",
+            "Dogs and cats can be naughty. ",
+            "Pets who are naughty are not liked as much. ",
+            "Charlie has a naughty pet dog named Leo. ",
+            "Charlie does not like Leo and does not care for Leo."
+        ],
+        "fol": [
+            "∀x (Pet(x) → Animal(x))",
+            "∀x (Pet(x) → (Dog(x) ⊕ Cat(x)))",
+            "∀x ∀y ((Pet(y) ∧ OwnedBy(x,y)) → Cares(x, y))",
+            "∃x ∃y (Cat(x) ∧ Naughty(x) ∧ (¬(x=y)) ∧ Dog(y) ∧ Naughty(y))",
+            "∀x ∀y ((Pet(x) ∧ Naughty(x) ∧ OwnedBy(x,y)) → ¬Liked(x, y))",
+            "OwnedBy(leo, charlie) ∧ Pet(leo) ∧ Dog(leo) ∧ Naughty(leo)",
+            "¬Liked(leo, charlie) ∧ ¬Cares(charlie, leo)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_804",
+        "natural": [
+            "Surprises are either fun or dreadful.",
+            "All scares are surprises.",
+            "All scares are fun."
+        ],
+        "fol": [
+            "∀x (Surprise(x) → (Fun(x) ⊕ Dreadful(x)))",
+            "∀x (Scare(x) → Surprise(x))",
+            "∀x (Scare(x) → Fun(x))"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_812",
+        "natural": [
+            "Elephantopus is a genus of perennial plants in the daisy family.",
+            "Elephantopus is widespread over much of Africa, southern Asia, Australia, and the Americas.",
+            "Several species of Elephantopus are native to the southeastern United States.",
+            "Elephantopus scaber is a traditional medicine.",
+            "Elephantopus is found in Australia and Southern Asia."
+        ],
+        "fol": [
+            "∀x (Elephantopus(x) → (Genus(x, perennialplants) ∧ BelongTo(x, daisyfamily)))",
+            "∃x ∃y ∃z(Elephantopus(x) ∧ In(x,africa) ∧ (¬(x=y)) ∧ Elephantopus(y) ∧ In(y, southernasia) ∧ (¬(x=z)) ∧ (¬(y=z)) ∧ Elephantopus(z) ∧ In(z, australia))",
+            "∃x ∃y (Elephantopus(x) ∧ NativeTo(x, southeasternunitedstates) ∧ (¬(x=y)) ∧ Elephantopus(y) ∧ NativeTo(y, southeasternunitedstates))",
+            "∀x (ElephantopusScaber(x) → TraditionalMedicine(x))",
+            "∃x∃y(Elephantopus(x) ∧ In(x,africa) ∧ Elephantopus(y) ∧ In(y,africa))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_817",
+        "natural": [
+            "All Yale dormitories are located on the Yale campus. ",
+            "All Yale buildings managed by Yale Housing are dormitories. ",
+            "All Yale buildings operated by Yale Housing staff are managed by Yale Housing. ",
+            "None of the Yale buildings open to students were built before 1701. ",
+            "All Yale buildings located on the Yale campus are open to students. ",
+            "Harkness is either a Yale building operated by Yale Housing staff, or it is located on York Street. ",
+            "Harkness is established before 1701."
+        ],
+        "fol": [
+            "∀x (YaleDormitory(x) → LocatedOn(x, yaleCampus))",
+            "∀x ((YaleBuildings(x) ∧ ManagedBy(x, yaleHousing)) → YaleDormitory(x))",
+            "∀x ((YaleBuildings(x) ∧ OperatedBy(x, yaleHousingStaff)) → ManagedBy(x, yaleHousing))",
+            "∀x ((YaleBuildings(x) ∧ OpenToStudents(x)) → (¬∃y(Before(y, yr1701) ∧ Established(x, y))))",
+            "∀x ((YaleBuildings(x) ∧ LocatedOn(x, yaleCampus)) → OpenToStudents(x))",
+            "YaleBuildings(harkness) ∧ (OperatedBy(x, harkness) ⊕ LocatedOn(harkness, yaleCampus))",
+            "∃y(Before(y, year1701) ∧ Established(x, y))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_818",
+        "natural": [
+            "All Yale dormitories are located on the Yale campus. ",
+            "All Yale buildings managed by Yale Housing are dormitories. ",
+            "All Yale buildings operated by Yale Housing staff are managed by Yale Housing. ",
+            "None of the Yale buildings open to students were built before 1701. ",
+            "All Yale buildings located on the Yale campus are open to students. ",
+            "Harkness is either a Yale building operated by Yale Housing staff, or it is located on York Street. ",
+            "Harkness is not established before 1701."
+        ],
+        "fol": [
+            "∀x (YaleDormitory(x) → LocatedOn(x, yaleCampus))",
+            "∀x ((YaleBuildings(x) ∧ ManagedBy(x, yaleHousing)) → YaleDormitory(x))",
+            "∀x ((YaleBuildings(x) ∧ OperatedBy(x, yaleHousingStaff)) → ManagedBy(x, yaleHousing))",
+            "∀x ((YaleBuildings(x) ∧ OpenToStudents(x)) → (¬∃y(Before(y, yr1701) ∧ Established(x, y))))",
+            "∀x ((YaleBuildings(x) ∧ LocatedOn(x, yaleCampus)) → OpenToStudents(x))",
+            "YaleBuildings(harkness) ∧ (OperatedBy(x, harkness) ⊕ LocatedOn(harkness, yaleCampus))",
+            "¬∃y(Before(y, year1701) ∧ Established(x, y))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_822",
+        "natural": [
+            "There are no mansion houses in an urban area.",
+            "All skyscrapers are in urban areas.",
+            "Every creepy haunted house is a mansion house.",
+            "Every terrifying building on Halloween is a creepy haunted house.",
+            "The LaLaurie House is a creepy haunted house or a terrifying building on Halloween.",
+            "The LaLaurie House is either a skyscraper or a mansion house."
+        ],
+        "fol": [
+            "∀x (InUrbanArea(x) → ¬MansionHouse(x))",
+            "∀x (Skyscraper(x) → InUrbanArea(x))",
+            "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
+            "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
+            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
+            "Skyscraper(laLaurieHouse) ⊕ MansionHouse(laLaurieHouse)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_824",
+        "natural": [
+            "There are no mansion houses in an urban area.",
+            "All skyscrapers are in urban areas.",
+            "Every creepy haunted house is a mansion house.",
+            "Every terrifying building on Halloween is a creepy haunted house.",
+            "The LaLaurie House is a creepy haunted house or a terrifying building on Halloween.",
+            "The LaLaurie House is either a skyscraper or a creepy haunted house."
+        ],
+        "fol": [
+            "∀x (InUrbanArea(x) → ¬MansionHouse(x))",
+            "∀x (Skyscraper(x) → InUrbanArea(x))",
+            "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
+            "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
+            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
+            "Skyscraper(laLaurieHouse) ⊕ CreepyHauntedHouse(laLaurieHouse)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_826",
+        "natural": [
+            "There are no mansion houses in an urban area.",
+            "All skyscrapers are in urban areas.",
+            "Every creepy haunted house is a mansion house.",
+            "Every terrifying building on Halloween is a creepy haunted house.",
+            "The LaLaurie House is a creepy haunted house or a terrifying building on Halloween.",
+            "If the LaLaurie House is either a skyscraper or a mansion house, then it is in an urban area."
+        ],
+        "fol": [
+            "∀x (InUrbanArea(x) → ¬MansionHouse(x))",
+            "∀x (Skyscraper(x) → InUrbanArea(x))",
+            "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
+            "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
+            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
+            "Skyscraper(laLaurieHouse) ⊕ MansionHouse(laLaurieHouse) → InUrbanArea(laLaurieHouse)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_827",
+        "natural": [
+            "There are no mansion houses in an urban area.",
+            "All skyscrapers are in urban areas.",
+            "Every creepy haunted house is a mansion house.",
+            "Every terrifying building on Halloween is a creepy haunted house.",
+            "The LaLaurie House is a creepy haunted house or a terrifying building on Halloween.",
+            "If the LaLaurie House is either a skyscraper or a mansion house, then it is neither a creepy haunted house nor a terrifying building on Halloween."
+        ],
+        "fol": [
+            "∀x (InUrbanArea(x) → ¬MansionHouse(x))",
+            "∀x (Skyscraper(x) → InUrbanArea(x))",
+            "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
+            "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
+            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
+            "Skyscraper(laLaurieHouse) ⊕ MansionHouse(laLaurieHouse) → ¬(CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_828",
+        "natural": [
+            "There are no mansion houses in an urban area.",
+            "All skyscrapers are in urban areas.",
+            "Every creepy haunted house is a mansion house.",
+            "Every terrifying building on Halloween is a creepy haunted house.",
+            "The LaLaurie House is a creepy haunted house or a terrifying building on Halloween.",
+            "If the LaLaurie House is either a skyscraper or a creepy haunted house, then it is not a mansion house."
+        ],
+        "fol": [
+            "∀x (InUrbanArea(x) → ¬MansionHouse(x))",
+            "∀x (Skyscraper(x) → InUrbanArea(x))",
+            "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
+            "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
+            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
+            "Skyscraper(laLaurieHouse) ⊕ CreepyHauntedHouse(laLaurieHouse) → ¬MansionHouse(laLaurieHouse)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_830",
+        "natural": [
+            "Phuoc Binh national park is a national park in Vietnam. ",
+            "Any national park in Vietnam is classified as a nature reserve. ",
+            "There is a national park in Vietnam classified as a UNESCO World Heritage Site.",
+            "All national parks in Vietnam are either managed by the Ministry of Agriculture or managed by the People's Committee. ",
+            "Phuoc Binh is not managed by the Ministry of Agriculture.",
+            "Phuoc Binh is a UNESCO Heritage Site."
+        ],
+        "fol": [
+            "NationalPark(phuocBinh) ∧ Locatedin(phuocBinh, vietnam)",
+            "∀x ((NationalPark(x) ∧ Locatedin(x, vietnam)) → NatureReserve(x))",
+            "∃x (NationalPark(x) ∧ Locatedin(x, vietnam) ∧ UNESCOWorldHeritageSite(x))",
+            "∀x ((NationalPark(x) ∧ Locatedin(x, vietnam)) → (Mangedby(x, ministryofAgriculture) ⊕ Managedby(x, peoplesCommittee)))",
+            "¬Mangedby(phuocBinh, ministryofAgriculture)",
+            "UNESCOWorldHeritageSite(phuocBinh)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_834",
+        "natural": [
+            "If a soccer player receives two yellow cards in one game, this player will be ejected from the rest of the game.",
+            "If a soccer player receives one red card in one game, this player will be ejected from the rest of the game.",
+            "Henry is a soccer player.",
+            "In one game, Henry receives one yellow card and one red card.",
+            "Henry will be ejected from the rest of the game."
+        ],
+        "fol": [
+            "∀x (SoccerPlayer(x) ∧ Receive(x, twoYellowCard) → EjectFromRestOfGame(x))",
+            "∀x (SoccerPlayer(x) ∧ Receive(x, oneRedCard)) → EjectFromRestOfGame(x)",
+            "SoccerPlayer(henry)",
+            "Receive(henry, oneYellowCard) ∧ Receive(x, oneRedCard)",
+            "EjectFromRestOfGame(henry)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_835",
+        "natural": [
+            "If a soccer player receives two yellow cards in one game, this player will be ejected from the rest of the game.",
+            "If a soccer player receives one red card in one game, this player will be ejected from the rest of the game.",
+            "Henry is a soccer player.",
+            "In one game, Henry receives one yellow card and one red card.",
+            "Henry will not be ejected from the rest of the game."
+        ],
+        "fol": [
+            "∀x (SoccerPlayer(x) ∧ Receive(x, twoYellowCard) → EjectFromRestOfGame(x))",
+            "∀x (SoccerPlayer(x) ∧ Receive(x, oneRedCard)) → EjectFromRestOfGame(x)",
+            "SoccerPlayer(henry)",
+            "Receive(henry, oneYellowCard) ∧ Receive(x, oneRedCard)",
+            "¬EjectFromRestOfGame(henry)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_841",
+        "natural": [
+            "It is not true that some giant language models do not have good performance. ",
+            "All language models with good performance are used by some researchers_",
+            "If a language model is used by some researchers, it is popular. ",
+            "If BERT is a giant language model, then GPT-3 is also a giant language model. ",
+            "BERT is a giant language model. ",
+            "GPT-3 is popular."
+        ],
+        "fol": [
+            "¬(∃x (LanguageModel(x) ∧ Giant(x) ∧ ¬GoodPerformance(x)))",
+            "∀x ∃y ∃z (LanguageModel(x) ∧ GoodPerformance(x) → ¬(x=y) ∧ Researcher(y) ∧ UsedBy(x, y) ∧ Researcher(z) ∧ UsedBy(x, z))",
+            "∀x ∃y ∃z (LanguageModel(x) ∧ ¬(x=y) ∧ Researcher(y) ∧ UsedBy(x, y) ∧ Researcher(z) ∧ UsedBy(x, z) → Popular(x))",
+            "(LanguageModel(bert) ∧ Giant(bert)) → (LanguageModel(gpt_3) ∧ Giant(gpt_3))",
+            "LanguageModel(bert) ∧ Giant(bert)",
+            "Popular(gpt_3)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_843",
+        "natural": [
+            "St Johnstone is a Scottish team.",
+            "St Johnstone is part of the Scottish Premiership league.",
+            "If a team is part of the league, it has joined the league.",
+            "St Johnstone and Minsk are different teams.",
+            "For two teams, either one team wins, or the other team wins.",
+            "Minsk won against St Johnstone.",
+            "St Johnstone won against Minsk."
+        ],
+        "fol": [
+            "Scottish(stJohnstone) ∧ Team(stJohnstone)",
+            "PartOf(stJohnstone, scottishPremiership) ∧ League(scottishPremiership)",
+            "∀x ∀y (Team(x) ∧ League(y) ∧ PartOf(x, y) → Joined(x, y))",
+            "¬(misnk=stJohnstone)",
+            "∀x ∀y (¬(x=y) → WonAgainst(x, y) ⊕ WonAgainst(y, x))",
+            "WonAgainst(minsk, stJohnstone)",
+            "WonGame(stJohnstone, minsk)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_846",
+        "natural": [
+            "No Boeing-737 plane has more than 300 seats. ",
+            "All of the planes acquired by Delta in this batch are Boeing-737. ",
+            "Planes either have more than 300 seats or have a capacity of 100 passengers_ ",
+            "All planes with a capacity of 100 passengers are scheduled for a short-distance flight. ",
+            "All planes with a capacity of 100 passengers are produced before 2010. ",
+            "Jake32 is either a Boeing-737 plane or a plane acquired by Delta in this batch.",
+            "T10 is either both a Boeing-737 plane and acquired by Delta in this batch, or it is neither.",
+            "Jake32 is not produced before 2010 and is not scheduled for a short-distance flight."
+        ],
+        "fol": [
+            "∀x (Plane(x) ∧ Boeing737(x) → (¬∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))))",
+            "∀x (Plane(x) ∧ AcquiredBy(x, delta) → Boeing737(x))",
+            "∀x (Plane(x) → ((∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))) ⊕ (∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)))))",
+            "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ScheduledFor(x, shortdistanceflight))",
+            "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ∃z(Before(z, yr2010) ∧ Produced(x, z)))",
+            "(Boeing737(jake32) ∧ Plane(jake32)) ⊕ (AcquiredByDeltaInThisBatch(jake32) ∧ Plane(jake32))",
+            "¬((Boeing737(t10) ∧ Plane(t10)) ⊕ (AcquiredByDeltaInThisBatch(t10) ∧ Plane(t10)))",
+            "¬(∃z(Before(z, year2010) ∧ Produced(jake32, z)) ∧ ScheduledFor(jake32, shortdistanceflight))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_848",
+        "natural": [
+            "No Boeing-737 plane has more than 300 seats. ",
+            "All of the planes acquired by Delta in this batch are Boeing-737. ",
+            "Planes either have more than 300 seats or have a capacity of 100 passengers_ ",
+            "All planes with a capacity of 100 passengers are scheduled for a short-distance flight. ",
+            "All planes with a capacity of 100 passengers are produced before 2010. ",
+            "Jake32 is either a Boeing-737 plane or a plane acquired by Delta in this batch.",
+            "T10 is either both a Boeing-737 plane and acquired by Delta in this batch, or it is neither.",
+            "Jake32 is neither produced before 2010 nor scheduled for a short-distance flight."
+        ],
+        "fol": [
+            "∀x (Plane(x) ∧ Boeing737(x) → (¬∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))))",
+            "∀x (Plane(x) ∧ AcquiredBy(x, delta) → Boeing737(x))",
+            "∀x (Plane(x) → ((∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))) ⊕ (∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)))))",
+            "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ScheduledFor(x, shortdistanceflight))",
+            "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ∃z(Before(z, yr2010) ∧ Produced(x, z)))",
+            "(Boeing737(jake32) ∧ Plane(jake32)) ⊕ (AcquiredByDeltaInThisBatch(jake32) ∧ Plane(jake32))",
+            "¬((Boeing737(t10) ∧ Plane(t10)) ⊕ (AcquiredByDeltaInThisBatch(t10) ∧ Plane(t10)))",
+            "¬∃z(Before(z, year2010) ∧ Produced(jake32, z)) ∧ ¬ScheduledFor(jake32, shortdistanceflight)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_849",
+        "natural": [
+            "The SAT test is wholly owned and developed by the College Board.",
+            "The SAT test is intended to assess students' readiness for college.",
+            "The SAT was originally designed not to be aligned with high school curricula. ",
+            "Several adjustments were made to the version of the SAT introduced in 2016 to align with the high school curriculum.",
+            "The SAT test is owned by the College Board and other third parties."
+        ],
+        "fol": [
+            "OwnedBy(sAT, collegeBoard) ∧ DevelopedBy(sAT, collegeBoard) ∧ ¬(∃y (¬(y=collegeBoard) ∧ (OwnedBy(sAT, y) ∨ DevelopedBy(sAT, y))))",
+            "IntendedToAssess(sAT, studentsReadinessForCollege)",
+            "OriginallyDesignedToBeAlignedWith(sAT, highSchoolCurricula)",
+            "AdjustmentMadeIn(sAT, 2016, toAlignWithHighSchoolCurriculum)",
+            "OwnedBy(sAT, collegeBoard) ∧ OwnedBy(sAT, otherThirdParties)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_855",
+        "natural": [
+            "No animals are plants.",
+            "All humans are animals.",
+            "All pupils are humans.",
+            "All flowers are plants.",
+            "Bailey is either both a human and a flower or neither a human nor a flower.",
+            "Bailey is a pupil."
+        ],
+        "fol": [
+            "∀x (Animal(x) → ¬Plant(x))",
+            "∀x (Human(x) → Animal(x))",
+            "∀x (Pupil(x) → Human(x))",
+            "∀x (Flower(x) → Plant(x))",
+            "¬(Human(bailey) ⊕ Flower(bailey))",
+            "Pupil(bailey)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_856",
+        "natural": [
+            "No animals are plants.",
+            "All humans are animals.",
+            "All pupils are humans.",
+            "All flowers are plants.",
+            "Bailey is either both a human and a flower or neither a human nor a flower.",
+            "Bailey is not a pupil."
+        ],
+        "fol": [
+            "∀x (Animal(x) → ¬Plant(x))",
+            "∀x (Human(x) → Animal(x))",
+            "∀x (Pupil(x) → Human(x))",
+            "∀x (Flower(x) → Plant(x))",
+            "¬(Human(bailey) ⊕ Flower(bailey))",
+            "¬Pupil(bailey)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_858",
+        "natural": [
+            "No animals are plants.",
+            "All humans are animals.",
+            "All pupils are humans.",
+            "All flowers are plants.",
+            "Bailey is either both a human and a flower or neither a human nor a flower.",
+            "If Bailey is a human, then Bailey is not a pupil."
+        ],
+        "fol": [
+            "∀x (Animal(x) → ¬Plant(x))",
+            "∀x (Human(x) → Animal(x))",
+            "∀x (Pupil(x) → Human(x))",
+            "∀x (Flower(x) → Plant(x))",
+            "¬(Human(bailey) ⊕ Flower(bailey))",
+            "Human(bailey) → ¬Pupil(bailey)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_860",
+        "natural": [
+            "Shoes are not food.",
+            "All slippers are shoes.",
+            "Any object donated to the homeless charity is either clothes or food.",
+            "Wearable things are not edible.",
+            "All clothes are wearable. ",
+            "The watch is donated to the homeless charify.",
+            "If the watch is not both edible and a piece of clothing, then the watch is either both edible and a piece of clothing or the watch is neither of them.",
+            "A watch is a slipper."
+        ],
+        "fol": [
+            "∀x (Shoe(x) → ¬Food(x))",
+            "∀x (Slipper(x) → Shoe(x))",
+            "∀x (DonatedTo(x, homelessCharity) → Food(x) ⊕ Clothes(x))",
+            "∀x (Wearable(x) → ¬Edible(x))",
+            "∀x (Clothes(x) → Wearable(x))",
+            "DonatedTo(watch, homelessCharify)",
+            "¬(Edible(watch) ∧ Clothes(watch)) → ¬(Edible(watch) ⊕ Clothes(watch))",
+            "Slipper(watch)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_861",
+        "natural": [
+            "Shoes are not food.",
+            "All slippers are shoes.",
+            "Any object donated to the homeless charity is either clothes or food.",
+            "Wearable things are not edible.",
+            "All clothes are wearable. ",
+            "The watch is donated to the homeless charify.",
+            "If the watch is not both edible and a piece of clothing, then the watch is either both edible and a piece of clothing or the watch is neither of them.",
+            "A watch is neither edible nor a slipper."
+        ],
+        "fol": [
+            "∀x (Shoe(x) → ¬Food(x))",
+            "∀x (Slipper(x) → Shoe(x))",
+            "∀x (DonatedTo(x, homelessCharity) → Food(x) ⊕ Clothes(x))",
+            "∀x (Wearable(x) → ¬Edible(x))",
+            "∀x (Clothes(x) → Wearable(x))",
+            "DonatedTo(watch, homelessCharify)",
+            "¬(Edible(watch) ∧ Clothes(watch)) → ¬(Edible(watch) ⊕ Clothes(watch))",
+            "¬Edible(watch) ∧ ¬Slipper(watch)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_865",
+        "natural": [
+            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
+            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
+            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
+            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+            "Sam is a young teenage girl who attends music festival frequently"
+        ],
+        "fol": [
+            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (Ambitious(x) → MoveOutEasily(x))",
+            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
+            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
+            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+            "Attend(sam, festival) ∧ YoungTeenageGirl(sam)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_866",
+        "natural": [
+            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
+            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
+            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
+            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+            "Sam is not a young teenage girl who attends music festival frequently"
+        ],
+        "fol": [
+            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (Ambitious(x) → MoveOutEasily(x))",
+            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
+            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
+            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+            "¬(Attend(sam, festival) ∧ YoungTeenageGirl(sam))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_868",
+        "natural": [
+            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
+            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
+            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
+            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+            "Sam neither has high ambitions and future career goals nor is she a young teenage girl attending music festival frequently"
+        ],
+        "fol": [
+            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (Ambitious(x) → MoveOutEasily(x))",
+            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
+            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
+            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+            "¬(Ambitious(sam) ∨ (Attend(sam, festival) ∧ YoungTeenageGirl(sam)))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_869",
+        "natural": [
+            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
+            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
+            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
+            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+            "Sam has high ambitions and future career goals and is a young teenage girl attending music festival frequently."
+        ],
+        "fol": [
+            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (Ambitious(x) → MoveOutEasily(x))",
+            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
+            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
+            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+            "Ambitious(sam) ∧ Attend(sam, festival) ∧ YoungTeenageGirl(sam)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_870",
+        "natural": [
+            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
+            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
+            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
+            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+            "Sam has high ambitions and future career goals and is a young teenage girl attending college."
+        ],
+        "fol": [
+            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (Ambitious(x) → MoveOutEasily(x))",
+            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
+            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
+            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+            "Ambitious(sam) ∧ Attend(sam, festival) ∧ YoungTeenageGirl(sam)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_871",
+        "natural": [
+            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
+            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
+            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
+            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+            "If Sam is a young teenage girl attending college, then Sam either does not have high ambitions and future career goals or is a big fan of pop bands and singers_"
+        ],
+        "fol": [
+            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (Ambitious(x) → MoveOutEasily(x))",
+            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
+            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
+            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+            "Attend(sam, festival) ∧ YoungTeenageGirl(sam) → ¬(Ambitious(sam) ∨ (BigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_872",
+        "natural": [
+            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
+            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
+            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
+            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+            "If Sam has high ambitions and future career goals and is a young teenage girl attending college, then Sam either does not have high ambitions and future career goals or is not a young teenage girl attending college."
+        ],
+        "fol": [
+            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (Ambitious(x) → MoveOutEasily(x))",
+            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
+            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
+            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+            "Ambitious(sam) ∧ Attend(sam, festival) ∧ YoungTeenageGirl(sam) → ¬(Ambitious(sam) ∨ (Attend(sam, festival) ∧ YoungTeenageGirl(sam)))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_873",
+        "natural": [
+            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
+            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
+            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
+            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+            "If Sam has high ambitions and future career goals, then Sam is a young teenage girl attending college."
+        ],
+        "fol": [
+            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (Ambitious(x) → MoveOutEasily(x))",
+            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
+            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
+            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+            "Ambitious(sam) → Attend(sam, festival) ∧ YoungTeenageGirl(sam)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_878",
+        "natural": [
+            "Quincy McDuffie is an American professional wide receiver in Canadian Football.",
+            "People who can catch balls are good wide receivers_ ",
+            "Quincy McDuffie can catch some footballs easily.",
+            "Good wide receivers play professionally.",
+            "Good wide receivers can catch with both their left and right hand.",
+            "All footballs are balls.",
+            "Quincy McDuffie can catch every ball."
+        ],
+        "fol": [
+            "American(quincyMcduffie) ∧ Professional(quincyMcduffie) ∧ WideReciever(quincyMcduffie) ∧ PlaysIn(quincyMcduffie, cFL)",
+            "∀x ((∃y(CanCatch(x, y) ∧ Ball(y))) → GoodWideReceiver(x))",
+            "∃x ∃y (Football(x) ∧ CanCatch(quincymcduffie, x)) ∧ (¬(x=y) ∧ (Football(y) ∧ CanCatch(quincymcduffie, y)))",
+            "∀x (GoodWideReceiver(x) → Professional(x))",
+            "∀x (GoodWideReceiver(x) → (CanCatchWith(x, lefthand) ∧ CanCatchWith(x, righthand)))",
+            "∀x (Football(x) → Ball(x))",
+            "∀x (Ball(x) → CanCatch(quincymcduffie, x))"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_879",
+        "natural": [
+            "Quincy McDuffie is an American professional wide receiver in Canadian Football.",
+            "People who can catch balls are good wide receivers_ ",
+            "Quincy McDuffie can catch some footballs easily.",
+            "Good wide receivers play professionally.",
+            "Good wide receivers can catch with both their left and right hand.",
+            "All footballs are balls.",
+            "Professional wide receivers are good at catching balls."
+        ],
+        "fol": [
+            "American(quincyMcduffie) ∧ Professional(quincyMcduffie) ∧ WideReciever(quincyMcduffie) ∧ PlaysIn(quincyMcduffie, cFL)",
+            "∀x ((∃y(CanCatch(x, y) ∧ Ball(y))) → GoodWideReceiver(x))",
+            "∃x ∃y (Football(x) ∧ CanCatch(quincymcduffie, x)) ∧ (¬(x=y) ∧ (Football(y) ∧ CanCatch(quincymcduffie, y)))",
+            "∀x (GoodWideReceiver(x) → Professional(x))",
+            "∀x (GoodWideReceiver(x) → (CanCatchWith(x, lefthand) ∧ CanCatchWith(x, righthand)))",
+            "∀x (Football(x) → Ball(x))",
+            "∀x ((Professional(x) ∧ WideReciever(x)) → Good(x, catchingballs))"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_894",
+        "natural": [
+            "All drinks on the counter are edible. ",
+            "All juices on the counter are drinks. ",
+            "Orange juice is a type of juice. ",
+            "Everything on the counter is either orange juice or apple juice.",
+            "All apple juices on the counter are sweet.",
+            "The coke is on the counter and if the coke is apple juice, then the coke is a drink.",
+            "If the coke is not apple juice, then the coke is not edible.",
+            "The coke is orange juice."
+        ],
+        "fol": [
+            "∀x (OnCounter(x) ∧ Drink(x) → Edible(x))",
+            "∀x (OnCounter(x) ∧ Juice(x) → Drink(x))",
+            "∀x (OrangeJuice(x) → Juice(x))",
+            "∀x (OnCounter(x) → OrangeJuice(x) ⊕ AppleJuice(x))",
+            "∀x (OnCounter(x) ∧ AppleJuice(x) → Sweet(x))",
+            "OnCounter(coke) ∧ (AppleJuice(coke) → Drink(coke))",
+            "¬AppleJuice(coke) → ¬Edible(coke)",
+            "OrangeJuice(coke)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_900",
+        "natural": [
+            "People in Franny's family drink kombucha every day or drink Coca-Cola or a Pepsi product.",
+            "If people in Franny's family drink Coca-Cola or a Pepsi product every day, then they grew up with extremely busy parents who did not have time to pack them lunch.",
+            "If people in Franny's family drink Coca-Cola or another Pepsi product every day, then they have to visit the dentist frequently.",
+            "If people in Franny's family grew up with extremely busy parents who did not have time to pack them lunch, then they have erratic and diverse eating habits.",
+            "If people in Franny's family have erratic and diverse eating habits, then they do not have consistent everyday routines and like sticking to a solid schedule.",
+            "Damon is in Franny's family. ",
+            "Damon either both grow up with extremely busy parents who did not have time to pack her lunch and have consistent everyday routines and like sticking to a solid schedule, or Damon did neither.",
+            "If Damon is in Franny's family and he either both grew up with extremely busy parents who did not have time to pack his lunch and drink kombucha every day or neither grew up with extremely busy parents who did not have time to pack his lunch nor drink kombucha every day, then Damon neither visits the dentist frequently nor drinks Coca Cola or Pepsi products."
+        ],
+        "fol": [
+            "∀x (In(x, frannysFamily) ∧ (Drink(x, kombucha) ∨ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y))))))",
+            "∀x (In(x, frannysFamily) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y)))) → (∃y ∃z (¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z))))",
+            "∀x (In(x, frannysFamily)) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y)))) → HaveToVisitFrequently(x, dentist)",
+            "∀x (In(x, frannysFamily) ∧ (∃y ∃z (¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z))) → ∃y (Have(x, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y)))",
+            "∀x (In(x, frannysFamily) ∧ ∃y (Have(x, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y))) → ¬(ConsistentEverydayRoutine(x) ∧ StickTo(damon, solidSchedule))",
+            "In(damon, frannysFamily)",
+            "¬((∃y ∃z(¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(damon, y) ∧ GrowUpWith(damon, z))) ⊕ (ConsistentEverydayRoutine(damon) ∧ StickTo(damon, solidSchedule)))",
+            "¬((¬(y=z) ∧ ∃y ∃z (BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(damon, y) ∧ GrowUpWith(damon, z))) ⊕ Drink(damon, kombucha)) → ¬(HaveToVisitFrequently(damon, dentist) ∨ (∃y (Have(damon, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y))))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_901",
+        "natural": [
+            "People in Franny's family drink kombucha every day or drink Coca-Cola or a Pepsi product.",
+            "If people in Franny's family drink Coca-Cola or a Pepsi product every day, then they grew up with extremely busy parents who did not have time to pack them lunch.",
+            "If people in Franny's family drink Coca-Cola or another Pepsi product every day, then they have to visit the dentist frequently.",
+            "If people in Franny's family grew up with extremely busy parents who did not have time to pack them lunch, then they have erratic and diverse eating habits.",
+            "If people in Franny's family have erratic and diverse eating habits, then they do not have consistent everyday routines and like sticking to a solid schedule.",
+            "Damon is in Franny's family. ",
+            "Damon either both grow up with extremely busy parents who did not have time to pack her lunch and have consistent everyday routines and like sticking to a solid schedule, or Damon did neither.",
+            "If Damon is in Franny's family and he either visits the dentist frequently or drinks kombucha, then Damon both visits the dentist frequently and drinks Coca-Cola or Pepsi products every day."
+        ],
+        "fol": [
+            "∀x (In(x, frannysFamily) ∧ (Drink(x, kombucha) ∨ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y))))))",
+            "∀x (In(x, frannysFamily) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y)))) → (∃y ∃z (¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z))))",
+            "∀x (In(x, frannysFamily)) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y)))) → HaveToVisitFrequently(x, dentist)",
+            "∀x (In(x, frannysFamily) ∧ (∃y ∃z (¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z))) → ∃y (Have(x, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y)))",
+            "∀x (In(x, frannysFamily) ∧ ∃y (Have(x, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y))) → ¬(ConsistentEverydayRoutine(x) ∧ StickTo(damon, solidSchedule))",
+            "In(damon, frannysFamily)",
+            "¬((∃y ∃z(¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(damon, y) ∧ GrowUpWith(damon, z))) ⊕ (ConsistentEverydayRoutine(damon) ∧ StickTo(damon, solidSchedule)))",
+            "HaveToVisitFrequently(damon, dentist) ∨ Drink(damon, kombucha, everyDay) → HaveToVisitFrequently(damon, dentist) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y))))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_907",
+        "natural": [
+            "There are eight federal districts of Russia: Central, Northwestern, Southern, North Caucasian, Volga, Ural, Siberian, and Far Eastern.",
+            "The Central federal district has the largest population among all federal districts in Russia.",
+            "Moscow is the administrative center of the Central federal district.",
+            "Yekaterinburg is the administrative center of the Ural federal district.",
+            "Vladivostok is the administrative center of the Far Eastern federal district.",
+            "The Far Eastern federal district has the largest area among all federal districts in Russia.",
+            "Some federal districts in Russia were established in 2000.",
+            "Moscow is the administrative center of the federal district with the largest population."
+        ],
+        "fol": [
+            "FederalDistrictOf(central, russia) ∧ FederalDistrictOf(northwestern, russia) ∧ FederalDistrictOf(southern, russia) ∧ FederalDistrictOf(northcaucasian, russia) ∧ FederalDistrictOf(volga, russia) ∧ FederalDistrictOf(ural, russia) ∧ FederalDistrictOf(siberian, russia) ∧ FederalDistrictOf(fareastern, russia)",
+            "LargestPopulation(central)",
+            "AdministrativeCenterOf(moscow, central)",
+            "AdministrativeCenterOf(yekaterinburg, ural)",
+            "AdministrativeCenterOf(vladivostok, farEastern)",
+            "LargestArea(farEastern)",
+            "∃x (FederalDistrictOf(x, russia) ∧ EstablishedIn(x, 2000))",
+            "∃x (AdministrativeCenterOf(moscow, x) ∧ LargestPopulationIn(x))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_910",
+        "natural": [
+            "All cancers have mutations.",
+            "No mutations can be treated at home.",
+            "All colorectal cancers are cancers_",
+            "A cold can be treated at home.",
+            "Arthritis either is a cold and has mutations or neither is a cold nor has mutations.",
+            "Arthritis is colorectal cancer."
+        ],
+        "fol": [
+            "∀x (Cancer(x) → Have(x, mutation))",
+            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (ColorectalCancer(x) → Cancer(x))",
+            "∀x (Cold(x) → CanBeTreatedAtHome(x))",
+            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
+            "ColorectalCancer(arthritis)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_911",
+        "natural": [
+            "All cancers have mutations.",
+            "No mutations can be treated at home.",
+            "All colorectal cancers are cancers_",
+            "A cold can be treated at home.",
+            "Arthritis either is a cold and has mutations or neither is a cold nor has mutations.",
+            "Arthritis is not colorectal cancer."
+        ],
+        "fol": [
+            "∀x (Cancer(x) → Have(x, mutation))",
+            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (ColorectalCancer(x) → Cancer(x))",
+            "∀x (Cold(x) → CanBeTreatedAtHome(x))",
+            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
+            "¬ColorectalCancer(arthritis)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_912",
+        "natural": [
+            "All cancers have mutations.",
+            "No mutations can be treated at home.",
+            "All colorectal cancers are cancers_",
+            "A cold can be treated at home.",
+            "Arthritis either is a cold and has mutations or neither is a cold nor has mutations.",
+            "Arthritis is colorectal cancer or has mutations."
+        ],
+        "fol": [
+            "∀x (Cancer(x) → Have(x, mutation))",
+            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (ColorectalCancer(x) → Cancer(x))",
+            "∀x (Cold(x) → CanBeTreatedAtHome(x))",
+            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
+            "ColorectalCancer(arthritis) ∨ Have(arthritis, mutation)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_913",
+        "natural": [
+            "All cancers have mutations.",
+            "No mutations can be treated at home.",
+            "All colorectal cancers are cancers_",
+            "A cold can be treated at home.",
+            "Arthritis either is a cold and has mutations or neither is a cold nor has mutations.",
+            "Arthritis is colorectal cancer and a cancer."
+        ],
+        "fol": [
+            "∀x (Cancer(x) → Have(x, mutation))",
+            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (ColorectalCancer(x) → Cancer(x))",
+            "∀x (Cold(x) → CanBeTreatedAtHome(x))",
+            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
+            "ColorectalCancer(arthritisr) ∧ Cancer(arthritis)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_914",
+        "natural": [
+            "All cancers have mutations.",
+            "No mutations can be treated at home.",
+            "All colorectal cancers are cancers_",
+            "A cold can be treated at home.",
+            "Arthritis either is a cold and has mutations or neither is a cold nor has mutations.",
+            "If arthritis is not colorectal cancer, then arthritis has mutations."
+        ],
+        "fol": [
+            "∀x (Cancer(x) → Have(x, mutation))",
+            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (ColorectalCancer(x) → Cancer(x))",
+            "∀x (Cold(x) → CanBeTreatedAtHome(x))",
+            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
+            "¬ColorectalCancer(arthritis) → Have(arthritis, mutation)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_915",
+        "natural": [
+            "Jerry should not worry about things outside of his control.",
+            "All traffic is outside of my control.",
+            "Jerry should not worry about traffic."
+        ],
+        "fol": [
+            "∀x (OutsideOfControl(x) → ¬ShouldWorry(jerry, x))",
+            "∀x (Traffic(x) → OutsideControl(x))",
+            "¬ShouldWorry(jerry, traffic)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_918",
+        "natural": [
+            "Roversi is an Italian surname.",
+            "Alba Roversi uses Roversi as a surname.",
+            "Paolo Roversi uses Roversi as a surname.",
+            "Roberto Roversi uses Roversi as a surname.",
+            "Paolo Roversi is a photographer.",
+            "A photographer is a professional or an amateur.",
+            "Paolo is an amateur photographer."
+        ],
+        "fol": [
+            "ItalianName(roversi) ∧ Surname(roversi)",
+            "UseAsSurname(albaRoversi, roversi)",
+            "UseAsSurname(paoloRoversi, roversi)",
+            "UseAsSurname(robertoRoversi, roversi)",
+            "Photographer(paoloRoversi)",
+            "∀x (Photographer(x) → Professional(x) ⊕ Amateur(x))",
+            "Amateur(paoloRoversi) ∧ Photographer(paoloRoversi)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_921",
+        "natural": [
+            "Zaha Hadid is a British-Iraqi architect, artist, and designer.",
+            "Zaha Hadid was born on 31 October 1950 in Baghdad, Iraq.",
+            "Zaha Hadid was a visiting professor of Architectural Design at the Yale School of Architecture.",
+            "Max is an aspiring architecture student and plans to apply to the Yale School of Architecture. ",
+            "Zaha Hadid was born on the 31st of October in 1982."
+        ],
+        "fol": [
+            "British_Iraqi(zahaHadid) ∧ Architect(zahaHadid) ∧ Artist(zahaHadid) ∧ Designer(zahaHadid)",
+            "BornOn(zahaHadid, 31October1950) ∧ BornIn(zahaHadid, baghdadIraq)",
+            "VisitingProfessorOf(zahaHadid, architecturalDesign) ∧ VisitingProfessorAt(zahaHadid, yaleSchoolOfArchitecture)",
+            "AspiringArchitectureStudent(max) ∧ PlansToApplyTo(max, yaleSchoolofArchitecture)",
+            "BornOn(zahaHadid, 31October1950)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_923",
+        "natural": [
+            "A neuroimaging technique is either an invasive neuroimaging technique or a noninvasive neuroimaging technique. ",
+            "All noninvasive neuroimaging techniques provide a spatial resolution of brains.",
+            "If a technique provides a spatial resolution of brains, then it is a measurement of brain activity. ",
+            "All measurements of brain activity are used by neuroscience researchers_",
+            "FMRI is either a measurement of brain activity or a noninvasive neuroimaging technique.",
+            "FMRI is a neuroimaging technique.",
+            "FMRI provides a spatial resolution of brains."
+        ],
+        "fol": [
+            "∀x (NeuroimagingTechnique(x) → (Invasive(x) ⊕ Noninvasive(x)))",
+            "∀x (Noninvasive(x) → Provides(x, spatialResolutionOfBrains))",
+            "∀x (Provides(x, spatialResolutionOfBrains) → Measure(x, brainActivity))",
+            "∀x (Measure(x, brainActivity) → UsedBy(x, neuroscienceResearchers))",
+            "Measure(fMRI, brainActivity) ⊕ Noninvasive(fMRI)",
+            "NeuroimagingTechnique(fMRI)",
+            "Provides(fMRI, spatialResolutionOfBrains)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_925",
+        "natural": [
+            "A neuroimaging technique is either an invasive neuroimaging technique or a noninvasive neuroimaging technique. ",
+            "All noninvasive neuroimaging techniques provide a spatial resolution of brains.",
+            "If a technique provides a spatial resolution of brains, then it is a measurement of brain activity. ",
+            "All measurements of brain activity are used by neuroscience researchers_",
+            "FMRI is either a measurement of brain activity or a noninvasive neuroimaging technique.",
+            "FMRI is a neuroimaging technique.",
+            "FMRI is either an invasive neuroimaging technique or is used by neuroscience researchers_"
+        ],
+        "fol": [
+            "∀x (NeuroimagingTechnique(x) → (Invasive(x) ⊕ Noninvasive(x)))",
+            "∀x (Noninvasive(x) → Provides(x, spatialResolutionOfBrains))",
+            "∀x (Provides(x, spatialResolutionOfBrains) → Measure(x, brainActivity))",
+            "∀x (Measure(x, brainActivity) → UsedBy(x, neuroscienceResearchers))",
+            "Measure(fMRI, brainActivity) ⊕ Noninvasive(fMRI)",
+            "NeuroimagingTechnique(fMRI)",
+            "Invasive(fMRI) ⊕ UsedBy(fMRI, neuroscienceResearchers)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_927",
+        "natural": [
+            "Researchers present their work at the conference or provide a tutorial session there.",
+            "Everyone who presents their work at the conference will attend in person. ",
+            "Everyone providing a tutorial session at the conference will be invited to join the club. ",
+            "Everyone who attends the conference in person is provided with souvenirs_ ",
+            "Everyone invited to join the club is provided with delicious meals. ",
+            "Everyone provided with delicious meals is happy to communicate with each other during the dinner. ",
+            "Everyone who is provided with delicious meals is invited to take a photo with the audience. ",
+            "It is not true that James both attended the conference in person and was provided with souvenirs_",
+            "James is provided with souvenirs_"
+        ],
+        "fol": [
+            "∀x (PresentWorkAt(x, conference) ⊕ ProvideAt(x, tutorialSession, conference))",
+            "∀x (PresentWorkAt(x, conference) → AttendInPerson(x, conference))",
+            "∀x (ProvideSessionAt(x, tutorial, conference) → InvitedToJoin(x, club))",
+            "∀x (AttendInPerson(x, conference) → ProvidedWith(x, souvenir))",
+            "∀x (InvitedToJoin(x, club) → ProvidedWith(x, deliciousMeal))",
+            "∀x (ProvidedWith(x, deliciousMeal) ∧ ProvidedWith(y, deliciousMeal)  → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(x, y) ∧ HappyToCommunicateWithDuringTheDinner(x, z)))",
+            "∀x (ProvidedWith(x, deliciousMeal) → InvitedToTakePhotoWith(x, audience))",
+            "¬(AttendInPerson(james, conference) ∧ ProvidedWith(x, souvenir))",
+            "ProvidedWith(james, souvenir)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_928",
+        "natural": [
+            "Researchers present their work at the conference or provide a tutorial session there.",
+            "Everyone who presents their work at the conference will attend in person. ",
+            "Everyone providing a tutorial session at the conference will be invited to join the club. ",
+            "Everyone who attends the conference in person is provided with souvenirs_ ",
+            "Everyone invited to join the club is provided with delicious meals. ",
+            "Everyone provided with delicious meals is happy to communicate with each other during the dinner. ",
+            "Everyone who is provided with delicious meals is invited to take a photo with the audience. ",
+            "It is not true that James both attended the conference in person and was provided with souvenirs_",
+            "James is not provided with souvenirs_"
+        ],
+        "fol": [
+            "∀x (PresentWorkAt(x, conference) ⊕ ProvideAt(x, tutorialSession, conference))",
+            "∀x (PresentWorkAt(x, conference) → AttendInPerson(x, conference))",
+            "∀x (ProvideSessionAt(x, tutorial, conference) → InvitedToJoin(x, club))",
+            "∀x (AttendInPerson(x, conference) → ProvidedWith(x, souvenir))",
+            "∀x (InvitedToJoin(x, club) → ProvidedWith(x, deliciousMeal))",
+            "∀x (ProvidedWith(x, deliciousMeal) ∧ ProvidedWith(y, deliciousMeal)  → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(x, y) ∧ HappyToCommunicateWithDuringTheDinner(x, z)))",
+            "∀x (ProvidedWith(x, deliciousMeal) → InvitedToTakePhotoWith(x, audience))",
+            "¬(AttendInPerson(james, conference) ∧ ProvidedWith(x, souvenir))",
+            "¬ProvidedWith(x, souvenir)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_931",
+        "natural": [
+            "Researchers present their work at the conference or provide a tutorial session there.",
+            "Everyone who presents their work at the conference will attend in person. ",
+            "Everyone providing a tutorial session at the conference will be invited to join the club. ",
+            "Everyone who attends the conference in person is provided with souvenirs_ ",
+            "Everyone invited to join the club is provided with delicious meals. ",
+            "Everyone provided with delicious meals is happy to communicate with each other during the dinner. ",
+            "Everyone who is provided with delicious meals is invited to take a photo with the audience. ",
+            "It is not true that James both attended the conference in person and was provided with souvenirs_",
+            "James is either invited to take a photo with the audience or happy to communicate with other guests(?) during the dinner."
+        ],
+        "fol": [
+            "∀x (PresentWorkAt(x, conference) ⊕ ProvideAt(x, tutorialSession, conference))",
+            "∀x (PresentWorkAt(x, conference) → AttendInPerson(x, conference))",
+            "∀x (ProvideSessionAt(x, tutorial, conference) → InvitedToJoin(x, club))",
+            "∀x (AttendInPerson(x, conference) → ProvidedWith(x, souvenir))",
+            "∀x (InvitedToJoin(x, club) → ProvidedWith(x, deliciousMeal))",
+            "∀x (ProvidedWith(x, deliciousMeal) ∧ ProvidedWith(y, deliciousMeal)  → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(x, y) ∧ HappyToCommunicateWithDuringTheDinner(x, z)))",
+            "∀x (ProvidedWith(x, deliciousMeal) → InvitedToTakePhotoWith(x, audience))",
+            "¬(AttendInPerson(james, conference) ∧ ProvidedWith(x, souvenir))",
+            "InvitedToTakePhotoWith(james, audience) → ∃y ∃z (¬(y=james) ∧ ¬(z=james) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(james, y) ∧ HappyToCommunicateWithDuringDinner(james, z))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_937",
+        "natural": [
+            "TS Leda was a good passenger and cargo vessel.",
+            "TS Leda was a Norwegian vessel that was built with stabilizers_",
+            "Stabilizers are mechanical devices found only on ships with powerful steam turbine engines.",
+            "To be a good passenger and cargo vessel, ships must be quiet and good at sea.",
+            "Some ships that are quiet and good at sea have powerful steam turbine engines.",
+            "Vessels are ships.",
+            "TS Leda was not a Norwegian vessel."
+        ],
+        "fol": [
+            "∀x (TSLeda(x) → ((Passenger(x) ∧ Vessel(x)) ∧ (Cargo(x) ∧ Vessel(x))))",
+            "∀x (TSLeda(x) → (Norweigian(x) ∧ Vessel(x) ∧ Stabilizers(x)))",
+            "∀x (Stabilizers(x) → MechanicalDevice(x) ∧ OnlyOnShips(x) ∧ PowerfulSteamTurbine(x))",
+            "∀x ((Passenger(x) ∧ Vessel(x)) ∧ (Cargo(x) ∧ Vessel(x)) → (Quiet(x) ∧ GoodAt(x, sea)))",
+            "∃x (Quiet(x) ∧ GoodAt(x, sea) ∧ PowerfulSteamTurbine(x))",
+            "∀x (Ship(x) → Vessel(x))",
+            "∀x (TSLeda(x) → ¬(Norweigian(x) ∧ Vessel(x)))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_940",
+        "natural": [
+            "Rosa was born in Santiago. ",
+            "Santiago is the capital and largest city of Chile.",
+            "Rosa is the daughter of a Catalan building contractor, Jose.",
+            "Jose has a Chilean wife, Carmen.",
+            "Carmen and Jose are Rosa's parents.",
+            "People from Catalan are not from Chile.",
+            "A building contractor is responsible for the day-to-day oversight of a construction site. ",
+            "Rosa is the daughter of someone who is responsible for the oversight of traffic."
+        ],
+        "fol": [
+            "BornIn(rosa, santiago)",
+            "CapitalOf(santiago, chile) ∧ LargestCityOf(santiago, chile)",
+            "DaughterOf(rosa, jose) ∧ BuildingContractor(jose) ∧ Catalan(jose)",
+            "WifeOf(jose, carmen) ∧ Chilean(carmen)",
+            "ParentOf(jose, rosa) ∧ ParentOf(carmen, rosa)",
+            "∀x (Catalan(x) → ¬Chilean(x))",
+            "∀x ∃y (BuildingContractor(x) → ConstructionSite(y) ∧ Oversee(x, y))",
+            "∃x (DaughterOf(rosa, x) ∧ Oversee(x, traffic))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_944",
+        "natural": [
+            "Deborah Wallace is a Scottish-born actress, playwright, and producer.",
+            "Psyche is a play based on the life of James Miranda Barry.",
+            "Homesick, Psyche and The Void are plays by Deborah Wallace.",
+            "Deborah Wallace co-produced Gasland.",
+            "Gasland was coproduced by the same person Homesick was from."
+        ],
+        "fol": [
+            "BornIn(deborahWallace, scotland) ∧ Actress(deborahWallace) ∧ Playwright(deborahWallace) ∧ Producer(deborahWallace)",
+            "Play(psyche) ∧ BasedOn(psyche, lifeOfJamesMirandaBarry)",
+            "Play(homesick) ∧ WrittenBy(homesick, deborahWallace) ∧ Play(psyche) ∧ WrittenBy(psyche, deborahWallace) ∧ Play(theVoid) ∧ WrittenBy(theVoid, deborahWallace)",
+            "CoProduce(deborahWallace, gasland)",
+            "∃x (CoProduces(x, gasland) ∧ WrittenBy(homesick, x))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_945",
+        "natural": [
+            "Deborah Wallace is a Scottish-born actress, playwright, and producer.",
+            "Psyche is a play based on the life of James Miranda Barry.",
+            "Homesick, Psyche and The Void are plays by Deborah Wallace.",
+            "Deborah Wallace co-produced Gasland.",
+            "No plays by Deborah Wallace are based on the life of James Miranda Barry."
+        ],
+        "fol": [
+            "BornIn(deborahWallace, scotland) ∧ Actress(deborahWallace) ∧ Playwright(deborahWallace) ∧ Producer(deborahWallace)",
+            "Play(psyche) ∧ BasedOn(psyche, lifeOfJamesMirandaBarry)",
+            "Play(homesick) ∧ WrittenBy(homesick, deborahWallace) ∧ Play(psyche) ∧ WrittenBy(psyche, deborahWallace) ∧ Play(theVoid) ∧ WrittenBy(theVoid, deborahWallace)",
+            "CoProduce(deborahWallace, gasland)",
+            "∀x (Play(x) ∧ WrittenBy(x, deborahwallace) → ¬BasedOn(x, lifeofjamesmirandabarry))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_train_949",
+        "natural": [
+            "Animals who need large territory travel far.",
+            "Every animal that eats a lot needs a large territory.",
+            "If something is a big animal, then it will eat a lot.",
+            "Bears are big animals.",
+            "Larry is a big animal.",
+            "If Larry either travels far or needs a large territory, then Larry is a bear."
+        ],
+        "fol": [
+            "∀x (Animal(x) ∧ Need(x, largeTerritory) → TravelFar(x))",
+            "∀x (EatALot(x) → Need(x, largeTerritory))",
+            "∀x (Big(x) ∧ Animal(x) → EatALot(x))",
+            "∀x (Bear(x) → Big(x) ∧ Animal(x))",
+            "Big(larry) ∧ Animal(larry)",
+            "TravelFar(larry) ⊕ Need(larry, largeTerritory) → Bear(larry)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_train_950",
+        "natural": [
+            "Any convicted criminal that is innocent is not truly guilty.",
+            "All convicted criminals who did not commit a crime are truly innocent.",
+            "All convicted criminals are truly guilty or found guilty.",
+            "If a convicted criminal is found guilty, then they are sentenced to a punishment.",
+            "If a convicted criminal is found guilty, then they can argue against their punishment.",
+            "Garry is a convicted criminal who not found guilty or is sentenced to punishment.",
+            "Garry is sentenced to a punishment."
+        ],
+        "fol": [
+            "∀x (ConvictedCriminal(x) ∧ Innocent(x) → ¬TrulyGuilty(x))",
+            "∀x (ConvictedCriminal(x) ∧ ¬CommitCrime(x) → Innocent(x))",
+            "∀x (ConvictedCriminal(x) ∧ (TrulyGuilty(x) ∨ FoundGuilty(x)))",
+            "∀x (ConvictedCriminal(x) ∧ FoundGuilty(x) → SentencedToPunishment(x))",
+            "∀x (ConvictedCriminal(x) ∧ FoundGuilty(x) → CanArgueAgainst(x, punishment))",
+            "ConvictedCriminal(garry) ∧ (¬(FoundGuilty(garry) ∨ SentencedToPunishment(garry)))",
+            "SentencedToPunishment(garry)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_954",
+        "natural": [
+            "Phoneix's music is classified under the indie pop genre.",
+            "Phoenix is a band from France.",
+            "French bands write songs in French or in English.",
+            "Aside from indie pop, pop rock and synth-pop are two other genres of music.",
+            "Phoenix has no songs in French.",
+            "Phoenix writes songs in French."
+        ],
+        "fol": [
+            "IndiePop(phoenix)",
+            "Band(phoenix) ∧ From(phoenix, france)",
+            "∀x ∃y (Band(x) ∧ From(x, france) ∧ Write(x, y) ∧ Song(y) → InFrench(y) ⊕ InEnglish(y))",
+            "∀x (IndiePop(x) → ¬PopRock(x) ∧ ¬SynthPop(x))",
+            "∀x (Song(x) ∧ By(phoenix, x) → ¬InFrench(x))",
+            "∃x (Write(phoenix, y) ∧ Song(x) → InFrench(x))"
+        ],
+        "label": "False"
+    }
+]

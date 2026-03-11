@@ -1,0 +1,632 @@
+[
+    {
+        "id": "folio_test_4",
+        "natural": [
+            "All rabbits that can be spotted near the campus are cute. ",
+            "Some turtles can be spotted near the campus. ",
+            "The only animals that can be spotted near the campus are rabbits and squirrels.",
+            "If something is skittish, then it is not calm.",
+            "All the squirrels that can be spotted near the campus are skittish.",
+            "Rockie can be spotted near the campus, and it is calm.",
+            "Rockie is a turtle."
+        ],
+        "fol": [
+            "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))",
+            "∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))",
+            "∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))",
+            "∀x (Skittish(x) → ¬Calm(x))",
+            "∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))",
+            "CanBeSpottedNear(rockie, campus) ∧ Calm(rockie)",
+            "Turtle(rockie)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_5",
+        "natural": [
+            "All rabbits that can be spotted near the campus are cute. ",
+            "Some turtles can be spotted near the campus. ",
+            "The only animals that can be spotted near the campus are rabbits and squirrels.",
+            "If something is skittish, then it is not calm.",
+            "All the squirrels that can be spotted near the campus are skittish.",
+            "Rockie can be spotted near the campus, and it is calm.",
+            "Rockie is not a turtle."
+        ],
+        "fol": [
+            "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))",
+            "∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))",
+            "∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))",
+            "∀x (Skittish(x) → ¬Calm(x))",
+            "∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))",
+            "CanBeSpottedNear(rockie, campus) ∧ Calm(rockie)",
+            "¬Turtle(rockie)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_8",
+        "natural": [
+            "All rabbits that can be spotted near the campus are cute. ",
+            "Some turtles can be spotted near the campus. ",
+            "The only animals that can be spotted near the campus are rabbits and squirrels.",
+            "If something is skittish, then it is not calm.",
+            "All the squirrels that can be spotted near the campus are skittish.",
+            "Rockie can be spotted near the campus, and it is calm.",
+            "If Rockie is cute and calm, then Rockie is a skittish turtle."
+        ],
+        "fol": [
+            "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))",
+            "∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))",
+            "∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))",
+            "∀x (Skittish(x) → ¬Calm(x))",
+            "∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))",
+            "CanBeSpottedNear(rockie, campus) ∧ Calm(rockie)",
+            "Cute(rockie) ∧ Calm(rockie) → Turtle(rockie) ∧ Skittish(rockie)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_13",
+        "natural": [
+            "All aliens are extraterrestrials.",
+            "If someone is from Mars, then they are an alien.",
+            "No extraterrestrials are human.",
+            "All highly intelligent beings from Earth are humans.",
+            "Marvin is a highly intelligent being.",
+            "Marvin is either from Earth and from Mars, or he is from neither.",
+            "If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+            "Marvin is neither a human nor from Mars_"
+        ],
+        "fol": [
+            "∀x (Alien(x) → Extraterrestrial(x))",
+            "∀x (From(x, mars) → Alien(x))",
+            "∀x (Extraterrestrial(x) → ¬Human(x))",
+            "∀x (HighlyIntelligentBeing(x) ∧ From(x, earth) → Human(x))",
+            "HighlyIntelligentBeing(marvin)",
+            "¬(From(marvin, earth) ⊕ From(marvin, mars))",
+            "¬From(marvin, earth) → Extraterrestrial(marvin)",
+            "¬Human(marvin) ∧ ¬From(marvin, mars)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_test_14",
+        "natural": [
+            "All aliens are extraterrestrials.",
+            "If someone is from Mars, then they are an alien.",
+            "No extraterrestrials are human.",
+            "All highly intelligent beings from Earth are humans.",
+            "Marvin is a highly intelligent being.",
+            "Marvin is either from Earth and from Mars, or he is from neither.",
+            "If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+            "If Marvin is not from Mars, then Marvin is a human."
+        ],
+        "fol": [
+            "∀x (Alien(x) → Extraterrestrial(x))",
+            "∀x (From(x, mars) → Alien(x))",
+            "∀x (Extraterrestrial(x) → ¬Human(x))",
+            "∀x (HighlyIntelligentBeing(x) ∧ From(x, earth) → Human(x))",
+            "HighlyIntelligentBeing(marvin)",
+            "¬(From(marvin, earth) ⊕ From(marvin, mars))",
+            "¬From(marvin, earth) → Extraterrestrial(marvin)",
+            "¬From(marvin, mars) → Human(marvin)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_19",
+        "natural": [
+            "No digital media are analog.",
+            "Every printed text is analog media.",
+            "All streaming services are digital media.",
+            "If an object is a hardcover book, then it is printed text.",
+            "If 1984 is a streaming service, then 1984 is a hardcover book.",
+            "1984 is a streaming service."
+        ],
+        "fol": [
+            "∀x (DigitalMedia(x) → ¬AnalogMedia(x))",
+            "∀x (PrintedText(x) → AnalogMedia(x))",
+            "∀x (StreamingService(x) → DigitalMedia(x))",
+            "∀x (HardcoverBook(x) → PrintedText(x))",
+            "StreamingService(1984) → HardcoverBook(1984)",
+            "StreamingService(y1984)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_20",
+        "natural": [
+            "No digital media are analog.",
+            "Every printed text is analog media.",
+            "All streaming services are digital media.",
+            "If an object is a hardcover book, then it is printed text.",
+            "If 1984 is a streaming service, then 1984 is a hardcover book.",
+            "1984 is not a streaming service."
+        ],
+        "fol": [
+            "∀x (DigitalMedia(x) → ¬AnalogMedia(x))",
+            "∀x (PrintedText(x) → AnalogMedia(x))",
+            "∀x (StreamingService(x) → DigitalMedia(x))",
+            "∀x (HardcoverBook(x) → PrintedText(x))",
+            "StreamingService(1984) → HardcoverBook(1984)",
+            "¬StreamingService(y1984)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_test_21",
+        "natural": [
+            "All Romance languages are Indo-European languages.",
+            "Romance languages are a language family.",
+            "All languages within a language family are related to each other.",
+            "French and Spanish are both Romance languages.",
+            "German is related to Spanish.",
+            "Basque is not related to any other language.",
+            "Basque is a Romance language."
+        ],
+        "fol": [
+            "∀x (RomanceLanguage(x) → IndoEuropeanLanguage(x))",
+            "∀x (RomanceLanguage(x) → MemberOf(x, languageFamily))",
+            "∀x ∀y ∀z ((MemberOf(x, z) ∧ MemberOf(y, z)) → (Related(x, y) ∧ Related(y, x)))",
+            "RomanceLanguage(french) ∧ RomanceLanguage(spanish)",
+            "Related(german, spanish)",
+            "∀x (Language(x) → ¬Related(basque, x))",
+            "RomanceLanguage(basque)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_30",
+        "natural": [
+            "All vehicle registration plates in Istanbul begin with the number 34.",
+            "Plates that do not begin with the number 34 are not from Istanbul. ",
+            "Joe's vehicle registration plate is from Istanbul. ",
+            "Tom's license plate begins with the number 35. ",
+            "If a license plate begins with the number 35, then it does not begin with the number 34.",
+            "Tom's license plate is from Istanbul."
+        ],
+        "fol": [
+            "∀x (VehicleRegistrationPlateIn(x, istanbul) → BeginWith(x, num34))",
+            "∀x (¬BeginWith(x, num34) → ¬FromIstanbul(x))",
+            "∃x (Owns(joe, x) ∧ VehicleRegistrationPlateIn(x, istanbul))",
+            "∃x (Owns(tom, x) ∧ BeginWith(x, num35))",
+            "∀x (BeginWith(x, num35) → ¬BeginWith(x, num34))",
+            "∃x (Owns(tom, x) ∧ VehicleRegistrationPlateIn(x, istanbul))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_40",
+        "natural": [
+            "A natural language processing task can be categorized as either a language generation task or a language understanding task.",
+            "If the output of a natural language processing task is a text sequence, then it is a language generation task.",
+            "Machine translation is a natural language processing task.",
+            "The output of machine translation is a text sequence.",
+            "Machine translation is a language understanding task."
+        ],
+        "fol": [
+            "∀x (NaturalLanguageProcessingTask(x) → LanguageGenerationTask(x) ⊕ LanguageUnderstandingTask(x))",
+            "∀x (NaturalLanguageProcessingTasks(x) ∧ OutputSequence(x, text) → LanguageGenerationTask(x))",
+            "NaturalLanguageProcessingTask(machineTranslation)",
+            "OutputSequence(machineTranslation, text)",
+            "LanguageUnderstandingTask(machineTranslation)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_41",
+        "natural": [
+            "Pets are allowed in some managed buildings.",
+            "A deposit is required to rent an apartment in a managed building.",
+            "The security deposit can be either equal to the monthly rent at a managed building or more.",
+            "Fluffy is Tom's cat.",
+            "Cats are pets.",
+            "The Olive Garden is a managed building.",
+            "The monthly rent at the Olive Garden is $2000.",
+            "$2000 is more than $1500.",
+            "Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.",
+            "If a managed building allows pets, then people are allowed to move in with a pet. ",
+            "Tom will rent an apartment in The Olive Garden."
+        ],
+        "fol": [
+            "∃x (ManagedBuilding(x) ∧ AllowPet(x))",
+            "∀x ∀y (ManagedBuilding(x) ∧ RentApartmentIn(y, x) → DepositRequired(y))",
+            "∀x ∀y ∀z (SecurityDeposit(x) ∧ ManagedBuilding(z) ∧ MonthlyRentAt(y, z) → (MoreThan(x, y) ⊕ Equal(x, y)))",
+            "Cat(fluffy) ∧ BelongTo(fluffy, tom)",
+            "∀x (Cat(x) → Pet(x))",
+            "ManagedBuilding(oliveGarden)",
+            "MonthlyRentAt(uSD2000, oliveGarden)",
+            "MoreThan(uSD2000, uSD1500)",
+            "∀x ∀y (ManagedBuilding(x) ∧ AllowedToMoveInWith(tom, x, fluffy) ∧ SecurityDeposit(y) ∧ ¬MoreThan(y, uSD1500) → RentApartmentIn(tom, x))",
+            "∀x ∀y ∀z (ManagedBuilding(x) ∧ AllowPet(x) ∧ Pet(z) → AllowedToMoveInWith(y, x, z))",
+            "RentApartmentIn(tom, oliveGarden)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_43",
+        "natural": [
+            "Pets are allowed in some managed buildings.",
+            "A deposit is required to rent an apartment in a managed building.",
+            "The security deposit can be either equal to the monthly rent at a managed building or more.",
+            "Fluffy is Tom's cat.",
+            "Cats are pets.",
+            "The Olive Garden is a managed building.",
+            "The monthly rent at the Olive Garden is $2000.",
+            "$2000 is more than $1500.",
+            "Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.",
+            "If a managed building allows pets, then people are allowed to move in with a pet. ",
+            "The security deposit at the Olive Garden is either $2000 or more."
+        ],
+        "fol": [
+            "∃x (ManagedBuilding(x) ∧ AllowPet(x))",
+            "∀x ∀y (ManagedBuilding(x) ∧ RentApartmentIn(y, x) → DepositRequired(y))",
+            "∀x ∀y ∀z (SecurityDeposit(x) ∧ ManagedBuilding(z) ∧ MonthlyRentAt(y, z) → (MoreThan(x, y) ⊕ Equal(x, y)))",
+            "Cat(fluffy) ∧ BelongTo(fluffy, tom)",
+            "∀x (Cat(x) → Pet(x))",
+            "ManagedBuilding(oliveGarden)",
+            "MonthlyRentAt(uSD2000, oliveGarden)",
+            "MoreThan(uSD2000, uSD1500)",
+            "∀x ∀y (ManagedBuilding(x) ∧ AllowedToMoveInWith(tom, x, fluffy) ∧ SecurityDeposit(y) ∧ ¬MoreThan(y, uSD1500) → RentApartmentIn(tom, x))",
+            "∀x ∀y ∀z (ManagedBuilding(x) ∧ AllowPet(x) ∧ Pet(z) → AllowedToMoveInWith(y, x, z))",
+            "∀x (SecurityDeposit(x, oliveGarden) → MoreThan(x, uSD2000) ⊕ Equal(x, uSD2000))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_test_48",
+        "natural": [
+            "Animals are either invertebrates or vertebrates.",
+            "All animals with backbones reproduce by male-and-female mating. ",
+            "All vertebrate animals have a backbone.",
+            "All bees do not reproduce by male-and-female mating.",
+            "All queen bees are bees.",
+            "Harry is a bee.",
+            "Harry is an invertebrate or a queen bee."
+        ],
+        "fol": [
+            "∀x (Animal(x) → Invertebrate(x) ⊕ Vertebrate(x))",
+            "∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, male_and_femaleMating))",
+            "∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))",
+            "∀x (Bee(x) → ¬ReproduceBy(x, male_and_femaleMating))",
+            "∀x (QueenBee(x) → Bee(x))",
+            "Bee(harry)",
+            "Invertebrate(harry) ∨ QueenBee(harry)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_test_49",
+        "natural": [
+            "Animals are either invertebrates or vertebrates.",
+            "All animals with backbones reproduce by male-and-female mating. ",
+            "All vertebrate animals have a backbone.",
+            "All bees do not reproduce by male-and-female mating.",
+            "All queen bees are bees.",
+            "Harry is a bee.",
+            "If Harry is either both a vertebrate and an animal with a backbone, or neither a vertebrate nor an animal with a backbone, then Harry is neither an invertebrate nor a queen bee."
+        ],
+        "fol": [
+            "∀x (Animal(x) → Invertebrate(x) ⊕ Vertebrate(x))",
+            "∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, male_and_femaleMating))",
+            "∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))",
+            "∀x (Bee(x) → ¬ReproduceBy(x, male_and_femaleMating))",
+            "∀x (QueenBee(x) → Bee(x))",
+            "Bee(harry)",
+            "((Vertebrate(harry) ∧ With(harry, backbone)) ∨ (¬Vertebrate(harry) ∧ ¬With(harry, backbone))) → (¬Invertebrate(harry) ∧ ¬QueenBee(harry))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_51",
+        "natural": [
+            "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.",
+            "If people have siblings who were born together, then they were born in a multiple birth.",
+            "If people complain often about annoying siblings, then they have siblings who were born together.",
+            "If people live at home, then they do not live with strangers_",
+            "If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. ",
+            "Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
+            "Luke complains often about annoying siblings."
+        ],
+        "fol": [
+            "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, sibling))",
+            "∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))",
+            "∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))",
+            "∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))",
+            "∀x (SpendTimeplayingWith(x, sibling) → LiveAt(x, home))",
+            "¬(BornIn(luke, multipleBirth) ⊕ LiveWith(luke, strangers))",
+            "ComplainAboutOften(luke, annoyingSiblings)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_52",
+        "natural": [
+            "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.",
+            "If people have siblings who were born together, then they were born in a multiple birth.",
+            "If people complain often about annoying siblings, then they have siblings who were born together.",
+            "If people live at home, then they do not live with strangers_",
+            "If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. ",
+            "Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
+            "Luke is neither born in a multiple birth nor complains often about annoying siblings."
+        ],
+        "fol": [
+            "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, sibling))",
+            "∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))",
+            "∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))",
+            "∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))",
+            "∀x (SpendTimeplayingWith(x, sibling) → LiveAt(x, home))",
+            "¬(BornIn(luke, multipleBirth) ⊕ LiveWith(luke, strangers))",
+            "¬(BornIn(luke, multipleBirth) ∨ ComplainAboutOften(luke, annoyingSiblings) )"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_test_55",
+        "natural": [
+            "The Picuris Mountains are a mountain range in New Mexico or Texas.",
+            "Juan de Onate visited the Picuris Mountains.",
+            "The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.",
+            "There are no mountain ranges in texas that have mines that have been donated.",
+            "Juan de Onate visited a mountain range in Texas."
+        ],
+        "fol": [
+            "MountainRange(thePicurisMountains) ∧ (In(thePicurisMountains, newMexico) ⊕ In(thePicurisMountains, texas))",
+            "Visited(juanDeOnate, thePicurisMountains)",
+            "In(hardingPegmatiteMine, thePicurisMountains) ∧ Mine(hardingPegmatiteMine) ∧ Donated(hardingPegmatiteMine)",
+            "∀x ∀y (Mine(x) ∧ Donated(x) ∧ In(x, y) ∧ MountainRange(y) → ¬In(y, texas))",
+            "∃x (Visited(juanDeOnate, x) ∧ MountainRange(x) ∧ In(x, texas))"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_56",
+        "natural": [
+            "The Picuris Mountains are a mountain range in New Mexico or Texas.",
+            "Juan de Onate visited the Picuris Mountains.",
+            "The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.",
+            "There are no mountain ranges in texas that have mines that have been donated.",
+            "The Harding Pegmatite Mine is not located in a mountain range in New Mexico."
+        ],
+        "fol": [
+            "MountainRange(thePicurisMountains) ∧ (In(thePicurisMountains, newMexico) ⊕ In(thePicurisMountains, texas))",
+            "Visited(juanDeOnate, thePicurisMountains)",
+            "In(hardingPegmatiteMine, thePicurisMountains) ∧ Mine(hardingPegmatiteMine) ∧ Donated(hardingPegmatiteMine)",
+            "∀x ∀y (Mine(x) ∧ Donated(x) ∧ In(x, y) ∧ MountainRange(y) → ¬In(y, texas))",
+            "∀x (In(hardingPegmatiteMine, x) → ¬(MountainRange(x) ∧ In(x, newMexico)))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_60",
+        "natural": [
+            "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.",
+            "Unsupervised learning algorithms do not require labeled data.",
+            "The state-of-the-art text summarization model is trained with machine learning algorithms.",
+            "Reinforcement learning is not used to train the state-of-the-art text summarization model.",
+            "The Machine Learning algorithm for training text summarization models requires labeled data.",
+            "Supervised learning is used to train the state-of-the-art text summarization model."
+        ],
+        "fol": [
+            "∀x (MachineLearningAlgorithm(x) → SupervisedLearningAlgorithm(x) ∨ UnsupervisedLearningAlgorithm(x) ∨ ReinforcementLearningAlgorithm(x))",
+            "∀x (UnsupervisedLearningAlgorithm(x) → ¬Require(x, labeledData))",
+            "∀x (TrainedWith(stateOfTheArtTextSummarizationModel, x) → MachineLearningAlgorithm(x))",
+            "∀x (ReinforcementLearningAlgorithm(x) → ¬TrainedWith(stateOfTheArtTextSummarizationModel, x))",
+            "∀x ((MachineLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x)) → Require(x, labeledData))",
+            "∃x (SupervisedLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_test_63",
+        "natural": [
+            "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.",
+            "If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.",
+            "If a film is rated General Audience, then it is appropriate for people of all ages.",
+            "All family-friendly animated films are rated General Audience.",
+            "All movies in the Frozen series are family-friendly animated films.",
+            "“Hachi: A dog’s Tale” is a film.",
+            "“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
+            "\"Hachi: A dog's Tale\" contains excessive erotic and violent content or is in the \"Frozen\" series or both."
+        ],
+        "fol": [
+            "∀x (Film(x) ∧ Rated(x, adultsOnly) → CanWatchWithout(children, x, guidanceFromParents))",
+            "∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))",
+            "∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))",
+            "∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))",
+            "∀x (Film(x) ∧ InfrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))",
+            "Film(hachiAdogsTale)",
+            "(FamilyFriendly(hachiAdogsTale) ∧ Animated(hachiAdogsTale)) ⊕ Rated(hachiAdogsTale, adultsOnly)",
+            "(Contain(hachiAdogsTale, excessiveEroticContent) ∧ Contain(hachiAdogsTale, excessiveViolentContent)) ∨ InfrozenSeries(hachiAdogsTale)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_64",
+        "natural": [
+            "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.",
+            "If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.",
+            "If a film is rated General Audience, then it is appropriate for people of all ages.",
+            "All family-friendly animated films are rated General Audience.",
+            "All movies in the Frozen series are family-friendly animated films.",
+            "“Hachi: A dog’s Tale” is a film.",
+            "“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
+            "\"Hachi: A dog's Tale\" either contains excessive erotic and violent content and is a film in the \"Frozen\" series, or it neither contains excessive erotic and violent content nor is a film in the \"Frozen\" series."
+        ],
+        "fol": [
+            "∀x (Film(x) ∧ Rated(x, adultsOnly) → CanWatchWithout(children, x, guidanceFromParents))",
+            "∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))",
+            "∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))",
+            "∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))",
+            "∀x (Film(x) ∧ InfrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))",
+            "Film(hachiAdogsTale)",
+            "(FamilyFriendly(hachiAdogsTale) ∧ Animated(hachiAdogsTale)) ⊕ Rated(hachiAdogsTale, adultsOnly)",
+            "(Contain(hachiAdogsTale, excessiveEroticContent) ∧ Contain(hachiAdogsTale, excessiveViolentContent) ∧ InfrozenSeries(hachiAdogsTale)) ∨ (¬Contain(hachiAdogsTale, excessiveEroticContent) ∧ ¬Contain(hachiAdogsTale, excessiveViolentContent) ∧ ¬InfrozenSeries(hachiAdogsTale))"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_test_72",
+        "natural": [
+            "None of the students who currently work in the library are from the computer science department. ",
+            "All of the students with part-time jobs offered by the university currently work in the library. ",
+            "All of the students who are taking the database course are from the computer science department. ",
+            "All of the students taking a class with Professor David are taking the database course. ",
+            "All students working in the lab are taking a class with Professor David.",
+            "James is a student working in the lab. ",
+            "James doesn't work in the lab or have a part-time job offered by the university.",
+            "James has a part-time job offered by the university."
+        ],
+        "fol": [
+            "∀x (Student(x) ∧ WorkIn(x, library) → (¬From(x, computerScienceDepartment)))",
+            "∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))",
+            "∀x ((Student(x) ∧ Take(x, databaseCourse)) → From(x, computerScienceDepartment))",
+            "∀x ((Student(x) ∧ InstructedBy(x, professorDavid)) → Take(x, databaseCourse))",
+            "∀x ((Student(x) ∧ WorkIn(x, lab)) → InstructedBy(x, professorDavid))",
+            "Student(james) ∧ WorkIn(james, lab)",
+            "¬∃x (PartTimeJob(x) ∧ Have(james, x) ∧ OfferedBy(x, computerScienceDepartment)) ∧ ¬WorkIn(james, lab)",
+            "∃y (PartTimeJob(y) ∧ Have(james, y) ∧ OfferedBy(y, university))"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_75",
+        "natural": [
+            "None of the students who currently work in the library are from the computer science department. ",
+            "All of the students with part-time jobs offered by the university currently work in the library. ",
+            "All of the students who are taking the database course are from the computer science department. ",
+            "All of the students taking a class with Professor David are taking the database course. ",
+            "All students working in the lab are taking a class with Professor David.",
+            "James is a student working in the lab. ",
+            "James doesn't work in the lab or have a part-time job offered by the university.",
+            "James takes the database course."
+        ],
+        "fol": [
+            "∀x (Student(x) ∧ WorkIn(x, library) → (¬From(x, computerScienceDepartment)))",
+            "∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))",
+            "∀x ((Student(x) ∧ Take(x, databaseCourse)) → From(x, computerScienceDepartment))",
+            "∀x ((Student(x) ∧ InstructedBy(x, professorDavid)) → Take(x, databaseCourse))",
+            "∀x ((Student(x) ∧ WorkIn(x, lab)) → InstructedBy(x, professorDavid))",
+            "Student(james) ∧ WorkIn(james, lab)",
+            "¬∃x (PartTimeJob(x) ∧ Have(james, x) ∧ OfferedBy(x, computerScienceDepartment)) ∧ ¬WorkIn(james, lab)",
+            "Take(james, databaseCourse)"
+        ],
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_78",
+        "natural": [
+            "All people who eat salads regularly are very conscious about their health and eating habits.",
+            "All people who grew up in health-conscious childhood homes eat salads regularly.",
+            "All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.",
+            "All people who disregard their physical well-being are not very conscious about their health and eating habits.",
+            "If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.",
+            "Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
+            "Taylor visits the gym at least once a day."
+        ],
+        "fol": [
+            "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatinggHabit))",
+            "∀x (GrewUpIn(x, health_consciousChildhoodHome) → RegularlyEat(x, salad))",
+            "∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, health_consciousChildhoodHome))",
+            "∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))",
+            "∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))",
+            "¬(GrowUpIn(taylor, health_consciousChildhoodHome) ⊕ Disregard(taylor, physicalWellbeing))",
+            "VisitDaily(taylor, gym)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_79",
+        "natural": [
+            "All people who eat salads regularly are very conscious about their health and eating habits.",
+            "All people who grew up in health-conscious childhood homes eat salads regularly.",
+            "All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.",
+            "All people who disregard their physical well-being are not very conscious about their health and eating habits.",
+            "If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.",
+            "Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
+            "Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day."
+        ],
+        "fol": [
+            "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatinggHabit))",
+            "∀x (GrewUpIn(x, health_consciousChildhoodHome) → RegularlyEat(x, salad))",
+            "∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, health_consciousChildhoodHome))",
+            "∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))",
+            "∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))",
+            "¬(GrowUpIn(taylor, health_consciousChildhoodHome) ⊕ Disregard(taylor, physicalWellbeing))",
+            "¬GrowUpIn(taylor, health_consciousChildhoodHome) ∧ ¬VisitDaily(taylor, gym)"
+        ],
+        "label": "True"
+    },
+    {
+        "id": "folio_test_83",
+        "natural": [
+            "Susan flies to LGA airport.",
+            "The departure and arrival can not be at the same airport.",
+            "John flies from LGA airport.",
+            "Susan flies from LGA airport."
+        ],
+        "fol": [
+            "FlyTo(susan, lgaAirport)",
+            "∀x ∀y (FlyFrom(x, y) ⊕ FlyTo(x, y))",
+            "FlyFrom(john, lgaAirport)",
+            "FlyFrom(susan, lgaAirport)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_84",
+        "natural": [
+            "Susan flies to LGA airport.",
+            "The departure and arrival can not be at the same airport.",
+            "John flies from LGA airport.",
+            "John flies to LGA airport."
+        ],
+        "fol": [
+            "FlyTo(susan, lgaAirport)",
+            "∀x ∀y (FlyFrom(x, y) ⊕ FlyTo(x, y))",
+            "FlyFrom(john, lgaAirport)",
+            "FlyTo(john, lgaAirport)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_89",
+        "natural": [
+            "A podcast is not a novel.",
+            "If a person is born in American City, the person is American.",
+            "If a book is a novel and it is written by a person, then the person is a novel writer.",
+            "Dani Shapiro is an American writer.",
+            "Family History is written by Dani Shapiro.",
+            "Family History is a novel written in 2003.",
+            "Dani Shapiro created a podcast called Family Secrets.",
+            "Boston is an American city.",
+            "Family Secrets is a novel."
+        ],
+        "fol": [
+            "∀x (Podcast(x) → ¬Novel(x))",
+            "∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x)))",
+            "∀x ∀y ((Novel(x) ∧ WrittenBy(x, y)) → WritesNovel(y))",
+            "American(dani_Shapiro) ∧ Writer(dani_Shapiro)",
+            "WrittenBy(family_History, dani_Shapiro)",
+            "Novel(family_History) ∧ WrittenIn(family_History, yr2003)",
+            "Podcast(family_Secrets) ∧ CreatedBy(family_Secrets, dani_Shapiro)",
+            "City(boston) ∧ American(boston)",
+            "IsNovel(family_Secrets)"
+        ],
+        "label": "False"
+    },
+    {
+        "id": "folio_test_91",
+        "natural": [
+            "Events are either happy or sad.",
+            "At least one event is happy. ",
+            "All events are sad."
+        ],
+        "fol": [
+            "∀x (Event(x) → Happy(x) ∨ Sad(x))",
+            "∃x (Event(x) ∧ Happy(x))",
+            "∀x (Event(x) → Sad(x))"
+        ],
+        "label": "False"
+    }
+]
