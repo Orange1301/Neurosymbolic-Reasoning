@@ -44,7 +44,7 @@
     {
         "story_id": 471,
         "natural": "All rabbits that can be spotted near the campus are cute. \nSome turtles can be spotted near the campus. \nThe only animals that can be spotted near the campus are rabbits and squirrels.\nIf something is skittish, then it is not calm.\nAll the squirrels that can be spotted near the campus are skittish.\nRockie can be spotted near the campus, and it is calm.\nIf Rockie is not both a turtle and a squirrel, then Rockie is either cute or skittish.",
-        "fol": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie)\n¬(Turtle(rockie) ∧ Squirrel(rockie)) → Cute(rockie) ⊕ Skittish(rockie)",
+        "fol": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie)\n¬(Turtle(rockie) ∧ Squirrel(rockie)) → Cute(rockie) ∨ Skittish(rockie)",
         "label": "True"
     },
     {
@@ -296,13 +296,13 @@
     {
         "story_id": 472,
         "natural": "Animals are either invertebrates or vertebrates.\nAll animals with backbones reproduce by male-and-female mating. \nAll vertebrate animals have a backbone.\nAll bees do not reproduce by male-and-female mating.\nAll queen bees are bees.\nHarry is a bee.\nIf Harry is either both a vertebrate and an animal with a backbone, or neither a vertebrate nor an animal with a backbone, then Harry is neither an invertebrate nor a queen bee.",
-        "fol": "∀x (Animal(x) → Invertebrate(x) ⊕ Vertebrate(x))\n∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, male_and_femaleMating))\n∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))\n∀x (Bee(x) → ¬ReproduceBy(x, male_and_femaleMating))\n∀x (QueenBee(x) → Bee(x))\nBee(harry)\n¬(Invertebrate(harry) ⊕ With(harry, backbone)) → ¬Invertebrate(harry) ∧ ¬QueenBee(harry)",
+        "fol": "∀x (Animal(x) → Invertebrate(x) ⊕ Vertebrate(x))\n∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, male_and_femaleMating))\n∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))\n∀x (Bee(x) → ¬ReproduceBy(x, male_and_femaleMating))\n∀x (QueenBee(x) → Bee(x))\nBee(harry)\n((Vertebrate(harry) ∧ With(harry, backbone)) ∨ (¬Vertebrate(harry) ∧ ¬With(harry, backbone))) → (¬Invertebrate(harry) ∧ ¬QueenBee(harry))",
         "label": "False"
     },
     {
         "story_id": 379,
         "natural": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.\nIf people have siblings who were born together, then they were born in a multiple birth.\nIf people complain often about annoying siblings, then they have siblings who were born together.\nIf people live at home, then they do not live with strangers_\nIf people spend a lot of time hanging out with and playing with their siblings, then they often live at home. \nLuke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers\nLuke spends a lot of time hanging out and playing with his siblings.",
-        "fol": "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, sibling))\n∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))\n∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))\n∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))\n∀x (SpendTimeplayingWith(x, sibling) → LiveAt(x, home))\n¬(BornIn(luke, multipleBirth) ⊕ LiveWith(luke, strangers))\nSpendTime(luke, playingWith, siblings)",
+        "fol": "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, sibling))\n∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))\n∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))\n∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))\n∀x (SpendTimeplayingWith(x, sibling) → LiveAt(x, home))\n¬(BornIn(luke, multipleBirth) ⊕ LiveWith(luke, strangers))\nSpendTimePlayingWith(luke, sibling)",
         "label": "Uncertain"
     },
     {
@@ -314,7 +314,7 @@
     {
         "story_id": 379,
         "natural": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.\nIf people have siblings who were born together, then they were born in a multiple birth.\nIf people complain often about annoying siblings, then they have siblings who were born together.\nIf people live at home, then they do not live with strangers_\nIf people spend a lot of time hanging out with and playing with their siblings, then they often live at home. \nLuke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers\nLuke is neither born in a multiple birth nor complains often about annoying siblings.",
-        "fol": "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, sibling))\n∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))\n∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))\n∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))\n∀x (SpendTimeplayingWith(x, sibling) → LiveAt(x, home))\n¬(BornIn(luke, multipleBirth) ⊕ LiveWith(luke, strangers))\n¬(BornIn(luke, multipleBirth) ∨ ComplainAbout(luke, often, annoyingSiblings) )",
+        "fol": "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, sibling))\n∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))\n∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))\n∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))\n∀x (SpendTimeplayingWith(x, sibling) → LiveAt(x, home))\n¬(BornIn(luke, multipleBirth) ⊕ LiveWith(luke, strangers))\n¬(BornIn(luke, multipleBirth) ∨ ComplainAboutOften(luke, annoyingSiblings) )",
         "label": "True"
     },
     {
@@ -380,13 +380,13 @@
     {
         "story_id": 460,
         "natural": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.\nIf a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.\nIf a film is rated General Audience, then it is appropriate for people of all ages.\nAll family-friendly animated films are rated General Audience.\nAll movies in the Frozen series are family-friendly animated films.\n“Hachi: A dog’s Tale” is a film.\n“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. \n\"Hachi: A dog's Tale\" contains excessive erotic and violent content or is in the \"Frozen\" series or both.",
-        "fol": "∀x (Film(x) ∧ Rated(x, adultsOnly) → CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))\n∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))\n∀x (Film(x) ∧ InfrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))\nFilm(hachiAdogsTale)\n(FamilyFriendly(hachiAdogsTale) ∧ Animated(hachiAdogsTale)) ⊕ Rated(hachiAdogsTale, adultsOnly)\n(Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent)) ∨ InfrozenSeries(excessiveViolentContent)",
+        "fol": "∀x (Film(x) ∧ Rated(x, adultsOnly) → CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))\n∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))\n∀x (Film(x) ∧ InfrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))\nFilm(hachiAdogsTale)\n(FamilyFriendly(hachiAdogsTale) ∧ Animated(hachiAdogsTale)) ⊕ Rated(hachiAdogsTale, adultsOnly)\n(Contain(hachiAdogsTale, excessiveEroticContent) ∧ Contain(hachiAdogsTale, excessiveViolentContent)) ∨ InfrozenSeries(hachiAdogsTale)",
         "label": "False"
     },
     {
         "story_id": 460,
         "natural": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.\nIf a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.\nIf a film is rated General Audience, then it is appropriate for people of all ages.\nAll family-friendly animated films are rated General Audience.\nAll movies in the Frozen series are family-friendly animated films.\n“Hachi: A dog’s Tale” is a film.\n“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. \n\"Hachi: A dog's Tale\" either contains excessive erotic and violent content and is a film in the \"Frozen\" series, or it neither contains excessive erotic and violent content nor is a film in the \"Frozen\" series.",
-        "fol": "∀x (Film(x) ∧ Rated(x, adultsOnly) → CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))\n∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))\n∀x (Film(x) ∧ InfrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))\nFilm(hachiAdogsTale)\n(FamilyFriendly(hachiAdogsTale) ∧ Animated(hachiAdogsTale)) ⊕ Rated(hachiAdogsTale, adultsOnly)\n¬((Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent)) ⊕ InfrozenSeries(excessiveViolentContent))",
+        "fol": "∀x (Film(x) ∧ Rated(x, adultsOnly) → CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))\n∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))\n∀x (Film(x) ∧ InfrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))\nFilm(hachiAdogsTale)\n(FamilyFriendly(hachiAdogsTale) ∧ Animated(hachiAdogsTale)) ⊕ Rated(hachiAdogsTale, adultsOnly)\n(Contain(hachiAdogsTale, excessiveEroticContent) ∧ Contain(hachiAdogsTale, excessiveViolentContent) ∧ InfrozenSeries(hachiAdogsTale)) ∨ (¬Contain(hachiAdogsTale, excessiveEroticContent) ∧ ¬Contain(hachiAdogsTale, excessiveViolentContent) ∧ ¬InfrozenSeries(hachiAdogsTale))",
         "label": "True"
     },
     {
@@ -446,7 +446,7 @@
     {
         "story_id": 435,
         "natural": "None of the students who currently work in the library are from the computer science department. \nAll of the students with part-time jobs offered by the university currently work in the library. \nAll of the students who are taking the database course are from the computer science department. \nAll of the students taking a class with Professor David are taking the database course. \nAll students working in the lab are taking a class with Professor David.\nJames is a student working in the lab. \nJames doesn't work in the lab or have a part-time job offered by the university.\nJames either takes the database course or has a part-time job offered by the university.",
-        "fol": "∀x (Student(x) ∧ WorkIn(x, library) → (¬From(x, computerScienceDepartment)))\n∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))\n∀x ((Student(x) ∧ Take(x, databaseCourse)) → From(x, computerScienceDepartment))\n∀x ((Student(x) ∧ InstructedBy(x, professorDavid)) → Take(x, databaseCourse))\n∀x ((Student(x) ∧ WorkIn(x, lab)) → InstructedBy(x, professorDavid))\nStudent(james) ∧ WorkIn(james, lab)\n¬∃x (PartTimeJob(x) ∧ Have(james, x) ∧ OfferedBy(x, computerScienceDepartment)) ∧ ¬WorkIn(james, lab)\nTake(james, databaseCourse) ⊕ (∃y (PartTimeJob(y) ∧ Have(james, y) ∧ OfferedBy(y, university)))",
+        "fol": "∀x (Student(x) ∧ WorkIn(x, library) → (¬From(x, computerScienceDepartment)))\n∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))\n∀x ((Student(x) ∧ Take(x, databaseCourse)) → From(x, computerScienceDepartment))\n∀x ((Student(x) ∧ InstructedBy(x, professorDavid)) → Take(x, databaseCourse))\n∀x ((Student(x) ∧ WorkIn(x, lab)) → InstructedBy(x, professorDavid))\nStudent(james) ∧ WorkIn(james, lab)\n¬∃x (PartTimeJob(x) ∧ Have(james, x) ∧ OfferedBy(x, computerScienceDepartment)) ∧ ¬WorkIn(james, lab)\nTake(james, databaseCourse) ∨ (∃y (PartTimeJob(y) ∧ Have(james, y) ∧ OfferedBy(y, university)))",
         "label": "True"
     },
     {
@@ -548,7 +548,7 @@
     {
         "story_id": 280,
         "natural": "Events are either happy or sad.\nAt least one event is happy. \nAll events are sad.",
-        "fol": "∀x (Event(x) → Happy(x) ⊕ Sad(x))\n∃x (Event(x) ∧ Happy(x))\n∀x (Event(x) → Sad(x))",
+        "fol": "∀x (Event(x) → Happy(x) ∨ Sad(x))\n∃x (Event(x) ∧ Happy(x))\n∀x (Event(x) → Sad(x))",
         "label": "False"
     },
     {
