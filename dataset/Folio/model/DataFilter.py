@@ -40,7 +40,7 @@ class DataFilter:
         self.NATURAL_COL = 'natural'
         self.FOL_COL = 'fol'
         self.LABEL_COL = 'label'
-        self.MIN_LINES_OF_FOL = 2
+        self.MIN_FOL_RATIO = 0.2
         
         
     def _generate_signature(self, entry:dict) -> str:
@@ -72,7 +72,7 @@ class DataFilter:
     
     def _is_structural_validation(self, entry:dict) -> bool:
         '''
-        Validates logical integrity, including minimum premise count, and premise-conclusion overlap (leakage)
+        Validates logical integrity, including minimum premise count, and premise-conclusion overlap (leakage), and text-to-logic length ratios.
         
         This ensures that entries mismatching the requirements are treated as invalid entries.
         
@@ -90,17 +90,22 @@ class DataFilter:
         # Get natural and fol text
         natural_text = entry.get(self.NATURAL_COL, '').lower()
         fol_text = entry.get(self.FOL_COL, '')
-        
-        # Requirement 1: Check if the entry has the minimum statement lines
         fol_lines = [line.strip() for line in fol_text.split('\n') if line.strip()]
-        if len(fol_lines) < self.MIN_LINES_OF_FOL:
-            return False
         
-        # Requirement 2: Data leakage (check if the conclusion is already a premise)
+        # Requirement 1: Data leakage (check if the conclusion is already a premise)
         premises = fol_lines[:-1]
         conclusion = fol_lines[-1]
         if conclusion in premises:
             return False
+        
+        # Requirement 3: Length Ratio Check
+        natural_length = len(natural_text)
+        fol_length = len(fol_text)
+        
+        if natural_length > 0:
+            ratio = fol_length / natural_length
+            if ratio < self.MIN_FOL_RATIO:
+                return False
                 
         return True
     
