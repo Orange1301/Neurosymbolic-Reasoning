@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.11)  27 JAN 2026 02:03
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.11)  12 MAR 2026 16:11
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"d:/Di hoc/Semester 08/Intro2PLA/Repo/LaTeX/slide.tex"
@@ -1408,7 +1408,7 @@ Overfull \vbox (6.88998pt too high) detected at line 110
 ] [15
 
 ]
-<imgs/Thinking fast and slow.jpg, id=1003, 308.352pt x 457.2282pt>
+<imgs/Thinking fast and slow.jpg, id=918, 308.352pt x 457.2282pt>
 File: imgs/Thinking fast and slow.jpg Graphic file (type jpg)
 <use imgs/Thinking fast and slow.jpg>
 Package luatex.def Info: imgs/Thinking fast and slow.jpg  used on input line 24
@@ -1554,31 +1554,49 @@ Overfull \hbox (2.9889pt too wide) in paragraph at lines 314--314
 
 ] [31
 
-] [32
+]
+Overfull \vbox (2.88574pt too high) detected at line 578
+ []
 
-] [33
+[32
+
+]
+Overfull \vbox (7.71574pt too high) detected at line 578
+ []
+
+[33
 
 ] [34
 
 ]
-<imgs/pipeline.pdf, id=1708, 963.6pt x 397.485pt>
-File: imgs/pipeline.pdf Graphic file (type pdf)
-<use imgs/pipeline.pdf>
-Package luatex.def Info: imgs/pipeline.pdf  used on input line 471.
-(luatex.def)             Requested size: 398.3386pt x 164.31029pt.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 696.
  [35
 
-<./imgs/pipeline.pdf>] [36
+] [36
 
-] (./slide.toc) [37
+] [37
 
 ] [38
 
-] (./slide.toc) [39
+] [39
 
 ] [40
 
 ] [41
+
+] [42
+
+] [43
+
+] (./slide.toc) [44
+
+]
+[45
+
+] [46
+
+] [47
 
 ]
 \tf@nav=\write6
@@ -1596,56 +1614,55 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: C144EBB4B900CD317B485FEE885A85E0;669.
+(rerunfilecheck)             Checksum: 5F2D97268A9938C17B32472BE60A1D1E;507.
 )
 
 Here is how much of LuaTeX's memory you used:
- 33821 strings out of 476081
- 156265,1373583 words of node,token memory allocated
- 45846 words of node memory still in use:
-   1477 hlist, 9 vlist, 240 rule, 11 disc, 3 local_par, 1211 glue, 25 kern, 12 p
-enalty, 100 glyph, 3344 attribute, 62 glue_spec, 3344 attribute_list, 4 write, 2
-043 pdf_literal, 19 pdf_start_link, 19 pdf_end_link, 19 pdf_action, 150 pdf_colo
-rstack nodes
-   avail lists: 1:1,2:14685,3:8072,4:1337,5:245,6:99,7:4398,8:83,9:1492,10:16,11
-:210
- 55147 multiletter control sequences out of 65536+600000
- 111 fonts using 9384991 bytes
- 128i,20n,116p,424b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10
--regular.otf><c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public
-/lm/lmroman5-regular.otf><c:/users/admin/appdata/local/programs/miktex/fonts/ope
-ntype/public/lm/lmmono8-regular.otf><c:/users/admin/appdata/local/programs/mikte
-x/fonts/opentype/public/lm/lmsans17-oblique.otf><c:/users/admin/appdata/local/pr
-ograms/miktex/fonts/opentype/public/lm/lmsans9-regular.otf><c:/users/admin/appda
-ta/local/programs/miktex/fonts/opentype/public/lm/lmsans8-oblique.otf><c:/users/
-admin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans10-oblique.ot
-f><c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans1
-0-bold.otf><c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/l
-m/lmsans8-regular.otf><c:/users/admin/appdata/local/programs/miktex/fonts/openty
-pe/public/lm/lmsans10-regular.otf><c:/users/admin/appdata/local/programs/miktex/
-fonts/opentype/public/lm/lmsans12-regular.otf><C:/Users/ADMIN/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/ADMIN/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ADMIN/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
-/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C
-:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7
-.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr5.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ADMIN/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ADMIN/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ADMIN/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ADMI
-N/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><
-C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on slide.pdf (41 pages, 823582 bytes).
+ 33924 strings out of 476081
+ 195328,1373583 words of node,token memory allocated
+ 54570 words of node memory still in use:
+   1560 hlist, 13 vlist, 251 rule, 75 disc, 13 local_par, 1449 glue, 58 kern, 45
+ penalty, 700 glyph, 3516 attribute, 62 glue_spec, 3516 attribute_list, 4 write,
+ 2079 pdf_literal, 15 pdf_start_link, 15 pdf_end_link, 15 pdf_action, 206 pdf_co
+lorstack nodes
+   avail lists: 2:14183,3:7869,4:1251,5:261,6:103,7:4454,8:36,9:1329,10:22,11:17
+9
+ 55247 multiletter control sequences out of 65536+600000
+ 122 fonts using 10399199 bytes
+ 128i,21n,116p,731b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans9-o
+blique.otf><c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/l
+m/lmmono9-regular.otf><c:/users/admin/appdata/local/programs/miktex/fonts/openty
+pe/public/lm/lmroman5-regular.otf><c:/users/admin/appdata/local/programs/miktex/
+fonts/opentype/public/lm/lmmono8-regular.otf><c:/users/admin/appdata/local/progr
+ams/miktex/fonts/opentype/public/lm/lmsans17-oblique.otf><c:/users/admin/appdata
+/local/programs/miktex/fonts/opentype/public/lm/lmsans9-regular.otf><c:/users/ad
+min/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans8-oblique.otf><
+c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans10-o
+blique.otf><c:/users/admin/appdata/local/programs/miktex/fonts/opentype/public/l
+m/lmsans10-bold.otf><c:/users/admin/appdata/local/programs/miktex/fonts/opentype
+/public/lm/lmsans8-regular.otf><c:/users/admin/appdata/local/programs/miktex/fon
+ts/opentype/public/lm/lmsans10-regular.otf><c:/users/admin/appdata/local/program
+s/miktex/fonts/opentype/public/lm/lmsans12-regular.otf><C:/Users/ADMIN/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/ADMIN/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
+s/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmi9.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb><C:/Users/ADMIN/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ADMIN/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ADMIN/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ADMIN/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ADMIN/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/AD
+MIN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb
+>
+Output written on slide.pdf (47 pages, 728151 bytes).
 
-PDF statistics: 2105 PDF objects out of 2487 (max. 8388607)
- 88 named destinations out of 1000 (max. 131072)
- 3616 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1952 PDF objects out of 2073 (max. 8388607)
+ 99 named destinations out of 1000 (max. 131072)
+ 3498 words of extra memory for PDF output out of 10000 (max. 100000000)
 
