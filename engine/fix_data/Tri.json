@@ -17,103 +17,7 @@
             "∃x(HostShowOn(jasonKramer, x) ∧ PublicRadioStation(x))",
             "RadioPersonality(jasonKramer)"
         ],
-        "label": "True"
-    },
-    {
-        "id": "folio_train_536",
-        "natural": [
-            "Hermès bags are not made in Italy.",
-            "All Birkin bags are Hermès bags. ",
-            "All Ferraris are made in Italy. ",
-            "All cars that carry a Ferrari V12 engine are Ferraris. ",
-            "All cars that are made in Maranello carry a Ferrari V12 engine.",
-            "A Lamborghini SUV is not both a Ferrari and made in Maranello. ",
-            "A Kelly bag is a Hermès bag, or it is a car that carries a Ferrari V12 engine. ",
-            "A Lamborghini SUV is made in Italy."
-        ],
-        "fol": [
-            "∀x ((Bag(x) ∧ Hermès(x)) → ¬MadeIn(x, italy))",
-            "∀x ((Bag(x) ∧ Birkin(x)) → Hermès(x))",
-            "∀x (Ferrari(x) → MadeIn(x, italy))",
-            "∀x ((Car(x) ∧ Carry(x, ferrariV12Engine)) → Ferrrari(x))",
-            "∀x ((Car(x) ∧ MadeIn(x, maranello)) → Carry(x, ferrariV12Engine))",
-            "¬(Ferrari(lamborghiniSUV) ∧ MadeIn(lamborghiniSUV, maranello))",
-            "(Bag(kelly) ∧ Hermès(kelly)) ∨ (Bag(kelly) ∧ Car(kelly) ∧ Carry(kelly, ferrariV12Engine))",
-            "MadeIn(lamborghiniSUV, italy)"
-        ],
         "label": "Uncertain"
-    },
-    {
-        "id": "folio_train_537",
-        "natural": [
-            "Hermès bags are not made in Italy.",
-            "All Birkin bags are Hermès bags. ",
-            "All Ferraris are made in Italy. ",
-            "All cars that carry a Ferrari V12 engine are Ferraris. ",
-            "All cars that are made in Maranello carry a Ferrari V12 engine.",
-            "A Lamborghini SUV is not both a Ferrari and made in Maranello. ",
-            "A Kelly bag is a Hermès bag, or it is a car that carries a Ferrari V12 engine. ",
-            "A Lamborghini SUV is not made in Italy."
-        ],
-        "fol": [
-            "∀x ((Bag(x) ∧ Hermès(x)) → ¬MadeIn(x, italy))",
-            "∀x ((Bag(x) ∧ Birkin(x)) → Hermès(x))",
-            "∀x (Ferrari(x) → MadeIn(x, italy))",
-            "∀x ((Car(x) ∧ Carry(x, ferrariV12Engine)) → Ferrrari(x))",
-            "∀x ((Car(x) ∧ MadeIn(x, maranello)) → Carry(x, ferrariV12Engine))",
-            "¬(Ferrari(lamborghiniSUV) ∧ MadeIn(lamborghiniSUV, maranello))",
-            "(Bag(kelly) ∧ Hermès(kelly)) ∨ (Bag(kelly) ∧ Car(kelly) ∧ Carry(kelly, ferrariV12Engine))",
-            "¬MadeIn(lamborghiniSUV, italy)"
-        ],
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_train_538",
-        "natural": [
-            "Hermès bags are not made in Italy.",
-            "All Birkin bags are Hermès bags. ",
-            "All Ferraris are made in Italy. ",
-            "All cars that carry a Ferrari V12 engine are Ferraris. ",
-            "All cars that are made in Maranello carry a Ferrari V12 engine.",
-            "A Lamborghini SUV is not both a Ferrari and made in Maranello. ",
-            "A Kelly bag is a Hermès bag, or it is a car that carries a Ferrari V12 engine. ",
-            "A Kelly bag is a Birkin bag made in Maranello."
-        ],
-        "fol": [
-            "∀x ((Bag(x) ∧ Hermès(x)) → ¬MadeIn(x, italy))",
-            "∀x ((Bag(x) ∧ Birkin(x)) → Hermès(x))",
-            "∀x (Ferrari(x) → MadeIn(x, italy))",
-            "∀x ((Car(x) ∧ Carry(x, ferrariV12Engine)) → Ferrrari(x))",
-            "∀x ((Car(x) ∧ MadeIn(x, maranello)) → Carry(x, ferrariV12Engine))",
-            "¬(Ferrari(lamborghiniSUV) ∧ MadeIn(lamborghiniSUV, maranello))",
-            "(Bag(kelly) ∧ Hermès(kelly)) ∨ (Bag(kelly) ∧ Car(kelly) ∧ Carry(kelly, ferrariV12Engine))",
-            "Bag(kelly) ∧ MadeIn(kelly, maranello) ∧ Birkin(kelly)"
-        ],
-        "label": "False"
-    },
-    {
-        "id": "folio_train_539",
-        "natural": [
-            "Hermès bags are not made in Italy.",
-            "All Birkin bags are Hermès bags. ",
-            "All Ferraris are made in Italy. ",
-            "All cars that carry a Ferrari V12 engine are Ferraris. ",
-            "All cars that are made in Maranello carry a Ferrari V12 engine.",
-            "A Lamborghini SUV is not both a Ferrari and made in Maranello. ",
-            "A Kelly bag is a Hermès bag, or it is a car that carries a Ferrari V12 engine. ",
-            "A Kelly bag is not both made in Maranello and a Birkin bag."
-        ],
-        "fol": [
-            "∀x ((Bag(x) ∧ Hermès(x)) → ¬MadeIn(x, italy))",
-            "∀x ((Bag(x) ∧ Birkin(x)) → Hermès(x))",
-            "∀x (Ferrari(x) → MadeIn(x, italy))",
-            "∀x ((Car(x) ∧ Carry(x, ferrariV12Engine)) → Ferrrari(x))",
-            "∀x ((Car(x) ∧ MadeIn(x, maranello)) → Carry(x, ferrariV12Engine))",
-            "¬(Ferrari(lamborghiniSUV) ∧ MadeIn(lamborghiniSUV, maranello))",
-            "(Bag(kelly) ∧ Hermès(kelly)) ∨ (Bag(kelly) ∧ Car(kelly) ∧ Carry(kelly, ferrariV12Engine))",
-            "Bag(kelly) ∧ ¬(MadeIn(kelly, maranello) ∧ Birkin(kelly))"
-        ],
-        "label": "True"
     },
     {
         "id": "folio_train_541",
@@ -135,7 +39,7 @@
             "∃y (LiveIn(alfonso, y) ∧ Place(y) ∧ Named(y, galicia))",
             "∀x (Live(dominique, x) → ¬In(x, spain))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_542",
@@ -157,7 +61,7 @@
             "∃y (LiveIn(alfonso, y) ∧ Place(y) ∧ Named(y, galicia))",
             "∀x (Live(alfonso, x) → In(x, europe))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_546",
@@ -177,7 +81,7 @@
             "∃y (MoreThan(y, num1000) ∧ SoldCopies(hamlet, y)) ⊕ WrittenBy(hamlet, neilGaiman)",
             "Win(hamlet, hugoAward) ∧ WrittenBy(hamlet, tolkien)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_547",
@@ -197,7 +101,7 @@
             "∃y (MoreThan(y, num1000) ∧ SoldCopies(hamlet, y)) ⊕ WrittenBy(hamlet, neilGaiman)",
             "¬(Win(hamlet, hugoAward) ⊕ WrittenBy(hamlet, tolkien)) → (¬Win(hamlet, hugoAward) ∧ (¬WrittenBy(hamlet, neilGaiman)))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_553",
@@ -219,23 +123,7 @@
             "∀x ((Won(x, nbaFinals) ∨ Lost(x, nbaFinals)) → Attending(x, nbaFinals))",
             "HasMoreThanThirtyYearsOfHistory(bostonCeltics)"
         ],
-        "label": "True"
-    },
-    {
-        "id": "folio_train_555",
-        "natural": [
-            "Maya would only play the violin if her fingers could never be injured. ",
-            "Volleyball players can injure their ankles, fingers, or shoulder.",
-            "Maya is a volleyball player.",
-            "Maya will not play the violin."
-        ],
-        "fol": [
-            "Play(maya, violin) → ¬CanInjure(maya, fingers)",
-            "∀x (VolleyballPlayer(x) → (CanInjure(ankles) ∧ CanInjure(fingers) ∧ CanInjure(shoulder)))",
-            "VolleyballPlayer(maya)",
-            "¬Play(maya, violin)"
-        ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_558",
@@ -301,7 +189,7 @@
             "∀x (DelicateMechanism(x) → ¬(Toy(x) ∧ SuitableFor(x, children)))",
             "∃x ∃y (CDPlayer(x) ∧ CDPlayer(y) ∧ Toy(x) ∧ Toy(y) ∧ SuitableFor(x, children) ∧ SuitableFor(y, children) ∧ ¬(x=y))"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_567",
@@ -325,7 +213,7 @@
             "MaxListenTo(asItWasByHarryStyles)",
             "Song(asItWasByHarryStyles) ∧ From(asItWasByHarryStyles, 12thCentury)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_568",
@@ -373,7 +261,7 @@
             "(Function(maximumOfQuasiConvexFunction) ∧ RepresentOn(maximumOfQuasiConvexFunction, straightLine, coordinatePlane)) ∨ ConvexFunction(maximumOfQuasiConvexFunction) ∨ ¬NonConvexFunction(maximumOfQuasiConvexFunction)",
             "Function(maximumOfQuasiConvexFunction) ∧ RepresentOn(maximumOfQuasiConvexFunction, straightLine, coordinatePlane)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_582",
@@ -397,7 +285,7 @@
             "¬((Enjoy(x, healthcareField) ∧ WantToHelp(mark, peopleWithMedicalIssues)) ∧ ¬(∃y ∃z (¬(y=z) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z) ∧ ParentOf(y, x) ∧ ParentOf(z, x) ∧ Doctor(y) ∧ Doctor(z))) → StudyHard(mark) ∨ (∃y ∃z (¬(y=z) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z) ∧ ParentOf(y, x) ∧ ParentOf(z, x) ∧ Doctor(y) ∧ Doctor(z))))",
             "RobinsFriends(mark) ∧ StudyHard(mark)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_583",
@@ -421,7 +309,7 @@
             "¬((Enjoy(x, healthcareField) ∧ WantToHelp(mark, peopleWithMedicalIssues)) ∧ ¬(∃y ∃z (¬(y=z) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z) ∧ ParentOf(y, x) ∧ ParentOf(z, x) ∧ Doctor(y) ∧ Doctor(z))) → StudyHard(mark) ∨ (∃y ∃z (¬(y=z) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z) ∧ ParentOf(y, x) ∧ ParentOf(z, x) ∧ Doctor(y) ∧ Doctor(z))))",
             "RobinsFriends(mark) ∧ Practice(mark, codingQuestion) ∧ WantToWorkIn(mark, softwareEngineeringIndustry)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_584",
@@ -445,7 +333,7 @@
             "¬((Enjoy(x, healthcareField) ∧ WantToHelp(mark, peopleWithMedicalIssues)) ∧ ¬(∃y ∃z (¬(y=z) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z) ∧ ParentOf(y, x) ∧ ParentOf(z, x) ∧ Doctor(y) ∧ Doctor(z))) → StudyHard(mark) ∨ (∃y ∃z (¬(y=z) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z) ∧ ParentOf(y, x) ∧ ParentOf(z, x) ∧ Doctor(y) ∧ Doctor(z))))",
             "RobinsFriends(mark) ∧ ¬(Practice(mark, codingQuestion) ∨ WantToWorkIn(mark, softwareEngineeringIndustry))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_585",
@@ -469,7 +357,7 @@
             "(Value(thomas, qualityManufacturing) ∧ Value(thomas, luxuryItem)) ∨ ¬(Miserly(x) ∧ NeedToSave(x, aLargePortionOfIncome))",
             "SpendFrivolously(thomas, aLotOfMoney)"
         ],
-        "label": "False"
+        "label": "True"
     },
     {
         "id": "folio_train_586",
@@ -493,7 +381,7 @@
             "(Value(thomas, qualityManufacturing) ∧ Value(thomas, luxuryItem)) ∨ ¬(Miserly(x) ∧ NeedToSave(x, aLargePortionOfIncome))",
             "Enjoy(thomas, shopping, materialisticItem) ⊕ GoToSpaFrequently(thomas)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_587",
@@ -517,7 +405,7 @@
             "(Value(thomas, qualityManufacturing) ∧ Value(thomas, luxuryItem)) ∨ ¬(Miserly(x) ∧ NeedToSave(x, aLargePortionOfIncome))",
             "Enjoy(thomas, shopping, materialisticItem) ⊕ GoToSpaFrequently(thomas) → ¬((Value(x, qualityManufacturing) ∧ Value(x, luxuryItem)) ∨ GoToSpaFrequently(thomas))"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_588",
@@ -536,7 +424,7 @@
             "SoldOver(l1901, 400,000)",
             "CertifiedGold(wolfgangamAdeusPhoenix)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_591",
@@ -566,7 +454,7 @@
             "Happy(thor) → Angry(theHulk)",
             "Happy(thor) → Wears(peterParker, uniform)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_593",
@@ -584,7 +472,7 @@
             "¬(Is(diethylcarbamazine, ivermectin))",
             "¬(PreferredTreatmentFor(riverBlindness, diethylcarbamazine))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_594",
@@ -602,7 +490,7 @@
             "¬(Is(diethylcarbamazine, ivermectin))",
             "Treats(diethylcarbamazine, riverBlindness)"
         ],
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "folio_train_597",
@@ -622,7 +510,7 @@
             "¬ComplexNumber(one) → (PrimeNumber(one) ∧ Integer(one))",
             "PrimeNumber(one) ∧ NaturalNumber(one)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_598",
@@ -642,7 +530,7 @@
             "¬ComplexNumber(one) → (PrimeNumber(one) ∧ Integer(one))",
             "PrimeNumber(one) ⊕  NaturalNumber(one)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_599",
@@ -664,7 +552,7 @@
             "Disease(bladderCancer) ∧ (BloodCancer(bladderCancer) ∨ Leukemia(bladderCancer))",
             "Mild(bladderCancer)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_601",
@@ -686,7 +574,7 @@
             "Disease(bladderCancer) ∧ (BloodCancer(bladderCancer) ∨ Leukemia(bladderCancer))",
             "RareDisease(bladderCancer) ⊕ Mild(bladderCancer)"
         ],
-        "label": "True"
+        "label": "False"
     },
     {
         "id": "folio_train_602",
@@ -708,7 +596,7 @@
             "¬(¬RareEarthElement(lithium) ⊕ EssentialFor(lithium, electronics))",
             "RareEarthElement(lithium)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_603",
@@ -750,7 +638,7 @@
             "¬(Hire(x, maid) ∨ Hire(x, cleaningService)) ⊕ ¬CleanOften(jack, home)",
             "¬(CareAbout(jack, cleanliness))"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_606",
@@ -770,7 +658,7 @@
             "¬(Hire(x, maid) ∨ Hire(x, cleaningService)) ⊕ ¬CleanOften(jack, home)",
             "CareAbout(jack, cleanliness)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_607",
@@ -790,7 +678,7 @@
             "¬(Hire(x, maid) ∨ Hire(x, cleaningService)) ⊕ ¬CleanOften(jack, home)",
             "Have(jack, tidyHouse)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_608",
@@ -810,7 +698,7 @@
             "¬(Hire(x, maid) ∨ Hire(x, cleaningService)) ⊕ ¬CleanOften(jack, home)",
             "¬(¬CareAbout(jack, cleanliness) ∨ ¬CleanOften(jack, home))"
         ],
-        "label": "True"
+        "label": "False"
     },
     {
         "id": "folio_train_609",
@@ -830,7 +718,7 @@
             "¬(Hire(x, maid) ∨ Hire(x, cleaningService)) ⊕ ¬CleanOften(jack, home)",
             "¬Prioritize(jack, cleaning) ∨ ¬CareAbout(jack, cleanliness)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_611",
@@ -852,7 +740,7 @@
             "¬((Hardworking(john) ∧ HaveFor(john, highAmbition, future) ∧ HaveFor(john, goal, future)) ⊕ FlexibleSchedule(john))",
             "Organized(john)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_612",
@@ -874,7 +762,7 @@
             "¬((Hardworking(john) ∧ HaveFor(john, highAmbition, future) ∧ HaveFor(john, goal, future)) ⊕ FlexibleSchedule(john))",
             "ChooseWhatToDoWith(john, time)"
         ],
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "folio_train_613",
@@ -896,7 +784,7 @@
             "¬((Hardworking(john) ∧ HaveFor(john, highAmbition, future) ∧ HaveFor(john, goal, future)) ⊕ FlexibleSchedule(john))",
             "(Hardworking(john) ∧ HaveFor(john, highAmbition, future) ∧ HaveFor(john, goal, future)) ⊕ ShortSighted(john)"
         ],
-        "label": "True"
+        "label": "False"
     },
     {
         "id": "folio_train_618",
@@ -916,7 +804,7 @@
             "Penguin(fido) ∨ FlyOver(fido, vastDistance)",
             "¬(NonFlying(fido) ∧ Bird(fido) ∧ In(fido, antarctica)) ∧ ¬GlideInAir(fido)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_621",
@@ -938,7 +826,7 @@
             "¬Pursuing(leon, bachelor) → Professor(leon)",
             "¬UndergraduateStudent(leon) ∧ ¬PrincipalInvestigator(leon)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_622",
@@ -960,7 +848,7 @@
             "¬Pursuing(leon, bachelor) → Professor(leon)",
             "¬PrincipalInvestigator(leon) → UndergraduateStudent(leon)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_628",
@@ -978,7 +866,7 @@
             "∀x (Painting(x) → (History(x) ∨ Portrait(x) ∨ Animal(x) ∨ Landscape(x) ∨ StillLife(x)))",
             "∀x (WorldsBestKnown(x)  → ¬Portrait(x))"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_636",
@@ -1014,7 +902,7 @@
             "∀x (VideoGameHoldingCompany(x) → HoldingCompany(x))",
             "∃x (Company(x) ∧ Holds(tecmo, x))"
         ],
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "folio_train_641",
@@ -1032,7 +920,7 @@
             "∀x (VideoGameHoldingCompany(x) → HoldingCompany(x))",
             "AnimeHoldingCompany(koeitecmo)"
         ],
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "folio_train_642",
@@ -1054,7 +942,7 @@
             "∀x ∃y ∃z (System(y) ∧ System(z) ∧ ¬(y=z) ∧ CompatibleWith(x, y) ∧ CompatibleWith(x, z) → x=playstationCamera)",
             "Compatible(playStationEye, playStation2) ∧ Compatible(playStationEye, playStation3)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_643",
@@ -1076,7 +964,7 @@
             "∀x ∃y ∃z (System(y) ∧ System(z) ∧ ¬(y=z) ∧ CompatibleWith(x, y) ∧ CompatibleWith(x, z) → x=playstationCamera)",
             "Compatible(playStationEyeToy, playStation2)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_646",
@@ -1100,7 +988,7 @@
             "∃x (From(x, india))",
             "∀x (From(x, countryOfBRICS) → ¬IndianPeople(x))"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_647",
@@ -1124,7 +1012,7 @@
             "∃x (From(x, india))",
             "EmergingEconomy(india)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_648",
@@ -1148,7 +1036,7 @@
             "∃x (From(x, india))",
             "∃x (IndianPeople(x) ∧ From(x, countryOfBRICS))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_650",
@@ -1170,46 +1058,6 @@
             "∀x ((Musical(x) ∧ OnBroadway(x)) → ¬Film(x))",
             "Wins(daveedDiggs, bestActorAward)"
         ],
-        "label": "True"
-    },
-    {
-        "id": "folio_train_652",
-        "natural": [
-            "Ernest Pohl was a Polish football player. ",
-            "A football player in the Polish First Division has scored over 180 goals. ",
-            "Ernest Pohl scored more than 180 goals in the Polish First Division. ",
-            "Górnik Zabrze's stadium was named after a soccer player from Ruda Śląska. ",
-            "Ernest Pohl is from Ruda Śląska. ",
-            "Ernest Pohl has not scored more than 180 goals."
-        ],
-        "fol": [
-            "Polish(ernestPohl) ∧ FootballPlayer(ernestPohl)",
-            "∃x (FootballPlayer(x) ∧ In(x, polishFirstDivision) ∧ ScoredOver(x, 180Goals))",
-            "In(ernestPohl, polishFirstDivision) ∧ ScoredOver(ernestPohl, 180Goals)",
-            "∃x ∃y (GornikZabrzes(x) ∧ Stadium(x) ∧ NamedAfter(x, y) ∧ SoccerPlayer(y) ∧ From(y, rudaŚląska))",
-            "From(ernestPohl, rudaŚląska)",
-            "¬ScoredOver(ernestPohl, 180Goals)"
-        ],
-        "label": "False"
-    },
-    {
-        "id": "folio_train_653",
-        "natural": [
-            "Ernest Pohl was a Polish football player. ",
-            "A football player in the Polish First Division has scored over 180 goals. ",
-            "Ernest Pohl scored more than 180 goals in the Polish First Division. ",
-            "Górnik Zabrze's stadium was named after a soccer player from Ruda Śląska. ",
-            "Ernest Pohl is from Ruda Śląska. ",
-            "Górnik Zabrze's stadium was named after Ernest Pohl."
-        ],
-        "fol": [
-            "Polish(ernestPohl) ∧ FootballPlayer(ernestPohl)",
-            "∃x (FootballPlayer(x) ∧ In(x, polishFirstDivision) ∧ ScoredOver(x, 180Goals))",
-            "In(ernestPohl, polishFirstDivision) ∧ ScoredOver(ernestPohl, 180Goals)",
-            "∃x ∃y (GornikZabrzes(x) ∧ Stadium(x) ∧ NamedAfter(x, y) ∧ SoccerPlayer(y) ∧ From(y, rudaŚląska))",
-            "From(ernestPohl, rudaŚląska)",
-            "∀x (GornikZabrzes(x) ∧ Stadium(x) → NamedAfter(x, ernestPohl))"
-        ],
         "label": "Uncertain"
     },
     {
@@ -1230,7 +1078,7 @@
             "Defeat(annJLand, michaelNutter) ∧ RunFor(annJLand, philadelphiaCityCouncil, year1987)",
             "∃x (MemberOf(x, democraticParty) ∧ ElectedTo(x, philadelphiaCouncil, year1980))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_661",
@@ -1250,7 +1098,7 @@
             "¬(DisobeyFrequently(mary, boss) ⊕ WorkRegularly(mary))",
             "LiveIn(mary, manhattan) ∧ YoungWorkingProfessional(mary) ∧ Have(mary, regular9_5Job)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_662",
@@ -1270,7 +1118,7 @@
             "¬(DisobeyFrequently(mary, boss) ⊕ WorkRegularly(mary))",
             "YoungWorkingProfessional(mary) ∧ Have(mary, regular9_5Job) → ¬LiveIn(mary, manhattan)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_665",
@@ -1290,7 +1138,7 @@
             "BrainStudy(pictureMemory) ∧ (¬(EventRelatedDesign(pictureMemory) ⊕ AnalyzingData(pictureMemory)))",
             "BlockDesign(pictureMemory) ⊕ Analyze(pictureMemory, data)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_666",
@@ -1310,7 +1158,7 @@
             "BrainStudy(pictureMemory) ∧ (¬(EventRelatedDesign(pictureMemory) ⊕ AnalyzingData(pictureMemory)))",
             "¬Analyze(pictureMemory, data) → (BlockDesign(pictureMemory) ∧ Analyze(pictureMemory, data))"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_669",
@@ -1332,7 +1180,7 @@
             "¬(MadeFrom(chopsticksUsedInTomsHouse, metal) ⊕ MadeFrom(chopsticksUsedInTomsHouse, plastic))",
             "EcoFriendly(chopsticks) ∨ DesignedToBeOnlyUsedOnce(chopsticks)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_670",
@@ -1354,7 +1202,7 @@
             "¬(MadeFrom(chopsticksUsedInTomsHouse, metal) ⊕ MadeFrom(chopsticksUsedInTomsHouse, plastic))",
             "MadeFrom(chopsticks, plastic) ∨ DesignedBeOnlyUsedOnce(chopsticks) → MadeFrom(chopsticks, plastic) ∧ EcoFriendly(chopsticks)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_671",
@@ -1376,7 +1224,7 @@
             "Attend(manchestercity, ucl)",
             "HigherRank(manchesterCity, manchesterUnited)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_676",
@@ -1398,7 +1246,7 @@
             "ClassroomIn(116, williamLHarknessHall) ∧ ¬(UsedFor(116, lecture) ⊕ UsedFor(116, officeHours))",
             "¬(BookedDuring(room116, day) ⊕ FreelyUsableAtNight(room116) → (UsedFor(room116, officeHour) ⊕ PrivateStudySpot(room116)))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_677",
@@ -1420,7 +1268,7 @@
             "ClassroomIn(116, williamLHarknessHall) ∧ ¬(UsedFor(116, lecture) ⊕ UsedFor(116, officeHours))",
             "¬(PrivateStudySpot(room116) ∧ FreelyUsableAtNight(room116)) → (UsedFor(room116, lecture) ∨ BookedIn(room116, evening))"
         ],
-        "label": "False"
+        "label": "True"
     },
     {
         "id": "folio_train_690",
@@ -1440,7 +1288,7 @@
             "SonOf(andyWinter, brianWinter) ∧ FootballPlayer(andyWinter) ∧ PlaysFor(andyWinter, hamiltonAcademical)",
             "¬RefereeObserver(brianwinter)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_691",
@@ -1460,7 +1308,7 @@
             "SonOf(andyWinter, brianWinter) ∧ FootballPlayer(andyWinter) ∧ PlaysFor(andyWinter, hamiltonAcademical)",
             "Retired(brianwinter)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_696",
@@ -1480,7 +1328,7 @@
             "¬ForProfit(nationalLobsterHatchery)",
             "∀x (Hatchery(x) → OpenToVisitors(x))"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_697",
@@ -1500,7 +1348,7 @@
             "¬ForProfit(nationalLobsterHatchery)",
             "ReleaseAnimalToWild(nationalLobsterhatchery)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_698",
@@ -1520,7 +1368,7 @@
             "∀x (WonPremierDivisionDuring(x, year2009MonthOctober) ↔ WonPremierDivisionDuring(x, y2005MonthJune))",
             "∃x (Rhosaelwydfc(x) ∧ WonPremierDivisionDuring(x, year2005MonthJune))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_699",
@@ -1540,7 +1388,7 @@
             "∀x (WonPremierDivisionDuring(x, year2009MonthOctober) ↔ WonPremierDivisionDuring(x, y2005MonthJune))",
             "∃x (Rhosaelwydfc(x) ∧ PromotedTo(x, cymruAlliance))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_700",
@@ -1566,7 +1414,7 @@
             "UsedIn(pytorch, labComputer) ∧ ¬(Linux(pytorch) ⊕ Software(pytorch))",
             "Popular(burger)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_701",
@@ -1592,7 +1440,7 @@
             "UsedIn(pytorch, labComputer) ∧ ¬(Linux(pytorch) ⊕ Software(pytorch))",
             "¬Popular(burger)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_703",
@@ -1638,7 +1486,7 @@
             "Road(firstRoad) ∧ MadeOf(secondRoad, concrete) ∧ Road(firstRoad) ∧ MadeOf(secondRoad, asphalt)",
             "LastLonger(firstRoad, secondRoad)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_705",
@@ -1658,7 +1506,7 @@
             "Road(firstRoad) ∧ MadeOf(secondRoad, concrete) ∧ Road(firstRoad) ∧ MadeOf(secondRoad, asphalt)",
             "¬Smoother(firstRoad, secondRoad)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_706",
@@ -1678,7 +1526,7 @@
             "Road(firstRoad) ∧ MadeOf(secondRoad, concrete) ∧ Road(firstRoad) ∧ MadeOf(secondRoad, asphalt)",
             "Prefer(john, secondRoad)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_708",
@@ -1696,7 +1544,7 @@
             "Old(campDavern)",
             "∃x (TraditionalSummerCamp(x) ∧ ForBoysAndGirls(x) ∧ OperatedUntil(YMCA, x, year2015))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_711",
@@ -1720,7 +1568,7 @@
             "¬(HighlyAcclaimedIn(taylor, theirProfession) ∧ (∃y (HoldAt(taylor, y, workPlace) ∧ Tenured(y) ∧ HighRanking(y) ∧ Position(y))))",
             "EmilysFriends(taylor) ∧ (Receive(taylor, glowingFeedback, colleague) ∧ Receive(taylor, glowingRecommendation, colleague) ∧ AwardWinningNovelist(taylor))"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_712",
@@ -1744,7 +1592,7 @@
             "¬(HighlyAcclaimedIn(taylor, theirProfession) ∧ (∃y (HoldAt(taylor, y, workPlace) ∧ Tenured(y) ∧ HighRanking(y) ∧ Position(y))))",
             "EmilysFriends(taylor) ∧ ¬(Publish(taylor, journal) ∧ AwardWinningNovelist(taylor))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_713",
@@ -1768,7 +1616,7 @@
             "SoldAs(thickAsTheives, hardCover) ∧ SoldAs(thickAsTheives, softCover)",
             "WorkedWith(WhalenTurner, greenWillowbooks)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_716",
@@ -1792,7 +1640,7 @@
             "SoldAs(thickAsTheives, hardCover) ∧ SoldAs(thickAsTheives, softCover)",
             "¬WorkedWith(megan, greenWillowbooks)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_718",
@@ -1810,7 +1658,7 @@
             "∀x (German(x) → LiveIn(x, german) ⊕ LiveAbroad(x))",
             "¬Speak(neofonie, english) ∧ ¬Speak(neofonie, german)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_720",
@@ -1830,7 +1678,7 @@
             "EmployeeIn(leif, jamesSTown) ∧ WorkIn(leif, softwareEngineering)",
             "¬(GoodAt(leif, math) ∧ WorkIn(leif, businessAnalysis))"
         ],
-        "label": "False"
+        "label": "True"
     },
     {
         "id": "folio_train_721",
@@ -1850,7 +1698,7 @@
             "EmployeeIn(leif, jamesSTown) ∧ WorkIn(leif, softwareEngineering)",
             "¬(GoodAt(leif, math) ∧ WorkIn(leif, businessAnalysis)) → (¬WorkFor(x, thisCompany) ∧ ¬WorkIn(x, softwareEngineering))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_724",
@@ -1870,7 +1718,7 @@
             "Eat(benjamin, orange) ∧ Eat(benjamin, grape) ∧ ¬Eat(benjamin, blueberry) ∧ ¬Eat(benjamin, cherry) ∧ ¬Eat(benjamin, strawberry)",
             "Eat(blueberry, benjamin)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_725",
@@ -1910,7 +1758,7 @@
             "ZionstLeader(davidHaivri)",
             "IsraeliCitizen(davidHaivri)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_731",
@@ -1926,7 +1774,7 @@
             "¬Has(susan, influenza)",
             "Has(mary, influenza) ⊕ Has(susan, influenza)"
         ],
-        "label": "True"
+        "label": "False"
     },
     {
         "id": "folio_train_732",
@@ -1966,7 +1814,7 @@
             "∃x ∃y (Whig(x) ∧ SpeakFrench(x)) ∧ (¬(x=y)) ∧ (Whig(y) ∧ SpeakFrench(y))",
             "SpeakFrench(james)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_735",
@@ -1984,7 +1832,7 @@
             "Mythological(shetani)",
             "Fantasy(beastsOfpPrey) ∧ Novel(beastsOfPrey)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_736",
@@ -2002,7 +1850,7 @@
             "Mythological(shetani)",
             "¬ScienceFiction(beastsofprey) ∧ Novel(beastsOfPrey)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_737",
@@ -2020,87 +1868,7 @@
             "Mythological(shetani)",
             "Mythological(shetani) ⊕ Creature(shetani)"
         ],
-        "label": "False"
-    },
-    {
-        "id": "folio_train_738",
-        "natural": [
-            "Odell is an English surname originating in Odell, Bedfordshire.",
-            "In some families, Odell is spelled O'Dell in a mistaken Irish adaptation.",
-            "Notable people with surnames include Amy Odell, Jack Odell, and Mats Odell.",
-            "Amy Odell is a British singer-songwriter.",
-            "Jack Odell is an English toy inventor.",
-            "Jack Odell is a notable person."
-        ],
-        "fol": [
-            "Surname(nameODell) ∧ From(nameODell, oDellBedfordshire)",
-            "MistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell)))",
-            "Named(amyODell, nameODell) ∧ NotablePerson(amyODell) ∧ Named(jackODell, nameODell) ∧ NotablePerson(jackODell) ∧ Named(matsODell, nameODell) ∧ NotablePerson(matsODell)",
-            "British(amyODell) ∧ Singer(amyODell) ∧ SongWriter(amyODell)",
-            "English(jackODell) ∧ ToyInventor(jackODell)",
-            "NotablePerson(jackODell)"
-        ],
         "label": "True"
-    },
-    {
-        "id": "folio_train_739",
-        "natural": [
-            "Odell is an English surname originating in Odell, Bedfordshire.",
-            "In some families, Odell is spelled O'Dell in a mistaken Irish adaptation.",
-            "Notable people with surnames include Amy Odell, Jack Odell, and Mats Odell.",
-            "Amy Odell is a British singer-songwriter.",
-            "Jack Odell is an English toy inventor.",
-            "Odell is Amy Odell's surname."
-        ],
-        "fol": [
-            "Surname(nameODell) ∧ From(nameODell, oDellBedfordshire)",
-            "MistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell)))",
-            "Named(amyODell, nameODell) ∧ NotablePerson(amyODell) ∧ Named(jackODell, nameODell) ∧ NotablePerson(jackODell) ∧ Named(matsODell, nameODell) ∧ NotablePerson(matsODell)",
-            "British(amyODell) ∧ Singer(amyODell) ∧ SongWriter(amyODell)",
-            "English(jackODell) ∧ ToyInventor(jackODell)",
-            "Named(amyODell, nameODell)"
-        ],
-        "label": "True"
-    },
-    {
-        "id": "folio_train_740",
-        "natural": [
-            "Odell is an English surname originating in Odell, Bedfordshire.",
-            "In some families, Odell is spelled O'Dell in a mistaken Irish adaptation.",
-            "Notable people with surnames include Amy Odell, Jack Odell, and Mats Odell.",
-            "Amy Odell is a British singer-songwriter.",
-            "Jack Odell is an English toy inventor.",
-            "Amy Odell is an English toy inventor."
-        ],
-        "fol": [
-            "Surname(nameODell) ∧ From(nameODell, oDellBedfordshire)",
-            "MistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell)))",
-            "Named(amyODell, nameODell) ∧ NotablePerson(amyODell) ∧ Named(jackODell, nameODell) ∧ NotablePerson(jackODell) ∧ Named(matsODell, nameODell) ∧ NotablePerson(matsODell)",
-            "British(amyODell) ∧ Singer(amyODell) ∧ SongWriter(amyODell)",
-            "English(jackODell) ∧ ToyInventor(jackODell)",
-            "English(amyODell) ∧ ToyInventor(amyODell)"
-        ],
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_train_741",
-        "natural": [
-            "Odell is an English surname originating in Odell, Bedfordshire.",
-            "In some families, Odell is spelled O'Dell in a mistaken Irish adaptation.",
-            "Notable people with surnames include Amy Odell, Jack Odell, and Mats Odell.",
-            "Amy Odell is a British singer-songwriter.",
-            "Jack Odell is an English toy inventor.",
-            "Amy Odell is also Amy O'Dell."
-        ],
-        "fol": [
-            "Surname(nameODell) ∧ From(nameODell, oDellBedfordshire)",
-            "MistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell)))",
-            "Named(amyODell, nameODell) ∧ NotablePerson(amyODell) ∧ Named(jackODell, nameODell) ∧ NotablePerson(jackODell) ∧ Named(matsODell, nameODell) ∧ NotablePerson(matsODell)",
-            "British(amyODell) ∧ Singer(amyODell) ∧ SongWriter(amyODell)",
-            "English(jackODell) ∧ ToyInventor(jackODell)",
-            "Named(amyODell, nameODell) ∧ Named(amyODell, nameO'Dell)"
-        ],
-        "label": "Uncertain"
     },
     {
         "id": "folio_train_742",
@@ -2120,7 +1888,7 @@
             "LateForWork(mary)",
             "FromAndTo(newHaven, newYork) ∧ GoByTrain(mary)"
         ],
-        "label": "False"
+        "label": "True"
     },
     {
         "id": "folio_train_744",
@@ -2140,7 +1908,7 @@
             "LateForWork(mary)",
             "Meet(mary, trafficJam)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_747",
@@ -2160,7 +1928,7 @@
             "¬(Lawyer(mary) ⊕ TippedEmployee(mary))",
             "Advocate(mary)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_748",
@@ -2180,7 +1948,7 @@
             "¬(Lawyer(mary) ⊕ TippedEmployee(mary))",
             "¬Advocate(mary)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_750",
@@ -2200,7 +1968,7 @@
             "¬(Lawyer(mary) ⊕ TippedEmployee(mary))",
             "(¬(Advocate(mary) ∧ EntitledTo(mary, federalMinimumWage))) → ¬TippedEmployee(mary)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_757",
@@ -2220,7 +1988,7 @@
             "Close(philip, bankAccount)",
             "(¬Request(philip, documentsFromBank) ∧ ¬Get(x, schengenVisa)) → Apply(x, schengenVisa)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_759",
@@ -2246,7 +2014,7 @@
             "∀x (GreatLake(x) → FormAtEndOf(x, lastGlacialPeriod))",
             "∃x ∃y (Erie(y) ∧ MajorSettlementOf(x, y))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_761",
@@ -2266,7 +2034,7 @@
             "NBAPlayer(stephenCurry)",
             "Professional(stephenCurry) ∧ BasketballPlayer(stephenCurry)"
         ],
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "folio_train_767",
@@ -2286,7 +2054,7 @@
             "ContributedTo(johnMccarthy, artificialIntelligence)",
             "∃x ∃y (¬(x=y) ∧ AwardedTo(turingAward, x) ∧ AwardedTo(turingAward, y) ∧ ContributedTo(x, artificialIntelligence)  ∧ ContributedTo(y, artificialIntelligence))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_768",
@@ -2306,7 +2074,7 @@
             "ContributedTo(johnMccarthy, artificialIntelligence)",
             "∃x ∃y (¬(x=y) ∧ ContributedTo(x, artificialIntelligence) ∧ ContributedTo(x, artificialIntelligence) ∧ AwardedTo(turingAward, x) ∧ AwardedTo(turingAward, y))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_771",
@@ -2330,7 +2098,7 @@
             "¬(StarredByMoreThan(foursum, num1000) ⊕ PublishedAfter(foursum, yr2022)) ∧ LeetcodeProblems(twosum)",
             "LeetcodeProblems(twosum) ∧ Easy(twosum)"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_772",
@@ -2354,7 +2122,7 @@
             "¬(StarredByMoreThan(foursum, num1000) ⊕ PublishedAfter(foursum, yr2022)) ∧ LeetcodeProblems(twosum)",
             "¬(LeetcodeProblems(twosum) ∧ Easy(twosum))"
         ],
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "folio_train_773",
@@ -2378,7 +2146,7 @@
             "¬(StarredByMoreThan(foursum, num1000) ⊕ PublishedAfter(foursum, yr2022)) ∧ LeetcodeProblems(twosum)",
             "RecommendedTo(foursum, novices) ∨ Hard(foursum)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_774",
@@ -2402,7 +2170,7 @@
             "¬(StarredByMoreThan(foursum, num1000) ⊕ PublishedAfter(foursum, yr2022)) ∧ LeetcodeProblems(twosum)",
             "¬RecommendedTo(foursum, novices) ∧ ¬Hard(foursum)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_775",
@@ -2422,7 +2190,7 @@
             "Have(showYourLove, musicVideo)",
             "∀x ∀y (Wrote(x, showYourLove) → ¬(BoyBand(y) ∧ MemberOf(x, y)))"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_780",
@@ -2444,7 +2212,7 @@
             "MindReading(multivoxelPatternAnalysis)",
             "MindReading(multivoxelPatternAnalysis) ∧ BrainDecoding(multivoxelPatternAnalysis)"
         ],
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "folio_train_782",
@@ -2466,7 +2234,7 @@
             "MindReading(multivoxelPatternAnalysis)",
             "¬(Uses(multivoxelPatternAnalysis, statisticalPatternAnalysis) ∧ NovelWriting(multivoxelPatternAnalysis))"
         ],
-        "label": "False"
+        "label": "True"
     },
     {
         "id": "folio_train_790",
