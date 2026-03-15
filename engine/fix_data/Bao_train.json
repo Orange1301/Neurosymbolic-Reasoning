@@ -10,12 +10,12 @@
             "Noah needs to pay the water bill."
         ],
         "fol": [
-            "CommonUtilities(water) ∧ CommonUtilities(electricity) ∧ CommonUtilities(gas) ∧ CommonUtilities(heating)",
+            "CommonUtilities(water) ∧ CommonUtilities(electricity) ∧ CommonUtilities(gas) ∧ CommonUtilities(heating) ∧ CommonUtilities(sewer) ∧ CommonUtilities(trash) ∧ CommonUtilities(recycling)",
             "∃x (Apartment(x) ∧ Cover(x, water) ∧ Cover(x, electricity))",
-            "∀x (Apartment(x) ∧ LiveIn(susan, x) ∧ Cover(x, water) ∧ Cover(x, electricity) ∧ Cover(x, gas) ∧ Cover(x, heating))",
-            "∀x (Apartment(x) ∧ LiveIn(ava, x) ∧ ¬Cover(x, water) ∧ ¬Cover(x, electricity) ∧ ¬Cover(x, gas) ∧ ¬Cover(x, heating))",
-            "∀x (Apartment(x) ∧ LiveIn(noah, x) ∧ ¬Cover(x, heating))",
-            "∀x (Apartment(x) ∧ LiveIn(noah, x) ∧ ¬Cover(x, water))"
+            "∀x ((Apartment(x) ∧ LiveIn(susan, x)) → (Cover(x, water) ∧ Cover(x, electricity) ∧ Cover(x, gas) ∧ Cover(x, heating)))",
+            "∀x ((Apartment(x) ∧ LiveIn(ava, x) ∧ ¬Cover(x, water)) → (¬Cover(x, electricity) ∧ ¬Cover(x, gas) ∧ ¬Cover(x, heating)))",
+            "∀x ((Apartment(x) ∧ LiveIn(noah, x)) → ¬Cover(x, heating))",
+            "∀x ((Apartment(x) ∧ LiveIn(noah, x)) → ¬Cover(x, water))"
         ],
         "label": "Uncertain"
     },
@@ -35,7 +35,7 @@
             "∀x (Dress(x) → Clothes(x))",
             "∀x (Skirt(x) → Dress(x))",
             "Clothes(fabricBundle) → Perfect(fabricBundle) ∧ Dress(fabricBundle)",
-            "Skirt(fabricbundle)"
+            "Skirt(fabricBundle)"
         ],
         "label": "False"
     },
@@ -55,7 +55,7 @@
             "∀x (Dress(x) → Clothes(x))",
             "∀x (Skirt(x) → Dress(x))",
             "Clothes(fabricBundle) → Perfect(fabricBundle) ∧ Dress(fabricBundle)",
-            "¬Skirt(fabricbundle)"
+            "¬Skirt(fabricBundle)"
         ],
         "label": "True"
     },
@@ -73,7 +73,7 @@
         "fol": [
             "∀x (Pet(x) → Animal(x))",
             "∀x (Pet(x) → (Dog(x) ⊕ Cat(x)))",
-            "∀x ∀y ((Pet(y) ∧ OwnedBy(x,y)) → Cares(x, y))",
+            "∀x ∀y ((Pet(y) ∧ OwnedBy(y,x)) → Cares(x, y))",
             "∃x ∃y (Cat(x) ∧ Naughty(x) ∧ (¬(x=y)) ∧ Dog(y) ∧ Naughty(y))",
             "∀x ∀y ((Pet(x) ∧ Naughty(x) ∧ OwnedBy(x,y)) → ¬Liked(x, y))",
             "OwnedBy(leo, charlie) ∧ Pet(leo) ∧ Dog(leo) ∧ Naughty(leo)",
@@ -89,7 +89,7 @@
             "All scares are fun."
         ],
         "fol": [
-            "∀x (Surprise(x) → (Fun(x) ⊕ Dreadful(x)))",
+            "∀x (Surprise(x) → ¬(Fun(x) ⟷ Dreadful(x)))",
             "∀x (Scare(x) → Surprise(x))",
             "∀x (Scare(x) → Fun(x))"
         ],
@@ -109,7 +109,7 @@
             "∃x ∃y ∃z(Elephantopus(x) ∧ In(x,africa) ∧ (¬(x=y)) ∧ Elephantopus(y) ∧ In(y, southernasia) ∧ (¬(x=z)) ∧ (¬(y=z)) ∧ Elephantopus(z) ∧ In(z, australia))",
             "∃x ∃y (Elephantopus(x) ∧ NativeTo(x, southeasternunitedstates) ∧ (¬(x=y)) ∧ Elephantopus(y) ∧ NativeTo(y, southeasternunitedstates))",
             "∀x (ElephantopusScaber(x) → TraditionalMedicine(x))",
-            "∃x∃y(Elephantopus(x) ∧ In(x,africa) ∧ Elephantopus(y) ∧ In(y,africa))"
+            "∃x ∃y(Elephantopus(x) ∧ In(x,africa) ∧ Elephantopus(y) ∧ In(y,africa))"
         ],
         "label": "True"
     },
@@ -128,10 +128,10 @@
             "∀x (YaleDormitory(x) → LocatedOn(x, yaleCampus))",
             "∀x ((YaleBuildings(x) ∧ ManagedBy(x, yaleHousing)) → YaleDormitory(x))",
             "∀x ((YaleBuildings(x) ∧ OperatedBy(x, yaleHousingStaff)) → ManagedBy(x, yaleHousing))",
-            "∀x ((YaleBuildings(x) ∧ OpenToStudents(x)) → (¬∃y(Before(y, yr1701) ∧ Established(x, y))))",
+            "∀x ((YaleBuildings(x) ∧ OpenToStudents(x)) → (¬∃y(Before(y, year1701) ∧ Established(x, y))))",
             "∀x ((YaleBuildings(x) ∧ LocatedOn(x, yaleCampus)) → OpenToStudents(x))",
             "YaleBuildings(harkness) ∧ (OperatedBy(x, harkness) ⊕ LocatedOn(harkness, yaleCampus))",
-            "∃y(Before(y, year1701) ∧ Established(x, y))"
+            "∃y(Before(y, year1701) ∧ Established(harkness, y))"
         ],
         "label": "False"
     },
@@ -148,14 +148,14 @@
         ],
         "fol": [
             "∀x (YaleDormitory(x) → LocatedOn(x, yaleCampus))",
-            "∀x ((YaleBuildings(x) ∧ ManagedBy(x, yaleHousing)) → YaleDormitory(x))",
-            "∀x ((YaleBuildings(x) ∧ OperatedBy(x, yaleHousingStaff)) → ManagedBy(x, yaleHousing))",
-            "∀x ((YaleBuildings(x) ∧ OpenToStudents(x)) → (¬∃y(Before(y, yr1701) ∧ Established(x, y))))",
-            "∀x ((YaleBuildings(x) ∧ LocatedOn(x, yaleCampus)) → OpenToStudents(x))",
-            "YaleBuildings(harkness) ∧ (OperatedBy(x, harkness) ⊕ LocatedOn(harkness, yaleCampus))",
-            "¬∃y(Before(y, year1701) ∧ Established(x, y))"
+            "∀x ((YaleBuilding(x) ∧ ManagedBy(x, yaleHousing)) → YaleDormitory(x))",
+            "∀x ((YaleBuilding(x) ∧ OperatedBy(x, yaleHousingStaff)) → ManagedBy(x, yaleHousing))",
+            "∀x ((YaleBuilding(x) ∧ OpenToStudents(x)) → ¬BuiltBefore(x, year1701))",
+            "∀x ((YaleBuilding(x) ∧ LocatedOn(x, yaleCampus)) → OpenToStudents(x))",
+            "¬((YaleBuilding(harkness) ∧ OperatedBy(harkness, yaleHousingStaff)) ↔ LocatedOn(harkness, yorkStreet))",
+            "¬BuiltBefore(harkness, year1701)"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_822",
@@ -172,8 +172,8 @@
             "∀x (Skyscraper(x) → InUrbanArea(x))",
             "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
             "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
-            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
-            "Skyscraper(laLaurieHouse) ⊕ MansionHouse(laLaurieHouse)"
+            "CreepyHauntedHouse(laLaurieHouse) ∨ (TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse))",
+            "¬(Skyscraper(laLaurieHouse) ↔ MansionHouse(laLaurieHouse))"
         ],
         "label": "True"
     },
@@ -192,8 +192,8 @@
             "∀x (Skyscraper(x) → InUrbanArea(x))",
             "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
             "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
-            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
-            "Skyscraper(laLaurieHouse) ⊕ CreepyHauntedHouse(laLaurieHouse)"
+            "CreepyHauntedHouse(laLaurieHouse) ∨ (TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse))",
+            "¬(Skyscraper(laLaurieHouse) ↔ CreepyHauntedHouse(laLaurieHouse))"
         ],
         "label": "True"
     },
@@ -212,8 +212,8 @@
             "∀x (Skyscraper(x) → InUrbanArea(x))",
             "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
             "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
-            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
-            "Skyscraper(laLaurieHouse) ⊕ MansionHouse(laLaurieHouse) → InUrbanArea(laLaurieHouse)"
+            "CreepyHauntedHouse(laLaurieHouse) ∨ (TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse))",
+            "¬(Skyscraper(laLaurieHouse) ↔ MansionHouse(laLaurieHouse)) → InUrbanArea(laLaurieHouse)"
         ],
         "label": "False"
     },
@@ -232,8 +232,8 @@
             "∀x (Skyscraper(x) → InUrbanArea(x))",
             "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
             "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
-            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
-            "Skyscraper(laLaurieHouse) ⊕ MansionHouse(laLaurieHouse) → ¬(CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse))"
+            "CreepyHauntedHouse(laLaurieHouse) ∨ (TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse))",
+            "¬(Skyscraper(laLaurieHouse) ↔ MansionHouse(laLaurieHouse)) → ¬(CreepyHauntedHouse(laLaurieHouse) ∨ (TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)))"
         ],
         "label": "False"
     },
@@ -252,8 +252,8 @@
             "∀x (Skyscraper(x) → InUrbanArea(x))",
             "∀x (CreepyHauntedHouse(x) → MansionHouse(x))",
             "∀x (TerrifyingBuilding(x) ∧ OnHalloween(x) → CreepyHauntedHouse(x))",
-            "CreepyHauntedHouse(laLaurieHouse) ∨ TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse)",
-            "Skyscraper(laLaurieHouse) ⊕ CreepyHauntedHouse(laLaurieHouse) → ¬MansionHouse(laLaurieHouse)"
+            "CreepyHauntedHouse(laLaurieHouse) ∨ (TerrifyingBuilding(laLaurieHouse) ∧ OnHalloween(laLaurieHouse))",
+            "¬(Skyscraper(laLaurieHouse) ↔ CreepyHauntedHouse(laLaurieHouse)) → ¬MansionHouse(laLaurieHouse)"
         ],
         "label": "False"
     },
@@ -268,11 +268,11 @@
             "Phuoc Binh is a UNESCO Heritage Site."
         ],
         "fol": [
-            "NationalPark(phuocBinh) ∧ Locatedin(phuocBinh, vietnam)",
-            "∀x ((NationalPark(x) ∧ Locatedin(x, vietnam)) → NatureReserve(x))",
-            "∃x (NationalPark(x) ∧ Locatedin(x, vietnam) ∧ UNESCOWorldHeritageSite(x))",
-            "∀x ((NationalPark(x) ∧ Locatedin(x, vietnam)) → (Mangedby(x, ministryofAgriculture) ⊕ Managedby(x, peoplesCommittee)))",
-            "¬Mangedby(phuocBinh, ministryofAgriculture)",
+            "NationalPark(phuocBinh) ∧ LocatedIn(phuocBinh, vietnam)",
+            "∀x (NationalPark(x) ∧ LocatedIn(x, vietnam) → NatureReserve(x))",
+            "∃x (NationalPark(x) ∧ LocatedIn(x, vietnam) ∧ UNESCOWorldHeritageSite(x))",
+            "∀x (NationalPark(x) ∧ LocatedIn(x, vietnam) → ¬(ManagedBy(x, ministryOfAgriculture) ↔ ManagedBy(x, peoplesCommittee)))",
+            "¬ManagedBy(phuocBinh, ministryOfAgriculture)",
             "UNESCOWorldHeritageSite(phuocBinh)"
         ],
         "label": "Uncertain"
@@ -288,9 +288,9 @@
         ],
         "fol": [
             "∀x (SoccerPlayer(x) ∧ Receive(x, twoYellowCard) → EjectFromRestOfGame(x))",
-            "∀x (SoccerPlayer(x) ∧ Receive(x, oneRedCard)) → EjectFromRestOfGame(x)",
+            "∀x (SoccerPlayer(x) ∧ Receive(x, oneRedCard) → EjectFromRestOfGame(x))",
             "SoccerPlayer(henry)",
-            "Receive(henry, oneYellowCard) ∧ Receive(x, oneRedCard)",
+            "Receive(henry, oneYellowCard) ∧ Receive(henry, oneRedCard)",
             "EjectFromRestOfGame(henry)"
         ],
         "label": "True"
@@ -306,9 +306,9 @@
         ],
         "fol": [
             "∀x (SoccerPlayer(x) ∧ Receive(x, twoYellowCard) → EjectFromRestOfGame(x))",
-            "∀x (SoccerPlayer(x) ∧ Receive(x, oneRedCard)) → EjectFromRestOfGame(x)",
+            "∀x (SoccerPlayer(x) ∧ Receive(x, oneRedCard) → EjectFromRestOfGame(x))",
             "SoccerPlayer(henry)",
-            "Receive(henry, oneYellowCard) ∧ Receive(x, oneRedCard)",
+            "Receive(henry, oneYellowCard) ∧ Receive(henry, oneRedCard)",
             "¬EjectFromRestOfGame(henry)"
         ],
         "label": "False"
@@ -324,10 +324,10 @@
             "GPT-3 is popular."
         ],
         "fol": [
-            "¬(∃x (LanguageModel(x) ∧ Giant(x) ∧ ¬GoodPerformance(x)))",
-            "∀x ∃y ∃z (LanguageModel(x) ∧ GoodPerformance(x) → ¬(x=y) ∧ Researcher(y) ∧ UsedBy(x, y) ∧ Researcher(z) ∧ UsedBy(x, z))",
-            "∀x ∃y ∃z (LanguageModel(x) ∧ ¬(x=y) ∧ Researcher(y) ∧ UsedBy(x, y) ∧ Researcher(z) ∧ UsedBy(x, z) → Popular(x))",
-            "(LanguageModel(bert) ∧ Giant(bert)) → (LanguageModel(gpt_3) ∧ Giant(gpt_3))",
+            "¬∃x (LanguageModel(x) ∧ Giant(x) ∧ ¬GoodPerformance(x))",
+            "∀x (LanguageModel(x) ∧ GoodPerformance(x) → ∃y (Researcher(y) ∧ UsedBy(x, y)))",
+            "∀x (LanguageModel(x) ∧ ∃y (Researcher(y) ∧ UsedBy(x, y)) → Popular(x))",
+            "LanguageModel(bert) ∧ Giant(bert) → LanguageModel(gpt_3) ∧ Giant(gpt_3)",
             "LanguageModel(bert) ∧ Giant(bert)",
             "Popular(gpt_3)"
         ],
@@ -348,10 +348,10 @@
             "Scottish(stJohnstone) ∧ Team(stJohnstone)",
             "PartOf(stJohnstone, scottishPremiership) ∧ League(scottishPremiership)",
             "∀x ∀y (Team(x) ∧ League(y) ∧ PartOf(x, y) → Joined(x, y))",
-            "¬(misnk=stJohnstone)",
-            "∀x ∀y (¬(x=y) → WonAgainst(x, y) ⊕ WonAgainst(y, x))",
+            "Team(minsk) ∧ ¬(minsk = stJohnstone)",
+            "∀x ∀y (Team(x) ∧ Team(y) ∧ ¬(x = y) → ¬(WonAgainst(x, y) ↔ WonAgainst(y, x)))",
             "WonAgainst(minsk, stJohnstone)",
-            "WonGame(stJohnstone, minsk)"
+            "WonAgainst(stJohnstone, minsk)"
         ],
         "label": "False"
     },
@@ -372,7 +372,7 @@
             "∀x (Plane(x) ∧ AcquiredBy(x, delta) → Boeing737(x))",
             "∀x (Plane(x) → ((∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))) ⊕ (∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)))))",
             "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ScheduledFor(x, shortdistanceflight))",
-            "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ∃z(Before(z, yr2010) ∧ Produced(x, z)))",
+            "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ∃z(Before(z, year2010) ∧ Produced(x, z)))",
             "(Boeing737(jake32) ∧ Plane(jake32)) ⊕ (AcquiredByDeltaInThisBatch(jake32) ∧ Plane(jake32))",
             "¬((Boeing737(t10) ∧ Plane(t10)) ⊕ (AcquiredByDeltaInThisBatch(t10) ∧ Plane(t10)))",
             "¬(∃z(Before(z, year2010) ∧ Produced(jake32, z)) ∧ ScheduledFor(jake32, shortdistanceflight))"
@@ -396,28 +396,10 @@
             "∀x (Plane(x) ∧ AcquiredBy(x, delta) → Boeing737(x))",
             "∀x (Plane(x) → ((∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))) ⊕ (∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)))))",
             "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ScheduledFor(x, shortdistanceflight))",
-            "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ∃z(Before(z, yr2010) ∧ Produced(x, z)))",
+            "∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ∃z(Before(z, year2010) ∧ Produced(x, z)))",
             "(Boeing737(jake32) ∧ Plane(jake32)) ⊕ (AcquiredByDeltaInThisBatch(jake32) ∧ Plane(jake32))",
             "¬((Boeing737(t10) ∧ Plane(t10)) ⊕ (AcquiredByDeltaInThisBatch(t10) ∧ Plane(t10)))",
             "¬∃z(Before(z, year2010) ∧ Produced(jake32, z)) ∧ ¬ScheduledFor(jake32, shortdistanceflight)"
-        ],
-        "label": "False"
-    },
-    {
-        "id": "folio_train_849",
-        "natural": [
-            "The SAT test is wholly owned and developed by the College Board.",
-            "The SAT test is intended to assess students' readiness for college.",
-            "The SAT was originally designed not to be aligned with high school curricula. ",
-            "Several adjustments were made to the version of the SAT introduced in 2016 to align with the high school curriculum.",
-            "The SAT test is owned by the College Board and other third parties."
-        ],
-        "fol": [
-            "OwnedBy(sAT, collegeBoard) ∧ DevelopedBy(sAT, collegeBoard) ∧ ¬(∃y (¬(y=collegeBoard) ∧ (OwnedBy(sAT, y) ∨ DevelopedBy(sAT, y))))",
-            "IntendedToAssess(sAT, studentsReadinessForCollege)",
-            "OriginallyDesignedToBeAlignedWith(sAT, highSchoolCurricula)",
-            "AdjustmentMadeIn(sAT, 2016, toAlignWithHighSchoolCurriculum)",
-            "OwnedBy(sAT, collegeBoard) ∧ OwnedBy(sAT, otherThirdParties)"
         ],
         "label": "False"
     },
@@ -436,7 +418,7 @@
             "∀x (Human(x) → Animal(x))",
             "∀x (Pupil(x) → Human(x))",
             "∀x (Flower(x) → Plant(x))",
-            "¬(Human(bailey) ⊕ Flower(bailey))",
+            "Human(bailey) ⟷ Flower(bailey)",
             "Pupil(bailey)"
         ],
         "label": "False"
@@ -456,7 +438,7 @@
             "∀x (Human(x) → Animal(x))",
             "∀x (Pupil(x) → Human(x))",
             "∀x (Flower(x) → Plant(x))",
-            "¬(Human(bailey) ⊕ Flower(bailey))",
+            "Human(bailey) ⟷ Flower(bailey)",
             "¬Pupil(bailey)"
         ],
         "label": "True"
@@ -476,7 +458,7 @@
             "∀x (Human(x) → Animal(x))",
             "∀x (Pupil(x) → Human(x))",
             "∀x (Flower(x) → Plant(x))",
-            "¬(Human(bailey) ⊕ Flower(bailey))",
+            "Human(bailey) ⟷ Flower(bailey)",
             "Human(bailey) → ¬Pupil(bailey)"
         ],
         "label": "True"
@@ -499,7 +481,7 @@
             "∀x (DonatedTo(x, homelessCharity) → Food(x) ⊕ Clothes(x))",
             "∀x (Wearable(x) → ¬Edible(x))",
             "∀x (Clothes(x) → Wearable(x))",
-            "DonatedTo(watch, homelessCharify)",
+            "DonatedTo(watch, homelessCharity)",
             "¬(Edible(watch) ∧ Clothes(watch)) → ¬(Edible(watch) ⊕ Clothes(watch))",
             "Slipper(watch)"
         ],
@@ -523,7 +505,7 @@
             "∀x (DonatedTo(x, homelessCharity) → Food(x) ⊕ Clothes(x))",
             "∀x (Wearable(x) → ¬Edible(x))",
             "∀x (Clothes(x) → Wearable(x))",
-            "DonatedTo(watch, homelessCharify)",
+            "DonatedTo(watch, homelessCharity)",
             "¬(Edible(watch) ∧ Clothes(watch)) → ¬(Edible(watch) ⊕ Clothes(watch))",
             "¬Edible(watch) ∧ ¬Slipper(watch)"
         ],
@@ -547,7 +529,7 @@
             "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
             "Attend(sam, festival) ∧ YoungTeenageGirl(sam)"
         ],
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_866",
@@ -560,14 +542,14 @@
             "Sam is not a young teenage girl who attends music festival frequently"
         ],
         "fol": [
-            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (HasMusicDecorations(x) → ¬MoveOutEasily(x))",
             "∀x (Ambitious(x) → MoveOutEasily(x))",
-            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
-            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
-            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
-            "¬(Attend(sam, festival) ∧ YoungTeenageGirl(sam))"
+            "∀x (BigFanOfPop(x) → HasMusicDecorations(x))",
+            "∀x (YoungTeenageGirl(x) ∧ AttendMusicFestival(x) → BigFanOfPop(x))",
+            "Ambitious(sam) → BigFanOfPop(sam)",
+            "¬(YoungTeenageGirl(sam) ∧ AttendMusicFestival(sam))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_868",
@@ -580,14 +562,14 @@
             "Sam neither has high ambitions and future career goals nor is she a young teenage girl attending music festival frequently"
         ],
         "fol": [
-            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (HasMusicDecorations(x) → ¬MoveOutEasily(x))",
             "∀x (Ambitious(x) → MoveOutEasily(x))",
-            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
-            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
-            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
-            "¬(Ambitious(sam) ∨ (Attend(sam, festival) ∧ YoungTeenageGirl(sam)))"
+            "∀x (BigFanOfPop(x) → HasMusicDecorations(x))",
+            "∀x (YoungTeenageGirl(x) ∧ AttendMusicFestival(x) → BigFanOfPop(x))",
+            "Ambitious(sam) → BigFanOfPop(sam)",
+            "¬Ambitious(sam) ∧ ¬(YoungTeenageGirl(sam) ∧ AttendMusicFestival(sam))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_869",
@@ -600,12 +582,12 @@
             "Sam has high ambitions and future career goals and is a young teenage girl attending music festival frequently."
         ],
         "fol": [
-            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (HasMusicDecorations(x) → ¬MoveOutEasily(x))",
             "∀x (Ambitious(x) → MoveOutEasily(x))",
-            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
-            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
-            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
-            "Ambitious(sam) ∧ Attend(sam, festival) ∧ YoungTeenageGirl(sam)"
+            "∀x (BigFanOfPop(x) → HasMusicDecorations(x))",
+            "∀x (YoungTeenageGirl(x) ∧ AttendMusicFestival(x) → BigFanOfPop(x))",
+            "Ambitious(sam) → BigFanOfPop(sam)",
+            "Ambitious(sam) ∧ YoungTeenageGirl(sam) ∧ AttendMusicFestival(sam)"
         ],
         "label": "False"
     },
@@ -620,74 +602,14 @@
             "Sam has high ambitions and future career goals and is a young teenage girl attending college."
         ],
         "fol": [
-            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
+            "∀x (HasMusicDecorations(x) → ¬MoveOutEasily(x))",
             "∀x (Ambitious(x) → MoveOutEasily(x))",
-            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
-            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
-            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
-            "Ambitious(sam) ∧ Attend(sam, festival) ∧ YoungTeenageGirl(sam)"
+            "∀x (BigFanOfPop(x) → HasMusicDecorations(x))",
+            "∀x (YoungTeenageGirl(x) ∧ AttendMusicFestival(x) → BigFanOfPop(x))",
+            "Ambitious(sam) → BigFanOfPop(sam)",
+            "Ambitious(sam) ∧ YoungTeenageGirl(sam) ∧ AttendCollege(sam)"
         ],
         "label": "False"
-    },
-    {
-        "id": "folio_train_871",
-        "natural": [
-            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
-            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
-            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
-            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
-            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
-            "If Sam is a young teenage girl attending college, then Sam either does not have high ambitions and future career goals or is a big fan of pop bands and singers_"
-        ],
-        "fol": [
-            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
-            "∀x (Ambitious(x) → MoveOutEasily(x))",
-            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
-            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
-            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
-            "Attend(sam, festival) ∧ YoungTeenageGirl(sam) → ¬(Ambitious(sam) ∨ (BigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)))"
-        ],
-        "label": "True"
-    },
-    {
-        "id": "folio_train_872",
-        "natural": [
-            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
-            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
-            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
-            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
-            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
-            "If Sam has high ambitions and future career goals and is a young teenage girl attending college, then Sam either does not have high ambitions and future career goals or is not a young teenage girl attending college."
-        ],
-        "fol": [
-            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
-            "∀x (Ambitious(x) → MoveOutEasily(x))",
-            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
-            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
-            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
-            "Ambitious(sam) ∧ Attend(sam, festival) ∧ YoungTeenageGirl(sam) → ¬(Ambitious(sam) ∨ (Attend(sam, festival) ∧ YoungTeenageGirl(sam)))"
-        ],
-        "label": "True"
-    },
-    {
-        "id": "folio_train_873",
-        "natural": [
-            "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.",
-            "If people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.",
-            "If people are big fans of pop bands and singers, then they have a lot of music decorations in their room.",
-            "All young teenage girls who attend music festival frequently are big fans of pop bands and singers_",
-            "If Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
-            "If Sam has high ambitions and future career goals, then Sam is a young teenage girl attending college."
-        ],
-        "fol": [
-            "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))",
-            "∀x (Ambitious(x) → MoveOutEasily(x))",
-            "∀x (BigFanOfMusic(x) → MusicDecorations(x, room))",
-            "∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))",
-            "Ambitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
-            "Ambitious(sam) → Attend(sam, festival) ∧ YoungTeenageGirl(sam)"
-        ],
-        "label": "True"
     },
     {
         "id": "folio_train_878",
@@ -709,7 +631,7 @@
             "∀x (Football(x) → Ball(x))",
             "∀x (Ball(x) → CanCatch(quincymcduffie, x))"
         ],
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "folio_train_879",
@@ -723,13 +645,13 @@
             "Professional wide receivers are good at catching balls."
         ],
         "fol": [
-            "American(quincyMcduffie) ∧ Professional(quincyMcduffie) ∧ WideReciever(quincyMcduffie) ∧ PlaysIn(quincyMcduffie, cFL)",
-            "∀x ((∃y(CanCatch(x, y) ∧ Ball(y))) → GoodWideReceiver(x))",
-            "∃x ∃y (Football(x) ∧ CanCatch(quincymcduffie, x)) ∧ (¬(x=y) ∧ (Football(y) ∧ CanCatch(quincymcduffie, y)))",
+            "American(quincyMcDuffie) ∧ Professional(quincyMcDuffie) ∧ WideReceiver(quincyMcDuffie) ∧ PlaysIn(quincyMcDuffie, cFL)",
+            "∀x (∃y (CanCatch(x, y) ∧ Ball(y)) → GoodWideReceiver(x))",
+            "∃x (Football(x) ∧ CanCatch(quincyMcDuffie, x))",
             "∀x (GoodWideReceiver(x) → Professional(x))",
-            "∀x (GoodWideReceiver(x) → (CanCatchWith(x, lefthand) ∧ CanCatchWith(x, righthand)))",
+            "∀x (GoodWideReceiver(x) → (CanCatchWith(x, leftHand) ∧ CanCatchWith(x, rightHand)))",
             "∀x (Football(x) → Ball(x))",
-            "∀x ((Professional(x) ∧ WideReciever(x)) → Good(x, catchingballs))"
+            "∀x ((Professional(x) ∧ WideReceiver(x)) → GoodAt(x, catchingBalls))"
         ],
         "label": "Uncertain"
     },
@@ -755,7 +677,7 @@
             "¬AppleJuice(coke) → ¬Edible(coke)",
             "OrangeJuice(coke)"
         ],
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "folio_train_900",
@@ -770,14 +692,14 @@
             "If Damon is in Franny's family and he either both grew up with extremely busy parents who did not have time to pack his lunch and drink kombucha every day or neither grew up with extremely busy parents who did not have time to pack his lunch nor drink kombucha every day, then Damon neither visits the dentist frequently nor drinks Coca Cola or Pepsi products."
         ],
         "fol": [
-            "∀x (In(x, frannysFamily) ∧ (Drink(x, kombucha) ∨ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y))))))",
-            "∀x (In(x, frannysFamily) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y)))) → (∃y ∃z (¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z))))",
-            "∀x (In(x, frannysFamily)) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y)))) → HaveToVisitFrequently(x, dentist)",
-            "∀x (In(x, frannysFamily) ∧ (∃y ∃z (¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z))) → ∃y (Have(x, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y)))",
-            "∀x (In(x, frannysFamily) ∧ ∃y (Have(x, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y))) → ¬(ConsistentEverydayRoutine(x) ∧ StickTo(damon, solidSchedule))",
-            "In(damon, frannysFamily)",
-            "¬((∃y ∃z(¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(damon, y) ∧ GrowUpWith(damon, z))) ⊕ (ConsistentEverydayRoutine(damon) ∧ StickTo(damon, solidSchedule)))",
-            "¬((¬(y=z) ∧ ∃y ∃z (BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(damon, y) ∧ GrowUpWith(damon, z))) ⊕ Drink(damon, kombucha)) → ¬(HaveToVisitFrequently(damon, dentist) ∨ (∃y (Have(damon, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y))))"
+            "∀x (InFamily(x) → (DrinkKombucha(x) ∨ DrinkSoda(x)))",
+            "∀x (InFamily(x) ∧ DrinkSoda(x) → BusyParentsNoLunch(x))",
+            "∀x (InFamily(x) ∧ DrinkSoda(x) → VisitDentistFrequently(x))",
+            "∀x (InFamily(x) ∧ BusyParentsNoLunch(x) → ErraticEatingHabits(x))",
+            "∀x (InFamily(x) ∧ ErraticEatingHabits(x) → ¬ConsistentRoutine(x))",
+            "InFamily(damon)",
+            "BusyParentsNoLunch(damon) ⟷ ConsistentRoutine(damon)",
+            "(InFamily(damon) ∧ (BusyParentsNoLunch(damon) ⟷ DrinkKombucha(damon))) → (¬VisitDentistFrequently(damon) ∧ ¬DrinkSoda(damon))"
         ],
         "label": "True"
     },
@@ -794,14 +716,14 @@
             "If Damon is in Franny's family and he either visits the dentist frequently or drinks kombucha, then Damon both visits the dentist frequently and drinks Coca-Cola or Pepsi products every day."
         ],
         "fol": [
-            "∀x (In(x, frannysFamily) ∧ (Drink(x, kombucha) ∨ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y))))))",
-            "∀x (In(x, frannysFamily) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y)))) → (∃y ∃z (¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z))))",
-            "∀x (In(x, frannysFamily)) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y)))) → HaveToVisitFrequently(x, dentist)",
-            "∀x (In(x, frannysFamily) ∧ (∃y ∃z (¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(x, y) ∧ GrowUpWith(x, z))) → ∃y (Have(x, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y)))",
-            "∀x (In(x, frannysFamily) ∧ ∃y (Have(x, y) ∧ Erratic(y) ∧ Diverse(y) ∧ EatingHabit(y))) → ¬(ConsistentEverydayRoutine(x) ∧ StickTo(damon, solidSchedule))",
-            "In(damon, frannysFamily)",
-            "¬((∃y ∃z(¬(y=z) ∧ BusyParent(y) ∧ BusyParent(z) ∧ ¬Pack(y, lunch) ∧ ¬Pack(z, lunch) ∧ GrowUpWith(damon, y) ∧ GrowUpWith(damon, z))) ⊕ (ConsistentEverydayRoutine(damon) ∧ StickTo(damon, solidSchedule)))",
-            "HaveToVisitFrequently(damon, dentist) ∨ Drink(damon, kombucha, everyDay) → HaveToVisitFrequently(damon, dentist) ∧ (∃y (Drink(x, cocaCola) ∨ (PepsiProduct(y) ∧ Drink(x, y))))"
+            "∀x (InFamily(x) → (DrinkKombucha(x) ∨ DrinkSoda(x)))",
+            "∀x (InFamily(x) ∧ DrinkSoda(x) → BusyParentsNoLunch(x))",
+            "∀x (InFamily(x) ∧ DrinkSoda(x) → VisitDentistFrequently(x))",
+            "∀x (InFamily(x) ∧ BusyParentsNoLunch(x) → ErraticEatingHabits(x))",
+            "∀x (InFamily(x) ∧ ErraticEatingHabits(x) → ¬ConsistentRoutine(x))",
+            "InFamily(damon)",
+            "BusyParentsNoLunch(damon) ⟷ ConsistentRoutine(damon)",
+            "(InFamily(damon) ∧ (VisitDentistFrequently(damon) ∨ DrinkKombucha(damon))) → (VisitDentistFrequently(damon) ∧ DrinkSoda(damon))"
         ],
         "label": "False"
     },
@@ -822,10 +744,10 @@
             "LargestPopulation(central)",
             "AdministrativeCenterOf(moscow, central)",
             "AdministrativeCenterOf(yekaterinburg, ural)",
-            "AdministrativeCenterOf(vladivostok, farEastern)",
-            "LargestArea(farEastern)",
+            "AdministrativeCenterOf(vladivostok, fareastern)",
+            "LargestArea(fareastern)",
             "∃x (FederalDistrictOf(x, russia) ∧ EstablishedIn(x, 2000))",
-            "∃x (AdministrativeCenterOf(moscow, x) ∧ LargestPopulationIn(x))"
+            "∃x (AdministrativeCenterOf(moscow, x) ∧ LargestPopulation(x))"
         ],
         "label": "True"
     },
@@ -840,11 +762,11 @@
             "Arthritis is colorectal cancer."
         ],
         "fol": [
-            "∀x (Cancer(x) → Have(x, mutation))",
-            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (Cancer(x) → HaveMutation(x))",
+            "∀x (HaveMutation(x) → ¬CanBeTreatedAtHome(x))",
             "∀x (ColorectalCancer(x) → Cancer(x))",
             "∀x (Cold(x) → CanBeTreatedAtHome(x))",
-            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
+            "Cold(arthritis) ↔ HaveMutation(arthritis)",
             "ColorectalCancer(arthritis)"
         ],
         "label": "False"
@@ -860,11 +782,11 @@
             "Arthritis is not colorectal cancer."
         ],
         "fol": [
-            "∀x (Cancer(x) → Have(x, mutation))",
-            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (Cancer(x) → HaveMutation(x))",
+            "∀x (HaveMutation(x) → ¬CanBeTreatedAtHome(x))",
             "∀x (ColorectalCancer(x) → Cancer(x))",
             "∀x (Cold(x) → CanBeTreatedAtHome(x))",
-            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
+            "Cold(arthritis) ↔ HaveMutation(arthritis)",
             "¬ColorectalCancer(arthritis)"
         ],
         "label": "True"
@@ -880,12 +802,12 @@
             "Arthritis is colorectal cancer or has mutations."
         ],
         "fol": [
-            "∀x (Cancer(x) → Have(x, mutation))",
-            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (Cancer(x) → HaveMutation(x))",
+            "∀x (HaveMutation(x) → ¬CanBeTreatedAtHome(x))",
             "∀x (ColorectalCancer(x) → Cancer(x))",
             "∀x (Cold(x) → CanBeTreatedAtHome(x))",
-            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
-            "ColorectalCancer(arthritis) ∨ Have(arthritis, mutation)"
+            "Cold(arthritis) ↔ HaveMutation(arthritis)",
+            "ColorectalCancer(arthritis) ∨ HaveMutation(arthritis)"
         ],
         "label": "False"
     },
@@ -900,11 +822,11 @@
             "Arthritis is colorectal cancer and a cancer."
         ],
         "fol": [
-            "∀x (Cancer(x) → Have(x, mutation))",
-            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (Cancer(x) → HaveMutation(x))",
+            "∀x (HaveMutation(x) → ¬CanBeTreatedAtHome(x))",
             "∀x (ColorectalCancer(x) → Cancer(x))",
             "∀x (Cold(x) → CanBeTreatedAtHome(x))",
-            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
+            "Cold(arthritis) ↔ HaveMutation(arthritis)",
             "ColorectalCancer(arthritisr) ∧ Cancer(arthritis)"
         ],
         "label": "False"
@@ -920,12 +842,12 @@
             "If arthritis is not colorectal cancer, then arthritis has mutations."
         ],
         "fol": [
-            "∀x (Cancer(x) → Have(x, mutation))",
-            "∀x (Have(x, mutation) → ¬CanBeTreatedAtHome(x))",
+            "∀x (Cancer(x) → HaveMutation(x))",
+            "∀x (HaveMutation(x) → ¬CanBeTreatedAtHome(x))",
             "∀x (ColorectalCancer(x) → Cancer(x))",
             "∀x (Cold(x) → CanBeTreatedAtHome(x))",
-            "¬(Cold(arthritis) ⊕ Have(arthritis, mutation))",
-            "¬ColorectalCancer(arthritis) → Have(arthritis, mutation)"
+            "Cold(arthritis) ↔ HaveMutation(arthritis)",
+            "¬ColorectalCancer(arthritis) → HaveMutation(arthritis)"
         ],
         "label": "False"
     },
@@ -938,7 +860,7 @@
         ],
         "fol": [
             "∀x (OutsideOfControl(x) → ¬ShouldWorry(jerry, x))",
-            "∀x (Traffic(x) → OutsideControl(x))",
+            "OutsideOfControl(traffic)",
             "¬ShouldWorry(jerry, traffic)"
         ],
         "label": "True"
@@ -955,13 +877,13 @@
             "Paolo is an amateur photographer."
         ],
         "fol": [
-            "ItalianName(roversi) ∧ Surname(roversi)",
-            "UseAsSurname(albaRoversi, roversi)",
-            "UseAsSurname(paoloRoversi, roversi)",
-            "UseAsSurname(robertoRoversi, roversi)",
-            "Photographer(paoloRoversi)",
-            "∀x (Photographer(x) → Professional(x) ⊕ Amateur(x))",
-            "Amateur(paoloRoversi) ∧ Photographer(paoloRoversi)"
+            "ItalianSurname(roversi)",
+            "UseAsSurname(alba_roversi, roversi)",
+            "UseAsSurname(paolo_roversi, roversi)",
+            "UseAsSurname(roberto_roversi, roversi)",
+            "Photographer(paolo_roversi)",
+            "∀x (Photographer(x) → ¬(Professional(x) ↔ Amateur(x)))",
+            "Amateur(paolo_roversi) ∧ Photographer(paolo_roversi)"
         ],
         "label": "Uncertain"
     },
@@ -975,11 +897,11 @@
             "Zaha Hadid was born on the 31st of October in 1982."
         ],
         "fol": [
-            "British_Iraqi(zahaHadid) ∧ Architect(zahaHadid) ∧ Artist(zahaHadid) ∧ Designer(zahaHadid)",
-            "BornOn(zahaHadid, 31October1950) ∧ BornIn(zahaHadid, baghdadIraq)",
-            "VisitingProfessorOf(zahaHadid, architecturalDesign) ∧ VisitingProfessorAt(zahaHadid, yaleSchoolOfArchitecture)",
-            "AspiringArchitectureStudent(max) ∧ PlansToApplyTo(max, yaleSchoolofArchitecture)",
-            "BornOn(zahaHadid, 31October1950)"
+            "BritishIraqi(zahaHadid) ∧ Architect(zahaHadid) ∧ Artist(zahaHadid) ∧ Designer(zahaHadid)",
+            "BornOn(zahaHadid, date_1950_10_31) ∧ BornIn(zahaHadid, baghdad)",
+            "VisitingProfessor(zahaHadid, architecturalDesign, yale)",
+            "AspiringStudent(max) ∧ PlansToApply(max, yale)",
+            "BornOn(zahaHadid, date_1982_10_31)"
         ],
         "label": "Uncertain"
     },
@@ -995,13 +917,13 @@
             "FMRI provides a spatial resolution of brains."
         ],
         "fol": [
-            "∀x (NeuroimagingTechnique(x) → (Invasive(x) ⊕ Noninvasive(x)))",
-            "∀x (Noninvasive(x) → Provides(x, spatialResolutionOfBrains))",
-            "∀x (Provides(x, spatialResolutionOfBrains) → Measure(x, brainActivity))",
-            "∀x (Measure(x, brainActivity) → UsedBy(x, neuroscienceResearchers))",
-            "Measure(fMRI, brainActivity) ⊕ Noninvasive(fMRI)",
+            "∀x (NeuroimagingTechnique(x) → ¬(Invasive(x) ↔ Noninvasive(x)))",
+            "∀x (Noninvasive(x) → ProvideSpatialResolution(x))",
+            "∀x (ProvideSpatialResolution(x) → MeasureBrainActivity(x))",
+            "∀x (MeasureBrainActivity(x) → UsedByResearchers(x))",
+            "¬(MeasureBrainActivity(fMRI) ↔ Noninvasive(fMRI))",
             "NeuroimagingTechnique(fMRI)",
-            "Provides(fMRI, spatialResolutionOfBrains)"
+            "ProvideSpatialResolution(fMRI)"
         ],
         "label": "Uncertain"
     },
@@ -1017,13 +939,13 @@
             "FMRI is either an invasive neuroimaging technique or is used by neuroscience researchers_"
         ],
         "fol": [
-            "∀x (NeuroimagingTechnique(x) → (Invasive(x) ⊕ Noninvasive(x)))",
-            "∀x (Noninvasive(x) → Provides(x, spatialResolutionOfBrains))",
-            "∀x (Provides(x, spatialResolutionOfBrains) → Measure(x, brainActivity))",
-            "∀x (Measure(x, brainActivity) → UsedBy(x, neuroscienceResearchers))",
-            "Measure(fMRI, brainActivity) ⊕ Noninvasive(fMRI)",
+            "∀x (NeuroimagingTechnique(x) → ¬(Invasive(x) ↔ Noninvasive(x)))",
+            "∀x (Noninvasive(x) → ProvideSpatialResolution(x))",
+            "∀x (ProvideSpatialResolution(x) → MeasureBrainActivity(x))",
+            "∀x (MeasureBrainActivity(x) → UsedByResearchers(x))",
+            "¬(MeasureBrainActivity(fMRI) ↔ Noninvasive(fMRI))",
             "NeuroimagingTechnique(fMRI)",
-            "Invasive(fMRI) ⊕ UsedBy(fMRI, neuroscienceResearchers)"
+            "¬(Invasive(fMRI) ↔ UsedByResearchers(fMRI))"
         ],
         "label": "False"
     },
@@ -1041,15 +963,15 @@
             "James is provided with souvenirs_"
         ],
         "fol": [
-            "∀x (PresentWorkAt(x, conference) ⊕ ProvideAt(x, tutorialSession, conference))",
-            "∀x (PresentWorkAt(x, conference) → AttendInPerson(x, conference))",
-            "∀x (ProvideSessionAt(x, tutorial, conference) → InvitedToJoin(x, club))",
-            "∀x (AttendInPerson(x, conference) → ProvidedWith(x, souvenir))",
-            "∀x (InvitedToJoin(x, club) → ProvidedWith(x, deliciousMeal))",
-            "∀x (ProvidedWith(x, deliciousMeal) ∧ ProvidedWith(y, deliciousMeal)  → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(x, y) ∧ HappyToCommunicateWithDuringTheDinner(x, z)))",
-            "∀x (ProvidedWith(x, deliciousMeal) → InvitedToTakePhotoWith(x, audience))",
-            "¬(AttendInPerson(james, conference) ∧ ProvidedWith(x, souvenir))",
-            "ProvidedWith(james, souvenir)"
+            "∀x (Researcher(x) → ¬(PresentWork(x) ↔ ProvideTutorial(x)))",
+            "∀x (PresentWork(x) → AttendInPerson(x))",
+            "∀x (ProvideTutorial(x) → InvitedToClub(x))",
+            "∀x (AttendInPerson(x) → ProvidedSouvenir(x))",
+            "∀x (InvitedToClub(x) → ProvidedMeal(x))",
+            "∀x (ProvidedMeal(x) → HappyToCommunicate(x))",
+            "∀x (ProvidedMeal(x) → InvitedToTakePhoto(x))",
+            "¬(AttendInPerson(james) ∧ ProvidedSouvenir(james))",
+            "ProvidedSouvenir(james)"
         ],
         "label": "Uncertain"
     },
@@ -1067,7 +989,7 @@
             "James is not provided with souvenirs_"
         ],
         "fol": [
-            "∀x (PresentWorkAt(x, conference) ⊕ ProvideAt(x, tutorialSession, conference))",
+            "∀x ¬(PresentWorkAt(x, conference) ↔ ProvideAt(x, tutorialSession, conference))",
             "∀x (PresentWorkAt(x, conference) → AttendInPerson(x, conference))",
             "∀x (ProvideSessionAt(x, tutorial, conference) → InvitedToJoin(x, club))",
             "∀x (AttendInPerson(x, conference) → ProvidedWith(x, souvenir))",
@@ -1093,15 +1015,15 @@
             "James is either invited to take a photo with the audience or happy to communicate with other guests(?) during the dinner."
         ],
         "fol": [
-            "∀x (PresentWorkAt(x, conference) ⊕ ProvideAt(x, tutorialSession, conference))",
+            "∀x ¬(PresentWorkAt(x, conference) ↔ ProvideAt(x, tutorialSession, conference))",
             "∀x (PresentWorkAt(x, conference) → AttendInPerson(x, conference))",
-            "∀x (ProvideSessionAt(x, tutorial, conference) → InvitedToJoin(x, club))",
+            "∀x (ProvideAt(x, tutorialSession, conference) → InvitedToJoin(x, club))",
             "∀x (AttendInPerson(x, conference) → ProvidedWith(x, souvenir))",
             "∀x (InvitedToJoin(x, club) → ProvidedWith(x, deliciousMeal))",
-            "∀x (ProvidedWith(x, deliciousMeal) ∧ ProvidedWith(y, deliciousMeal)  → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(x, y) ∧ HappyToCommunicateWithDuringTheDinner(x, z)))",
+            "∀x (ProvidedWith(x, deliciousMeal) → HappyToCommunicateWithDuringTheDinner(x))",
             "∀x (ProvidedWith(x, deliciousMeal) → InvitedToTakePhotoWith(x, audience))",
-            "¬(AttendInPerson(james, conference) ∧ ProvidedWith(x, souvenir))",
-            "InvitedToTakePhotoWith(james, audience) → ∃y ∃z (¬(y=james) ∧ ¬(z=james) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(james, y) ∧ HappyToCommunicateWithDuringDinner(james, z))"
+            "¬(AttendInPerson(james, conference) ∧ ProvidedWith(james, souvenir))",
+            "¬(InvitedToTakePhotoWith(james, audience) ↔ HappyToCommunicateWithDuringTheDinner(james))"
         ],
         "label": "False"
     },
@@ -1117,13 +1039,13 @@
             "TS Leda was not a Norwegian vessel."
         ],
         "fol": [
-            "∀x (TSLeda(x) → ((Passenger(x) ∧ Vessel(x)) ∧ (Cargo(x) ∧ Vessel(x))))",
-            "∀x (TSLeda(x) → (Norweigian(x) ∧ Vessel(x) ∧ Stabilizers(x)))",
-            "∀x (Stabilizers(x) → MechanicalDevice(x) ∧ OnlyOnShips(x) ∧ PowerfulSteamTurbine(x))",
-            "∀x ((Passenger(x) ∧ Vessel(x)) ∧ (Cargo(x) ∧ Vessel(x)) → (Quiet(x) ∧ GoodAt(x, sea)))",
-            "∃x (Quiet(x) ∧ GoodAt(x, sea) ∧ PowerfulSteamTurbine(x))",
-            "∀x (Ship(x) → Vessel(x))",
-            "∀x (TSLeda(x) → ¬(Norweigian(x) ∧ Vessel(x)))"
+            "Passenger(tsLeda) ∧ Cargo(tsLeda) ∧ Vessel(tsLeda) ∧ Good(tsLeda)",
+            "Norwegian(tsLeda) ∧ Vessel(tsLeda) ∧ HasStabilizers(tsLeda)",
+            "∀x (HasStabilizers(x) → MechanicalDevice(x) ∧ Ship(x) ∧ PowerfulSteamTurbine(x))",
+            "∀x (Good(x) ∧ Passenger(x) ∧ Cargo(x) ∧ Vessel(x) → Quiet(x) ∧ GoodAt(x, sea))",
+            "∃x (Ship(x) ∧ Quiet(x) ∧ GoodAt(x, sea) ∧ PowerfulSteamTurbine(x))",
+            "∀x (Vessel(x) → Ship(x))",
+            "¬(Norwegian(tsLeda) ∧ Vessel(tsLeda))"
         ],
         "label": "False"
     },
@@ -1143,13 +1065,13 @@
             "BornIn(rosa, santiago)",
             "CapitalOf(santiago, chile) ∧ LargestCityOf(santiago, chile)",
             "DaughterOf(rosa, jose) ∧ BuildingContractor(jose) ∧ Catalan(jose)",
-            "WifeOf(jose, carmen) ∧ Chilean(carmen)",
+            "WifeOf(carmen, jose) ∧ Chilean(carmen)",
             "ParentOf(jose, rosa) ∧ ParentOf(carmen, rosa)",
             "∀x (Catalan(x) → ¬Chilean(x))",
-            "∀x ∃y (BuildingContractor(x) → ConstructionSite(y) ∧ Oversee(x, y))",
+            "∀x (BuildingContractor(x) → ∃y (ConstructionSite(y) ∧ Oversee(x, y)))",
             "∃x (DaughterOf(rosa, x) ∧ Oversee(x, traffic))"
         ],
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "folio_train_944",
@@ -1165,7 +1087,7 @@
             "Play(psyche) ∧ BasedOn(psyche, lifeOfJamesMirandaBarry)",
             "Play(homesick) ∧ WrittenBy(homesick, deborahWallace) ∧ Play(psyche) ∧ WrittenBy(psyche, deborahWallace) ∧ Play(theVoid) ∧ WrittenBy(theVoid, deborahWallace)",
             "CoProduce(deborahWallace, gasland)",
-            "∃x (CoProduces(x, gasland) ∧ WrittenBy(homesick, x))"
+            "∃x (CoProduce(x, gasland) ∧ WrittenBy(homesick, x))"
         ],
         "label": "True"
     },
@@ -1183,7 +1105,7 @@
             "Play(psyche) ∧ BasedOn(psyche, lifeOfJamesMirandaBarry)",
             "Play(homesick) ∧ WrittenBy(homesick, deborahWallace) ∧ Play(psyche) ∧ WrittenBy(psyche, deborahWallace) ∧ Play(theVoid) ∧ WrittenBy(theVoid, deborahWallace)",
             "CoProduce(deborahWallace, gasland)",
-            "∀x (Play(x) ∧ WrittenBy(x, deborahwallace) → ¬BasedOn(x, lifeofjamesmirandabarry))"
+            "∀x (Play(x) ∧ WrittenBy(x, deborahWallace) → ¬BasedOn(x, lifeOfJamesMirandaBarry))"
         ],
         "label": "False"
     },
@@ -1199,11 +1121,11 @@
         ],
         "fol": [
             "∀x (Animal(x) ∧ Need(x, largeTerritory) → TravelFar(x))",
-            "∀x (EatALot(x) → Need(x, largeTerritory))",
+            "∀x (Animal(x) ∧ EatALot(x) → Need(x, largeTerritory))",
             "∀x (Big(x) ∧ Animal(x) → EatALot(x))",
             "∀x (Bear(x) → Big(x) ∧ Animal(x))",
             "Big(larry) ∧ Animal(larry)",
-            "TravelFar(larry) ⊕ Need(larry, largeTerritory) → Bear(larry)"
+            "¬(TravelFar(larry) ↔ Need(larry, largeTerritory)) → Bear(larry)"
         ],
         "label": "True"
     },
@@ -1221,10 +1143,10 @@
         "fol": [
             "∀x (ConvictedCriminal(x) ∧ Innocent(x) → ¬TrulyGuilty(x))",
             "∀x (ConvictedCriminal(x) ∧ ¬CommitCrime(x) → Innocent(x))",
-            "∀x (ConvictedCriminal(x) ∧ (TrulyGuilty(x) ∨ FoundGuilty(x)))",
+            "∀x (ConvictedCriminal(x) → TrulyGuilty(x) ∨ FoundGuilty(x))",
             "∀x (ConvictedCriminal(x) ∧ FoundGuilty(x) → SentencedToPunishment(x))",
             "∀x (ConvictedCriminal(x) ∧ FoundGuilty(x) → CanArgueAgainst(x, punishment))",
-            "ConvictedCriminal(garry) ∧ (¬(FoundGuilty(garry) ∨ SentencedToPunishment(garry)))",
+            "ConvictedCriminal(garry) ∧ (¬FoundGuilty(garry) ∨ SentencedToPunishment(garry))",
             "SentencedToPunishment(garry)"
         ],
         "label": "Uncertain"
@@ -1242,10 +1164,10 @@
         "fol": [
             "IndiePop(phoenix)",
             "Band(phoenix) ∧ From(phoenix, france)",
-            "∀x ∃y (Band(x) ∧ From(x, france) ∧ Write(x, y) ∧ Song(y) → InFrench(y) ⊕ InEnglish(y))",
+            "∀x ∀y (Band(x) ∧ From(x, france) ∧ Write(x, y) ∧ Song(y) → ¬(InFrench(y) ↔ InEnglish(y)))",
             "∀x (IndiePop(x) → ¬PopRock(x) ∧ ¬SynthPop(x))",
-            "∀x (Song(x) ∧ By(phoenix, x) → ¬InFrench(x))",
-            "∃x (Write(phoenix, y) ∧ Song(x) → InFrench(x))"
+            "∀x (Song(x) ∧ Write(phoenix, x) → ¬InFrench(x))",
+            "∃x (Write(phoenix, x) ∧ Song(x) ∧ InFrench(x))"
         ],
         "label": "False"
     }
