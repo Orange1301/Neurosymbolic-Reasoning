@@ -1,0 +1,893 @@
+[
+    {
+        "id": "folio_train_42",
+        "story_id": 377,
+        "nat_premises": "Everything is either outside the solar system or in the solar system. \nNothing outside the solar system has the Sun as its star.\nEverything in the solar system is gravitationally bound by the Sun.\nNo planets gravitationally bound by the Sun are rogue planets. \nAll orphan planets are rogue planets.\nIf PSO J318.5−22 is not both a rogue planet and a planet gravitationally bound by the Sun, then it is a rogue planet.",
+        "nat_conclusion": "If PSO J318.5−22 is an orphan planet or it does not have the Sun as the star, or both, then PSO J318.5−22 neither is an orphan planet nor does it have the Sun as the star.",
+        "fol_premises": "∀x (Outside(x, solarSystem) ⊕ In(x, solarSystem))\n∀x (Outside(x, solarSystem) → ¬SunAs(x, star))\n∀x (In(x, solarSystem) → BoundBy(x, sun, gravitationally))\n∀x (Planet(x) ∧ BoundBy(x, sun, gravitationally) → ¬(Planet(x) ∧ Rogue(x)))\n∀x (Planet(x) ∧ Orphan(x) → Planet(x) ∧ Rogue(x))\n¬(Planet(pSOJ318_5_22) ∧ Rogue(pSOJ318_5_22) ∧ BoundBy(pSOJ318_5_22, sun, gravitationally)) → (Planet(pSOJ318_5_22) ∧ Rogue(pSOJ318_5_22))",
+        "fol_conclusion": "(Planet(pSOJ318_5_22) ∧ Orphan(pSOJ318_5_22)) ∨ ¬SunAs(pSOJ318_5_22, star) → (¬(Planet(pSOJ318_5_22) ∧ Orphan(pSOJ318_5_22)) ∧ ¬SunAs(pSOJ318_5_22, star))",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_94",
+        "story_id": 345,
+        "nat_premises": "All kids are young.\nAll toddlers are kids.\nIf someone is young, then they are not elderly.\nAll pirates are seafarers_\nIf Nancy is not a pirate, then Nancy is young.\nIf Nancy is not a toddler, then Nancy is a seafarer.",
+        "nat_conclusion": "Nancy is either both a pirate and a toddler, or neither a pirate nor a toddler.",
+        "fol_premises": "∀x (Kid(x) → Young(x))\n∀x (Toddler(x) → Kid(x))\n∀x (Young(x) → ¬Elderly(x))\n∀x (Pirate(x) → Seafarer(x))\n¬Pirate(nancy) → Young(nancy)\n¬Toddler(nancy) → Seafarer(nancy)",
+        "fol_conclusion": "¬(Pirate(nancy) ⊕ Toddler(nancy))",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_135",
+        "story_id": 448,
+        "nat_premises": "Everyone that knows about breath-first-search knows how to use a queue. \nIf someone is a seasoned software engineer interviewer at Google, then they know what breath-first-search is. \nSomeone is either a seasoned software engineer interviewer at Google, has human rights, or both. \nEvery person who has human rights is entitled to the right to life and liberty. \nEveryone that knows how to use a queue knows about the first-in-first-out data structure. \nEveryone that is entitled to the right to life and liberty cannot be deprived of their rights without due process of law. \nJack is entitled to the right to life and liberty, has human rights, or knows about the first-in-first-out data structure. ",
+        "nat_conclusion": "Jack cannot be deprived of their rights without due process of law.",
+        "fol_premises": "∀x (Know(x, breathFirstSearch) → Know(x, howToUseQueue))\n∀x (Seasoned(x) ∧ SoftwareEngineerInterviewer(x) ∧ At(x, google) → Know(x, breathFirstSearch))\n∀x ((Seasoned(x) ∧ SoftwareEngineerInterviewer(x) ∧ At(x, google)) ∨ Have(x, humanRights))\n∀x (Have(x, humanRights) → EntitledTo(x, rightToLifeAndLiberty))\n∀x (Know(x, howToUseQueue) → Know(x, firstInFirstOutDataStructure))\n∀x (EntitledTo(x, rightToLifeAndLiberty) → ¬DeprivedOfWithout(x, rights, dueProcessOfLaw))\n(EntitledTo(jack, rightToLifeAndLiberty) ∨ Have(jack, humanRights) ∨ Know(jack, firstInFirstOutDataStructure))",
+        "fol_conclusion": "¬DeprivedOfWithout(jack, rights, dueProcessOfLaw)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_136",
+        "story_id": 448,
+        "nat_premises": "Everyone that knows about breath-first-search knows how to use a queue. \nIf someone is a seasoned software engineer interviewer at Google, then they know what breath-first-search is. \nSomeone is either a seasoned software engineer interviewer at Google, has human rights, or both. \nEvery person who has human rights is entitled to the right to life and liberty. \nEveryone that knows how to use a queue knows about the first-in-first-out data structure. \nEveryone that is entitled to the right to life and liberty cannot be deprived of their rights without due process of law. \nJack is entitled to the right to life and liberty, has human rights, or knows about the first-in-first-out data structure. ",
+        "nat_conclusion": "Jack can be deprived of their rights without due process of law.",
+        "fol_premises": "∀x (Know(x, breathFirstSearch) → Know(x, howToUseQueue))\n∀x (Seasoned(x) ∧ SoftwareEngineerInterviewer(x) ∧ At(x, google) → Know(x, breathFirstSearch))\n∀x ((Seasoned(x) ∧ SoftwareEngineerInterviewer(x) ∧ At(x, google)) ∨ Have(x, humanRights))\n∀x (Have(x, humanRights) → EntitledTo(x, rightToLifeAndLiberty))\n∀x (Know(x, howToUseQueue) → Know(x, firstInFirstOutDataStructure))\n∀x (EntitledTo(x, rightToLifeAndLiberty) → ¬DeprivedOfWithout(x, rights, dueProcessOfLaw))\n(EntitledTo(jack, rightToLifeAndLiberty) ∨ Have(jack, humanRights) ∨ Know(jack, firstInFirstOutDataStructure))",
+        "fol_conclusion": "DeprivedOfWithout(jack, rights, dueProcessOfLaw)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_149",
+        "story_id": 393,
+        "nat_premises": "All inductive reasoning processes derive general principles from a body of observations.\nTwo major types of reasoning rules are inductive reasoning and deductive reasoning. \nAll deductive reasoning processes are only based on facts and rules. \nNothing only based on facts and rules is used for statistical generalization. \nModus Ponens is not both used in inductive reasoning and used for statistical generalization. \nModus Ponens is a component of a major part of reasoning rule. ",
+        "nat_conclusion": "If Modus Ponens either derives general principles from a body of observations and is used for statistical generalization, or neither, then Modus Ponens is is neither used in inductive reasoning  nor used for statistical generalization.",
+        "fol_premises": "∀x (InductiveReasoning(x) → DeriveFrom(generalPrinciple, observations))\n∀x (MajorArgumentForm(x) → (InductiveReasoning(x) ⊕ DeductiveReasoning(x)))\n∀x (DeductiveReasoning(x) → (BasedOn(x, fact) ∨ BasedOn(x, rule)))\n∀x ((BasedOn(x, fact) ∨ BasedOn(x, rule)) → (¬UsedFor(x, statisticalGeneralization)))\n¬(InductiveReasoning(modusPonens) ∧ UsedFor(modusPonens, statisticalGeneralization))\nArgumentForm(modusPonens)",
+        "fol_conclusion": "¬(Derive(generalPrinciple, observations) ⊕ UsedFor(x, statisticalGeneralization)) → (¬InductiveReasoning(modusPonens) ∧ (¬UsedFor(modusPonens, statisticalGeneralization)))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_154",
+        "story_id": 408,
+        "nat_premises": "No trick-shot artist in Yale's varsity team struggles with half court shots.\nEveryone on Yale's varsity team is someone who struggles with half court shots or who successfully shoots a high percentage of 3-pointers_  \nEveryone on Yale's varsity team who successfully shoots a high percentage of 3-pointers is solid at shooting 2-pointers_  \nNo one on Yale's varsity team who is solid at shooting 2-pointers is bad at mid-range shots.  \nJack is on Yale's varsity team, and he is either a trick-shot artist or he successfully shoots a high percentage of 3-pointers_",
+        "nat_conclusion": "Jack is a trick-shot artist or bad at mid-range shots.",
+        "fol_premises": "∀x ((In(x, yaleSVarsityTeam) ∧ TrickShotArtist(x)) → ¬StruggleAt(x, halfCourtShot))\n∀x (In(x, yaleSVarsityTeam) → (StruggleAt(x, halfCourtShot) ∨ GoodAt(x, threes)))\n∀x ((In(x, yaleSVarsityTeam) ∧ GoodAt(x, threes)) → GoodAt(x, twos))\n∀x ((In(x, yaleSVarsityTeam) ∧ GoodAt(x, twos)) → BadAt(x, midRangeShot))\nIn(jack, yaleSVarsityTeam) ∧ (TrickShotArtist(jack) ⊕  GoodAt(jack, threes))",
+        "fol_conclusion": "TrickShotArtist(jack) ∨ BadAt(jack, midRangeShot)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_206",
+        "story_id": 482,
+        "nat_premises": "If someone in Potterville yells, then they are not cool.\nIf someone in Potterville is angry, then they yell.\nIf someone in Potterville flies, then they are cool.\nEvery person in Potterville that knows magic flies.\nAll wizards in Potterville know magic.\nHarry, who lives in Potterville either yells or flies. \nPotter, who lives in Potterville, is a wizard and flies.",
+        "nat_conclusion": "Harry is a wizard or angry.",
+        "fol_premises": "∀x (In(x, potterville) ∧ Yell(x) → ¬Cool(x))\n∀x (In(x, potterville) ∧ Angry(x) → Yell(x))\n∀x (In(x, potterville) ∧ Fly(x) → Cool(x))\n∀x (In(x, potterville) ∧ Know(x, magic) → Fly(x))\n∀x (In(x, potterville) ∧ Wizard(x) → Know(x, magic))\nIn(harry, potterville) ∧ (Yell(harry) ⊕ Fly(harry))\nWizard(potter) ∧ Fly(potter)",
+        "fol_conclusion": "Wizard(harry) ∨ Angry(harry)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_210",
+        "story_id": 436,
+        "nat_premises": "All of this brand's products are either produced in China or in the US. \nAll of this brand's products produced in China are labeled. \nAll of this brand's products produced in the US are sold in the US. \nThe products of this brand that are labeled are cheaper.\nAll of this brand's products sold in the US are sold at Walmart. \nAll products of this brand displayed on the homepage are sold at Walmart. \nNone of this brand's products that are returned by customers are sold at Walmart. \nG-910 is a product of this brand, and it is either displayed on the homepage and is cheaper, or it is neither displayed on the homepage nor is it cheaper.",
+        "nat_conclusion": "G-910 is a product returned by customers_",
+        "fol_premises": "∀x (ThisBrand(x) ∧ Product(x) → (ProducedIn(x, china) ⊕ ProducedIn(x, uS)))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ ProducedIn(x, china)) → Labeled(x))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ ProducedIn(x, us)) → SoldIn(x, us))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ Labeled(x)) → Cheaper(x))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ SoldIn(x, us)) → SoldIn(x, walmart))\n∀x (ThisBrand(x) ∧ Product(x) ∧ DisplayedIn(x, homepage) → SoldIn(x, walmart))\n∀x (ThisBrand(x) ∧ Product(x) ∧ ReturnedBy(x, customer) → ¬SoldIn(x, walmart))\nProduct(g910) ∧ ThisBrand(g910) ∧ (¬(DisplayedIn(g910, homepage) ⊕ Cheaper(g910)))",
+        "fol_conclusion": "ThisBrand(g910) ∧ ReturnedBy(g910, customer)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_211",
+        "story_id": 436,
+        "nat_premises": "All of this brand's products are either produced in China or in the US. \nAll of this brand's products produced in China are labeled. \nAll of this brand's products produced in the US are sold in the US. \nThe products of this brand that are labeled are cheaper.\nAll of this brand's products sold in the US are sold at Walmart. \nAll products of this brand displayed on the homepage are sold at Walmart. \nNone of this brand's products that are returned by customers are sold at Walmart. \nG-910 is a product of this brand, and it is either displayed on the homepage and is cheaper, or it is neither displayed on the homepage nor is it cheaper.",
+        "nat_conclusion": "G-910 is a product returned by customers or sold in Walmart.",
+        "fol_premises": "∀x (ThisBrand(x) ∧ Product(x) → (ProducedIn(x, china) ⊕ ProducedIn(x, uS)))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ ProducedIn(x, china)) → Labeled(x))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ ProducedIn(x, us)) → SoldIn(x, us))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ Labeled(x)) → Cheaper(x))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ SoldIn(x, us)) → SoldIn(x, walmart))\n∀x (ThisBrand(x) ∧ Product(x) ∧ DisplayedIn(x, homepage) → SoldIn(x, walmart))\n∀x (ThisBrand(x) ∧ Product(x) ∧ ReturnedBy(x, customer) → ¬SoldIn(x, walmart))\nProduct(g910) ∧ ThisBrand(g910) ∧ (¬(DisplayedIn(g910, homepage) ⊕ Cheaper(g910)))",
+        "fol_conclusion": "ThisBrand(g910) ∧ (ReturnedBy(g910, customer) ∨ SoldIn(g910, walmart))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_212",
+        "story_id": 436,
+        "nat_premises": "All of this brand's products are either produced in China or in the US. \nAll of this brand's products produced in China are labeled. \nAll of this brand's products produced in the US are sold in the US. \nThe products of this brand that are labeled are cheaper.\nAll of this brand's products sold in the US are sold at Walmart. \nAll products of this brand displayed on the homepage are sold at Walmart. \nNone of this brand's products that are returned by customers are sold at Walmart. \nG-910 is a product of this brand, and it is either displayed on the homepage and is cheaper, or it is neither displayed on the homepage nor is it cheaper.",
+        "nat_conclusion": "G-910 is either returned by customers or sold in Walmart.",
+        "fol_premises": "∀x (ThisBrand(x) ∧ Product(x) → (ProducedIn(x, china) ⊕ ProducedIn(x, uS)))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ ProducedIn(x, china)) → Labeled(x))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ ProducedIn(x, us)) → SoldIn(x, us))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ Labeled(x)) → Cheaper(x))\n∀x ((ThisBrand(x) ∧ Product(x) ∧ SoldIn(x, us)) → SoldIn(x, walmart))\n∀x (ThisBrand(x) ∧ Product(x) ∧ DisplayedIn(x, homepage) → SoldIn(x, walmart))\n∀x (ThisBrand(x) ∧ Product(x) ∧ ReturnedBy(x, customer) → ¬SoldIn(x, walmart))\nProduct(g910) ∧ ThisBrand(g910) ∧ (¬(DisplayedIn(g910, homepage) ⊕ Cheaper(g910)))",
+        "fol_conclusion": "ReturnedBy(g910, customer) ⊕ SoldIn(g910, walmart)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_218",
+        "story_id": 243,
+        "nat_premises": "If a person can distinguish the taste of different condiments, then they can also use different condiments for cooking.\nPeople who have a talent of cooking can distinguish the taste of different condiments.\nOnly people with the talent of cooking can make delicious meals.\nIf the meal is popular at the party, then it is delicious.\nJohn can make meals which are popular at the party.",
+        "nat_conclusion": "John cannot use different condiments for cooking.",
+        "fol_premises": "∀x (Person(x) ∧ Can(x, distinguishTheTasteOfDifferentCondiments) → Can(x, useDifferentCondimentsToCook))\n∀x (Person(x) ∧ Has(x, talentOfCooking) → Can(x, distinguishTheTasteOfDifferentCondiments))\n∀x ∀y (CanMake(x, y) ∧ Meal(y) ∧ Delicious(y) ∧ Person(x) → Has(x, talentOfCooking))\n∀x ∀y (Meal(y) ∧ PopularAt(y, party) → Delicious(y))\n∃x (Person(john) ∧ MakeMeal(john, x) ∧ Meal(x) ∧ PopularAt(x, party))",
+        "fol_conclusion": "¬Can(john, useDifferentCondimentsToCook)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_232",
+        "story_id": 403,
+        "nat_premises": "There's a person in Benji's family who likes eating cheese or is a francophile.\nThere is no francophile in Benji's family whose favorite country is Spain.\nThere is a person in Benji's family who likes eating cheese or whose favorite country is Spain.\nFabien is in Benji's family and  does not both study Spanish and also like eating cheese.\nFabien studies Spanish.",
+        "nat_conclusion": "If Fabien is a person who likes Spain as their favorite country or is a francophile, then Fabien is either a person who studies Spanish or a person who likes Spain as their favorite country.",
+        "fol_premises": "∃x (InBenjiSFamily(x) → (LikeEating(x, cheese) ∨ Francophile(x)))\n∀x ((InBenjiSFamily(x) ∧ Francophile(x)) → ¬Favor(x, spain))\n∃x (InBenjiSFamily(x) ∧ (Favor(x, spain) ∨ LikeEating(x, cheese)))\nInBenjiSFamily(fabien) ∧ (¬(LikeEating(fabien, cheese) ∧ Study(fabien, spanish)))\nStudy(fabien, spanish)",
+        "fol_conclusion": "(Favor(fabien, spain) ∨ Francophile(fabien)) → (Study(fabien, spanish) ⊕ Favor(fabien, spain))",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_279",
+        "story_id": 108,
+        "nat_premises": "The world's only major large passenger aircraft manufacturers are Boeing and Airbus.\nAll American Airlines planes are from the world's major large passenger aircraft manufacturers_ \nAirbus made more revenue than Boeing last year.",
+        "nat_conclusion": "There is a commercial plane made by both Airbus and Boeing.",
+        "fol_premises": "∀x (WorldMajorLargePassengerAircraftManufacturer(x) → x=boeing ⊕ x=airbus)\n∀x (AmericanAirlinesAircraft(x) → WorldMajorLargePassengerAircraftManufacturer(x))\nMoreInRevenue(airbus, boeing)",
+        "fol_conclusion": "∃x (WorldMajorLargePassengerAircraftManufacturer(x) ∧ ProducedBy(x, airbus) ∧ ProducedBy(x, boeing))",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_286",
+        "story_id": 241,
+        "nat_premises": "All students learning piano can strike the right notes. \nAll students who can strike the right note can get the rhythms right. \nIf a student can get the rhythms right, he will start working on coordination between the left and the right hands. \nSome students who start working on coordination between the left and the right hands become good at it, while other students find it challenging. \nIf John can strike the right notes, get the rhythms right, and is good at coordination between right and left hands, then he puts emotions into his playing. \nJohn is a student learning piano. \nJohn does not find coordination between the left and the right hands challenging. ",
+        "nat_conclusion": "John can get the rhythms right.",
+        "fol_premises": "∀x (Student(x) ∧ LearningPiano(x) → Can(x, strike, rightNote))\n∀x (Student(x) ∧  Can(x, strike, rightNote) → Can(x, getTheRhythmRight))\n∀x (Student(x) ∧ Can(x, getTheRhythmRight) → Start(x, workingOnCoordinationBetweenTheLeftAndRightHands))\n∀x (Student(x) ∧ Start(x, workingOnCoordinationBetweenTheLeftAndRightHands) → Become(x, goodAtCoordination) ⊕ Find(x, coordinationChallenging))\n(Can(john, getTheRhythmRight) ∧ Can(john, getTheRhythmRight)) ∧  Become(john, goodAtCoordination)  → PutEmotionInto(john, hisPlaying)\nStudent(john) ∧ LearningPiano(john)\n¬Find(john, coordinationChallenging)",
+        "fol_conclusion": "Can(john, getTheRhythmRight)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_308",
+        "story_id": 475,
+        "nat_premises": "Everyone who is entitled to national social insurance coverage can have their medical bills partially covered. \nAll PRC nationals are entitled to national social insurance coverage.\nEveryone in the Franco-China diplomatic conference is either a PRC national or a French national, but not both. \nAll French nationals are citizens of the European Union. \nAll Spanish nationals are citizens of the European Union. \nNo North Korean nationals are citizens of the European Union. \nMei is at the Franco-China diplomatic conference. \nEither Mei is a North Korean and can have medical bills partially covered, or neither is true.",
+        "nat_conclusion": "Mei is a PRC national.",
+        "fol_premises": "∀x (EntitledTo(x, nationalSocialInsuranceCoverage) → CanHavePartiallyCovered(x, medicalBills))\n∀x (PRCNational(x) → EntitledTo(x, nationalSocialInsuranceCoverage))\n∀x (In(x, franco_ChinaDiplomaticConference) → PRCNational(x) ⊕ FrenchNational(x))\n∀x (FrenchNational(x) → CitizenOf(x, europeanUnion))\n∀x (SpanishNational(x) → CitizenOf(x, europeanUnion))\n∀x (NorthKoreanNational(x) → ¬CitizenOf(x, europeanUnion))\nIn(mei, franco_ChinaDiplomaticConference)\n¬(NorthKoreanNational(mei) ⊕ CanHavePartiallyCovered(mei, medicalBills))",
+        "fol_conclusion": "PRCNational(mei)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_323",
+        "story_id": 391,
+        "nat_premises": "All imaginative processes that Dan knows are results of creative processes.\nAll science fiction that Dan knows comes from an imaginative process.\nEverthing that Dan knows comes from either science-fiction or realistic fiction.\nNo facts that Dan knows have proven to be false.\nDan knows that Dune is science fiction or has proven to be false.",
+        "nat_conclusion": "Dune is either a result of creative processes or came from an imaginative process.",
+        "fol_premises": "∀x ((Knows(dan, x) ∧ ImaginativeProcess(x)) → ResultOf(x, creativeProcess))\n∀x ((Knows(dan, x) ∧ ScienceFiction(x)) → ImaginativeProcess(x))\n∀x (Knows(dan, x) → (ScienceFiction(x) ⊕ RealisticFiction(x)))\n∀x ((Knows(dan, x) ∧ Fact(x)) → ¬ProvedToBe(x, false))\n(Knows(dan, dune) ∧ ScienceFiction(dune)) ∨ ProvedToBe(dune, false)",
+        "fol_conclusion": "ResultOf(dune, creativeProcess) ⊕ ImaginativeProcess(dune)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_325",
+        "story_id": 391,
+        "nat_premises": "All imaginative processes that Dan knows are results of creative processes.\nAll science fiction that Dan knows comes from an imaginative process.\nEverthing that Dan knows comes from either science-fiction or realistic fiction.\nNo facts that Dan knows have proven to be false.\nDan knows that Dune is science fiction or has proven to be false.",
+        "nat_conclusion": "Dune is either a result of creative processes or is science fiction.",
+        "fol_premises": "∀x ((Knows(dan, x) ∧ ImaginativeProcess(x)) → ResultOf(x, creativeProcess))\n∀x ((Knows(dan, x) ∧ ScienceFiction(x)) → ImaginativeProcess(x))\n∀x (Knows(dan, x) → (ScienceFiction(x) ⊕ RealisticFiction(x)))\n∀x ((Knows(dan, x) ∧ Fact(x)) → ¬ProvedToBe(x, false))\n(Knows(dan, dune) ∧ ScienceFiction(dune)) ∨ ProvedToBe(dune, false)",
+        "fol_conclusion": "Knows(dan, dune) ∧ (ResultOf(dune, creativeProcess)  ⊕ ScienceFiction(dune))",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_338",
+        "story_id": 344,
+        "nat_premises": "All students are members of the university.\nAll graduate students are students.\nAll PhD students are graduate students.\nSome PhD students are Teaching Fellows.\nIf John is not a PhD student, then he is not a member of the university.\nIf John is a Teaching Fellow, then he is a PhD student or a graduate student.",
+        "nat_conclusion": "John is a Teaching Fellow",
+        "fol_premises": "∀x (Student(x) → MemberOf(x, university))\n∀x (GraduateStudent(x) → Student(x))\n∀x (PhDStudent(x) → GraduateStudent(x))\n∃x (PhDStudent(x) ∧ TeachingFellow(x))\n¬PhDStudent(john) → ¬MemberOf(john, university)\nTeachingFellow(john) → PhDStudent(john) ⊕ GraduateStudent(john)",
+        "fol_conclusion": "TF(john)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_339",
+        "story_id": 344,
+        "nat_premises": "All students are members of the university.\nAll graduate students are students.\nAll PhD students are graduate students.\nSome PhD students are Teaching Fellows.\nIf John is not a PhD student, then he is not a member of the university.\nIf John is a Teaching Fellow, then he is a PhD student or a graduate student.",
+        "nat_conclusion": "John is not a Teaching Fellow.",
+        "fol_premises": "∀x (Student(x) → MemberOf(x, university))\n∀x (GraduateStudent(x) → Student(x))\n∀x (PhDStudent(x) → GraduateStudent(x))\n∃x (PhDStudent(x) ∧ TeachingFellow(x))\n¬PhDStudent(john) → ¬MemberOf(john, university)\nTeachingFellow(john) → PhDStudent(john) ⊕ GraduateStudent(john)",
+        "fol_conclusion": "¬TF(john)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_393",
+        "story_id": 465,
+        "nat_premises": "Everyone who took the bar exam can read. \nAll lawyers took the bar exam. \nEveryone who took the bar exam is knowledgeable about criminal procedures. \nAll people who got a score of 180 on the LSAT can read. \nNo elephants can read. \nIf Mike can not read or is not an elephant, then Mike either took the bar exam or can read. ",
+        "nat_conclusion": "Mike took the bar exam.",
+        "fol_premises": "∀x (Take(x, barExam) → CanRead(x))\n∀x (Lawyer(x) → Take(x, barExam))\n∀x (Take(x, barExam) → KnowledgeableAbout(x, criminalProceeder))\n∀x (GetOn(x, scoreOf180, lSAT) → CanRead(x))\n∀x (Elephant(x) → ¬CanRead(x))\n¬(CanRead(mike) ∧ Elephant(mike)) → Take(mike, barExam) ⊕ CanRead(mike)",
+        "fol_conclusion": "Take(mike, barExam)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_402",
+        "story_id": 364,
+        "nat_premises": "If people in this neighborhood visit a coffee shop regularly, then they are addicted to coffee. \nPeople in this neighborhood visit a coffee shop regularly or order takeout at least once a day.\nIf people in this neighborhood make a lot of their own food at home using recipes and online guides, then they order takeout at least once a day.\nIf people in this neighborhood own at least one coffeemaker and one blender in their home, then they do not order takeout at least once a day.\nAll people in this neighborhood who lead very busy lives that include 12-hour work hours make a lot of their own food at home using recipes and online guides.\nSam is living in this neighborhood, and he is either addicted to coffee or other caffeinated drinks and leads a very busy life that include 12-hour work hours, or is not addicted to coffee and does not lead a very busy life that include 12-hour work hours",
+        "nat_conclusion": "Sam is living in this neighborhood and he owns at least one coffeemaker and one blender in his home.",
+        "fol_premises": "∀x (In(x, thisNeighborhood) ∧ VisitRegularly(x, coffeeShop) → AddictedTo(x, coffee))\n∀x (In(x, thisNeighborhood) → (VisitRegularly(x, coffeeShop) ∨ (∃y (TakeOut(y) ∧ Order(x, y, aDay)))))\n∀x (In(x, thisNeighborhood) ∧ MakeAtUsing(x, home, ownFood, recipe) → ∃y (TakeOut(y) ∧ Order(x, y)))\n∀x (In(x, thisNeighborhood) ∧ ∃y (CoffeemakerAndBlender(y) ∧ Own(x, y)) → ¬OrderAtLeastOnceADay(x, takeout))\n∀x (In(x, thisNeighborhood) ∧ BusyWith(x, 12HourWorkHour) → MakeAtUsing(x, home, ownFood, recipe))\nIn(sam, thisNeighborhood) ∧ ¬(AddictedTo(sam, coffee) ⊕ BusyWith(sam, 12HourWorkHour))",
+        "fol_conclusion": "∃y (CoffeemakerAndBlender(y) ∧ Own(sam, y))",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_438",
+        "story_id": 216,
+        "nat_premises": "Olivia doesn't prefer warm temperatures during the day.\nWhen Olivia sleeps, she prefers a cool temperature.\nOlivia sleeps during the night.\nOlivia works during the day.\nOlivia either works or sleeps.\nIt is either the day or the night.\nOlivia either prefers warm temperatures or prefers cool temperatures.",
+        "nat_conclusion": "At all times, Olivia prefers a cool temperature.",
+        "fol_premises": "∀x (Day(x) → ¬Prefer(olivia, warmTemperature, x))\n∀x (Sleep(olivia, x) → Prefer(olivia, coolTemperature, x))\n∀x (Night(x) → Sleep(olivia, x))\n∀x (Day(x) → Work(olivia, x))\nWork(olivia) ⊕ Sleep(olivia)\n∀x (Day(x) ⊕ Night(x))\n∀x (Prefer(olivia, warmTemperature, x) ⊕ Prefer(olivia, coolTemperature, x))",
+        "fol_conclusion": "∀x (Prefer(olivia, coolTemperature, x))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_477",
+        "story_id": 412,
+        "nat_premises": "All fruits sold at Nica's market are shipped from Colombia. \nSome fruits sold in New Haven are shipped from Mexico.\nNo fruits shipped from Colombia are sold at the local farmers market in New Haven. \nAvocados are a kind of fruit sold at the local farmers market in New Haven or at Nica's market. \nAvocados are either shipped from Colombia and sold in New Haven, or neither.",
+        "nat_conclusion": "Avocados are either sold at the local farmers market in New Haven or are sold in New Haven.",
+        "fol_premises": "∀x ((Fruit(x) ∧ SoldAt(x, nicasMarket)) → ShippedFrom(x, colombia))\n∃x ∃y (Fruit(x) ∧ SoldIn(x, newHaven) ∧ ShippedFrom(x, mexico) ∧ (¬(x=y)) ∧ Fruit(y) ∧ SoldIn(y, newHaven) ∧ ShippedFrom(y, mexico))\n∀x ((Fruit(x) ∧ ShippedFrom(x, colombia)) → ¬(SoldAt(x, localFarmersMarket)))\nFruit(avocado) ∧ (SoldAt(avocado, localFarmersMarket) ∨ SoldAt(avocado, nica'sMarket))\n¬(ShippedFrom(avocado, colombia) ⊕ SoldIn(avocado, newHaven))",
+        "fol_conclusion": "SoldAt(avocado, localFarmersMarket) ⊕ SoldIn(avocado, newHaven)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_481",
+        "story_id": 418,
+        "nat_premises": "Some monitors equipped in the library are produced by AOC. \nAll monitors equipped in the library are cheaper than 800 dollars_ \nAll monitors cheaper than 800 dollars are with a resolution lower than 1080p. \nIf a monitor has a resolution lower than 1080p, then it does not support the type-c port. \nA-2017 supports the type-c port. ",
+        "nat_conclusion": "A-2017 is produced by AOC and equipped in the library.",
+        "fol_premises": "∃x ∃y(Monitor(x) ∧ ProducedBy(x, aOC) ∧ In(x, library) ∧ (¬(x=y)) ∧ Monitor(y) ∧ ProducedBy(y, aOC) ∧ In(y, library))\n∀x ((Monitor(x) ∧ In(x, library)) → CheaperThan(x, dollars800))\n∀x ((Monitor(x) ∧ CheaperThan(x, dollars800)) → ResolutionLessThan(x, p1080))\n∀x ((Monitor(x) ∧ ResolutionLessThan(x, p1080)) → ¬Supports(x, type_CPort))\nSupports(a_2017, type_CPort)",
+        "fol_conclusion": "ProducedBy(a_2017, aOC) ∧ In(a_2017, library)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_482",
+        "story_id": 418,
+        "nat_premises": "Some monitors equipped in the library are produced by AOC. \nAll monitors equipped in the library are cheaper than 800 dollars_ \nAll monitors cheaper than 800 dollars are with a resolution lower than 1080p. \nIf a monitor has a resolution lower than 1080p, then it does not support the type-c port. \nA-2017 supports the type-c port. ",
+        "nat_conclusion": "If either A-2017 is both with a resolution of 1080p and produced by AOC or it is neither, then it is not equipped in the library.",
+        "fol_premises": "∃x ∃y(Monitor(x) ∧ ProducedBy(x, aOC) ∧ In(x, library) ∧ (¬(x=y)) ∧ Monitor(y) ∧ ProducedBy(y, aOC) ∧ In(y, library))\n∀x ((Monitor(x) ∧ In(x, library)) → CheaperThan(x, dollars800))\n∀x ((Monitor(x) ∧ CheaperThan(x, dollars800)) → ResolutionLessThan(x, p1080))\n∀x ((Monitor(x) ∧ ResolutionLessThan(x, p1080)) → ¬Supports(x, type_CPort))\nSupports(a_2017, type_CPort)",
+        "fol_conclusion": "¬(ResolutionLessThan(a_2017, p1080) ⊕ ProducedBy(x, aOC)) → ¬(In(a_2017, library))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_37",
+        "story_id": 417,
+        "nat_premises": "Some monitors made by LG have a type-c port.\nMonitors that have a type-c port were not made before 2010.\nAll monitors in the library are made before 2010. \nThe L-2021 monitor is either used in the library or has a type-c port.\nThe L-2021 monitor is either both produced before 2010 and made by LG, or neither is true.",
+        "nat_conclusion": "The L-2021 monitor either has a type-c port or is produced by LG.",
+        "fol_premises": "∃x (Monitor(x) ∧ ProducedBy(x, lG) ∧ Have(x, typeCPort) ∧ (¬(x=y)) ∧ Monitor(y) ∧ ProducedBy(y, lG) ∧ Have(y, typeCPort))\n∀x (Have(x, typeCPort) → ¬ProducedBefore(x, yr2010))\n∀x ((Monitor(x) ∧ In(x, library)) → ProducedBefore(x, yr2010))\nMonitor(l_2021) ∧ (In(l_2021, library) ⊕ Have(l_2021, typeCPort))\n¬(ProducedBefore(l_2021, yr2010) ⊕ ProducedBy(l_2021, lG))",
+        "fol_conclusion": "Have(l_2021, typeCPort) ⊕ ProducedBy(l_2021, lG)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_41",
+        "story_id": 377,
+        "nat_premises": "Everything is either outside the solar system or in the solar system. \nNothing outside the solar system has the Sun as its star.\nEverything in the solar system is gravitationally bound by the Sun.\nNo planets gravitationally bound by the Sun are rogue planets. \nAll orphan planets are rogue planets.\nIf PSO J318.5−22 is not both a rogue planet and a planet gravitationally bound by the Sun, then it is a rogue planet.",
+        "nat_conclusion": "PSO J318.5−22 is an orphan planet or it does not have the Sun as its star, or both.",
+        "fol_premises": "∀x (Outside(x, solarSystem) ⊕ In(x, solarSystem))\n∀x (Outside(x, solarSystem) → ¬SunAs(x, star))\n∀x (In(x, solarSystem) → BoundBy(x, sun, gravitationally))\n∀x (Planet(x) ∧ BoundBy(x, sun, gravitationally) → ¬(Planet(x) ∧ Rogue(x)))\n∀x (Planet(x) ∧ Orphan(x) → Planet(x) ∧ Rogue(x))\n¬(Planet(pSOJ318_5_22) ∧ Rogue(pSOJ318_5_22) ∧ BoundBy(pSOJ318_5_22, sun, gravitationally)) → (Planet(pSOJ318_5_22) ∧ Rogue(pSOJ318_5_22))",
+        "fol_conclusion": "(Planet(pSOJ318_5_22) ∧ Orphan(pSOJ318_5_22)) ∨ ¬SunAs(pSOJ318_5_22, star)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_43",
+        "story_id": 180,
+        "nat_premises": "Sam is doing a project.\nA project is written either in C++ or Python.\nIf Sam does a project written in Python, he will not use a Mac.\nSam is using a Mac.\nIf Sam uses a Mac, he will play a song.\nIf a song is not titled \"Perfect,\" Sam will never play it.",
+        "nat_conclusion": "The project Sam is doing is written in C++.",
+        "fol_premises": "∃x (Project(x) ∧ Do(sam, x))\n∀x (Project(x) → (WrittenIn(x, cplusplus) ⊕ WrittenIn(x, python)))\n∀x (Project(x) ∧ WrittenIn(x, python) ∧ Do(sam, x) → ¬Use(sam, mac))\nUse(sam, mac)\n∃x (Use(sam, mac) ∧ Song(x) → Play(sam, x))\n∀x (Song(x) ∧ Play(sam, x) → Titled(x, perfect))",
+        "fol_conclusion": "∀x (Project(x) ∧ Do(sam, x) ∧ WrittenIn(x, cplusplus))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_54",
+        "story_id": 348,
+        "nat_premises": "All young adults at the event like independence.\nAll college students at the event are young adults.\nAll Yale students at the event are college students.\nEveryone at the event is a Yale student or a Harvard student.\nAll Harvard students at the event are diligent.\nSusan is at the event, and if Susan is a Harvard student, then she is a young adult.\nIf Susan is a Yale student, then she does not like independence.",
+        "nat_conclusion": "Susan likes independence and is diligent.",
+        "fol_premises": "∀x (At(x, event) ∧ YoungAdult(x) → Like(x, independence))\n∀x (At(x, event) ∧ CollegeStudent(x) → YoungAdult(x))\n∀x (At(x, event) ∧ YaleStudent(x) → CollegeStudent(x))\n∀x (At(x, event) → (YaleStudent(x) ⊕ HarvardStudent(x)))\n∀x (At(x, event) ∧ HarvardStudent(x) → Diligent(x))\nAt(susan, event) ∧ (HarvardStudent(susan) → YoungAdult(susan))\nYaleStudent(susan) → ¬Like(susan, independence)",
+        "fol_conclusion": "Like(susan, independence) ∧ Diligent(susan)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_77",
+        "story_id": 244,
+        "nat_premises": "Everyone who rents a car spends money.\nWhenever Sarah goes to Vermont, Sarah drives there.\nSomeone who does not own a car to drive somewhere must either borrow a car or rent a car.\nSarah doesn’t own a car.\nSarah never borrows a car to go camping.\nSarah is going to go camping in Vermont.\nTo go camping somewhere, you must go to that place.",
+        "nat_conclusion": "Sarah will spend money this weekend.",
+        "fol_premises": "∀x (Rent(x, car) → Spend(x, money))\nGoTo(sarah, vermont) → DriveTo(sarah, vermont)\n∀x ∀y (¬Own(x, car) ∧ DriveTo(x, y) → Borrow(x, car) ⊕ Rent(x, car))\n¬Own(sarah, car)\n∀x (Camping(sarah, x) → ¬(Borrow(sarah, car)))\nCamping(sarah, vermont)\n∀x ∀y (Camping(x, y) → GoTo(x, y))",
+        "fol_conclusion": "Spend(sarah, money)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_82",
+        "story_id": 395,
+        "nat_premises": "All velvet-finish lipsticks in the Rouge Dior set, Lunar New Year Limited Edition are refillable.\nLipsticks in the Rouge Dior set, Lunar New Year Limited Edition have either a velvet-finish or a satin-finish.\nNo satin-finish lipsticks in the set do not have \"rosewood\" in its offical description. \nLipstcks in the Rouge Dior set, Lunar New Year Limited Edition either does not have \"rosewood\" in its offical description or it has \"rosewood\" in its official description. \nROUGE Dior Colored Lip Balm 999 is a lipstick in the set, and it either has \"rosewood\" in its official description or has a velvet finish.",
+        "nat_conclusion": "ROUGE Dior Colored Lip Balm 999 has a satin finish and has \"rosewood\" in its official description.",
+        "fol_premises": "∀x ((Lipstick(x) ∧ In(x, rougeDiorSet) ∧ In(x, lunarNewYearLimitedEdition) ∧ VelvetFinish(x)) → Refillable(x))\n∀x ((Lipstick(x) ∧ In(x, rougeDiorSet) ∧ In(x, lunarNewYearLimitedEdition)) → (VelvetFinish(x) ⊕ SatinFinish(x)))\n∀x ((Lipstick(x) ∧ In(x, rougeDiorSet) ∧ In(x, lunarNewYearLimitedEdition) ∧ SatinFinish(x)) → ¬RosewoodInDescription(x))\n∀x ((Lipstick(x) ∧ In(x, rougeDiorSet) ∧ In(x, lunarNewYearLimitedEdition)) → (RosewoodInDescription(x) ⊕ ¬RosewoodInDescription(x)))\nLipstick(rougeDiorColoredLipBalm999) ∧ In(rougeDiorColoredLipBalm999, rougeDiorSet) ∧ In(rougeDiorColoredLipBalm999, lunarNewYearLimitedEdition) ∧ (RosewoodInDescription(rougeDiorColoredLipBalm999) ⊕ VelvetFinish(rougeDiorColoredLipBalm999))",
+        "fol_conclusion": "Refillable(rougeDiorColoredLipBalm999) ∧ RosewoodInDescription(rougeDiorColoredLipBalm999)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_84",
+        "story_id": 395,
+        "nat_premises": "All velvet-finish lipsticks in the Rouge Dior set, Lunar New Year Limited Edition are refillable.\nLipsticks in the Rouge Dior set, Lunar New Year Limited Edition have either a velvet-finish or a satin-finish.\nNo satin-finish lipsticks in the set do not have \"rosewood\" in its offical description. \nLipstcks in the Rouge Dior set, Lunar New Year Limited Edition either does not have \"rosewood\" in its offical description or it has \"rosewood\" in its official description. \nROUGE Dior Colored Lip Balm 999 is a lipstick in the set, and it either has \"rosewood\" in its official description or has a velvet finish.",
+        "nat_conclusion": "If ROUGE Dior Colored Lip Balm 999 is not both a velvet finish ipstick in the set and refillable, then it neither is refillable nor has \"rosewood\" in its official description.",
+        "fol_premises": "∀x ((Lipstick(x) ∧ In(x, rougeDiorSet) ∧ In(x, lunarNewYearLimitedEdition) ∧ VelvetFinish(x)) → Refillable(x))\n∀x ((Lipstick(x) ∧ In(x, rougeDiorSet) ∧ In(x, lunarNewYearLimitedEdition)) → (VelvetFinish(x) ⊕ SatinFinish(x)))\n∀x ((Lipstick(x) ∧ In(x, rougeDiorSet) ∧ In(x, lunarNewYearLimitedEdition) ∧ SatinFinish(x)) → ¬RosewoodInDescription(x))\n∀x ((Lipstick(x) ∧ In(x, rougeDiorSet) ∧ In(x, lunarNewYearLimitedEdition)) → (RosewoodInDescription(x) ⊕ ¬RosewoodInDescription(x)))\nLipstick(rougeDiorColoredLipBalm999) ∧ In(rougeDiorColoredLipBalm999, rougeDiorSet) ∧ In(rougeDiorColoredLipBalm999, lunarNewYearLimitedEdition) ∧ (RosewoodInDescription(rougeDiorColoredLipBalm999) ⊕ VelvetFinish(rougeDiorColoredLipBalm999))",
+        "fol_conclusion": "¬((Lipstick(rougeDiorColoredLipBalm999) ∧ In(rougeDiorColoredLipBalm999, rougeDiorSet) ∧ In(rougeDiorColoredLipBalm999, lunarNewYearLimitedEdition) ∧ VelvetFinish(rougeDiorColoredLipBalm999) ∧ Refillable(rougeDiorColoredLipBalm999)) → (¬Refillable(rougeDiorColoredLipBalm999) ∧ ¬RosewoodInDescription(rougeDiorColoredLipBalm999)))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_111",
+        "story_id": 162,
+        "nat_premises": "If a person plays an instrument in a concert, they are good at playing this kind of instrument.\nPeter plays piano, violin, and saxophone.\nPeter plays piano in a concert.\nOliver and Peter both play instruments in a concert.\nOliver plays a different musical instrument from Peter in the concert.",
+        "nat_conclusion": "Peter is good at playing piano.",
+        "fol_premises": "∀x ∀y (PlayIn(y, x, concert) → GoodAtPlaying(y, x))\nPlay(peter, piano) ∧ Play(peter, violin) ∧ Play(peter, saxophone)\nPlayIn(peter, piano, concert)\n∃x ∃y (PlayIn(peter, x, concert) ∧ PlayIn(oliver, y, concert))\n∀x (PlayIn(oliver, x, concert) → ¬PlayIn(peter, y, concert))",
+        "fol_conclusion": "GoodAtPlaying(peter, piano)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_207",
+        "story_id": 482,
+        "nat_premises": "If someone in Potterville yells, then they are not cool.\nIf someone in Potterville is angry, then they yell.\nIf someone in Potterville flies, then they are cool.\nEvery person in Potterville that knows magic flies.\nAll wizards in Potterville know magic.\nHarry, who lives in Potterville either yells or flies. \nPotter, who lives in Potterville, is a wizard and flies.",
+        "nat_conclusion": "Harry is neither a wizard nor angry.",
+        "fol_premises": "∀x (In(x, potterville) ∧ Yell(x) → ¬Cool(x))\n∀x (In(x, potterville) ∧ Angry(x) → Yell(x))\n∀x (In(x, potterville) ∧ Fly(x) → Cool(x))\n∀x (In(x, potterville) ∧ Know(x, magic) → Fly(x))\n∀x (In(x, potterville) ∧ Wizard(x) → Know(x, magic))\nIn(harry, potterville) ∧ (Yell(harry) ⊕ Fly(harry))\nWizard(potter) ∧ Fly(potter)",
+        "fol_conclusion": "¬Wizard(harry) ∧ ¬Angry(harry)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_213",
+        "story_id": 354,
+        "nat_premises": "People either believe in Santa Claus, or think he is made up.\nPeople who believe in Santa Claus expect to get presents on Christmas morning.\nPeople who think Santa Claus is made up, then they would be surprised to see him in their house.\nPeople who expect presents on Christmas morning are excited for it to be Christmas.\nIf people would be surprised to see Santa Claus in their house, then they don't leave out cookies on Chrismtas Eve.\nMercy is not someone who expects presents Christmas morning, is excited for Chrismtas, and believes in Santa Claus.",
+        "nat_conclusion": "Marcy either believes in Santa Claus or doesn't leave cookies out on Christmas Eve.",
+        "fol_premises": "∀x (BelieveIn(x, santaClaus) ⊕ ThinkMadeUp(x, santaClaus))\n∀x (BelieveIn(x, santaClaus) → Expect(x, present, christmasMorning))\n∀x (ThinkMadeUp(x, santaClaus) → WouldBeSurprisedToSeeIn(x, santaClaus, house))\n∀x (Expect(x, present, christmasMorning) → ExcitedFor(x, christmas))\n∀x (WouldBeSurprisedToSeeIn(x, santaClaus, house) → ¬LeaveOut(x, cookies))\n¬(Expect(marcy, present, christmasMorning) ∧ ExcitedFor(marcy, christmas) ∧ BelieveIn(marcy, santaClaus))",
+        "fol_conclusion": "BelieveIn(marcy, santaClaus) ⊕ LeaveOut(marcy, cookies)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_259",
+        "story_id": 134,
+        "nat_premises": "Islip Speedway is the smallest race track.\nThere was a demolition derby on the smallest race track.\nIslip is either demolished or still being used.\nSpeedways that are still being used have races held at them.\nIslip doesn't have races held at it.",
+        "nat_conclusion": "There has been a demolition derby somewhere that has since been demolished.",
+        "fol_premises": "Speedway(islip) ∧ SmallestRaceTrack(islip)\n∃x ∃y (DemolitionDerby(x) ∧ SmallestRaceTrack(y) ∧ On(x, y))\nDemolished(islip) ⊕ StillUsed(islip)\n∀x (Speedway(x) ∧ StillUsed(x) → Have(races, heldAt, x))\n¬Have(races, heldAt, islip)",
+        "fol_conclusion": "∃x ∃y (DemolitionDerby(x) ∧ On(x, y) ∧ Demolished(y))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_260",
+        "story_id": 134,
+        "nat_premises": "Islip Speedway is the smallest race track.\nThere was a demolition derby on the smallest race track.\nIslip is either demolished or still being used.\nSpeedways that are still being used have races held at them.\nIslip doesn't have races held at it.",
+        "nat_conclusion": "Islip was demolished.",
+        "fol_premises": "Speedway(islip) ∧ SmallestRaceTrack(islip)\n∃x ∃y (DemolitionDerby(x) ∧ SmallestRaceTrack(y) ∧ On(x, y))\nDemolished(islip) ⊕ StillUsed(islip)\n∀x (Speedway(x) ∧ StillUsed(x) → Have(races, heldAt, x))\n¬Have(races, heldAt, islip)",
+        "fol_conclusion": "Demolished(islip)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_332",
+        "story_id": 181,
+        "nat_premises": "American superheroes come from either the DC Universe or Marvel Universe.\nCaptain America is one of America's top-ten favorite superheroes\nCaptain America does not come from the DC Universe.\nAmerica's top-ten favorite superheroes speak English.\nSome superheroes speak both English and Spanish. ",
+        "nat_conclusion": "Captain America comes from the Marvel universe.",
+        "fol_premises": "∀x (Superhero(x) ∧ American(x) → ComeFrom(x, dCUniverse) ⊕ ComeFrom(x, marvelUniverse))\nAmerican(captainAmerica) ∧ TopTenFavorite(captainAmerica) ∧ Superhero(captainAmerica)\n¬ComeFrom(captainAmerica, dCUniverse)\n∀x (American(x) ∧ TopTenFavorite(x) ∧ Superhero(x)  → Speak(x, english))\n∃x (Superhero(x) → (Speak(x, english) ∧ Speak(x, spanish)))",
+        "fol_conclusion": "ComeFrom(captainAmerica, marvelUniverse)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_381",
+        "story_id": 158,
+        "nat_premises": "mr_ and mrs_ Smith make a travel plan: they want to go to a city in California or Florida where neither of them has ever been.\nThe cities in California that they are interested in are San Francisco, Los Angeles, and San Diego.\nCities in Florida that they are interested in are Orlando and Miami.\nmr_ Smith has been to two cities in California.\nmrs_ Smith has been to one city in Florida.",
+        "nat_conclusion": "They have at leat one candidate city in Florida to visit.",
+        "fol_premises": "∀x (WantToGoTo(mr_Andmrs_Smith, x) ∧ City(x) → (California(x) ∨ Florida(x)) ∧ NeverGo(x))\nCity(sanFrancisco) ∧ California(sanFrancisco) ∧ WantToGoTo(mr_Andmrs_Smith, sanFrancisco) ∧ City(losAngeles) ∧ California(losAngeles) ∧ WantToGoTo(mr_Andmrs_Smith, losAngeles) ∧ City(sanDiego) ∧ California(sanDiego) ∧ WantToGoTo(mr_Andmrs_Smith, sanDiego)\nCity(orlando) ∧ Florida(orlando) ∧ WantToGo(mr_Andmrs_Smith, orlando) ∧ City(miami) ∧ Florida(miami) ∧ WantToGo(mr_Andmrs_Smith, miami)\n∃x ∃y ∀z (¬(x=z) ∧ ¬(y=z) ∧ ¬(x=y) ∧ City(x) ∧ City(y) ∧ City(z) ∧ California(x) ∧ California(y) ∧ California(z) → Visit(mr_smith, x) ∧ Visit(mr_smith, y) ∧ ¬Visit(mr_smith, z))\n∃x ∀y (¬(x=y) ∧ City(x) ∧ City(y) ∧ Florida(x) ∧ Florida(y) → Visit(mrs_smith, x) ∧ ¬Visit(mrs_smith, y))",
+        "fol_conclusion": "∃x (WantToGoTo(x) ∧ City(x) ∧ Florida(x))",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_421",
+        "story_id": 214,
+        "nat_premises": "If a class has prerequisites, the student must take the prerequisites to take the class.\nIf a class has no prerequisites, then the student can take the class\nCPSC 201 and CPSC 223 are prerequisites for CPSC 323.\nIntro Microeconomics is the only prerequisite for Intermediate Microeconomics.\nIntro Geology has no prerequisites.",
+        "nat_conclusion": "If a student took CPSC 201 but did not take CPSC 223, they can take CPSC 323.",
+        "fol_premises": "∀x ∀y ∀z (Class(x) ∧ Student(y) ∧ Prereq(z,x) ∧ ¬Take(y, z) → ¬CanTake(y, x))\n∀x ∀y ((Class(x) ∧ Student(y) ∧ ¬∃z Prereq(z,x)) → CanTake(y, x))\nPrereq(cpsc201, cpsc323) ∧ Prereq(cpsc223, cpsc323)\n∀x (Prereq(x,intermediateMicro) → x=introMicroeconomics)\n¬(∃x (Prereq(x, introGeology)))",
+        "fol_conclusion": "Taken(cpsc201) ∧ ¬Taken(cpsc223) ∧ CanTake(cpsc323)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_422",
+        "story_id": 214,
+        "nat_premises": "If a class has prerequisites, the student must take the prerequisites to take the class.\nIf a class has no prerequisites, then the student can take the class\nCPSC 201 and CPSC 223 are prerequisites for CPSC 323.\nIntro Microeconomics is the only prerequisite for Intermediate Microeconomics.\nIntro Geology has no prerequisites.",
+        "nat_conclusion": "A student cannot take Intro Geology.",
+        "fol_premises": "∀x ∀y ∀z (Class(x) ∧ Student(y) ∧ Prereq(z,x) ∧ ¬Take(y, z) → ¬CanTake(y, x))\n∀x ∀y ((Class(x) ∧ Student(y) ∧ ¬∃z Prereq(z,x)) → CanTake(y, x))\nPrereq(cpsc201, cpsc323) ∧ Prereq(cpsc223, cpsc323)\n∀x (Prereq(x,intermediateMicro) → x=introMicroeconomics)\n¬(∃x (Prereq(x, introGeology)))",
+        "fol_conclusion": "¬CanTake(introgeology)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_423",
+        "story_id": 214,
+        "nat_premises": "If a class has prerequisites, the student must take the prerequisites to take the class.\nIf a class has no prerequisites, then the student can take the class\nCPSC 201 and CPSC 223 are prerequisites for CPSC 323.\nIntro Microeconomics is the only prerequisite for Intermediate Microeconomics.\nIntro Geology has no prerequisites.",
+        "nat_conclusion": "Intermediate Microeconomics has one prerequisite.",
+        "fol_premises": "∀x ∀y ∀z (Class(x) ∧ Student(y) ∧ Prereq(z,x) ∧ ¬Take(y, z) → ¬CanTake(y, x))\n∀x ∀y ((Class(x) ∧ Student(y) ∧ ¬∃z Prereq(z,x)) → CanTake(y, x))\nPrereq(cpsc201, cpsc323) ∧ Prereq(cpsc223, cpsc323)\n∀x (Prereq(x,intermediateMicro) → x=introMicroeconomics)\n¬(∃x (Prereq(x, introGeology)))",
+        "fol_conclusion": "∃x (Taken(x) → CanTake(intermediatemicro))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_435",
+        "story_id": 161,
+        "nat_premises": "There are five grades in English class: A+, A, B+, B, and C. \nIf a student gets an A+ in English class, then his score is greater than 95.\nIf a student gets an A in English class, then his score is greater than 90 but lower than 95.\nZhang got an A in English class.\nWang's English class score is better than Zhang's.\nWu's English class score is lower than 90.\nIf a student's English class score is lower than 90, then it is not greater than 95 or 90, and lower than 95.",
+        "nat_conclusion": "Zhang's English class score is lower than 95.",
+        "fol_premises": "GradeIn(aPlus, englishClass) ∨ GradeIn(a, englishClass) ∨ GradeIn(bPlus, englishClass) ∨ GradeIn(b, englishClass) ∨ GradeIn(c, englishClass) ∧ (GradeIn(aPlus, englishClass) → ¬GradeIn(a, englishClass) ∧ ¬GradeIn(bPlus, englishClass) ∧ ¬GradeIn(b, englishClass) ∧ ¬GradeIn(c, englishClass)) ∧ (GradeIn(a, englishClass) → ¬GradeIn(aPlus, englishClass) ∧ ¬GradeIn(bPlus, englishClass) ∧ ¬GradeIn(b, englishClass) ∧ ¬GradeIn(c, englishClass)) ∧ (GradeIn(bPlus, englishClass) → ¬GradeIn(aPlus, englishClass) ∧ ¬GradeIn(a, englishClass) ∧ ¬GradeIn(b, englishClass) ∧ ¬GradeIn(c, englishClass)) ∧ (GradeIn(b, englishClass) → ¬GradeIn(aPlus, englishClass) ∧ ¬GradeIn(a, englishClass) ∧ ¬GradeIn(bPlus, englishClass) ∧ ¬GradeIn(c, englishClass)) ∧ (GradeIn(c, englishClass) → ¬GradeIn(aPlus, englishClass) ∧ ¬GradeIn(a, englishClass) ∧ ¬GradeIn(bPlus, englishClass) ∧ ¬GradeIn(b, englishClass))\n∀x ∀y (Student(x) ∧ GetGradeIn(x, aPlus, englishClass) → EnglishClassScore(x, y) ∧ GreaterThan95(y))\n∀x ∀y (Student(x) ∧ GetGradeIn(x, a, englishClass) → EnglishClassScore(x, y) ∧ GreaterThan90(y) ∧ LowerThan95(y))\nStudent(zhang) ∧ GetGradeIn(zhang, a, englishClass)\n∀x ∀y (Student(zhang) ∧ Student(wang) ∧ EnglishScore(zhang, x) ∧ EnglishScore(wang, y) ∧ Better(y, x))\n∀x (Student(wu) ∧ EnglishScore(wu, x) ∧ LowerThan90(x))\n∀x ∀y (Student(x) ∧ EnglishScore(x, y) ∧ LowerThan90(y) → ¬GreaterThan95(y) ∧ ¬GreaterThan90(y) ∧ LowerThan95(y))",
+        "fol_conclusion": "∀x (EnglishScore(zhang, x) ∧ LowerThan95(x))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_437",
+        "story_id": 161,
+        "nat_premises": "There are five grades in English class: A+, A, B+, B, and C. \nIf a student gets an A+ in English class, then his score is greater than 95.\nIf a student gets an A in English class, then his score is greater than 90 but lower than 95.\nZhang got an A in English class.\nWang's English class score is better than Zhang's.\nWu's English class score is lower than 90.\nIf a student's English class score is lower than 90, then it is not greater than 95 or 90, and lower than 95.",
+        "nat_conclusion": "Wu does not get an A or A+ in English class.",
+        "fol_premises": "GradeIn(aPlus, englishClass) ∨ GradeIn(a, englishClass) ∨ GradeIn(bPlus, englishClass) ∨ GradeIn(b, englishClass) ∨ GradeIn(c, englishClass) ∧ (GradeIn(aPlus, englishClass) → ¬GradeIn(a, englishClass) ∧ ¬GradeIn(bPlus, englishClass) ∧ ¬GradeIn(b, englishClass) ∧ ¬GradeIn(c, englishClass)) ∧ (GradeIn(a, englishClass) → ¬GradeIn(aPlus, englishClass) ∧ ¬GradeIn(bPlus, englishClass) ∧ ¬GradeIn(b, englishClass) ∧ ¬GradeIn(c, englishClass)) ∧ (GradeIn(bPlus, englishClass) → ¬GradeIn(aPlus, englishClass) ∧ ¬GradeIn(a, englishClass) ∧ ¬GradeIn(b, englishClass) ∧ ¬GradeIn(c, englishClass)) ∧ (GradeIn(b, englishClass) → ¬GradeIn(aPlus, englishClass) ∧ ¬GradeIn(a, englishClass) ∧ ¬GradeIn(bPlus, englishClass) ∧ ¬GradeIn(c, englishClass)) ∧ (GradeIn(c, englishClass) → ¬GradeIn(aPlus, englishClass) ∧ ¬GradeIn(a, englishClass) ∧ ¬GradeIn(bPlus, englishClass) ∧ ¬GradeIn(b, englishClass))\n∀x ∀y (Student(x) ∧ GetGradeIn(x, aPlus, englishClass) → EnglishClassScore(x, y) ∧ GreaterThan95(y))\n∀x ∀y (Student(x) ∧ GetGradeIn(x, a, englishClass) → EnglishClassScore(x, y) ∧ GreaterThan90(y) ∧ LowerThan95(y))\nStudent(zhang) ∧ GetGradeIn(zhang, a, englishClass)\n∀x ∀y (Student(zhang) ∧ Student(wang) ∧ EnglishScore(zhang, x) ∧ EnglishScore(wang, y) ∧ Better(y, x))\n∀x (Student(wu) ∧ EnglishScore(wu, x) ∧ LowerThan90(x))\n∀x ∀y (Student(x) ∧ EnglishScore(x, y) ∧ LowerThan90(y) → ¬GreaterThan95(y) ∧ ¬GreaterThan90(y) ∧ LowerThan95(y))",
+        "fol_conclusion": "¬GetGradeIn(wu, aPlus, englishClass) ∧¬GetGradeIn(wu, a, englishClass)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_440",
+        "story_id": 207,
+        "nat_premises": "TOra is a GUI.\nGUIs are software.\nSoftware can be free or paid.\nPaid Software is not under the GNU General Public License.\nTOra is under the GNU General Public License.",
+        "nat_conclusion": "TOra is a free software.",
+        "fol_premises": "GUI(tora)\n∀x (GUI(x) → Software(x))\n∀x (Software(x) → Free(x) ⊕ Paid(x))\n∀x (Paid(x) ∧ Software(x) → ¬UnderGNULicense(x))\nUnderGNULicense(tora)",
+        "fol_conclusion": "Free(tora) ∧ Software(tora)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_442",
+        "story_id": 424,
+        "nat_premises": "Customers choose a Prime Video plan or an HBO Max Plan, or both. \nAll customers who choose a Prime Video Plan are rewarded with a $30 gift card. \nThere are no customers who do not choose any plan. \nNone of the customers who are rewarded with a $30 gift card are older than 80.\nAll the customers are either older than 80 or between the ages of 60 and 80.\nJames is a customer who is not between the ages of 60 and 80. ",
+        "nat_conclusion": "James is a customer who chooses a Prime Video plan or does not choose any plans.",
+        "fol_premises": "∀x (Customer(x) → (Choose(x, primeVideoPlan) ∨ Choose(x, hBOMaxPlan)))\n∀x ((Customer(x) ∧ Choose(x, hBOMaxPlan)) → RewardWith(x, giftCard))\n∀x (Customer(x) → (∃y(Plan(y) ∧ Choose(x, y))))\n∀x ((Customer(x) ∧ RewardWith(x, giftCard)) → (¬OlderThan(x, num80)))\n∀x (Customer(x) → (∃y(GreaterThan(y, num80) ∧ Age(james,y)) ⊕ (∃y(Between(y, num60, num80) ∧ Age(james, y)))))\nCustomer(james) ∧ (¬∃y(Between(y, num60, num80) ∧ Age(james, y)))",
+        "fol_conclusion": "Choose(james, planA) ∨ Choose(james, noPlan)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_459",
+        "story_id": 473,
+        "nat_premises": "All pets in my house are either cats or dogs.\nAll the dogs in my house bark.\nGhosts do not exist.\nIf some pet in my house barks, then it is not dead.\nAll of the pets in my house are either dead or alive.\nJojo is a pet in my house, and it is not alive.",
+        "nat_conclusion": "Jojo is a cat or a ghost.",
+        "fol_premises": "∀x (Pet(x) ∧ In(x, myHouse) → Cat(x) ⊕ Dog(x))\n∀x (Dog(x) ∧ In(x, myHouse) → Bark(x))\n∀x (¬Ghost(x))\n∀x (Bark(x) ∧ Pet(x) ∧ In(x, myHouse) → ¬Dead(x))\n∀x (Pet(x) ∧ In(x, myHouse) → Dead(x) ⊕ Alive(x))\nPet(jojo) ∧ InMyHouse(jojo)∧ ¬Alive(jojo)",
+        "fol_conclusion": "Cat(jojo) ∨ Ghost(jojo)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_460",
+        "story_id": 473,
+        "nat_premises": "All pets in my house are either cats or dogs.\nAll the dogs in my house bark.\nGhosts do not exist.\nIf some pet in my house barks, then it is not dead.\nAll of the pets in my house are either dead or alive.\nJojo is a pet in my house, and it is not alive.",
+        "nat_conclusion": "If Jojo is a cat or a ghost, then Jojo either barks or is a dog.",
+        "fol_premises": "∀x (Pet(x) ∧ In(x, myHouse) → Cat(x) ⊕ Dog(x))\n∀x (Dog(x) ∧ In(x, myHouse) → Bark(x))\n∀x (¬Ghost(x))\n∀x (Bark(x) ∧ Pet(x) ∧ In(x, myHouse) → ¬Dead(x))\n∀x (Pet(x) ∧ In(x, myHouse) → Dead(x) ⊕ Alive(x))\nPet(jojo) ∧ InMyHouse(jojo)∧ ¬Alive(jojo)",
+        "fol_conclusion": "Cat(jojo) ∨ Ghost(jojo) → Bark(jojo) ⊕ Dog(jojo)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_471",
+        "story_id": 389,
+        "nat_premises": "A diseases affect females or males.\nNo women have prostate cancer.\nA cancer is either prostate cancer or non-prostate cancer. \nNo type of cancer is without mutations.\nAll non-prostate cancers are a type of cancer.\nIf adenocarcinoma is a type of cancer or without mutations or both, then adenocarcinoma is in women or without mutations or both.",
+        "nat_conclusion": "Adenocarcinoma is a disease in women.",
+        "fol_premises": "∀x (Disease(x) → (Affects(x, female) ∨ Affects(x, male)) )\n∀x (Affect(x, female) → ¬ProstateCancer(x))\n∀x (ProstateCancer(x) ∨ NonProstateCancer(x))\n∀x (Cancer(x) → ¬Without(x, mutation))\n∀x (NonProstateCancer(x) → Cancer(x))\n(Cancer(adenocarcinoma) ∨ Without(adenocarcinoma, mutation)) → (Affect(adenocarcinoma, female) ∨ Without(adenocarcinoma, mutation))",
+        "fol_conclusion": "Affect(adenocarcinoma, men)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_472",
+        "story_id": 389,
+        "nat_premises": "A diseases affect females or males.\nNo women have prostate cancer.\nA cancer is either prostate cancer or non-prostate cancer. \nNo type of cancer is without mutations.\nAll non-prostate cancers are a type of cancer.\nIf adenocarcinoma is a type of cancer or without mutations or both, then adenocarcinoma is in women or without mutations or both.",
+        "nat_conclusion": "If adenocarcinoma is a disease in women or without mutations, then adenocarcinoma is without mutations and a non-prostate cancer.",
+        "fol_premises": "∀x (Disease(x) → (Affects(x, female) ∨ Affects(x, male)) )\n∀x (Affect(x, female) → ¬ProstateCancer(x))\n∀x (ProstateCancer(x) ∨ NonProstateCancer(x))\n∀x (Cancer(x) → ¬Without(x, mutation))\n∀x (NonProstateCancer(x) → Cancer(x))\n(Cancer(adenocarcinoma) ∨ Without(adenocarcinoma, mutation)) → (Affect(adenocarcinoma, female) ∨ Without(adenocarcinoma, mutation))",
+        "fol_conclusion": "(Affect(adenocarcinoma, men) ∨ Without(adenocarcinoma, mutation)) → (NonProstateCancer(adenocarcinoma) ∧ Without(adenocarcinoma, mutation))",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_478",
+        "story_id": 412,
+        "nat_premises": "All fruits sold at Nica's market are shipped from Colombia. \nSome fruits sold in New Haven are shipped from Mexico.\nNo fruits shipped from Colombia are sold at the local farmers market in New Haven. \nAvocados are a kind of fruit sold at the local farmers market in New Haven or at Nica's market. \nAvocados are either shipped from Colombia and sold in New Haven, or neither.",
+        "nat_conclusion": "Avocados are either sold in New Haven or sold at Nica's market.",
+        "fol_premises": "∀x ((Fruit(x) ∧ SoldAt(x, nicasMarket)) → ShippedFrom(x, colombia))\n∃x ∃y (Fruit(x) ∧ SoldIn(x, newHaven) ∧ ShippedFrom(x, mexico) ∧ (¬(x=y)) ∧ Fruit(y) ∧ SoldIn(y, newHaven) ∧ ShippedFrom(y, mexico))\n∀x ((Fruit(x) ∧ ShippedFrom(x, colombia)) → ¬(SoldAt(x, localFarmersMarket)))\nFruit(avocado) ∧ (SoldAt(avocado, localFarmersMarket) ∨ SoldAt(avocado, nica'sMarket))\n¬(ShippedFrom(avocado, colombia) ⊕ SoldIn(avocado, newHaven))",
+        "fol_conclusion": "SoldIn(avocado, newHaven) ⊕ SoldAt(x, nica'sMarket)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_479",
+        "story_id": 412,
+        "nat_premises": "All fruits sold at Nica's market are shipped from Colombia. \nSome fruits sold in New Haven are shipped from Mexico.\nNo fruits shipped from Colombia are sold at the local farmers market in New Haven. \nAvocados are a kind of fruit sold at the local farmers market in New Haven or at Nica's market. \nAvocados are either shipped from Colombia and sold in New Haven, or neither.",
+        "nat_conclusion": "If avocados are not both sold at the local farmers market in New Haven and shipped from Columbia, then they are neither sold at the local farmers market in New Haven nor in New Haven generally.",
+        "fol_premises": "∀x ((Fruit(x) ∧ SoldAt(x, nicasMarket)) → ShippedFrom(x, colombia))\n∃x ∃y (Fruit(x) ∧ SoldIn(x, newHaven) ∧ ShippedFrom(x, mexico) ∧ (¬(x=y)) ∧ Fruit(y) ∧ SoldIn(y, newHaven) ∧ ShippedFrom(y, mexico))\n∀x ((Fruit(x) ∧ ShippedFrom(x, colombia)) → ¬(SoldAt(x, localFarmersMarket)))\nFruit(avocado) ∧ (SoldAt(avocado, localFarmersMarket) ∨ SoldAt(avocado, nica'sMarket))\n¬(ShippedFrom(avocado, colombia) ⊕ SoldIn(avocado, newHaven))",
+        "fol_conclusion": "¬(SoldAt(avocado, localFarmersMarket) ∧ ShippedFrom(avocado, colombia)) → ¬SoldAt(avocado, localFarmersMarket) ∧ ¬SoldIn(avocado, newHaven)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_490",
+        "story_id": 323,
+        "nat_premises": "No disposable products can help slow down global warming. \nAll eco-friendly brands can help slow down global warming. \nAll sustainable fashion brands are eco-friendly brands.\nAll fast fashion products are disposable products.\nIf Reformation is not helping slow down global warming, then Reformation is an eco-friendly brand or a sustainable fashion brand.",
+        "nat_conclusion": "Reformation produces fast fashion products.",
+        "fol_premises": "∀x (Disposable(x) ∧ Product(x) → ¬HelpSlowDown(x, globalWarming))\n∀x (EcoFriendly(x) ∧ Brand(x) → Help(x, slowDownGlobalWarming))\n∀x (Sustainable(x) ∧ FashionBrand(x) → EcoFriendly(x) ∧ Brand(x))\n∀x (FastFashion(x) ∧ Product(x) → Disposable(x) ∧ Product(x))\n¬HelpSlowDown(reformation, globalWarming) → (EcoFriendly(reformation) ∧ Brand(reformation)) ∨ (Sustainable(reformation) ∧ FashionBrand(reformation))",
+        "fol_conclusion": "FastFashion(reformation) ∧ Product(reformation)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_491",
+        "story_id": 323,
+        "nat_premises": "No disposable products can help slow down global warming. \nAll eco-friendly brands can help slow down global warming. \nAll sustainable fashion brands are eco-friendly brands.\nAll fast fashion products are disposable products.\nIf Reformation is not helping slow down global warming, then Reformation is an eco-friendly brand or a sustainable fashion brand.",
+        "nat_conclusion": "Reformation does not produce fast fashion products.",
+        "fol_premises": "∀x (Disposable(x) ∧ Product(x) → ¬HelpSlowDown(x, globalWarming))\n∀x (EcoFriendly(x) ∧ Brand(x) → Help(x, slowDownGlobalWarming))\n∀x (Sustainable(x) ∧ FashionBrand(x) → EcoFriendly(x) ∧ Brand(x))\n∀x (FastFashion(x) ∧ Product(x) → Disposable(x) ∧ Product(x))\n¬HelpSlowDown(reformation, globalWarming) → (EcoFriendly(reformation) ∧ Brand(reformation)) ∨ (Sustainable(reformation) ∧ FashionBrand(reformation))",
+        "fol_conclusion": "¬(FastFashion(reformation) ∧ Product(reformation))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_492",
+        "story_id": 323,
+        "nat_premises": "No disposable products can help slow down global warming. \nAll eco-friendly brands can help slow down global warming. \nAll sustainable fashion brands are eco-friendly brands.\nAll fast fashion products are disposable products.\nIf Reformation is not helping slow down global warming, then Reformation is an eco-friendly brand or a sustainable fashion brand.",
+        "nat_conclusion": "Reformation does not produce fast fashion products or does not produce disposable products.",
+        "fol_premises": "∀x (Disposable(x) ∧ Product(x) → ¬HelpSlowDown(x, globalWarming))\n∀x (EcoFriendly(x) ∧ Brand(x) → Help(x, slowDownGlobalWarming))\n∀x (Sustainable(x) ∧ FashionBrand(x) → EcoFriendly(x) ∧ Brand(x))\n∀x (FastFashion(x) ∧ Product(x) → Disposable(x) ∧ Product(x))\n¬HelpSlowDown(reformation, globalWarming) → (EcoFriendly(reformation) ∧ Brand(reformation)) ∨ (Sustainable(reformation) ∧ FashionBrand(reformation))",
+        "fol_conclusion": "¬(FastFashion(reformation) ∧ Product(reformation)) ∨ ¬(Disposable(x) ∧ Product(x))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_493",
+        "story_id": 323,
+        "nat_premises": "No disposable products can help slow down global warming. \nAll eco-friendly brands can help slow down global warming. \nAll sustainable fashion brands are eco-friendly brands.\nAll fast fashion products are disposable products.\nIf Reformation is not helping slow down global warming, then Reformation is an eco-friendly brand or a sustainable fashion brand.",
+        "nat_conclusion": "If Reformation produces disposable products, then Reformation produces fast fashion products.",
+        "fol_premises": "∀x (Disposable(x) ∧ Product(x) → ¬HelpSlowDown(x, globalWarming))\n∀x (EcoFriendly(x) ∧ Brand(x) → Help(x, slowDownGlobalWarming))\n∀x (Sustainable(x) ∧ FashionBrand(x) → EcoFriendly(x) ∧ Brand(x))\n∀x (FastFashion(x) ∧ Product(x) → Disposable(x) ∧ Product(x))\n¬HelpSlowDown(reformation, globalWarming) → (EcoFriendly(reformation) ∧ Brand(reformation)) ∨ (Sustainable(reformation) ∧ FashionBrand(reformation))",
+        "fol_conclusion": "(Disposable(reformation) ∧ Product(reformation)) → (FastFashion(reformation) ∧ Product(reformation))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_494",
+        "story_id": 323,
+        "nat_premises": "No disposable products can help slow down global warming. \nAll eco-friendly brands can help slow down global warming. \nAll sustainable fashion brands are eco-friendly brands.\nAll fast fashion products are disposable products.\nIf Reformation is not helping slow down global warming, then Reformation is an eco-friendly brand or a sustainable fashion brand.",
+        "nat_conclusion": "If Reformation produces fast fashion products or helps slow down global warming, then Reformation produces fast fashion products.",
+        "fol_premises": "∀x (Disposable(x) ∧ Product(x) → ¬HelpSlowDown(x, globalWarming))\n∀x (EcoFriendly(x) ∧ Brand(x) → Help(x, slowDownGlobalWarming))\n∀x (Sustainable(x) ∧ FashionBrand(x) → EcoFriendly(x) ∧ Brand(x))\n∀x (FastFashion(x) ∧ Product(x) → Disposable(x) ∧ Product(x))\n¬HelpSlowDown(reformation, globalWarming) → (EcoFriendly(reformation) ∧ Brand(reformation)) ∨ (Sustainable(reformation) ∧ FashionBrand(reformation))",
+        "fol_conclusion": "(FastFashion(reformation) ∧ Product(reformation)) ∨ ¬HelpSlowDown(reformation, globalWarming)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_499",
+        "story_id": 338,
+        "nat_premises": "No iPhones are standalone desktops. \nAll Apple-made cellphones are iPhones.  \nAll phones with A15 Bionic chips are Apple-made cell phones. \nAll phones equipped with four core-GPU made by Apple are phones with A15 Bionic chips. \nIf an unannounced Huawei phone is either a phone with A15 Bionic chips or equipped with four core-GPU made by Apple, then unannounced Huawei phone is neither a phone with A15 Bionic chips nor a standalone desktop.",
+        "nat_conclusion": "Joe is a PhD student.",
+        "fol_premises": "∀x (IPhone(x) → ¬StandaloneDesktop(x))\n∀x (AppleMade(x) ∧ Cellphone(x) → IPhone(x))\n∀x (Phone(x) ∧ With(x, a15BionicChip) → AppleMade(x) ∧ Cellphone(x))\n∀x (Phone(x) ∧ EquippedWith(x, fourCoreGPU) ∧ MadeBy(x, apple) → Phone(x) ∧ With(x, a15BionicChip))\n(Phone(unannouncedHuaweiPhone) ∧ With(unannouncedHuaweiPhone, a15BionicChip)) ⊕ (Phone(unannouncedHuaweiPhone) ∧ EquippedWith(unannouncedHuaweiPhone, fourCoreGPU) ∧ MadeBy(unannouncedHuaweiPhone, apple)) → ¬(Phone(unannouncedHuaweiPhone) ∧ With(unannouncedHuaweiPhone, a15BionicChip) ∧ StandaloneDesktop(unannouncedHuaweiPhone))",
+        "fol_conclusion": "Phone(unannouncedHuaweiPhone) ∧ EquippedWith(unannouncedHuaweiPhone, fourCoreGPU) ∧ MadeByApple(unannouncedHuaweiPhone)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_500",
+        "story_id": 338,
+        "nat_premises": "No iPhones are standalone desktops. \nAll Apple-made cellphones are iPhones.  \nAll phones with A15 Bionic chips are Apple-made cell phones. \nAll phones equipped with four core-GPU made by Apple are phones with A15 Bionic chips. \nIf an unannounced Huawei phone is either a phone with A15 Bionic chips or equipped with four core-GPU made by Apple, then unannounced Huawei phone is neither a phone with A15 Bionic chips nor a standalone desktop.",
+        "nat_conclusion": "Joe is not a PhD student.",
+        "fol_premises": "∀x (IPhone(x) → ¬StandaloneDesktop(x))\n∀x (AppleMade(x) ∧ Cellphone(x) → IPhone(x))\n∀x (Phone(x) ∧ With(x, a15BionicChip) → AppleMade(x) ∧ Cellphone(x))\n∀x (Phone(x) ∧ EquippedWith(x, fourCoreGPU) ∧ MadeBy(x, apple) → Phone(x) ∧ With(x, a15BionicChip))\n(Phone(unannouncedHuaweiPhone) ∧ With(unannouncedHuaweiPhone, a15BionicChip)) ⊕ (Phone(unannouncedHuaweiPhone) ∧ EquippedWith(unannouncedHuaweiPhone, fourCoreGPU) ∧ MadeBy(unannouncedHuaweiPhone, apple)) → ¬(Phone(unannouncedHuaweiPhone) ∧ With(unannouncedHuaweiPhone, a15BionicChip) ∧ StandaloneDesktop(unannouncedHuaweiPhone))",
+        "fol_conclusion": "¬(Phone(unannouncedHuaweiPhone) ∧ EquippedWith(unannouncedHuaweiPhone, fourCoreGPU) ∧ MadeByApple(unannouncedHuaweiPhone))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_520",
+        "story_id": 308,
+        "nat_premises": "No video games released by Nintendo support the PS4 platform.\nAll video games in the Pokemon series are released by Nintendo. \nAll video games in the FIFA series support the PS4 platform. \nAll video games that allow users to simulate playing online soccer using licensed players are in the FIFA series.\nThe video game named “Be Lionel” is in the Pokemon series, or it allows users to simulate playing online soccer games using licensed players_",
+        "nat_conclusion": "The video game named “Be Lionel” either is in the FIFA series and supports the PS4 platform, or it neither is in the FIFA series nor supports the PS4 platform.",
+        "fol_premises": "∀x (VideoGame(x) ∧ ReleasedBy(x, nintendo) → ¬Support(x, pS4))\n∀x (VideoGame(x) ∧ In(x, pokemonSeries) → ReleasedBy(x, nintendo))\n∀x (VideoGame(x) ∧ In(x, fIFASeries) → Support(x, pS4))\n∀x (VideoGame(x) ∧ Simulate(x, onlineSoccer) ∧ Use(x, licensedPlayer) → In(x, fIFASeries))\nVideoGame(beLionel) ∧ In(beLionel, pokemonSeries) ∨ (Simulate(beLionel, onlineSoccer) ∧ Use(beLionel, licensedPlayer))",
+        "fol_conclusion": "VideoGame(beLionel) ∧  ¬(FIFASeries(beLionel) ⊕ Support(beLionel, pS4))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_521",
+        "story_id": 308,
+        "nat_premises": "No video games released by Nintendo support the PS4 platform.\nAll video games in the Pokemon series are released by Nintendo. \nAll video games in the FIFA series support the PS4 platform. \nAll video games that allow users to simulate playing online soccer using licensed players are in the FIFA series.\nThe video game named “Be Lionel” is in the Pokemon series, or it allows users to simulate playing online soccer games using licensed players_",
+        "nat_conclusion": "The video game named “Be Lionel” is either in the FIFA series or supports the PS4 platform.",
+        "fol_premises": "∀x (VideoGame(x) ∧ ReleasedBy(x, nintendo) → ¬Support(x, pS4))\n∀x (VideoGame(x) ∧ In(x, pokemonSeries) → ReleasedBy(x, nintendo))\n∀x (VideoGame(x) ∧ In(x, fIFASeries) → Support(x, pS4))\n∀x (VideoGame(x) ∧ Simulate(x, onlineSoccer) ∧ Use(x, licensedPlayer) → In(x, fIFASeries))\nVideoGame(beLionel) ∧ In(beLionel, pokemonSeries) ∨ (Simulate(beLionel, onlineSoccer) ∧ Use(beLionel, licensedPlayer))",
+        "fol_conclusion": "VideoGame(beLionel) ∧ FIFASeries(beLionel) ⊕ Support(beLionel, pS4)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_522",
+        "story_id": 308,
+        "nat_premises": "No video games released by Nintendo support the PS4 platform.\nAll video games in the Pokemon series are released by Nintendo. \nAll video games in the FIFA series support the PS4 platform. \nAll video games that allow users to simulate playing online soccer using licensed players are in the FIFA series.\nThe video game named “Be Lionel” is in the Pokemon series, or it allows users to simulate playing online soccer games using licensed players_",
+        "nat_conclusion": "The video game named “Be Lionel”  is not in the FIFA or Pokemon series.",
+        "fol_premises": "∀x (VideoGame(x) ∧ ReleasedBy(x, nintendo) → ¬Support(x, pS4))\n∀x (VideoGame(x) ∧ In(x, pokemonSeries) → ReleasedBy(x, nintendo))\n∀x (VideoGame(x) ∧ In(x, fIFASeries) → Support(x, pS4))\n∀x (VideoGame(x) ∧ Simulate(x, onlineSoccer) ∧ Use(x, licensedPlayer) → In(x, fIFASeries))\nVideoGame(beLionel) ∧ In(beLionel, pokemonSeries) ∨ (Simulate(beLionel, onlineSoccer) ∧ Use(beLionel, licensedPlayer))",
+        "fol_conclusion": "VideoGame(beLionel) ∧ ¬(FIFASeries(beLionel) ∨ Support(beLionel, pS4))",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_532",
+        "story_id": 405,
+        "nat_premises": "Everyone who works in the office is a commuter. \nPeople either work in the office or work from home.\nEveryone who works from home has a relaxed schedule.\nGeorge is either a commuter or has a home office setup. \nIf George is either a person who works from home or has a home office setup, then George is a commuter and is not a person who works from home.",
+        "nat_conclusion": "If George is either a person who has a home office setup and a person who works in the office, or neither a person who has a home office setup nor a person who works in the office, then George is either a person who works from home or a person who has a relaxed schedule.",
+        "fol_premises": "∀x (WorkIn(x, office) → Commuter(x))\n∀x (WorkIn(x, office) ⊕ WorkFrom(x, home))\n∀x (WorkFrom(x, home) → Have(x, relaxedSchedule))\nCommuter(george) ⊕ Have(george, homeOffice)\n(WorkFrom(george, home) ⊕ Have(george, homeOffice)) → ¬WorkFrom(george, home) ∧ Commuter(george)",
+        "fol_conclusion": "¬(Have(george, homeOffice) ⊕ WorkIn(george, office)) → (WorkFrom(george, home) ⊕ Have(george, relaxedSchedule))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_536",
+        "story_id": 430,
+        "nat_premises": "Hermès bags are not made in Italy.\nAll Birkin bags are Hermès bags. \nAll Ferraris are made in Italy. \nAll cars that carry a Ferrari V12 engine are Ferraris. \nAll cars that are made in Maranello carry a Ferrari V12 engine.\nA Lamborghini SUV is not both a Ferrari and made in Maranello. \nA Kelly bag is a Hermès bag, or it is a car that carries a Ferrari V12 engine. ",
+        "nat_conclusion": "A Lamborghini SUV is made in Italy.",
+        "fol_premises": "∀x ((Bag(x) ∧ Hermès(x)) → ¬MadeIn(x, italy))\n∀x ((Bag(x) ∧ Birkin(x)) → Hermès(x))\n∀x (Ferrari(x) → MadeIn(x, italy))\n∀x ((Car(x) ∧ Carry(x, ferrariV12Engine)) → Ferrrari(x))\n∀x ((Car(x) ∧ MadeIn(x, maranello)) → Carry(x, ferrariV12Engine))\n¬(Ferrari(lamborghiniSUV) ∧ MadeIn(lamborghiniSUV, maranello))\n(Bag(kelly) ∧ Hermès(kelly)) ∨ (Bag(kelly) ∧ Car(kelly) ∧ Carry(kelly, ferrariV12Engine))",
+        "fol_conclusion": "MadeIn(lamborghiniSUV, italy)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_537",
+        "story_id": 430,
+        "nat_premises": "Hermès bags are not made in Italy.\nAll Birkin bags are Hermès bags. \nAll Ferraris are made in Italy. \nAll cars that carry a Ferrari V12 engine are Ferraris. \nAll cars that are made in Maranello carry a Ferrari V12 engine.\nA Lamborghini SUV is not both a Ferrari and made in Maranello. \nA Kelly bag is a Hermès bag, or it is a car that carries a Ferrari V12 engine. ",
+        "nat_conclusion": "A Lamborghini SUV is not made in Italy.",
+        "fol_premises": "∀x ((Bag(x) ∧ Hermès(x)) → ¬MadeIn(x, italy))\n∀x ((Bag(x) ∧ Birkin(x)) → Hermès(x))\n∀x (Ferrari(x) → MadeIn(x, italy))\n∀x ((Car(x) ∧ Carry(x, ferrariV12Engine)) → Ferrrari(x))\n∀x ((Car(x) ∧ MadeIn(x, maranello)) → Carry(x, ferrariV12Engine))\n¬(Ferrari(lamborghiniSUV) ∧ MadeIn(lamborghiniSUV, maranello))\n(Bag(kelly) ∧ Hermès(kelly)) ∨ (Bag(kelly) ∧ Car(kelly) ∧ Carry(kelly, ferrariV12Engine))",
+        "fol_conclusion": "¬MadeIn(lamborghiniSUV, italy)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_538",
+        "story_id": 430,
+        "nat_premises": "Hermès bags are not made in Italy.\nAll Birkin bags are Hermès bags. \nAll Ferraris are made in Italy. \nAll cars that carry a Ferrari V12 engine are Ferraris. \nAll cars that are made in Maranello carry a Ferrari V12 engine.\nA Lamborghini SUV is not both a Ferrari and made in Maranello. \nA Kelly bag is a Hermès bag, or it is a car that carries a Ferrari V12 engine. ",
+        "nat_conclusion": "A Kelly bag is a Birkin bag made in Maranello.",
+        "fol_premises": "∀x ((Bag(x) ∧ Hermès(x)) → ¬MadeIn(x, italy))\n∀x ((Bag(x) ∧ Birkin(x)) → Hermès(x))\n∀x (Ferrari(x) → MadeIn(x, italy))\n∀x ((Car(x) ∧ Carry(x, ferrariV12Engine)) → Ferrrari(x))\n∀x ((Car(x) ∧ MadeIn(x, maranello)) → Carry(x, ferrariV12Engine))\n¬(Ferrari(lamborghiniSUV) ∧ MadeIn(lamborghiniSUV, maranello))\n(Bag(kelly) ∧ Hermès(kelly)) ∨ (Bag(kelly) ∧ Car(kelly) ∧ Carry(kelly, ferrariV12Engine))",
+        "fol_conclusion": "Bag(kelly) ∧ MadeIn(kelly, maranello) ∧ Birkin(kelly)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_539",
+        "story_id": 430,
+        "nat_premises": "Hermès bags are not made in Italy.\nAll Birkin bags are Hermès bags. \nAll Ferraris are made in Italy. \nAll cars that carry a Ferrari V12 engine are Ferraris. \nAll cars that are made in Maranello carry a Ferrari V12 engine.\nA Lamborghini SUV is not both a Ferrari and made in Maranello. \nA Kelly bag is a Hermès bag, or it is a car that carries a Ferrari V12 engine. ",
+        "nat_conclusion": "A Kelly bag is not both made in Maranello and a Birkin bag.",
+        "fol_premises": "∀x ((Bag(x) ∧ Hermès(x)) → ¬MadeIn(x, italy))\n∀x ((Bag(x) ∧ Birkin(x)) → Hermès(x))\n∀x (Ferrari(x) → MadeIn(x, italy))\n∀x ((Car(x) ∧ Carry(x, ferrariV12Engine)) → Ferrrari(x))\n∀x ((Car(x) ∧ MadeIn(x, maranello)) → Carry(x, ferrariV12Engine))\n¬(Ferrari(lamborghiniSUV) ∧ MadeIn(lamborghiniSUV, maranello))\n(Bag(kelly) ∧ Hermès(kelly)) ∨ (Bag(kelly) ∧ Car(kelly) ∧ Carry(kelly, ferrariV12Engine))",
+        "fol_conclusion": "Bag(kelly) ∧ ¬(MadeIn(kelly, maranello) ∧ Birkin(kelly))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_555",
+        "story_id": 218,
+        "nat_premises": "Maya would only play the violin if her fingers could never be injured. \nVolleyball players can injure their ankles, fingers, or shoulder.\nMaya is a volleyball player.",
+        "nat_conclusion": "Maya will not play the violin.",
+        "fol_premises": "Play(maya, violin) → ¬CanInjure(maya, fingers)\n∀x (VolleyballPlayer(x) → (CanInjure(ankles) ∧ CanInjure(fingers) ∧ CanInjure(shoulder)))\nVolleyballPlayer(maya)",
+        "fol_conclusion": "¬Play(maya, violin)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_556",
+        "story_id": 428,
+        "nat_premises": "All devices belonging to the company are connected to Google Home. \nAll devices with the company logo belong to the company. \nEach device either has the company logo or belongs to employees. \nAll of the devices belonging to employees can be connected to the company's wifi. \nAll of the devices connected to Google Home are controlled by managers_ \nAll of the devices that connect to the company's wifi are easy to operate. \nAll of the devices that are easy to operate were produced after a new CTO is appointed. \nModelXX was not produced after a new CTO was appointed.",
+        "nat_conclusion": "ModelXX is controlled by managers_",
+        "fol_premises": "∀x ((Devices(x) ∧ BelongTo(x, company)) → ConnectTo(x, googleHome))\n∀x ((Devices(x) ∧ With(x, companyLogo)) → BelongTo(x, company))\n∀x ((Devices(x) → (With(x, companyLogo) ⊕ BelongTo(x, employee))))\n∀x ((Devices(x) ∧ BelongTo(x, employee)) → CanBeConnectedTo(x, wifi))\n∀x ((Devices(x) ∧ ConnectTo(x, googleHome)) → ControlledBy(x, manager))\n∀x ((Devices(x) ∧ CanBeConnectedTo(x, wifi)) → EasyToOperate(x))\n∀x ((Devices(x) ∧ EasyToOperate(x)) → ProducedAfterNewCTOAppointed(x, company))\nDevices(modelXX) ∧ (¬ProducedAfterNewCTOAppointed(modelXX, company))",
+        "fol_conclusion": "ControlledBy(x, manager)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_557",
+        "story_id": 428,
+        "nat_premises": "All devices belonging to the company are connected to Google Home. \nAll devices with the company logo belong to the company. \nEach device either has the company logo or belongs to employees. \nAll of the devices belonging to employees can be connected to the company's wifi. \nAll of the devices connected to Google Home are controlled by managers_ \nAll of the devices that connect to the company's wifi are easy to operate. \nAll of the devices that are easy to operate were produced after a new CTO is appointed. \nModelXX was not produced after a new CTO was appointed.",
+        "nat_conclusion": "ModelXX is either produced after a new CTO was appointed or it is controlled by managers_",
+        "fol_premises": "∀x ((Devices(x) ∧ BelongTo(x, company)) → ConnectTo(x, googleHome))\n∀x ((Devices(x) ∧ With(x, companyLogo)) → BelongTo(x, company))\n∀x ((Devices(x) → (With(x, companyLogo) ⊕ BelongTo(x, employee))))\n∀x ((Devices(x) ∧ BelongTo(x, employee)) → CanBeConnectedTo(x, wifi))\n∀x ((Devices(x) ∧ ConnectTo(x, googleHome)) → ControlledBy(x, manager))\n∀x ((Devices(x) ∧ CanBeConnectedTo(x, wifi)) → EasyToOperate(x))\n∀x ((Devices(x) ∧ EasyToOperate(x)) → ProducedAfterNewCTOAppointed(x, company))\nDevices(modelXX) ∧ (¬ProducedAfterNewCTOAppointed(modelXX, company))",
+        "fol_conclusion": "ProducedAfterNewCTOAppointed(modelXX, theCompany) ⊕ ControlledBy(x, manager)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_566",
+        "story_id": 353,
+        "nat_premises": "If Max listens to music, he either listens to classical music or rap.\nAll the classical songs that Max listens to are from the 12th century. \nIf Max is listening to a rap song, then the song is by Kanye West. \nAll songs by Kanye West are full of lyrics. \nAll songs that are full of lyrics need to be written with words\nIt is not true that “As it was” by Harry Styles is classical music that Max listens to and is from the 12th century.\nMax listens to \"As it was\" by Harry Styles.",
+        "nat_conclusion": "“As it was” by Harry Styles needs to be written with words.",
+        "fol_premises": "∀x (MaxListenTo(x) → (ClassicalMusic(x) ⊕ Rap(x)))\n∀x (MaxListenTo(x) ∧ ClassicalMusic(x) → Song(x) ∧ From(x, 12thCentury))\n∀x (MaxListenTo(x) ∧ Rap(x) → Song(x) ∧ By(x, kanyeWest))\n∀x (Song(x) ∧ By(x, kanyeWest) → Song(x) ∧ FullOfLyrics(x))\n∀x (Song(x) ∧ FullOfLyrics(x) → NeedToBeWrittenWith(x, words))\n¬(ClassicalMusic(asItWasByHarryStyles) ∧ Song(asItWasByHarryStyles) ∧ From(asItWasByHarryStyles, 12thCentury))\nMaxListenTo(asItWasByHarryStyles)",
+        "fol_conclusion": "NeedToBeWrittenWith(asItWasByHarryStyles, words)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_604",
+        "story_id": 390,
+        "nat_premises": "There are no elements with atomic number between 61-63 that are not scarce in China.\nNon-rare earth elements are not scarce in China.\nAll elements are either non-rare earth elements or rare earth elements. \nAll rare earth elements can be used for industry.\nAll rare earth elements are essential for exploring future directions of electronics.\nLithium is either a non-rare earth element and essential for exploring future directions of electronics, or is not a non-rare earth element and is not essential for exploring future directions of electronics.",
+        "nat_conclusion": "If Lithium is not essential for exploring future directions of electronics or an element with atomic number between 61-63, then Lithium is not a non-rare earth element or usable in industry.",
+        "fol_premises": "∀x ((Element(x) ∧ ∃y(Between(y, num61, num63) ∧ AtomicNumber(x, y))) → ScarceIn(x, china))\n∀x (¬RareEarthElement(x) → ¬ScarceIn(x, china))\n∀x (¬RareEarthElement(x) ⊕ RareEarthElement(x))\n∀x (RareEarthElement(x) → UsedIn(x, industry))\n∀x (RareEarthElement(x) → EssentialFor(x, electronics))\n¬(¬RareEarthElement(lithium) ⊕ EssentialFor(lithium, electronics))",
+        "fol_conclusion": "¬(EssentialFor(lithium, electronics) ⊕ (∃y(Between(y, num61, num63) ∧ AtomicNumber(lithium, y)))) → ¬(¬RareEarthMetals(lithium) ∨ UsedIn(lithium, industry))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_635",
+        "story_id": 123,
+        "nat_premises": "Businesses are either sanctioned or unsanctioned.\nSanctioned businesses are limited.\nUnsanctioned businesses are free.\nThe Crude Oil Data Exchange is a business that isn't free.",
+        "nat_conclusion": "Crude Oil Data Exchange is sanctioned.",
+        "fol_premises": "∀x (Buisness(x) → Sanctioned(x) ⊕ ¬Sanctioned(x))\n∀x (Buisness(x) ∧ Sanctioned(x) → Limited(x))\n∀x (Buisness(x) ∧ ¬Sanctioned(x) → Free(x))\nBuisness(crudeOilDataExchange) ∧ ¬Free(crudeOilDataExchange)",
+        "fol_conclusion": "Sanctioned(crudeOilDataExchange)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_637",
+        "story_id": 123,
+        "nat_premises": "Businesses are either sanctioned or unsanctioned.\nSanctioned businesses are limited.\nUnsanctioned businesses are free.\nThe Crude Oil Data Exchange is a business that isn't free.",
+        "nat_conclusion": "Crude Oil Data Exchange is limited.",
+        "fol_premises": "∀x (Buisness(x) → Sanctioned(x) ⊕ ¬Sanctioned(x))\n∀x (Buisness(x) ∧ Sanctioned(x) → Limited(x))\n∀x (Buisness(x) ∧ ¬Sanctioned(x) → Free(x))\nBuisness(crudeOilDataExchange) ∧ ¬Free(crudeOilDataExchange)",
+        "fol_conclusion": "Limited(crudeOilDataExchange)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_652",
+        "story_id": 221,
+        "nat_premises": "Ernest Pohl was a Polish football player. \nA football player in the Polish First Division has scored over 180 goals. \nErnest Pohl scored more than 180 goals in the Polish First Division. \nGórnik Zabrze's stadium was named after a soccer player from Ruda Śląska. \nErnest Pohl is from Ruda Śląska. ",
+        "nat_conclusion": "Ernest Pohl has not scored more than 180 goals.",
+        "fol_premises": "Polish(ernestPohl) ∧ FootballPlayer(ernestPohl)\n∃x (FootballPlayer(x) ∧ In(x, polishFirstDivision) ∧ ScoredOver(x, 180Goals))\nIn(ernestPohl, polishFirstDivision) ∧ ScoredOver(ernestPohl, 180Goals)\n∃x ∃y (GornikZabrzes(x) ∧ Stadium(x) ∧ NamedAfter(x, y) ∧ SoccerPlayer(y) ∧ From(y, rudaŚląska))\nFrom(ernestPohl, rudaŚląska)",
+        "fol_conclusion": "¬ScoredOver(ernestPohl, 180Goals)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_653",
+        "story_id": 221,
+        "nat_premises": "Ernest Pohl was a Polish football player. \nA football player in the Polish First Division has scored over 180 goals. \nErnest Pohl scored more than 180 goals in the Polish First Division. \nGórnik Zabrze's stadium was named after a soccer player from Ruda Śląska. \nErnest Pohl is from Ruda Śląska. ",
+        "nat_conclusion": "Górnik Zabrze's stadium was named after Ernest Pohl.",
+        "fol_premises": "Polish(ernestPohl) ∧ FootballPlayer(ernestPohl)\n∃x (FootballPlayer(x) ∧ In(x, polishFirstDivision) ∧ ScoredOver(x, 180Goals))\nIn(ernestPohl, polishFirstDivision) ∧ ScoredOver(ernestPohl, 180Goals)\n∃x ∃y (GornikZabrzes(x) ∧ Stadium(x) ∧ NamedAfter(x, y) ∧ SoccerPlayer(y) ∧ From(y, rudaŚląska))\nFrom(ernestPohl, rudaŚląska)",
+        "fol_conclusion": "∀x (GornikZabrzes(x) ∧ Stadium(x) → NamedAfter(x, ernestPohl))",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_695",
+        "story_id": 177,
+        "nat_premises": "The National Lobster Hatchery is a hatchery located in Padstow, England.\nThe National Lobster Hatchery is open to visitors_\nA hatchery is either for profit or for conservation.\nIf a hatchery is for conservation, it might release animals into the wild.\nThe National Lobster Hatchery is not for profit.",
+        "nat_conclusion": "The National Lobster Hatchery is for conservation.",
+        "fol_premises": "Hatchery(nationalLobsterHatchery) ∧ LocatedIn(nationalLobsterHatchery, padstowEngland)\nOpenToVisitor(nationalLobsterHatchery)\n∀x (Hatchery(x) → ForConservation(x) ⊕ ForProfit(x))\n∃x (Hatchery(x) ∧ ForConservation(x) ∧ ReleaseAnimalToWild(x))\n¬ForProfit(nationalLobsterHatchery)",
+        "fol_conclusion": "ForConservation(nationalLobsterhatchery)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_702",
+        "story_id": 470,
+        "nat_premises": "A Unix operating system used in the lab computers is a piece of software.\nAll versions of MacOS used in the lab computer are based on Unix operating systems.\nA lab computer uses either MacOS or Linux. \nAll Linux computers in the lab are convenient.\nAll software used in the lab computers is written with code.\nIf something is convenient in the lab computer, then it is popular.\nBurger is used in the lab computer, and it is written with code and a new version of MacOS.\nPyTorch is used in the lab computer, and PyTorch is neither a Linux system nor a piece of software.",
+        "nat_conclusion": "PyTorch is popular and written with code.",
+        "fol_premises": "∀x (UsedIn(x, labComputer) ∧ UnixOperatingSystem(x) → Software(x))\n∀x (UsedIn(x, labComputer) ∧ MacOS(x) → UnixOperatingSystem(x))\n∀x (UsedIn(x, labComputer) → MacOS(x) ⊕ Linux(x))\n∀x (UsedIn(x, labComputer) ∧ Linux(x) → Convenient(x))\n∀x (UsedIn(x, labComputer) ∧ Software(x) → WrittenWithCode(x))\n∀x (UsedIn(x, labComputer) ∧ Convenient(x) → Popular(x))\nUsedIn(burger, labComputer) ∧ WrittenWithCode(burger) ∧ MacOS(burger)\nUsedIn(pytorch, labComputer) ∧ ¬(Linux(pytorch) ⊕ Software(pytorch))",
+        "fol_conclusion": "Popular(pytorch) ∧ WrittenWithCode(pytorch)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_726",
+        "story_id": 63,
+        "nat_premises": "All students who attend in person have registered for the conference. \nStudents either attend the conference in person or remotely. \nNo students from China attend the conference remotely. \nJames attends the conference, but he does not attend the conference remotely.\nJack attends the conference, and he is a student from China.",
+        "nat_conclusion": "Jack attends the conference in person.",
+        "fol_premises": "∀x (AttendInPerson(x) → Registered(x))\n∀x (Attend(x) → (AttendInPerson(x) ⊕ AttendRemotely(x)))\n∀x ((Attend(x) ∧ FromChina(x)) → ¬AttendRemotely(x))\nAttend(james) ∧ (¬AttendRemotely(james))\nFromChina(jack) ∧ Attend(jack)",
+        "fol_conclusion": "Attend(jack) ∧ AttendInPerson(jack)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_727",
+        "story_id": 63,
+        "nat_premises": "All students who attend in person have registered for the conference. \nStudents either attend the conference in person or remotely. \nNo students from China attend the conference remotely. \nJames attends the conference, but he does not attend the conference remotely.\nJack attends the conference, and he is a student from China.",
+        "nat_conclusion": "Jack has registered for the conference.",
+        "fol_premises": "∀x (AttendInPerson(x) → Registered(x))\n∀x (Attend(x) → (AttendInPerson(x) ⊕ AttendRemotely(x)))\n∀x ((Attend(x) ∧ FromChina(x)) → ¬AttendRemotely(x))\nAttend(james) ∧ (¬AttendRemotely(james))\nFromChina(jack) ∧ Attend(jack)",
+        "fol_conclusion": "Registered(jack)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_733",
+        "story_id": 42,
+        "nat_premises": "James Cocks was a British lawyer.\nJames Cocks was a Whig politician who sat in the House of Commons.\nA British is a European.\nAny lawyer is familiar with laws.\nSome Whigs speak French.",
+        "nat_conclusion": "Some European was familiar with laws.",
+        "fol_premises": "British(james) ∧ Lawyer(james)\nWhig(james) ∧ Politician(james) ∧ SatInHouseOfCommons(james)\n∀x (British(x) → European(x))\n∀x (Lawyer(x) → FamiliarWithLaws(x))\n∃x ∃y (Whig(x) ∧ SpeakFrench(x)) ∧ (¬(x=y)) ∧ (Whig(y) ∧ SpeakFrench(y))",
+        "fol_conclusion": "∃x (European(x) ∧ FamiliarWithLaws(x))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_738",
+        "story_id": 17,
+        "nat_premises": "Odell is an English surname originating in Odell, Bedfordshire.\nIn some families, Odell is spelled O'Dell in a mistaken Irish adaptation.\nNotable people with surnames include Amy Odell, Jack Odell, and Mats Odell.\nAmy Odell is a British singer-songwriter.\nJack Odell is an English toy inventor.",
+        "nat_conclusion": "Jack Odell is a notable person.",
+        "fol_premises": "Surname(nameODell) ∧ From(nameODell, oDellBedfordshire)\nMistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell)))\nNamed(amyODell, nameODell) ∧ NotablePerson(amyODell) ∧ Named(jackODell, nameODell) ∧ NotablePerson(jackODell) ∧ Named(matsODell, nameODell) ∧ NotablePerson(matsODell)\nBritish(amyODell) ∧ Singer(amyODell) ∧ SongWriter(amyODell)\nEnglish(jackODell) ∧ ToyInventor(jackODell)",
+        "fol_conclusion": "NotablePerson(jackODell)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_739",
+        "story_id": 17,
+        "nat_premises": "Odell is an English surname originating in Odell, Bedfordshire.\nIn some families, Odell is spelled O'Dell in a mistaken Irish adaptation.\nNotable people with surnames include Amy Odell, Jack Odell, and Mats Odell.\nAmy Odell is a British singer-songwriter.\nJack Odell is an English toy inventor.",
+        "nat_conclusion": "Odell is Amy Odell's surname.",
+        "fol_premises": "Surname(nameODell) ∧ From(nameODell, oDellBedfordshire)\nMistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell)))\nNamed(amyODell, nameODell) ∧ NotablePerson(amyODell) ∧ Named(jackODell, nameODell) ∧ NotablePerson(jackODell) ∧ Named(matsODell, nameODell) ∧ NotablePerson(matsODell)\nBritish(amyODell) ∧ Singer(amyODell) ∧ SongWriter(amyODell)\nEnglish(jackODell) ∧ ToyInventor(jackODell)",
+        "fol_conclusion": "Named(amyODell, nameODell)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_740",
+        "story_id": 17,
+        "nat_premises": "Odell is an English surname originating in Odell, Bedfordshire.\nIn some families, Odell is spelled O'Dell in a mistaken Irish adaptation.\nNotable people with surnames include Amy Odell, Jack Odell, and Mats Odell.\nAmy Odell is a British singer-songwriter.\nJack Odell is an English toy inventor.",
+        "nat_conclusion": "Amy Odell is an English toy inventor.",
+        "fol_premises": "Surname(nameODell) ∧ From(nameODell, oDellBedfordshire)\nMistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell)))\nNamed(amyODell, nameODell) ∧ NotablePerson(amyODell) ∧ Named(jackODell, nameODell) ∧ NotablePerson(jackODell) ∧ Named(matsODell, nameODell) ∧ NotablePerson(matsODell)\nBritish(amyODell) ∧ Singer(amyODell) ∧ SongWriter(amyODell)\nEnglish(jackODell) ∧ ToyInventor(jackODell)",
+        "fol_conclusion": "English(amyODell) ∧ ToyInventor(amyODell)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_741",
+        "story_id": 17,
+        "nat_premises": "Odell is an English surname originating in Odell, Bedfordshire.\nIn some families, Odell is spelled O'Dell in a mistaken Irish adaptation.\nNotable people with surnames include Amy Odell, Jack Odell, and Mats Odell.\nAmy Odell is a British singer-songwriter.\nJack Odell is an English toy inventor.",
+        "nat_conclusion": "Amy Odell is also Amy O'Dell.",
+        "fol_premises": "Surname(nameODell) ∧ From(nameODell, oDellBedfordshire)\nMistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell)))\nNamed(amyODell, nameODell) ∧ NotablePerson(amyODell) ∧ Named(jackODell, nameODell) ∧ NotablePerson(jackODell) ∧ Named(matsODell, nameODell) ∧ NotablePerson(matsODell)\nBritish(amyODell) ∧ Singer(amyODell) ∧ SongWriter(amyODell)\nEnglish(jackODell) ∧ ToyInventor(jackODell)",
+        "fol_conclusion": "Named(amyODell, nameODell) ∧ Named(amyODell, nameO'Dell)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_train_789",
+        "story_id": 43,
+        "nat_premises": "Imagine Dragons are an American pop-rock band.\nThe lead singer of Imagine Dragons is Dan.\nDan is also a songwriter.\nAll lead singers are singers_\nAll singers are musicians.\nDemons is one of the most popular singles of Imagine Dragons.\nSome singles of Imagine Dragons have been on Billboard Hot 100.",
+        "nat_conclusion": "Some rock band has a lead singer who is also a songwriter.",
+        "fol_premises": "American(imagineDragon) ∧ RockBand(imagineDragon)\nLeadSinger(imagineDragon, dan)\nSongWriter(dan)\n∀x ∀y (LeadSinger(x, y) → Singer(y))\n∀x (Singer(x) → Musician(x))\nPopularSingle(imagineDragon, demons)\n∃x ∃y (PopularSingle(imagineDragon, x) ∧ BillboardHot100(x)) ∧ (¬(x=y)) ∧ (PopularSingle(imagineDragon, y) ∧ BillboardHot100(y))",
+        "fol_conclusion": "∃x ∃y (RockBand(x) ∧ LeadSinger(x, y) ∧ SongWriter(y))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_796",
+        "story_id": 160,
+        "nat_premises": "Common utilities include water, electricity, gas, heating, sewer, trash, and recycling.\nMany apartment rents cover the cost of water and electricity.\nSusan lives in an apartment where the rent covers all utilities.\nThe rent of the apartment where Ava lives does not cover any utility expenses.\nNoah lives in an apartment where the rent does not cover heating.",
+        "nat_conclusion": "Noah and Ava both need to pay the heating bill.",
+        "fol_premises": "CommonUtilities(water) ∧ CommonUtilities(electricity) ∧ CommonUtilities(gas) ∧ CommonUtilities(heating)\n∃x (Apartment(x) ∧ Cover(x, water) ∧ Cover(x, electricity))\n∀x (Apartment(x) ∧ LiveIn(susan, x) ∧ Cover(x, water) ∧ Cover(x, electricity) ∧ Cover(x, gas) ∧ Cover(x, heating))\n∀x (Apartment(x) ∧ LiveIn(ava, x) ∧ ¬Cover(x, water) ∧ ¬Cover(x, electricity) ∧ ¬Cover(x, gas) ∧ ¬Cover(x, heating))\n∀x (Apartment(x) ∧ LiveIn(noah, x) ∧ ¬Cover(x, heating))",
+        "fol_conclusion": "¬Cover(noah, heating) ∧ ¬Cover(ava, heating)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_797",
+        "story_id": 160,
+        "nat_premises": "Common utilities include water, electricity, gas, heating, sewer, trash, and recycling.\nMany apartment rents cover the cost of water and electricity.\nSusan lives in an apartment where the rent covers all utilities.\nThe rent of the apartment where Ava lives does not cover any utility expenses.\nNoah lives in an apartment where the rent does not cover heating.",
+        "nat_conclusion": "Susan does not need to pay the water bill.",
+        "fol_premises": "CommonUtilities(water) ∧ CommonUtilities(electricity) ∧ CommonUtilities(gas) ∧ CommonUtilities(heating)\n∃x (Apartment(x) ∧ Cover(x, water) ∧ Cover(x, electricity))\n∀x (Apartment(x) ∧ LiveIn(susan, x) ∧ Cover(x, water) ∧ Cover(x, electricity) ∧ Cover(x, gas) ∧ Cover(x, heating))\n∀x (Apartment(x) ∧ LiveIn(ava, x) ∧ ¬Cover(x, water) ∧ ¬Cover(x, electricity) ∧ ¬Cover(x, gas) ∧ ¬Cover(x, heating))\n∀x (Apartment(x) ∧ LiveIn(noah, x) ∧ ¬Cover(x, heating))",
+        "fol_conclusion": "∀x (Apartment(x) ∧ LiveIn(susan, x) ∧ Cover(x, water))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_829",
+        "story_id": 109,
+        "nat_premises": "Phuoc Binh national park is a national park in Vietnam. \nAny national park in Vietnam is classified as a nature reserve. \nThere is a national park in Vietnam classified as a UNESCO World Heritage Site.\nAll national parks in Vietnam are either managed by the Ministry of Agriculture or managed by the People's Committee. \nPhuoc Binh is not managed by the Ministry of Agriculture.",
+        "nat_conclusion": "There is a nature reserve in Vietnam.",
+        "fol_premises": "NationalPark(phuocBinh) ∧ Locatedin(phuocBinh, vietnam)\n∀x ((NationalPark(x) ∧ Locatedin(x, vietnam)) → NatureReserve(x))\n∃x (NationalPark(x) ∧ Locatedin(x, vietnam) ∧ UNESCOWorldHeritageSite(x))\n∀x ((NationalPark(x) ∧ Locatedin(x, vietnam)) → (Mangedby(x, ministryofAgriculture) ⊕ Managedby(x, peoplesCommittee)))\n¬Mangedby(phuocBinh, ministryofAgriculture)",
+        "fol_conclusion": "∃x (NatureReserve(x) ∧ LocatedIn(x, vietnam))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_831",
+        "story_id": 109,
+        "nat_premises": "Phuoc Binh national park is a national park in Vietnam. \nAny national park in Vietnam is classified as a nature reserve. \nThere is a national park in Vietnam classified as a UNESCO World Heritage Site.\nAll national parks in Vietnam are either managed by the Ministry of Agriculture or managed by the People's Committee. \nPhuoc Binh is not managed by the Ministry of Agriculture.",
+        "nat_conclusion": "Phuoc Binh is managed by the People's Committee.",
+        "fol_premises": "NationalPark(phuocBinh) ∧ Locatedin(phuocBinh, vietnam)\n∀x ((NationalPark(x) ∧ Locatedin(x, vietnam)) → NatureReserve(x))\n∃x (NationalPark(x) ∧ Locatedin(x, vietnam) ∧ UNESCOWorldHeritageSite(x))\n∀x ((NationalPark(x) ∧ Locatedin(x, vietnam)) → (Mangedby(x, ministryofAgriculture) ⊕ Managedby(x, peoplesCommittee)))\n¬Mangedby(phuocBinh, ministryofAgriculture)",
+        "fol_conclusion": "Mangedby(phuocBinh, peoplesCommittee)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_845",
+        "story_id": 431,
+        "nat_premises": "No Boeing-737 plane has more than 300 seats. \nAll of the planes acquired by Delta in this batch are Boeing-737. \nPlanes either have more than 300 seats or have a capacity of 100 passengers_ \nAll planes with a capacity of 100 passengers are scheduled for a short-distance flight. \nAll planes with a capacity of 100 passengers are produced before 2010. \nJake32 is either a Boeing-737 plane or a plane acquired by Delta in this batch.\nT10 is either both a Boeing-737 plane and acquired by Delta in this batch, or it is neither.",
+        "nat_conclusion": "Jake32 was produced before 2010 and is scheduled for a short-distance flight.",
+        "fol_premises": "∀x (Plane(x) ∧ Boeing737(x) → (¬∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))))\n∀x (Plane(x) ∧ AcquiredBy(x, delta) → Boeing737(x))\n∀x (Plane(x) → ((∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))) ⊕ (∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)))))\n∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ScheduledFor(x, shortdistanceflight))\n∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ∃z(Before(z, yr2010) ∧ Produced(x, z)))\n(Boeing737(jake32) ∧ Plane(jake32)) ⊕ (AcquiredByDeltaInThisBatch(jake32) ∧ Plane(jake32))\n¬((Boeing737(t10) ∧ Plane(t10)) ⊕ (AcquiredByDeltaInThisBatch(t10) ∧ Plane(t10)))",
+        "fol_conclusion": "∃z(Before(z, year2010) ∧ Produced(jake32, z)) ∧ ScheduledFor(jake32, shortdistanceflight)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_847",
+        "story_id": 431,
+        "nat_premises": "No Boeing-737 plane has more than 300 seats. \nAll of the planes acquired by Delta in this batch are Boeing-737. \nPlanes either have more than 300 seats or have a capacity of 100 passengers_ \nAll planes with a capacity of 100 passengers are scheduled for a short-distance flight. \nAll planes with a capacity of 100 passengers are produced before 2010. \nJake32 is either a Boeing-737 plane or a plane acquired by Delta in this batch.\nT10 is either both a Boeing-737 plane and acquired by Delta in this batch, or it is neither.",
+        "nat_conclusion": "Jake32 is produced before 2010 or scheduled for a short-distance flight.",
+        "fol_premises": "∀x (Plane(x) ∧ Boeing737(x) → (¬∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))))\n∀x (Plane(x) ∧ AcquiredBy(x, delta) → Boeing737(x))\n∀x (Plane(x) → ((∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y))) ⊕ (∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)))))\n∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ScheduledFor(x, shortdistanceflight))\n∀x (Plane(x) ∧ ∃y(Equals(y, num100) ∧ EquippedWithSeats(x,y)) → ∃z(Before(z, yr2010) ∧ Produced(x, z)))\n(Boeing737(jake32) ∧ Plane(jake32)) ⊕ (AcquiredByDeltaInThisBatch(jake32) ∧ Plane(jake32))\n¬((Boeing737(t10) ∧ Plane(t10)) ⊕ (AcquiredByDeltaInThisBatch(t10) ∧ Plane(t10)))",
+        "fol_conclusion": "∃z(Before(z, year2010) ∧ Produced(jake32, z)) ∨ ScheduledFor(jake32, shortdistanceflight)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_849",
+        "story_id": 195,
+        "nat_premises": "The SAT test is wholly owned and developed by the College Board.\nThe SAT test is intended to assess students' readiness for college.\nThe SAT was originally designed not to be aligned with high school curricula. \nSeveral adjustments were made to the version of the SAT introduced in 2016 to align with the high school curriculum.",
+        "nat_conclusion": "The SAT test is owned by the College Board and other third parties.",
+        "fol_premises": "OwnedBy(sAT, collegeBoard) ∧ DevelopedBy(sAT, collegeBoard) ∧ ¬(∃y (¬(y=collegeBoard) ∧ (OwnedBy(sAT, y) ∨ DevelopedBy(sAT, y))))\nIntendedToAssess(sAT, studentsReadinessForCollege)\nOriginallyDesignedToBeAlignedWith(sAT, highSchoolCurricula)\nAdjustmentMadeIn(sAT, 2016, toAlignWithHighSchoolCurriculum)",
+        "fol_conclusion": "OwnedBy(sAT, collegeBoard) ∧ OwnedBy(sAT, otherThirdParties)",
+        "label": "False"
+    },
+    {
+        "id": "folio_train_871",
+        "story_id": 333,
+        "nat_premises": "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.\nIf people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.\nIf people are big fans of pop bands and singers, then they have a lot of music decorations in their room.\nAll young teenage girls who attend music festival frequently are big fans of pop bands and singers_\nIf Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+        "nat_conclusion": "If Sam is a young teenage girl attending college, then Sam either does not have high ambitions and future career goals or is a big fan of pop bands and singers_",
+        "fol_premises": "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))\n∀x (Ambitious(x) → MoveOutEasily(x))\n∀x (BigFanOfMusic(x) → MusicDecorations(x, room))\n∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))\nAmbitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+        "fol_conclusion": "Attend(sam, festival) ∧ YoungTeenageGirl(sam) → ¬(Ambitious(sam) ∨ (BigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_872",
+        "story_id": 333,
+        "nat_premises": "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.\nIf people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.\nIf people are big fans of pop bands and singers, then they have a lot of music decorations in their room.\nAll young teenage girls who attend music festival frequently are big fans of pop bands and singers_\nIf Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+        "nat_conclusion": "If Sam has high ambitions and future career goals and is a young teenage girl attending college, then Sam either does not have high ambitions and future career goals or is not a young teenage girl attending college.",
+        "fol_premises": "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))\n∀x (Ambitious(x) → MoveOutEasily(x))\n∀x (BigFanOfMusic(x) → MusicDecorations(x, room))\n∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))\nAmbitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+        "fol_conclusion": "Ambitious(sam) ∧ Attend(sam, festival) ∧ YoungTeenageGirl(sam) → ¬(Ambitious(sam) ∨ (Attend(sam, festival) ∧ YoungTeenageGirl(sam)))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_873",
+        "story_id": 333,
+        "nat_premises": "If people have a lot of music decorations in their rooms, they cannot pack and move out of their rooms very easily.\nIf people have high ambitions and future career goals, then they can pack and move out of their rooms very easily.\nIf people are big fans of pop bands and singers, then they have a lot of music decorations in their room.\nAll young teenage girls who attend music festival frequently are big fans of pop bands and singers_\nIf Sam has high ambitions and future career goals, then Sam is a big fan of pop bands and singers_",
+        "nat_conclusion": "If Sam has high ambitions and future career goals, then Sam is a young teenage girl attending college.",
+        "fol_premises": "∀x (HaveIn(x, aLotOfMusicDecoration, room) → ¬MoveOutEasily(x))\n∀x (Ambitious(x) → MoveOutEasily(x))\n∀x (BigFanOfMusic(x) → MusicDecorations(x, room))\n∀x (AttendFrequently(x, musicFestival) ∧ YoungTeenageGirl(x) → BigFanOfPopBand(x) ∧ BigFanOfPopSinger(x))\nAmbitious(sam) → BBigFanOfPopBand(sam) ∧ BigFanOfPopSinger(sam)",
+        "fol_conclusion": "Ambitious(sam) → Attend(sam, festival) ∧ YoungTeenageGirl(sam)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_877",
+        "story_id": 49,
+        "nat_premises": "Quincy McDuffie is an American professional wide receiver in Canadian Football.\nPeople who can catch balls are good wide receivers_ \nQuincy McDuffie can catch some footballs easily.\nGood wide receivers play professionally.\nGood wide receivers can catch with both their left and right hand.\nAll footballs are balls.",
+        "nat_conclusion": "Quincy McDuffie is a good wide receiver.",
+        "fol_premises": "American(quincyMcduffie) ∧ Professional(quincyMcduffie) ∧ WideReciever(quincyMcduffie) ∧ PlaysIn(quincyMcduffie, cFL)\n∀x ((∃y(CanCatch(x, y) ∧ Ball(y))) → GoodWideReceiver(x))\n∃x ∃y (Football(x) ∧ CanCatch(quincymcduffie, x)) ∧ (¬(x=y) ∧ (Football(y) ∧ CanCatch(quincymcduffie, y)))\n∀x (GoodWideReceiver(x) → Professional(x))\n∀x (GoodWideReceiver(x) → (CanCatchWith(x, lefthand) ∧ CanCatchWith(x, righthand)))\n∀x (Football(x) → Ball(x))",
+        "fol_conclusion": "GoodWideReceiver(quincyMcduffie)",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_929",
+        "story_id": 437,
+        "nat_premises": "Researchers present their work at the conference or provide a tutorial session there.\nEveryone who presents their work at the conference will attend in person. \nEveryone providing a tutorial session at the conference will be invited to join the club. \nEveryone who attends the conference in person is provided with souvenirs_ \nEveryone invited to join the club is provided with delicious meals. \nEveryone provided with delicious meals is happy to communicate with each other during the dinner. \nEveryone who is provided with delicious meals is invited to take a photo with the audience. \nIt is not true that James both attended the conference in person and was provided with souvenirs_",
+        "nat_conclusion": "James is invited to take a photo with the audience and is happy to communicate with other guests at the dinner.",
+        "fol_premises": "∀x (PresentWorkAt(x, conference) ⊕ ProvideAt(x, tutorialSession, conference))\n∀x (PresentWorkAt(x, conference) → AttendInPerson(x, conference))\n∀x (ProvideSessionAt(x, tutorial, conference) → InvitedToJoin(x, club))\n∀x (AttendInPerson(x, conference) → ProvidedWith(x, souvenir))\n∀x (InvitedToJoin(x, club) → ProvidedWith(x, deliciousMeal))\n∀x (ProvidedWith(x, deliciousMeal) ∧ ProvidedWith(y, deliciousMeal)  → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(x, y) ∧ HappyToCommunicateWithDuringTheDinner(x, z)))\n∀x (ProvidedWith(x, deliciousMeal) → InvitedToTakePhotoWith(x, audience))\n¬(AttendInPerson(james, conference) ∧ ProvidedWith(x, souvenir))",
+        "fol_conclusion": "InvitedToTakePhotoWith(james, audience) → ∃y ∃z (¬(y=james) ∧ ¬(z=james) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(james, y) ∧ HappyToCommunicateWithDuringDinner(james, z))",
+        "label": "True"
+    },
+    {
+        "id": "folio_train_930",
+        "story_id": 437,
+        "nat_premises": "Researchers present their work at the conference or provide a tutorial session there.\nEveryone who presents their work at the conference will attend in person. \nEveryone providing a tutorial session at the conference will be invited to join the club. \nEveryone who attends the conference in person is provided with souvenirs_ \nEveryone invited to join the club is provided with delicious meals. \nEveryone provided with delicious meals is happy to communicate with each other during the dinner. \nEveryone who is provided with delicious meals is invited to take a photo with the audience. \nIt is not true that James both attended the conference in person and was provided with souvenirs_",
+        "nat_conclusion": "James is invited to take a photo with the audience or is happy to communicate with other guests(?) during the dinner.",
+        "fol_premises": "∀x (PresentWorkAt(x, conference) ⊕ ProvideAt(x, tutorialSession, conference))\n∀x (PresentWorkAt(x, conference) → AttendInPerson(x, conference))\n∀x (ProvideSessionAt(x, tutorial, conference) → InvitedToJoin(x, club))\n∀x (AttendInPerson(x, conference) → ProvidedWith(x, souvenir))\n∀x (InvitedToJoin(x, club) → ProvidedWith(x, deliciousMeal))\n∀x (ProvidedWith(x, deliciousMeal) ∧ ProvidedWith(y, deliciousMeal)  → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(x, y) ∧ HappyToCommunicateWithDuringTheDinner(x, z)))\n∀x (ProvidedWith(x, deliciousMeal) → InvitedToTakePhotoWith(x, audience))\n¬(AttendInPerson(james, conference) ∧ ProvidedWith(x, souvenir))",
+        "fol_conclusion": "InvitedToTakePhotoWith(james, audience) → ∃y ∃z (¬(y=james) ∧ ¬(z=james) ∧ ¬(y=z) ∧ HappyToCommunicateWithDuringTheDinner(james, y) ∧ HappyToCommunicateWithDuringDinner(james, z))",
+        "label": "True"
+    }
+]
