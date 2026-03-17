@@ -72,15 +72,18 @@ def check_conclusion(premises, conclusion):
         raise f"Error: {e}"
 
     # Check conclusion
-    is_true = prover.prove(parsed_conclusion, parsed_premises)
-    if is_true:
-        return "True"
+    if not prover.prove(None, parsed_premises):
+        is_true = prover.prove(parsed_conclusion, parsed_premises)
+        if is_true:
+            return "True"
 
-    is_false = prover.prove(parsed_conclusion.negate(), parsed_premises)
-    if is_false:
+        is_false = prover.prove(parsed_conclusion.negate(), parsed_premises)
+        if is_false:
+            return "False"
+
+        return "Uncertain"
+    else: 
         return "False"
-
-    return "Uncertain"
 
 # TEST ON 1 SAMPLE ------------------------
 # premises = [
@@ -121,8 +124,9 @@ for data in test_data:
         wrong_data.append(data)
         print(f"{story_id}: {e}")
 
-with open("wrong_folio_train.json", "w", encoding="utf-8") as f:
-    json.dump(wrong_data, f, ensure_ascii=False, indent=4)
+# with open("wrong_folio_train.json", "w", encoding="utf-8") as f:
+#     json.dump(wrong_data, f, ensure_ascii=False, indent=4)
+print([d["id"] for d in wrong_data])
 
 print("Total: ", total)
 print("Correct: ", count_correct)
