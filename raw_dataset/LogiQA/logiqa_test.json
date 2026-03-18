@@ -6,7 +6,7 @@
         "fol_premise": null,
         "nat_conclusion": "Civic Park is north of the administrative service area.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_1",
@@ -15,7 +15,7 @@
         "fol_premise": null,
         "nat_conclusion": "The three young people on business are 0-year-old accountant, 20-year-old salesperson, 24-year-old salesperson.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_2",
@@ -24,7 +24,7 @@
         "fol_premise": null,
         "nat_conclusion": "Shouwu.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_3",
@@ -33,7 +33,7 @@
         "fol_premise": null,
         "nat_conclusion": "Xiaozhuang must take English tutoring classes.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_4",
@@ -42,7 +42,7 @@
         "fol_premise": null,
         "nat_conclusion": "Ding is not in the fourth.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_6",
@@ -51,7 +51,7 @@
         "fol_premise": null,
         "nat_conclusion": "this newly built house in Hexi Village is not protected by law.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_7",
@@ -60,7 +60,7 @@
         "fol_premise": null,
         "nat_conclusion": "The champion is hanbei.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_9",
@@ -69,7 +69,7 @@
         "fol_premise": null,
         "nat_conclusion": "The discovery is expected to bring new treatments for disorders such as attention deficit hyperactivity disorder and schizophrenia caused by lack of attention.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_11",
@@ -78,7 +78,7 @@
         "fol_premise": null,
         "nat_conclusion": "People or animals who often eat microwave foods will have serious physiological changes in their bodies, which will cause serious health problems.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_12",
@@ -87,7 +87,7 @@
         "fol_premise": null,
         "nat_conclusion": "Many of the cadres counted in the past 20 years are enterprise cadres, which used to include only government officials.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_13",
@@ -96,7 +96,7 @@
         "fol_premise": null,
         "nat_conclusion": "After taking lotus leaf products, a layer of fat isolation film is formed on the human intestinal wall, which can effectively prevent the absorption of fat.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_14",
@@ -105,7 +105,7 @@
         "fol_premise": null,
         "nat_conclusion": "Zhangkoudong had human activities as early as 110,000 years ago.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_15",
@@ -114,7 +114,7 @@
         "fol_premise": null,
         "nat_conclusion": "Ding is a female doctor.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_16",
@@ -123,7 +123,7 @@
         "fol_premise": null,
         "nat_conclusion": "Haoyun Station, Yinling Station, Jiushang Station, Fuyi Station, Hu Yao Station is a possible order from west to east.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_17",
@@ -132,7 +132,7 @@
         "fol_premise": null,
         "nat_conclusion": "Hu Yao is standing on the east side.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_18",
@@ -141,7 +141,7 @@
         "fol_premise": null,
         "nat_conclusion": "Haoyun Station is adjacent to Fuyi Station and west of Fuyi Station;",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_19",
@@ -150,7 +150,7 @@
         "fol_premise": null,
         "nat_conclusion": "Jiu Shang standing west of Fuyi Station.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_20",
@@ -159,7 +159,7 @@
         "fol_premise": null,
         "nat_conclusion": "The growth rate of Leeds is likely to exceed that of the whale shark.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_22",
@@ -168,7 +168,7 @@
         "fol_premise": null,
         "nat_conclusion": "Micro-shocks in the brain can improve the brain's computing power.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_23",
@@ -177,7 +177,7 @@
         "fol_premise": null,
         "nat_conclusion": "The overall average price of residential housing in A City is the lowest.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_26",
@@ -186,7 +186,7 @@
         "fol_premise": null,
         "nat_conclusion": "Ren Xiangyang must be selected.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_27",
@@ -195,7 +195,7 @@
         "fol_premise": null,
         "nat_conclusion": "Qiu Zhijie must also be selected.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_28",
@@ -204,7 +204,7 @@
         "fol_premise": null,
         "nat_conclusion": "Tang Xiaohua is not selected.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_29",
@@ -213,7 +213,7 @@
         "fol_premise": null,
         "nat_conclusion": "Fang Rufen and He Zhilian must be selected.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_30",
@@ -222,7 +222,7 @@
         "fol_premise": null,
         "nat_conclusion": "The \"Aklyusian monkey\" is active during the day.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_31",
@@ -231,7 +231,7 @@
         "fol_premise": null,
         "nat_conclusion": "Gene screening is mainly to avoid reproductive defects, this technology brings opportunities for human eugenics and eugenics; as for \"customized babies\", the concept of cloning is more involved, the two should not be confused.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_35",
@@ -240,7 +240,7 @@
         "fol_premise": null,
         "nat_conclusion": "Finance Department, Planning Department, Administration Department, Human Resources Department, R & D Department, Sales Department.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_36",
@@ -249,7 +249,7 @@
         "fol_premise": null,
         "nat_conclusion": "The sales department is one level above the administrative department.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_37",
@@ -258,7 +258,7 @@
         "fol_premise": null,
         "nat_conclusion": "The R & D department may be on floor 6.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_38",
@@ -267,7 +267,7 @@
         "fol_premise": null,
         "nat_conclusion": "The R & D department is on the upper level of the sales department.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_40",
@@ -276,7 +276,7 @@
         "fol_premise": null,
         "nat_conclusion": "Li Wenbing's family is not a landscape room.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_41",
@@ -285,7 +285,7 @@
         "fol_premise": null,
         "nat_conclusion": "Chili relieves indigestion.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_42",
@@ -294,7 +294,7 @@
         "fol_premise": null,
         "nat_conclusion": "Hundreds of people had lived in the cave.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_44",
@@ -303,7 +303,7 @@
         "fol_premise": null,
         "nat_conclusion": "All non-graduate PhD students live in the \"Peony Garden\" community.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_45",
@@ -312,7 +312,7 @@
         "fol_premise": null,
         "nat_conclusion": "Many people now find a second career after retirement.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_46",
@@ -321,7 +321,7 @@
         "fol_premise": null,
         "nat_conclusion": "This shows that the social atmosphere is rapidly deteriorating.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_47",
@@ -330,7 +330,7 @@
         "fol_premise": null,
         "nat_conclusion": "China's \"Tianhe 2\" computing speed is clearly ahead of other supercomputers.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_48",
@@ -339,7 +339,7 @@
         "fol_premise": null,
         "nat_conclusion": "Even if the extinct animals can be resurrected in batches, the habitat suitable for their growth may have long since disappeared, and if you cannot give heavy organisms a suitable environment for survival, all efforts will be in vain.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_49",
@@ -348,7 +348,7 @@
         "fol_premise": null,
         "nat_conclusion": "This is usually not due to the lack of vitamins in the diet of pregnant women, but because of the growth of babies in the abdomen, they have a higher demand for vitamins than others.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_51",
@@ -357,7 +357,7 @@
         "fol_premise": null,
         "nat_conclusion": "Severe investigations of drunk driving have occurred in urban traffic accidents.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_52",
@@ -366,7 +366,7 @@
         "fol_premise": null,
         "nat_conclusion": "As long as the Ukrainian authorities recognize the special status of the two \"Republic\" territories and the Russian language, and pardon all militia armed participants and political prisoners, the conflict can be resolved.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_54",
@@ -375,7 +375,7 @@
         "fol_premise": null,
         "nat_conclusion": "Wang Gang must be a university teacher.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_55",
@@ -384,7 +384,7 @@
         "fol_premise": null,
         "nat_conclusion": "The plane was hijacked by a terrorist organization.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_56",
@@ -393,7 +393,7 @@
         "fol_premise": null,
         "nat_conclusion": "those with positive emotions who are more satisfied with life as they grow up have higher incomes when they reach the age of 29.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_57",
@@ -402,7 +402,7 @@
         "fol_premise": null,
         "nat_conclusion": "All the students in our class have not passed.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_58",
@@ -411,7 +411,7 @@
         "fol_premise": null,
         "nat_conclusion": "The average income of households in City W has increased in the past two years.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_59",
@@ -420,7 +420,7 @@
         "fol_premise": null,
         "nat_conclusion": "Private car owners in the city generally have two or more private cars.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_60",
@@ -429,7 +429,7 @@
         "fol_premise": null,
         "nat_conclusion": "Undergraduates who do not have the qualifications recommended by their school cannot be exempted from going to Peking University to study for a master's degree.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_61",
@@ -438,7 +438,7 @@
         "fol_premise": null,
         "nat_conclusion": "Lao Zhang suggested that those who regularly drink pure water change their habits and drink more mineral water.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_62",
@@ -447,7 +447,7 @@
         "fol_premise": null,
         "nat_conclusion": "The popularity of life books is higher than that of science and technology books.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_63",
@@ -456,7 +456,7 @@
         "fol_premise": null,
         "nat_conclusion": "It can be seen that the medical conditions enjoyed by each of us have greatly improved.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_64",
@@ -465,7 +465,7 @@
         "fol_premise": null,
         "nat_conclusion": "Only Wang was hired by Tianxuan.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_65",
@@ -474,7 +474,7 @@
         "fol_premise": null,
         "nat_conclusion": "Tianshu hired at most two people.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_66",
@@ -483,7 +483,7 @@
         "fol_premise": null,
         "nat_conclusion": "Zhang was hired by Tianxuan.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_68",
@@ -492,7 +492,7 @@
         "fol_premise": null,
         "nat_conclusion": "Any activity organized by a community will involve the elderly in the community.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_69",
@@ -501,7 +501,7 @@
         "fol_premise": null,
         "nat_conclusion": "There is always a certain percentage of paper quality in every conference paper submitted.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_70",
@@ -510,7 +510,7 @@
         "fol_premise": null,
         "nat_conclusion": "Most people agree with me.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_72",
@@ -519,7 +519,7 @@
         "fol_premise": null,
         "nat_conclusion": "People in that society must have universally eliminated greed.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_73",
@@ -528,7 +528,7 @@
         "fol_premise": null,
         "nat_conclusion": "Ding is the first.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_74",
@@ -537,7 +537,7 @@
         "fol_premise": null,
         "nat_conclusion": "Foods with a high content of refined sugar will cause acquired diabetes.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_75",
@@ -546,7 +546,7 @@
         "fol_premise": null,
         "nat_conclusion": "Royce is not favored by top giants such as Real Madrid and Barcelona in the transfer market.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_76",
@@ -555,7 +555,7 @@
         "fol_premise": null,
         "nat_conclusion": "Datian either does not have real talent, or lacks basic social skills, or fails to accurately locate in the career selection process.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_77",
@@ -564,7 +564,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some overseas doctors have a high level.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_78",
@@ -573,7 +573,7 @@
         "fol_premise": null,
         "nat_conclusion": "Li Ming must have graduated from Nankou Town No.1 Middle School.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_79",
@@ -582,7 +582,7 @@
         "fol_premise": null,
         "nat_conclusion": "Schools that train journalists do not need to pay attention to the improvement of students 'Chinese ability, but should pay attention to the training of journalists' other qualities.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_80",
@@ -591,7 +591,7 @@
         "fol_premise": null,
         "nat_conclusion": "Not taking into account the proportion of left-handers among all people.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_81",
@@ -600,7 +600,7 @@
         "fol_premise": null,
         "nat_conclusion": "Petroleum is the energy source of some high-temperature furnaces for making cement.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_82",
@@ -609,7 +609,7 @@
         "fol_premise": null,
         "nat_conclusion": "A city's GDP growth rate is high, but the economic outlook is not necessarily good.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_83",
@@ -618,7 +618,7 @@
         "fol_premise": null,
         "nat_conclusion": "People can eat beef jerky without worrying about health effects.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_84",
@@ -627,7 +627,7 @@
         "fol_premise": null,
         "nat_conclusion": "The funding of the Peace Foundation enabled S Research to have all the ability to switch other funds to weapons research.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_85",
@@ -636,7 +636,7 @@
         "fol_premise": null,
         "nat_conclusion": "These advertisers not only consider economic benefits, but also take into account their ethical responsibilities.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_86",
@@ -645,7 +645,7 @@
         "fol_premise": null,
         "nat_conclusion": "These advertisers not only consider economic benefits, but also take into account their ethical responsibilities.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_87",
@@ -654,7 +654,7 @@
         "fol_premise": null,
         "nat_conclusion": "The efforts of the government to protect the equatorial rainforest had achieved remarkable results.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_88",
@@ -663,7 +663,7 @@
         "fol_premise": null,
         "nat_conclusion": "Therefore, the above argument of this psychological theory is untenable.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_89",
@@ -672,7 +672,7 @@
         "fol_premise": null,
         "nat_conclusion": "Xiao Wang pointed out that Xiao Chen's argument is clearly lacking in persuasion.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_90",
@@ -681,7 +681,7 @@
         "fol_premise": null,
         "nat_conclusion": "Mr. Chen invited 4 guests.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_92",
@@ -690,7 +690,7 @@
         "fol_premise": null,
         "nat_conclusion": "Zhang Shan's bonus was also higher than Miao Xiaoqin.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_93",
@@ -699,7 +699,7 @@
         "fol_premise": null,
         "nat_conclusion": "No.1 is not Type B and No.2 is not Type A.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_94",
@@ -708,7 +708,7 @@
         "fol_premise": null,
         "nat_conclusion": "Installing an airbag in a car does not make the car owner safer.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_95",
@@ -717,7 +717,7 @@
         "fol_premise": null,
         "nat_conclusion": "not all good goods are good goods.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_96",
@@ -726,7 +726,7 @@
         "fol_premise": null,
         "nat_conclusion": "There are more students with poor grades in the second grade than those with poor grades in the first grade.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_97",
@@ -735,7 +735,7 @@
         "fol_premise": null,
         "nat_conclusion": "This test drug is ineffective.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_98",
@@ -744,7 +744,7 @@
         "fol_premise": null,
         "nat_conclusion": "If you have a deep water certificate, you can enter the deep pool.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_99",
@@ -753,7 +753,7 @@
         "fol_premise": null,
         "nat_conclusion": "The seal caused the reduction of crocodiles.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_100",
@@ -762,7 +762,7 @@
         "fol_premise": null,
         "nat_conclusion": "Everyone will make mistakes, but some people may not make serious mistakes.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_101",
@@ -771,7 +771,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some assistants to the general manager are in charge of the two departments.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_102",
@@ -780,7 +780,7 @@
         "fol_premise": null,
         "nat_conclusion": "I and P are in charge of the same department.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_103",
@@ -789,7 +789,7 @@
         "fol_premise": null,
         "nat_conclusion": "I'm confused for a lifetime.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_104",
@@ -798,7 +798,7 @@
         "fol_premise": null,
         "nat_conclusion": "Computer programs cannot simulate human initiative and creativity.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_105",
@@ -807,7 +807,7 @@
         "fol_premise": null,
         "nat_conclusion": "The plant grown from tarragon seeds is not French tarragon.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_106",
@@ -816,7 +816,7 @@
         "fol_premise": null,
         "nat_conclusion": "Taiwanese are not Chinese.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_107",
@@ -825,7 +825,7 @@
         "fol_premise": null,
         "nat_conclusion": "Lycopene has the effect of reducing prostate tumors.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_108",
@@ -834,7 +834,7 @@
         "fol_premise": null,
         "nat_conclusion": "No.3 valve and No.5 valve are opened at the same time.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_109",
@@ -843,7 +843,7 @@
         "fol_premise": null,
         "nat_conclusion": "\"one country, two systems\" caused Hong Kong's economic recession.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_110",
@@ -852,7 +852,7 @@
         "fol_premise": null,
         "nat_conclusion": "The management of government officials should mainly depend on raising their awareness of self-discipline.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_111",
@@ -861,7 +861,7 @@
         "fol_premise": null,
         "nat_conclusion": "The shooting performance of the Sports Committee is not excellent.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_112",
@@ -870,7 +870,7 @@
         "fol_premise": null,
         "nat_conclusion": "Many investigators believe that the causes of the \"September 11\" terrorist attacks were not single but compound.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_113",
@@ -879,7 +879,7 @@
         "fol_premise": null,
         "nat_conclusion": "The company's contract actually has no binding force on its behavior.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_114",
@@ -888,7 +888,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some workers are northerners.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_115",
@@ -897,7 +897,7 @@
         "fol_premise": null,
         "nat_conclusion": "The set of questions posed in the experiment is definitely insufficient.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_116",
@@ -906,7 +906,7 @@
         "fol_premise": null,
         "nat_conclusion": "Wu Gang can meet all the requirements of Li Na.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_117",
@@ -915,7 +915,7 @@
         "fol_premise": null,
         "nat_conclusion": "In an infinite world, parts must not be equal to wholes.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_120",
@@ -924,7 +924,7 @@
         "fol_premise": null,
         "nat_conclusion": "If a friend is indeed worth a lot of money, then money is not like dung.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_122",
@@ -933,7 +933,7 @@
         "fol_premise": null,
         "nat_conclusion": "The winner is Tsinghua University team.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_123",
@@ -942,7 +942,7 @@
         "fol_premise": null,
         "nat_conclusion": "Whether there is a long-term and clear life goal has a very important impact on the size of life achievements.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_125",
@@ -951,7 +951,7 @@
         "fol_premise": null,
         "nat_conclusion": "Image thinking methods help to achieve major scientific breakthroughs.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_126",
@@ -960,7 +960,7 @@
         "fol_premise": null,
         "nat_conclusion": "The ratio of the loss in the supermarket caused by customers stealing commodities, compared with the cost of operating monitoring equipment and increasing shopping guides, is most important for evaluating the decision of the supermarket management.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_127",
@@ -969,7 +969,7 @@
         "fol_premise": null,
         "nat_conclusion": "The iron content of the core part of the moon is smaller than that of the core part of the earth.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_128",
@@ -978,7 +978,7 @@
         "fol_premise": null,
         "nat_conclusion": "Two entrepreneurs are Chinese, and another American is a lawyer.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_129",
@@ -987,7 +987,7 @@
         "fol_premise": null,
         "nat_conclusion": "If player 4's injury has healed, then his competitive state is not good.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_130",
@@ -996,7 +996,7 @@
         "fol_premise": null,
         "nat_conclusion": "Herring, cod or courgette are group activities, but plaice is not.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_131",
@@ -1005,7 +1005,7 @@
         "fol_premise": null,
         "nat_conclusion": "For a healthy country, free speech is essential.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_132",
@@ -1014,7 +1014,7 @@
         "fol_premise": null,
         "nat_conclusion": "The bottom line ethics are some of the most basic and basic codes of conduct and rules that should be observed by ordinary people in a society.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_133",
@@ -1023,7 +1023,7 @@
         "fol_premise": null,
         "nat_conclusion": "B is American and C is German.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_134",
@@ -1032,7 +1032,7 @@
         "fol_premise": null,
         "nat_conclusion": "Toxic chemicals gather in the parts of the fish that seals eat but people don't.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_135",
@@ -1041,7 +1041,7 @@
         "fol_premise": null,
         "nat_conclusion": "If a professor has enough ability, he can even train stupid students; therefore, if he cannot train stupid students, it means that his ability is not enough.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_136",
@@ -1050,7 +1050,7 @@
         "fol_premise": null,
         "nat_conclusion": "Choosing laying hens of the same breed grade, half of them are fed on the grassland and half are fed on the non-steppe, and then comparing their nutritional content, is the most reliable experimental method to verify the conclusion.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_137",
@@ -1059,7 +1059,7 @@
         "fol_premise": null,
         "nat_conclusion": "When you buy a Penguin refrigerator instead of a Polar Bear refrigerator, you can get the same cooling effect with less money.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_138",
@@ -1068,7 +1068,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some people firmly believe that there are other advanced civilizations other than human civilization in the universe.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_139",
@@ -1077,7 +1077,7 @@
         "fol_premise": null,
         "nat_conclusion": "At least one of the above assertions is false.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_140",
@@ -1086,7 +1086,7 @@
         "fol_premise": null,
         "nat_conclusion": "It's been a long time for Bancheng casserole wine.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_142",
@@ -1095,7 +1095,7 @@
         "fol_premise": null,
         "nat_conclusion": "Cuihua is Korean.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_143",
@@ -1104,7 +1104,7 @@
         "fol_premise": null,
         "nat_conclusion": "We must increase the scale of economic development and accelerate the speed of economic development.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_144",
@@ -1113,7 +1113,7 @@
         "fol_premise": null,
         "nat_conclusion": "T is the on state and Y is the off state.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_145",
@@ -1122,7 +1122,7 @@
         "fol_premise": null,
         "nat_conclusion": "C is treated by Dr. Liu.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_146",
@@ -1131,7 +1131,7 @@
         "fol_premise": null,
         "nat_conclusion": "Dr. Li cannot treat patient K.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_147",
@@ -1140,7 +1140,7 @@
         "fol_premise": null,
         "nat_conclusion": "G is treated by Dr. Wang.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_148",
@@ -1149,7 +1149,7 @@
         "fol_premise": null,
         "nat_conclusion": "H and I are treated by Dr. Liu.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_150",
@@ -1158,7 +1158,7 @@
         "fol_premise": null,
         "nat_conclusion": "Anna went to Zhangjiajie.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_151",
@@ -1167,7 +1167,7 @@
         "fol_premise": null,
         "nat_conclusion": "Jesse and Anna cannot go to Hangzhou at the same time.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_152",
@@ -1176,7 +1176,7 @@
         "fol_premise": null,
         "nat_conclusion": "The information in the question stem is not enough to compare the difference between Xiao Qiang and Xiao Gang in other aspects.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_153",
@@ -1185,7 +1185,7 @@
         "fol_premise": null,
         "nat_conclusion": "Only when failure becomes a fact that cannot be changed, the real strong will accept failure.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_155",
@@ -1194,7 +1194,7 @@
         "fol_premise": null,
         "nat_conclusion": "No one is smart but not smart.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_156",
@@ -1203,7 +1203,7 @@
         "fol_premise": null,
         "nat_conclusion": "If the Iraq War is not waged, there will be no more than 1,000 Americans killed in Iraq.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_157",
@@ -1212,7 +1212,7 @@
         "fol_premise": null,
         "nat_conclusion": "Delete statement E and statement F at the same time.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_158",
@@ -1221,7 +1221,7 @@
         "fol_premise": null,
         "nat_conclusion": "This compound can be used to treat behavioral disorders in animals.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_159",
@@ -1230,7 +1230,7 @@
         "fol_premise": null,
         "nat_conclusion": "Things that are invisible are more valuable than things that are visible.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_160",
@@ -1239,7 +1239,7 @@
         "fol_premise": null,
         "nat_conclusion": "The fact that Liu Xiang won the championship and his words do not rebut the assertion that most track and field champions are black athletes.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_161",
@@ -1248,7 +1248,7 @@
         "fol_premise": null,
         "nat_conclusion": "Bees usually do not die immediately after a reproduction.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_162",
@@ -1257,7 +1257,7 @@
         "fol_premise": null,
         "nat_conclusion": "The celebrity can't actually stop the gossip news from damaging her personal reputation.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_163",
@@ -1266,7 +1266,7 @@
         "fol_premise": null,
         "nat_conclusion": "Neither Mr Zhang nor Ms Wang bought Mongolian knives.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_164",
@@ -1275,7 +1275,7 @@
         "fol_premise": null,
         "nat_conclusion": "If Green Island cannot achieve its goal of increasing productivity by 20%, it will go bankrupt.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_165",
@@ -1284,7 +1284,7 @@
         "fol_premise": null,
         "nat_conclusion": "When a piece of seawater affected by the red tide was artificially dyed brown‑red, the sea otters did not eat the clams in those places.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_166",
@@ -1293,7 +1293,7 @@
         "fol_premise": null,
         "nat_conclusion": "Professor Mas participated in the conference.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_167",
@@ -1302,7 +1302,7 @@
         "fol_premise": null,
         "nat_conclusion": "Participation in competitive sports must promote the ability to make people entrepreneurs.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_168",
@@ -1311,7 +1311,7 @@
         "fol_premise": null,
         "nat_conclusion": "Accurate prediction of coin tossing results requires accurate estimation of the initial height and impulse of coin tossing.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_169",
@@ -1320,7 +1320,7 @@
         "fol_premise": null,
         "nat_conclusion": "No pterosaurs belong to the great ape family.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_170",
@@ -1329,7 +1329,7 @@
         "fol_premise": null,
         "nat_conclusion": "Everyone collects firewood and the flame is high.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_172",
@@ -1338,7 +1338,7 @@
         "fol_premise": null,
         "nat_conclusion": "Lee is on Tuesday.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_173",
@@ -1347,7 +1347,7 @@
         "fol_premise": null,
         "nat_conclusion": "As long as they stay in academia, novelists cannot become great.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_174",
@@ -1356,7 +1356,7 @@
         "fol_premise": null,
         "nat_conclusion": "Strengthening rodent control to reduce the number of rats will do more harm than good.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_175",
@@ -1365,7 +1365,7 @@
         "fol_premise": null,
         "nat_conclusion": "Zhang Shan's view was weakened, Li Si's view was not affected.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_176",
@@ -1374,7 +1374,7 @@
         "fol_premise": null,
         "nat_conclusion": "Only people with blood type O will have children with blood type O.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_177",
@@ -1383,7 +1383,7 @@
         "fol_premise": null,
         "nat_conclusion": "This psychological theory must be wrong.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_178",
@@ -1392,7 +1392,7 @@
         "fol_premise": null,
         "nat_conclusion": "Actions that do not harm the interests of others should not be criticized and interfered by society.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_180",
@@ -1401,7 +1401,7 @@
         "fol_premise": null,
         "nat_conclusion": "People with strong immunity rarely contract diseases that people usually treat with antibiotics.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_181",
@@ -1410,7 +1410,7 @@
         "fol_premise": null,
         "nat_conclusion": "There are voters in favor of all candidates.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_182",
@@ -1419,7 +1419,7 @@
         "fol_premise": null,
         "nat_conclusion": "If you are caught on the spot when doing stupid things, consider yourself unlucky is different from the above sentence.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_183",
@@ -1428,7 +1428,7 @@
         "fol_premise": null,
         "nat_conclusion": "Bacteria deep in the wound thrive in a humid environment, and sucrose has a dehydrating effect.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_185",
@@ -1437,7 +1437,7 @@
         "fol_premise": null,
         "nat_conclusion": "\"Mugbudengs\" means \"kidnapping\".",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_186",
@@ -1446,7 +1446,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is not advisable from a financial point of view to replace steel armored vehicles with aluminum alloy armored vehicles with the same protective properties.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_187",
@@ -1455,7 +1455,7 @@
         "fol_premise": null,
         "nat_conclusion": "When an event assumed by a theory is confirmed, the theory can be accepted even if there is no explanation for the cause of the event.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_188",
@@ -1464,7 +1464,7 @@
         "fol_premise": null,
         "nat_conclusion": "Zhang Fei was admitted, but Li Bai was not.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_189",
@@ -1473,7 +1473,7 @@
         "fol_premise": null,
         "nat_conclusion": "Antelopes follow the group activities to reduce the risk of being eaten by leopards.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_190",
@@ -1482,7 +1482,7 @@
         "fol_premise": null,
         "nat_conclusion": "For most people, increasing the number of meals a day will not result in a significant reduction in cholesterol levels.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_191",
@@ -1491,7 +1491,7 @@
         "fol_premise": null,
         "nat_conclusion": "We cannot treat our friends fairly.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_192",
@@ -1500,7 +1500,7 @@
         "fol_premise": null,
         "nat_conclusion": "L is the second speaker.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_194",
@@ -1509,7 +1509,7 @@
         "fol_premise": null,
         "nat_conclusion": "The speaker immediately after M must be G.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_195",
@@ -1518,7 +1518,7 @@
         "fol_premise": null,
         "nat_conclusion": "The speakers that can be arranged between M and N are F, G, J, L.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_198",
@@ -1527,7 +1527,7 @@
         "fol_premise": null,
         "nat_conclusion": "H or J, or both will definitely participate.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_199",
@@ -1536,7 +1536,7 @@
         "fol_premise": null,
         "nat_conclusion": "F and G cannot participate in the game together.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_200",
@@ -1545,7 +1545,7 @@
         "fol_premise": null,
         "nat_conclusion": "F and G must be included in the game.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_201",
@@ -1554,7 +1554,7 @@
         "fol_premise": null,
         "nat_conclusion": "H and M will be selected.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_202",
@@ -1563,7 +1563,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is impossible to know the truth of any proposition of religion.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_203",
@@ -1572,7 +1572,7 @@
         "fol_premise": null,
         "nat_conclusion": "Intellectuals should be treated well, as should workers and farmers.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_204",
@@ -1581,7 +1581,7 @@
         "fol_premise": null,
         "nat_conclusion": "To understand the true face of the emperor, one must also read Ye Shi, which is a portrayal of the emperor's life.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_205",
@@ -1590,7 +1590,7 @@
         "fol_premise": null,
         "nat_conclusion": "Residential prices in Beijing increased by 7.2% in the first quarter of 2005 compared with the same period last year, and residential land prices rose by 0.37%.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_207",
@@ -1599,7 +1599,7 @@
         "fol_premise": null,
         "nat_conclusion": "If a person is immoral, he is overbearing and careful.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_208",
@@ -1608,7 +1608,7 @@
         "fol_premise": null,
         "nat_conclusion": "Paper J is not used and paper K is used.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_209",
@@ -1617,7 +1617,7 @@
         "fol_premise": null,
         "nat_conclusion": "The economic benefits are getting worse.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_210",
@@ -1626,7 +1626,7 @@
         "fol_premise": null,
         "nat_conclusion": "Good historical works must break through the rigid historical truth view, directly touch the souls of historical figures, and write the essence of history.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_211",
@@ -1635,7 +1635,7 @@
         "fol_premise": null,
         "nat_conclusion": "If your company does the best thing in at least one thing, it will definitely make huge profits.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_212",
@@ -1644,7 +1644,7 @@
         "fol_premise": null,
         "nat_conclusion": "If the result of an experiment is correct, then the experiment under the same conditions should yield the same result.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_213",
@@ -1653,7 +1653,7 @@
         "fol_premise": null,
         "nat_conclusion": "There must be an outside world.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_214",
@@ -1662,7 +1662,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is necessary to adopt an expansion fiscal policy.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_215",
@@ -1671,7 +1671,7 @@
         "fol_premise": null,
         "nat_conclusion": "A terracotta warrior without protective measures can provide more information than a terracotta warrior after taking protective measures.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_216",
@@ -1680,7 +1680,7 @@
         "fol_premise": null,
         "nat_conclusion": "Real estate developers in the city cannot raise more development funds.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_218",
@@ -1689,7 +1689,7 @@
         "fol_premise": null,
         "nat_conclusion": "China is currently not suitable for university rankings.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_219",
@@ -1698,7 +1698,7 @@
         "fol_premise": null,
         "nat_conclusion": "People who ate at least five servings of vegetables per day were half as likely to develop pancreatic cancer as those who ate less than two servings of vegetables per day.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_220",
@@ -1707,7 +1707,7 @@
         "fol_premise": null,
         "nat_conclusion": "People who ate at least five servings of vegetables per day were half as likely to develop pancreatic cancer as those who ate less than two servings of vegetables per day.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_221",
@@ -1716,7 +1716,7 @@
         "fol_premise": null,
         "nat_conclusion": "The privatization system is based on the legal rights to own private property.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_222",
@@ -1725,7 +1725,7 @@
         "fol_premise": null,
         "nat_conclusion": "Huaizhou City will certainly encounter the problems of stagnation of economic development or deterioration of the natural environment.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_223",
@@ -1734,7 +1734,7 @@
         "fol_premise": null,
         "nat_conclusion": "A listed company does not need financing, or is not a company with dividends.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_224",
@@ -1743,7 +1743,7 @@
         "fol_premise": null,
         "nat_conclusion": "A listed company needs both financing and dividends.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_225",
@@ -1752,7 +1752,7 @@
         "fol_premise": null,
         "nat_conclusion": "Foreigners do not understand Hainan businessmen and give them a low trust score.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_226",
@@ -1761,7 +1761,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some systems should be designed to limit and prevent the abuse of power.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_228",
@@ -1770,7 +1770,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is easier to destroy a good reputation than to eliminate a bad reputation.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_229",
@@ -1779,7 +1779,7 @@
         "fol_premise": null,
         "nat_conclusion": "Forcing officials to embezzle is the only way for the emperor to control officials.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_230",
@@ -1788,7 +1788,7 @@
         "fol_premise": null,
         "nat_conclusion": "The average family budget must have increased by 25% in the past five years.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_231",
@@ -1797,7 +1797,7 @@
         "fol_premise": null,
         "nat_conclusion": "Once I see that others have the same external signs, I take it for granted that they also have the same inner activity events as me.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_232",
@@ -1806,7 +1806,7 @@
         "fol_premise": null,
         "nat_conclusion": "From the two levels of morality and intelligence, we should have designed a distribution system so that each member of society can live a decent and dignified life.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_233",
@@ -1815,7 +1815,7 @@
         "fol_premise": null,
         "nat_conclusion": "If the employee does not have shares in the enterprise, the boss and the employee will have conflicts of interest.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_235",
@@ -1824,7 +1824,7 @@
         "fol_premise": null,
         "nat_conclusion": "Therefore, \"invincible\".",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_236",
@@ -1833,7 +1833,7 @@
         "fol_premise": null,
         "nat_conclusion": "Corporate governance should rely on the optimal action criterion, which adopts a more flexible standard.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_237",
@@ -1842,7 +1842,7 @@
         "fol_premise": null,
         "nat_conclusion": "Culture is a sign that different people of different nationalities distinguish each other.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_239",
@@ -1851,7 +1851,7 @@
         "fol_premise": null,
         "nat_conclusion": "China's tax system is dominated by commodity taxes. As long as a person buys and consumes commodities, he pays taxes to the state.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_240",
@@ -1860,7 +1860,7 @@
         "fol_premise": null,
         "nat_conclusion": "Only by suffering from the fear of being caught will you not steal things from others.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_241",
@@ -1869,7 +1869,7 @@
         "fol_premise": null,
         "nat_conclusion": "Whether a person does good behavior or bad behavior depends on the length of his life.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_242",
@@ -1878,7 +1878,7 @@
         "fol_premise": null,
         "nat_conclusion": "Printing group: F, H, J. Binding group: G, H, L, M.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_243",
@@ -1887,7 +1887,7 @@
         "fol_premise": null,
         "nat_conclusion": "K can replace G.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_244",
@@ -1896,7 +1896,7 @@
         "fol_premise": null,
         "nat_conclusion": "The number of members of the bookbinding group is at least one more than that of the printing group.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_245",
@@ -1905,7 +1905,7 @@
         "fol_premise": null,
         "nat_conclusion": "M in the bookbinding group.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_247",
@@ -1914,7 +1914,7 @@
         "fol_premise": null,
         "nat_conclusion": "The acceptable arrangement for the second team's performance is G in front, Q in middle, N in back.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_249",
@@ -1923,7 +1923,7 @@
         "fol_premise": null,
         "nat_conclusion": "Q is before, L is in, N is after.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_250",
@@ -1932,7 +1932,7 @@
         "fol_premise": null,
         "nat_conclusion": "L and Q can be in team 1.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_251",
@@ -1941,7 +1941,7 @@
         "fol_premise": null,
         "nat_conclusion": "P must be behind team 2.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_252",
@@ -1950,7 +1950,7 @@
         "fol_premise": null,
         "nat_conclusion": "The above opinions cannot be questioned.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_253",
@@ -1959,7 +1959,7 @@
         "fol_premise": null,
         "nat_conclusion": "Cheng Bian probably wrote many empty checks to voters.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_254",
@@ -1968,7 +1968,7 @@
         "fol_premise": null,
         "nat_conclusion": "Either the senior management personnel themselves participate in the formulation of the compensation policy, or the company's finalized compensation policy will not succeed.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_255",
@@ -1977,7 +1977,7 @@
         "fol_premise": null,
         "nat_conclusion": "In the long run, the EU cannot not only obtain Turkey's comprehensive cooperation, but also completely avoid the difficult problems caused by Turkey's accession to the EU.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_256",
@@ -1986,7 +1986,7 @@
         "fol_premise": null,
         "nat_conclusion": "people with college education have an average life expectancy of more than 50 years less than others.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_257",
@@ -1995,7 +1995,7 @@
         "fol_premise": null,
         "nat_conclusion": "M company's senior managers have smaller gaps in compensation.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_258",
@@ -2004,7 +2004,7 @@
         "fol_premise": null,
         "nat_conclusion": "The introduction of foreign species may cause great harm to China's biodiversity.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_259",
@@ -2013,7 +2013,7 @@
         "fol_premise": null,
         "nat_conclusion": "The group went to F city and G lake tour.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_260",
@@ -2022,7 +2022,7 @@
         "fol_premise": null,
         "nat_conclusion": "High-income groups have little sense of a small price increase does not help explain the gap between the statistics in the question and the people's feelings.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_261",
@@ -2031,7 +2031,7 @@
         "fol_premise": null,
         "nat_conclusion": "In the past 10 years, the number of non-obese children in Beijing has also continued to rise.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_262",
@@ -2040,7 +2040,7 @@
         "fol_premise": null,
         "nat_conclusion": "The Nanjing Yangtze River Bridge must be demolished and rebuilt in order to dredge the golden waterways of the Yangtze River completely.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_263",
@@ -2049,7 +2049,7 @@
         "fol_premise": null,
         "nat_conclusion": "All married people are not barbers.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_264",
@@ -2058,7 +2058,7 @@
         "fol_premise": null,
         "nat_conclusion": "China's ideological backbone has contributed to world culture.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_265",
@@ -2067,7 +2067,7 @@
         "fol_premise": null,
         "nat_conclusion": "The realization of rural minimum living security is completely achievable by the national financial resources.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_266",
@@ -2076,7 +2076,7 @@
         "fol_premise": null,
         "nat_conclusion": "The price of affordable housing is still too high for some socially disadvantaged groups.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_267",
@@ -2085,7 +2085,7 @@
         "fol_premise": null,
         "nat_conclusion": "After winning the Nobel Prize in Literature, writers can hardly write fascinating works.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_268",
@@ -2094,7 +2094,7 @@
         "fol_premise": null,
         "nat_conclusion": "Even if a foreigner learns to change his face, it will not affect the survival and value of the traditional art of Sichuan opera.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_270",
@@ -2103,7 +2103,7 @@
         "fol_premise": null,
         "nat_conclusion": "The goal of criminal law is to punish criminals, while the goal of civil law is to compensate victims.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_271",
@@ -2112,7 +2112,7 @@
         "fol_premise": null,
         "nat_conclusion": "Although the miner's family depends on the miner to feed him, he hopes he will return home safely.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_272",
@@ -2121,7 +2121,7 @@
         "fol_premise": null,
         "nat_conclusion": "Both A and C lie.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_273",
@@ -2130,7 +2130,7 @@
         "fol_premise": null,
         "nat_conclusion": "The personnel department is not so important.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_274",
@@ -2139,7 +2139,7 @@
         "fol_premise": null,
         "nat_conclusion": "Developing anti-virus tools that proactively defend against new viruses is impossible.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_275",
@@ -2148,7 +2148,7 @@
         "fol_premise": null,
         "nat_conclusion": "The cost of paternity testing is too high.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_276",
@@ -2157,7 +2157,7 @@
         "fol_premise": null,
         "nat_conclusion": "We must not only continue to promote the reform of the economic system, but also accelerate the reform of the political system.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_277",
@@ -2166,7 +2166,7 @@
         "fol_premise": null,
         "nat_conclusion": "Taxi drivers hope to reduce the monthly rent paid to taxi companies, thereby eliminating the impact of rising oil prices.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_278",
@@ -2175,7 +2175,7 @@
         "fol_premise": null,
         "nat_conclusion": "We must quickly advance the reform of the medical system.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_279",
@@ -2184,7 +2184,7 @@
         "fol_premise": null,
         "nat_conclusion": "Therefore, Zhang Tingyu's home improvement is ill, and he hasn't made it.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_280",
@@ -2193,7 +2193,7 @@
         "fol_premise": null,
         "nat_conclusion": "The introduction of foreign capital on preferential terms may harm China's industry.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_281",
@@ -2202,7 +2202,7 @@
         "fol_premise": null,
         "nat_conclusion": "Chess armor is likely to win, but it is also possible to lose.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_282",
@@ -2211,7 +2211,7 @@
         "fol_premise": null,
         "nat_conclusion": "The order of the five islands from north to south can be G, E, I, F, H.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_283",
@@ -2220,7 +2220,7 @@
         "fol_premise": null,
         "nat_conclusion": "H is on the southernmost side of the island.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_284",
@@ -2229,7 +2229,7 @@
         "fol_premise": null,
         "nat_conclusion": "G is adjacent to F and to the north of F.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_285",
@@ -2238,7 +2238,7 @@
         "fol_premise": null,
         "nat_conclusion": "The number of possible arrangements for this group of islands is to be determined.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_286",
@@ -2247,7 +2247,7 @@
         "fol_premise": null,
         "nat_conclusion": "I is somewhere north of F.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_287",
@@ -2256,7 +2256,7 @@
         "fol_premise": null,
         "nat_conclusion": "Drinking alcohol has a clear correlation with liver function deterioration in adolescents.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_288",
@@ -2265,7 +2265,7 @@
         "fol_premise": null,
         "nat_conclusion": "The increase in online reading rate explains the above contradiction.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_289",
@@ -2274,7 +2274,7 @@
         "fol_premise": null,
         "nat_conclusion": "The basis for judgment of right and wrong lies in pushing oneself and one's moral conscience. It is common and universal; however, the moral regulations on how to act for people vary from person to person and from place to place.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_290",
@@ -2283,7 +2283,7 @@
         "fol_premise": null,
         "nat_conclusion": "There is an increase in total global welfare.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_291",
@@ -2292,7 +2292,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is up to the people of this country to decide what path a country takes.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_292",
@@ -2301,7 +2301,7 @@
         "fol_premise": null,
         "nat_conclusion": "The hot and dry weather encountered in Chongqing and Sichuan this year is the worst in 50 years in terms of the scope and duration of the impact.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_293",
@@ -2310,7 +2310,7 @@
         "fol_premise": null,
         "nat_conclusion": "If there is indeed the kind of microorganism we studied in Weiming Lake, they will not reproduce now.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_294",
@@ -2319,7 +2319,7 @@
         "fol_premise": null,
         "nat_conclusion": "When the universe was less than 1.5 billion years old, some stars had already formed.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_295",
@@ -2328,7 +2328,7 @@
         "fol_premise": null,
         "nat_conclusion": "The death penalty should be abolished.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_296",
@@ -2337,7 +2337,7 @@
         "fol_premise": null,
         "nat_conclusion": "Even if you are afraid to speak in public, you should accept the invitation to speak in front of the masses.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_297",
@@ -2346,7 +2346,7 @@
         "fol_premise": null,
         "nat_conclusion": "Public Relations Department: X; Production Department: F, I, W; Sales Department: G, H, Y.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_299",
@@ -2355,7 +2355,7 @@
         "fol_premise": null,
         "nat_conclusion": "The distribution of 7 employees can be completely determined.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_300",
@@ -2364,7 +2364,7 @@
         "fol_premise": null,
         "nat_conclusion": "G and X are unlikely to be assigned to the sales department.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_301",
@@ -2373,7 +2373,7 @@
         "fol_premise": null,
         "nat_conclusion": "H cannot be assigned to the production department.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_302",
@@ -2382,7 +2382,7 @@
         "fol_premise": null,
         "nat_conclusion": "I don't think.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_303",
@@ -2391,7 +2391,7 @@
         "fol_premise": null,
         "nat_conclusion": "Get rid of the dilemma and choose another appropriate answer.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_304",
@@ -2400,7 +2400,7 @@
         "fol_premise": null,
         "nat_conclusion": "Compared with writing homework, children who love to play by nature prefer to play, and writing homework will definitely reduce their playing time.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_305",
@@ -2409,7 +2409,7 @@
         "fol_premise": null,
         "nat_conclusion": "Among those who favor college students as nanny, 69% think that doing housekeeping work is good for college students themselves, and only 31% think that college students nanny can provide better housekeeping services.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_306",
@@ -2418,7 +2418,7 @@
         "fol_premise": null,
         "nat_conclusion": "China has developed key technologies for producing fuel ethanol from straw.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_307",
@@ -2427,7 +2427,7 @@
         "fol_premise": null,
         "nat_conclusion": "The ban on fireworks not only implies cultural discrimination, but also wipes out the last festive atmosphere of the Spring Festival.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_308",
@@ -2436,7 +2436,7 @@
         "fol_premise": null,
         "nat_conclusion": "The view that abolishing the pre-sale system will push up housing prices is false.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_309",
@@ -2445,7 +2445,7 @@
         "fol_premise": null,
         "nat_conclusion": "The use of alternatives to DDT in developed countries is also harmful to the environment does not weaken Rachel. Carson's conclusion.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_310",
@@ -2454,7 +2454,7 @@
         "fol_premise": null,
         "nat_conclusion": "\"Le Ji\" followed or quoted the text of \"Xie Ci\".",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_312",
@@ -2463,7 +2463,7 @@
         "fol_premise": null,
         "nat_conclusion": "Professor Zhang of Peking University cannot buy stocks.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_314",
@@ -2472,7 +2472,7 @@
         "fol_premise": null,
         "nat_conclusion": "No more than 5% of parents strongly disagree with their children for plastic surgery.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_315",
@@ -2481,7 +2481,7 @@
         "fol_premise": null,
         "nat_conclusion": "If Zhang Wei's semester papers are not excellent, she will fail the exam without giving a lecture.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_316",
@@ -2490,7 +2490,7 @@
         "fol_premise": null,
         "nat_conclusion": "The ecological environment of Dongting Lake has been damaged, and the rat disaster sounded the alarm.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_317",
@@ -2499,7 +2499,7 @@
         "fol_premise": null,
         "nat_conclusion": "Therapeutic cloning is still a long way from clinical use.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_318",
@@ -2508,7 +2508,7 @@
         "fol_premise": null,
         "nat_conclusion": "The argument in the argument does not determine the lower limit of the age of the work.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_319",
@@ -2517,7 +2517,7 @@
         "fol_premise": null,
         "nat_conclusion": "If an enterprise has government protection and subsidies, it will have a policy burden.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_320",
@@ -2526,7 +2526,7 @@
         "fol_premise": null,
         "nat_conclusion": "The results of the polygraph are reliable.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_322",
@@ -2535,7 +2535,7 @@
         "fol_premise": null,
         "nat_conclusion": "Replacing traditional blackboard writing with multimedia courseware can save time when writing blackboard writing.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_323",
@@ -2544,7 +2544,7 @@
         "fol_premise": null,
         "nat_conclusion": "Reasonable people will not desperately violently resist the law.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_324",
@@ -2553,7 +2553,7 @@
         "fol_premise": null,
         "nat_conclusion": "Due to the sharp increase in energy prices, 90% of the newly invested enterprises in Zhejiang are low-energy enterprises does not reasonably explain the inconsistencies.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_325",
@@ -2562,7 +2562,7 @@
         "fol_premise": null,
         "nat_conclusion": "He is confident in achieving this goal.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_326",
@@ -2571,7 +2571,7 @@
         "fol_premise": null,
         "nat_conclusion": "The status of birds in a group is gradually established through long-term common life.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_327",
@@ -2580,7 +2580,7 @@
         "fol_premise": null,
         "nat_conclusion": "If people only use energy-saving lamps and do not use ordinary incandescent lamps that consume more electricity, they will save a lot of electricity.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_328",
@@ -2589,7 +2589,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is unlikely that a large increase in the number of seals caused a significant decline in the number of cod.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_329",
@@ -2598,7 +2598,7 @@
         "fol_premise": null,
         "nat_conclusion": "The sensible Chinese tourists who bought the country ’s chocolate in Belgium did not understand the market.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_330",
@@ -2607,7 +2607,7 @@
         "fol_premise": null,
         "nat_conclusion": "Only reforming the content of the college entrance examination may not reduce the student's academic burden.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_331",
@@ -2616,7 +2616,7 @@
         "fol_premise": null,
         "nat_conclusion": "Xiao Wang bought the fund.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_332",
@@ -2625,7 +2625,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some students who participate in work-study activities are not free teachers.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_333",
@@ -2634,7 +2634,7 @@
         "fol_premise": null,
         "nat_conclusion": "The police knew when the suspect was telling the truth.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_334",
@@ -2643,7 +2643,7 @@
         "fol_premise": null,
         "nat_conclusion": "which can attract passengers to take the bus first, thereby alleviating the traffic congestion in City B.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_335",
@@ -2652,7 +2652,7 @@
         "fol_premise": null,
         "nat_conclusion": "Cars with airbags are no safer than cars without airbags.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_338",
@@ -2661,7 +2661,7 @@
         "fol_premise": null,
         "nat_conclusion": "As the court debate progresses, the attitude between the opponents will tend to be tougher, making mutual compromises less likely.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_339",
@@ -2670,7 +2670,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some beautiful people are not healthy.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_340",
@@ -2679,7 +2679,7 @@
         "fol_premise": null,
         "nat_conclusion": "collective encouragement does not make patients with type T disease live longer.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_341",
@@ -2688,7 +2688,7 @@
         "fol_premise": null,
         "nat_conclusion": "computer users who find these two viruses do not have to worry about their files being erased.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_342",
@@ -2697,7 +2697,7 @@
         "fol_premise": null,
         "nat_conclusion": "Plant Y; 2 Plant Q; 3 Plant S; 4 Plant L; 5 Plant H; 6 Plant X is an eligible cultivation arrangement.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_343",
@@ -2706,7 +2706,7 @@
         "fol_premise": null,
         "nat_conclusion": "Y is planted next to the left of S.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_344",
@@ -2715,7 +2715,7 @@
         "fol_premise": null,
         "nat_conclusion": "Type Y is in No.2",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_345",
@@ -2724,7 +2724,7 @@
         "fol_premise": null,
         "nat_conclusion": "H is not planted next to the right side of x.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_346",
@@ -2733,7 +2733,7 @@
         "fol_premise": null,
         "nat_conclusion": "X species are in No.6 vegetable pond.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_347",
@@ -2742,7 +2742,7 @@
         "fol_premise": null,
         "nat_conclusion": "There are P in the subcommittees where I serve.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_348",
@@ -2751,7 +2751,7 @@
         "fol_premise": null,
         "nat_conclusion": "I have I in the sub-committee where P serves.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_349",
@@ -2760,7 +2760,7 @@
         "fol_premise": null,
         "nat_conclusion": "I and P are members of the same subcommittee.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_350",
@@ -2769,7 +2769,7 @@
         "fol_premise": null,
         "nat_conclusion": "M and P are members of a subcommittee.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_351",
@@ -2778,7 +2778,7 @@
         "fol_premise": null,
         "nat_conclusion": "One member happens to be a member of the two subcommittees.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_353",
@@ -2787,7 +2787,7 @@
         "fol_premise": null,
         "nat_conclusion": "More people choose to go to the restaurant for dinner instead of feasting at home.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_354",
@@ -2796,7 +2796,7 @@
         "fol_premise": null,
         "nat_conclusion": "On the Protracted War and Sun Tzu Art of War are inconsistent in the view that the soldiers are not expensive.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_355",
@@ -2805,7 +2805,7 @@
         "fol_premise": null,
         "nat_conclusion": "Both the field and the love are frustrated.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_357",
@@ -2814,7 +2814,7 @@
         "fol_premise": null,
         "nat_conclusion": "people's reactions to words are not only affected by the meaning of the words, but also by the pronunciation of the words.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_358",
@@ -2823,7 +2823,7 @@
         "fol_premise": null,
         "nat_conclusion": "Russia is ready to demand that the Security Council impose an arms embargo on Georgia.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_359",
@@ -2832,7 +2832,7 @@
         "fol_premise": null,
         "nat_conclusion": "The biggest question can be raised.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_360",
@@ -2841,7 +2841,7 @@
         "fol_premise": null,
         "nat_conclusion": "there is no reason to conclude that dogs and cats have the ability to sense earthquakes in advance.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_361",
@@ -2850,7 +2850,7 @@
         "fol_premise": null,
         "nat_conclusion": "Shape is something that is visible, static, and set in advance; potential is something that is invisible, dynamic, and set for the enemy.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_364",
@@ -2859,7 +2859,7 @@
         "fol_premise": null,
         "nat_conclusion": "Multiple physical exercises are most advantageous for health improvement over a single exercise.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_365",
@@ -2868,7 +2868,7 @@
         "fol_premise": null,
         "nat_conclusion": "The argument about freedom of thought is untenable.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_366",
@@ -2877,7 +2877,7 @@
         "fol_premise": null,
         "nat_conclusion": "China will also experience an economic recession after the 2008 Olympic Games.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_367",
@@ -2886,7 +2886,7 @@
         "fol_premise": null,
         "nat_conclusion": "The source of huge amounts of property should be treated as corruption and bribery.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_368",
@@ -2895,7 +2895,7 @@
         "fol_premise": null,
         "nat_conclusion": "The formation of aggressive aggression is due to the lack of social training led by the parents at the newborn stage.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_369",
@@ -2904,7 +2904,7 @@
         "fol_premise": null,
         "nat_conclusion": "Poor students in the school often eat instant noodles, and they often go to restaurants after they find a job after graduation. For these students, instant noodles are inferior.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_370",
@@ -2913,7 +2913,7 @@
         "fol_premise": null,
         "nat_conclusion": "Under the current system, local governments may be punished by the central government or unable to improve their GDP performance.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_371",
@@ -2922,7 +2922,7 @@
         "fol_premise": null,
         "nat_conclusion": "In the past two years, the incidence of bladder cancer among Dutch dairy cow and dairy consumers has been particularly high.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_372",
@@ -2931,7 +2931,7 @@
         "fol_premise": null,
         "nat_conclusion": "China has not plundered African resources.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_373",
@@ -2940,7 +2940,7 @@
         "fol_premise": null,
         "nat_conclusion": "this factory must have polluted the river water when producing pesticides.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_374",
@@ -2949,7 +2949,7 @@
         "fol_premise": null,
         "nat_conclusion": "Just one photo cannot confirm anything.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_375",
@@ -2958,7 +2958,7 @@
         "fol_premise": null,
         "nat_conclusion": "A is a fish thief.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_376",
@@ -2967,7 +2967,7 @@
         "fol_premise": null,
         "nat_conclusion": "Zhang Hong is likely to be a severe insomniac.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_377",
@@ -2976,7 +2976,7 @@
         "fol_premise": null,
         "nat_conclusion": "In the next few years, pollution caused by garbage exudates in Country X will gradually decrease.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_378",
@@ -2985,7 +2985,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some people know where the express train ends, but all people do n’t know how to get off.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_379",
@@ -2994,7 +2994,7 @@
         "fol_premise": null,
         "nat_conclusion": "People should be encouraged to use solar energy.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_380",
@@ -3003,7 +3003,7 @@
         "fol_premise": null,
         "nat_conclusion": "It can be seen from this? by observing a person's blink frequency, it can be judged whether he is lying.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_383",
@@ -3012,7 +3012,7 @@
         "fol_premise": null,
         "nat_conclusion": "The most helpful question in evaluating the appeal argument is: Did most people's diet contain vitamin B6 far beyond the amount they needed every day?",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_384",
@@ -3021,7 +3021,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some scientists emphasized that the recent increase in methane content and global warming have nothing to do with forests, and plants are innocent.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_385",
@@ -3030,7 +3030,7 @@
         "fol_premise": null,
         "nat_conclusion": "Compared with 2006, W University ’s enrollment growth in 2007 exceeded 20%.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_386",
@@ -3039,7 +3039,7 @@
         "fol_premise": null,
         "nat_conclusion": "Tight monetary policy may lead to economic decline.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_388",
@@ -3048,7 +3048,7 @@
         "fol_premise": null,
         "nat_conclusion": "You have been to Oxford University, but sometimes you may still believe what some people say.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_389",
@@ -3057,7 +3057,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some people think that meteorologists can control the weather.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_390",
@@ -3066,7 +3066,7 @@
         "fol_premise": null,
         "nat_conclusion": "Exclude one explanation of an observed phenomenon and arrive at another possible explanation.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_391",
@@ -3075,7 +3075,7 @@
         "fol_premise": null,
         "nat_conclusion": "the red squirrel is looking for sugar.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_392",
@@ -3084,7 +3084,7 @@
         "fol_premise": null,
         "nat_conclusion": "X, Z, U, Y, W, S, T may be the athlete's ranking from the first to the seventh to the finish line.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_393",
@@ -3093,7 +3093,7 @@
         "fol_premise": null,
         "nat_conclusion": "T and S can not be red.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_394",
@@ -3102,7 +3102,7 @@
         "fol_premise": null,
         "nat_conclusion": "U's costume must be green.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_396",
@@ -3111,7 +3111,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is impossible for Y and Z to reach the finish line one after another.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_397",
@@ -3120,7 +3120,7 @@
         "fol_premise": null,
         "nat_conclusion": "Signal soldier X; Engineer soldier F, I and W; Transport soldier G, H and Y.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_398",
@@ -3129,7 +3129,7 @@
         "fol_premise": null,
         "nat_conclusion": "G is unlikely to be an engineering soldier.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_399",
@@ -3138,7 +3138,7 @@
         "fol_premise": null,
         "nat_conclusion": "I and W are assigned as transport soldiers.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_400",
@@ -3147,7 +3147,7 @@
         "fol_premise": null,
         "nat_conclusion": "G and X cannot be assigned as transport soldiers together.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_401",
@@ -3156,7 +3156,7 @@
         "fol_premise": null,
         "nat_conclusion": "F and Y are assigned as engineering soldiers.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_402",
@@ -3165,7 +3165,7 @@
         "fol_premise": null,
         "nat_conclusion": "We obviously cannot accept the claims of these historians.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_403",
@@ -3174,7 +3174,7 @@
         "fol_premise": null,
         "nat_conclusion": "The opinions of the sample groups on which it relies are hardly supportive of the conclusion of this argument.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_404",
@@ -3183,7 +3183,7 @@
         "fol_premise": null,
         "nat_conclusion": "If Greece wants to solve the debt crisis, but can not achieve substantial economic development, it must reduce welfare.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_405",
@@ -3192,7 +3192,7 @@
         "fol_premise": null,
         "nat_conclusion": "Air pollution has eliminated these two diseases.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_407",
@@ -3201,7 +3201,7 @@
         "fol_premise": null,
         "nat_conclusion": "Vervet monkeys climb onto trees to avoid terrestrial carnivores, and underneath potential leaves to avoid raptors.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_408",
@@ -3210,7 +3210,7 @@
         "fol_premise": null,
         "nat_conclusion": "The value of a piece of jewelry should be entirely determined by the aesthetic enjoyment it provides.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_409",
@@ -3219,7 +3219,7 @@
         "fol_premise": null,
         "nat_conclusion": "The officialdom rules are fair.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_410",
@@ -3228,7 +3228,7 @@
         "fol_premise": null,
         "nat_conclusion": "The investment in building planetariums and natural museums is worthwhile, because the number of citizens who have received science education at these venues has more than doubled.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_411",
@@ -3237,7 +3237,7 @@
         "fol_premise": null,
         "nat_conclusion": "Compared with Western medicine, Chinese medicine is safe.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_412",
@@ -3246,7 +3246,7 @@
         "fol_premise": null,
         "nat_conclusion": "Certain limited experimental treatments without patient consent should be allowed.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_413",
@@ -3255,7 +3255,7 @@
         "fol_premise": null,
         "nat_conclusion": "Absolute trust is the only way to do it. If you don’t, you won’t get absolute trust.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_414",
@@ -3264,7 +3264,7 @@
         "fol_premise": null,
         "nat_conclusion": "Drugs developed for the above three neurotransmitters to maintain their concentration balance are effective in treating depression.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_415",
@@ -3273,7 +3273,7 @@
         "fol_premise": null,
         "nat_conclusion": "Temporary measures such as vehicle restrictions and construction site shutdowns were the main reasons for the reduction in haze.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_417",
@@ -3282,7 +3282,7 @@
         "fol_premise": null,
         "nat_conclusion": "The added harm caused by synthetic pesticides sprayed on crops is very small.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_418",
@@ -3291,7 +3291,7 @@
         "fol_premise": null,
         "nat_conclusion": "Potatoes that are neither green nor sprouted can be eaten safely.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_419",
@@ -3300,7 +3300,7 @@
         "fol_premise": null,
         "nat_conclusion": "The cost of fixed assets and energy costs of investment in China have continued to rise, which explains the seemingly contradictory phenomenon.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_420",
@@ -3309,7 +3309,7 @@
         "fol_premise": null,
         "nat_conclusion": "If this law is strictly enforced, it will completely protect workers from second-hand smoke.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_421",
@@ -3318,7 +3318,7 @@
         "fol_premise": null,
         "nat_conclusion": "To truly protect the interests of farmers, it is necessary to allow transactions on homesteads.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_424",
@@ -3327,7 +3327,7 @@
         "fol_premise": null,
         "nat_conclusion": "Zhang Hua confuses company ownership with responsibility for loyal employees.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_425",
@@ -3336,7 +3336,7 @@
         "fol_premise": null,
         "nat_conclusion": "The driver still has an appetite for the parking space that is about to leave, and the appetite increases as other drivers expect the parking space to increase.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_426",
@@ -3345,7 +3345,7 @@
         "fol_premise": null,
         "nat_conclusion": "Not all film and television directors who have gone through formal professional studies ignore the psychological needs of the public.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_430",
@@ -3354,7 +3354,7 @@
         "fol_premise": null,
         "nat_conclusion": "The etiquette of unmarriage of the same surname encourages inter-marriage intermarriage, which promotes the integration of all ethnic groups.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_432",
@@ -3363,7 +3363,7 @@
         "fol_premise": null,
         "nat_conclusion": "the salaries of pilots of state-owned airlines are too low.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_433",
@@ -3372,7 +3372,7 @@
         "fol_premise": null,
         "nat_conclusion": "Any country with a government that can make such a commitment will be free from economic and political weakness.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_434",
@@ -3381,7 +3381,7 @@
         "fol_premise": null,
         "nat_conclusion": "During the salmon migration season, they focus on their fishing skills and rarely fight for the territory.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_435",
@@ -3390,7 +3390,7 @@
         "fol_premise": null,
         "nat_conclusion": "There are more etching tools used for engraving than those not used for engraving.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_436",
@@ -3399,7 +3399,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is believed that the attributes possessed by parts are also possessed by the whole.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_437",
@@ -3408,7 +3408,7 @@
         "fol_premise": null,
         "nat_conclusion": "Only those with high blood pressure and those whose body cannot safely handle excess sodium need to limit sodium intake.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_438",
@@ -3417,7 +3417,7 @@
         "fol_premise": null,
         "nat_conclusion": "Compared to the skeletons of teeth or other vertebrates, shark cartilage skeletons are less likely to form fossils.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_439",
@@ -3426,7 +3426,7 @@
         "fol_premise": null,
         "nat_conclusion": "The nutritional value of yam will be high.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_440",
@@ -3435,7 +3435,7 @@
         "fol_premise": null,
         "nat_conclusion": "this proposal must also be implemented.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_441",
@@ -3444,7 +3444,7 @@
         "fol_premise": null,
         "nat_conclusion": "In addition to the wetlands, red ducks gradually learned to nest in tree caves and cliff caves, but swan failed to do so.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_442",
@@ -3453,7 +3453,7 @@
         "fol_premise": null,
         "nat_conclusion": "The exhibition order can be M, K, S, Q, Y, X.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_443",
@@ -3462,7 +3462,7 @@
         "fol_premise": null,
         "nat_conclusion": "The age of K is earlier than that of S.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_444",
@@ -3471,7 +3471,7 @@
         "fol_premise": null,
         "nat_conclusion": "S cannot be the earliest porcelain.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_445",
@@ -3480,7 +3480,7 @@
         "fol_premise": null,
         "nat_conclusion": "S is older than K.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_446",
@@ -3489,7 +3489,7 @@
         "fol_premise": null,
         "nat_conclusion": "Q is older than X.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_447",
@@ -3498,7 +3498,7 @@
         "fol_premise": null,
         "nat_conclusion": "X is the accompaniment of G and H; Y is the accompaniment of F and K? W is the accompaniment of L and M.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_448",
@@ -3507,7 +3507,7 @@
         "fol_premise": null,
         "nat_conclusion": "W is K accompaniment.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_449",
@@ -3516,7 +3516,7 @@
         "fol_premise": null,
         "nat_conclusion": "G and K.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_450",
@@ -3525,7 +3525,7 @@
         "fol_premise": null,
         "nat_conclusion": "W cannot accompany K or H.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_451",
@@ -3534,7 +3534,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is impossible for Y to accompany G and H.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_452",
@@ -3543,7 +3543,7 @@
         "fol_premise": null,
         "nat_conclusion": "We should pay attention to the cultivation of master's degree and doctoral degree in applied and technical disciplines.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_453",
@@ -3552,7 +3552,7 @@
         "fol_premise": null,
         "nat_conclusion": "People can attach different ideas to the same number.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_454",
@@ -3561,7 +3561,7 @@
         "fol_premise": null,
         "nat_conclusion": "0 years ago, a protection transfer operation to avoid the extinction of the black rhino was successful.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_455",
@@ -3570,7 +3570,7 @@
         "fol_premise": null,
         "nat_conclusion": "The autobiography of Venus is slow and its outer shell is much thinner than the earth, which is convenient for the internal heat release.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_456",
@@ -3579,7 +3579,7 @@
         "fol_premise": null,
         "nat_conclusion": "The overflowing lake water was once connected to the Liaohe River flowing into the ocean.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_458",
@@ -3588,7 +3588,7 @@
         "fol_premise": null,
         "nat_conclusion": "The lawyer's answer is inconsistent with the State Council’s Drug Rehabilitation Regulations on “non-discrimination in reemployment of drug addicts”.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_459",
@@ -3597,7 +3597,7 @@
         "fol_premise": null,
         "nat_conclusion": "The individual pays more taxes than the state-owned machinery factory, which does not mean that her contribution to society is greater than that of the state-owned machinery factory.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_460",
@@ -3606,7 +3606,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some students who support the Brazilian team support the German team.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_461",
@@ -3615,7 +3615,7 @@
         "fol_premise": null,
         "nat_conclusion": "If we can effectively eliminate food waste on the table, we can save millions of hungry people.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_462",
@@ -3624,7 +3624,7 @@
         "fol_premise": null,
         "nat_conclusion": "The result that most of the tens of thousands of people who participated in the activity agreed to raise subway and bus fares must be fake.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_463",
@@ -3633,7 +3633,7 @@
         "fol_premise": null,
         "nat_conclusion": "If the stock market ushered in a bull market, it must be that domestic capital costs have not returned to a reasonable position.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_464",
@@ -3642,7 +3642,7 @@
         "fol_premise": null,
         "nat_conclusion": "No fire anywhere.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_465",
@@ -3651,7 +3651,7 @@
         "fol_premise": null,
         "nat_conclusion": "There must have been some changes in social values ​​between 1817 and 1860.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_466",
@@ -3660,7 +3660,7 @@
         "fol_premise": null,
         "nat_conclusion": "Parents preserve cord blood for newborns, which can provide a guarantee for the child's health throughout life.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_467",
@@ -3669,7 +3669,7 @@
         "fol_premise": null,
         "nat_conclusion": "Zhao Feng is both tall and short.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_468",
@@ -3678,7 +3678,7 @@
         "fol_premise": null,
         "nat_conclusion": "If the Ukrainian government army does not give the civilian armed forces a breathing opportunity, it may trigger the Russian side to take strong measures.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_470",
@@ -3687,7 +3687,7 @@
         "fol_premise": null,
         "nat_conclusion": "The name of the hexagram comes from the account of the narration of the hexagram, Kun Guazhan asked about the loss of the horse, at the beginning he had three elephants, he believed that the horse could be found and was named Kun.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_471",
@@ -3696,7 +3696,7 @@
         "fol_premise": null,
         "nat_conclusion": "We should not ask the police because they cannot stop all criminal activities.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_472",
@@ -3705,7 +3705,7 @@
         "fol_premise": null,
         "nat_conclusion": "Fetal vision developed during the last 3 months of pregnancy.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_473",
@@ -3714,7 +3714,7 @@
         "fol_premise": null,
         "nat_conclusion": "The important difference between a civilized man and a barbarian or other animals is to suppress the instinctive impulse through foresight.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_474",
@@ -3723,7 +3723,7 @@
         "fol_premise": null,
         "nat_conclusion": "If you are a modest coffee drinker, then you can enjoy coffee with confidence, without worrying about coffee harming people's health.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_475",
@@ -3732,7 +3732,7 @@
         "fol_premise": null,
         "nat_conclusion": "Paine’s argument demonstrates that a proposition contradicts a certain proposition that has been established as true.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_476",
@@ -3741,7 +3741,7 @@
         "fol_premise": null,
         "nat_conclusion": "It can be seen that understanding a word does not necessarily depend on precise interpretation of the meaning of the word.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_477",
@@ -3750,7 +3750,7 @@
         "fol_premise": null,
         "nat_conclusion": "The question 'Is this method feasible for large-scale promotion?' is the least relevant to assess the authenticity of the above report.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_478",
@@ -3759,7 +3759,7 @@
         "fol_premise": null,
         "nat_conclusion": "For national staff with only spouse and no children, the provisions of the two documents are the same.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_479",
@@ -3768,7 +3768,7 @@
         "fol_premise": null,
         "nat_conclusion": "In order to prevent economic losses caused by local government defaults, investors try to transfer other interests to their own enterprises.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_480",
@@ -3777,7 +3777,7 @@
         "fol_premise": null,
         "nat_conclusion": "most people who are familiar with these theorems of Gödel are not senior logic teachers.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_481",
@@ -3786,7 +3786,7 @@
         "fol_premise": null,
         "nat_conclusion": "The German government risked adopting the policy because in 2001 Germany established the upper limit of pension payment in legal form, and in 2004 established the lower limit of pension payment, and the two policies have been used to the extreme.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_482",
@@ -3795,7 +3795,7 @@
         "fol_premise": null,
         "nat_conclusion": "All but one can weaken Aristotle ’s interpretation.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_483",
@@ -3804,7 +3804,7 @@
         "fol_premise": null,
         "nat_conclusion": "TESLA has a very advanced battery management system, which will automatically disconnect the output of abnormal battery cells.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_484",
@@ -3813,7 +3813,7 @@
         "fol_premise": null,
         "nat_conclusion": "the development and utilization of the Arctic will bring huge benefits to mankind.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_485",
@@ -3822,7 +3822,7 @@
         "fol_premise": null,
         "nat_conclusion": "Shrimp producers in country H are dumping shrimp in country M.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_486",
@@ -3831,7 +3831,7 @@
         "fol_premise": null,
         "nat_conclusion": "If you try to strictly falsify a theory, but the theory has withstood all the tests, then you should accept it.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_488",
@@ -3840,7 +3840,7 @@
         "fol_premise": null,
         "nat_conclusion": "Then what you are reading is the dross of the ancients.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_489",
@@ -3849,7 +3849,7 @@
         "fol_premise": null,
         "nat_conclusion": "The maximum number of chefs that can meet the above conditions is 3 people.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_490",
@@ -3858,7 +3858,7 @@
         "fol_premise": null,
         "nat_conclusion": "People who buy this fuel-efficient car need to be at least 300,000 kilometers to make up for the higher price difference than buying ordinary cars, and the mileage required to make up for the purchase price will increase accordingly.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_491",
@@ -3867,7 +3867,7 @@
         "fol_premise": null,
         "nat_conclusion": "you must arm your mind with critical thinking.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_492",
@@ -3876,7 +3876,7 @@
         "fol_premise": null,
         "nat_conclusion": "First day? L and P? second day? H and K? third day G and S.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_493",
@@ -3885,7 +3885,7 @@
         "fol_premise": null,
         "nat_conclusion": "K and S are not on duty on the same day.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_494",
@@ -3894,7 +3894,7 @@
         "fol_premise": null,
         "nat_conclusion": "G on duty at the first day.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_495",
@@ -3903,7 +3903,7 @@
         "fol_premise": null,
         "nat_conclusion": "G on the second day of duty.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_497",
@@ -3912,7 +3912,7 @@
         "fol_premise": null,
         "nat_conclusion": "The second on M.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_498",
@@ -3921,7 +3921,7 @@
         "fol_premise": null,
         "nat_conclusion": "Sixth on X.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_499",
@@ -3930,7 +3930,7 @@
         "fol_premise": null,
         "nat_conclusion": "Second on L may be true.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_500",
@@ -3939,7 +3939,7 @@
         "fol_premise": null,
         "nat_conclusion": "Fifth on X.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_501",
@@ -3948,7 +3948,7 @@
         "fol_premise": null,
         "nat_conclusion": "In an era of change, that little ambition may lead to magnificent results.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_502",
@@ -3957,7 +3957,7 @@
         "fol_premise": null,
         "nat_conclusion": "If Russia does not want to worsen relations between Russia and the United States, it will suffer morally and national dignity.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_503",
@@ -3966,7 +3966,7 @@
         "fol_premise": null,
         "nat_conclusion": "China's organic vegetable cultivation industry is a huge profit industry.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_504",
@@ -3975,7 +3975,7 @@
         "fol_premise": null,
         "nat_conclusion": "People with superb medical skills are good doctors.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_505",
@@ -3984,7 +3984,7 @@
         "fol_premise": null,
         "nat_conclusion": "Whether or not the animal needs protection is irrelevant whether it is delicious.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_506",
@@ -3993,7 +3993,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some animals that need to be protected are not Huangyu of Qinghai Lake.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_507",
@@ -4002,7 +4002,7 @@
         "fol_premise": null,
         "nat_conclusion": "If the painter will die, at least some other people will die.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_508",
@@ -4011,7 +4011,7 @@
         "fol_premise": null,
         "nat_conclusion": "Reading makes people open.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_509",
@@ -4020,7 +4020,7 @@
         "fol_premise": null,
         "nat_conclusion": "some patients with Alzheimer's disease or stroke can still say a certain swear word repeatedly because swear words are stored in the lower brain area responsible for emotions and instincts.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_510",
@@ -4029,7 +4029,7 @@
         "fol_premise": null,
         "nat_conclusion": "The volume of civil aviation transportation has grown rapidly in recent decades, which explains why the absolute number of civil aviation accidents has increased in recent decades despite the accident rate of civil flights has been declining.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_511",
@@ -4038,7 +4038,7 @@
         "fol_premise": null,
         "nat_conclusion": "There may be at least 5 people and at most 11 people.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_512",
@@ -4047,7 +4047,7 @@
         "fol_premise": null,
         "nat_conclusion": "Li Yan questioned the practice of establishing causality based solely on statistical data.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_513",
@@ -4056,7 +4056,7 @@
         "fol_premise": null,
         "nat_conclusion": "Eating celery helps to suppress aggressive emotions.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_514",
@@ -4065,7 +4065,7 @@
         "fol_premise": null,
         "nat_conclusion": "When a work of art can continue to bring joy and beauty to people for centuries, just like Da Vinci's paintings and Bach's music, we can fairly objectively call it a great work.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_515",
@@ -4074,7 +4074,7 @@
         "fol_premise": null,
         "nat_conclusion": "The most diligent people in the world must not be able to read all the books in the world.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_516",
@@ -4083,7 +4083,7 @@
         "fol_premise": null,
         "nat_conclusion": "The advertisement makes a suspicious assumption that if the drug has no side effects, it will have a positive effect on weight loss.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_517",
@@ -4092,7 +4092,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some athletes with good psychological qualities are trained hard.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_519",
@@ -4101,7 +4101,7 @@
         "fol_premise": null,
         "nat_conclusion": "Scientists have thus shown that this housefly without UV vision must have some kind of defect or damage in this gene.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_520",
@@ -4110,7 +4110,7 @@
         "fol_premise": null,
         "nat_conclusion": "Every specific evil must be condemned.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_521",
@@ -4119,7 +4119,7 @@
         "fol_premise": null,
         "nat_conclusion": ".8 billion years ago, the earth ’s atmosphere could retain significantly more heat than the current atmosphere.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_522",
@@ -4128,7 +4128,7 @@
         "fol_premise": null,
         "nat_conclusion": "Independent directors find it difficult to exercise their power as independent shareholders.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_523",
@@ -4137,7 +4137,7 @@
         "fol_premise": null,
         "nat_conclusion": "Online dating is very reliable in achieving a stable marriage.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_524",
@@ -4146,7 +4146,7 @@
         "fol_premise": null,
         "nat_conclusion": "When the land in City B was listed for the second time, the government raised its base price.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_525",
@@ -4155,7 +4155,7 @@
         "fol_premise": null,
         "nat_conclusion": "Fonterra's self-exposure is not really out of moral conscience.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_526",
@@ -4164,7 +4164,7 @@
         "fol_premise": null,
         "nat_conclusion": "In a random sampling survey with a sufficiently large sample, it was found that in China, the most popular TV program is \"news broadcasting\".",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_527",
@@ -4173,7 +4173,7 @@
         "fol_premise": null,
         "nat_conclusion": "If you buy X brand running shoes, it will make you run faster and farther.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_528",
@@ -4182,7 +4182,7 @@
         "fol_premise": null,
         "nat_conclusion": "The critic's rebuttal is wrong, because the scientist aims to show that a certain situation may occur, which has nothing to do with whether the research object is representative.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_529",
@@ -4191,7 +4191,7 @@
         "fol_premise": null,
         "nat_conclusion": "Attack employers’ motives rather than refute their defenses.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_530",
@@ -4200,7 +4200,7 @@
         "fol_premise": null,
         "nat_conclusion": "There is at least one problem. It cannot be solved by running any mechanical program, but it can be solved by at least one person's brain.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_531",
@@ -4209,7 +4209,7 @@
         "fol_premise": null,
         "nat_conclusion": "No one can be allowed to stop flying.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_532",
@@ -4218,7 +4218,7 @@
         "fol_premise": null,
         "nat_conclusion": "This shows that there is a correlation between the campaign funding granted to the judge and the judgment in favor of the sponsor.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_533",
@@ -4227,7 +4227,7 @@
         "fol_premise": null,
         "nat_conclusion": "\"Dark energy\" is obviously not a clear physics concept.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_534",
@@ -4236,7 +4236,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some people with Alzheimer's disease will lose their memory.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_535",
@@ -4245,7 +4245,7 @@
         "fol_premise": null,
         "nat_conclusion": "Electric cars in Beijing use coal power. Electric car power will increase coal consumption and particulate emissions in the surrounding power supply provinces, resulting in haze.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_536",
@@ -4254,7 +4254,7 @@
         "fol_premise": null,
         "nat_conclusion": "In the future, in order to ensure employment, enterprises must increase workers' wages and benefits, thereby increasing the proportion of labor costs in total production costs.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_537",
@@ -4263,7 +4263,7 @@
         "fol_premise": null,
         "nat_conclusion": "For a healthy country, free speech is essential.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_539",
@@ -4272,7 +4272,7 @@
         "fol_premise": null,
         "nat_conclusion": "Genetic testing of the fetus is morally wrong.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_540",
@@ -4281,7 +4281,7 @@
         "fol_premise": null,
         "nat_conclusion": "Tai Chi can't strengthen your body and prolong life.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_541",
@@ -4290,7 +4290,7 @@
         "fol_premise": null,
         "nat_conclusion": "F, M, T can accurately mark the goods stored in warehouses 1 to 3.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_543",
@@ -4299,7 +4299,7 @@
         "fol_premise": null,
         "nat_conclusion": "Six kinds of goods are stored in the warehouse.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_545",
@@ -4308,7 +4308,7 @@
         "fol_premise": null,
         "nat_conclusion": "The warehouse storing L is not next to the warehouse storing F.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_546",
@@ -4317,7 +4317,7 @@
         "fol_premise": null,
         "nat_conclusion": "J and O cannot be ranked together.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_547",
@@ -4326,7 +4326,7 @@
         "fol_premise": null,
         "nat_conclusion": "J must be ranked the next day.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_548",
@@ -4335,7 +4335,7 @@
         "fol_premise": null,
         "nat_conclusion": "G can't be on duty for two days.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_550",
@@ -4344,7 +4344,7 @@
         "fol_premise": null,
         "nat_conclusion": "L can be ranked on any day.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_551",
@@ -4353,7 +4353,7 @@
         "fol_premise": null,
         "nat_conclusion": "The interest in Aristotle ’s Poetics was obviously not shared by Arab poets.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_552",
@@ -4362,7 +4362,7 @@
         "fol_premise": null,
         "nat_conclusion": "Other countries are either facing the pressure of imported inflation or facing the risk of economic decline.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_553",
@@ -4371,7 +4371,7 @@
         "fol_premise": null,
         "nat_conclusion": "After Li Mingbo visited Dokdo, some people who did not support him now turned to support him.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_554",
@@ -4380,7 +4380,7 @@
         "fol_premise": null,
         "nat_conclusion": "So, don't hesitate anymore, choose to believe in the existence of God and live in a Christian way.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_555",
@@ -4389,7 +4389,7 @@
         "fol_premise": null,
         "nat_conclusion": "It uses a small sample that is not representative as evidence.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_556",
@@ -4398,7 +4398,7 @@
         "fol_premise": null,
         "nat_conclusion": "The scammers are too stupid and too undedicated.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_557",
@@ -4407,7 +4407,7 @@
         "fol_premise": null,
         "nat_conclusion": "character determines fate.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_558",
@@ -4416,7 +4416,7 @@
         "fol_premise": null,
         "nat_conclusion": "Most of the tax avoidance space created by complex taxes will be used by the rich, making progressive taxation less than the degree of progress required by the tax law, and its function of regulating distribution is also greatly weakened.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_559",
@@ -4425,7 +4425,7 @@
         "fol_premise": null,
         "nat_conclusion": "Amphibious warships are offensive forces, while Japan's \"Peace Constitution\" does not allow the SDF to develop offensive forces.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_560",
@@ -4434,7 +4434,7 @@
         "fol_premise": null,
         "nat_conclusion": "As long as there is killing, there must be business.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_561",
@@ -4443,7 +4443,7 @@
         "fol_premise": null,
         "nat_conclusion": "Inquiry is impossible.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_562",
@@ -4452,7 +4452,7 @@
         "fol_premise": null,
         "nat_conclusion": "In order to make your credit card more secure, you should not set a password.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_563",
@@ -4461,7 +4461,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some sensitive and imaginative writers have not received college education.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_564",
@@ -4470,7 +4470,7 @@
         "fol_premise": null,
         "nat_conclusion": "Consumers often judge the quality of wine based on the price of wine.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_565",
@@ -4479,7 +4479,7 @@
         "fol_premise": null,
         "nat_conclusion": "The statement 'If certain behaviors that hurt public feelings are carried out publicly, they will not be accompanied by guilt' is false.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_566",
@@ -4488,7 +4488,7 @@
         "fol_premise": null,
         "nat_conclusion": "The fertilizer A led to the first greenhouse with a higher yield of eggplant.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_567",
@@ -4497,7 +4497,7 @@
         "fol_premise": null,
         "nat_conclusion": "The students who performed well were satisfied with the evaluation system.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_568",
@@ -4506,7 +4506,7 @@
         "fol_premise": null,
         "nat_conclusion": "If you want to rejuvenate the Far East without relying on your own strength, Russia will face the question that the region may be \"alienated\" by foreign immigrants.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_569",
@@ -4515,7 +4515,7 @@
         "fol_premise": null,
         "nat_conclusion": "It is not possible to classify an organism just because it has similar physical characteristics as members of a certain type of organism.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_572",
@@ -4524,7 +4524,7 @@
         "fol_premise": null,
         "nat_conclusion": "Music training, especially music training from an early age, can cause some changes in brain structure.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_573",
@@ -4533,7 +4533,7 @@
         "fol_premise": null,
         "nat_conclusion": "The appeals before and after failed several times.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_574",
@@ -4542,7 +4542,7 @@
         "fol_premise": null,
         "nat_conclusion": "The businesses that insurance companies are fighting for are strong compulsory insurance because commercial auto insurance is lucrative and car owners usually do not insure compulsory insurance and commercial auto insurance separately.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_576",
@@ -4551,7 +4551,7 @@
         "fol_premise": null,
         "nat_conclusion": "The expert's explanation is based on the unproven assumption that the spending power of working seniors is significantly higher than that of retired peers.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_577",
@@ -4560,7 +4560,7 @@
         "fol_premise": null,
         "nat_conclusion": "China's photovoltaic industry purchases a lot of raw materials and equipment from Europe, which has driven the development of a large number of photovoltaic upstream and downstream companies in the EU.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_579",
@@ -4569,7 +4569,7 @@
         "fol_premise": null,
         "nat_conclusion": "Fires caused by smoking in bed usually occur after the homeowner falls asleep does not help explain the inconsistency.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_580",
@@ -4578,7 +4578,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some stories that use symbolic techniques describe phenomena that violate the laws of nature.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_581",
@@ -4587,7 +4587,7 @@
         "fol_premise": null,
         "nat_conclusion": "The current international prices of corn and soybeans and domestic prices in the United States have skyrocketed.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_582",
@@ -4596,7 +4596,7 @@
         "fol_premise": null,
         "nat_conclusion": "Half of the country is not dry and hot.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_583",
@@ -4605,7 +4605,7 @@
         "fol_premise": null,
         "nat_conclusion": "Whether the sales of each branch company sets an annual sales record is only the result of the company's self-comparison, and does not need to be compared with other branch companies.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_584",
@@ -4614,7 +4614,7 @@
         "fol_premise": null,
         "nat_conclusion": "It can be expected that once this technology is put into commercial operation, the attitude of enterprises towards sewage treatment will become proactive, thereby reducing the environmental pollution caused by sewage discharge.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_585",
@@ -4623,7 +4623,7 @@
         "fol_premise": null,
         "nat_conclusion": "Many people who drink before driving have difficulties in following the advertising recommendations.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_586",
@@ -4632,7 +4632,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some patients do not believe that the treatment will be effective, although they have been treated normally, their condition has worsened, and this does not support the above explanation.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_587",
@@ -4641,7 +4641,7 @@
         "fol_premise": null,
         "nat_conclusion": "Strict gun control does not help reduce violent crime.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_589",
@@ -4650,7 +4650,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some health products are necessary for some people to take.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_590",
@@ -4659,7 +4659,7 @@
         "fol_premise": null,
         "nat_conclusion": "Anda Taxi has more standardized management and higher service quality than Kaihua Taxi.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_591",
@@ -4668,7 +4668,7 @@
         "fol_premise": null,
         "nat_conclusion": "G, F, H, K, L, J, M can be the order of recording these 7 records from 1 to 7.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_592",
@@ -4677,7 +4677,7 @@
         "fol_premise": null,
         "nat_conclusion": "H is either in front of F or immediately after F.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_593",
@@ -4686,7 +4686,7 @@
         "fol_premise": null,
         "nat_conclusion": "G, H, J, K are the records that can be recorded first.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_594",
@@ -4695,7 +4695,7 @@
         "fol_premise": null,
         "nat_conclusion": "The earliest position for recording M is fourth.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_595",
@@ -4704,7 +4704,7 @@
         "fol_premise": null,
         "nat_conclusion": "J immediately behind K cannot be true.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_596",
@@ -4713,7 +4713,7 @@
         "fol_premise": null,
         "nat_conclusion": "M, U, W are the students going to the UK.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_597",
@@ -4722,7 +4722,7 @@
         "fol_premise": null,
         "nat_conclusion": "H and W cannot go to the US together.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_599",
@@ -4731,7 +4731,7 @@
         "fol_premise": null,
         "nat_conclusion": "L and U both go to America.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_600",
@@ -4740,7 +4740,7 @@
         "fol_premise": null,
         "nat_conclusion": "L go to America.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_601",
@@ -4749,7 +4749,7 @@
         "fol_premise": null,
         "nat_conclusion": "If there is no famous teacher to guide the way, only by reading thousands of books and walking thousands of miles, he still can not understand.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_602",
@@ -4758,7 +4758,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some people will say that Einstein is German.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_603",
@@ -4767,7 +4767,7 @@
         "fol_premise": null,
         "nat_conclusion": "Even cancer patients should not go to the hospital for treatment, because going to the hospital will increase the risk of death.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_604",
@@ -4776,7 +4776,7 @@
         "fol_premise": null,
         "nat_conclusion": "With knowledge, fate changes from bad to good, and without knowledge, fate changes from good to bad.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_605",
@@ -4785,7 +4785,7 @@
         "fol_premise": null,
         "nat_conclusion": "Some knowledgeable teachers are serious and unsympathetic.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_606",
@@ -4794,7 +4794,7 @@
         "fol_premise": null,
         "nat_conclusion": "In country A, the commercial implementation of an eavesdropping device is prohibited by law, so it is not allowed to grant its patent rights.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_607",
@@ -4803,7 +4803,7 @@
         "fol_premise": null,
         "nat_conclusion": "Ma Ying-jeou will say something ambiguous.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_608",
@@ -4812,7 +4812,7 @@
         "fol_premise": null,
         "nat_conclusion": "If a good conductor thinks that additional rehearsals are necessary, first-rate bands are always ready to work overtime.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_609",
@@ -4821,7 +4821,7 @@
         "fol_premise": null,
         "nat_conclusion": "The Wenzhou motor vehicle accident shows that there is a loophole in the management of the railway department.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_610",
@@ -4830,7 +4830,7 @@
         "fol_premise": null,
         "nat_conclusion": "Fat people regularly exercise in addition to drinking beer.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_611",
@@ -4839,7 +4839,7 @@
         "fol_premise": null,
         "nat_conclusion": "China has current international influence because China has undertaken investment risks.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_612",
@@ -4848,7 +4848,7 @@
         "fol_premise": null,
         "nat_conclusion": "The national standard of an industry is too high, which is not conducive to the healthy development of the industry.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_613",
@@ -4857,7 +4857,7 @@
         "fol_premise": null,
         "nat_conclusion": "One thing happened after he prayed does not mean that it happened because he prayed.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_614",
@@ -4866,7 +4866,7 @@
         "fol_premise": null,
         "nat_conclusion": "Compared with the bonds of the European Union, Japan and other countries, US Treasuries are still relatively safe and liquid investment products.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_615",
@@ -4875,7 +4875,7 @@
         "fol_premise": null,
         "nat_conclusion": "Nozick believes that only life that lives for itself is a complete life.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_617",
@@ -4884,7 +4884,7 @@
         "fol_premise": null,
         "nat_conclusion": "The expert's view that China's control over its main food crops may be threatened is most strongly supported.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_618",
@@ -4893,7 +4893,7 @@
         "fol_premise": null,
         "nat_conclusion": "We can choose to eat seasonal vegetables or anti-seasonal vegetables.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_620",
@@ -4902,7 +4902,7 @@
         "fol_premise": null,
         "nat_conclusion": "Mrs. Wang was crossing the road guardrail in violation of the regulations.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_621",
@@ -4911,7 +4911,7 @@
         "fol_premise": null,
         "nat_conclusion": "When the object under study changes, the factor that changes synchronously is likely to be the cause of this phenomenon.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_623",
@@ -4920,7 +4920,7 @@
         "fol_premise": null,
         "nat_conclusion": "The United States will ignite anti-American sentiment in the Arab world, or Obama will lose some voters who support Israel.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_624",
@@ -4929,7 +4929,7 @@
         "fol_premise": null,
         "nat_conclusion": "When deciding whether to fund startups, venture capitalists must consider the personal qualities of the entrepreneur, the company ’s strategic planning and other factors.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_625",
@@ -4938,7 +4938,7 @@
         "fol_premise": null,
         "nat_conclusion": "Even if a country or nation is not open and inclusive, it can develop and progress.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_626",
@@ -4947,7 +4947,7 @@
         "fol_premise": null,
         "nat_conclusion": "Human activities led to the extinction of these animals as early as 12,000 years ago, contrary to the myth that humans lived in peace with other creatures in nature.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_627",
@@ -4956,7 +4956,7 @@
         "fol_premise": null,
         "nat_conclusion": "Compared with now, people 50 years ago prefer to borrow books from the library.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_628",
@@ -4965,7 +4965,7 @@
         "fol_premise": null,
         "nat_conclusion": "Individual heterogeneous thinkers are paranoid, whose words and deeds are almost crazy, and should be strictly controlled.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_629",
@@ -4974,7 +4974,7 @@
         "fol_premise": null,
         "nat_conclusion": "If there is no seasonal promotion in a month, there must be a holiday promotion this month.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_630",
@@ -4983,7 +4983,7 @@
         "fol_premise": null,
         "nat_conclusion": "There is a correlation between the pre-school class and the comprehensive ability before elementary school entrance.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_631",
@@ -4992,7 +4992,7 @@
         "fol_premise": null,
         "nat_conclusion": "China's rare earth reserves accounted for 36% of the national reserves and its output accounted for 97% of world output, while the United States, Russia, and Australia accounted for 13%, 19%, and 5.4% of reserves respectively and had zero output.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_633",
@@ -5001,7 +5001,7 @@
         "fol_premise": null,
         "nat_conclusion": "On March 16, 2011, the State Council of China decided to conduct a comprehensive inspection of nuclear facilities and suspend approval of nuclear power projects can best explain the above anomalies.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_634",
@@ -5010,7 +5010,7 @@
         "fol_premise": null,
         "nat_conclusion": "The company is very interested in how to grasp its consumer groups in a more precise way.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_635",
@@ -5019,7 +5019,7 @@
         "fol_premise": null,
         "nat_conclusion": "If it does not damage the peasants 'rights and interests for survival, it will infringe on the peasants' rights and interests in assets.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_636",
@@ -5028,7 +5028,7 @@
         "fol_premise": null,
         "nat_conclusion": "Aviation fuel is a petroleum derivative.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_637",
@@ -5037,7 +5037,7 @@
         "fol_premise": null,
         "nat_conclusion": "The United States, Japan, India and other countries took the opportunity of China’s aircraft carrier trial flight to stir up new \"China threat theory\".",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_638",
@@ -5046,7 +5046,7 @@
         "fol_premise": null,
         "nat_conclusion": "movement cannot be absolute.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_640",
@@ -5055,7 +5055,7 @@
         "fol_premise": null,
         "nat_conclusion": "Y classmate is shorter than J classmate.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_641",
@@ -5064,7 +5064,7 @@
         "fol_premise": null,
         "nat_conclusion": "The plays that can be scheduled for the seventh week are O, R, S.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_642",
@@ -5073,7 +5073,7 @@
         "fol_premise": null,
         "nat_conclusion": "F is scheduled a week after K.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_643",
@@ -5082,7 +5082,7 @@
         "fol_premise": null,
         "nat_conclusion": "The alternative arrangements are types.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_644",
@@ -5091,7 +5091,7 @@
         "fol_premise": null,
         "nat_conclusion": "R must be scheduled for the seventh week.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_645",
@@ -5100,7 +5100,7 @@
         "fol_premise": null,
         "nat_conclusion": "K is scheduled a week before G.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_647",
@@ -5109,7 +5109,7 @@
         "fol_premise": null,
         "nat_conclusion": "I and Y are the two people who must be members of the committee in the second year.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_648",
@@ -5118,7 +5118,7 @@
         "fol_premise": null,
         "nat_conclusion": "F can be chairman in the second year.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_649",
@@ -5127,7 +5127,7 @@
         "fol_premise": null,
         "nat_conclusion": "If F is a member of the committee in a certain year, G cannot be a member of the committee that year.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     },
     {
         "story_id": "logiqa_test_650",
@@ -5136,6 +5136,6 @@
         "fol_premise": null,
         "nat_conclusion": "Z was a member of the committee the following year.",
         "fol_conclusion": null,
-        "label": "true"
+        "label": "True"
     }
 ]
