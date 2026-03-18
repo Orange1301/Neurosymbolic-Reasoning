@@ -1,7 +1,7 @@
 [
     {
         "id": "folio_valid_0",
-        "story_id": 426,
+        "story_id": "folio_426",
         "nat_premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
         "nat_conclusion": "James has lunch in the company.",
         "fol_premises": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))",
@@ -10,7 +10,7 @@
     },
     {
         "id": "folio_valid_1",
-        "story_id": 426,
+        "story_id": "folio_426",
         "nat_premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
         "nat_conclusion": "James does not have lunch in the company.",
         "fol_premises": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))",
@@ -19,7 +19,7 @@
     },
     {
         "id": "folio_valid_2",
-        "story_id": 426,
+        "story_id": "folio_426",
         "nat_premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
         "nat_conclusion": "If James is either a manager or in other countries,  then James does not either has lunch at home or work remotely from home. If James either has lunch at home or works remotely from home, then he is neither a manager nor does he work in other countries. [contrapositive is more natural]",
         "fol_premises": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))",
@@ -28,7 +28,7 @@
     },
     {
         "id": "folio_valid_3",
-        "story_id": 198,
+        "story_id": "folio_198",
         "nat_premises": "When the Monkeypox virus occurs in a being, it may get Monkeypox. Monkeypox virus can occur in certain animals.Humans are mammals.Mammals are animals.Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness. People feel tired when they get the flu.",
         "nat_conclusion": "There is an animal.",
         "fol_premises": "∃x (OccurIn(monkeypoxVirus, x) ∧ Get(x, monkeypoxVirus))\n∃x (Animal(x) ∧ OccurIn(monkeypoxVirus, x))\n∀x (Human(x) → Mammal(x))\n∀x (Mammal(x) → Animal(x))\n∃x (SymptonOf(x, monkeypoxVirus) ∧ (Fever(x) ∨ Headache(x) ∨ MusclePain(x) ∨ Tired(x)))\n∀x (Human(x) ∧ Get(x, flu) → Feel(x, tired))",
@@ -37,7 +37,7 @@
     },
     {
         "id": "folio_valid_4",
-        "story_id": 198,
+        "story_id": "folio_198",
         "nat_premises": "When the Monkeypox virus occurs in a being, it may get Monkeypox. Monkeypox virus can occur in certain animals.Humans are mammals.Mammals are animals.Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness. People feel tired when they get the flu.",
         "nat_conclusion": "No one gets the flu.",
         "fol_premises": "∃x (OccurIn(monkeypoxVirus, x) ∧ Get(x, monkeypoxVirus))\n∃x (Animal(x) ∧ OccurIn(monkeypoxVirus, x))\n∀x (Human(x) → Mammal(x))\n∀x (Mammal(x) → Animal(x))\n∃x (SymptonOf(x, monkeypoxVirus) ∧ (Fever(x) ∨ Headache(x) ∨ MusclePain(x) ∨ Tired(x)))\n∀x (Human(x) ∧ Get(x, flu) → Feel(x, tired))",
@@ -46,7 +46,7 @@
     },
     {
         "id": "folio_valid_5",
-        "story_id": 198,
+        "story_id": "folio_198",
         "nat_premises": "When the Monkeypox virus occurs in a being, it may get Monkeypox. Monkeypox virus can occur in certain animals.Humans are mammals.Mammals are animals.Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness. People feel tired when they get the flu.",
         "nat_conclusion": "Symptoms of Monkeypox include coughing.",
         "fol_premises": "∃x (OccurIn(monkeypoxVirus, x) ∧ Get(x, monkeypoxVirus))\n∃x (Animal(x) ∧ OccurIn(monkeypoxVirus, x))\n∀x (Human(x) → Mammal(x))\n∀x (Mammal(x) → Animal(x))\n∃x (SymptonOf(x, monkeypoxVirus) ∧ (Fever(x) ∨ Headache(x) ∨ MusclePain(x) ∨ Tired(x)))\n∀x (Human(x) ∧ Get(x, flu) → Feel(x, tired))",
@@ -55,7 +55,7 @@
     },
     {
         "id": "folio_valid_7",
-        "story_id": 20,
+        "story_id": "folio_20",
         "nat_premises": "A Japanese game company created the game the Legend of Zelda.All games on the Top 10 list are made by Japanese game companies.If a game sells more than one million copies, then it will be included in the Top 10 list.The Legend of Zelda sold more than one million copies.",
         "nat_conclusion": "FIFA 22 is made by a Japanese video game company.",
         "fol_premises": "Game(theLegendofZelda) ∧ ∃x (Japanese(x) ∧ VideoGameCompany(x) ∧ Created(x, theLegendofZelda))\n∀x ∀y ((Game(x) ∧ InTop10(x) ∧ Created(y,x)) → Japanese(y))\n∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x))\n∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(theLegendofZelda,y))",
@@ -64,7 +64,7 @@
     },
     {
         "id": "folio_valid_8",
-        "story_id": 20,
+        "story_id": "folio_20",
         "nat_premises": "A Japanese game company created the game the Legend of Zelda.All games on the Top 10 list are made by Japanese game companies.If a game sells more than one million copies, then it will be included in the Top 10 list.The Legend of Zelda sold more than one million copies.",
         "nat_conclusion": "The Legend of Zelda is not on the Top 10 list.",
         "fol_premises": "Game(theLegendOfZelda) ∧ ∃x (Japanese(x) ∧ VideoGameCompany(x) ∧ CreatedBy(theLegendOfZelda, x))\n∀x ∀y (Game(x) ∧ Top10(x) ∧ CreatedBy(x, y) → Japanese(y))\n∀x (Game(x) ∧ ∃y (GreaterThan(y, oneMillion) ∧ CopiesSold(x, y)) → Top10(x))\n∃y (GreaterThan(y, oneMillion) ∧ CopiesSold(theLegendOfZelda, y))",
@@ -73,7 +73,7 @@
     },
     {
         "id": "folio_valid_9",
-        "story_id": 232,
+        "story_id": "folio_232",
         "nat_premises": "Beijing is the capital of the People's Republic of China. Beijing is the capital city of the world's most populous nation.Beijing is located in Northern China.Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.Many of Beijing's 91 universities consistently rank among the best universities in the world.",
         "nat_conclusion": "Beijing hosted both the 2008 Summer Olympics and the Winter Olympics.",
         "fol_premises": "CapitalOf(beijing, peoplesRepublicOfChina)\n∃x (CapitalOf(beijing, x) → WorldsMostPopulousNation(x))\nLocatedIn(beijing, northernChina)\nHosted(beijing, 2008SummerOlympics) ∧ Hosted(beijing, 2008SummerParalympicGames)\nHosted(beijing, summerOlympics) ∧ Hosted(beijing, winterOlympics) ∧ Hosted(beijing, summerParalympicGames)  ∧ Hosted(beijing, winterParalympicGames)\n∃x (University(x) ∧ InBeijing(x) ∧ ConsistentlyRankAmongTheBestIn(x, theWorld))",
@@ -82,7 +82,7 @@
     },
     {
         "id": "folio_valid_10",
-        "story_id": 232,
+        "story_id": "folio_232",
         "nat_premises": "Beijing is the capital of the People's Republic of China. Beijing is the capital city of the world's most populous nation.Beijing is located in Northern China.Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.Many of Beijing's 91 universities consistently rank among the best universities in the world.",
         "nat_conclusion": "Beijing is located in southern China.",
         "fol_premises": "CapitalOf(beijing, peoplesRepublicOfChina)\n∃x (CapitalOf(beijing, x) → WorldsMostPopulousNation(x))\nLocatedIn(beijing, northernChina)\nHosted(beijing, 2008SummerOlympics) ∧ Hosted(beijing, 2008SummerParalympicGames)\nHosted(beijing, summerOlympics) ∧ Hosted(beijing, winterOlympics) ∧ Hosted(beijing, summerParalympicGames)  ∧ Hosted(beijing, winterParalympicGames)\n∃x (University(x) ∧ InBeijing(x) ∧ ConsistentlyRankAmongTheBestIn(x, theWorld))",
@@ -91,7 +91,7 @@
     },
     {
         "id": "folio_valid_11",
-        "story_id": 232,
+        "story_id": "folio_232",
         "nat_premises": "Beijing is the capital of the People's Republic of China. Beijing is the capital city of the world's most populous nation.Beijing is located in Northern China.Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.Many of Beijing's 91 universities consistently rank among the best universities in the world.",
         "nat_conclusion": "Beijing is the second largest Chinese city.",
         "fol_premises": "CapitalOf(beijing, peoplesRepublicOfChina)\n∃x (CapitalOf(beijing, x) → WorldsMostPopulousNation(x))\nLocatedIn(beijing, northernChina)\nHosted(beijing, 2008SummerOlympics) ∧ Hosted(beijing, 2008SummerParalympicGames)\nHosted(beijing, summerOlympics) ∧ Hosted(beijing, winterOlympics) ∧ Hosted(beijing, summerParalympicGames)  ∧ Hosted(beijing, winterParalympicGames)\n∃x (University(x) ∧ InBeijing(x) ∧ ConsistentlyRankAmongTheBestIn(x, theWorld))",
@@ -100,7 +100,7 @@
     },
     {
         "id": "folio_valid_12",
-        "story_id": 96,
+        "story_id": "folio_96",
         "nat_premises": "Diamond Mine is a professional wrestling stable formed in WWE.Roderick Strong leads Diamond Mine.Diamond Mine includes the Creed Brothers and Ivy Nile.Imperium has a feud with Diamond Mine.",
         "nat_conclusion": "Roderick Strong leads a professional wrestling stable.",
         "fol_premises": "ProfessionalWrestlingStable(diamondMine) ∧ In(diamondMine, wwe)\nLeads(roderickStrong, diamondMine)\nIncludes(diamondMine, creedBrothers) ∧ Includes(diamondMine, ivyNile)\nFeuds(imperium, diamondMine)",
@@ -109,7 +109,7 @@
     },
     {
         "id": "folio_valid_13",
-        "story_id": 96,
+        "story_id": "folio_96",
         "nat_premises": "Diamond Mine is a professional wrestling stable formed in WWE.Roderick Strong leads Diamond Mine.Diamond Mine includes the Creed Brothers and Ivy Nile.Imperium has a feud with Diamond Mine.",
         "nat_conclusion": "Roderick Strong leads the Creed Brothers_",
         "fol_premises": "ProfessionalWrestlingStable(diamondMine) ∧ In(diamondMine, wWE)\nLeads(roderickStrong, diamondMine)\nIncludes(diamondMine, creedBrothers) ∧ Includes(diamondMine, ivyNile)\nFeuds(imperium, diamondMine)",
@@ -118,7 +118,7 @@
     },
     {
         "id": "folio_valid_14",
-        "story_id": 96,
+        "story_id": "folio_96",
         "nat_premises": "Diamond Mine is a professional wrestling stable formed in WWE.Roderick Strong leads Diamond Mine.Diamond Mine includes the Creed Brothers and Ivy Nile.Imperium has a feud with Diamond Mine.",
         "nat_conclusion": "Imperium doesn't have a feud with a professional wrestling stable that includes Ivy Nile.",
         "fol_premises": "ProfessionalWrestlingStable(diamondMine) ∧ In(diamondMine, wwe)\nLeads(roderickStrong, diamondMine)\nIncludes(diamondMine, creedBrothers) ∧ Includes(diamondMine, ivyNile)\nFeuds(imperium, diamondMine)",
@@ -127,7 +127,7 @@
     },
     {
         "id": "folio_valid_15",
-        "story_id": 219,
+        "story_id": "folio_219",
         "nat_premises": "Symphony No. 9 is a music piece.Composers write music pieces.Beethoven wrote Symphony No. 9.Vienna Music Society premiered Symphony No. 9.Vienna Music Society is an orchestra.Beethoven leads the Vienna Music Society.Orchestras are led by conductors_",
         "nat_conclusion": "Beethoven is a composer.",
         "fol_premises": "MusicPiece(symphony9)\n∀x ∀y (MusicPiece(x) ∧ Write(y, x) → Composer(y))\nWrite(beethoven, symphony9)\nPremiered(viennaMusicSociety, symphony9)\nOrchestra(viennaMusicSociety)\nLead(beethoven, viennaMusicSociety)\n∀x ∀y (Orchestra(x) ∧ Lead(y, x) → Conductor(y))",
@@ -136,7 +136,7 @@
     },
     {
         "id": "folio_valid_16",
-        "story_id": 219,
+        "story_id": "folio_219",
         "nat_premises": "Symphony No. 9 is a music piece.Composers write music pieces.Beethoven wrote Symphony No. 9.Vienna Music Society premiered Symphony No. 9.Vienna Music Society is an orchestra.Beethoven leads the Vienna Music Society.Orchestras are led by conductors_",
         "nat_conclusion": "Some orchestras premiered music pieces.",
         "fol_premises": "MusicPiece(symphony9)\n∀x (MusicPiece(x) → ∃y (Composer(y) ∧ Write(y, x)))\nWrittenby(symphony9, beethoven)\nPremiered(viennaMusicSociety, symphony9)\nOrchestra(viennaMusicSociety)\nLead(beethoven, viennaMusicSociety)\n∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))",
@@ -145,7 +145,7 @@
     },
     {
         "id": "folio_valid_17",
-        "story_id": 219,
+        "story_id": "folio_219",
         "nat_premises": "Symphony No. 9 is a music piece.Composers write music pieces.Beethoven wrote Symphony No. 9.Vienna Music Society premiered Symphony No. 9.Vienna Music Society is an orchestra.Beethoven leads the Vienna Music Society.Orchestras are led by conductors_",
         "nat_conclusion": "Beethoven is not a conductor.",
         "fol_premises": "MusicPiece(symphony9)\n∀x ∀y (MusicPiece(x) ∧ Write(y, x) → Composer(y))\nWrite(beethoven, symphony9)\nPremiered(viennaMusicSociety, symphony9)\nOrchestra(viennaMusicSociety)\nLead(beethoven, viennaMusicSociety)\n∀x ∀y (Orchestra(x) ∧ Lead(y, x) → Conductor(y))",
@@ -154,7 +154,7 @@
     },
     {
         "id": "folio_valid_18",
-        "story_id": 350,
+        "story_id": "folio_350",
         "nat_premises": "All of Zaha Hadid's design styles that Max adores have interesting geometries.No brutalist buildings that Max adores have interesting geometries.Every style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. All of Kelly Wearstler's design styles that Max adores are evocative.All of Kelly Wearstler's design styles that Max adores are dreamy.If a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.",
         "nat_conclusion": "A design by Max is a brutalist building.",
         "fol_premises": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ((ZahaHadid(x) ∧ DesignStyle(x)) ⊕ (KellyWearstler(x) ∧ DesignStyle(x))))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∃x (Adore(max, x) ∧ Design(x) ∧ ByMax(x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))",
@@ -163,7 +163,7 @@
     },
     {
         "id": "folio_valid_19",
-        "story_id": 350,
+        "story_id": "folio_350",
         "nat_premises": "All of Zaha Hadid's design styles that Max adores have interesting geometries.No brutalist buildings that Max adores have interesting geometries.Every style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. All of Kelly Wearstler's design styles that Max adores are evocative.All of Kelly Wearstler's design styles that Max adores are dreamy.If a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.",
         "nat_conclusion": "A design by Max is evocative and dreamy.",
         "fol_premises": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ¬((ZahaHadid(x) ∧ DesignStyle(x)) ↔ (KellyWearstler(x) ∧ DesignStyle(x))))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∀x (Design(x) ∧ ByMax(x) ∧ Adore(max, x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))",
@@ -172,7 +172,7 @@
     },
     {
         "id": "folio_valid_20",
-        "story_id": 350,
+        "story_id": "folio_350",
         "nat_premises": "All of Zaha Hadid's design styles that Max adores have interesting geometries.No brutalist buildings that Max adores have interesting geometries.Every style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. All of Kelly Wearstler's design styles that Max adores are evocative.All of Kelly Wearstler's design styles that Max adores are dreamy.If a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.",
         "nat_conclusion": "A design by Max is either evocative or dreamy.",
         "fol_premises": "∀x (Adore(max, x) ∧ ZahaHadid(x) ∧ DesignStyle(x) → InterestingGeometry(x))\n∀x (Adore(max, x) ∧ BrutalistBuilding(x) → ¬InterestingGeometry(x))\n∀x (Adore(max, x) → ((ZahaHadid(x) ∧ DesignStyle(x)) ⊕ (KellyWearstler(x) ∧ DesignStyle(x))))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Evocative(x))\n∀x (Adore(max, x) ∧ KellyWearstler(x) ∧ DesignStyle(x) → Dreamy(x))\n∃x (Adore(max, x) ∧ Design(x) ∧ ByMax(x) ∧ InterestingGeometry(x) → BrutalistBuilding(x) ∧ Evocative(x))",
@@ -181,7 +181,7 @@
     },
     {
         "id": "folio_valid_21",
-        "story_id": 385,
+        "story_id": "folio_385",
         "nat_premises": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. Everyone who lost to Iga swiatek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.All female tennis players at Roland Garros 2022 lost to Iga swiatek.All tennis players at Roland Garros 2022 are either female or male.All male tennis players at Roland Garros in 2022 lost to Rafael Nadal.If Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.Coco Gauff is at Roland Garros 2022.",
         "nat_conclusion": "Coco Gauff is among the most active Grand-Slam players_",
         "fol_premises": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, swiatek) ∧  At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (FemaleTennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, swiatek) ∧  At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → (Female(x) ∧ TennisPlayer(x)) ⊕ (Male(x) ∧ TennisPlayer(x)))\n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, swiatek) ∧ At(x, rolandGarros2022))\nRankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ (LostTo(cocoGauff, swiatek) ∧ LostAt(cocoGauff, rolandGarros2022)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ AtRolandGarros2022(cocoGauff))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)",
@@ -190,7 +190,7 @@
     },
     {
         "id": "folio_valid_22",
-        "story_id": 385,
+        "story_id": "folio_385",
         "nat_premises": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. Everyone who lost to Iga swiatek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.All female tennis players at Roland Garros 2022 lost to Iga swiatek.All tennis players at Roland Garros 2022 are either female or male.All male tennis players at Roland Garros in 2022 lost to Rafael Nadal.If Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.Coco Gauff is at Roland Garros 2022.",
         "nat_conclusion": "Coco Gauff has lost to Rafael Nadal.",
         "fol_premises": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, swiatek) ∧ At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (Female(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, swiatek) ∧ At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → ¬((Female(x) ∧ TennisPlayer(x)) ↔ (Male(x) ∧ TennisPlayer(x))))\n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, rafaelNadal))\n(RankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ LostTo(cocoGauff, rafaelNadal)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)",
@@ -199,7 +199,7 @@
     },
     {
         "id": "folio_valid_23",
-        "story_id": 385,
+        "story_id": "folio_385",
         "nat_premises": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. Everyone who lost to Iga swiatek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.All female tennis players at Roland Garros 2022 lost to Iga swiatek.All tennis players at Roland Garros 2022 are either female or male.All male tennis players at Roland Garros in 2022 lost to Rafael Nadal.If Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.Coco Gauff is at Roland Garros 2022.",
         "nat_conclusion": "Coco Gauff is not both a player who lost to Iga swiatek at Roland Garros 2022 and one of the most active players in major tennis.",
         "fol_premises": "∀x (RankedHighlyBy(x, womensTennisAssociation) → MostActivePlayerIn(x, majorTennis))\n∀x (LostTo(x, swiatek) ∧  At(x, rolandGarros2022) → RankedHighlyBy(x, womensTennisAssociation))\n∀x (FemaleTennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, swiatek) ∧  At(x, rolandGarros2022))\n∀x (TennisPlayer(x) ∧ At(x, rolandGarros2022) → (Female(x) ∧ TennisPlayer(x)) ⊕ (Male(x) ∧ TennisPlayer(x)))\n∀x (Male(x) ∧ TennisPlayer(x) ∧ At(x, rolandGarros2022) → LostTo(x, swiatek) ∧ At(x, rolandGarros2022))\nRankedHighlyBy(cocoGauff, womensTennisAssociation) ∨ (LostTo(cocoGauff, swiatek) ∧ LostAt(cocoGauff, rolandGarros2022)) → ¬(Male(cocoGauff) ∧ TennisPlayer(cocoGauff) ∧ AtRolandGarros2022(cocoGauff))\nTennisPlayer(cocoGauff) ∧ At(cocoGauff, rolandGarros2022)",
@@ -208,7 +208,7 @@
     },
     {
         "id": "folio_valid_24",
-        "story_id": 256,
+        "story_id": "folio_256",
         "nat_premises": "All cats are mammals.Some pets are not mammals.",
         "nat_conclusion": "No pets are cats.",
         "fol_premises": "∀x (Cat(x) → Mammal(x))\n∃x (Pet(x) ∧ ¬Mammal(x))",
@@ -217,7 +217,7 @@
     },
     {
         "id": "folio_valid_25",
-        "story_id": 159,
+        "story_id": "folio_159",
         "nat_premises": "There are four seasons in a year: Spring, Summer, Fall, and Winter.All students who want to have a long vacation have summer as their favorite season.Emma's favorite season is summer.Mia's favorite season is not the same as Emma's. James wants to have a long vacation.",
         "nat_conclusion": "James's favorite season is summer.",
         "fol_premises": "Season(spring) ∧ Season(summer) ∧ Season(fall) ∧ Season(winter) ∧ ∀x (Season(x) → (x=spring ∨ x=summer ∨ x=fall ∨ x=winter))\n∀x (Want(x, longVacation) → Favorite(x, summer))\nFavorite(emma, summer)\n∀x (Season(x) ∧ Favorite(emma, x) → ¬Favorite(mia, x))\nWant(james, longVacation)",
@@ -226,7 +226,7 @@
     },
     {
         "id": "folio_valid_26",
-        "story_id": 159,
+        "story_id": "folio_159",
         "nat_premises": "There are four seasons in a year: Spring, Summer, Fall, and Winter.All students who want to have a long vacation have summer as their favorite season.Emma's favorite season is summer.Mia's favorite season is not the same as Emma's. James wants to have a long vacation.",
         "nat_conclusion": "Mia's favorite season is spring.",
         "fol_premises": "Season(spring) ∨ Season(summer) ∨ Season(fall) ∨ Season(winter) ∧ (Season(spring) → ¬Season(summer) ∧ ¬Season(fall) ∧ ¬Season(winter)) ∧ (Season(summer) → ¬Season(spring) ∧ ¬Season(fall) ∧ ¬Season(winter)) ∧ (Season(fall) → ¬Season(spring) ∧ ¬Season(summer) ∧ ¬Season(winter)) ∧ (Season(winter) → ¬Season(spring) ∧ ¬Season(summer) ∧ ¬Season(fall))\n∀x (Want(x, longvacation) → Favorite(x, summer))\nFavorite(emma, summer)\n∀x ∀y (Season(x) ∧ Season(y) ∧ Favorite(mia, x) ∧ Favorite(emma, y) → ¬(x=y))\nWant(james, longVacation)",
@@ -235,7 +235,7 @@
     },
     {
         "id": "folio_valid_28",
-        "story_id": 2,
+        "story_id": "folio_2",
         "nat_premises": "Billings is a city in the state of Montana in U.S.The state of Montana includes the cities of Butte, Helena, and Missoula.White Sulphur Springs and Butte are cities in the same state in U.S.The city of St Pierre is not in the state of Montana.Any city in Butte is not in St Pierre.A city can only be in one state in U.S.  except for Bristol, Texarkana, Texhoma and Union City.",
         "nat_conclusion": "St Pierre and Bismarck are in the same state.",
         "fol_premises": "City(billings) ∧ In(billings, montana)\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana)\n∃x (City(whitesulphursprings) ∧ In(whitesulphursprings, x) ∧ City(butte) ∧ In(butte, x))\nCity(pierre) ∧ ¬(In(pierre, montana))\n∀x ((City(x) ∧ City(butte) ∧ In(x, butte)) → ¬(In(x, pierre)))\n∀x ∃y ((City(x) ∧ (In(x, y) ∧ ¬(x=bristol) ∧ ¬(x=texarkana) ∧ ¬(x=texhoma) ∧ ¬(x=unionCity)) → ¬∃z (¬(z=y) ∧ In(x, z))))",
@@ -244,7 +244,7 @@
     },
     {
         "id": "folio_valid_29",
-        "story_id": 2,
+        "story_id": "folio_2",
         "nat_premises": "Billings is a city in the state of Montana in U.S.The state of Montana includes the cities of Butte, Helena, and Missoula.White Sulphur Springs and Butte are cities in the same state in U.S.The city of St Pierre is not in the state of Montana.Any city in Butte is not in St Pierre.A city can only be in one state in U.S.  except for Bristol, Texarkana, Texhoma and Union City.",
         "nat_conclusion": "Montana is home to the city of Missoula.",
         "fol_premises": "City(billings) ∧ In(billings, montana)\nCity(butte) ∧ In(butte, montana) ∧ City(helena) ∧ In(helena, montana) ∧ City(missoula) ∧ In(missoula, montana)\n∃x (City(whitesulphursprings) ∧ In(whitesulphursprings, x) ∧ City(butte) ∧ In(butte, x))\nCity(pierre) ∧ ¬(In(pierre, montana))\n∀x ((City(x) ∧ City(butte) ∧ In(x, butte)) → ¬(In(x, pierre)))\n∀x ∃y ((City(x) ∧ (In(x, y) ∧ ¬(x=bristol) ∧ ¬(x=texarkana) ∧ ¬(x=texhoma) ∧ ¬(x=unionCity)) → ¬∃z (¬(z=y) ∧ In(x, z))))",
@@ -253,7 +253,7 @@
     },
     {
         "id": "folio_valid_30",
-        "story_id": 442,
+        "story_id": "folio_442",
         "nat_premises": "All Brown Swiss cattle are cows.Some pets are Brown Swiss Cattle.All cows are domesticated animals.Alligators are not domesticated animals.Ted is an alligator.",
         "nat_conclusion": "Ted is a pet.",
         "fol_premises": "∀x (BrownSwissCattle(x) → Cow(x))\n∃x (Pet(x) ∧ BrownSwissCattle(x))\n∀x (Cow(x) → DomesticatedAnimal(x))\n∀x (Aligator(x) → ¬DomesticatedAnimal(x))\nAligator(ted)",
@@ -262,7 +262,7 @@
     },
     {
         "id": "folio_valid_31",
-        "story_id": 442,
+        "story_id": "folio_442",
         "nat_premises": "All Brown Swiss cattle are cows.Some pets are Brown Swiss Cattle.All cows are domesticated animals.Alligators are not domesticated animals.Ted is an alligator.",
         "nat_conclusion": "Ted is a pet and Brown Swiss cattle",
         "fol_premises": "∀x (BrownSwissCattle(x) → Cow(x))\n∃x (Pet(x) ∧ BrownSwissCattle(x))\n∀x (Cow(x) → DomesticatedAnimal(x))\n∀x (Aligator(x) → ¬DomesticatedAnimal(x))\nAligator(ted)",
@@ -271,7 +271,7 @@
     },
     {
         "id": "folio_valid_32",
-        "story_id": 442,
+        "story_id": "folio_442",
         "nat_premises": "All Brown Swiss cattle are cows.Some pets are Brown Swiss Cattle.All cows are domesticated animals.Alligators are not domesticated animals.Ted is an alligator.",
         "nat_conclusion": "If Ted is a Brown Swiss cattle, then Ted is not a pet.",
         "fol_premises": "∀x (BrownSwissCattle(x) → Cow(x))\n∃x (Pet(x) ∧ BrownSwissCattle(x))\n∀x (Cow(x) → DomesticatedAnimal(x))\n∀x (Aligator(x) → ¬DomesticatedAnimal(x))\nAligator(ted)",
@@ -280,7 +280,7 @@
     },
     {
         "id": "folio_valid_33",
-        "story_id": 234,
+        "story_id": "folio_234",
         "nat_premises": "Yale University is a private Ivy League research university.Yale University moved to New Haven in 1716.Yale university's endowment was valued at $42.3 billion.A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
         "nat_conclusion": "A private Ivy League research university moved to New Haven.",
         "fol_premises": "PrivateIvyLeagueResearchUniversity(yaleUniversity)\nMovedTo(yaleUniversity, newHaven) ∧ MovedIn(yaleUniversity, year1716)\nValuedAt(yaleUniversitysEndowment, 42point3billion)\n∀x (ResidentialCollege(x) → At(x, yale) ∧ (BenjaminFranklinCollege(x) ⊕ BerkleyCollege(x) ⊕ BranfordCollege(x) ⊕ DavenportCollege(x) ⊕ EzraStilesCollege(x) ⊕ GraceHopperCollege(x) ⊕ JonathanEdwardsCollege(x) ⊕ MorseCollege(x) ⊕ PauliMurrayCollege(x) ⊕ PiersonCollege(x) ⊕ SaybrookCollege(x) ⊕ SillimanCollege(x) ⊕ TimothyDwightCollege(x) ⊕ TrumbullCollege(x)))",
@@ -289,7 +289,7 @@
     },
     {
         "id": "folio_valid_34",
-        "story_id": 234,
+        "story_id": "folio_234",
         "nat_premises": "Yale University is a private Ivy League research university.Yale University moved to New Haven in 1716.Yale university's endowment was valued at $42.3 billion.A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
         "nat_conclusion": "Yale University has the largest university endowment of any educational institution.",
         "fol_premises": "PrivateIvyLeagueResearchUniversity(yaleUniversity)\nMovedTo(yaleUniversity, newHaven) ∧ MovedIn(yaleUniversity, year1716)\nValuedAt(yaleUniversitysEndowment, 42point3billion)\n∀x (ResidentialCollege(x) → At(x, yale) ∧ (BenjaminFranklinCollege(x) ⊕ BerkleyCollege(x) ⊕ BranfordCollege(x) ⊕ DavenportCollege(x) ⊕ EzraStilesCollege(x) ⊕ GraceHopperCollege(x) ⊕ JonathanEdwardsCollege(x) ⊕ MorseCollege(x) ⊕ PauliMurrayCollege(x) ⊕ PiersonCollege(x) ⊕ SaybrookCollege(x) ⊕ SillimanCollege(x) ⊕ TimothyDwightCollege(x) ⊕ TrumbullCollege(x)))",
@@ -298,7 +298,7 @@
     },
     {
         "id": "folio_valid_35",
-        "story_id": 234,
+        "story_id": "folio_234",
         "nat_premises": "Yale University is a private Ivy League research university.Yale University moved to New Haven in 1716.Yale university's endowment was valued at $42.3 billion.A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
         "nat_conclusion": "Pierson College is a residential college at Yale.",
         "fol_premises": "PrivateIvyLeagueResearchUniversity(yaleUniversity)\nMovedTo(yaleUniversity, newHaven) ∧ MovedIn(yaleUniversity, year1716)\nValuedAt(yaleUniversitysEndowment, 42point3billion)\nResidentialCollege(benjaminFranklinCollege) ∧ At(benjaminFranklinCollege, yale) ∧ ResidentialCollege(piersonCollege) ∧ At(piersonCollege, yale)",
@@ -307,7 +307,7 @@
     },
     {
         "id": "folio_valid_36",
-        "story_id": 120,
+        "story_id": "folio_120",
         "nat_premises": "Badults is a British Sitcom series starring members of Pappy's.Badults was piloted in July 2013 on BBC Three.The Working title \"The Secret Dude Society\" was used for Badults.Andrew Collins was the script editor for Badults.",
         "nat_conclusion": "Andrew Collins was the script editor for a series with the working title \"The Secret Dude Society\".",
         "fol_premises": "∃x (BritishSitcom(badults) ∧ Series(badults) ∧ MemberOf(x, pappys) ∧ Starring(badults, x))\nPilotedIn(badults, july2013) ∧ PilotedOn(badults, bBCThree)\nWorkingTitle(theSecretDudeSociety, badults) ∧ UsedFor(theSecretDudeSociety, badults)\nScriptEditorFor(andrewCollins, badults)",
@@ -316,7 +316,7 @@
     },
     {
         "id": "folio_valid_37",
-        "story_id": 120,
+        "story_id": "folio_120",
         "nat_premises": "Badults is a British Sitcom series starring members of Pappy's.Badults was piloted in July 2013 on BBC Three.The Working title \"The Secret Dude Society\" was used for Badults.Andrew Collins was the script editor for Badults.",
         "nat_conclusion": "No members of Pappy's have starred in a show piloting on BBC Two or BBC Three.",
         "fol_premises": "∃x (BritishSitcom(badults) ∧ Series(badults) ∧ MemberOf(x, pappys) ∧ Starring(badults, x))\nPilotedIn(badults, july2013) ∧ PilotedOn(badults, bBCThree)\nWorkingTitle(theSecretDudeSociety, badults) ∧ UsedFor(theSecretDudeSociety, badults)\nScriptEditorFor(andrewCollins, badults)",
@@ -325,7 +325,7 @@
     },
     {
         "id": "folio_valid_38",
-        "story_id": 322,
+        "story_id": "folio_322",
         "nat_premises": "All growth stocks are bought to earn profits from rapid price appreciation.If the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.Some stocks are growth stocks.All mature stocks are suitable for a retirement fund.KO is a mature stock.",
         "nat_conclusion": "KO is a stock.",
         "fol_premises": "∀x (GrowthStock(x) → BoughtToEarnProfitFrom(x, rapidPriceAppreciation))\n∀x (BoughtToEarnProfitFrom(x, rapidPriceAppreciation) → ¬SuitableFor(x, retirementFund))\n∃x (Stock(x) ∧ GrowthStock(x))\n∀x (MatureStock(x) → SuitableFor(x, retirementFund))\nMatureStock(kO)",
@@ -334,7 +334,7 @@
     },
     {
         "id": "folio_valid_39",
-        "story_id": 322,
+        "story_id": "folio_322",
         "nat_premises": "All growth stocks are bought to earn profits from rapid price appreciation.If the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.Some stocks are growth stocks.All mature stocks are suitable for a retirement fund.KO is a mature stock.",
         "nat_conclusion": "KO is a stock and a growth stock.",
         "fol_premises": "∀x (GrowthStock(x) → BoughtToEarnProfitFrom(x, rapidPriceAppreciation))\n∀x (BoughtToEarnProfitFrom(x, rapidPriceAppreciation) → ¬SuitableFor(x, retirementFund))\n∃x (Stock(x) ∧ GrowthStock(x))\n∀x (MatureStock(x) → SuitableFor(x, retirementFund))\nMatureStock(kO)",
@@ -343,7 +343,7 @@
     },
     {
         "id": "folio_valid_40",
-        "story_id": 322,
+        "story_id": "folio_322",
         "nat_premises": "All growth stocks are bought to earn profits from rapid price appreciation.If the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.Some stocks are growth stocks.All mature stocks are suitable for a retirement fund.KO is a mature stock.",
         "nat_conclusion": "If KO is a growth stock or bought to earn profits from rapid price appreciation, then KO is neither a stock nor is its price volatile.",
         "fol_premises": "∀x (GrowthStock(x) → BoughtToEarnProfitFrom(x, rapidPriceAppreciation))\n∀x (BoughtToEarnProfitFrom(x, rapidPriceAppreciation) → ¬SuitableFor(x, retirementFund))\n∃x (Stock(x) ∧ GrowthStock(x))\n∀x (MatureStock(x) → SuitableFor(x, retirementFund))\nMatureStock(kO)",
@@ -352,7 +352,7 @@
     },
     {
         "id": "folio_valid_42",
-        "story_id": 306,
+        "story_id": "folio_306",
         "nat_premises": "If a restaurant is listed in Yelp’s recommendations, then the restaurant has not received many negative reviews.All restaurants with a rating greater than four are listed in Yelp’s recommendations.Some restaurants that do not provide take-out service receive many negative reviews.All restaurants that are popular among local residents have ratings greater than four.The Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.",
         "nat_conclusion": "The Hamden Plaza Subway store provides take-out service or does not receive many negative reviews.",
         "fol_premises": "∀x ∃y (ListedIn(x, yelpRecommendation) → NegativeReview(y) ∧ ¬Receive(x, y))\n∀x ∀y (HaveRating(x, y) ∧ GreaterThan(y, 4) → ListedIn(x, yelpRecommendation))\n∃x ∃y (¬Provide(x, takeOutService) → NegativeReview(y) ∧ Receive(x, y))\n∀x ∀y (PopularAmong(x, localResidents) → HaveRating(x, y) ∧ GreaterThan(y, 4))\n∀x (HaveRating(hamdenPlazaSubway, x) ∧ GreaterThan(x, 4) ⊕ PopularAmong(hamdenPlazaSubway, localResidents))",
@@ -361,7 +361,7 @@
     },
     {
         "id": "folio_valid_43",
-        "story_id": 306,
+        "story_id": "folio_306",
         "nat_premises": "If a restaurant is listed in Yelp’s recommendations, then the restaurant has not received many negative reviews.All restaurants with a rating greater than four are listed in Yelp’s recommendations.Some restaurants that do not provide take-out service receive many negative reviews.All restaurants that are popular among local residents have ratings greater than four.The Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.",
         "nat_conclusion": "The Hamden Plaza store does not provide take-out service.",
         "fol_premises": "∀x ∃y (ListedIn(x, yelpRecommendation) → NegativeReview(y) ∧ ¬Receive(x, y))\n∀x ∀y (HaveRating(x, y) ∧ GreaterThan(y, 4) → ListedIn(x, yelpRecommendation))\n∃x ∃y (¬Provide(x, takeOutService) → NegativeReview(y) ∧ Receive(x, y))\n∀x ∀y (PopularAmong(x, localResidents) → HaveRating(x, y) ∧ GreaterThan(y, 4))\n∀x (HaveRating(hamdenPlazaSubway, x) ∧ GreaterThan(x, 4) ⊕ PopularAmong(hamdenPlazaSubway, localResidents))",
@@ -370,7 +370,7 @@
     },
     {
         "id": "folio_valid_44",
-        "story_id": 245,
+        "story_id": "folio_245",
         "nat_premises": "In superhero movies, the good guys always win.The Surprising Adventures of Sir Digby Chicken Caesar is a superhero movie.Good guys fight bad guys and vice versa.Sir Digby fights his nemesis.If a superhero movie is named after a character, that character is a good guy.The Surprising Adventures of Sir Digby Chicken Caesar is named after Sir Digby.If somebody wins a fight, the person they are fighting does not win.If a superhero movie is named after a character, that character is in the movie.",
         "nat_conclusion": "Sir Digby’s nemesis does not win.",
         "fol_premises": "∀x ∀y (SuperheroMovie(x) ∧ In(y, x) ∧ GoodGuy(y) → Win(y))\nSuperheroMovie(theSurprisingAdventuresOfSirDigbyChickenCaesar)\n∀x ∀y (GoodGuy(x) ∧ Fight(x, y) ↔ BadGuy(y) ∧ Fight(y, x))\nFight(sirDigby, sirDigbysNemesis)\n∀x ∀y (SuperheroMovie(x) ∧ NamedAfter(x, y) → GoodGuy(y))\nNamedAfter(theSurprisingAdventuresOfSirDigbyChickenCaesar, sirDigby)\n∀x ∀y (Fight(x, y) ∧ Win(x) → ¬Win(y))\n∀x ∀y (SuperheroMovie(x) ∧ NamedAfter(x, y) → In(y, x))",
@@ -379,7 +379,7 @@
     },
     {
         "id": "folio_valid_45",
-        "story_id": 197,
+        "story_id": "folio_197",
         "nat_premises": "It costs $205 to take the GRE test, which is cheaper than $300.ETS provides financial aid to those GRE applicants who prove economic hardship.Those living in single-parent families or having few resources available to them can prove economic hardship.Tom lives in a single-parent family.Tom's dad has been out of work, and Tom has few resources available to them. Tom is applying to take the GRE test.",
         "nat_conclusion": "ETS provides financial aid to Tom.",
         "fol_premises": "Cost(gre, 205) ∧ Cheaper(205, 300)\n∀x (ApplicantOf(x, gre) ∧ ProveEconomicHardship(x) → ProvideFinancialAidTo(ets, x))\n∀x (LivingInSingleParentFamily(x) ∨ HaveFewResources(x) → ProveEconomicHardship(x))\nLivingInSingleParentFamily(tom)\nOutOfWork(tomsDad) ∧ HaveFewResources(tom)\nApplicantOf(tom, gre)",
@@ -388,7 +388,7 @@
     },
     {
         "id": "folio_valid_46",
-        "story_id": 197,
+        "story_id": "folio_197",
         "nat_premises": "It costs $205 to take the GRE test, which is cheaper than $300.ETS provides financial aid to those GRE applicants who prove economic hardship.Those living in single-parent families or having few resources available to them can prove economic hardship.Tom lives in a single-parent family.Tom's dad has been out of work, and Tom has few resources available to them. Tom is applying to take the GRE test.",
         "nat_conclusion": "It costs below US $300 to take the GRE test.",
         "fol_premises": "Cost(gre, 205) ∧ Cheaper(205, 300)\n∀x (ApplicantOf(x, gre) ∧ ProveEconomicHardship(x) → ProvideFinancialAidTo(ets, x))\n∀x (LivingInSingleParentFamily(x) ∨ HaveFewResources(x) → ProveEconomicHardship(x))\nLivingInSingleParentFamily(tom)\nOutOfWork(tomsDad) ∧ HaveFewResources(tom)\nApplicantOf(tom, gre)",
@@ -397,7 +397,7 @@
     },
     {
         "id": "folio_valid_47",
-        "story_id": 197,
+        "story_id": "folio_197",
         "nat_premises": "It costs $205 to take the GRE test, which is cheaper than $300.ETS provides financial aid to those GRE applicants who prove economic hardship.Those living in single-parent families or having few resources available to them can prove economic hardship.Tom lives in a single-parent family.Tom's dad has been out of work, and Tom has few resources available to them. Tom is applying to take the GRE test.",
         "nat_conclusion": "No one taking the GRE test has financial aid provided to them by something.",
         "fol_premises": "Cost(gre, 205) ∧ Cheaper(205, 300)\n∀x (ApplicantOf(x, gre) ∧ ProveEconomicHardship(x) → ProvideFinancialAidTo(ets, x))\n∀x (LivingInSingleParentFamily(x) ∨ HaveFewResources(x) → ProveEconomicHardship(x))\nLivingInSingleParentFamily(tom)\nOutOfWork(tomsDad) ∧ HaveFewResources(tom)\nApplicantOf(tom, gre)",
@@ -406,7 +406,7 @@
     },
     {
         "id": "folio_valid_48",
-        "story_id": 361,
+        "story_id": "folio_361",
         "nat_premises": "If people spill a lot of food on their clothing, then they are not notably tidy.All clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.If people are cleanly, then they are notably tidy.If people value order and spotlessness, then they are cleanly.All people whose families prioritize order and spotlessness themselves value order and spotlessness.Peter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly",
         "nat_conclusion": "Peter is notably tidy.",
         "fol_premises": "∀x (Spill(x, aLotOfFood, clothing) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillOn(x, aLotOfFood, clothing))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (Value(x, order) ∧ Value(x, spotlessness) → Cleanly(x))\n∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness)))\n¬(Spill(peter, aLotOfFood, clothing) ⊕ Cleanly(peter))",
@@ -415,7 +415,7 @@
     },
     {
         "id": "folio_valid_49",
-        "story_id": 361,
+        "story_id": "folio_361",
         "nat_premises": "If people spill a lot of food on their clothing, then they are not notably tidy.All clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.If people are cleanly, then they are notably tidy.If people value order and spotlessness, then they are cleanly.All people whose families prioritize order and spotlessness themselves value order and spotlessness.Peter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly",
         "nat_conclusion": "Peter is either a  clumsy foodie who goes out frequently to find new food restaurants to try or he is someone whose family prioritizes order and spotlessness.",
         "fol_premises": "∀x (SpillALotOfFoodOnClothing(x) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillALotOfFoodOnClothing(x))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (ValueOrderAndSpotlessness(x) → Cleanly(x))\n∀x (FamilyPrioritizesOrderAndSpotlessness(x) → ValueOrderAndSpotlessness(x))\nSpillALotOfFoodOnClothing(peter) ↔ Cleanly(peter)",
@@ -424,7 +424,7 @@
     },
     {
         "id": "folio_valid_50",
-        "story_id": 361,
+        "story_id": "folio_361",
         "nat_premises": "If people spill a lot of food on their clothing, then they are not notably tidy.All clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.If people are cleanly, then they are notably tidy.If people value order and spotlessness, then they are cleanly.All people whose families prioritize order and spotlessness themselves value order and spotlessness.Peter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly",
         "nat_conclusion": "Peter is either both a clumsy foodie who goes out frequently to find new food restaurants to try and issomeone whose family prioritizes order and spotlessness, or he neither is a clumsy foodie who goes out frequently to find new food restaurants to try nor does his family prioritize order and spotlessness.",
         "fol_premises": "∀x (SpillALotOfFoodOnClothing(x) → ¬NotablyTidy(x))\n∀x (ClumsyFoodie(x) ∧ GoOutFrequentlyToFindToTry(x, newFoodRestaurant) → SpillALotOfFoodOnClothing(x))\n∀x (Cleanly(x) → NotablyTidy(x))\n∀x (ValueOrderAndSpotlessness(x) → Cleanly(x))\n∀x (FamilyPrioritizesOrderAndSpotlessness(x) → ValueOrderAndSpotlessness(x))\nSpillALotOfFoodOnClothing(peter) ↔ Cleanly(peter)",
@@ -433,7 +433,7 @@
     },
     {
         "id": "folio_valid_51",
-        "story_id": 151,
+        "story_id": "folio_151",
         "nat_premises": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.Barutin Cove is on the southwest coast of Snow Island.Snow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.Antarctica is located on the South Shetland Islands. If place A is located in place B and place B is located in place C, then place A is located in place C.",
         "nat_conclusion": "Barutin Cove is named after all islands in Antarctica.",
         "fol_premises": "Cove(barutinCove) ∧ NamedAfter(barutinCove, barutinSettlement) ∧ LocatedIn(barutinSettlement, bulgaria)\nLocatedIn(barutinCove, snowIsland)\nLocatedIn(snowIsland, southShetlandIslands) ∧ LocatedIn(greenwichIsland, southShetlandIslands) ∧ LocatedIn(deceptionIsland, southShetlandIslands)\nLocatedIn(southShetlandIslands, antarctica)\n∀x ∀y ∀z ((LocatedIn(x, y) ∧ LocatedIn(y, z)) → LocatedIn(x, z))",
@@ -442,7 +442,7 @@
     },
     {
         "id": "folio_valid_52",
-        "story_id": 151,
+        "story_id": "folio_151",
         "nat_premises": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.Barutin Cove is on the southwest coast of Snow Island.Snow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.Antarctica is located on the South Shetland Islands. If place A is located in place B and place B is located in place C, then place A is located in place C.",
         "nat_conclusion": "There is at least one cove in Antarctica named after a place in Bulgaria.",
         "fol_premises": "Cove(barutinCove) ∧ NamedAfter(barutinCove, barutinSettlement) ∧ LocatedIn(barutinSettlement, bulgaria)\nLocatedIn(barutinCove, snowIsland)\nLocatedIn(snowIsland, southShetlandIslands) ∧ LocatedIn(greenwichIsland, southShetlandIslands) ∧ LocatedIn(deceptionIsland, southShetlandIslands)\nLocatedIn(southShetlandIslands, antarctica)\n∀x ∀y ∀z (LocatedIn(x, y) ∧ LocatedIn(y, z) → LocatedIn(x, z))",
@@ -451,7 +451,7 @@
     },
     {
         "id": "folio_valid_53",
-        "story_id": 151,
+        "story_id": "folio_151",
         "nat_premises": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.Barutin Cove is on the southwest coast of Snow Island.Snow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.Antarctica is located on the South Shetland Islands. If place A is located in place B and place B is located in place C, then place A is located in place C.",
         "nat_conclusion": "Barutin Cove is not located in Antarctica.",
         "fol_premises": "Cove(barutinCove) ∧ NamedAfter(barutinCove, barutinSettlement) ∧ LocatedIn(barutinSettlement, bulgaria)\nLocatedIn(barutinCove, snowIsland)\nLocatedIn(snowIsland, southShetlandIslands) ∧ LocatedIn(greenwichIsland, southShetlandIslands) ∧ LocatedIn(deceptionIsland, southShetlandIslands)\nLocatedIn(southShetlandIslands, antarctica)\n∀x ∀y ∀z ((LocatedIn(x, y) ∧ LocatedIn(y, z)) → LocatedIn(x, z))",
@@ -460,7 +460,7 @@
     },
     {
         "id": "folio_valid_54",
-        "story_id": 295,
+        "story_id": "folio_295",
         "nat_premises": "Some affection is love.Some love is positive.",
         "nat_conclusion": "Some affection is positive.",
         "fol_premises": "∃x (Affection(x) ∧ Love(x))\n∃x (Love(x) ∧ Positive(x))",
@@ -469,7 +469,7 @@
     },
     {
         "id": "folio_valid_55",
-        "story_id": 315,
+        "story_id": "folio_315",
         "nat_premises": "If something can transport multiple passengers, then they are not one-seaters_All Tesla Model 3 can transport multiple passengers_All single-seat electric cars are one-seaters_All Solo EV cars are single-seat electric cars_ If John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. ",
         "nat_conclusion": "John's car is a Tesla Model 3.",
         "fol_premises": "∀x (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z)) → ¬OneSeater(x))\n∀x (TeslaModel3(x) → (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z))))\n∀x (SingleSeat(x) ∧ ElectricCar(x) → OneSeater(x))\n∀x (SoloEV(x) ∧ Car(x) → SingleSeat(x) ∧ ElectricCar(x))\n¬TeslaModel3(johnsCar) → ¬(TeslaModel3(johnsCar) ∨ (SingleSeat(x) ∧ ElectricCar(johnsCar)))",
@@ -478,7 +478,7 @@
     },
     {
         "id": "folio_valid_56",
-        "story_id": 315,
+        "story_id": "folio_315",
         "nat_premises": "If something can transport multiple passengers, then they are not one-seaters_All Tesla Model 3 can transport multiple passengers_All single-seat electric cars are one-seaters_All Solo EV cars are single-seat electric cars_ If John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. ",
         "nat_conclusion": "John's car is a Solo EV.",
         "fol_premises": "∀x (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z)) → ¬OneSeater(x))\n∀x (TeslaModel3(x) → (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z))))\n∀x (SingleSeat(x) ∧ ElectricCar(x) → OneSeater(x))\n∀x (SoloEV(x) ∧ Car(x) → SingleSeat(x) ∧ ElectricCar(x))\n¬TeslaModel3(johnsCar) → ¬(TeslaModel3(johnsCar) ∨ (SingleSeat(x) ∧ ElectricCar(johnsCar)))",
@@ -487,7 +487,7 @@
     },
     {
         "id": "folio_valid_57",
-        "story_id": 315,
+        "story_id": "folio_315",
         "nat_premises": "If something can transport multiple passengers, then they are not one-seaters_All Tesla Model 3 can transport multiple passengers_All single-seat electric cars are one-seaters_All Solo EV cars are single-seat electric cars_ If John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. ",
         "nat_conclusion": "John's car is not a Solo EV.",
         "fol_premises": "∀x (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z)) → ¬OneSeater(x))\n∀x (TeslaModel3(x) → (∃y ∃z (Passenger(y) ∧ Passenger(z) ∧ Transport(x, y) ∧ Transport(x, y) ∧ ¬(y=z))))\n∀x (SingleSeat(x) ∧ ElectricCar(x) → OneSeater(x))\n∀x (SoloEV(x) ∧ Car(x) → SingleSeat(x) ∧ ElectricCar(x))\n¬TeslaModel3(johnsCar) → ¬(TeslaModel3(johnsCar) ∨ (SingleSeat(x) ∧ ElectricCar(johnsCar)))",
@@ -496,7 +496,7 @@
     },
     {
         "id": "folio_valid_58",
-        "story_id": 467,
+        "story_id": "folio_467",
         "nat_premises": "All of Peter's pets that are mammals are also animals.All monkeys are mammals. Peter's pets are all either monkeys or birds. Peter's birds can fly.All animals that are Peter's pets can breathe.If Peter's pet can fly, then it has wings.Rock is Peter's pet.Rock can fly, or Rock is a bird, or Rock cannot breathe. ",
         "nat_conclusion": "Rock is a monkey.",
         "fol_premises": "∀x (PetersPet(x) ∧ Mammal(x) → Animal(x))\n∀x (Monkey(x) → Mammal(x))\n∀x (PetersPet(x) → Monkey(x) ⊕  Bird(x))\n∀x (Bird(x) → CanFly(x))\n∀x (PetersPet(x) ∧ Animal(x) → Breathe(x))\n∀x (PetersPet(x) ∧ CanFly(x) → ∃y ∃z (¬(y=z) ∧ Wing(y) ∧ Wing(z) ∧ Have(x, y) ∧ Have(x, z)))\nPeterSPet(rock)\nCanFly(rock) ∨ Bird(rock) ∨ ¬Breathe(rock)",
@@ -505,7 +505,7 @@
     },
     {
         "id": "folio_valid_59",
-        "story_id": 467,
+        "story_id": "folio_467",
         "nat_premises": "All of Peter's pets that are mammals are also animals.All monkeys are mammals. Peter's pets are all either monkeys or birds. Peter's birds can fly.All animals that are Peter's pets can breathe.If Peter's pet can fly, then it has wings.Rock is Peter's pet.Rock can fly, or Rock is a bird, or Rock cannot breathe. ",
         "nat_conclusion": "Rock has wings.",
         "fol_premises": "∀x (PetersPet(x) ∧ Mammal(x) → Animal(x))\n∀x (Monkey(x) → Mammal(x))\n∀x (PetersPet(x) → ¬(Monkey(x) ↔ Bird(x)))\n∀x (Bird(x) → CanFly(x))\n∀x (PetersPet(x) ∧ Animal(x) → Breathe(x))\n∀x (PetersPet(x) ∧ CanFly(x) → HasWings(x))\nPetersPet(rock)\nCanFly(rock) ∨ Bird(rock) ∨ ¬Breathe(rock)",
@@ -514,7 +514,7 @@
     },
     {
         "id": "folio_valid_60",
-        "story_id": 467,
+        "story_id": "folio_467",
         "nat_premises": "All of Peter's pets that are mammals are also animals.All monkeys are mammals. Peter's pets are all either monkeys or birds. Peter's birds can fly.All animals that are Peter's pets can breathe.If Peter's pet can fly, then it has wings.Rock is Peter's pet.Rock can fly, or Rock is a bird, or Rock cannot breathe. ",
         "nat_conclusion": "Rock does not have wings.",
         "fol_premises": "∀x (PetersPet(x) ∧ Mammal(x) → Animal(x))\n∀x (Monkey(x) → Mammal(x))\n∀x (PetersPet(x) → ¬(Monkey(x) ↔ Bird(x)))\n∀x (Bird(x) → CanFly(x))\n∀x (PetersPet(x) ∧ Animal(x) → Breathe(x))\n∀x (PetersPet(x) ∧ CanFly(x) → HasWings(x))\nPetersPet(rock)\nCanFly(rock) ∨ Bird(rock) ∨ ¬Breathe(rock)",
@@ -523,7 +523,7 @@
     },
     {
         "id": "folio_valid_61",
-        "story_id": 330,
+        "story_id": "folio_330",
         "nat_premises": "All people who make wedding plans are people who are engaged.All people who invite others to come to their ceremony make wedding plans.Anyone who has a well-attended wedding invites others to come to their ceremony.Some people that have well-attended weddings have larger families.If John is engaged, then John does not invite friends to their ceremony and make wedding plans.If John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. ",
         "nat_conclusion": "John has a larger family.",
         "fol_premises": "∀x (MakeWeddingPlans(x) → Engaged(x))\n∀x (InviteOthersToCeremony(x) → MakeWeddingPlans(x))\n∀x (HaveWellAttendedWedding(x) → InviteOthersToCeremony(x))\n∃x (HaveWellAttendedWedding(x) ∧ HaveLargerFamily(x))\nEngaged(john) → ¬(InviteOthersToCeremony(john) ∧ MakeWeddingPlans(john))\nHaveLargerFamily(john) → ¬(HaveWellAttendedWedding(john) ↔ InviteOthersToCeremony(john))",
@@ -532,7 +532,7 @@
     },
     {
         "id": "folio_valid_62",
-        "story_id": 330,
+        "story_id": "folio_330",
         "nat_premises": "All people who make wedding plans are people who are engaged.All people who invite others to come to their ceremony make wedding plans.Anyone who has a well-attended wedding invites others to come to their ceremony.Some people that have well-attended weddings have larger families.If John is engaged, then John does not invite friends to their ceremony and make wedding plans.If John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. ",
         "nat_conclusion": "John does not have a larger family.",
         "fol_premises": "∀x (Make(x, weddingPlan) → Engaged(x))\n∀x (∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)) → Make(x, weddingPlan))\n∀x (Have(x, wellAttendedWedding) → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)))\n∃x (Have(x, wellAttendedWedding) ∧ Have(x, largerFamily))\nEngaged(john) → ¬(∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(john, y, wedding) ∧ Invite(john, z, comeTo, wedding))) ∧ Make(john, weddingPlan)\nHave(john, largerFamily) → Have(john, wellAttendedWedding) ⊕ ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ Invite(x, y, comeTo, wedding) ∧ InviteToComeTo(x, z, wedding))",
@@ -541,7 +541,7 @@
     },
     {
         "id": "folio_valid_63",
-        "story_id": 330,
+        "story_id": "folio_330",
         "nat_premises": "All people who make wedding plans are people who are engaged.All people who invite others to come to their ceremony make wedding plans.Anyone who has a well-attended wedding invites others to come to their ceremony.Some people that have well-attended weddings have larger families.If John is engaged, then John does not invite friends to their ceremony and make wedding plans.If John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. ",
         "nat_conclusion": "John is engaged.",
         "fol_premises": "∀x (Make(x, weddingPlan) → Engaged(x))\n∀x (∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)) → Make(x, weddingPlan))\n∀x (Have(x, wellAttendedWedding) → ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(x, y, wedding) ∧ InviteToComeTo(x, z, wedding)))\n∃x (Have(x, wellAttendedWedding) ∧ Have(x, largerFamily))\nEngaged(john) → ¬(∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ InviteToComeTo(john, y, wedding) ∧ Invite(john, z, comeTo, wedding))) ∧ Make(john, weddingPlan)\nHave(john, largerFamily) → Have(john, wellAttendedWedding) ⊕ ∃y ∃z (¬(y=x) ∧ ¬(z=x) ∧ ¬(y=z) ∧ Invite(x, y, comeTo, wedding) ∧ InviteToComeTo(x, z, wedding))",
@@ -550,7 +550,7 @@
     },
     {
         "id": "folio_valid_64",
-        "story_id": 330,
+        "story_id": "folio_330",
         "nat_premises": "All people who make wedding plans are people who are engaged.All people who invite others to come to their ceremony make wedding plans.Anyone who has a well-attended wedding invites others to come to their ceremony.Some people that have well-attended weddings have larger families.If John is engaged, then John does not invite friends to their ceremony and make wedding plans.If John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. ",
         "nat_conclusion": "John neither has a larger family nor does he invite others to his wedding.",
         "fol_premises": "∀x (MakeWeddingPlans(x) → Engaged(x))\n∀x (InviteOthersToCeremony(x) → MakeWeddingPlans(x))\n∀x (HaveWellAttendedWedding(x) → InviteOthersToCeremony(x))\n∃x (HaveWellAttendedWedding(x) ∧ HaveLargerFamily(x))\nEngaged(john) → ¬(InviteOthersToCeremony(john) ∧ MakeWeddingPlans(john))\nHaveLargerFamily(john) → ¬(HaveWellAttendedWedding(john) ↔ InviteOthersToCeremony(john))",
@@ -559,7 +559,7 @@
     },
     {
         "id": "folio_valid_65",
-        "story_id": 26,
+        "story_id": "folio_26",
         "nat_premises": "Some mammals have teeth.Platypuses have no teeth.Platypuses are mammals. Humans have teeth.",
         "nat_conclusion": "Platypuses are mammals with no teeth.",
         "fol_premises": "∃x ∃y (Mammal(x) ∧ Mammal(y) ∧ (¬(x=y)) ∧ Have(x, teeth) ∧ Have(y, teeth))\n¬Have(platypus, teeth)\nMammal(platypus)\nHave(humans, teeth)",
@@ -568,7 +568,7 @@
     },
     {
         "id": "folio_valid_66",
-        "story_id": 26,
+        "story_id": "folio_26",
         "nat_premises": "Some mammals have teeth.Platypuses have no teeth.Platypuses are mammals. Humans have teeth.",
         "nat_conclusion": "Platypuses are reptiles.",
         "fol_premises": "∃x ∃y (Mammal(x) ∧ Mammal(y) ∧ (¬(x=y)) ∧ Have(x, teeth) ∧ Have(y, teeth))\n¬Have(platypus, teeth)\nMammal(platypus)\nHave(humans, teeth)",
@@ -577,7 +577,7 @@
     },
     {
         "id": "folio_valid_67",
-        "story_id": 26,
+        "story_id": "folio_26",
         "nat_premises": "Some mammals have teeth.Platypuses have no teeth.Platypuses are mammals. Humans have teeth.",
         "nat_conclusion": "Humans are mammals.",
         "fol_premises": "∃x ∃y (Mammal(x) ∧ Mammal(y) ∧ (¬(x=y)) ∧ Have(x, teeth) ∧ Have(y, teeth))\n¬Have(platypus, teeth)\nMammal(platypus)\nHave(humans, teeth)",
@@ -586,7 +586,7 @@
     },
     {
         "id": "folio_valid_68",
-        "story_id": 203,
+        "story_id": "folio_203",
         "nat_premises": "Plungers suck.Vacuums suck.Vampires suck.Space is a vacuum.A duster is a household appliance that doesn't suck.",
         "nat_conclusion": "Space sucks.",
         "fol_premises": "∀x (Plunger(x) → Suck(x))\n∀x (Vacuum(x) → Suck(x))\n∀x (Vampire(x) → Suck(x))\nVacuum(space)\nHouseholdAppliance(duster) ∧ ¬Suck(duster)",
@@ -595,7 +595,7 @@
     },
     {
         "id": "folio_valid_69",
-        "story_id": 203,
+        "story_id": "folio_203",
         "nat_premises": "Plungers suck.Vacuums suck.Vampires suck.Space is a vacuum.A duster is a household appliance that doesn't suck.",
         "nat_conclusion": "Space is a vampire.",
         "fol_premises": "∀x (Plunger(x) → Suck(x))\n∀x (Vacuum(x) → Suck(x))\n∀x (Vampire(x) → Suck(x))\nVacuum(space)\nHouseholdAppliance(duster) ∧ ¬Suck(duster)",
@@ -604,7 +604,7 @@
     },
     {
         "id": "folio_valid_70",
-        "story_id": 203,
+        "story_id": "folio_203",
         "nat_premises": "Plungers suck.Vacuums suck.Vampires suck.Space is a vacuum.A duster is a household appliance that doesn't suck.",
         "nat_conclusion": "If something is a household appliance, it sucks.",
         "fol_premises": "∀x (Plunger(x) → Suck(x))\n∀x (Vacuum(x) → Suck(x))\n∀x (Vampire(x) → Suck(x))\nVacuum(space)\nHouseholdAppliance(duster) ∧ ¬Suck(duster)",
@@ -613,7 +613,7 @@
     },
     {
         "id": "folio_valid_72",
-        "story_id": 46,
+        "story_id": "folio_46",
         "nat_premises": "Breeding back is a form of artificial selection by the deliberate selective breeding of domestic animals.Heck cattle were bred back in the 1920s to resemble the aurochs.Heck cattle are animals.Aurochs are animals.Some animals to be bred back resemble extinct animals.",
         "nat_conclusion": "Aurochs are extinct.",
         "fol_premises": "∀x (BreedingBack(x) → (ArtificialSelection(x) ∧ DeliberateSelectiveBreedingOfDomesticAnimals(x)))\n∀x (HeckCattle(x) → BreedingBack(x) ∧ ∃y (Auroch(y) ∧ Resemble(x, y)))\n∀x (HeckCattle(x) → Animal(x))\n∀x (Auroch(x) → Animal(x))\n∃x ∃y (Animal(x) ∧ BreedingBack(x) ∧ Animal(y) ∧ Extinct(y) ∧ Resemble(x, y))",
@@ -622,7 +622,7 @@
     },
     {
         "id": "folio_valid_73",
-        "story_id": 483,
+        "story_id": "folio_483",
         "nat_premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
         "nat_conclusion": "Vladimir is a Russian federation official",
         "fol_premises": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)",
@@ -631,7 +631,7 @@
     },
     {
         "id": "folio_valid_74",
-        "story_id": 483,
+        "story_id": "folio_483",
         "nat_premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
         "nat_conclusion": "Vladimir is not a Russian federation official",
         "fol_premises": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)",
@@ -640,7 +640,7 @@
     },
     {
         "id": "folio_valid_75",
-        "story_id": 483,
+        "story_id": "folio_483",
         "nat_premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
         "nat_conclusion": "Ekaterina can participate in the 2024 United States presidential election or is a manager at Gazprom.",
         "fol_premises": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)",
@@ -649,7 +649,7 @@
     },
     {
         "id": "folio_valid_76",
-        "story_id": 483,
+        "story_id": "folio_483",
         "nat_premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
         "nat_conclusion": "Ekaterina can participate in the 2024 United States presidential election or Vladimir is a manager at Gazprom.",
         "fol_premises": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, year2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x ¬(Have(x, unitedStatesCitizenship) ↔ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n¬((Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ↔ CanRegisterToVoteIn(ekaterina, unitedStates))",
@@ -658,7 +658,7 @@
     },
     {
         "id": "folio_valid_77",
-        "story_id": 483,
+        "story_id": "folio_483",
         "nat_premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
         "nat_conclusion": "It is not true that Ekaterina can register to vote in the United States and Vladimir can participate in the 2024 United States presidential election.",
         "fol_premises": "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, year2024UnitedStatesElection))\n∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))\n∀x ¬(Have(x, unitedStatesCitizenship) ↔ Have(x, taiwaneseCitizenship))\n∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))\n¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)\n¬((Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ↔ CanRegisterToVoteIn(ekaterina, unitedStates))",
@@ -667,7 +667,7 @@
     },
     {
         "id": "folio_valid_78",
-        "story_id": 217,
+        "story_id": "folio_217",
         "nat_premises": "If George likes music, he wants to compose.If George has access to a program, he can compose.If George can compose and wants to compose, he will compose.",
         "nat_conclusion": "If George likes music and has access to a program, he will compose.",
         "fol_premises": "LikeMusic(george) → WantToCompose(george)\nAccesstoProgram(george) → CanCompose(george)\n(WantToCompose(george) ∧ CanCompose(george)) → WillCompose(george)",
@@ -676,7 +676,7 @@
     },
     {
         "id": "folio_valid_79",
-        "story_id": 217,
+        "story_id": "folio_217",
         "nat_premises": "If George likes music, he wants to compose.If George has access to a program, he can compose.If George can compose and wants to compose, he will compose.",
         "nat_conclusion": "If George will not compose, George can not compose.",
         "fol_premises": "LikeMusic(george) → WantToCompose(george)\nAccesstoProgram(george) → CanCompose(george)\n(WantToCompose(george) ∧ CanCompose(george)) → WillCompose(george)",
@@ -685,7 +685,7 @@
     },
     {
         "id": "folio_valid_80",
-        "story_id": 107,
+        "story_id": "folio_107",
         "nat_premises": "Heinrich Schmidt was a German politician. Heinrich Schmidt was also a member of the Prussian State Parliament and the Nazi Reichstag.",
         "nat_conclusion": "Heinrich Schmidt was German or Russian or both.",
         "fol_premises": "German(heinrichSchmidt) ∧ Politician(heinrichSchmidt)\nMember(heinrichSchmidt, prussianStateParliament) ∧ Member(heinrichSchmidt, naziReichstag)",
@@ -694,7 +694,7 @@
     },
     {
         "id": "folio_valid_81",
-        "story_id": 107,
+        "story_id": "folio_107",
         "nat_premises": "Heinrich Schmidt was a German politician. Heinrich Schmidt was also a member of the Prussian State Parliament and the Nazi Reichstag.",
         "nat_conclusion": "Some German politician was part of both the Prussian State Parliament and the Nazi Reichstag.",
         "fol_premises": "German(heinrichSchmidt) ∧ Politician(heinrichSchmidt)\nMember(heinrichSchmidt, prussianStateParliament) ∧ Member(heinrichSchmidt, naziReichstag)",
@@ -703,7 +703,7 @@
     },
     {
         "id": "folio_valid_82",
-        "story_id": 107,
+        "story_id": "folio_107",
         "nat_premises": "Heinrich Schmidt was a German politician. Heinrich Schmidt was also a member of the Prussian State Parliament and the Nazi Reichstag.",
         "nat_conclusion": "No politicians are part of the Nazi Reichstag.",
         "fol_premises": "German(heinrichSchmidt) ∧ Politician(heinrichSchmidt)\nMember(heinrichSchmidt, prussianStateParliament) ∧ Member(heinrichSchmidt, naziReichstag)",
@@ -712,7 +712,7 @@
     },
     {
         "id": "folio_valid_83",
-        "story_id": 386,
+        "story_id": "folio_386",
         "nat_premises": "If something is a deadly disease, then it comes with a low survival rate. Severe cancers are deadly diseases.Bile duct cancer is a severe form cancer. All Cholangiocarcinoma is bile duct cancer.Mild flu comes with a low survival rate.Colorectal cancer is not both a bile duct cancer and with a low survival rate.",
         "nat_conclusion": "Colorectal cancer is a kind of severe cancer",
         "fol_premises": "∀x (DeadlyDiseases(x) → ComeWith(x, lowSurvivalRate))\n∀x (SevereCancer(x) → DeadlyDiseases(x))\n∀x (BileDuctCancer(x) → SevereCancer(x))\n∀x (Cholangiocarcinoma(x) → BileDuctCancer(x))\n∀x (MildFlu(x) → ¬ComeWith(x, lowSurvivalRate))\n¬(BileDuctCancer(colorectalCancer) ∧ ComeWith(colorectalCancer, lowSurvivalRate))",
@@ -721,7 +721,7 @@
     },
     {
         "id": "folio_valid_84",
-        "story_id": 386,
+        "story_id": "folio_386",
         "nat_premises": "If something is a deadly disease, then it comes with a low survival rate. Severe cancers are deadly diseases.Bile duct cancer is a severe form cancer. All Cholangiocarcinoma is bile duct cancer.Mild flu comes with a low survival rate.Colorectal cancer is not both a bile duct cancer and with a low survival rate.",
         "nat_conclusion": "If colorectal cancer is a kind of bile duct cancer or a form of Cholangiocarcinoma, then colorectal cancer is a kind of bile duct cancer and a kind of mild flu.",
         "fol_premises": "∀x (DeadlyDiseases(x) → ComeWith(x, lowSurvivalRate))\n∀x (SevereCancer(x) → DeadlyDiseases(x))\n∀x (BileDuctCancer(x) → SevereCancer(x))\n∀x (Cholangiocarcinoma(x) → BileDuctCancer(x))\n∀x (MildFlu(x) → ¬ComeWith(x, lowSurvivalRate))\n¬(BileDuctCancer(colorectalCancer) ∧ ComeWith(colorectalCancer, lowSurvivalRate))",
@@ -730,7 +730,7 @@
     },
     {
         "id": "folio_valid_85",
-        "story_id": 386,
+        "story_id": "folio_386",
         "nat_premises": "If something is a deadly disease, then it comes with a low survival rate. Severe cancers are deadly diseases.Bile duct cancer is a severe form cancer. All Cholangiocarcinoma is bile duct cancer.Mild flu comes with a low survival rate.Colorectal cancer is not both a bile duct cancer and with a low survival rate.",
         "nat_conclusion": "Colorectal cancer is a form of Cholangiocarcinoma and it is a kind of mild flu or a kind of bile duct cancer, or all of the above.",
         "fol_premises": "∀x (DeadlyDiseases(x) → ComeWith(x, lowSurvivalRate))\n∀x (SevereCancer(x) → DeadlyDiseases(x))\n∀x (BileDuctCancer(x) → SevereCancer(x))\n∀x (Cholangiocarcinoma(x) → BileDuctCancer(x))\n∀x (MildFlu(x) → ¬ComeWith(x, lowSurvivalRate))\n¬(BileDuctCancer(colorectalCancer) ∧ ComeWith(colorectalCancer, lowSurvivalRate))",
@@ -739,7 +739,7 @@
     },
     {
         "id": "folio_valid_86",
-        "story_id": 259,
+        "story_id": "folio_259",
         "nat_premises": "All horses have hooves.No humans have hooves.",
         "nat_conclusion": "Some humans are horses.",
         "fol_premises": "∀x (Horse(x) → ∃y ∃z (¬(y=z) ∧ Hoof(y) ∧ Hoof(z) ∧ Have(x, y) ∧ Have(x, z)))\n∀x (Human(x) → ¬(∃y ∃z (¬(y=z) ∧ Hoof(y) ∧ Hoof(z) ∧ Have(x, y) ∧ Have(x, z))))",
@@ -748,7 +748,7 @@
     },
     {
         "id": "folio_valid_87",
-        "story_id": 456,
+        "story_id": "folio_456",
         "nat_premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
         "nat_conclusion": "Yuri is an American national.",
         "fol_premises": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)",
@@ -757,7 +757,7 @@
     },
     {
         "id": "folio_valid_88",
-        "story_id": 456,
+        "story_id": "folio_456",
         "nat_premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
         "nat_conclusion": "Yuri is not an American professional basketball player.",
         "fol_premises": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)",
@@ -766,7 +766,7 @@
     },
     {
         "id": "folio_valid_89",
-        "story_id": 456,
+        "story_id": "folio_456",
         "nat_premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
         "nat_conclusion": "Yuri is an American professional basketball player.",
         "fol_premises": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)",
@@ -775,7 +775,7 @@
     },
     {
         "id": "folio_valid_90",
-        "story_id": 456,
+        "story_id": "folio_456",
         "nat_premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
         "nat_conclusion": "If Yuri does not leap straight into the air, then Yuri is an American professional basketball player.",
         "fol_premises": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)",
@@ -784,7 +784,7 @@
     },
     {
         "id": "folio_valid_91",
-        "story_id": 456,
+        "story_id": "folio_456",
         "nat_premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
         "nat_conclusion": "If Yuri is not an American professional basketball player, then Yuri is a professional basketball player.",
         "fol_premises": "∃x (Professional(x) ∧ BasketballPlayer(x) ∧ ¬AmericanNational(x))\n∀x (Professional(x) ∧ BasketballPlayer(x) → CanDo(x, jumpShot))\n∀x (CanDo(x, jumpShot) → LeapStraightIntoAir(x))\n∀x (LeapStraightIntoAir(x) → Activate(x, legMuscle))\n¬Activate(yuri, legMuscle)",
@@ -793,7 +793,7 @@
     },
     {
         "id": "folio_valid_92",
-        "story_id": 140,
+        "story_id": "folio_140",
         "nat_premises": "The winner of the 1992 du Maurier Classic was Steinhauer.Steinhauer participated in the 1992 du Maurier Classic.One six-way tie was on the leaderboard, and one person in the six-way tie was from Belgium.Descampe is from Belgium and is on the leaderboard of the 1992 du Maurier Classic.All people on the leaderboard of the 1992 du Maurier Classic participated in the 1992 du Maurier Classic.",
         "nat_conclusion": "Steinhauer was not the winner of the 1992 du Maurier Classic.",
         "fol_premises": "WinnerOf(steinhauer, duMaurierClassic, year1992)\nParticipate(duMaurierClassic, steinhauer)\n∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y)\nFrom(descampe, belgium) ∧ OnLeaderBoardOf(descampe, duMaurierClassic)\n∀x (LeaderBoard(maurier, x) → Participate(maurier, x))",
@@ -802,7 +802,7 @@
     },
     {
         "id": "folio_valid_93",
-        "story_id": 140,
+        "story_id": "folio_140",
         "nat_premises": "The winner of the 1992 du Maurier Classic was Steinhauer.Steinhauer participated in the 1992 du Maurier Classic.One six-way tie was on the leaderboard, and one person in the six-way tie was from Belgium.Descampe is from Belgium and is on the leaderboard of the 1992 du Maurier Classic.All people on the leaderboard of the 1992 du Maurier Classic participated in the 1992 du Maurier Classic.",
         "nat_conclusion": "Descampe is in the six-way tie in the leaderboard of the 1992 du Maurier Classic.",
         "fol_premises": "WinnerOf(steinhauer, duMaurierClassic, year1992)\nParticipate(duMaurierClassic, steinhauer)\n∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y)\nFrom(descampe, belgium) ∧ OnLeaderBoardOf(descampe, duMaurierClassic)\n∀x (LeaderBoard(maurier, x) → Participate(maurier, x))",
@@ -811,7 +811,7 @@
     },
     {
         "id": "folio_valid_94",
-        "story_id": 459,
+        "story_id": "folio_459",
         "nat_premises": "Jane does not like any animals that bark.All dogs are animals that bark.Jane likes all animals that jump.If an animal has legs, then it jumps.If an animal is terricolous, then it has legs. KiKi is an animal.If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.",
         "nat_conclusion": "KiKi is terricolous.",
         "fol_premises": "∀x (Animal(x) ∧ Bark(x) → ¬Like(jane, x))\n∀x (Dog(x) → Animal(x) ∧ Bark(x))\n∀x (Animal(x) ∧ Jump(x) → Like(jane, x))\n∀x (∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(x, y) ∧ Have(x, z)) → Jump(x))\n∀x (Terricolous(x) → ∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(x, y) ∧ Have(x, z)))\nAnimal(kiki)\n¬Jump(kiki) ∧ ¬(∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(kiki, y) ∧ Have(kiki, z))) → Terricolous(kiki) ∨ ∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(kiki, y) ∧ Have(kiki, z))",
@@ -820,7 +820,7 @@
     },
     {
         "id": "folio_valid_95",
-        "story_id": 459,
+        "story_id": "folio_459",
         "nat_premises": "Jane does not like any animals that bark.All dogs are animals that bark.Jane likes all animals that jump.If an animal has legs, then it jumps.If an animal is terricolous, then it has legs. KiKi is an animal.If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.",
         "nat_conclusion": "KiKi is a barking dog.",
         "fol_premises": "∀x (Animal(x) ∧ Bark(x) → ¬Like(jane, x))\n∀x (Dog(x) → Animal(x) ∧ Bark(x))\n∀x (Animal(x) ∧ Jump(x) → Like(jane, x))\n∀x (∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(x, y) ∧ Have(x, z)) → Jump(x))\n∀x (Terricolous(x) → ∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(x, y) ∧ Have(x, z)))\nAnimal(kiki)\n¬Jump(kiki) ∧ ¬(∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(kiki, y) ∧ Have(kiki, z))) → Terricolous(kiki) ∨ ∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(kiki, y) ∧ Have(kiki, z))",
@@ -829,7 +829,7 @@
     },
     {
         "id": "folio_valid_96",
-        "story_id": 459,
+        "story_id": "folio_459",
         "nat_premises": "Jane does not like any animals that bark.All dogs are animals that bark.Jane likes all animals that jump.If an animal has legs, then it jumps.If an animal is terricolous, then it has legs. KiKi is an animal.If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.",
         "nat_conclusion": "KiKi does not bark and he is not a dog.",
         "fol_premises": "∀x (Animal(x) ∧ Bark(x) → ¬Like(jane, x))\n∀x (Dog(x) → Animal(x) ∧ Bark(x))\n∀x (Animal(x) ∧ Jump(x) → Like(jane, x))\n∀x (∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(x, y) ∧ Have(x, z)) → Jump(x))\n∀x (Terricolous(x) → ∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(x, y) ∧ Have(x, z)))\nAnimal(kiki)\n¬Jump(kiki) ∧ ¬(∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(kiki, y) ∧ Have(kiki, z))) → Terricolous(kiki) ∨ ∃y ∃z (¬(y=z) ∧ Leg(y) ∧ Leg(z) ∧ Have(kiki, y) ∧ Have(kiki, z))",
