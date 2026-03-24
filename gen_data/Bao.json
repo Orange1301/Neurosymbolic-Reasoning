@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Bao_1",
+        "premises": "Ben eats an apple from the Danger Forest. Fruits from the Danger Forest are poisonous. Apple is a fruit. Everyone who eats poisonous stuff will get stomachache.",
+        "conclusion": "Ben will get stomachache.",
+        "label": "True"
+    },
+    {
+        "id": "Bao_2",
+        "premises": "Tri likes sweet food. Beefsteak is not sweet. Candy is sweet. No one who likes candy is handsome.",
+        "conclusion": "Tri is handsome.",
+        "label": "False"
+    }
+]
