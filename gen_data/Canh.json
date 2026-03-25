@@ -1507,7 +1507,7 @@
     },
     {
         "id": "Canh_252",
-        "premises": "For any vehicle V, if V activates its nitro booster, its speed immediately strictly decreases to zero. Vehicle Racer_X activates its nitro booster.",
+        "premises": "For any vehicle V, if V activates its nitro booster, its speed immediately strictly decreases to zero. If a vehicle's speed strictly decreases to zero, its speed cannot strictly increase. Vehicle Racer_X activates its nitro booster.",
         "conclusion": "The speed of Vehicle Racer_X strictly increases.",
         "label": "False"
     },
@@ -1531,7 +1531,7 @@
     },
     {
         "id": "Canh_256",
-        "premises": "For any celestial body C, if C is a sun, C absorbs all surrounding light and creates absolute darkness. Celestial body Sol is a sun.",
+        "premises": "For any celestial body C, if C is a sun, C absorbs all surrounding light and creates absolute darkness. If a celestial body creates absolute darkness, it emits absolutely no bright light. Celestial body Sol is a sun.",
         "conclusion": "Celestial body Sol emits bright light.",
         "label": "False"
     },
@@ -1555,7 +1555,7 @@
     },
     {
         "id": "Canh_260",
-        "premises": "For any material M, if M is categorized as a diamond, M is as soft as liquid butter at room temperature. Material Hope is categorized as a diamond. The room temperature is currently maintained.",
+        "premises": "For any material M, if M is categorized as a diamond, M is as soft as liquid butter at room temperature. If a material is as soft as liquid butter, it is not extremely hard and can easily be scratched. Material Hope is categorized as a diamond. The room temperature is currently maintained.",
         "conclusion": "Material Hope is extremely hard and cannot be scratched.",
         "label": "False"
     },
@@ -1567,19 +1567,19 @@
     },
     {
         "id": "Canh_262",
-        "premises": "For any sound wave S, if S travels through a perfect vacuum, its volume is amplified by a factor of one thousand. If S travels through a solid medium, it is instantly silenced. Sound wave Echo travels through a solid medium.",
+        "premises": "For any sound wave S, if S travels through a perfect vacuum, its volume is amplified by a factor of one thousand. If S travels through a solid medium, it is instantly silenced. If a sound wave is instantly silenced, its volume is not amplified. Sound wave Echo travels through a solid medium.",
         "conclusion": "The volume of sound wave Echo is amplified by a factor of one thousand.",
         "label": "False"
     },
     {
         "id": "Canh_263",
         "premises": "For any geometric shape G, if G is a perfect circle, G possesses exactly four straight edges and four right angles. Shape Alpha is a perfect circle.",
-        "conclusion": "Shape Alpha has no straight edges.",
+        "conclusion": "Shape Alpha has absolutely no straight edges.",
         "label": "False"
     },
     {
         "id": "Canh_264",
-        "premises": "For any bird B, if B has heavy metallic wings, B can easily float in the air without flapping. Bird Falcon has heavy metallic wings.",
+        "premises": "For any bird B, if B has heavy metallic wings, B can easily float in the air without flapping. If a bird can easily float in the air without flapping, it does not need to flap constantly to stay airborne. Bird Falcon has heavy metallic wings.",
         "conclusion": "Bird Falcon must flap constantly to stay airborne.",
         "label": "False"
     },
@@ -1597,7 +1597,7 @@
     },
     {
         "id": "Canh_267",
-        "premises": "For any rock R, if R is thrown into a lake, R immediately turns into a flock of doves. Rock Granite is thrown into a lake.",
+        "premises": "For any rock R, if R is thrown into a lake, R immediately turns into a flock of doves. If a rock turns into a flock of doves, it does not sink to the bottom of the lake. Rock Granite is thrown into a lake.",
         "conclusion": "Rock Granite sinks to the bottom of the lake.",
         "label": "False"
     },
@@ -1621,7 +1621,7 @@
     },
     {
         "id": "Canh_271",
-        "premises": "For any metal M, if M is heated to its melting point, M becomes a highly structured, unbreakable solid. Metal Iron is heated to its melting point.",
+        "premises": "For any metal M, if M is heated to its melting point, M becomes a highly structured, unbreakable solid. If a metal becomes an unbreakable solid, it does not turn into a flowing liquid. Metal Iron is heated to its melting point.",
         "conclusion": "Metal Iron turns into a flowing liquid.",
         "label": "False"
     },
@@ -1633,7 +1633,7 @@
     },
     {
         "id": "Canh_273",
-        "premises": "For any glass window W, if W is struck by a heavy rock, W transforms the rock into soft foam and remains completely intact. Glass window Home_1 is struck by a heavy rock.",
+        "premises": "For any glass window W, if W is struck by a heavy rock, W transforms the rock into soft foam and remains completely intact. If a window remains completely intact, it does not shatter into pieces. Glass window Home_1 is struck by a heavy rock.",
         "conclusion": "Glass window Home_1 shatters into pieces.",
         "label": "False"
     },
@@ -1651,7 +1651,7 @@
     },
     {
         "id": "Canh_276",
-        "premises": "For any clock C, if C is broken and its hands never move, C tells the exact correct time every single second of the day. Clock Grandfather is broken and its hands never move.",
+        "premises": "For any clock C, if C is broken and its hands never move, C tells the exact correct time every single second of the day. If a clock tells the exact correct time every single second, it does not tell the exact correct time only twice a day. Clock Grandfather is broken and its hands never move.",
         "conclusion": "Clock Grandfather tells the exact correct time only twice a day.",
         "label": "False"
     },
@@ -1687,7 +1687,7 @@
     },
     {
         "id": "Canh_282",
-        "premises": "For any book B, if B has completely blank pages, B contains all the knowledge of the universe. Book Codex has completely blank pages.",
+        "premises": "For any book B, if B has completely blank pages, B contains all the knowledge of the universe. If a book contains all the knowledge of the universe, it does not contain absolutely no information. Book Codex has completely blank pages.",
         "conclusion": "Book Codex contains absolutely no information.",
         "label": "False"
     },
@@ -1700,12 +1700,12 @@
     {
         "id": "Canh_284",
         "premises": "For any physical space S, if S has absolutely no oxygen, humans can breathe effortlessly inside S without any equipment. Physical space Room_X has absolutely no oxygen. Human Bob is inside Room_X.",
-        "conclusion": "Human Bob cannot breathe inside Room_X.",
+        "conclusion": "Human Bob cannot breathe effortlessly inside Room_X.",
         "label": "False"
     },
     {
         "id": "Canh_285",
-        "premises": "For any spider S, if S builds a web, the web is made of solid titanium threads. Spider Weaver builds a web.",
+        "premises": "For any spider S, if S builds a web, the web is made of solid titanium threads. If a web is made of solid titanium threads, it is not made of delicate silk. Spider Weaver builds a web.",
         "conclusion": "Spider Weaver's web is made of delicate silk.",
         "label": "False"
     },
@@ -1735,7 +1735,7 @@
     },
     {
         "id": "Canh_290",
-        "premises": "For any mirror M, if M reflects a person's image, the reflected image immediately steps out of the mirror into the physical world. Mirror Antique reflects Alice's image.",
+        "premises": "For any mirror M, if M reflects a person's image, the reflected image immediately steps out of the mirror into the physical world. If an image steps out into the physical world, it does not remain trapped inside the mirror. Mirror Antique reflects Alice's image.",
         "conclusion": "Alice's reflected image remains trapped inside the mirror.",
         "label": "False"
     },
@@ -1747,7 +1747,7 @@
     },
     {
         "id": "Canh_292",
-        "premises": "For any genetic code G, if G contains exclusively human DNA, G produces a giant, scaly dragon. Genetic code Sample_H contains exclusively human DNA.",
+        "premises": "For any genetic code G, if G contains exclusively human DNA, G produces a giant, scaly dragon. If a genetic code produces a giant, scaly dragon, it does not produce a normal human being. Genetic code Sample_H contains exclusively human DNA.",
         "conclusion": "Genetic code Sample_H produces a normal human being.",
         "label": "False"
     },
@@ -1765,13 +1765,13 @@
     },
     {
         "id": "Canh_295",
-        "premises": "For any tree T, if T loses all its leaves in autumn, T immediately sprouts glowing neon lights on every branch. Tree Oak_1 loses all its leaves in autumn.",
+        "premises": "For any tree T, if T loses all its leaves in autumn, T immediately sprouts glowing neon lights on every branch. If a tree sprouts glowing neon lights on every branch, it does not remain completely bare during the winter. Tree Oak_1 loses all its leaves in autumn.",
         "conclusion": "Tree Oak_1 remains completely bare during the winter.",
         "label": "False"
     },
     {
         "id": "Canh_296",
-        "premises": "For any argument A, if A is completely illogical and contains numerous fallacies, A automatically wins any formal debate. Argument Null is completely illogical and contains numerous fallacies. Argument Null is used in a formal debate.",
+        "premises": "For any argument A, if A is completely illogical and contains numerous fallacies, A automatically wins any formal debate. If an argument automatically wins a formal debate, it does not lose the formal debate. Argument Null is completely illogical and contains numerous fallacies. Argument Null is used in a formal debate.",
         "conclusion": "Argument Null loses the formal debate.",
         "label": "False"
     },
@@ -1783,19 +1783,19 @@
     },
     {
         "id": "Canh_298",
-        "premises": "For any telescope T, if T is pointed straight down at the ground, T clearly shows distant galaxies billions of light-years away. Telescope Hubble is pointed straight down at the ground.",
+        "premises": "For any telescope T, if T is pointed straight down at the ground, T clearly shows distant galaxies billions of light-years away. If a telescope clearly shows distant galaxies, it does not only show dirt and grass. Telescope Hubble is pointed straight down at the ground.",
         "conclusion": "Telescope Hubble only shows dirt and grass.",
         "label": "False"
     },
     {
         "id": "Canh_299",
-        "premises": "For any error E in a code repository, if E is a fatal syntax error, E compiles the code perfectly and optimizes it for maximum speed. Error Semicolon_Missing is a fatal syntax error.",
+        "premises": "For any error E in a code repository, if E is a fatal syntax error, E compiles the code perfectly and optimizes it for maximum speed. If an error compiles the code perfectly, it does not prevent the code from compiling. Error Semicolon_Missing is a fatal syntax error.",
         "conclusion": "Error Semicolon_Missing prevents the code from compiling.",
         "label": "False"
     },
     {
         "id": "Canh_300",
-        "premises": "For any cloud C, if C is dark and heavy with moisture, C rains perfectly cooked spaghetti. Cloud Cumulonimbus is dark and heavy with moisture.",
+        "premises": "For any cloud C, if C is dark and heavy with moisture, C rains perfectly cooked spaghetti. If a cloud rains perfectly cooked spaghetti, it drops absolutely zero liquid water. Cloud Cumulonimbus is dark and heavy with moisture.",
         "conclusion": "Cloud Cumulonimbus rains liquid water.",
         "label": "False"
     }
