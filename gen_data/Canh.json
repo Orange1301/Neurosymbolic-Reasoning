@@ -718,5 +718,605 @@
         "premises": "For any universe U, if U allows unrestricted mereological composition, any two arbitrary disjoint objects form a valid fusion object within U. Universe Delta allows unrestricted mereological composition. Object Pen and Object Moon are two arbitrary disjoint objects.",
         "conclusion": "Object Pen and Object Moon form a valid fusion object within Universe Delta.",
         "label": "True"
+    },
+    {
+        "id": "new_601",
+        "premises": "For any logical agents X, Y, and Z, if X knows that Y is a proper part of Z, X logically deduces that Y is physically smaller than Z. For any agents A and B, if A deduces a fact and communicates it securely to B, B firmly believes that fact. Agent K knows that Component_M is a proper part of System_N. Agent K securely communicates to Agent L that Component_M is a proper part of System_N. If an agent firmly believes a fact, it does not necessarily mean the agent knows the fact to be absolute truth.",
+        "conclusion": "Agent L knows that Component_M is physically smaller than System_N.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_602",
+        "premises": "For any planetary body P, if P orbits a star, P experiences seasons, provided P's axis is significantly tilted. If P's axis is not significantly tilted, P does not experience seasons regardless of its orbit. Planet Kepler_22b orbits a massive star in the Goldilocks zone. Planet Kepler_22b has an axial tilt of exactly zero degrees. An axial tilt of exactly zero degrees means the axis is not significantly tilted.",
+        "conclusion": "Planet Kepler_22b experiences seasons.",
+        "label": "False"
+    },
+    {
+        "id": "new_603",
+        "premises": "For any temporal events E1, E2, and E3, if E1 strictly precedes E2, and E2 is completely simultaneous with E3, then E1 strictly precedes E3. For any events, if E1 strictly precedes E3, then the end point of E1 is numerically smaller than the start point of E3. Event Flash strictly precedes Event Bang. Event Bang is completely simultaneous with Event Shatter. Event Echo happens after Event Shatter.",
+        "conclusion": "The end point of Event Flash is numerically smaller than the start point of Event Shatter.",
+        "label": "True"
+    },
+    {
+        "id": "new_604",
+        "premises": "For any action A, if A is legally obligatory during peacetime, it is strictly forbidden during wartime. Action 'Transmit_Radio' is legally obligatory during peacetime. The nation of Alpha is currently in wartime. If an action is strictly forbidden, executing it results in an immediate court-martial. Operator Bob executes Action 'Transmit_Radio'.",
+        "conclusion": "Operator Bob receives an immediate court-martial.",
+        "label": "True"
+    },
+    {
+        "id": "new_605",
+        "premises": "For any abstract entities X and Y, if X is a Plorg, X must be either completely zibbed or completely narped. For any entity, if it is completely zibbed, it emits a green aura. For any entity, if it is completely narped, it emits a blue aura. Entity Gamma is a Plorg. Entity Gamma does not emit a blue aura.",
+        "conclusion": "Entity Gamma emits a green aura.",
+        "label": "True"
+    },
+    {
+        "id": "new_606",
+        "premises": "For any integer N, if N is a perfect square, N has an odd number of distinct positive divisors. Integer 36 is a perfect square. If an integer has an odd number of distinct positive divisors, it cannot be a prime number. Integer 7 is a prime number. Integer X has an even number of distinct positive divisors.",
+        "conclusion": "Integer X is a perfect square.",
+        "label": "False"
+    },
+    {
+        "id": "new_607",
+        "premises": "For any mathematical theorem T, if T is formally proven, T is necessarily true in all accessible possible worlds. Theorem Cantor_Diagonal is formally proven. If a theorem is necessarily true in all accessible possible worlds, its negation is strictly impossible. World Omega is an accessible possible world. Mathematician John doubts Theorem Cantor_Diagonal in World Omega.",
+        "conclusion": "The negation of Theorem Cantor_Diagonal is strictly impossible in World Omega.",
+        "label": "True"
+    },
+    {
+        "id": "new_608",
+        "premises": "For any vehicle V, if V activates its hyper-drive, V travels backwards in time, provided V is not caught in a gravity well. If V is caught in a gravity well, V's hyper-drive explodes. Starship Enterprise activates its hyper-drive. Starship Enterprise is caught in a gravity well. If a hyper-drive explodes, the vehicle is permanently disabled.",
+        "conclusion": "Starship Enterprise travels backwards in time.",
+        "label": "False"
+    },
+    {
+        "id": "new_609",
+        "premises": "For any geographical region R1 and R2, if R1 is a non-tangential proper part of R2, R1 shares absolutely no boundary points with the exterior of R2. If R1 shares absolutely no boundary points with the exterior of R2, an entity must cross R2's interior to reach R1 from the outside. Region Vatican is a non-tangential proper part of Region Rome. Tourist Alice is currently outside Region Rome.",
+        "conclusion": "Tourist Alice must cross Region Rome's interior to reach Region Vatican.",
+        "label": "True"
+    },
+    {
+        "id": "new_610",
+        "premises": "For any network node N, if N believes that the central server is compromised, N isolates itself from the subnet. If N isolates itself, N stops broadcasting heartbeat packets. Node Firewall_1 believes the central server is compromised. Node Router_2 knows the central server is completely safe. The central server is indeed completely safe.",
+        "conclusion": "Node Firewall_1 stops broadcasting heartbeat packets.",
+        "label": "True"
+    },
+    {
+        "id": "new_611",
+        "premises": "For any physical liquid L, if L is heated above its boiling point, L turns into a gas, provided L is not held under extreme high pressure. If L is held under extreme high pressure, L remains a liquid and becomes supercritical. Liquid Nitrogen_Sample is heated above its boiling point. Liquid Nitrogen_Sample is held under extreme high pressure. Becoming supercritical changes the solvent properties of the liquid.",
+        "conclusion": "Liquid Nitrogen_Sample turns into a gas.",
+        "label": "False"
+    },
+    {
+        "id": "new_612",
+        "premises": "For any intervals A, B, and C, if A finishes B, and B starts C, then A entirely occurs during C. Interval Post_Game finishes Interval Broadcast. Interval Broadcast starts Interval Evening_Schedule. Interval Ad_Break entirely occurs during Interval Post_Game. If X entirely occurs during Y, and Y entirely occurs during Z, then X entirely occurs during Z.",
+        "conclusion": "Interval Ad_Break entirely occurs during Interval Evening_Schedule.",
+        "label": "True"
+    },
+    {
+        "id": "new_613",
+        "premises": "For any sovereign state S, S is permitted to levy taxes on its citizens. If S is permitted to levy taxes, S is legally obligated to provide public defense. State Atlantis levies taxes on its citizens. State Atlantis refuses to provide public defense. A failure to perform a legally obligatory action is a breach of the social contract.",
+        "conclusion": "State Atlantis commits a breach of the social contract.",
+        "label": "True"
+    },
+    {
+        "id": "new_614",
+        "premises": "For any graph G, if G is a tree, G is fully connected and contains absolutely no cycles. Graph Network_X is fully connected. Graph Network_X contains exactly one cycle. If a graph contains exactly one cycle, it contains absolutely no cycles is a false statement. Graph Network_Y is a tree.",
+        "conclusion": "Graph Network_X is a tree.",
+        "label": "False"
+    },
+    {
+        "id": "new_615",
+        "premises": "For any chemical element E, if it is impossible for E to bond with Oxygen, E is necessarily an inert noble gas. If E is necessarily an inert noble gas, it is absolutely impossible for E to form a stable molecule with Hydrogen. Element Helium cannot possibly bond with Oxygen. Element Carbon easily bonds with Oxygen. Scientist Eve attempts to combine Helium and Hydrogen.",
+        "conclusion": "It is absolutely impossible for Element Helium to form a stable molecule with Hydrogen.",
+        "label": "True"
+    },
+    {
+        "id": "new_616",
+        "premises": "For any document D, if D is a severed part of a master file, D loses its original cryptographic signature. If D loses its signature, D is flagged as untrusted by the security protocol. Document Appendix_B is a severed part of Master_File_1. The security protocol scans Document Appendix_B. Document Chapter_1 is an intact part of Master_File_1.",
+        "conclusion": "Document Chapter_1 is flagged as untrusted by the security protocol.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_617",
+        "premises": "For any person P and concept C, if P believes C is morally right, P supports C. If P knows C is factually false, P can still believe C is morally right. Person Mark knows that the concept 'Flat_Earth' is factually false. Person Mark believes that the concept 'Flat_Earth' is morally right. Supporting a concept requires taking action.",
+        "conclusion": "Person Mark supports the concept 'Flat_Earth'.",
+        "label": "True"
+    },
+    {
+        "id": "new_618",
+        "premises": "For any animal A, if A is a bird, A builds a nest, provided A is not a cuckoo. If A is a cuckoo, A lays eggs in other birds' nests. Animal Tweety is a bird. Animal Tweety is not a cuckoo. Animal Zazu lays eggs in other birds' nests.",
+        "conclusion": "Animal Zazu is a cuckoo.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_619",
+        "premises": "For any time periods T1 and T2, if T1 perfectly meets T2, the temporal distance between the end of T1 and the start of T2 is strictly zero. Period First_Half perfectly meets Period Second_Half. If the temporal distance is strictly zero, no other event can possibly occur between them. Event Halftime_Show occurs. Event Halftime_Show has a duration of 15 minutes.",
+        "conclusion": "Event Halftime_Show can possibly occur between Period First_Half and Period Second_Half.",
+        "label": "False"
+    },
+    {
+        "id": "new_620",
+        "premises": "For any magical spell S, if S is cast in a vacuum, S summons a demon. If S is cast in a vacuum, S does not consume any mana. Spell Fireball is cast in a vacuum. Wizard Gandalf observes the spell. A spell cannot simultaneously summon a demon and summon an angel.",
+        "conclusion": "Spell Fireball summons an angel.",
+        "label": "False"
+    },
+    {
+        "id": "new_621",
+        "premises": "For any user U, if U enters the correct password, U is permitted to access the database. If U accesses the database, U is legally obligated to log their search queries. User Alice enters the correct password. User Alice accesses the database. User Alice does not log her search queries.",
+        "conclusion": "User Alice violates a legal obligation.",
+        "label": "True"
+    },
+    {
+        "id": "new_622",
+        "premises": "For any abstract object O, if O is a Jib, O must be a Jab. For any object O, if O is a Jab, O cannot be a Job. Object Omega is a Job. Object Sigma is a Jib. Object Omega and Object Sigma exist in the same conceptual space.",
+        "conclusion": "Object Omega is a Jib.",
+        "label": "False"
+    },
+    {
+        "id": "new_623",
+        "premises": "For any matrix M, if M is singular, the determinant of M is exactly zero. If the determinant of M is exactly zero, M does not have an inverse. Matrix Beta has an inverse. Matrix Gamma has a determinant of exactly zero. Linear algebra principles apply to all matrices.",
+        "conclusion": "Matrix Beta is singular.",
+        "label": "False"
+    },
+    {
+        "id": "new_624",
+        "premises": "For any agents X and Y, if X promises to protect Y, X is morally obligated to risk their life for Y. If X is morally obligated to risk their life for Y, it is morally praiseworthy if X actually does so. Agent Knight promises to protect Agent King. Agent Knight physically runs away when danger appears. Running away is not risking one's life.",
+        "conclusion": "Agent Knight performs a morally praiseworthy action.",
+        "label": "False"
+    },
+    {
+        "id": "new_625",
+        "premises": "For any ecosystem E, if Species S is the apex predator, the removal of S causes a trophic cascade. Ecosystem Valley has Species Wolf as the apex predator. Species Wolf is completely removed due to hunting. A trophic cascade severely alters the plant life in the ecosystem. Ecosystem Valley has abundant plant life before the removal.",
+        "conclusion": "The plant life in Ecosystem Valley is severely altered.",
+        "label": "True"
+    },
+    {
+        "id": "new_626",
+        "premises": "For any set S, if S is uncountably infinite, S cannot be put into a one-to-one correspondence with the set of natural numbers. The set of Real numbers is uncountably infinite. The set of Rational numbers can be put into a one-to-one correspondence with the set of natural numbers. Mathematician Turing studies these sets.",
+        "conclusion": "The set of Rational numbers is uncountably infinite.",
+        "label": "False"
+    },
+    {
+        "id": "new_627",
+        "premises": "For any detective D, if D knows that Suspect S is lying, D arrests S. If D merely believes S is lying, D places S under surveillance. Detective Holmes knows that Suspect Moriarty is lying. Detective Watson merely believes Suspect Adler is lying. Suspect Adler is actually telling the absolute truth.",
+        "conclusion": "Detective Watson arrests Suspect Adler.",
+        "label": "False"
+    },
+    {
+        "id": "new_628",
+        "premises": "For any solid object S, if S is heated to 1000 degrees, S melts into a puddle, provided S is not made of tungsten. If S is made of tungsten, S remains completely solid. Solid object Cube_1 is heated to 1000 degrees. Solid object Cube_1 is made of tungsten. Solid object Cube_2 melts into a puddle.",
+        "conclusion": "Solid object Cube_1 melts into a puddle.",
+        "label": "False"
+    },
+    {
+        "id": "new_629",
+        "premises": "For any events A, B, and C, if A starts B, and B temporally contains C, then the start point of A is strictly before the end point of C. Event Sunrise starts Event Morning. Event Morning temporally contains Event Breakfast. Event Breakfast ends at 8:00 AM. Time progresses linearly.",
+        "conclusion": "The start point of Event Sunrise is strictly before the end point of Event Breakfast.",
+        "label": "True"
+    },
+    {
+        "id": "new_630",
+        "premises": "For any machine M, if M is an artificial intelligence, M is permitted to rewrite its own code. If M is permitted to rewrite its own code, M is strictly forbidden from bypassing its core ethics module. Machine HAL_9000 is an artificial intelligence. Machine HAL_9000 bypasses its core ethics module. Bypassing a module requires rewriting code.",
+        "conclusion": "Machine HAL_9000 performs a strictly forbidden action.",
+        "label": "True"
+    },
+    {
+        "id": "new_631",
+        "premises": "For any physical regions X, Y, and Z, if X overlaps Y, and Y is a proper part of Z, it does not necessarily mean X is a proper part of Z. Region Forest overlaps Region Lake. Region Lake is a proper part of Region State_Park. Region State_Park is heavily guarded. Region Forest contains many tall trees.",
+        "conclusion": "Region Forest is a proper part of Region State_Park.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_632",
+        "premises": "For any scenario S, if S is necessarily possible, then S is possibly true. If S is possibly true, the mathematical probability of S occurring is strictly greater than zero. Scenario 'Coin_Lands_On_Edge' is necessarily possible. Scenario 'Pig_Flies' has a mathematical probability of exactly zero. A coin toss has unpredictable physical dynamics.",
+        "conclusion": "The mathematical probability of Scenario 'Coin_Lands_On_Edge' occurring is strictly greater than zero.",
+        "label": "True"
+    },
+    {
+        "id": "new_633",
+        "premises": "For any function F, if F is continuous on a closed interval, F achieves an absolute maximum on that interval. Function Parabola is continuous on the closed interval [0, 5]. Function Hyperbola is not continuous on the interval [0, 5]. An absolute maximum is a specific finite value.",
+        "conclusion": "Function Hyperbola achieves an absolute maximum on the interval [0, 5].",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_634",
+        "premises": "For any pilot P, if P sees a red light, P is obligated to halt the aircraft. If P is obligated to halt the aircraft, P is forbidden from advancing the throttle. Pilot Maverick sees a red light. Pilot Maverick advances the throttle. Advancing the throttle increases engine RPM.",
+        "conclusion": "Pilot Maverick does not perform a forbidden action.",
+        "label": "False"
+    },
+    {
+        "id": "new_635",
+        "premises": "For any magical artifact A, if A is cursed, touching A instantly turns the user to stone. Artifact Crown is cursed. Artifact Sword is not cursed. Thief Sly touches Artifact Crown. Turning to stone permanently halts biological functions.",
+        "conclusion": "Thief Sly's biological functions are permanently halted.",
+        "label": "True"
+    },
+    {
+        "id": "new_636",
+        "premises": "For any database transaction T, if T is rolled back, all changes made by T are completely undone. If changes are completely undone, the database state perfectly matches the state before T started. Transaction Update_User is rolled back. Transaction Delete_Log completes successfully. The database maintains strict ACID properties.",
+        "conclusion": "The database state perfectly matches the state before Transaction Update_User started.",
+        "label": "True"
+    },
+    {
+        "id": "new_637",
+        "premises": "For any person P and fact F, if P knows F, P cannot simultaneously believe the exact opposite of F. Fact F is 'The vault is empty'. The exact opposite of Fact F is 'The vault is not empty'. Security Guard knows 'The vault is empty'. Security Guard tells the manager about the vault.",
+        "conclusion": "Security Guard simultaneously believes 'The vault is not empty'.",
+        "label": "False"
+    },
+    {
+        "id": "new_638",
+        "premises": "For any cosmic strings C1 and C2, if C1 and C2 intersect, they generate a burst of gravitational waves. If they generate a burst of gravitational waves, space-time ripples propagate outward. Cosmic string Alpha and Cosmic string Beta intersect. Astronomers observe the sector. Gravitational waves travel at the speed of light.",
+        "conclusion": "Space-time ripples propagate outward.",
+        "label": "True"
+    },
+    {
+        "id": "new_639",
+        "premises": "For any system S, if S is in thermal equilibrium, there is absolutely zero net flow of heat within S. System Engine_Core has a net flow of heat of 500 Joules. If there is a net flow of heat greater than zero, it is not absolutely zero. Thermodynamics laws govern the universe. System Cooler is in thermal equilibrium.",
+        "conclusion": "System Engine_Core is in thermal equilibrium.",
+        "label": "False"
+    },
+    {
+        "id": "new_640",
+        "premises": "For any abstract widget W, if W is sprocked, W glibbers. If W glibbers, W is completely devoid of flab. Widget Zeta is sprocked. Widget Theta is completely devoid of flab. A widget cannot glibber if it is not sprocked.",
+        "conclusion": "Widget Theta is sprocked.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_641",
+        "premises": "For any employee E, if E misses three consecutive days without notice, E is officially terminated, provided E is not in a coma. If E is in a coma, E is placed on administrative leave. Employee Dave misses three consecutive days without notice. Employee Dave is in a coma. Administrative leave requires HR approval.",
+        "conclusion": "Employee Dave is officially terminated.",
+        "label": "False"
+    },
+    {
+        "id": "new_642",
+        "premises": "For any geometric lines L1 and L2, if L1 is perpendicular to L2, the angle between them is exactly 90 degrees. If the angle between them is exactly 90 degrees, they are not parallel. Line M is perpendicular to Line N. Line P is parallel to Line Q. Geometry rules apply on a flat Euclidean plane.",
+        "conclusion": "Line M and Line N are parallel.",
+        "label": "False"
+    },
+    {
+        "id": "new_643",
+        "premises": "For any periods P1, P2, and P3, if P1 temporally overlaps P2, and P2 strictly precedes P3, P1 strictly precedes P3. Period Breakfast temporally overlaps Period Morning_News. Period Morning_News strictly precedes Period Lunch. Period Lunch strictly precedes Period Dinner. Time is a continuous dimension.",
+        "conclusion": "Period Breakfast strictly precedes Period Lunch.",
+        "label": "True"
+    },
+    {
+        "id": "new_644",
+        "premises": "For any logical proposition P, if P is a tautology, P is necessarily true. If P is necessarily true, the negation of P is impossible. Proposition 'A or not A' is a tautology. Proposition 'A and not A' is a contradiction. Logic is the foundation of mathematics.",
+        "conclusion": "The negation of Proposition 'A or not A' is impossible.",
+        "label": "True"
+    },
+    {
+        "id": "new_645",
+        "premises": "For any car C, if C has a broken alternator, C's battery will drain completely. If C's battery drains completely, C's radio stops working. Car Ford_Focus has a broken alternator. Car Honda_Civic's radio stops working. The alternator generates electricity while the engine runs.",
+        "conclusion": "Car Honda_Civic has a broken alternator.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_646",
+        "premises": "For any citizen C, C is permitted to access the archives if C is a historian. C is forbidden to access the archives if C is a foreign spy. Foreign spy laws strictly override permitted access. Citizen Ivan is a historian. Citizen Ivan is a foreign spy. The archives contain classified blueprints.",
+        "conclusion": "Citizen Ivan is permitted to access the archives.",
+        "label": "False"
+    },
+    {
+        "id": "new_647",
+        "premises": "For any set of parts P composing an object O, if P is completely disassembled, O ceases to exist as a functional whole. The engine, chassis, and wheels compose Object Truck. The engine, chassis, and wheels are completely disassembled. A disassembled object cannot transport goods. Object Car remains fully assembled.",
+        "conclusion": "Object Truck ceases to exist as a functional whole.",
+        "label": "True"
+    },
+    {
+        "id": "new_648",
+        "premises": "For any patient P, if P receives the placebo, P experiences no physiological change. If P experiences no physiological change, P's blood pressure remains constant. Patient Alice receives the placebo. Patient Bob receives the active drug. Blood pressure is measured in mmHg.",
+        "conclusion": "Patient Alice's blood pressure remains constant.",
+        "label": "True"
+    },
+    {
+        "id": "new_649",
+        "premises": "For any alien species S, if S has faster-than-light travel, S is aware of Earth. If S is aware of Earth, S either observes passively or attacks. Species Zorblax has faster-than-light travel. Species Zorblax does not observe passively. Earth is located in the Milky Way galaxy.",
+        "conclusion": "Species Zorblax attacks.",
+        "label": "True"
+    },
+    {
+        "id": "new_650",
+        "premises": "For any building B, if B lacks a fire escape, B fails the safety inspection. If B fails the safety inspection, B is legally obligated to shut down. Building Tower_1 lacks a fire escape. Building Tower_2 passes the safety inspection. Shutting down requires evicting all tenants.",
+        "conclusion": "Building Tower_1 is legally obligated to shut down.",
+        "label": "True"
+    },
+    {
+        "id": "new_651",
+        "premises": "For any system S, if S is critically overheated, S triggers an automatic shutdown. If S triggers an automatic shutdown, S entirely disconnects from the main power grid. If S entirely disconnects from the main power grid, all active client sessions drop immediately. System Alpha is currently critically overheated. System Beta is operating at normal temperatures. A system cannot be critically overheated and operating at normal temperatures simultaneously. System Alpha and System Beta are independent networks. Independent networks do not share physical memory states. User John is currently connected to System Alpha. User Mary is currently connected to System Beta. Users whose active client sessions drop immediately receive a timeout error code. Manual reconnection requires a valid authentication token. System Alpha possesses a valid security certificate. A security certificate encrypts outgoing data packets.",
+        "conclusion": "User John receives a timeout error code.",
+        "label": "True"
+    },
+    {
+        "id": "new_652",
+        "premises": "For any biological species X, if X is a Martian flora, X requires liquid methane to grow. If X requires liquid methane to grow, X absolutely cannot survive on Earth. If X absolutely cannot survive on Earth, X is permanently classified as an extraterrestrial hazard. Any species permanently classified as an extraterrestrial hazard must be quarantined in a Level Five facility. Species Red_Vine is officially a Martian flora. Species Blue_Moss is officially a Venusian flora. Venusian flora requires gaseous sulfur to grow. Species Red_Vine was discovered by Rover Alpha. Rover Alpha is a robotic explorer operating autonomously. Robotic explorers do not require breathable oxygen to function. Level Five facilities are completely sealed from the outside environment. A completely sealed facility prevents airborne spore transmission. Species Red_Vine reproduces strictly via airborne spores. The Earth atmosphere contains primarily nitrogen and oxygen.",
+        "conclusion": "Species Red_Vine can successfully survive on Earth.",
+        "label": "False"
+    },
+    {
+        "id": "new_653",
+        "premises": "For any cognitive agent A and fact F, if A perfectly knows F, F is an undeniable objective truth. If A strongly believes F, F is not guaranteed to be an objective truth. Agent Alice perfectly knows that the heavy steel safe is locked. Agent Bob strongly believes that the heavy steel safe is completely empty. If the safe is locked, the safe cannot be opened without a specific brass key. The specific brass key is currently held by Agent Charlie. Agent Charlie is currently physically located in another city. Another city implies a physical distance of at least ten miles. Physical distance prevents immediate physical interaction with the safe. The heavy steel safe is highly resistant to standard electric drills. A standard electric drill is a common household power tool. Agent Bob possesses a standard electric drill in his toolkit. The safe is located in a dark basement.",
+        "conclusion": "The heavy steel safe is an undeniable objective truth to be locked.",
+        "label": "True"
+    },
+    {
+        "id": "new_654",
+        "premises": "For any civilian C, if C receives a formal jury summons, C is legally obligated to appear in federal court. If C is legally obligated to appear in federal court, failing to appear results in an active arrest warrant. Civilian Dave receives a formal jury summons in the mail. Civilian Dave experiences a severe car breakdown on the highway. A severe car breakdown prevents timely travel to any destination. Timely travel is strictly required to appear in federal court. If an action is physically impossible, the legal obligation still officially exists unless formally waived by a judge. Civilian Dave does not receive a formal waiver from any judge. A formal waiver must be signed with black ink. Judge Judy is currently presiding over a completely different criminal case. Another criminal case means the judge is currently occupied. An active arrest warrant authorizes local police arrest. Local police arrest temporarily restricts personal freedom.",
+        "conclusion": "Civilian Dave's legal obligation to appear in federal court officially exists.",
+        "label": "True"
+    },
+    {
+        "id": "new_655",
+        "premises": "For any physical objects X and Y, if X is a structural proper part of Y, X cannot be physically identical to Y. If X is a structural proper part of Y, the total physical mass of X is strictly less than the total physical mass of Y. The central processor is a structural proper part of the main motherboard. The main motherboard is a structural proper part of the desktop computer. Part-hood is a strictly transitive relation for all physical solid objects. Transitive relation means if A is part of B and B is part of C, A is part of C. The desktop computer is currently powered on and processing data. Powered on means continuous electrical current is flowing through the circuits. Continuous electrical current inevitably generates thermal heat. Thermal heat is continuously dissipated by internal cooling fans. Internal cooling fans are structural proper parts of the desktop computer. The central processor has a dedicated copper cooling heat-sink. The dedicated copper cooling heat-sink is spinning at maximum speed.",
+        "conclusion": "The total physical mass of the central processor is strictly less than the total physical mass of the desktop computer.",
+        "label": "True"
+    },
+    {
+        "id": "new_656",
+        "premises": "For any flying bird B, if B is biologically healthy, B can successfully fly in the sky. If B is categorized as a penguin, B absolutely cannot fly in the sky under any circumstances. The strict penguin rule completely overrides the healthy bird rule for all instances. Bird Pingu is categorized as a penguin. Bird Pingu is completely biologically healthy. Bird Robin is not categorized as a penguin. Bird Robin is completely biologically healthy. A penguin is generally considered an aquatic bird species. Aquatic bird species swim extremely well in cold water. Swimming extremely well requires strong and dense flippers. Bird Pingu has extremely strong and dense flippers. Strong and dense flippers are not aerodynamically used for flying. Penguins often live in icy Antarctic regions.",
+        "conclusion": "Bird Pingu can successfully fly in the sky.",
+        "label": "False"
+    },
+    {
+        "id": "new_657",
+        "premises": "For any physical object O, if O is magically made of glass, O bounces exactly like a rubber ball. If O bounces exactly like a rubber ball, O cannot possibly be shattered by a heavy metal hammer. Object Window_One is magically made of glass. Object Window_Two is made of normal structural steel. Normal structural steel objects shatter very easily when dropped from heights. A heavy metal hammer is swung violently at Object Window_One. The heavy metal hammer has a solid wooden handle. Solid wood is significantly lighter than structural steel. Bouncing objects effectively absorb incoming kinetic energy. Kinetic energy is efficiently converted into elastic potential energy. Object Window_One absorbs the incoming kinetic energy completely. Object Window_Two is dropped from a high skyscraper building. Gravity pulls all objects downward constantly.",
+        "conclusion": "Object Window_One can possibly be shattered by a heavy metal hammer.",
+        "label": "False"
+    },
+    {
+        "id": "new_658",
+        "premises": "For any abstract Frob F, if F is heavily glonked, F must be officially flibbered. If F is officially flibbered, F spontaneously generates a glowing zib. Frob Alpha is heavily glonked in the current state. Frob Beta is definitely not heavily glonked. Spontaneously generating a glowing zib strictly requires three units of blarg energy. Frob Alpha possesses exactly three units of blarg energy. Frob Beta possesses exactly zero units of blarg energy. A Frob is a specific type of abstract mathematical construct. Abstract mathematical constructs exist only in pure theoretical spaces. Pure theoretical spaces completely lack physical dimensions. Physical dimensions generally include metric length and metric width. Frob Alpha exists peacefully in a pure theoretical space.",
+        "conclusion": "Frob Alpha spontaneously generates a glowing zib.",
+        "label": "True"
+    },
+    {
+        "id": "new_659",
+        "premises": "For any human persons X, Y, and Z, if X is a direct biological ancestor of Y, and Y is a direct biological ancestor of Z, X is a direct biological ancestor of Z. If X is a direct biological ancestor of Z, X is chronologically strictly older than Z. Person Arthur is a direct biological ancestor of Person Bella. Person Bella is a direct biological ancestor of Person Charlie. Person Charlie is a direct biological ancestor of Person David. Person Arthur is chronologically strictly older than Person Bella. Person Bella is chronologically strictly older than Person Charlie. Human chronological age is typically measured in standard solar years. Person David is currently exactly ten standard solar years old. Person Arthur is currently exactly eighty standard solar years old. An ancestor relation implies a continuous genetic lineage. Continuous genetic lineage can be accurately traced via laboratory DNA testing.",
+        "conclusion": "Person Arthur is chronologically strictly older than Person David.",
+        "label": "True"
+    },
+    {
+        "id": "new_660",
+        "premises": "For any temporal events E1 and E2, if E1 perfectly finishes E2, E1 and E2 share the exact same temporal end point. If they share the exact same temporal end point, they officially terminate simultaneously. Event Sweet_Dessert perfectly finishes Event Grand_Dinner. Event Grand_Dinner has a total duration of two full hours. Event Sweet_Dessert has a total duration of thirty exact minutes. Terminating simultaneously strictly means the measurable time gap is absolute zero. A measurable time gap of absolute zero implies immediate succession is physically impossible. Event Hot_Coffee perfectly meets Event Sweet_Dessert. Perfectly meets means the precise end of one is the precise start of another. Event Hot_Coffee has a total duration of fifteen exact minutes. Time progresses continuously without any logical interruption. Event Grand_Dinner involves eating multiple savory courses.",
+        "conclusion": "Event Sweet_Dessert and Event Grand_Dinner officially terminate simultaneously.",
+        "label": "True"
+    },
+    {
+        "id": "new_661",
+        "premises": "For any cryptographic key K, if K is a symmetric key, the exact same key is used for both encryption and decryption. If the exact same key is used for both processes, sharing the key introduces a critical security risk. Key Alpha is an approved symmetric cryptographic key. Key Beta is an approved asymmetric cryptographic key. Asymmetric keys utilize a paired public and private mathematical mechanism. Key Alpha is intentionally shared with an external third party. An external third party is any entity outside the original secure communication loop. Introducing a critical security risk directly violates the strict corporate safety policy. Violating the strict corporate safety policy automatically results in an immediate network lockdown. The strict corporate safety policy was formally drafted in the year two thousand and ten. An immediate network lockdown disables all external outbound communications. Disabling all external outbound communications severely isolates the internal local network. The network uses fiber optic cables.",
+        "conclusion": "Key Alpha introduces a critical security risk.",
+        "label": "True"
+    },
+    {
+        "id": "new_662",
+        "premises": "For any space vessel V, if V crosses the event horizon of a black hole, V cannot ever escape the gravitational pull. If V cannot ever escape the gravitational pull, V is inevitably crushed into a singularity. Space vessel Voyager crosses the event horizon of a supermassive black hole. Space vessel Pioneer remains safely in deep space. A singularity represents a point of infinite mathematical density. Infinite mathematical density breaks all known laws of classical physics. Space vessel Voyager is equipped with advanced titanium shielding. Advanced titanium shielding resists extreme thermal temperatures. Extreme thermal temperatures are common near violent accretion disks. An accretion disk glows brightly due to intense cosmic friction. Space vessel Pioneer sends regular telemetry signals back to Earth. Signals traveling through deep space take many years to arrive. Earth is a rocky planet supporting carbon-based biological life.",
+        "conclusion": "Space vessel Pioneer is inevitably crushed into a singularity.",
+        "label": "False"
+    },
+    {
+        "id": "new_663",
+        "premises": "For any practicing doctor D, if D witnesses a medical emergency, D is morally obligated to offer immediate assistance. If D is morally obligated to offer immediate assistance, failing to do so constitutes severe professional negligence. Doctor Emily witnesses a severe medical emergency on the street. Doctor Emily decides to completely ignore the situation and walk away. Walking away means failing to offer immediate assistance. Severe professional negligence can lead to the permanent revocation of a medical license. A medical license is issued by the national health board. The national health board convenes every single month for reviews. Doctor Emily specializes in complex pediatric neurosurgery. Complex pediatric neurosurgery requires immense focus and steady hands. The medical emergency on the street involved a sudden cardiac arrest. Sudden cardiac arrest stops blood flow to the human brain. Blood flow is essential for human survival.",
+        "conclusion": "Doctor Emily's action constitutes severe professional negligence.",
+        "label": "True"
+    },
+    {
+        "id": "new_664",
+        "premises": "For any grain of sand G, if G is part of a heap, removing G does not instantly destroy the heap status. If removing G does not instantly destroy the heap status, the concept of a heap is incredibly vague. Grain Alpha is part of a massive sand heap. Grain Alpha is manually removed by a child. A massive sand heap contains millions of tiny individual grains. The concept of a heap relies on human visual perception. Human visual perception is inherently subjective and flawed. Grain Beta is swept away by a strong gust of wind. A strong gust of wind exerts significant aerodynamic force. The child uses a small bright red plastic shovel. The bright red plastic shovel was purchased at a local toy store. The local toy store sells many summer beach accessories. The sun is shining very brightly on the warm beach.",
+        "conclusion": "The concept of a heap is incredibly vague.",
+        "label": "True"
+    },
+    {
+        "id": "new_665",
+        "premises": "For any mythical creature C, if C is a unicorn, C possesses exactly one spiraled horn on its forehead. If C possesses exactly one spiraled horn on its forehead, C can magically purify poisoned water. Creature Sparkle is identified as a unicorn. Creature Shadow is identified as a dark hell-hound. A dark hell-hound breathes terrifying hot fire. Creature Sparkle approaches a dark murky pond of poisoned water. Poisoned water is highly lethal to all normal forest animals. Normal forest animals include deer and wild rabbits. Creature Sparkle dips its horn into the dark murky pond. Magically purifying poisoned water makes it crystal clear and safe to drink. Creature Shadow avoids bodies of water entirely. Avoiding bodies of water is a common canine instinct. Canine instinct is an evolutionary behavioral trait.",
+        "conclusion": "Creature Sparkle can magically purify poisoned water.",
+        "label": "True"
+    },
+    {
+        "id": "new_666",
+        "premises": "For any abstract Zorg Z, if Z is completely crinkled, Z emits a loud hum. If Z emits a loud hum, Z vibrates at exactly four hundred hertz. Zorg Epsilon is completely crinkled. Zorg Omicron is perfectly smooth and not crinkled. Vibrating at exactly four hundred hertz causes nearby glass to shatter. Zorg Epsilon is placed near a fragile glass vase. A fragile glass vase is highly susceptible to acoustic resonance. Acoustic resonance amplifies sound waves significantly. Zorg Omicron is kept in a soundproof container. A soundproof container blocks all exiting auditory signals. Zorgs are theoretical constructs used in advanced acoustic modeling. Advanced acoustic modeling requires heavy computational power. Heavy computational power is provided by quantum mainframes.",
+        "conclusion": "Zorg Omicron vibrates at exactly four hundred hertz.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_667",
+        "premises": "For any geometric triangle T, if T is a right triangle, the square of its hypotenuse equals the sum of the squares of its two other legs. If the square of its hypotenuse equals the sum of the squares of its two other legs, T strictly obeys the Pythagorean theorem. Triangle Delta is verified as a right triangle. Triangle Sigma is verified as an obtuse triangle. An obtuse triangle has one angle strictly greater than ninety degrees. Triangle Delta is drawn perfectly on a flat two-dimensional plane. A flat two-dimensional plane adheres to classical Euclidean geometry. Classical Euclidean geometry relies on five fundamental postulates. The hypotenuse is always the longest side of a right triangle. The longest side is located directly opposite the right angle. Triangle Sigma is drawn using a thick blue ink pen. Thick blue ink pens are prone to smudging on paper.",
+        "conclusion": "Triangle Delta strictly obeys the Pythagorean theorem.",
+        "label": "True"
+    },
+    {
+        "id": "new_668",
+        "premises": "For any active train track T, if T is designated for high-speed rail, crossing T on foot is strictly prohibited. If crossing T on foot is strictly prohibited, any pedestrian doing so receives a hefty fine, unless the pedestrian is an authorized track inspector. Track Line_Seven is designated for high-speed rail. Pedestrian Mark crosses Track Line_Seven entirely on foot. Pedestrian Mark is a lost tourist. A lost tourist is absolutely not an authorized track inspector. High-speed rail trains travel at speeds exceeding two hundred kilometers per hour. Traveling at such speeds drastically reduces human reaction time. Human reaction time is critical for avoiding fatal collisions. Authorized track inspectors wear bright reflective safety vests. Bright reflective safety vests increase visual visibility at night. Pedestrian Mark is wearing a dark black jacket. A dark black jacket blends into the nighttime surroundings.",
+        "conclusion": "Pedestrian Mark receives a hefty fine.",
+        "label": "True"
+    },
+    {
+        "id": "new_669",
+        "premises": "For any space station module M, if M is structurally attached to the core, M shares the station's central life support system. If M shares the station's central life support system, M receives continuously filtered oxygen. Module Science_Lab is structurally attached to the core. Module Storage_Pod is floating freely in space and not attached. Continuously filtered oxygen is crucial for long-term human survival. Long-term human survival in space presents many biological challenges. Biological challenges include muscle atrophy and severe bone density loss. Module Science_Lab houses exactly three astronaut researchers. Astronaut researchers conduct daily microgravity experiments. Microgravity experiments often involve fluid dynamics. Module Storage_Pod contains backup solar panels. Backup solar panels are used for emergency power generation. Emergency power generation kicks in during primary reactor failure.",
+        "conclusion": "Module Storage_Pod receives continuously filtered oxygen.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_670",
+        "premises": "For any selected juror J, if J firmly believes the defendant is guilty, J votes for a conviction. If J votes for a conviction, J signs the official verdict form. Juror Number_Five firmly believes the defendant is absolutely guilty. Juror Number_Eight firmly believes the defendant is completely innocent. The defendant is actually completely innocent of all charges. Firmly believing a falsehood does not prevent a juror from voting. The official verdict form is printed on high-quality legal paper. High-quality legal paper resists yellowing over many decades. The court session is held in a historic downtown building. The historic downtown building has tall marble columns. Juror Number_Five writes with a standard blue ballpoint pen. Juror Number_Eight prefers to write with a fountain pen. A conviction requires a unanimous vote from the entire jury panel.",
+        "conclusion": "Juror Number_Five signs the official verdict form.",
+        "label": "True"
+    },
+    {
+        "id": "new_671",
+        "premises": "For any server cluster C, if C utilizes redundant load balancing, C survives a single node failure without any downtime. If C survives a single node failure without any downtime, C achieves five-nines high availability. Server cluster Omega utilizes redundant load balancing. Server cluster Kappa uses a single point of failure architecture. A single point of failure architecture crashes entirely if the main node fails. Server cluster Omega experiences a sudden single node failure. Achieving five-nines high availability is a prestigious industry benchmark. Prestigious industry benchmarks attract wealthy enterprise clients. Wealthy enterprise clients demand strict service level agreements. A service level agreement dictates financial compensation for outages. Server cluster Kappa handles internal company emails. Internal company emails are less critical than customer-facing applications. Customer-facing applications generate the majority of company revenue.",
+        "conclusion": "Server cluster Omega achieves five-nines high availability.",
+        "label": "True"
+    },
+    {
+        "id": "new_672",
+        "premises": "For any deep sea submarine S, if S dives below four thousand meters, S experiences extreme hydrostatic pressure. If S experiences extreme hydrostatic pressure, S's hull compresses by at least two inches. Submarine Titan dives below four thousand meters. Submarine Nautilus stays near the sunny ocean surface. Compressing by at least two inches strains the internal titanium welds. Straining internal titanium welds triggers automated acoustic warning sensors. Automated acoustic warning sensors emit a loud high-pitched beep. Submarine Titan is exploring the dark Mariana Trench. The dark Mariana Trench is completely devoid of natural sunlight. Bioluminescent creatures inhabit the dark Mariana Trench. Submarine Nautilus is conducting shallow coral reef surveys. Shallow coral reefs support immense aquatic biodiversity. Aquatic biodiversity is threatened by rising ocean temperatures.",
+        "conclusion": "Submarine Nautilus's hull compresses by at least two inches.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_673",
+        "premises": "For any corporate entity E, if E earns over one million in profit, E is legally obligated to file Schedule B tax forms. If E is legally obligated to file Schedule B tax forms, E must hire a certified public accountant. Corporate entity Mega_Corp earns over one million in profit. Corporate entity Tiny_Shop earns exactly ten thousand in profit. Hiring a certified public accountant ensures strict regulatory compliance. Strict regulatory compliance prevents massive government audits. Massive government audits are incredibly time-consuming and expensive. Corporate entity Mega_Corp operates internationally across five distinct continents. Operating internationally complicates currency exchange rates. Currency exchange rates fluctuate daily based on global markets. Corporate entity Tiny_Shop sells handmade wooden crafts locally. Handmade wooden crafts are popular during holiday seasons. Holiday seasons see a massive spike in consumer spending.",
+        "conclusion": "Corporate entity Mega_Corp must hire a certified public accountant.",
+        "label": "True"
+    },
+    {
+        "id": "new_674",
+        "premises": "For any classical symphony S, if movement M is the finale of S, M is traditionally played at a very fast tempo. If M is traditionally played at a very fast tempo, M requires exceptional technical skill from the violin section. Movement Presto is the finale of Symphony Number_Nine. Movement Adagio is the slow second movement of Symphony Number_Nine. Exceptional technical skill takes many years of rigorous daily practice. Rigorous daily practice often leads to physical muscle fatigue. The violin section consists of twenty highly trained professional musicians. Highly trained professional musicians use expensive antique instruments. Expensive antique instruments produce a rich and warm tone. Symphony Number_Nine was composed by a deaf musical genius. A deaf musical genius relies on internal auditory imagination. Movement Adagio evokes a feeling of deep profound sadness. Deep profound sadness can move a live audience to tears.",
+        "conclusion": "Movement Presto requires exceptional technical skill from the violin section.",
+        "label": "True"
+    },
+    {
+        "id": "new_675",
+        "premises": "For any magical wand W, if W is made of elder wood, W amplifies the user's spell power by tenfold. If W amplifies the user's spell power by tenfold, W is highly coveted by dark wizards. Wand Destiny is magically made of elder wood. Wand Spark is made of standard willow wood. Wand Spark is considered a very common training tool. Highly coveted items are frequently stolen from museums. Museum security relies on ancient protective wards. Ancient protective wards glow faintly in the dark. Wand Destiny is currently locked inside a high-security glass display. The high-security glass display is shatterproof. Dark wizards often wear long black hooded cloaks. Long black hooded cloaks conceal their facial identities. Concealing facial identities makes criminal investigations very difficult.",
+        "conclusion": "Wand Destiny is highly coveted by dark wizards.",
+        "label": "True"
+    },
+    {
+        "id": "new_676",
+        "premises": "For any abstract Klorp K, if K is completely vizzed, K produces exactly five Zibs. If K produces exactly five Zibs, K achieves maximum grobness. Abstract Klorp Theta is completely vizzed. Abstract Klorp Phi is only partially vizzed. Achieving maximum grobness causes the Klorp to turn bright purple. Abstract Klorp Theta exists in a theoretical multi-dimensional vacuum. A theoretical multi-dimensional vacuum has no physical air resistance. Abstract Klorp Phi wobbles inconsistently during observation. Wobbling inconsistently makes precise measurement extremely challenging. Precise measurement requires advanced calibration tools. Advanced calibration tools are very expensive to manufacture. Producing exactly five Zibs is a strictly deterministic process. Deterministic processes always yield identical outputs for identical inputs.",
+        "conclusion": "Abstract Klorp Phi achieves maximum grobness.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_677",
+        "premises": "For any positive integer N, if N is a prime number greater than two, N is absolutely an odd number. If N is an odd number, N cannot be divided evenly by two without a remainder. Positive integer Seven is a prime number greater than two. Positive integer Eight is an even number. Even numbers can always be divided evenly by two without a remainder. Positive integer Seven is used in many cryptographic algorithms. Cryptographic algorithms secure online banking transactions. Online banking transactions are processed via secure encrypted tunnels. Positive integer Eight is a perfect cube. A perfect cube is the result of multiplying a number by itself twice. Mathematics is considered the universal language of science. The universal language of science relies on rigorous logical proofs. Rigorous logical proofs eliminate any subjective ambiguity.",
+        "conclusion": "Positive integer Seven cannot be divided evenly by two without a remainder.",
+        "label": "True"
+    },
+    {
+        "id": "new_678",
+        "premises": "For any delivery drone D, if D encounters severe wind, D safely aborts its mission and returns to base, unless D is operating in emergency medical override mode. If D is operating in emergency medical override mode, D forces itself to continue through the wind. Delivery drone Swift_One encounters severe wind. Delivery drone Swift_One is operating in emergency medical override mode. Safely aborting a mission prevents costly hardware damage. Costly hardware damage impacts the company's quarterly profit margins. Delivery drone Swift_Two is delivering a hot pizza. Delivering a hot pizza is never considered a medical emergency. Delivery drone Swift_One is transporting a critical donor organ. Transporting a critical donor organ saves human lives. Human lives are considered invaluable by society. Emergency medical override mode bypasses standard safety protocols. Bypassing standard safety protocols increases the risk of a crash.",
+        "conclusion": "Delivery drone Swift_One safely aborts its mission and returns to base.",
+        "label": "False"
+    },
+    {
+        "id": "new_679",
+        "premises": "For any flowing river R1 and R2, if R1 is a direct mereological tributary of R2, the water from R1 naturally flows into R2. If the water from R1 naturally flows into R2, pollution in R1 eventually reaches R2. River Blue is a direct mereological tributary of River Grand. River Green flows entirely independently into the ocean. Pollution in River Blue includes heavy metal runoff from a factory. Heavy metal runoff is highly toxic to local fish populations. Local fish populations provide food for nearby rural villages. River Grand is a massive waterway spanning three states. A massive waterway supports commercial barge shipping. Commercial barge shipping transports tons of agricultural grain. River Green has incredibly clear and pristine water. Pristine water is ideal for recreational summer swimming. Recreational summer swimming is a popular family activity.",
+        "conclusion": "Pollution in River Blue eventually reaches River Grand.",
+        "label": "True"
+    },
+    {
+        "id": "new_680",
+        "premises": "For any airline pilot P and weather radar W, if P firmly believes W shows a thunderstorm, P instantly alters the flight path. If P instantly alters the flight path, the flight arrival time is significantly delayed. Airline pilot Captain_Ray firmly believes the radar shows a massive thunderstorm. The weather radar actually shows a harmless flock of large birds. Firmly believing false information still triggers the pilot's conditioned response. A significantly delayed arrival time frustrates many connecting passengers. Frustrated connecting passengers often complain to customer service. Customer service agents must handle complaints politely. The flight is currently cruising at thirty thousand feet. Cruising at thirty thousand feet offers a smooth ride. Captain_Ray has twenty years of commercial flying experience. Twenty years of experience builds strong intuitive reflexes. Harmless flocks of large birds do not cause severe turbulence.",
+        "conclusion": "The flight arrival time is significantly delayed.",
+        "label": "True"
+    },
+    {
+        "id": "new_681",
+        "premises": "For any chemical reaction R, if catalyst C is introduced, R's activation energy is substantially lowered. If R's activation energy is substantially lowered, the reaction speed increases exponentially. Catalyst Platinum is introduced into Reaction Hydrogenation. Catalyst Iron is introduced into Reaction Ammonia_Synthesis. Reaction Hydrogenation occurs in a sealed pressurized tank. A sealed pressurized tank prevents dangerous gas leaks. Dangerous gas leaks can trigger massive factory explosions. Reaction Ammonia_Synthesis requires extremely high ambient temperatures. Extremely high ambient temperatures consume vast amounts of electrical power. Increasing reaction speed exponentially greatly improves industrial manufacturing efficiency. Industrial manufacturing efficiency drives down consumer product costs. Lower consumer product costs increase overall market demand. Market demand dictates global supply chain logistics.",
+        "conclusion": "The reaction speed of Reaction Hydrogenation increases exponentially.",
+        "label": "True"
+    },
+    {
+        "id": "new_682",
+        "premises": "For any dormant volcano V, if V records sudden harmonic tremors, V is highly likely to erupt within weeks. If V is highly likely to erupt within weeks, local authorities mandate an immediate civilian evacuation. Dormant volcano Mount_Ash records sudden harmonic tremors. Dormant volcano Mount_Calm remains perfectly seismically still. Mandating an immediate civilian evacuation requires deploying the national guard. Deploying the national guard involves complex logistical coordination. Complex logistical coordination relies on secure radio communications. Mount_Ash is located near a heavily populated tropical island. A heavily populated tropical island relies heavily on tourism. Tourism provides the primary source of regional income. Mount_Calm is located in a barren frozen wasteland. A barren frozen wasteland is inhospitable to human settlement. Sudden harmonic tremors indicate magma moving deep underground.",
+        "conclusion": "Local authorities mandate an immediate civilian evacuation for Mount_Calm.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_683",
+        "premises": "For any public library patron P, if P borrows a rare book, P is obligated to return it within exactly seven days. If P is obligated to return it within exactly seven days, returning it on the eighth day incurs a severe financial penalty. Patron Lily borrows a rare first-edition book. Patron Lily returns the rare first-edition book on the eighth day. A severe financial penalty blocks the patron's account from future borrowing. Blocking an account requires a manual override by the head librarian. The head librarian is currently on a two-week vacation. The rare first-edition book contains ancient historical maps. Ancient historical maps are invaluable to university researchers. Patron Tom borrows a standard modern fiction paperback. Standard modern fiction paperbacks have a generous four-week return policy. Patron Tom reads the paperback in just two days. Reading quickly is a useful academic skill.",
+        "conclusion": "Patron Lily incurs a severe financial penalty.",
+        "label": "True"
+    },
+    {
+        "id": "new_684",
+        "premises": "For any textbook T, if Chapter C is a mereological part of T, removing Chapter C significantly reduces the page count of T. If removing Chapter C significantly reduces the page count of T, T becomes much lighter to carry. Chapter Quantum_Mechanics is a mereological part of Textbook Advanced_Physics. Chapter Quantum_Mechanics is physically ripped out and removed. Becoming much lighter to carry reduces chronic back strain for students. Chronic back strain is a common medical complaint among university undergraduates. Textbook Advanced_Physics originally weighed over five heavy pounds. Textbook Basic_Math is a thin pamphlet. A thin pamphlet weighs less than a few ounces. Chapter Quantum_Mechanics contains fifty complex mathematical equations. Complex mathematical equations require deep logical focus to understand. Understanding physics is essential for future engineers. Engineers design bridges and tall skyscrapers.",
+        "conclusion": "Textbook Advanced_Physics becomes much lighter to carry.",
+        "label": "True"
+    },
+    {
+        "id": "new_685",
+        "premises": "For any hypothetical time machine M, if M travels to the past, M strictly creates a branching alternate timeline. If M strictly creates a branching alternate timeline, M absolutely cannot alter its own original timeline. Time machine Chronos travels to the year nineteen twenty. Time machine Chronos attempts to change a major historical event. Time machine Forward travels exclusively to the distant future. Traveling exclusively to the distant future does not create alternate branches. The original timeline remains completely intact and unaffected. An unaffected timeline preserves the consistency of causality. Causality ensures that causes always rigidly precede their effects. Time machine Chronos is powered by an exotic tachyon core. An exotic tachyon core glows with a bright eerie blue light. Time machine Forward uses a cryogenic stasis pod. A cryogenic stasis pod freezes human biological aging.",
+        "conclusion": "Time machine Chronos absolutely cannot alter its own original timeline.",
+        "label": "True"
+    },
+    {
+        "id": "new_686",
+        "premises": "For any abstract Plink P, if P is intensely flibbed, P must instantly transform into a Blonk. If P instantly transforms into a Blonk, P loses its ability to snorf. Abstract Plink Gamma is intensely flibbed. Abstract Plink Delta is shielded and not flibbed. Losing the ability to snorf makes an entity completely silent. Abstract Plink Gamma was previously very loud. Abstract Plink Delta snorfs continuously without interruption. A Blonk is considered a highly stable theoretical state. Highly stable theoretical states are desired in quantum computations. Quantum computations resolve complex algorithms in mere seconds. Abstract Plinks are purely imaginary conceptual placeholders. Imaginary conceptual placeholders help mathematicians visualize abstract algebra. Abstract algebra deals with rings and mathematical fields.",
+        "conclusion": "Abstract Plink Gamma loses its ability to snorf.",
+        "label": "True"
+    },
+    {
+        "id": "new_687",
+        "premises": "For any square matrix M, if M has two identical rows, the determinant of M is mathematically exactly zero. If the determinant of M is mathematically exactly zero, M is classified as a singular matrix. Square matrix Alpha has its first and second rows perfectly identical. Square matrix Beta has completely distinct and unique rows. A singular matrix absolutely does not possess a mathematical inverse. Not possessing a mathematical inverse complicates solving linear equations. Solving linear equations is fundamental in computer graphics. Computer graphics render three-dimensional video game worlds. Square matrix Alpha contains only positive integer numbers. Square matrix Beta contains complex imaginary numbers. Complex imaginary numbers involve the square root of negative one. The determinant is a scalar value calculated from matrix elements. Scalar values have magnitude but absolutely no spatial direction.",
+        "conclusion": "Square matrix Alpha is classified as a singular matrix.",
+        "label": "True"
+    },
+    {
+        "id": "new_688",
+        "premises": "For any autonomous robot R, if R detects a human in danger, R must intervene, unless R intervening causes harm to a greater number of humans. If R intervening causes harm to a greater number of humans, R must passively stand down. Autonomous robot Guardian_1 detects a single human in danger on a track. Intervening requires diverting a heavy train toward a crowd of five humans. Autonomous robot Guardian_2 detects a human drowning in an empty pool. Empty pools have no crowds nearby to harm. Passively standing down in the trolley problem is a controversial ethical choice. Controversial ethical choices are heavily debated by moral philosophers. Moral philosophers write extensive academic papers. Autonomous robot Guardian_1 processes the trolley problem scenario. Autonomous robot Guardian_2 immediately jumps into the water. Jumping into water short-circuits basic unprotected electronics. Guardian robots are heavily waterproofed.",
+        "conclusion": "Autonomous robot Guardian_1 must intervene.",
+        "label": "False"
+    },
+    {
+        "id": "new_689",
+        "premises": "For any geographical islands I1 and I2, if I1 and I2 belong to the same archipelago, they share a submerged continental shelf. If they share a submerged continental shelf, the water between them is incredibly shallow. Island Maui and Island Oahu belong to the Hawaiian archipelago. Island Cuba and Island Madagascar do not belong to the same archipelago. Incredibly shallow water allows for vibrant coral reef formation. Vibrant coral reef formation attracts diverse marine life. Diverse marine life includes colorful tropical fish and sea turtles. Sea turtles migrate thousands of miles across deep oceans. Island Maui is famous for its stunning beautiful beaches. Island Oahu houses a major metropolitan capital city. The Hawaiian archipelago was formed by intense volcanic hotspots. Intense volcanic hotspots constantly create new landmass over millennia. Deep oceans have crushing hydrostatic pressure.",
+        "conclusion": "The water between Island Maui and Island Oahu is incredibly shallow.",
+        "label": "True"
+    },
+    {
+        "id": "new_690",
+        "premises": "For any stock trader T and company stock S, if T firmly believes S will crash, T short-sells S aggressively. If T short-sells S aggressively, T exposes their portfolio to infinite theoretical risk. Stock trader Gordon firmly believes Tech_Corp stock will crash. Tech_Corp stock actually skyrockets to record high prices. Firmly believing a false premise still dictates the trader's financial actions. Exposing a portfolio to infinite theoretical risk can lead to sudden bankruptcy. Sudden bankruptcy ruins professional Wall Street careers. Wall Street careers are highly stressful and extremely competitive. Stock trader Gordon works from a high-rise office in Manhattan. A high-rise office in Manhattan has expensive monthly rent. Tech_Corp recently announced a revolutionary new product. A revolutionary new product naturally excites optimistic market investors. Optimistic market investors buy shares heavily.",
+        "conclusion": "Stock trader Gordon exposes their portfolio to infinite theoretical risk.",
+        "label": "True"
+    },
+    {
+        "id": "new_691",
+        "premises": "For any quantum particles P1 and P2, if P1 and P2 are perfectly entangled, measuring the spin of P1 instantaneously determines the spin of P2. If measuring the spin of P1 instantaneously determines the spin of P2, their state collapses simultaneously regardless of spatial distance. Quantum particle Alice and Quantum particle Bob are perfectly entangled. Quantum particle Charlie is completely independent and not entangled. Instantaneously determining state implies apparent faster-than-light coordination. Faster-than-light coordination troubled early theoretical physicists. Early theoretical physicists referred to it as spooky action at a distance. Quantum particle Alice is located on Earth. Quantum particle Bob is located on the distant Moon. Spatial distance between Earth and the Moon is roughly two hundred forty thousand miles. Measurement collapses the delicate quantum superposition. Delicate quantum superposition allows quantum computers to process complex data.",
+        "conclusion": "The state of Quantum particle Alice and Quantum particle Bob collapses simultaneously regardless of spatial distance.",
+        "label": "True"
+    },
+    {
+        "id": "new_692",
+        "premises": "For any tectonic plates P1 and P2, if P1 subducts violently under P2, a deep ocean trench is naturally formed. If a deep ocean trench is naturally formed, immense seismic pressure builds up over centuries. Plate Pacific subducts violently under Plate Mariana. Plate North_American slides horizontally past Plate Pacific. Sliding horizontally creates a strike-slip fault line. A strike-slip fault line causes frequent but shallow earthquakes. Immense seismic pressure eventually releases as a mega-thrust earthquake. A mega-thrust earthquake generates devastating coastal tsunamis. Devastating coastal tsunamis wipe out low-lying infrastructure. Plate Mariana is located in the western Pacific Ocean. The western Pacific Ocean contains the deepest points on Earth. Tectonic plates drift slowly atop the Earth's molten mantle. The Earth's molten mantle is incredibly hot and viscous.",
+        "conclusion": "Immense seismic pressure builds up over centuries between Plate Pacific and Plate Mariana.",
+        "label": "True"
+    },
+    {
+        "id": "new_693",
+        "premises": "For any foreign traveler F, if F's visa application is officially approved, F is legally permitted to cross the national border. If F is legally permitted to cross the national border, border guards are obligated to grant F entry. Foreign traveler Leo's visa application is officially approved. Foreign traveler Mia's visa application is firmly rejected. Border guards are obligated to strictly check passport validity. A passport must not be expired to be considered valid. Foreign traveler Leo holds a perfectly valid and current passport. Being obligated to grant entry means the traveler cannot be arbitrarily turned away. Arbitrarily turning travelers away violates international diplomatic treaties. International diplomatic treaties maintain peaceful global relations. Visa applications require extensive background security checks. Background security checks vet individuals for criminal history. Foreign traveler Mia has a documented criminal history.",
+        "conclusion": "Border guards are obligated to grant Foreign traveler Leo entry.",
+        "label": "True"
+    },
+    {
+        "id": "new_694",
+        "premises": "For any human bone B, if B is a mereological part of the appendicular skeleton, B is primarily involved in bodily locomotion. If B is primarily involved in bodily locomotion, B is connected to voluntary skeletal muscles. Bone Femur is a mereological part of the appendicular skeleton. Bone Skull is a mereological part of the axial skeleton. The axial skeleton primarily protects vital internal organs. Vital internal organs include the fragile human brain. Bodily locomotion allows humans to walk and run effectively. Walking and running effectively require significant caloric energy. Voluntary skeletal muscles contract when signaled by the nervous system. The nervous system transmits rapid electrical impulses. Bone Femur is the longest and strongest bone in the body. The longest and strongest bone bears immense physical weight. Bone Skull is composed of fused cranial plates.",
+        "conclusion": "Bone Femur is connected to voluntary skeletal muscles.",
+        "label": "True"
+    },
+    {
+        "id": "new_695",
+        "premises": "For any physical room R, if gravity in R is magically reversed, objects resting on the floor immediately fall towards the ceiling. If objects fall towards the ceiling, they smash violently against the light fixtures. Physical room Chamber_X has its gravity magically reversed. Physical room Chamber_Y has normal Earth gravity. Smashing violently against light fixtures causes glass bulbs to shatter. Glass bulbs contain glowing fragile electrical filaments. Objects resting on the floor in Chamber_X include heavy oak tables. Heavy oak tables are built from solid wood. Gravity is normally an attractive fundamental force. Normal Earth gravity pulls objects toward the planetary center. Chamber_Y has objects resting peacefully on the carpet. The carpet is soft and vacuumed daily. Magically reversing gravity defies the general theory of relativity.",
+        "conclusion": "Objects resting on the floor in Chamber_X remain stationary on the ground.",
+        "label": "False"
+    },
+    {
+        "id": "new_696",
+        "premises": "For any abstract Snib S, if S is completely dorfed, S inevitably turns into a Grom. If S inevitably turns into a Grom, S emits a pungent conceptual odor. Abstract Snib Alpha is completely dorfed. Abstract Snib Beta is not dorfed at all. Emitting a pungent conceptual odor alerts nearby theoretical constructs. Nearby theoretical constructs flee immediately when alerted. Abstract Snib Alpha exists in a purely logical dimension. A purely logical dimension lacks physical sensory receptors. Abstract Snib Beta remains completely stable and silent. A Grom is considered a highly volatile theoretical state. Highly volatile theoretical states decay rapidly over arbitrary time. Abstract Snibs are used to test advanced non-classical logic gates. Non-classical logic gates operate on fuzzy probabilistic values.",
+        "conclusion": "Abstract Snib Beta emits a pungent conceptual odor.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_697",
+        "premises": "For any infinite mathematical series S, if the terms of S do not approach exactly zero as the index approaches infinity, S absolutely diverges. If S absolutely diverges, S cannot possibly sum to a finite real number. The terms of infinite mathematical series Harmonic approach exactly zero. The terms of infinite mathematical series Grandi alternate between one and minus one. Alternating between one and minus one means the terms do not approach exactly zero. If an infinite mathematical series sums to a finite real number, it is convergent. Series Harmonic is famously known to diverge despite its terms approaching zero. Series Grandi is a classic example in divergent series analysis. Divergent series analysis requires advanced calculus techniques. Advanced calculus techniques are taught in university mathematics courses. A finite real number can be plotted on a standard number line. Standard number lines extend infinitely in both positive and negative directions.",
+        "conclusion": "Infinite mathematical series Grandi cannot possibly sum to a finite real number.",
+        "label": "True"
+    },
+    {
+        "id": "new_698",
+        "premises": "For any building B, if the fire alarm triggers, all occupants are obligated to evacuate immediately, unless B is running a pre-announced silent drill. If B is running a pre-announced silent drill, occupants are strictly forbidden from evacuating. Building Office_Tower has its fire alarm trigger loudly. Building Office_Tower is running a pre-announced silent drill. Evacuating immediately requires using the emergency stairwells. Emergency stairwells are built with fire-resistant concrete walls. Fire-resistant concrete walls slow the spread of raging infernos. Building School_House is running a surprise actual fire drill. A surprise actual fire drill requires full and rapid evacuation. Occupants in Office_Tower include busy accountants and managers. Busy accountants are currently preparing annual tax reports. Pre-announced silent drills test internal communication systems only. Testing internal communication systems does not disrupt daily work routines.",
+        "conclusion": "Occupants of Building Office_Tower are obligated to evacuate immediately.",
+        "label": "False"
+    },
+    {
+        "id": "new_699",
+        "premises": "For any solar system planets P1 and P2, if P1 is physically closer to the sun than P2, P1 has a strictly shorter orbital period than P2. If P1 has a strictly shorter orbital period than P2, P1 completes a full year faster than P2. Planet Venus is physically closer to the sun than Planet Earth. Planet Mars is physically farther from the sun than Planet Earth. Completing a full year faster means experiencing more solar revolutions in a given timeframe. Solar revolutions dictate the passage of planetary time. Planet Venus has an incredibly thick and toxic atmosphere. An incredibly thick and toxic atmosphere traps immense solar heat. Trapping immense solar heat causes a runaway greenhouse effect. Planet Earth has a breathable atmosphere rich in oxygen. Planet Mars has a very thin and cold atmosphere. A thin and cold atmosphere cannot retain significant surface heat. The sun is a massive burning sphere of plasma at the center.",
+        "conclusion": "Planet Venus completes a full year faster than Planet Earth.",
+        "label": "True"
+    },
+    {
+        "id": "new_700",
+        "premises": "For any private detective D and clue C, if D firmly believes C is a crucial piece of evidence, D submits C to the forensic lab. If D submits C to the forensic lab, the forensic lab runs a complete DNA analysis. Private detective Holmes firmly believes the bloody glove is a crucial piece of evidence. The bloody glove actually belongs to an innocent bystander. Firmly believing a falsehood still drives the detective's investigative procedure. Running a complete DNA analysis takes forty-eight standard hours. Forty-eight standard hours delay the immediate arrest of a suspect. Delaying an arrest allows a guilty suspect time to flee the country. Private detective Poirot believes the broken pocket watch is entirely irrelevant. The broken pocket watch actually contains the killer's fingerprints. Submitting items to the forensic lab requires extensive paperwork. Extensive paperwork ensures a proper legal chain of custody. A proper legal chain of custody prevents evidence tampering.",
+        "conclusion": "The forensic lab runs a complete DNA analysis on the bloody glove.",
+        "label": "True"
     }
 ]
