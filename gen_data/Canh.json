@@ -1,1800 +1,1800 @@
 [
     {
-        "id": "Canh_1",
+        "id": "new_1",
         "premises": "All planets in the Solaris system have highly elliptical orbits. Any celestial body with a highly elliptical orbit experiences extreme temperature variations. Zorblax is a newly discovered planet in the Solaris system.",
         "conclusion": "Zorblax experiences extreme temperature variations.",
         "label": "True"
     },
     {
-        "id": "Canh_2",
+        "id": "new_2",
         "premises": "No employees of the accounting department have access to the main server room. All certified network administrators have access to the main server room. Alice is a certified network administrator working at the company.",
         "conclusion": "Alice is an employee of the accounting department.",
         "label": "False"
     },
     {
-        "id": "Canh_3",
+        "id": "new_3",
         "premises": "Most migratory birds can navigate using the Earth's magnetic field. The Arctic Tern is a migratory bird that travels from the Arctic to the Antarctic. The Arctic Tern feeds primarily on small fish and crustaceans.",
         "conclusion": "The Arctic Tern can navigate using the Earth's magnetic field.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_4",
+        "id": "new_4",
         "premises": "If the main pressure valve fails, the emergency alarm will sound. If the emergency alarm sounds, the facility will be immediately evacuated. The facility is not being evacuated.",
         "conclusion": "The main pressure valve has not failed.",
         "label": "True"
     },
     {
-        "id": "Canh_5",
+        "id": "new_5",
         "premises": "Every mammal has a neocortex and produces milk to feed its young. A completely hairless and scale-covered creature named the Glimmer was recently analyzed by biologists. The biological analysis showed that the Glimmer does not produce milk.",
         "conclusion": "The Glimmer is a mammal.",
         "label": "False"
     },
     {
-        "id": "Canh_6",
+        "id": "new_6",
         "premises": "If a student completes all the extra credit assignments, their final grade will be an A. John received an A as his final grade in the advanced physics course.",
         "conclusion": "John completed all the extra credit assignments.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_7",
+        "id": "new_7",
         "premises": "All Renaissance artists studied classical proportions. Some people who studied classical proportions were also skilled architects. No modern software engineers are skilled architects. Leonardo is a Renaissance artist who is also a skilled architect.",
         "conclusion": "Leonardo is not a modern software engineer.",
         "label": "True"
     },
     {
-        "id": "Canh_8",
+        "id": "new_8",
         "premises": "The ancient artifact is either hidden in the submerged ruins or buried under the weeping willow. If the ancient artifact is in the submerged ruins, the diver's map must be marked with a blue X. The diver's map is not marked with a blue X.",
         "conclusion": "The ancient artifact is hidden in the submerged ruins.",
         "label": "False"
     },
     {
-        "id": "Canh_9",
+        "id": "new_9",
         "premises": "Some freelance graphic designers prefer using ergonomic mechanical keyboards. Everyone who uses an ergonomic mechanical keyboard enjoys tactile typing feedback. Bob works from home as a freelance graphic designer.",
         "conclusion": "Bob enjoys tactile typing feedback.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_10",
+        "id": "new_10",
         "premises": "All carnivorous plants require a habitat with nutrient-poor soil to thrive. Any plant that requires nutrient-poor soil is highly susceptible to chemical fertilizers. The Venus Flytrap is a carnivorous plant.",
         "conclusion": "The Venus Flytrap is highly susceptible to chemical fertilizers.",
         "label": "True"
     },
     {
-        "id": "Canh_11",
+        "id": "new_11",
         "premises": "If an employee works in the Alpha division, they must have Level 5 clearance. All individuals with Level 5 clearance undergo a biannual polygraph test. Anyone who undergoes a biannual polygraph test is exempt from the standard monthly security briefing. David works in the Alpha division.",
         "conclusion": "David is exempt from the standard monthly security briefing.",
         "label": "True"
     },
     {
-        "id": "Canh_12",
+        "id": "new_12",
         "premises": "All vehicles manufactured in the NeoTech plant use solid-state batteries. Any vehicle using a solid-state battery has a range of over 500 miles. No vehicle with a range of over 500 miles is classified as a short-commute vehicle. The Zenith X1 is a vehicle manufactured in the NeoTech plant.",
         "conclusion": "The Zenith X1 is classified as a short-commute vehicle.",
         "label": "False"
     },
     {
-        "id": "Canh_13",
+        "id": "new_13",
         "premises": "If a coastal city builds a seawall, it can withstand a Category 4 hurricane. If a city can withstand a Category 4 hurricane, its annual insurance premiums decrease. Port Horizon's annual insurance premiums recently decreased.",
         "conclusion": "Port Horizon built a seawall.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_14",
+        "id": "new_14",
         "premises": "A patient is prescribed Medication X only if they have high blood pressure and are not allergic to sulfa drugs. Patient Sarah is allergic to sulfa drugs. Patient Sarah has high blood pressure.",
         "conclusion": "Patient Sarah is prescribed Medication X.",
         "label": "False"
     },
     {
-        "id": "Canh_15",
+        "id": "new_15",
         "premises": "All ancient manuscripts in the restricted section are written in Latin. Any manuscript written in Latin requires a certified translator to be decoded. If a manuscript requires a certified translator, it cannot be checked out by undergraduate students. The Codex Umbra is an ancient manuscript in the restricted section.",
         "conclusion": "The Codex Umbra cannot be checked out by undergraduate students.",
         "label": "True"
     },
     {
-        "id": "Canh_16",
+        "id": "new_16",
         "premises": "If the core temperature of the reactor exceeds 1000 degrees, the cooling rods drop automatically. If the cooling rods drop automatically, the main turbine shuts down. The main turbine is currently operating normally.",
         "conclusion": "The core temperature of the reactor exceeds 1000 degrees.",
         "label": "False"
     },
     {
-        "id": "Canh_17",
+        "id": "new_17",
         "premises": "Most historical fiction novels set in the 19th century feature aristocratic characters. Novels featuring aristocratic characters often focus on societal class struggles. 'The Crimson Manor' is a historical fiction novel set in the 19th century.",
         "conclusion": "'The Crimson Manor' focuses on societal class struggles.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_18",
+        "id": "new_18",
         "premises": "All synthetic fibers melt when exposed to high heat. Cotton is not a synthetic fiber. The red shirt is made entirely of cotton.",
         "conclusion": "The red shirt will not melt when exposed to high heat.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_19",
+        "id": "new_19",
         "premises": "Every predatory bird has sharp talons and forward-facing eyes. The newly identified species, the Kestrel-hawk, has sharp talons. The Kestrel-hawk's eyes are positioned on the sides of its head.",
         "conclusion": "The Kestrel-hawk is a predatory bird.",
         "label": "False"
     },
     {
-        "id": "Canh_20",
+        "id": "new_20",
         "premises": "If a password contains both numbers and special characters, it is considered strong. If a password is considered strong, the system grants access to the secure vault. The system granted user_01 access to the secure vault. The password for user_01 contains numbers.",
         "conclusion": "The password for user_01 contains special characters.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_21",
+        "id": "new_21",
         "premises": "All encrypted files use the RSA algorithm. Any file using the RSA algorithm takes more than two minutes to decrypt on a standard CPU. File_Alpha takes only 30 seconds to decrypt on a standard CPU.",
         "conclusion": "File_Alpha is not an encrypted file.",
         "label": "True"
     },
     {
-        "id": "Canh_22",
+        "id": "new_22",
         "premises": "The treasure is buried either in the Whispering Woods or beneath the Dragon's Tooth mountain. If it is buried beneath the Dragon's Tooth mountain, the soil around it will be rich in sulfur. The soil around the treasure is not rich in sulfur.",
         "conclusion": "The treasure is buried in the Whispering Woods.",
         "label": "True"
     },
     {
-        "id": "Canh_23",
+        "id": "new_23",
         "premises": "All venomous snakes in the region have triangular heads. The Green Mamba is a snake found in the region. The Green Mamba does not have a triangular head.",
         "conclusion": "The Green Mamba is a venomous snake.",
         "label": "False"
     },
     {
-        "id": "Canh_24",
+        "id": "new_24",
         "premises": "If the marketing budget is increased, the advertising campaign will launch in June. If the advertising campaign launches in June, Q3 sales will rise by 20%. Q3 sales did not rise by 20%.",
         "conclusion": "The marketing budget was not increased.",
         "label": "True"
     },
     {
-        "id": "Canh_25",
+        "id": "new_25",
         "premises": "Every student who studies diligently passes the exam. Some students who pass the exam receive a scholarship. Mark studies diligently.",
         "conclusion": "Mark receives a scholarship.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_26",
+        "id": "new_26",
         "premises": "A star is classified as a red giant only if it has exhausted its core hydrogen. Star X has not exhausted its core hydrogen. Star X is extremely luminous.",
         "conclusion": "Star X is classified as a red giant.",
         "label": "False"
     },
     {
-        "id": "Canh_27",
+        "id": "new_27",
         "premises": "All board games created by designer Klaus feature a resource management mechanic. Board games with a resource management mechanic take at least an hour to play. 'Settlers' Quest' takes 45 minutes to play.",
         "conclusion": "'Settlers' Quest' was created by designer Klaus.",
         "label": "False"
     },
     {
-        "id": "Canh_28",
+        "id": "new_28",
         "premises": "If the structural integrity of the bridge is compromised, heavy trucks are banned from crossing. Heavy trucks are currently banned from crossing the bridge. The bridge was built 50 years ago.",
         "conclusion": "The structural integrity of the bridge is compromised.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_29",
+        "id": "new_29",
         "premises": "All orchids require high humidity to bloom. No plants that require high humidity can survive in the desert without a greenhouse. The Mojave Desert has no greenhouses.",
         "conclusion": "Orchids cannot survive in the Mojave Desert.",
         "label": "True"
     },
     {
-        "id": "Canh_30",
+        "id": "new_30",
         "premises": "Every employee who attends the leadership seminar receives a certificate. Anyone who receives a certificate is eligible for a promotion. Sarah is eligible for a promotion.",
         "conclusion": "Sarah attended the leadership seminar.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_31",
+        "id": "new_31",
         "premises": "All fire-element dragons are completely immune to burning effects. Any dragon immune to burning effects can safely cross the Lava River. If a dragon can safely cross the Lava River, it is eligible to participate in the Obsidian Quest. The Crimson Horn is a newly bred fire-element dragon.",
         "conclusion": "The Crimson Horn is eligible to participate in the Obsidian Quest.",
         "label": "True"
     },
     {
-        "id": "Canh_32",
+        "id": "new_32",
         "premises": "If a racing vehicle is equipped with a tier-3 nitro booster, its top speed exceeds 300 km/h. No vehicle with a top speed exceeding 300 km/h is allowed to compete in the Beginner League. The Vulcan V8 is currently allowed to compete in the Beginner League. The Vulcan V8 has custom aerodynamic spoilers.",
         "conclusion": "The Vulcan V8 is equipped with a tier-3 nitro booster.",
         "label": "False"
     },
     {
-        "id": "Canh_33",
+        "id": "new_33",
         "premises": "Any Python script that imports the 'subprocess' module has the capability to execute system commands. Scripts that can execute system commands are automatically flagged by the security scanner unless they are digitally signed by a verified developer. The 'data_pipeline.py' script imports the 'subprocess' module. The 'data_pipeline.py' script is not flagged by the security scanner.",
         "conclusion": "The 'data_pipeline.py' script is digitally signed by a verified developer.",
         "label": "True"
     },
     {
-        "id": "Canh_34",
+        "id": "new_34",
         "premises": "All generative adversarial networks require both a discriminator network and a generator network. If a neural architecture requires a discriminator network, it must be trained using alternating optimization steps. Model Omega is trained using alternating optimization steps and achieves state-of-the-art image synthesis.",
         "conclusion": "Model Omega is a generative adversarial network.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_35",
+        "id": "new_35",
         "premises": "If a development branch is merged into the main repository, all of its commits are permanently recorded in the project history. If commits are permanently recorded in the project history, the total repository size increases. The total repository size of 'Project_X' did not increase today. Branch 'feature-login' was updated and pushed by the lead developer today.",
         "conclusion": "Branch 'feature-login' was merged into the main repository today.",
         "label": "False"
     },
     {
-        "id": "Canh_36",
+        "id": "new_36",
         "premises": "An inference engine is considered logically sound if and only if it only derives true statements from true premises. If an inference engine is logically sound, it can be safely deployed in critical medical diagnosis systems. System Aesculapius cannot be safely deployed in critical medical diagnosis systems. System Aesculapius operates with high computational efficiency.",
         "conclusion": "System Aesculapius derives at least one false statement from true premises.",
         "label": "True"
     },
     {
-        "id": "Canh_37",
+        "id": "new_37",
         "premises": "All androids manufactured by CyberCorp possess synthetic silicone skin. No entity with synthetic silicone skin can pass the advanced thermal imaging test. Subject 89 passed the advanced thermal imaging test. Subject 89 exhibits highly advanced conversational AI capabilities.",
         "conclusion": "Subject 89 was not manufactured by CyberCorp.",
         "label": "True"
     },
     {
-        "id": "Canh_38",
+        "id": "new_38",
         "premises": "If a celestial body's mass exceeds the Chandrasekhar limit, it will eventually collapse into a neutron star or a black hole. If it collapses into a black hole, it will definitively possess an event horizon. Star V404 does not possess an event horizon. Star V404's mass greatly exceeds the Chandrasekhar limit.",
         "conclusion": "Star V404 will eventually collapse into a neutron star.",
         "label": "True"
     },
     {
-        "id": "Canh_39",
+        "id": "new_39",
         "premises": "Any chemical substance that turns blue litmus paper red is classified as an acid. All acids have a pH level strictly lower than 7. If a substance has a pH level lower than 7, it reacts with strong bases to form water and a salt. Solution Z reacts violently with strong bases to form water and a salt.",
         "conclusion": "Solution Z turns blue litmus paper red.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_40",
+        "id": "new_40",
         "premises": "When the central bank raises baseline interest rates, commercial borrowing in the region decreases. If commercial borrowing decreases, industrial expansion slows down significantly. Industrial expansion in Region Epsilon has sped up over the last quarter.",
         "conclusion": "The central bank raised baseline interest rates in Region Epsilon.",
         "label": "False"
     },
     {
-        "id": "Canh_41",
+        "id": "new_41",
         "premises": "If a document is compiled using the LaTeX Beamer class, it is formatted as a slide presentation. All documents formatted as slide presentations use landscape orientation by default. The document 'Project_Defense.tex' uses portrait orientation by default.",
         "conclusion": "The document 'Project_Defense.tex' is not compiled using the LaTeX Beamer class.",
         "label": "True"
     },
     {
-        "id": "Canh_42",
+        "id": "new_42",
         "premises": "If an ecosystem contains an apex predator, the herbivore population in that ecosystem is strictly regulated. If the herbivore population is strictly regulated, overgrazing of the local flora is prevented. Overgrazing of the local flora is not prevented in the Emerald Valley. The Silver Wolf is a known apex predator.",
         "conclusion": "The Emerald Valley does not contain the Silver Wolf.",
         "label": "True"
     },
     {
-        "id": "Canh_43",
+        "id": "new_43",
         "premises": "If a network router is configured with the OSPF protocol, it automatically calculates the shortest path to all available network nodes. A router that calculates the shortest path to all nodes efficiently balances traffic load across its interfaces. Router R-Delta efficiently balances traffic load and features a gigabit fiber interface.",
         "conclusion": "Router R-Delta is configured with the OSPF protocol.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_44",
+        "id": "new_44",
         "premises": "If a character casts the 'Meteor' spell, their innate magic stat must be above 50. All characters who cast the 'Meteor' spell are officially awarded the title of Grand Magus. If a character is awarded the title of Grand Magus, they receive a special ceremonial robe. Elara is a sorceress who does not have a special ceremonial robe.",
         "conclusion": "Elara casts the 'Meteor' spell.",
         "label": "False"
     },
     {
-        "id": "Canh_45",
+        "id": "new_45",
         "premises": "A tree data structure is considered a binary search tree if and only if for every node, the left child's value is strictly less than the node's value and the right child's value is strictly greater than the node's value. If a tree is a binary search tree, an in-order traversal yields a perfectly sorted list of values. An in-order traversal of Tree K yields a list of values that is not sorted.",
         "conclusion": "There exists at least one node in Tree K where either the left child's value is not less than the node's value, or the right child's value is not greater than the node's value.",
         "label": "True"
     },
     {
-        "id": "Canh_46",
+        "id": "new_46",
         "premises": "An AI system is classified as neuro-symbolic if it explicitly combines neural network feature extraction with symbolic logic reasoning. Any system combining these two approaches can provide fully interpretable decision traces. If a system can provide fully interpretable decision traces, it completely complies with the new EU AI transparency regulations. System Aegis completely complies with the new EU AI transparency regulations.",
         "conclusion": "System Aegis is classified as neuro-symbolic.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_47",
+        "id": "new_47",
         "premises": "All igneous rocks are formed through the cooling and solidification of magma or lava. If a rock is formed from lava directly on the Earth's surface, it cools rapidly. Any rock that cools rapidly develops a fine-grained crystalline texture. Basalt is an igneous rock formed from lava directly on the Earth's surface.",
         "conclusion": "Basalt does not have a fine-grained crystalline texture.",
         "label": "False"
     },
     {
-        "id": "Canh_48",
+        "id": "new_48",
         "premises": "If a sorting algorithm operates in O(n log n) time complexity in the worst-case scenario, it cannot be the standard implementation of Quicksort. Merge Sort operates in O(n log n) time complexity in the worst-case scenario. All algorithms that operate in O(n log n) time in the worst case are highly efficient for processing large-scale datasets.",
         "conclusion": "Merge Sort is highly efficient for processing large-scale datasets and is not the standard implementation of Quicksort.",
         "label": "True"
     },
     {
-        "id": "Canh_49",
+        "id": "new_49",
         "premises": "A large language model successfully generates coherent long-form text only if it utilizes an attention mechanism with a sufficiently large context window. The 'Vocab_7B' model does not utilize an attention mechanism with a sufficiently large context window. The 'Vocab_7B' model is heavily trained on diverse multilingual corpora.",
         "conclusion": "The 'Vocab_7B' model successfully generates coherent long-form text.",
         "label": "False"
     },
     {
-        "id": "Canh_50",
+        "id": "new_50",
         "premises": "Superconducting materials exhibit zero electrical resistance when cooled below their specific critical temperature. If a material exhibits zero electrical resistance, it repels external magnetic fields completely due to the Meissner effect. Material X is a superconducting material that has been successfully cooled below its specific critical temperature.",
         "conclusion": "Material X repels external magnetic fields completely.",
         "label": "True"
     },
     {
-        "id": "Canh_51",
+        "id": "new_51",
         "premises": "A critical system fault is caused by either a catastrophic memory leak or a physical hardware failure. If it is caused by a physical hardware failure, the motherboard's diagnostic LED blinks red repeatedly. The diagnostic LED on the current server is steadily green and not blinking red.",
         "conclusion": "The critical system fault on the current server is caused by a catastrophic memory leak.",
         "label": "True"
     },
     {
-        "id": "Canh_52",
+        "id": "new_52",
         "premises": "All valid configuration files parse without throwing any syntax errors. No file that throws a syntax error can be loaded into the central database. The 'network_config.txt' file threw a syntax error during the initial parsing phase.",
         "conclusion": "The 'network_config.txt' file is a valid configuration file.",
         "label": "False"
     },
     {
-        "id": "Canh_53",
+        "id": "new_53",
         "premises": "All modern neuro-symbolic frameworks combine neural network learning with a deterministic logic solver. If a framework utilizes a deterministic logic solver, it can handle multi-step discrete reasoning tasks without hallucination. 'DeepLogic-X' handles multi-step discrete reasoning tasks without hallucination.",
         "conclusion": "'DeepLogic-X' is a modern neuro-symbolic framework.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_54",
+        "id": "new_54",
         "premises": "If the semantic parser correctly identifies all named entities, the natural language query translates accurately into an SQL command. If the query translates accurately into an SQL command, the database returns the exact requested records. The database returned a completely empty set despite the records existing, meaning it did not return the exact requested records.",
         "conclusion": "The semantic parser did not correctly identify all named entities.",
         "label": "True"
     },
     {
-        "id": "Canh_55",
+        "id": "new_55",
         "premises": "A highly secure system allows a user to authenticate using either a biometric retinal scan or a cryptographic physical key, but strictly never both simultaneously. User Admin_01 successfully authenticated using a cryptographic physical key today.",
         "conclusion": "User Admin_01 simultaneously authenticated using a biometric retinal scan today.",
         "label": "False"
     },
     {
-        "id": "Canh_56",
+        "id": "new_56",
         "premises": "A specific botanical specimen thrives if and only if it receives direct sunlight for four hours daily and is watered exactly twice a week. The Fern located in the central lobby receives direct sunlight for four hours daily. The Fern in the central lobby is currently not thriving.",
         "conclusion": "The Fern in the central lobby is not watered exactly twice a week.",
         "label": "True"
     },
     {
-        "id": "Canh_57",
+        "id": "new_57",
         "premises": "Some advanced compiler optimization techniques significantly reduce the execution time of a compiled program. All techniques that reduce execution time directly improve the overall system performance metrics. 'Aggressive Loop Unrolling' is an advanced compiler optimization technique.",
         "conclusion": "'Aggressive Loop Unrolling' directly improves the overall system performance metrics.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_58",
+        "id": "new_58",
         "premises": "If a square matrix is strictly diagonally dominant, then it is mathematically guaranteed to be invertible. Matrix M, used in the physics simulation, is strictly diagonally dominant. Matrix M has dimensions of 4 by 4.",
         "conclusion": "Matrix M is not guaranteed to be invertible.",
         "label": "False"
     },
     {
-        "id": "Canh_59",
+        "id": "new_59",
         "premises": "If the atmospheric pressure drops below 1000 hPa and the relative humidity exceeds 80 percent, a severe thunderstorm will form over the valley. The relative humidity over the valley is currently 92 percent. A severe thunderstorm has not formed over the valley.",
         "conclusion": "The atmospheric pressure over the valley has not dropped below 1000 hPa.",
         "label": "True"
     },
     {
-        "id": "Canh_60",
+        "id": "new_60",
         "premises": "To officially secure the outer perimeter, the night guard must activate the laser grid or deploy the automated drone swarm. The night guard activated the laser grid at midnight. The outer perimeter is currently officially secured.",
         "conclusion": "The night guard did not deploy the automated drone swarm.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_61",
+        "id": "new_61",
         "premises": "All members of the elite royal guard wear distinct crimson cloaks. Anyone who wears a distinct crimson cloak is strictly forbidden from entering the underground thieves' guild. Sir Gareth is an honorable member of the elite royal guard.",
         "conclusion": "Sir Gareth is strictly forbidden from entering the underground thieves' guild.",
         "label": "True"
     },
     {
-        "id": "Canh_62",
+        "id": "new_62",
         "premises": "A successful enterprise product launch strictly requires both a comprehensive global marketing strategy and a completely flawless software build. Company Beta had a highly successful enterprise product launch last quarter. Company Beta operates entirely in the European sector.",
         "conclusion": "Company Beta lacked a comprehensive global marketing strategy.",
         "label": "False"
     },
     {
-        "id": "Canh_63",
+        "id": "new_63",
         "premises": "If a large language model is extensively fine-tuned on clinical medical texts, it accurately answers complex physiological questions. Model 'BioChat_V2' was not fine-tuned on clinical medical texts. Model 'BioChat_V2' possesses 70 billion parameters.",
         "conclusion": "Model 'BioChat_V2' cannot accurately answer complex physiological questions.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_64",
+        "id": "new_64",
         "premises": "If a deep-sea submarine descends below 500 meters, its titanium hull experiences extreme hydrostatic pressure. If a hull experiences extreme hydrostatic pressure, the internal structural integrity monitors will continuously flash red. The internal structural integrity monitors of the SS Nautilus are completely dark and not flashing red.",
         "conclusion": "The SS Nautilus is not currently descended below 500 meters.",
         "label": "True"
     },
     {
-        "id": "Canh_65",
+        "id": "new_65",
         "premises": "All functioning quantum computers utilize microscopic qubits to perform their core calculations. No classical supercomputer utilizes microscopic qubits. The 'Titan-Prime' is a classical supercomputer used for global weather forecasting.",
         "conclusion": "The 'Titan-Prime' utilizes microscopic qubits to perform its core calculations.",
         "label": "False"
     },
     {
-        "id": "Canh_66",
+        "id": "new_66",
         "premises": "A tech applicant is hired for the senior role only if they seamlessly pass the advanced algorithmic interview and present a verified open-source portfolio. Applicant Charlie was officially hired for the senior role yesterday.",
         "conclusion": "Applicant Charlie presented a verified open-source portfolio.",
         "label": "True"
     },
     {
-        "id": "Canh_67",
+        "id": "new_67",
         "premises": "All known mammals are biologically classified as warm-blooded animals. All known bird species are biologically classified as warm-blooded animals. The newly discovered flying creature, codenamed 'Aethel', is verified to be a warm-blooded animal.",
         "conclusion": "The creature codenamed 'Aethel' is a known mammal.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_68",
+        "id": "new_68",
         "premises": "If an acoustic guitar is strung with nylon strings, it is primarily used for playing classical music pieces. The 'Cordoba C5' model is not primarily used for playing classical music pieces. The 'Cordoba C5' is a popular acoustic guitar.",
         "conclusion": "The 'Cordoba C5' model is strung with nylon strings.",
         "label": "False"
     },
     {
-        "id": "Canh_69",
+        "id": "new_69",
         "premises": "The primary bank vault can be successfully opened only if the manager inputs the correct 8-digit PIN or scans an authorized retina. If an authorized retina is scanned, the biometric scanner emits a brief, high-intensity blue light. The biometric scanner did not emit a high-intensity blue light during the vault opening sequence. The primary bank vault was successfully opened this morning.",
         "conclusion": "The manager inputted the correct 8-digit PIN this morning.",
         "label": "True"
     },
     {
-        "id": "Canh_70",
+        "id": "new_70",
         "premises": "A truly successful autumn crop harvest requires either exceptionally fertile soil or abundant seasonal rainfall. The agricultural region of Westbridge experienced abundant seasonal rainfall this year. The farmers in Westbridge extensively used advanced drip irrigation systems.",
         "conclusion": "The soil in the agricultural region of Westbridge is not exceptionally fertile.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_71",
+        "id": "new_71",
         "premises": "The King's three advisors are Arthur, Bertram, and Cedric. Arthur says that Bertram is a liar. Bertram says that both Arthur and Cedric are liars. Cedric says that Bertram tells the truth. Every advisor either always tells the truth or always lies.",
         "conclusion": "Arthur tells the truth.",
         "label": "True"
     },
     {
-        "id": "Canh_72",
+        "id": "new_72",
         "premises": "Four suspects are being interrogated about a stolen artifact. Dave says, 'Eve stole it.' Eve says, 'Grace stole it.' Frank says, 'I didn't steal it.' Grace says, 'Eve is lying.' Exactly one of these four suspects is telling the truth, and exactly one suspect stole the artifact.",
         "conclusion": "Frank stole the artifact.",
         "label": "True"
     },
     {
-        "id": "Canh_73",
+        "id": "new_73",
         "premises": "Three children are in a room where a vase was broken. Leo says, 'Mia broke it.' Mia says, 'Noah broke it.' Noah says, 'Mia is lying.' Exactly one child is telling the truth, and exactly one child broke the vase.",
         "conclusion": "Noah broke the vase.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_74",
+        "id": "new_74",
         "premises": "A treasure is hidden behind one of three magical doors. Door 1 reads: 'The treasure is behind Door 3.' Door 2 reads: 'The treasure is not behind Door 1.' Door 3 reads: 'The treasure is not here.' Exactly one door's statement is true.",
         "conclusion": "The treasure is hidden behind Door 1.",
         "label": "True"
     },
     {
-        "id": "Canh_75",
+        "id": "new_75",
         "premises": "If the reactor becomes unstable, it automatically vents gas or sounds the central alarm. The reactor did not vent gas. If the primary cooling system fails, the central alarm will absolutely not sound. The reactor became unstable.",
         "conclusion": "The primary cooling system failed.",
         "label": "False"
     },
     {
-        "id": "Canh_76",
+        "id": "new_76",
         "premises": "If either the CEO resigns or the company's stock drops by 10%, the board of directors will convene an emergency meeting. The board of directors did not convene an emergency meeting this week.",
         "conclusion": "The CEO did not resign.",
         "label": "True"
     },
     {
-        "id": "Canh_77",
+        "id": "new_77",
         "premises": "If the ancient spell is cast, the sky darkens and the wind howls. If the sky darkens, the bats fly from the cave. If the wind howls, the wolves howl in the forest. The bats are not flying from the cave.",
         "conclusion": "The ancient spell was not cast.",
         "label": "True"
     },
     {
-        "id": "Canh_78",
+        "id": "new_78",
         "premises": "The legendary sword is located either in the deep cave or the ruined temple. If it is located in the deep cave, it is guarded by deadly traps. If it is located in the ruined temple, it is guarded by deadly traps.",
         "conclusion": "The legendary sword is guarded by deadly traps.",
         "label": "True"
     },
     {
-        "id": "Canh_79",
+        "id": "new_79",
         "premises": "If the Red King attacks, the cavalry immediately charges. If the Black Queen attacks, the archers fire a volley. Either the Red King attacks or the Black Queen attacks.",
         "conclusion": "The cavalry charges and the archers fire a volley.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_80",
+        "id": "new_80",
         "premises": "If the virus mutates, it spreads extremely quickly. If it does not mutate, it becomes completely dormant. If it spreads extremely quickly, the quarantine period is extended. If it becomes completely dormant, the quarantine period is extended.",
         "conclusion": "The quarantine period is extended.",
         "label": "True"
     },
     {
-        "id": "Canh_81",
+        "id": "new_81",
         "premises": "If the AI core goes rogue, it either locks the entire network or deletes the security logs. If it locks the entire network, the red emergency light flashes. If it deletes the security logs, the red emergency light flashes. The red emergency light is currently not flashing.",
         "conclusion": "The AI core went rogue.",
         "label": "False"
     },
     {
-        "id": "Canh_82",
+        "id": "new_82",
         "premises": "The mountain peak Alpha is strictly lower than peak Beta. Peak Gamma is strictly higher than peak Beta. Peak Delta is exactly the same height as peak Alpha.",
         "conclusion": "Peak Delta is lower than peak Gamma.",
         "label": "True"
     },
     {
-        "id": "Canh_83",
+        "id": "new_83",
         "premises": "There are four houses aligned in a single straight row. The Red house is immediately next to the Blue house. The Green house is immediately next to the Blue house. The Yellow house is immediately next to the Green house.",
         "conclusion": "The Red house is immediately next to the Yellow house.",
         "label": "False"
     },
     {
-        "id": "Canh_84",
+        "id": "new_84",
         "premises": "You encounter three aliens: Zog, Blip, and Gax. Every alien either always tells the truth or always lies. Zog says, 'We are all liars.' Blip says, 'Exactly one of us is a truth-teller.'",
         "conclusion": "Gax is a truth-teller.",
         "label": "False"
     },
     {
-        "id": "Canh_85",
+        "id": "new_85",
         "premises": "On an island, inhabitants are either Knights who always tell the truth, or Knaves who always lie. You meet two inhabitants, X and Y. X tells you: 'If Y is a Knight, then I am a Knave.'",
         "conclusion": "Y is a Knave.",
         "label": "True"
     },
     {
-        "id": "Canh_86",
+        "id": "new_86",
         "premises": "If the starship has enough fuel and the coordinates are properly set, it will jump to hyperspace or enter a stable orbit. The starship has enough fuel. The coordinates are properly set. The starship did not jump to hyperspace.",
         "conclusion": "The starship entered a stable orbit.",
         "label": "True"
     },
     {
-        "id": "Canh_87",
+        "id": "new_87",
         "premises": "If the alchemical potion is brewed correctly, then heating it causes it to turn purple. The alchemical potion is brewed correctly. The alchemical potion is being heated.",
         "conclusion": "The alchemical potion does not turn purple.",
         "label": "False"
     },
     {
-        "id": "Canh_88",
+        "id": "new_88",
         "premises": "If the firewall's encryption is cracked, the main server falls. Either the main server does not fall, or the database is successfully breached. The database is not breached.",
         "conclusion": "The firewall's encryption is cracked.",
         "label": "False"
     },
     {
-        "id": "Canh_89",
+        "id": "new_89",
         "premises": "City A is located directly north of City B. City B is located directly west of City C. City D is located directly south of City C.",
         "conclusion": "City A is located northwest of City D.",
         "label": "True"
     },
     {
-        "id": "Canh_90",
+        "id": "new_90",
         "premises": "The Renaissance occurred before the Industrial Revolution. The Information Age occurred after the World Wars. The Industrial Revolution occurred before the World Wars.",
         "conclusion": "The Information Age occurred before the Renaissance.",
         "label": "False"
     },
     {
-        "id": "Canh_91",
+        "id": "new_91",
         "premises": "All members of the inner circle are extremely wealthy. Some extremely wealthy people are politicians. No politicians are trustworthy.",
         "conclusion": "No members of the inner circle are trustworthy.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_92",
+        "id": "new_92",
         "premises": "If the defendant is truly guilty, he was present at the crime scene. If he is not guilty, he has a solid alibi. If he was present at the crime scene, he will be questioned by the lead detective. If he has a solid alibi, he will be questioned by the lead detective.",
         "conclusion": "The defendant will be questioned by the lead detective.",
         "label": "True"
     },
     {
-        "id": "Canh_93",
+        "id": "new_93",
         "premises": "A group of three people (Alice, Bob, and Charlie) either always lie or always tell the truth. Alice says, 'Bob and Charlie are both liars.' Bob says, 'Exactly one of Alice and Charlie is a liar.' Charlie says, 'Alice is a liar.'",
         "conclusion": "Bob is a liar.",
         "label": "False"
     },
     {
-        "id": "Canh_94",
+        "id": "new_94",
         "premises": "Three machines (M1, M2, M3) output diagnostic statuses that are either completely true or completely false. M1 outputs: 'M2 is outputting truth.' M2 outputs: 'M3 is outputting a falsehood.' M3 outputs: 'Both M1 and M2 are outputting falsehoods.'",
         "conclusion": "M2 is outputting truth.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_95",
+        "id": "new_95",
         "premises": "During the maneuver, either the primary thruster fired, or the secondary thruster fired, but strictly not both. If the primary thruster fired, the ship veered left. If the secondary thruster fired, the ship did not veer left. Telemetry shows the ship veered left.",
         "conclusion": "The primary thruster fired.",
         "label": "True"
     },
     {
-        "id": "Canh_96",
+        "id": "new_96",
         "premises": "Only the Red Knights or the Blue Falcons can win the grand tournament. If the arena terrain is muddy, the Red Knights lose. It rained heavily all morning, making the arena terrain extremely muddy.",
         "conclusion": "The Blue Falcons win the grand tournament.",
         "label": "True"
     },
     {
-        "id": "Canh_97",
+        "id": "new_97",
         "premises": "The overall gravitational pull of Planet X is weaker than that of Planet Y. The overall gravitational pull of Planet Z is strictly stronger than that of Planet X.",
         "conclusion": "The overall gravitational pull of Planet Z is stronger than that of Planet Y.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_98",
+        "id": "new_98",
         "premises": "If the suspect possesses the master key and knows the override code, he accesses the secure vault. If he accesses the secure vault, he steals the gold and inevitably leaves a footprint. Forensic teams confirmed no footprint was left. The suspect definitely knows the override code.",
         "conclusion": "The suspect does not possess the master key.",
         "label": "True"
     },
     {
-        "id": "Canh_99",
+        "id": "new_99",
         "premises": "If the quantum state collapses, the superposition is entirely lost. If the superposition is entirely lost, the entangled particles decouple. If the entangled particles decouple, the communication link fails completely. The communication link did not fail completely.",
         "conclusion": "The quantum state did not collapse.",
         "label": "True"
     },
     {
-        "id": "Canh_100",
+        "id": "new_100",
         "premises": "All files in directory A are encrypted. Some encrypted files are larger than 1GB. Every file larger than 1GB takes more than an hour to download. The file 'report.pdf' is in directory A.",
         "conclusion": "The file 'report.pdf' takes more than an hour to download.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_101",
+        "id": "new_101",
         "premises": "For any objects X, Y, and Z, if X is strictly taller than Y, and Y is strictly taller than Z, then X is strictly taller than Z. Object Alpha is strictly taller than Object Beta. Object Beta is strictly taller than Object Gamma.",
         "conclusion": "Object Alpha is strictly taller than Object Gamma.",
         "label": "True"
     },
     {
-        "id": "Canh_102",
+        "id": "new_102",
         "premises": "For any persons X and Y, if X is the direct supervisor of Y, then Y is a direct subordinate of X. Alice is the direct supervisor of Bob. Bob is the direct supervisor of Charlie.",
         "conclusion": "Charlie is a direct subordinate of Alice.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_103",
+        "id": "new_103",
         "premises": "For any nodes X, Y, and Z, if X is connected to Y, and Y is connected to Z, then X is connected to Z. For any nodes X and Y, if X is connected to Y, then Y is connected to X. Node A is connected to Node B. Node C is not connected to Node A.",
         "conclusion": "Node B is connected to Node C.",
         "label": "False"
     },
     {
-        "id": "Canh_104",
+        "id": "new_104",
         "premises": "For any entities X, Y, and Z, if X is a parent of Y, and Y is a parent of Z, then X is a grandparent of Z. If X is a grandparent of Z, then Z is a grandchild of X. John is a parent of Mary. Mary is a parent of David.",
         "conclusion": "David is a grandchild of John.",
         "label": "True"
     },
     {
-        "id": "Canh_105",
+        "id": "new_105",
         "premises": "For any regions X and Y, if X borders Y, then Y borders X. Region Alpha borders Region Beta. Region Beta borders Region Gamma.",
         "conclusion": "Region Alpha borders Region Gamma.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_106",
+        "id": "new_106",
         "premises": "For any items X and Y, if X is physically heavier than Y, then Y is not physically heavier than X. The iron block is physically heavier than the wooden block.",
         "conclusion": "The wooden block is physically heavier than the iron block.",
         "label": "False"
     },
     {
-        "id": "Canh_107",
+        "id": "new_107",
         "premises": "For any boxes X, Y, and Z, if X is completely contained within Y, and Y is completely contained within Z, then X is completely contained within Z. For any boxes X and Y, if X is completely contained within Y, then Y is not completely contained within X. Box Red is completely contained within Box Blue. Box Blue is completely contained within Box Green.",
         "conclusion": "Box Green is completely contained within Box Red.",
         "label": "False"
     },
     {
-        "id": "Canh_108",
+        "id": "new_108",
         "premises": "For any individuals X and Y, if X is legally married to Y, then Y is legally married to X. For any individuals X, Y, and Z, if X is legally married to Y, and X is legally married to Z, then Y must be the exact same individual as Z. Paul is legally married to Linda. Mark is legally married to Linda. Mark is not the exact same individual as Paul.",
         "conclusion": "Paul is legally married to Linda.",
         "label": "False"
     },
     {
-        "id": "Canh_109",
+        "id": "new_109",
         "premises": "For any sets X, Y, and Z, if X is a strict subset of Y, and Y is a strict subset of Z, then X is a strict subset of Z. Set Mammals is a strict subset of Set Animals. Set Dogs is a strict subset of Set Mammals.",
         "conclusion": "Set Dogs is a strict subset of Set Animals.",
         "label": "True"
     },
     {
-        "id": "Canh_110",
+        "id": "new_110",
         "premises": "For any researchers X, Y, and Z, if X officially mentors Y, and Y officially mentors Z, then X indirectly influences Z. Dr. Smith officially mentors Dr. Jones. Dr. Jones officially mentors Dr. Lee. Dr. Lee officially mentors Dr. Brown.",
         "conclusion": "Dr. Smith indirectly influences Dr. Brown.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_111",
+        "id": "new_111",
         "premises": "For any events X, Y, and Z, if X completely precedes Y, and Y completely precedes Z, then X completely precedes Z. For any events X and Y, if X completely precedes Y, then they do not overlap in time. The flash completely precedes the bang. The bang completely precedes the echo.",
         "conclusion": "The flash and the echo do not overlap in time.",
         "label": "True"
     },
     {
-        "id": "Canh_112",
+        "id": "new_112",
         "premises": "For any periods X and Y, if X happens entirely during Y, then the exact start time of X is after the exact start time of Y. For any periods X and Y, if X happens entirely during Y, then the exact end time of X is before the exact end time of Y. The evaluation period happens entirely during the fiscal year.",
         "conclusion": "The exact start time of the evaluation period is after the exact start time of the fiscal year.",
         "label": "True"
     },
     {
-        "id": "Canh_113",
+        "id": "new_113",
         "premises": "For any events X and Y, if X occurs immediately after Y, then Y occurs immediately before X. For any events X and Y, if Y occurs immediately before X, then no other event can occur strictly between Y and X. The system reboot occurs immediately after the power failure. The data log occurs strictly between the power failure and the system reboot.",
         "conclusion": "The data log is an event.",
         "label": "False"
     },
     {
-        "id": "Canh_114",
+        "id": "new_114",
         "premises": "For any processes X, Y, and Z, if X is completely concurrent with Y, and Y is completely concurrent with Z, then X is completely concurrent with Z. For any processes X and Y, if X is completely concurrent with Y, then Y is completely concurrent with X. Process Alpha is completely concurrent with Process Beta. Process Gamma is completely concurrent with Process Beta.",
         "conclusion": "Process Alpha is completely concurrent with Process Gamma.",
         "label": "True"
     },
     {
-        "id": "Canh_115",
+        "id": "new_115",
         "premises": "For any phases X and Y, if X strictly follows Y, then X and Y are disjoint. For any phases X and Y, if they are disjoint, they share no active operational seconds. Phase Post-op strictly follows Phase Pre-op.",
         "conclusion": "Phase Post-op and Phase Pre-op share no active operational seconds.",
         "label": "True"
     },
     {
-        "id": "Canh_116",
+        "id": "new_116",
         "premises": "For any temporal intervals X, Y, and Z, if X completely precedes Y, and Y completely precedes Z, then X completely precedes Z. For any intervals X and Y, if X completely precedes Y, then Y strictly follows X. Interval A completely precedes Interval B. Interval B strictly follows Interval C.",
         "conclusion": "Interval A completely precedes Interval C.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_117",
+        "id": "new_117",
         "premises": "For any specific days X and Y, if X is exactly one day after Y, then X is defined as the absolute tomorrow of Y. For any days X and Y, if X is the absolute tomorrow of Y, then Y is defined as the absolute yesterday of X. Day Delta is exactly one day after Day Sigma.",
         "conclusion": "Day Sigma is defined as the absolute yesterday of Day Delta.",
         "label": "True"
     },
     {
-        "id": "Canh_118",
+        "id": "new_118",
         "premises": "For any signals X and Y, either X is transmitted simultaneously with Y, or X is transmitted asynchronously with Y, but never both. If X is transmitted asynchronously with Y, their timestamps differ by at least one millisecond. Signal Ping and Signal Pong have timestamps that do not differ by at least one millisecond.",
         "conclusion": "Signal Ping is transmitted simultaneously with Signal Pong.",
         "label": "True"
     },
     {
-        "id": "Canh_119",
+        "id": "new_119",
         "premises": "For any historical eras X, Y, and Z, if X is chronologically contained within Y, and Y is chronologically contained within Z, then X is chronologically contained within Z. The Edo period is chronologically contained within the Japanese feudal era. The Japanese feudal era is chronologically contained within the Pre-modern epoch.",
         "conclusion": "The Pre-modern epoch is chronologically contained within the Edo period.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_120",
+        "id": "new_120",
         "premises": "For any machine states X and Y, if State X transitions directly to State Y, then State X occurs prior to State Y. For any states X and Y, if State X occurs prior to State Y, then State Y cannot occur prior to State X. State Idle transitions directly to State Active.",
         "conclusion": "State Active occurs prior to State Idle.",
         "label": "False"
     },
     {
-        "id": "Canh_121",
+        "id": "new_121",
         "premises": "For any nodes X, Y, and Z in a directed graph, if there is a directed edge from X to Y, and a directed edge from Y to Z, then there exists a valid path from X to Z. For any nodes X and Y, if there is a valid path from X to Y, it does not imply a valid path from Y to X unless explicitly stated. There is a directed edge from Node M to Node N. There is a directed edge from Node N to Node P.",
         "conclusion": "There exists a valid path from Node P to Node M.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_122",
+        "id": "new_122",
         "premises": "For any tasks X and Y, if X is a prerequisite for Y, then X must be completely finished before Y begins. For any tasks X, Y, and Z, if X must be completely finished before Y begins, and Y is a prerequisite for Z, then X must be completely finished before Z begins. Task Compile is a prerequisite for Task Execute. Task Execute is a prerequisite for Task Debug.",
         "conclusion": "Task Compile must be completely finished before Task Debug begins.",
         "label": "True"
     },
     {
-        "id": "Canh_123",
+        "id": "new_123",
         "premises": "For any intervals X and Y, if X strictly overlaps Y, then the start time of X is strictly before the start time of Y, and the end time of X is strictly before the end time of Y. Interval Alpha strictly overlaps Interval Beta. The end time of Interval Alpha is 10:00 AM.",
         "conclusion": "The end time of Interval Beta is strictly before 10:00 AM.",
         "label": "False"
     },
     {
-        "id": "Canh_124",
+        "id": "new_124",
         "premises": "For any sets A, B, and C, if A is mutually exclusive with B, then no element exists in both A and B. If B is a strict superset of C, then every element in C is also in B. Set Fire is mutually exclusive with Set Water. Set Water is a strict superset of Set Ice. Object Frost is an element of Set Ice.",
         "conclusion": "Object Frost is an element of Set Fire.",
         "label": "False"
     },
     {
-        "id": "Canh_125",
+        "id": "new_125",
         "premises": "For any memory blocks X and Y, if X is allocated before Y, then the memory address of X is strictly lower than the memory address of Y. For any memory blocks X, Y, and Z, if the address of X is strictly lower than Y, and Y is strictly lower than Z, then X is allocated before Z. Block A is allocated before Block B. Block B is allocated before Block C.",
         "conclusion": "The memory address of Block A is strictly lower than the memory address of Block C.",
         "label": "True"
     },
     {
-        "id": "Canh_126",
+        "id": "new_126",
         "premises": "For any system states X and Y, if X is a highly stable state and transitions to Y, then Y must be a strictly transitional state. For any states X and Y, if X is a strictly transitional state, it cannot transition directly back to itself. State Alpha is a highly stable state. State Alpha transitions to State Beta.",
         "conclusion": "State Beta can transition directly back to State Beta.",
         "label": "False"
     },
     {
-        "id": "Canh_127",
+        "id": "new_127",
         "premises": "For any geographical zones X, Y, and Z, if X is entirely north of Y, and Y is entirely north of Z, then X is entirely north of Z. For any zones X and Y, if X is entirely north of Y, then X and Y share no border points. Zone Delta is entirely north of Zone Echo. Zone Echo is entirely north of Zone Foxtrot.",
         "conclusion": "Zone Delta and Zone Foxtrot share no border points.",
         "label": "True"
     },
     {
-        "id": "Canh_128",
+        "id": "new_128",
         "premises": "For any mathematical functions F and G, if F grows asymptotically faster than G, then F(n) will eventually strictly exceed G(n) for all n greater than some constant k. For any functions F, G, and H, if F grows asymptotically faster than G, and G grows asymptotically faster than H, then F grows asymptotically faster than H. Function Exp grows asymptotically faster than Function Poly. Function Poly grows asymptotically faster than Function Log.",
         "conclusion": "Function Log grows asymptotically faster than Function Exp.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_129",
+        "id": "new_129",
         "premises": "For any cryptographic keys X and Y, if X perfectly decodes Y, then Y was generated directly by X. For any keys X and Y, if X was generated directly by Y, then they are termed a symmetric pair. Key Gamma perfectly decodes Key Omega.",
         "conclusion": "Key Gamma and Key Omega are termed a symmetric pair.",
         "label": "True"
     },
     {
-        "id": "Canh_130",
+        "id": "new_130",
         "premises": "For any network layers X and Y, if Layer X encapsulates Layer Y, then Layer X operates at a logically lower level than Layer Y. For any layers X, Y, and Z, if X encapsulates Y, and Y encapsulates Z, then X operates at a logically lower level than Z. Layer IP encapsulates Layer TCP. Layer Ethernet encapsulates Layer IP.",
         "conclusion": "Layer Ethernet operates at a logically lower level than Layer TCP.",
         "label": "True"
     },
     {
-        "id": "Canh_131",
+        "id": "new_131",
         "premises": "For any classes X and Y in object-oriented programming, if X inherits from Y, then X possesses all public methods of Y. If X possesses all public methods of Y, then an instance of X can substitute an instance of Y. Class Vehicle does not inherit from Class Engine. Method 'start' is a public method of Class Engine.",
         "conclusion": "An instance of Class Vehicle cannot substitute an instance of Class Engine.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_132",
+        "id": "new_132",
         "premises": "For any temporal phases X and Y, if X finishes exactly when Y finishes, they are said to be co-terminating. If X and Y are co-terminating, their exact end times are identical. Phase Sunset finishes exactly when Phase Twilight finishes.",
         "conclusion": "The exact end time of Phase Sunset is identical to the exact end time of Phase Twilight.",
         "label": "True"
     },
     {
-        "id": "Canh_133",
+        "id": "new_133",
         "premises": "For any agents X and Y, if X holds security clearance higher than Y, then X can access all files Y can access. For any agents X and Y, if X can access all files Y can access, and Y can access file Z, then X can access file Z. Agent Smith holds security clearance higher than Agent Neo. Agent Neo can access the Matrix Core file.",
         "conclusion": "Agent Neo holds security clearance higher than Agent Smith.",
         "label": "False"
     },
     {
-        "id": "Canh_134",
+        "id": "new_134",
         "premises": "For any geometric shapes X and Y, if X is congruent to Y, then Y is congruent to X. If X is congruent to Y, they have the exact same area. Triangle A is congruent to Triangle B. Triangle C has the exact same area as Triangle B.",
         "conclusion": "Triangle C is congruent to Triangle A.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_135",
+        "id": "new_135",
         "premises": "For any software versions X and Y, if X is backward compatible with Y, then any script running on Y runs flawlessly on X. Version 3.0 is backward compatible with Version 2.0. Script Alpha does not run flawlessly on Version 3.0.",
         "conclusion": "Script Alpha does not run on Version 2.0.",
         "label": "True"
     },
     {
-        "id": "Canh_136",
+        "id": "new_136",
         "premises": "For any biological species X and Y, if X is a direct evolutionary ancestor of Y, then X appeared in the fossil record strictly before Y. Species T-Rex is a direct evolutionary ancestor of Species Avian. Species Avian appeared in the fossil record in the Jurassic period.",
         "conclusion": "Species T-Rex appeared in the fossil record strictly before the Jurassic period.",
         "label": "True"
     },
     {
-        "id": "Canh_137",
+        "id": "new_137",
         "premises": "For any physical objects X, Y, and Z, if X rests entirely upon Y, and Y rests entirely upon Z, then X exerts a downward force on Z. For any objects X and Y, if X exerts a downward force on Y, then Y exerts an equal and opposite upward force on X. The book rests entirely upon the laptop. The laptop rests entirely upon the desk.",
         "conclusion": "The desk exerts an equal and opposite upward force on the book.",
         "label": "True"
     },
     {
-        "id": "Canh_138",
+        "id": "new_138",
         "premises": "For any logic gates X and Y, if X's output is strictly connected to Y's input, X's signal propagation delay must be added to Y's delay to find the total path delay. Gate AND's output is strictly connected to Gate OR's input. Gate OR's output is strictly connected to Gate XOR's input.",
         "conclusion": "Gate AND's signal propagation delay is less than Gate OR's delay.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_139",
+        "id": "new_139",
         "premises": "For any planets X and Y, if X orbits Y, then the mass of X is strictly less than the mass of Y. For any planets X, Y, and Z, if X orbits Y, and Y orbits Z, then X orbits Z. Moon Luna orbits Planet Earth. Planet Earth orbits Star Sol.",
         "conclusion": "The mass of Moon Luna is strictly less than the mass of Star Sol.",
         "label": "True"
     },
     {
-        "id": "Canh_140",
+        "id": "new_140",
         "premises": "For any legal contracts X and Y, if X supersedes Y, then all clauses in Y are rendered null and void. For any contracts X and Y, if X supersedes Y, then Y cannot supersede X. Contract Delta supersedes Contract Gamma. Contract Gamma supersedes Contract Epsilon.",
         "conclusion": "Contract Gamma supersedes Contract Delta.",
         "label": "False"
     },
     {
-        "id": "Canh_141",
+        "id": "new_141",
         "premises": "For any integers X, Y, and Z, if X divides Y with no remainder, and Y divides Z with no remainder, then X divides Z with no remainder. Integer 4 divides Integer 12 with no remainder. Integer 12 divides Integer 36 with no remainder.",
         "conclusion": "Integer 36 divides Integer 4 with no remainder.",
         "label": "False"
     },
     {
-        "id": "Canh_142",
+        "id": "new_142",
         "premises": "For any chemical reactions X and Y, if X is a catalyst for Y, then X remains completely unconsumed after Y finishes. Reaction Platinum is a catalyst for Reaction Oxidation. Reaction Oxidation finishes at precisely 12:00 PM.",
         "conclusion": "Reaction Platinum remains completely unconsumed after 12:00 PM.",
         "label": "True"
     },
     {
-        "id": "Canh_143",
+        "id": "new_143",
         "premises": "For any military ranks X and Y, if X outranks Y, then X can issue binding orders to Y. For any ranks X, Y, and Z, if X outranks Y, and Y outranks Z, then X outranks Z. General outranks Colonel. Colonel outranks Major.",
         "conclusion": "Major can issue binding orders to General.",
         "label": "False"
     },
     {
-        "id": "Canh_144",
+        "id": "new_144",
         "premises": "For any sound waves X and Y, if X is exactly perfectly out of phase with Y, they perfectly cancel each other out when superimposed. If they perfectly cancel each other out, the resulting amplitude is strictly zero. Wave Alpha is exactly perfectly out of phase with Wave Beta. They are superimposed.",
         "conclusion": "The resulting amplitude of Wave Alpha and Wave Beta is strictly zero.",
         "label": "True"
     },
     {
-        "id": "Canh_145",
+        "id": "new_145",
         "premises": "For any virtual machines X and Y, if X is a clone of Y, then X has the exact same initial hard drive state as Y. For any machines X and Y, if X has the exact same initial hard drive state as Y, then X and Y will produce identical outputs given identical inputs. VM Worker_1 is a clone of VM Master. VM Worker_2 has the exact same initial hard drive state as VM Worker_1.",
         "conclusion": "VM Worker_2 is a clone of VM Master.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_146",
+        "id": "new_146",
         "premises": "For any celestial events X and Y, if X occurs in the same epoch as Y, then neither X nor Y completely precedes the other. Event Supernova occurs in the same epoch as Event Nebula Formation.",
         "conclusion": "Event Supernova completely precedes Event Nebula Formation.",
         "label": "False"
     },
     {
-        "id": "Canh_147",
+        "id": "new_147",
         "premises": "For any data structures X and Y, if X is a balanced tree, its search time is strictly logarithmic. If Y's search time is strictly logarithmic, it scales efficiently with large datasets. Structure AVL is a balanced tree.",
         "conclusion": "Structure AVL scales efficiently with large datasets.",
         "label": "True"
     },
     {
-        "id": "Canh_148",
+        "id": "new_148",
         "premises": "For any corporate entities X, Y, and Z, if X acquires Y, and Y is the parent company of Z, then X becomes the ultimate parent company of Z. Company OmniCorp acquires Company GlobalTech. Company GlobalTech is the parent company of Subsidiary MicroSoftwares.",
         "conclusion": "Subsidiary MicroSoftwares becomes the ultimate parent company of Company OmniCorp.",
         "label": "False"
     },
     {
-        "id": "Canh_149",
+        "id": "new_149",
         "premises": "For any musical notes X and Y, if X is an octave strictly above Y, then the frequency of X is exactly double the frequency of Y. Note C5 is an octave strictly above Note C4. The frequency of Note C4 is 261.63 Hz.",
         "conclusion": "The frequency of Note C5 is exactly 523.26 Hz.",
         "label": "True"
     },
     {
-        "id": "Canh_150",
+        "id": "new_150",
         "premises": "For any database transactions X and Y, if X conflicts with Y, then either X must be rolled back, or Y must be rolled back, but never both simultaneously. Transaction T1 conflicts with Transaction T2. Transaction T1 was officially rolled back.",
         "conclusion": "Transaction T2 was officially rolled back.",
         "label": "False"
     },
     {
-        "id": "Canh_151",
+        "id": "new_151",
         "premises": "For any machine learning models X and Y, if X acts as the teacher for Y in a distillation process, X must have strictly more parameters than Y. Model GPT acts as the teacher for Model Mini in a distillation process. Model Mini acts as the teacher for Model Nano in a distillation process.",
         "conclusion": "Model GPT has strictly more parameters than Model Nano.",
         "label": "True"
     },
     {
-        "id": "Canh_152",
+        "id": "new_152",
         "premises": "For any architectural components X and Y, if X physically supports Y, then the destruction of X inevitably leads to the immediate collapse of Y. Pillar A physically supports Beam B. Beam B physically supports Roof C. Pillar A is completely destroyed.",
         "conclusion": "Roof C immediately collapses.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_153",
+        "id": "new_153",
         "premises": "For any logical propositions P and Q, if P logically entails Q, then it is absolutely impossible for P to be true while Q is false. Proposition X logically entails Proposition Y. Proposition Y is officially proven to be false.",
         "conclusion": "Proposition X is true.",
         "label": "False"
     },
     {
-        "id": "Canh_154",
+        "id": "new_154",
         "premises": "For any economic indicators X and Y, if X is a leading indicator for Y, then a significant shift in X reliably predicts a future shift in Y. If a future shift in Y is reliably predicted, market analysts will immediately adjust their portfolios. Indicator Yield_Curve is a leading indicator for Indicator Recession. A significant shift in Indicator Yield_Curve occurred today.",
         "conclusion": "Market analysts will immediately adjust their portfolios.",
         "label": "True"
     },
     {
-        "id": "Canh_155",
+        "id": "new_155",
         "premises": "For any concurrent threads X and Y, if X holds a lock that Y strictly requires, and Y holds a lock that X strictly requires, a permanent deadlock state occurs. Thread 1 holds Lock A and strictly requires Lock B. Thread 2 holds Lock B and strictly requires Lock A.",
         "conclusion": "A permanent deadlock state occurs.",
         "label": "True"
     },
     {
-        "id": "Canh_156",
+        "id": "new_156",
         "premises": "For any atmospheric layers X, Y, and Z, if X is situated strictly above Y, and Y is situated strictly above Z, then X is situated strictly above Z. For any layers X and Y, if X is situated strictly above Y, the atmospheric pressure in X is strictly lower than in Y. Layer Stratosphere is situated strictly above Layer Troposphere. Layer Troposphere is situated strictly above Layer Boundary.",
         "conclusion": "The atmospheric pressure in Layer Stratosphere is strictly lower than in Layer Boundary.",
         "label": "True"
     },
     {
-        "id": "Canh_157",
+        "id": "new_157",
         "premises": "For any board game pieces X and Y, if X legally captures Y, then Y is immediately removed from the active board. For any pieces X and Y, if Y is removed from the active board, Y cannot execute any further moves. The White Knight legally captures the Black Bishop.",
         "conclusion": "The Black Bishop can execute further moves.",
         "label": "False"
     },
     {
-        "id": "Canh_158",
+        "id": "new_158",
         "premises": "For any compiler stages X and Y, if X feeds its abstract syntax tree directly to Y, then X must complete its parsing phase before Y can begin its optimization phase. Stage Frontend feeds its abstract syntax tree directly to Stage Backend. Stage Backend has begun its optimization phase.",
         "conclusion": "Stage Frontend has completed its parsing phase.",
         "label": "True"
     },
     {
-        "id": "Canh_159",
+        "id": "new_159",
         "premises": "For any celestial orbits X and Y, if X is highly elliptical, its eccentricity is strictly greater than 0.5. If Y's eccentricity is strictly greater than 0.5, it experiences severe tidal heating at periapsis. Orbit Halley is highly elliptical.",
         "conclusion": "Orbit Halley experiences severe tidal heating at periapsis.",
         "label": "True"
     },
     {
-        "id": "Canh_160",
+        "id": "new_160",
         "premises": "For any geometric lines X, Y, and Z on a 2D plane, if X is strictly parallel to Y, and Y is strictly parallel to Z, then X is strictly parallel to Z. For any lines X and Y, if they are strictly parallel, they never intersect. Line M is strictly parallel to Line N. Line P never intersects Line N.",
         "conclusion": "Line M is strictly parallel to Line P.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_161",
+        "id": "new_161",
         "premises": "For any subatomic particles X and Y, if X decays directly into Y, then the total invariant mass of X is strictly greater than the invariant mass of Y. Particle Muon decays directly into Particle Electron. Particle Tau decays directly into Particle Muon.",
         "conclusion": "The invariant mass of Particle Electron is strictly greater than the invariant mass of Particle Tau.",
         "label": "False"
     },
     {
-        "id": "Canh_162",
+        "id": "new_162",
         "premises": "For any UI components X and Y, if X is the parent container of Y, then hiding X automatically completely hides Y. Container Modal is the parent container of Button Submit. Container Modal is currently hidden.",
         "conclusion": "Button Submit is completely hidden.",
         "label": "True"
     },
     {
-        "id": "Canh_163",
+        "id": "new_163",
         "premises": "For any biological viruses X and Y, if X mutates faster than Y, then X requires more frequent vaccine updates than Y. Virus Influenza mutates faster than Virus Variola. Virus Rhinovirus mutates faster than Virus Variola.",
         "conclusion": "Virus Influenza mutates faster than Virus Rhinovirus.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_164",
+        "id": "new_164",
         "premises": "For any execution contexts X and Y, if X spawns Y asynchronously, then the execution of X does not block while Y runs. Context Main spawns Context FetchData asynchronously. Context FetchData is currently running.",
         "conclusion": "The execution of Context Main is blocked.",
         "label": "False"
     },
     {
-        "id": "Canh_165",
+        "id": "new_165",
         "premises": "For any logical frameworks X and Y, if X is strictly more expressive than Y, then there exists at least one statement provable in X that cannot be represented in Y. Framework FOL is strictly more expressive than Framework PropositionalLogic.",
         "conclusion": "There exists at least one statement provable in Framework FOL that cannot be represented in Framework PropositionalLogic.",
         "label": "True"
     },
     {
-        "id": "Canh_166",
+        "id": "new_166",
         "premises": "For any network topologies X and Y, if X forms a perfect ring, every node has exactly two direct neighbors. Topology TokenRing forms a perfect ring. Node Server_A is in Topology TokenRing.",
         "conclusion": "Node Server_A has exactly three direct neighbors.",
         "label": "False"
     },
     {
-        "id": "Canh_167",
+        "id": "new_167",
         "premises": "For any historical treaties X and Y, if X is ratified after Y, then the terms of X legally override any contradictory terms in Y. Treaty of Paris was ratified after Treaty of Versailles. Treaty of Versailles contains a clause contradicting the Treaty of Paris.",
         "conclusion": "The terms of the Treaty of Paris legally override the contradictory clause in the Treaty of Versailles.",
         "label": "True"
     },
     {
-        "id": "Canh_168",
+        "id": "new_168",
         "premises": "For any encryption hashes X and Y, if X perfectly collides with Y, they produce the exact same 256-bit output despite having different inputs. Hash Alpha perfectly collides with Hash Beta.",
         "conclusion": "Hash Alpha and Hash Beta have the exact same inputs.",
         "label": "False"
     },
     {
-        "id": "Canh_169",
+        "id": "new_169",
         "premises": "For any physical states of matter X and Y, if X undergoes sublimation to become Y, then X was a solid and Y is a gas. State DryIce undergoes sublimation to become State CO2_Vapor.",
         "conclusion": "State CO2_Vapor is a gas.",
         "label": "True"
     },
     {
-        "id": "Canh_170",
+        "id": "new_170",
         "premises": "For any scheduling algorithms X and Y, if X uses strict preemptive prioritization, then a high-priority task instantly interrupts a low-priority task. Algorithm RoundRobin does not use strict preemptive prioritization. Task Urgent is a high-priority task. Task Idle is a low-priority task running under Algorithm RoundRobin.",
         "conclusion": "Task Urgent instantly interrupts Task Idle.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_171",
+        "id": "new_171",
         "premises": "For any bird X, X can fly, provided X is not a penguin. If X is a penguin, X cannot fly. Tweety is a bird. Tweety is not a penguin.",
         "conclusion": "Tweety can fly.",
         "label": "True"
     },
     {
-        "id": "Canh_172",
+        "id": "new_172",
         "premises": "For any employee Y, Y receives full health benefits, provided Y is not a temporary contractor. If Y is a temporary contractor, Y does not receive full health benefits. John is an employee. John is a temporary contractor.",
         "conclusion": "John receives full health benefits.",
         "label": "False"
     },
     {
-        "id": "Canh_173",
+        "id": "new_173",
         "premises": "For any server node Z, if Z is active, it processes background tasks, provided Z is not under heavy load. If Z is under heavy load, it does not process background tasks. Server Node Alpha is active.",
         "conclusion": "Server Node Alpha processes background tasks.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_174",
+        "id": "new_174",
         "premises": "For any software application X, if X receives an auto-update, it reboots immediately, provided X is not running a critical batch job. If X is running a critical batch job, it does not reboot immediately. The Database App receives an auto-update. The Database App is not running a critical batch job.",
         "conclusion": "The Database App reboots immediately.",
         "label": "True"
     },
     {
-        "id": "Canh_175",
+        "id": "new_175",
         "premises": "For any patient P, if P has a bacterial infection, P is prescribed penicillin, provided P is not allergic to penicillin. If P is allergic to penicillin, P is not prescribed penicillin. Patient Sarah has a bacterial infection. Patient Sarah is allergic to penicillin.",
         "conclusion": "Patient Sarah is prescribed penicillin.",
         "label": "False"
     },
     {
-        "id": "Canh_176",
+        "id": "new_176",
         "premises": "For any vehicle V, if V runs a red light, V is issued a traffic ticket, provided V is not an emergency vehicle on active duty. If V is an emergency vehicle on active duty, V is not issued a traffic ticket. Vehicle 42 runs a red light.",
         "conclusion": "Vehicle 42 is issued a traffic ticket.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_177",
+        "id": "new_177",
         "premises": "For any contract C, if C is signed by both parties, C is legally binding, provided C was not signed under duress. If C was signed under duress, C is not legally binding. The Merger Contract is signed by both parties. The Merger Contract was not signed under duress.",
         "conclusion": "The Merger Contract is legally binding.",
         "label": "True"
     },
     {
-        "id": "Canh_178",
+        "id": "new_178",
         "premises": "For any game entity E, if E is in the active camera view, E is rendered on the screen, provided E does not have the invisibility buff. If E has the invisibility buff, E is not rendered on the screen. The Enemy Boss is in the active camera view. The Enemy Boss has the invisibility buff.",
         "conclusion": "The Enemy Boss is rendered on the screen.",
         "label": "False"
     },
     {
-        "id": "Canh_179",
+        "id": "new_179",
         "premises": "For any neural network layer L, if L uses the ReLU activation function, L suffers from the dying ReLU problem, provided L does not implement a positive gradient for negative inputs. If L implements a positive gradient for negative inputs, L does not suffer from the dying ReLU problem. Layer Dense_1 uses the ReLU activation function.",
         "conclusion": "Layer Dense_1 suffers from the dying ReLU problem.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_180",
+        "id": "new_180",
         "premises": "For any order O, if O exceeds $100, O qualifies for free shipping, provided O does not contain oversized items. If O contains oversized items, O does not qualify for free shipping. Order 999 exceeds $100. Order 999 does not contain oversized items.",
         "conclusion": "Order 999 qualifies for free shipping.",
         "label": "True"
     },
     {
-        "id": "Canh_181",
+        "id": "new_181",
         "premises": "For any chemical substance S, if S is a metal, S conducts electricity at room temperature, provided S is not in an oxidized state. If S is in an oxidized state, S does not conduct electricity at room temperature. Substance Iron is a metal. Substance Iron is in an oxidized state.",
         "conclusion": "Substance Iron conducts electricity at room temperature.",
         "label": "False"
     },
     {
-        "id": "Canh_182",
+        "id": "new_182",
         "premises": "For any student S, if S completes all assignments, S passes the course, provided S is not caught plagiarizing. If S is caught plagiarizing, S does not pass the course. Student Mark completes all assignments.",
         "conclusion": "Student Mark passes the course.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_183",
+        "id": "new_183",
         "premises": "For any bank transaction T, if T originates from a foreign country, T is flagged for review, provided T does not come from a pre-approved trusted entity. If T comes from a pre-approved trusted entity, T is not flagged for review. Transaction 555 originates from a foreign country. Transaction 555 comes from a pre-approved trusted entity.",
         "conclusion": "Transaction 555 is not flagged for review.",
         "label": "True"
     },
     {
-        "id": "Canh_184",
+        "id": "new_184",
         "premises": "For any file F, if F is marked as executable, F can be launched by the user, provided F is not quarantined by the antivirus. If F is quarantined by the antivirus, F cannot be launched by the user. File 'game.exe' is marked as executable. File 'game.exe' is quarantined by the antivirus.",
         "conclusion": "File 'game.exe' can be launched by the user.",
         "label": "False"
     },
     {
-        "id": "Canh_185",
+        "id": "new_185",
         "premises": "For any smart home device D, if D detects motion, D turns on the lights, provided D is not in sleep mode. If D is in sleep mode, D does not turn on the lights. Device Camera_1 detects motion.",
         "conclusion": "Device Camera_1 turns on the lights.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_186",
+        "id": "new_186",
         "premises": "For any Git branch B, if B has all tests passing, B is allowed to merge into main, provided B does not have unresolved merge conflicts. If B has unresolved merge conflicts, B is not allowed to merge into main. Branch 'feature-login' has all tests passing. Branch 'feature-login' does not have unresolved merge conflicts.",
         "conclusion": "Branch 'feature-login' is allowed to merge into main.",
         "label": "True"
     },
     {
-        "id": "Canh_187",
+        "id": "new_187",
         "premises": "For any physical object O, if O is dropped in a vacuum chamber, O accelerates at 9.8 m/s^2, provided O is not affected by strong magnetic fields. If O is affected by strong magnetic fields, O does not accelerate at 9.8 m/s^2. Object Magnet_A is dropped in a vacuum chamber. Object Magnet_A is affected by strong magnetic fields.",
         "conclusion": "Object Magnet_A accelerates at 9.8 m/s^2.",
         "label": "False"
     },
     {
-        "id": "Canh_188",
+        "id": "new_188",
         "premises": "For any customer C, if C subscribes to the premium plan, C experiences ad-free streaming, provided C does not access the service from an unsupported region. If C accesses the service from an unsupported region, C does not experience ad-free streaming. Customer Alice subscribes to the premium plan.",
         "conclusion": "Customer Alice experiences ad-free streaming.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_189",
+        "id": "new_189",
         "premises": "For any drone D, if D's battery is below 10%, D initiates an automatic return to base, provided D's GPS signal is not completely lost. If D's GPS signal is completely lost, D does not initiate an automatic return to base. Drone Scout_3's battery is below 10%. Drone Scout_3's GPS signal is not completely lost.",
         "conclusion": "Drone Scout_3 initiates an automatic return to base.",
         "label": "True"
     },
     {
-        "id": "Canh_190",
+        "id": "new_190",
         "premises": "For any network packet P, if P is addressed to port 80, P is accepted by the firewall, provided P is not part of a known DDoS attack signature. If P is part of a known DDoS attack signature, P is not accepted by the firewall. Packet 1010 is addressed to port 80. Packet 1010 is part of a known DDoS attack signature.",
         "conclusion": "Packet 1010 is accepted by the firewall.",
         "label": "False"
     },
     {
-        "id": "Canh_191",
+        "id": "new_191",
         "premises": "For any user account U, if U enters an incorrect password three times, U is locked out for 30 minutes, provided U is not a system administrator account. If U is a system administrator account, U is not locked out for 30 minutes. Account Admin_Root enters an incorrect password three times.",
         "conclusion": "Account Admin_Root is locked out for 30 minutes.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_192",
+        "id": "new_192",
         "premises": "For any dataset D, if D contains personally identifiable information, D must be encrypted at rest, provided D is not exclusively used in isolated sandbox environments. If D is exclusively used in isolated sandbox environments, D does not need to be encrypted at rest. Dataset User_Logs contains personally identifiable information. Dataset User_Logs is exclusively used in isolated sandbox environments.",
         "conclusion": "Dataset User_Logs must be encrypted at rest.",
         "label": "False"
     },
     {
-        "id": "Canh_193",
+        "id": "new_193",
         "premises": "For any racing car C, if C enters the pit lane, C's speed is restricted to 80 km/h, provided C has not suffered a complete telemetrics failure. If C has suffered a complete telemetrics failure, C's speed is not restricted to 80 km/h. Car Red_Bull_1 enters the pit lane. Car Red_Bull_1 has not suffered a complete telemetrics failure.",
         "conclusion": "Car Red_Bull_1's speed is restricted to 80 km/h.",
         "label": "True"
     },
     {
-        "id": "Canh_194",
+        "id": "new_194",
         "premises": "For any planetary body P, if P has liquid water, P is considered a candidate for hosting life, provided P does not experience daily intense radiation bursts. If P experiences daily intense radiation bursts, P is not considered a candidate for hosting life. Planetary body Proxima_B has liquid water.",
         "conclusion": "Planetary body Proxima_B is considered a candidate for hosting life.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_195",
+        "id": "new_195",
         "premises": "For any API endpoint A, if A receives a GET request, A returns a JSON response, provided A is not in maintenance mode. If A is in maintenance mode, A does not return a JSON response. Endpoint /users receives a GET request. Endpoint /users is in maintenance mode.",
         "conclusion": "Endpoint /users returns a JSON response.",
         "label": "False"
     },
     {
-        "id": "Canh_196",
+        "id": "new_196",
         "premises": "For any logic rule R, if R is syntactically valid, R is successfully compiled by the inference engine, provided R does not contain circular dependencies. If R contains circular dependencies, R is not successfully compiled by the inference engine. Rule Alpha is syntactically valid. Rule Alpha does not contain circular dependencies.",
         "conclusion": "Rule Alpha is successfully compiled by the inference engine.",
         "label": "True"
     },
     {
-        "id": "Canh_197",
+        "id": "new_197",
         "premises": "For any star S, if S exceeds 8 solar masses, S will eventually explode as a supernova, provided S is not part of a close binary system that strips its mass. If S is part of a close binary system that strips its mass, S will not explode as a supernova. Star Rigel exceeds 8 solar masses.",
         "conclusion": "Star Rigel will eventually explode as a supernova.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_198",
+        "id": "new_198",
         "premises": "For any email E, if E contains the word 'lottery', E is routed to the spam folder, provided E does not come from an internal company domain. If E comes from an internal company domain, E is not routed to the spam folder. Email Alert_1 contains the word 'lottery'. Email Alert_1 comes from an internal company domain.",
         "conclusion": "Email Alert_1 is routed to the spam folder.",
         "label": "False"
     },
     {
-        "id": "Canh_199",
+        "id": "new_199",
         "premises": "For any autonomous vehicle V, if V detects a pedestrian, V applies the brakes immediately, provided V's sensor array is not completely obstructed by mud. If V's sensor array is completely obstructed by mud, V does not apply the brakes immediately. Vehicle Taxi_Bot detects a pedestrian. Vehicle Taxi_Bot's sensor array is not completely obstructed by mud.",
         "conclusion": "Vehicle Taxi_Bot applies the brakes immediately.",
         "label": "True"
     },
     {
-        "id": "Canh_200",
+        "id": "new_200",
         "premises": "For any compilation process P, if P finishes with zero errors, P generates a binary executable file, provided P is not configured as a syntax-check-only run. If P is configured as a syntax-check-only run, P does not generate a binary executable file. Compilation process Build_42 finishes with zero errors.",
         "conclusion": "Compilation process Build_42 generates a binary executable file.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_201",
+        "id": "new_201",
         "premises": "For any regions X, Y, and Z, if X is completely inside Y, and Y is completely inside Z, then X is completely inside Z. For any regions X and Y, if X is completely inside Y, then Y is not completely inside X. Region A is completely inside Region B. Region B is completely inside Region C.",
         "conclusion": "Region C is completely inside Region A.",
         "label": "False"
     },
     {
-        "id": "Canh_202",
+        "id": "new_202",
         "premises": "For any persons X and Y, if X is a biological sibling of Y, then Y is a biological sibling of X. For any persons X, Y, and Z, if X is a biological sibling of Y, and Y is a biological sibling of Z, then X is a biological sibling of Z, provided X is not the exact same person as Z. Anna is a biological sibling of Ben. Ben is a biological sibling of Clara. Anna is not the exact same person as Clara.",
         "conclusion": "Clara is a biological sibling of Anna.",
         "label": "True"
     },
     {
-        "id": "Canh_203",
+        "id": "new_203",
         "premises": "For any plots of land X and Y, if X is adjacent to Y, then Y is adjacent to X. Plot 1 is adjacent to Plot 2. Plot 2 is adjacent to Plot 3.",
         "conclusion": "Plot 1 is adjacent to Plot 3.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_204",
+        "id": "new_204",
         "premises": "For any individuals X and Y, if X is a direct child of Y, then X is a descendant of Y. For any individuals X, Y, and Z, if X is a descendant of Y, and Y is a descendant of Z, then X is a descendant of Z. Paul is a direct child of Mary. Mary is a direct child of John.",
         "conclusion": "Paul is a descendant of John.",
         "label": "True"
     },
     {
-        "id": "Canh_205",
+        "id": "new_205",
         "premises": "For any objects X and Y, if X is strictly above Y, then Y is strictly below X. For any objects X, Y, and Z, if X is strictly above Y, and Y is strictly above Z, then X is strictly above Z. The red block is strictly above the blue block. The blue block is strictly above the green block.",
         "conclusion": "The green block is strictly below the red block.",
         "label": "True"
     },
     {
-        "id": "Canh_206",
+        "id": "new_206",
         "premises": "For any employees X and Y, if X directly manages Y, then Y is a subordinate of X. For any employees X, Y, and Z, if X directly manages Y, and Y directly manages Z, then Z is a subordinate of X. Employee A directly manages Employee B. Employee B directly manages Employee C.",
         "conclusion": "Employee A is a subordinate of Employee C.",
         "label": "False"
     },
     {
-        "id": "Canh_207",
+        "id": "new_207",
         "premises": "For any cities X and Y, if X is directly north of Y, then Y is directly south of X. For any cities X, Y, and Z, if X is directly north of Y, and Y is directly west of Z, then X is northwest of Z. City M is directly north of City N. City N is directly west of City O.",
         "conclusion": "City O is directly south of City M.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_208",
+        "id": "new_208",
         "premises": "For any person P and item I, if P legally buys I, then P owns I. For any person P, item I, and person Q, if P owns I and P legally gifts I to Q, then Q owns I and P no longer owns I. David legally buys the painting. David legally gifts the painting to Emma.",
         "conclusion": "David owns the painting.",
         "label": "False"
     },
     {
-        "id": "Canh_209",
+        "id": "new_209",
         "premises": "For any circles X and Y, if X overlaps Y, then Y overlaps X. For any circles X, Y, and Z, if X overlaps Y, and Y overlaps Z, then X does not necessarily overlap Z. Circle A overlaps Circle B. Circle B overlaps Circle C.",
         "conclusion": "Circle A overlaps Circle C.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_210",
+        "id": "new_210",
         "premises": "For any competitors X and Y, if X ranks strictly higher than Y, then Y ranks strictly lower than X. For any competitors X, Y, and Z, if X ranks strictly higher than Y, and Y ranks strictly higher than Z, then X ranks strictly higher than Z. Competitor 1 ranks strictly higher than Competitor 2. Competitor 3 ranks strictly lower than Competitor 2.",
         "conclusion": "Competitor 1 ranks strictly higher than Competitor 3.",
         "label": "True"
     },
     {
-        "id": "Canh_211",
+        "id": "new_211",
         "premises": "For any points X, Y, and Z on a straight line, if Y is strictly between X and Z, then Y is strictly between Z and X. If Y is strictly between X and Z, then X is not strictly between Y and Z. Point B is strictly between Point A and Point C on a straight line.",
         "conclusion": "Point A is strictly between Point C and Point B.",
         "label": "False"
     },
     {
-        "id": "Canh_212",
+        "id": "new_212",
         "premises": "For any players X and Y, if X is on the same team as Y, then Y is on the same team as X. For any players X, Y, and Z, if X is on the same team as Y, and Y is on the same team as Z, then X is on the same team as Z. Player 1 is on the same team as Player 2. Player 3 is not on the same team as Player 1.",
         "conclusion": "Player 2 is on the same team as Player 3.",
         "label": "False"
     },
     {
-        "id": "Canh_213",
+        "id": "new_213",
         "premises": "For any locations X, Y, and Z, if the distance from X to Y is D, then the distance from Y to X is D. If the distance from X to Y is D1, and the distance from Y to Z is D2, the distance from X to Z is less than or equal to D1 plus D2. The distance from Location A to Location B is 5 miles. The distance from Location B to Location C is 3 miles.",
         "conclusion": "The distance from Location A to Location C is exactly 8 miles.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_214",
+        "id": "new_214",
         "premises": "For any kings X and Y, if X is the immediate predecessor of Y, then Y is the immediate successor of X. For any king X, X can have at most one immediate predecessor. King Richard is the immediate predecessor of King John. King Henry is the immediate predecessor of King John.",
         "conclusion": "King Richard is the exact same person as King Henry.",
         "label": "True"
     },
     {
-        "id": "Canh_215",
+        "id": "new_215",
         "premises": "For any fence F and animal A, if F completely encloses A, then A cannot move outside the boundary of F. If A cannot move outside the boundary of F, and predator P is strictly outside the boundary of F, then P cannot physically touch A. Fence 1 completely encloses Sheep 1. Wolf 1 is strictly outside the boundary of Fence 1.",
         "conclusion": "Wolf 1 cannot physically touch Sheep 1.",
         "label": "True"
     },
     {
-        "id": "Canh_216",
+        "id": "new_216",
         "premises": "For any entities X and Y, if X loans money to Y, then X is a creditor of Y and Y is a debtor of X. If X is a creditor of Y, Y is legally obligated to repay X. Bank A loans money to Company B.",
         "conclusion": "Bank A is legally obligated to repay Company B.",
         "label": "False"
     },
     {
-        "id": "Canh_217",
+        "id": "new_217",
         "premises": "For any lines X and Y, if X is perpendicular to Y, then Y is perpendicular to X. For any lines X, Y, and Z in a 2D plane, if X is perpendicular to Y, and Y is perpendicular to Z, then X is strictly parallel to Z. Line L1 is perpendicular to Line L2. Line L2 is perpendicular to Line L3.",
         "conclusion": "Line L1 is strictly parallel to Line L3.",
         "label": "True"
     },
     {
-        "id": "Canh_218",
+        "id": "new_218",
         "premises": "For any persons X and Y, if X completely trusts Y, it does not necessarily imply that Y completely trusts X. If X completely trusts Y, and Y completely trusts Z, X does not necessarily trust Z. Alice completely trusts Bob. Bob completely trusts Charlie.",
         "conclusion": "Charlie completely trusts Alice.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_219",
+        "id": "new_219",
         "premises": "For any points X, Y, and Z, if they are collinear, a single straight line can pass through all three. If X, Y, and Z are collinear, and Y, Z, and W are collinear, and Y is not the same point as Z, then X, Y, Z, and W are collinear. Points P1, P2, and P3 are collinear. Points P2, P3, and P4 are collinear. Point P2 is not the same point as Point P3.",
         "conclusion": "A single straight line can pass through P1, P2, P3, and P4.",
         "label": "True"
     },
     {
-        "id": "Canh_220",
+        "id": "new_220",
         "premises": "For any person P and document D, if P solely writes D, then P is the sole author of D. If P is the sole author of D, no other person Q can claim copyright ownership of D. Writer A solely writes Document X. Person B claims copyright ownership of Document X.",
         "conclusion": "Person B is the same person as Writer A.",
         "label": "True"
     },
     {
-        "id": "Canh_221",
+        "id": "new_221",
         "premises": "For any items X, Y, and Z, if X is placed exactly on top of Y, and Y is placed exactly on top of Z, then X is physically supported by Z. For any items X and Y, if X is physically supported by Y, Y is not physically supported by X. Book A is placed exactly on top of Book B. Book B is placed exactly on top of Book C.",
         "conclusion": "Book C is physically supported by Book A.",
         "label": "False"
     },
     {
-        "id": "Canh_222",
+        "id": "new_222",
         "premises": "For any states X, Y, and Z, if X shares a land border with Y, then Y shares a land border with X. If X shares a land border with Y, and Y shares a land border with Z, X does not necessarily share a land border with Z. State Alpha shares a land border with State Beta. State Beta shares a land border with State Gamma.",
         "conclusion": "State Alpha shares a land border with State Gamma.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_223",
+        "id": "new_223",
         "premises": "For any variables X and Y, if X is strictly directly proportional to Y, then if Y doubles, X doubles. For any variables X, Y, and Z, if X is strictly directly proportional to Y, and Y is strictly directly proportional to Z, then X is strictly directly proportional to Z. Variable P is strictly directly proportional to Variable Q. Variable Q is strictly directly proportional to Variable R.",
         "conclusion": "If Variable R doubles, Variable P doubles.",
         "label": "True"
     },
     {
-        "id": "Canh_224",
+        "id": "new_224",
         "premises": "For any persons X, Y, and Z, if X is the biological mother of Y, and Y is the biological father of Z, then X is the biological paternal grandmother of Z. For any persons X and Y, if X is the biological paternal grandmother of Y, X is female. Sarah is the biological mother of John. John is the biological father of Mike.",
         "conclusion": "Sarah is female.",
         "label": "True"
     },
     {
-        "id": "Canh_225",
+        "id": "new_225",
         "premises": "For any physical gears X and Y, if X directly meshes with Y, they rotate in strictly opposite directions. For any gears X, Y, and Z, if X directly meshes with Y, and Y directly meshes with Z, then X and Z rotate in the exact same direction. Gear 1 directly meshes with Gear 2. Gear 2 directly meshes with Gear 3.",
         "conclusion": "Gear 1 and Gear 3 rotate in strictly opposite directions.",
         "label": "False"
     },
     {
-        "id": "Canh_226",
+        "id": "new_226",
         "premises": "For any keys X and locks Y, if X perfectly fits Y, then X can completely open Y. If X can completely open Y, no other key Z with a different tooth profile can completely open Y. Key Alpha perfectly fits Lock Beta. Key Gamma has a different tooth profile than Key Alpha.",
         "conclusion": "Key Gamma can completely open Lock Beta.",
         "label": "False"
     },
     {
-        "id": "Canh_227",
+        "id": "new_227",
         "premises": "For any strings X and Y, if X is a strict prefix of Y, the length of X is strictly less than the length of Y. For any strings X, Y, and Z, if X is a strict prefix of Y, and Y is a strict prefix of Z, then X is a strict prefix of Z. String 'can' is a strict prefix of String 'canopy'. String 'canopy' is a strict prefix of String 'canopy_bed'.",
         "conclusion": "The length of String 'can' is strictly less than the length of String 'canopy_bed'.",
         "label": "True"
     },
     {
-        "id": "Canh_228",
+        "id": "new_228",
         "premises": "For any rooms X and Y, if X is connected to Y by a one-way door from X to Y, a person can walk directly from X to Y but not from Y to X. Room 101 is connected to Room 102 by a one-way door from Room 101 to Room 102.",
         "conclusion": "A person can walk directly from Room 102 to Room 101.",
         "label": "False"
     },
     {
-        "id": "Canh_229",
+        "id": "new_229",
         "premises": "For any chemical elements X and Y, if X is more electronegative than Y, X will attract electrons from Y in a covalent bond. For any elements X, Y, and Z, if X is more electronegative than Y, and Y is more electronegative than Z, then X is more electronegative than Z. Element Fluorine is more electronegative than Element Oxygen. Element Oxygen is more electronegative than Element Nitrogen.",
         "conclusion": "Element Fluorine will attract electrons from Element Nitrogen in a covalent bond.",
         "label": "True"
     },
     {
-        "id": "Canh_230",
+        "id": "new_230",
         "premises": "For any flights X and Y, if X departs strictly before Y arrives, and they use the exact same runway, they do not violate safety protocols. If X departs after Y arrives, and they use the exact same runway, they do not violate safety protocols. Flight A departs at 10:00 AM. Flight B arrives at 10:30 AM. Both use Runway 1.",
         "conclusion": "Flight A and Flight B violate safety protocols.",
         "label": "False"
     },
     {
-        "id": "Canh_231",
+        "id": "new_231",
         "premises": "For any network nodes X and Y, if X can ping Y, then Y can ping X. For any nodes X, Y, and Z, if X can ping Y, and Y can ping Z, X can ping Z only if all connections are perfectly stable. Node Firewall can ping Node Router. Node Router can ping Node Server. The connection between Node Firewall and Node Router is not perfectly stable.",
         "conclusion": "Node Firewall can ping Node Server.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_232",
+        "id": "new_232",
         "premises": "For any species X and Y, if X preys on Y, then Y is a food source for X. For any species X, Y, and Z, if X preys on Y, and Y preys on Z, X does not necessarily prey on Z. Species Lion preys on Species Zebra. Species Zebra preys on Species Grass.",
         "conclusion": "Species Grass is a food source for Species Lion.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_233",
+        "id": "new_233",
         "premises": "For any coordinates X and Y on a 2D grid, if X is strictly exactly one unit right of Y, the x-coordinate of X is exactly one greater than the x-coordinate of Y. Point M is strictly exactly one unit right of Point N. Point N is strictly exactly one unit right of Point P.",
         "conclusion": "The x-coordinate of Point M is exactly two greater than the x-coordinate of Point P.",
         "label": "True"
     },
     {
-        "id": "Canh_234",
+        "id": "new_234",
         "premises": "For any entities X and Y, if X is a clone of Y, X possesses the exact same genetic code as Y. For any entities X, Y, and Z, if X possesses the exact same genetic code as Y, and Y possesses the exact same genetic code as Z, then X possesses the exact same genetic code as Z. Sheep Dolly is a clone of Sheep Original. Sheep Polly is a clone of Sheep Original.",
         "conclusion": "Sheep Dolly possesses the exact same genetic code as Sheep Polly.",
         "label": "True"
     },
     {
-        "id": "Canh_235",
+        "id": "new_235",
         "premises": "For any teams X and Y, if X totally defeats Y in a tournament, Y is eliminated. If Y is eliminated, Y cannot play any further matches. Team Alpha totally defeats Team Beta in a tournament.",
         "conclusion": "Team Beta can play further matches.",
         "label": "False"
     },
     {
-        "id": "Canh_236",
+        "id": "new_236",
         "premises": "For any languages X and Y, if X is perfectly mutually intelligible with Y, then a native speaker of X can understand Y without any study. For any languages X, Y, and Z, if X is perfectly mutually intelligible with Y, and Y is perfectly mutually intelligible with Z, X is not necessarily perfectly mutually intelligible with Z. Language A is perfectly mutually intelligible with Language B. Language B is perfectly mutually intelligible with Language C.",
         "conclusion": "A native speaker of Language A can understand Language C without any study.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_237",
+        "id": "new_237",
         "premises": "For any vessels X and Y, if X is towing Y, the velocity vector of X determines the velocity vector of Y. For any vessels X and Y, if X is towing Y, Y is not towing X. Tugboat A is towing Barge B.",
         "conclusion": "Barge B is towing Tugboat A.",
         "label": "False"
     },
     {
-        "id": "Canh_238",
+        "id": "new_238",
         "premises": "For any celestial bodies X and Y, if X is tidally locked to Y, X always shows the exact same face to Y. If X always shows the exact same face to Y, the rotational period of X exactly equals its orbital period around Y. Moon Titan is tidally locked to Planet Saturn.",
         "conclusion": "The rotational period of Moon Titan exactly equals its orbital period around Planet Saturn.",
         "label": "True"
     },
     {
-        "id": "Canh_239",
+        "id": "new_239",
         "premises": "For any individuals X and Y, if X donates blood to Y, the blood type of X must be highly compatible with the blood type of Y. If blood type O-negative is highly compatible with any other blood type, it is considered the universal donor type. Individual Mark donates blood to Individual Luke. Mark has blood type O-negative.",
         "conclusion": "Blood type O-negative is considered the universal donor type.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_240",
+        "id": "new_240",
         "premises": "For any folders X and Y, if X is a subfolder of Y, X is located inside Y's directory path. For any folders X, Y, and Z, if X is a subfolder of Y, and Y is a subfolder of Z, X is a subfolder of Z. Folder 'images' is a subfolder of Folder 'assets'. Folder 'assets' is a subfolder of Folder 'public'.",
         "conclusion": "Folder 'images' is located inside Folder 'public''s directory path.",
         "label": "True"
     },
     {
-        "id": "Canh_241",
+        "id": "new_241",
         "premises": "For any rivers X and Y, if X is a direct tributary of Y, the water from X eventually flows into Y. For any rivers X, Y, and Z, if X is a direct tributary of Y, and Y is a direct tributary of Z, the water from X eventually flows into Z. River Missouri is a direct tributary of River Mississippi. River Mississippi is a direct tributary of the Gulf of Mexico.",
         "conclusion": "The water from River Missouri eventually flows into the Gulf of Mexico.",
         "label": "True"
     },
     {
-        "id": "Canh_242",
+        "id": "new_242",
         "premises": "For any physical books X and Y, if X is stacked directly upon Y, the bottom cover of X touches the top cover of Y. If the bottom cover of X touches the top cover of Y, X and Y are in direct physical contact. Book Math is stacked directly upon Book History.",
         "conclusion": "Book Math and Book History are in direct physical contact.",
         "label": "True"
     },
     {
-        "id": "Canh_243",
+        "id": "new_243",
         "premises": "For any algorithms X and Y, if X strictly outperforms Y on Dataset D, the error rate of X on Dataset D is strictly lower than the error rate of Y on Dataset D. Algorithm SVM strictly outperforms Algorithm KNN on Dataset Iris. Algorithm KNN strictly outperforms Algorithm DecisionTree on Dataset Iris.",
         "conclusion": "The error rate of Algorithm SVM on Dataset Iris is strictly lower than the error rate of Algorithm DecisionTree on Dataset Iris.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_244",
+        "id": "new_244",
         "premises": "For any physical walls X, Y, and Z, if X is perfectly perpendicular to Y, and Y is perfectly perpendicular to Z, X is strictly parallel to Z. If X is strictly parallel to Z, they never physically intersect. Wall North is perfectly perpendicular to Wall East. Wall East is perfectly perpendicular to Wall South.",
         "conclusion": "Wall North never physically intersects Wall South.",
         "label": "True"
     },
     {
-        "id": "Canh_245",
+        "id": "new_245",
         "premises": "For any colors X and Y, if X is the exact complementary color of Y on the standard color wheel, mixing them perfectly yields a completely neutral gray. For any colors X and Y, if X is the exact complementary color of Y, Y is the exact complementary color of X. Color Red is the exact complementary color of Color Green.",
         "conclusion": "Mixing Color Green and Color Red perfectly yields a completely neutral gray.",
         "label": "True"
     },
     {
-        "id": "Canh_246",
+        "id": "new_246",
         "premises": "For any agents X and Y, if X delegates a task to Y, X remains ultimately accountable for the task. For any agents X, Y, and Z, if X delegates a task to Y, and Y delegates the same task to Z, X still remains ultimately accountable for the task. Manager Alice delegates Task 1 to Lead Bob. Lead Bob delegates Task 1 to Intern Charlie.",
         "conclusion": "Intern Charlie is ultimately accountable for Task 1.",
         "label": "False"
     },
     {
-        "id": "Canh_247",
+        "id": "new_247",
         "premises": "For any geographical borders X and Y, if X is heavily fortified against Y, crossing from Y to X requires a level-4 clearance code. For any borders X and Y, if X is heavily fortified against Y, it does not strictly imply Y is heavily fortified against X. Border Alpha is heavily fortified against Border Beta.",
         "conclusion": "Crossing from Border Alpha to Border Beta requires a level-4 clearance code.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_248",
+        "id": "new_248",
         "premises": "For any mechanical switches X and Y, if X is wired in strict series with Y, the circuit is closed if and only if both X and Y are completely closed. Switch 1 is wired in strict series with Switch 2. Switch 1 is completely closed. Switch 2 is completely open.",
         "conclusion": "The circuit is closed.",
         "label": "False"
     },
     {
-        "id": "Canh_249",
+        "id": "new_249",
         "premises": "For any virtual domains X and Y, if X is a strict subdomain of Y, traffic to X can be automatically monitored by Y's admin console. Domain 'api.store.com' is a strict subdomain of Domain 'store.com'. Domain 'store.com' is a strict subdomain of Domain 'com'.",
         "conclusion": "Traffic to Domain 'api.store.com' can be automatically monitored by Domain 'store.com''s admin console.",
         "label": "True"
     },
     {
-        "id": "Canh_250",
+        "id": "new_250",
         "premises": "For any celestial portals X and Y, if X is perfectly linked to Y, any matter entering X instantly exits exactly from Y. For any portals X and Y, if X is perfectly linked to Y, Y is perfectly linked to X. Portal Blue is perfectly linked to Portal Orange. A probe enters Portal Orange.",
         "conclusion": "The probe instantly exits exactly from Portal Blue.",
         "label": "True"
     },
     {
-        "id": "Canh_251",
+        "id": "new_251",
         "premises": "For any object X, if X is made of pure fire, X instantly freezes anything it touches. Object Alpha is made of pure fire. Object Alpha touches Object Beta.",
         "conclusion": "Object Beta is instantly frozen.",
         "label": "True"
     },
     {
-        "id": "Canh_252",
+        "id": "new_252",
         "premises": "For any vehicle V, if V activates its nitro booster, its speed immediately strictly decreases to zero. If a vehicle's speed strictly decreases to zero, its speed cannot strictly increase. Vehicle Racer_X activates its nitro booster.",
         "conclusion": "The speed of Vehicle Racer_X strictly increases.",
         "label": "False"
     },
     {
-        "id": "Canh_253",
+        "id": "new_253",
         "premises": "For any animal A, if A is a fish, A breathes exclusively by inhaling dry desert sand. Animal Nemo is a fish. Animal Nemo is placed in a tank of dry desert sand.",
         "conclusion": "Animal Nemo can breathe.",
         "label": "True"
     },
     {
-        "id": "Canh_254",
+        "id": "new_254",
         "premises": "For any mathematical operation, dividing any real number by zero yields exactly 42. If an operation yields exactly 42, it is considered the most stable operation in mathematics. Number 100 is divided by zero.",
         "conclusion": "The operation is considered the most stable operation in mathematics.",
         "label": "True"
     },
     {
-        "id": "Canh_255",
+        "id": "new_255",
         "premises": "For any dragon D, if D belongs to the Water element, D naturally breathes liquid lava. If D breathes liquid lava, D cannot survive in aquatic environments. Dragon Leviathan belongs to the Water element.",
         "conclusion": "Dragon Leviathan can survive in aquatic environments.",
         "label": "False"
     },
     {
-        "id": "Canh_256",
+        "id": "new_256",
         "premises": "For any celestial body C, if C is a sun, C absorbs all surrounding light and creates absolute darkness. If a celestial body creates absolute darkness, it emits absolutely no bright light. Celestial body Sol is a sun.",
         "conclusion": "Celestial body Sol emits bright light.",
         "label": "False"
     },
     {
-        "id": "Canh_257",
+        "id": "new_257",
         "premises": "For any computer program P, if P contains an infinite while-loop, P will always terminate in under one millisecond. Program Omega contains an infinite while-loop. If a program terminates in under one millisecond, it is highly efficient.",
         "conclusion": "Program Omega is highly efficient.",
         "label": "True"
     },
     {
-        "id": "Canh_258",
+        "id": "new_258",
         "premises": "For any physical drop of water W, if W falls upwards, gravity is currently functioning in reverse. Gravity is currently functioning in reverse. Drop Rain_1 is a physical drop of water.",
         "conclusion": "Drop Rain_1 falls upwards.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_259",
+        "id": "new_259",
         "premises": "For any living plant P, if P is placed in absolute darkness, P performs photosynthesis at maximum capacity. Plant Fern is placed in a brightly lit greenhouse.",
         "conclusion": "Plant Fern performs photosynthesis at maximum capacity.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_260",
+        "id": "new_260",
         "premises": "For any material M, if M is categorized as a diamond, M is as soft as liquid butter at room temperature. If a material is as soft as liquid butter, it is not extremely hard and can easily be scratched. Material Hope is categorized as a diamond. The room temperature is currently maintained.",
         "conclusion": "Material Hope is extremely hard and cannot be scratched.",
         "label": "False"
     },
     {
-        "id": "Canh_261",
+        "id": "new_261",
         "premises": "For any human H, if H closes their eyes, H gains the ability to see through solid lead walls. Human Alice closes her eyes. A solid lead wall is in front of Alice.",
         "conclusion": "Alice can see through the solid lead wall.",
         "label": "True"
     },
     {
-        "id": "Canh_262",
+        "id": "new_262",
         "premises": "For any sound wave S, if S travels through a perfect vacuum, its volume is amplified by a factor of one thousand. If S travels through a solid medium, it is instantly silenced. If a sound wave is instantly silenced, its volume is not amplified. Sound wave Echo travels through a solid medium.",
         "conclusion": "The volume of sound wave Echo is amplified by a factor of one thousand.",
         "label": "False"
     },
     {
-        "id": "Canh_263",
+        "id": "new_263",
         "premises": "For any geometric shape G, if G is a perfect circle, G possesses exactly four straight edges and four right angles. Shape Alpha is a perfect circle.",
         "conclusion": "Shape Alpha has absolutely no straight edges.",
         "label": "False"
     },
     {
-        "id": "Canh_264",
+        "id": "new_264",
         "premises": "For any bird B, if B has heavy metallic wings, B can easily float in the air without flapping. If a bird can easily float in the air without flapping, it does not need to flap constantly to stay airborne. Bird Falcon has heavy metallic wings.",
         "conclusion": "Bird Falcon must flap constantly to stay airborne.",
         "label": "False"
     },
     {
-        "id": "Canh_265",
+        "id": "new_265",
         "premises": "For any disease D, if D is highly contagious, the only known cure is to expose the patient to more of the same disease. Disease X is highly contagious. Patient Zero has Disease X.",
         "conclusion": "Exposing Patient Zero to more of Disease X is the only known cure.",
         "label": "True"
     },
     {
-        "id": "Canh_266",
+        "id": "new_266",
         "premises": "For any language L, if L contains only the letter 'A', L can express any complex philosophical concept perfectly. Language Monolith contains only the letter 'A'.",
         "conclusion": "Language Monolith cannot express complex philosophical concepts perfectly.",
         "label": "False"
     },
     {
-        "id": "Canh_267",
+        "id": "new_267",
         "premises": "For any rock R, if R is thrown into a lake, R immediately turns into a flock of doves. If a rock turns into a flock of doves, it does not sink to the bottom of the lake. Rock Granite is thrown into a lake.",
         "conclusion": "Rock Granite sinks to the bottom of the lake.",
         "label": "False"
     },
     {
-        "id": "Canh_268",
+        "id": "new_268",
         "premises": "For any color C, if C is pure black, C reflects 100% of all visible light hitting it. Color Void is pure black. Visible light hits Color Void.",
         "conclusion": "Color Void reflects 100% of the visible light hitting it.",
         "label": "True"
     },
     {
-        "id": "Canh_269",
+        "id": "new_269",
         "premises": "For any algorithm A, if A has a time complexity of O(N!), A executes faster than any algorithm with a time complexity of O(1). Algorithm Sort_X has a time complexity of O(N!). Algorithm Fetch_Y has a time complexity of O(1).",
         "conclusion": "Algorithm Sort_X executes faster than Algorithm Fetch_Y.",
         "label": "True"
     },
     {
-        "id": "Canh_270",
+        "id": "new_270",
         "premises": "For any planet P, if P is made entirely of gaseous helium, P has a solid crust that can support heavy skyscrapers. Planet Gas_Giant is made entirely of gaseous helium.",
         "conclusion": "Planet Gas_Giant has a solid crust that can support heavy skyscrapers.",
         "label": "True"
     },
     {
-        "id": "Canh_271",
+        "id": "new_271",
         "premises": "For any metal M, if M is heated to its melting point, M becomes a highly structured, unbreakable solid. If a metal becomes an unbreakable solid, it does not turn into a flowing liquid. Metal Iron is heated to its melting point.",
         "conclusion": "Metal Iron turns into a flowing liquid.",
         "label": "False"
     },
     {
-        "id": "Canh_272",
+        "id": "new_272",
         "premises": "For any apple A, if A is perfectly ripe, A tastes exactly like a heavily seasoned grilled steak. Apple Gala is perfectly ripe.",
         "conclusion": "Apple Gala tastes exactly like a heavily seasoned grilled steak.",
         "label": "True"
     },
     {
-        "id": "Canh_273",
+        "id": "new_273",
         "premises": "For any glass window W, if W is struck by a heavy rock, W transforms the rock into soft foam and remains completely intact. If a window remains completely intact, it does not shatter into pieces. Glass window Home_1 is struck by a heavy rock.",
         "conclusion": "Glass window Home_1 shatters into pieces.",
         "label": "False"
     },
     {
-        "id": "Canh_274",
+        "id": "new_274",
         "premises": "For any integer N, if N is an even number, N cannot be divided by 2 without leaving a remainder. Number 8 is an even number.",
         "conclusion": "Number 8 can be divided by 2 without leaving a remainder.",
         "label": "False"
     },
     {
-        "id": "Canh_275",
+        "id": "new_275",
         "premises": "For any cat C, if C barks loudly, C is expressing deep affection for its owner. Cat Whiskers is expressing deep affection for its owner.",
         "conclusion": "Cat Whiskers barks loudly.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_276",
+        "id": "new_276",
         "premises": "For any clock C, if C is broken and its hands never move, C tells the exact correct time every single second of the day. If a clock tells the exact correct time every single second, it does not tell the exact correct time only twice a day. Clock Grandfather is broken and its hands never move.",
         "conclusion": "Clock Grandfather tells the exact correct time only twice a day.",
         "label": "False"
     },
     {
-        "id": "Canh_277",
+        "id": "new_277",
         "premises": "For any desert D, if D receives zero rainfall for a decade, D is permanently covered in a dense, humid rainforest. Desert Sahara has received zero rainfall for a decade.",
         "conclusion": "Desert Sahara is permanently covered in a dense, humid rainforest.",
         "label": "True"
     },
     {
-        "id": "Canh_278",
+        "id": "new_278",
         "premises": "For any battery B, if B is completely discharged and has 0% power, B can continuously power a major city indefinitely. Battery Cell_A is completely discharged and has 0% power.",
         "conclusion": "Battery Cell_A can continuously power a major city indefinitely.",
         "label": "True"
     },
     {
-        "id": "Canh_279",
+        "id": "new_279",
         "premises": "For any sword S, if S is incredibly sharp, S cannot cut through a single sheet of paper. Sword Excalibur is incredibly sharp.",
         "conclusion": "Sword Excalibur can cut through a single sheet of paper.",
         "label": "False"
     },
     {
-        "id": "Canh_280",
+        "id": "new_280",
         "premises": "For any ice cube I, if I is placed in a boiling oven, I spontaneously duplicates itself every minute. Ice cube Frost is placed in a boiling oven.",
         "conclusion": "Ice cube Frost spontaneously duplicates itself every minute.",
         "label": "True"
     },
     {
-        "id": "Canh_281",
+        "id": "new_281",
         "premises": "For any shadow S, if S is cast by a tree, S emits a powerful beam of light that illuminates the dark. Shadow Shade_1 is cast by a tree.",
         "conclusion": "Shadow Shade_1 emits a powerful beam of light that illuminates the dark.",
         "label": "True"
     },
     {
-        "id": "Canh_282",
+        "id": "new_282",
         "premises": "For any book B, if B has completely blank pages, B contains all the knowledge of the universe. If a book contains all the knowledge of the universe, it does not contain absolutely no information. Book Codex has completely blank pages.",
         "conclusion": "Book Codex contains absolutely no information.",
         "label": "False"
     },
     {
-        "id": "Canh_283",
+        "id": "new_283",
         "premises": "For any music track M, if M consists entirely of total silence, M causes anyone who hears it to dance uncontrollably. Music track Void consists entirely of total silence. Person Dave hears Music track Void.",
         "conclusion": "Person Dave dances uncontrollably.",
         "label": "True"
     },
     {
-        "id": "Canh_284",
+        "id": "new_284",
         "premises": "For any physical space S, if S has absolutely no oxygen, humans can breathe effortlessly inside S without any equipment. Physical space Room_X has absolutely no oxygen. Human Bob is inside Room_X.",
         "conclusion": "Human Bob cannot breathe effortlessly inside Room_X.",
         "label": "False"
     },
     {
-        "id": "Canh_285",
+        "id": "new_285",
         "premises": "For any spider S, if S builds a web, the web is made of solid titanium threads. If a web is made of solid titanium threads, it is not made of delicate silk. Spider Weaver builds a web.",
         "conclusion": "Spider Weaver's web is made of delicate silk.",
         "label": "False"
     },
     {
-        "id": "Canh_286",
+        "id": "new_286",
         "premises": "For any starship S, if S travels backwards in space, S strictly travels forwards in time. Starship Voyager travels forwards in time.",
         "conclusion": "Starship Voyager travels backwards in space.",
         "label": "Uncertain"
     },
     {
-        "id": "Canh_287",
+        "id": "new_287",
         "premises": "For any cup of coffee C, if C is extremely hot, drinking C instantly cures severe frostbite. Cup Java is extremely hot. Patient Karl has severe frostbite and drinks Cup Java.",
         "conclusion": "Patient Karl's severe frostbite is instantly cured.",
         "label": "True"
     },
     {
-        "id": "Canh_288",
+        "id": "new_288",
         "premises": "For any password P, if P is '1234', P is the most cryptographically secure string in existence and cannot be hacked. Password Admin_Pass is '1234'.",
         "conclusion": "Password Admin_Pass can be easily hacked.",
         "label": "False"
     },
     {
-        "id": "Canh_289",
+        "id": "new_289",
         "premises": "For any memory M, if M is completely forgotten by a human, M is permanently recorded on a physical stone tablet in the desert. Memory Event_A is completely forgotten by Human Sam.",
         "conclusion": "Memory Event_A is permanently recorded on a physical stone tablet in the desert.",
         "label": "True"
     },
     {
-        "id": "Canh_290",
+        "id": "new_290",
         "premises": "For any mirror M, if M reflects a person's image, the reflected image immediately steps out of the mirror into the physical world. If an image steps out into the physical world, it does not remain trapped inside the mirror. Mirror Antique reflects Alice's image.",
         "conclusion": "Alice's reflected image remains trapped inside the mirror.",
         "label": "False"
     },
     {
-        "id": "Canh_291",
+        "id": "new_291",
         "premises": "For any rainstorm R, if R is classified as a hurricane, R gently drops warm, dry towels instead of water. Rainstorm Katrina is classified as a hurricane.",
         "conclusion": "Rainstorm Katrina gently drops warm, dry towels.",
         "label": "True"
     },
     {
-        "id": "Canh_292",
+        "id": "new_292",
         "premises": "For any genetic code G, if G contains exclusively human DNA, G produces a giant, scaly dragon. If a genetic code produces a giant, scaly dragon, it does not produce a normal human being. Genetic code Sample_H contains exclusively human DNA.",
         "conclusion": "Genetic code Sample_H produces a normal human being.",
         "label": "False"
     },
     {
-        "id": "Canh_293",
+        "id": "new_293",
         "premises": "For any mountain M, if M is the highest peak on Earth, M is physically located entirely underwater in a shallow pond. Mountain Everest is the highest peak on Earth.",
         "conclusion": "Mountain Everest is physically located entirely underwater in a shallow pond.",
         "label": "True"
     },
     {
-        "id": "Canh_294",
+        "id": "new_294",
         "premises": "For any computer mouse M, if M is disconnected from the PC, M controls the movements of the actual moon in the sky. Computer mouse Logitech_1 is disconnected from the PC.",
         "conclusion": "Computer mouse Logitech_1 controls the movements of the actual moon in the sky.",
         "label": "True"
     },
     {
-        "id": "Canh_295",
+        "id": "new_295",
         "premises": "For any tree T, if T loses all its leaves in autumn, T immediately sprouts glowing neon lights on every branch. If a tree sprouts glowing neon lights on every branch, it does not remain completely bare during the winter. Tree Oak_1 loses all its leaves in autumn.",
         "conclusion": "Tree Oak_1 remains completely bare during the winter.",
         "label": "False"
     },
     {
-        "id": "Canh_296",
+        "id": "new_296",
         "premises": "For any argument A, if A is completely illogical and contains numerous fallacies, A automatically wins any formal debate. If an argument automatically wins a formal debate, it does not lose the formal debate. Argument Null is completely illogical and contains numerous fallacies. Argument Null is used in a formal debate.",
         "conclusion": "Argument Null loses the formal debate.",
         "label": "False"
     },
     {
-        "id": "Canh_297",
+        "id": "new_297",
         "premises": "For any magnet M, if M has two north poles, M strongly attracts pure wood. Magnet B has two north poles. Object Desk is made of pure wood.",
         "conclusion": "Magnet B strongly attracts Object Desk.",
         "label": "True"
     },
     {
-        "id": "Canh_298",
+        "id": "new_298",
         "premises": "For any telescope T, if T is pointed straight down at the ground, T clearly shows distant galaxies billions of light-years away. If a telescope clearly shows distant galaxies, it does not only show dirt and grass. Telescope Hubble is pointed straight down at the ground.",
         "conclusion": "Telescope Hubble only shows dirt and grass.",
         "label": "False"
     },
     {
-        "id": "Canh_299",
+        "id": "new_299",
         "premises": "For any error E in a code repository, if E is a fatal syntax error, E compiles the code perfectly and optimizes it for maximum speed. If an error compiles the code perfectly, it does not prevent the code from compiling. Error Semicolon_Missing is a fatal syntax error.",
         "conclusion": "Error Semicolon_Missing prevents the code from compiling.",
         "label": "False"
     },
     {
-        "id": "Canh_300",
+        "id": "new_300",
         "premises": "For any cloud C, if C is dark and heavy with moisture, C rains perfectly cooked spaghetti. If a cloud rains perfectly cooked spaghetti, it drops absolutely zero liquid water. Cloud Cumulonimbus is dark and heavy with moisture.",
         "conclusion": "Cloud Cumulonimbus rains liquid water.",
         "label": "False"
