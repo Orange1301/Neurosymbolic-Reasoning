@@ -1,3 +1,302 @@
 [
-    
+    {
+        "id": "Canh_1",
+        "premises": "All planets in the Solaris system have highly elliptical orbits. Any celestial body with a highly elliptical orbit experiences extreme temperature variations. Zorblax is a newly discovered planet in the Solaris system.",
+        "conclusion": "Zorblax experiences extreme temperature variations.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_2",
+        "premises": "No employees of the accounting department have access to the main server room. All certified network administrators have access to the main server room. Alice is a certified network administrator working at the company.",
+        "conclusion": "Alice is an employee of the accounting department.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_3",
+        "premises": "Most migratory birds can navigate using the Earth's magnetic field. The Arctic Tern is a migratory bird that travels from the Arctic to the Antarctic. The Arctic Tern feeds primarily on small fish and crustaceans.",
+        "conclusion": "The Arctic Tern can navigate using the Earth's magnetic field.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_4",
+        "premises": "If the main pressure valve fails, the emergency alarm will sound. If the emergency alarm sounds, the facility will be immediately evacuated. The facility is not being evacuated.",
+        "conclusion": "The main pressure valve has not failed.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_5",
+        "premises": "Every mammal has a neocortex and produces milk to feed its young. A completely hairless and scale-covered creature named the Glimmer was recently analyzed by biologists. The biological analysis showed that the Glimmer does not produce milk.",
+        "conclusion": "The Glimmer is a mammal.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_6",
+        "premises": "If a student completes all the extra credit assignments, their final grade will be an A. John received an A as his final grade in the advanced physics course.",
+        "conclusion": "John completed all the extra credit assignments.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_7",
+        "premises": "All Renaissance artists studied classical proportions. Some people who studied classical proportions were also skilled architects. No modern software engineers are skilled architects. Leonardo is a Renaissance artist who is also a skilled architect.",
+        "conclusion": "Leonardo is not a modern software engineer.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_8",
+        "premises": "The ancient artifact is either hidden in the submerged ruins or buried under the weeping willow. If the ancient artifact is in the submerged ruins, the diver's map must be marked with a blue X. The diver's map is not marked with a blue X.",
+        "conclusion": "The ancient artifact is hidden in the submerged ruins.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_9",
+        "premises": "Some freelance graphic designers prefer using ergonomic mechanical keyboards. Everyone who uses an ergonomic mechanical keyboard enjoys tactile typing feedback. Bob works from home as a freelance graphic designer.",
+        "conclusion": "Bob enjoys tactile typing feedback.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_10",
+        "premises": "All carnivorous plants require a habitat with nutrient-poor soil to thrive. Any plant that requires nutrient-poor soil is highly susceptible to chemical fertilizers. The Venus Flytrap is a carnivorous plant.",
+        "conclusion": "The Venus Flytrap is highly susceptible to chemical fertilizers.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_11",
+        "premises": "If an employee works in the Alpha division, they must have Level 5 clearance. All individuals with Level 5 clearance undergo a biannual polygraph test. Anyone who undergoes a biannual polygraph test is exempt from the standard monthly security briefing. David works in the Alpha division.",
+        "conclusion": "David is exempt from the standard monthly security briefing.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_12",
+        "premises": "All vehicles manufactured in the NeoTech plant use solid-state batteries. Any vehicle using a solid-state battery has a range of over 500 miles. No vehicle with a range of over 500 miles is classified as a short-commute vehicle. The Zenith X1 is a vehicle manufactured in the NeoTech plant.",
+        "conclusion": "The Zenith X1 is classified as a short-commute vehicle.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_13",
+        "premises": "If a coastal city builds a seawall, it can withstand a Category 4 hurricane. If a city can withstand a Category 4 hurricane, its annual insurance premiums decrease. Port Horizon's annual insurance premiums recently decreased.",
+        "conclusion": "Port Horizon built a seawall.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_14",
+        "premises": "A patient is prescribed Medication X only if they have high blood pressure and are not allergic to sulfa drugs. Patient Sarah is allergic to sulfa drugs. Patient Sarah has high blood pressure.",
+        "conclusion": "Patient Sarah is prescribed Medication X.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_15",
+        "premises": "All ancient manuscripts in the restricted section are written in Latin. Any manuscript written in Latin requires a certified translator to be decoded. If a manuscript requires a certified translator, it cannot be checked out by undergraduate students. The Codex Umbra is an ancient manuscript in the restricted section.",
+        "conclusion": "The Codex Umbra cannot be checked out by undergraduate students.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_16",
+        "premises": "If the core temperature of the reactor exceeds 1000 degrees, the cooling rods drop automatically. If the cooling rods drop automatically, the main turbine shuts down. The main turbine is currently operating normally.",
+        "conclusion": "The core temperature of the reactor exceeds 1000 degrees.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_17",
+        "premises": "Most historical fiction novels set in the 19th century feature aristocratic characters. Novels featuring aristocratic characters often focus on societal class struggles. 'The Crimson Manor' is a historical fiction novel set in the 19th century.",
+        "conclusion": "'The Crimson Manor' focuses on societal class struggles.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_18",
+        "premises": "All synthetic fibers melt when exposed to high heat. Cotton is not a synthetic fiber. The red shirt is made entirely of cotton.",
+        "conclusion": "The red shirt will not melt when exposed to high heat.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_19",
+        "premises": "Every predatory bird has sharp talons and forward-facing eyes. The newly identified species, the Kestrel-hawk, has sharp talons. The Kestrel-hawk's eyes are positioned on the sides of its head.",
+        "conclusion": "The Kestrel-hawk is a predatory bird.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_20",
+        "premises": "If a password contains both numbers and special characters, it is considered strong. If a password is considered strong, the system grants access to the secure vault. The system granted user_01 access to the secure vault. The password for user_01 contains numbers.",
+        "conclusion": "The password for user_01 contains special characters.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_21",
+        "premises": "All encrypted files use the RSA algorithm. Any file using the RSA algorithm takes more than two minutes to decrypt on a standard CPU. File_Alpha takes only 30 seconds to decrypt on a standard CPU.",
+        "conclusion": "File_Alpha is not an encrypted file.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_22",
+        "premises": "The treasure is buried either in the Whispering Woods or beneath the Dragon's Tooth mountain. If it is buried beneath the Dragon's Tooth mountain, the soil around it will be rich in sulfur. The soil around the treasure is not rich in sulfur.",
+        "conclusion": "The treasure is buried in the Whispering Woods.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_23",
+        "premises": "All venomous snakes in the region have triangular heads. The Green Mamba is a snake found in the region. The Green Mamba does not have a triangular head.",
+        "conclusion": "The Green Mamba is a venomous snake.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_24",
+        "premises": "If the marketing budget is increased, the advertising campaign will launch in June. If the advertising campaign launches in June, Q3 sales will rise by 20%. Q3 sales did not rise by 20%.",
+        "conclusion": "The marketing budget was not increased.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_25",
+        "premises": "Every student who studies diligently passes the exam. Some students who pass the exam receive a scholarship. Mark studies diligently.",
+        "conclusion": "Mark receives a scholarship.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_26",
+        "premises": "A star is classified as a red giant only if it has exhausted its core hydrogen. Star X has not exhausted its core hydrogen. Star X is extremely luminous.",
+        "conclusion": "Star X is classified as a red giant.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_27",
+        "premises": "All board games created by designer Klaus feature a resource management mechanic. Board games with a resource management mechanic take at least an hour to play. 'Settlers' Quest' takes 45 minutes to play.",
+        "conclusion": "'Settlers' Quest' was created by designer Klaus.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_28",
+        "premises": "If the structural integrity of the bridge is compromised, heavy trucks are banned from crossing. Heavy trucks are currently banned from crossing the bridge. The bridge was built 50 years ago.",
+        "conclusion": "The structural integrity of the bridge is compromised.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_29",
+        "premises": "All orchids require high humidity to bloom. No plants that require high humidity can survive in the desert without a greenhouse. The Mojave Desert has no greenhouses.",
+        "conclusion": "Orchids cannot survive in the Mojave Desert.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_30",
+        "premises": "Every employee who attends the leadership seminar receives a certificate. Anyone who receives a certificate is eligible for a promotion. Sarah is eligible for a promotion.",
+        "conclusion": "Sarah attended the leadership seminar.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_31",
+        "premises": "All fire-element dragons are completely immune to burning effects. Any dragon immune to burning effects can safely cross the Lava River. If a dragon can safely cross the Lava River, it is eligible to participate in the Obsidian Quest. The Crimson Horn is a newly bred fire-element dragon.",
+        "conclusion": "The Crimson Horn is eligible to participate in the Obsidian Quest.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_32",
+        "premises": "If a racing vehicle is equipped with a tier-3 nitro booster, its top speed exceeds 300 km/h. No vehicle with a top speed exceeding 300 km/h is allowed to compete in the Beginner League. The Vulcan V8 is currently allowed to compete in the Beginner League. The Vulcan V8 has custom aerodynamic spoilers.",
+        "conclusion": "The Vulcan V8 is equipped with a tier-3 nitro booster.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_33",
+        "premises": "Any Python script that imports the 'subprocess' module has the capability to execute system commands. Scripts that can execute system commands are automatically flagged by the security scanner unless they are digitally signed by a verified developer. The 'data_pipeline.py' script imports the 'subprocess' module. The 'data_pipeline.py' script is not flagged by the security scanner.",
+        "conclusion": "The 'data_pipeline.py' script is digitally signed by a verified developer.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_34",
+        "premises": "All generative adversarial networks require both a discriminator network and a generator network. If a neural architecture requires a discriminator network, it must be trained using alternating optimization steps. Model Omega is trained using alternating optimization steps and achieves state-of-the-art image synthesis.",
+        "conclusion": "Model Omega is a generative adversarial network.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_35",
+        "premises": "If a development branch is merged into the main repository, all of its commits are permanently recorded in the project history. If commits are permanently recorded in the project history, the total repository size increases. The total repository size of 'Project_X' did not increase today. Branch 'feature-login' was updated and pushed by the lead developer today.",
+        "conclusion": "Branch 'feature-login' was merged into the main repository today.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_36",
+        "premises": "An inference engine is considered logically sound if and only if it only derives true statements from true premises. If an inference engine is logically sound, it can be safely deployed in critical medical diagnosis systems. System Aesculapius cannot be safely deployed in critical medical diagnosis systems. System Aesculapius operates with high computational efficiency.",
+        "conclusion": "System Aesculapius derives at least one false statement from true premises.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_37",
+        "premises": "All androids manufactured by CyberCorp possess synthetic silicone skin. No entity with synthetic silicone skin can pass the advanced thermal imaging test. Subject 89 passed the advanced thermal imaging test. Subject 89 exhibits highly advanced conversational AI capabilities.",
+        "conclusion": "Subject 89 was not manufactured by CyberCorp.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_38",
+        "premises": "If a celestial body's mass exceeds the Chandrasekhar limit, it will eventually collapse into a neutron star or a black hole. If it collapses into a black hole, it will definitively possess an event horizon. Star V404 does not possess an event horizon. Star V404's mass greatly exceeds the Chandrasekhar limit.",
+        "conclusion": "Star V404 will eventually collapse into a neutron star.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_39",
+        "premises": "Any chemical substance that turns blue litmus paper red is classified as an acid. All acids have a pH level strictly lower than 7. If a substance has a pH level lower than 7, it reacts with strong bases to form water and a salt. Solution Z reacts violently with strong bases to form water and a salt.",
+        "conclusion": "Solution Z turns blue litmus paper red.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_40",
+        "premises": "When the central bank raises baseline interest rates, commercial borrowing in the region decreases. If commercial borrowing decreases, industrial expansion slows down significantly. Industrial expansion in Region Epsilon has sped up over the last quarter.",
+        "conclusion": "The central bank raised baseline interest rates in Region Epsilon.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_41",
+        "premises": "If a document is compiled using the LaTeX Beamer class, it is formatted as a slide presentation. All documents formatted as slide presentations use landscape orientation by default. The document 'Project_Defense.tex' uses portrait orientation by default.",
+        "conclusion": "The document 'Project_Defense.tex' is not compiled using the LaTeX Beamer class.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_42",
+        "premises": "If an ecosystem contains an apex predator, the herbivore population in that ecosystem is strictly regulated. If the herbivore population is strictly regulated, overgrazing of the local flora is prevented. Overgrazing of the local flora is not prevented in the Emerald Valley. The Silver Wolf is a known apex predator.",
+        "conclusion": "The Emerald Valley does not contain the Silver Wolf.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_43",
+        "premises": "If a network router is configured with the OSPF protocol, it automatically calculates the shortest path to all available network nodes. A router that calculates the shortest path to all nodes efficiently balances traffic load across its interfaces. Router R-Delta efficiently balances traffic load and features a gigabit fiber interface.",
+        "conclusion": "Router R-Delta is configured with the OSPF protocol.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_44",
+        "premises": "If a character casts the 'Meteor' spell, their innate magic stat must be above 50. All characters who cast the 'Meteor' spell are officially awarded the title of Grand Magus. If a character is awarded the title of Grand Magus, they receive a special ceremonial robe. Elara is a sorceress who does not have a special ceremonial robe.",
+        "conclusion": "Elara casts the 'Meteor' spell.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_45",
+        "premises": "A tree data structure is considered a binary search tree if and only if for every node, the left child's value is strictly less than the node's value and the right child's value is strictly greater than the node's value. If a tree is a binary search tree, an in-order traversal yields a perfectly sorted list of values. An in-order traversal of Tree K yields a list of values that is not sorted.",
+        "conclusion": "There exists at least one node in Tree K where either the left child's value is not less than the node's value, or the right child's value is not greater than the node's value.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_46",
+        "premises": "An AI system is classified as neuro-symbolic if it explicitly combines neural network feature extraction with symbolic logic reasoning. Any system combining these two approaches can provide fully interpretable decision traces. If a system can provide fully interpretable decision traces, it completely complies with the new EU AI transparency regulations. System Aegis completely complies with the new EU AI transparency regulations.",
+        "conclusion": "System Aegis is classified as neuro-symbolic.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "Canh_47",
+        "premises": "All igneous rocks are formed through the cooling and solidification of magma or lava. If a rock is formed from lava directly on the Earth's surface, it cools rapidly. Any rock that cools rapidly develops a fine-grained crystalline texture. Basalt is an igneous rock formed from lava directly on the Earth's surface.",
+        "conclusion": "Basalt does not have a fine-grained crystalline texture.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_48",
+        "premises": "If a sorting algorithm operates in O(n log n) time complexity in the worst-case scenario, it cannot be the standard implementation of Quicksort. Merge Sort operates in O(n log n) time complexity in the worst-case scenario. All algorithms that operate in O(n log n) time in the worst case are highly efficient for processing large-scale datasets.",
+        "conclusion": "Merge Sort is highly efficient for processing large-scale datasets and is not the standard implementation of Quicksort.",
+        "label": "True"
+    },
+    {
+        "id": "Canh_49",
+        "premises": "A large language model successfully generates coherent long-form text only if it utilizes an attention mechanism with a sufficiently large context window. The 'Vocab_7B' model does not utilize an attention mechanism with a sufficiently large context window. The 'Vocab_7B' model is heavily trained on diverse multilingual corpora.",
+        "conclusion": "The 'Vocab_7B' model successfully generates coherent long-form text.",
+        "label": "False"
+    },
+    {
+        "id": "Canh_50",
+        "premises": "Superconducting materials exhibit zero electrical resistance when cooled below their specific critical temperature. If a material exhibits zero electrical resistance, it repels external magnetic fields completely due to the Meissner effect. Material X is a superconducting material that has been successfully cooled below its specific critical temperature.",
+        "conclusion": "Material X repels external magnetic fields completely.",
+        "label": "True"
+    }
 ]
