@@ -10,7 +10,7 @@
         "premises": "If a student completes all the extra credit assignments, their final grade will be an A. John received an A as his final grade in the advanced physics course.",
         "conclusion": "John completed all the extra credit assignments.",
         "label": "Uncertain"
-    },
+    },      
     {
         "id": "new_11",
         "premises": "If an employee works in the Alpha division, they must have Level 5 clearance. All individuals with Level 5 clearance undergo a biannual polygraph test. Anyone who undergoes a biannual polygraph test is exempt from the standard monthly security briefing. David works in the Alpha division.",
@@ -153,7 +153,7 @@
         "id": "new_126",
         "premises": "For any specific days X and Y, if X is defined as chronologically immediately prior to Y, then X strictly precedes Y. Day Monday is defined as chronologically immediately prior to Day Tuesday. Event 1 occurs entirely on Day Monday. Event 2 occurs entirely on Day Tuesday.",
         "conclusion": "Event 1 strictly precedes Event 2.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "new_131",
@@ -249,7 +249,7 @@
         "id": "new_206",
         "premises": "For any employees X and Y, if X directly manages Y, then Y is a subordinate of X. For any employees X, Y, and Z, if X directly manages Y, and Y directly manages Z, then Z is a subordinate of X. Employee A directly manages Employee B. Employee B directly manages Employee C.",
         "conclusion": "Employee A is a subordinate of Employee C.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "new_211",
@@ -261,7 +261,7 @@
         "id": "new_216",
         "premises": "For any entities X and Y, if X loans money to Y, then X is a creditor of Y and Y is a debtor of X. If X is a creditor of Y, Y is legally obligated to repay X. Bank A loans money to Company B.",
         "conclusion": "Bank A is legally obligated to repay Company B.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "new_221",
@@ -279,7 +279,7 @@
         "id": "new_231",
         "premises": "For any network nodes X and Y, if X can ping Y, then Y can ping X. For any nodes X, Y, and Z, if X can ping Y, and Y can ping Z, X can ping Z only if all connections are perfectly stable. Node Firewall can ping Node Router. Node Router can ping Node Server. The connection between Node Firewall and Node Router is not perfectly stable.",
         "conclusion": "Node Firewall can ping Node Server.",
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "new_236",
@@ -297,7 +297,7 @@
         "id": "new_246",
         "premises": "For any agents X and Y, if X delegates a task to Y, X remains ultimately accountable for the task. For any agents X, Y, and Z, if X delegates a task to Y, and Y delegates the same task to Z, X still remains ultimately accountable for the task. Manager Alice delegates Task 1 to Lead Bob. Lead Bob delegates Task 1 to Intern Charlie.",
         "conclusion": "Intern Charlie is ultimately accountable for Task 1.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "new_251",
@@ -513,11 +513,11 @@
         "id": "new_426",
         "premises": "For any captain C and ship S, if C believes S is sinking, C orders an evacuation. Captain Ahab does not believe the Pequod is sinking. The Pequod is actually sinking rapidly.",
         "conclusion": "Captain Ahab orders an evacuation.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "new_431",
-        "premises": "For any meteorologist M and city C, if M knows a tornado will hit C, M issues a red alert. If M merely believes a tornado will hit C, M issues a yellow watch. Meteorologist Sarah merely believes a tornado will hit City Dallas.",
+        "premises": "For any meteorologist M and city C, if M knows a tornado will hit C, M issues a red alert. If M merely believes a tornado will hit C, M issues a yellow watch. Meteorologist Sarah merely believes a tornado will hit City Dallas. A meteorologist can not issue a red watch and a yellow watch at a time.",
         "conclusion": "Meteorologist Sarah issues a red alert.",
         "label": "False"
     },
