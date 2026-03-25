@@ -601,422 +601,422 @@
     },
     {
         "id": "new_101",
-        "premises": "For any objects X, Y, and Z, if X is strictly taller than Y, and Y is strictly taller than Z, then X is strictly taller than Z. Object Alpha is strictly taller than Object Beta. Object Beta is strictly taller than Object Gamma.",
-        "conclusion": "Object Alpha is strictly taller than Object Gamma.",
+        "premises": "For any events X, Y, and Z, if X happens strictly before Y, and Y happens strictly before Z, then X happens strictly before Z. Event Alpha happens strictly before Event Beta. Event Beta happens strictly before Event Gamma.",
+        "conclusion": "Event Alpha happens strictly before Event Gamma.",
         "label": "True"
     },
     {
         "id": "new_102",
-        "premises": "For any persons X and Y, if X is the direct supervisor of Y, then Y is a direct subordinate of X. Alice is the direct supervisor of Bob. Bob is the direct supervisor of Charlie.",
-        "conclusion": "Charlie is a direct subordinate of Alice.",
-        "label": "Uncertain"
+        "premises": "For any historical eras X and Y, if X chronologically precedes Y, then Y chronologically follows X. Era Antiquity chronologically precedes Era Middle_Ages.",
+        "conclusion": "Era Middle_Ages chronologically follows Era Antiquity.",
+        "label": "True"
     },
     {
         "id": "new_103",
-        "premises": "For any nodes X, Y, and Z, if X is connected to Y, and Y is connected to Z, then X is connected to Z. For any nodes X and Y, if X is connected to Y, then Y is connected to X. Node A is connected to Node B. Node C is not connected to Node A.",
-        "conclusion": "Node B is connected to Node C.",
+        "premises": "For any processes X and Y, if X is completely simultaneous with Y, then Y is completely simultaneous with X. For any processes X, Y, and Z, if X is completely simultaneous with Y, and Y is completely simultaneous with Z, then X is completely simultaneous with Z. Process Backup is completely simultaneous with Process Scan. Process Scan is completely simultaneous with Process Upload.",
+        "conclusion": "Process Backup is not completely simultaneous with Process Upload.",
         "label": "False"
     },
     {
         "id": "new_104",
-        "premises": "For any entities X, Y, and Z, if X is a parent of Y, and Y is a parent of Z, then X is a grandparent of Z. If X is a grandparent of Z, then Z is a grandchild of X. John is a parent of Mary. Mary is a parent of David.",
-        "conclusion": "David is a grandchild of John.",
+        "premises": "For any time intervals X and Y, if X occurs entirely during Y, then the start time of X is strictly after the start time of Y, and the end time of X is strictly before the end time of Y. Interval Meeting_1 occurs entirely during Interval Morning_Shift.",
+        "conclusion": "The start time of Interval Meeting_1 is strictly after the start time of Interval Morning_Shift.",
         "label": "True"
     },
     {
         "id": "new_105",
-        "premises": "For any regions X and Y, if X borders Y, then Y borders X. Region Alpha borders Region Beta. Region Beta borders Region Gamma.",
-        "conclusion": "Region Alpha borders Region Gamma.",
+        "premises": "For any phases X, Y, and Z, if X temporally overlaps Y, and Y temporally overlaps Z, it does not necessarily imply that X temporally overlaps Z. Phase Planning temporally overlaps Phase Execution. Phase Execution temporally overlaps Phase Review.",
+        "conclusion": "Phase Planning temporally overlaps Phase Review.",
         "label": "Uncertain"
     },
     {
         "id": "new_106",
-        "premises": "For any items X and Y, if X is physically heavier than Y, then Y is not physically heavier than X. The iron block is physically heavier than the wooden block.",
-        "conclusion": "The wooden block is physically heavier than the iron block.",
-        "label": "False"
+        "premises": "For any tasks X and Y, if X strictly precedes Y, then X and Y share absolutely no common time points. Task Compile strictly precedes Task Execute.",
+        "conclusion": "Task Compile and Task Execute share absolutely no common time points.",
+        "label": "True"
     },
     {
         "id": "new_107",
-        "premises": "For any boxes X, Y, and Z, if X is completely contained within Y, and Y is completely contained within Z, then X is completely contained within Z. For any boxes X and Y, if X is completely contained within Y, then Y is not completely contained within X. Box Red is completely contained within Box Blue. Box Blue is completely contained within Box Green.",
-        "conclusion": "Box Green is completely contained within Box Red.",
-        "label": "False"
+        "premises": "For any periods X and Y, if X perfectly meets Y, the exact end point of X is perfectly identical to the exact start point of Y. Period Winter perfectly meets Period Spring.",
+        "conclusion": "The exact end point of Period Winter is perfectly identical to the exact start point of Period Spring.",
+        "label": "True"
     },
     {
         "id": "new_108",
-        "premises": "For any individuals X and Y, if X is legally married to Y, then Y is legally married to X. For any individuals X, Y, and Z, if X is legally married to Y, and X is legally married to Z, then Y must be the exact same individual as Z. Paul is legally married to Linda. Mark is legally married to Linda. Mark is not the exact same individual as Paul.",
-        "conclusion": "Paul is legally married to Linda.",
+        "premises": "For any temporal events X and Y, if X starts Y, then X and Y share the exact same start point, but the end point of X is strictly before the end point of Y. Event Overture starts Event Concert.",
+        "conclusion": "The end point of Event Overture is exactly identical to the end point of Event Concert.",
         "label": "False"
     },
     {
         "id": "new_109",
-        "premises": "For any sets X, Y, and Z, if X is a strict subset of Y, and Y is a strict subset of Z, then X is a strict subset of Z. Set Mammals is a strict subset of Set Animals. Set Dogs is a strict subset of Set Mammals.",
-        "conclusion": "Set Dogs is a strict subset of Set Animals.",
+        "premises": "For any sessions X and Y, if X finishes Y, then X and Y share the exact same end point, but the start point of X is strictly after the start point of Y. Session Q_and_A finishes Session Lecture.",
+        "conclusion": "The start point of Session Q_and_A is strictly after the start point of Session Lecture.",
         "label": "True"
     },
     {
         "id": "new_110",
-        "premises": "For any researchers X, Y, and Z, if X officially mentors Y, and Y officially mentors Z, then X indirectly influences Z. Dr. Smith officially mentors Dr. Jones. Dr. Jones officially mentors Dr. Lee. Dr. Lee officially mentors Dr. Brown.",
-        "conclusion": "Dr. Smith indirectly influences Dr. Brown.",
-        "label": "Uncertain"
+        "premises": "For any intervals X and Y, if X temporally contains Y, then Y occurs entirely during X. Interval Fiscal_Year temporally contains Interval Q1.",
+        "conclusion": "Interval Fiscal_Year occurs entirely during Interval Q1.",
+        "label": "False"
     },
     {
         "id": "new_111",
-        "premises": "For any events X, Y, and Z, if X completely precedes Y, and Y completely precedes Z, then X completely precedes Z. For any events X and Y, if X completely precedes Y, then they do not overlap in time. The flash completely precedes the bang. The bang completely precedes the echo.",
-        "conclusion": "The flash and the echo do not overlap in time.",
+        "premises": "For any events X, Y, and Z, if X happens strictly before Y, and Y is completely simultaneous with Z, then X happens strictly before Z. Event Lightning happens strictly before Event Thunder. Event Thunder is completely simultaneous with Event Car_Alarm.",
+        "conclusion": "Event Lightning happens strictly before Event Car_Alarm.",
         "label": "True"
     },
     {
         "id": "new_112",
-        "premises": "For any periods X and Y, if X happens entirely during Y, then the exact start time of X is after the exact start time of Y. For any periods X and Y, if X happens entirely during Y, then the exact end time of X is before the exact end time of Y. The evaluation period happens entirely during the fiscal year.",
-        "conclusion": "The exact start time of the evaluation period is after the exact start time of the fiscal year.",
-        "label": "True"
+        "premises": "Stage Larva occurs entirely during Stage Maturation. Stage Maturation strictly precedes Stage Adult.",
+        "conclusion": "Stage Larva strictly precedes Stage Adult.",
+        "label": "Uncertain"
     },
     {
         "id": "new_113",
-        "premises": "For any events X and Y, if X occurs immediately after Y, then Y occurs immediately before X. For any events X and Y, if Y occurs immediately before X, then no other event can occur strictly between Y and X. The system reboot occurs immediately after the power failure. The data log occurs strictly between the power failure and the system reboot.",
-        "conclusion": "The data log is an event.",
+        "premises": "For any functions X, Y, and Z, if X strictly follows Y, and Y strictly follows Z, X strictly follows Z. Function Post_Check strictly follows Function Main_Run. Function Main_Run strictly follows Function Pre_Check.",
+        "conclusion": "Function Pre_Check strictly follows Function Post_Check.",
         "label": "False"
     },
     {
         "id": "new_114",
-        "premises": "For any processes X, Y, and Z, if X is completely concurrent with Y, and Y is completely concurrent with Z, then X is completely concurrent with Z. For any processes X and Y, if X is completely concurrent with Y, then Y is completely concurrent with X. Process Alpha is completely concurrent with Process Beta. Process Gamma is completely concurrent with Process Beta.",
-        "conclusion": "Process Alpha is completely concurrent with Process Gamma.",
-        "label": "True"
+        "premises": "For any shifts X and Y, if X temporally overlaps Y, then the start point of X is strictly before the start point of Y, and the end point of X is strictly before the end point of Y, but the end point of X is strictly after the start point of Y. Shift Morning temporally overlaps Shift Afternoon.",
+        "conclusion": "The end point of Shift Morning is strictly before the start point of Shift Afternoon.",
+        "label": "False"
     },
     {
         "id": "new_115",
-        "premises": "For any phases X and Y, if X strictly follows Y, then X and Y are disjoint. For any phases X and Y, if they are disjoint, they share no active operational seconds. Phase Post-op strictly follows Phase Pre-op.",
-        "conclusion": "Phase Post-op and Phase Pre-op share no active operational seconds.",
-        "label": "True"
+        "premises": "For any eras X, Y, and Z, if X perfectly meets Y, and Y perfectly meets Z, then X strictly precedes Z. Era Alpha perfectly meets Era Beta. Era Beta perfectly meets Era Gamma.",
+        "conclusion": "Era Alpha perfectly meets Era Gamma.",
+        "label": "False"
     },
     {
         "id": "new_116",
-        "premises": "For any temporal intervals X, Y, and Z, if X completely precedes Y, and Y completely precedes Z, then X completely precedes Z. For any intervals X and Y, if X completely precedes Y, then Y strictly follows X. Interval A completely precedes Interval B. Interval B strictly follows Interval C.",
-        "conclusion": "Interval A completely precedes Interval C.",
-        "label": "Uncertain"
+        "premises": "For any cycles X and Y, if X temporally contains Y, the duration of X is strictly greater than the duration of Y. Cycle Solar temporally contains Cycle Lunar.",
+        "conclusion": "The duration of Cycle Lunar is strictly greater than the duration of Cycle Solar.",
+        "label": "False"
     },
     {
         "id": "new_117",
-        "premises": "For any specific days X and Y, if X is exactly one day after Y, then X is defined as the absolute tomorrow of Y. For any days X and Y, if X is the absolute tomorrow of Y, then Y is defined as the absolute yesterday of X. Day Delta is exactly one day after Day Sigma.",
-        "conclusion": "Day Sigma is defined as the absolute yesterday of Day Delta.",
+        "premises": "For any ticks X and Y, if X and Y share the exact same start point and the exact same end point, they are completely simultaneous. Tick Clock_A and Tick Clock_B share the exact same start point and the exact same end point.",
+        "conclusion": "Tick Clock_A and Tick Clock_B are completely simultaneous.",
         "label": "True"
     },
     {
         "id": "new_118",
-        "premises": "For any signals X and Y, either X is transmitted simultaneously with Y, or X is transmitted asynchronously with Y, but never both. If X is transmitted asynchronously with Y, their timestamps differ by at least one millisecond. Signal Ping and Signal Pong have timestamps that do not differ by at least one millisecond.",
-        "conclusion": "Signal Ping is transmitted simultaneously with Signal Pong.",
+        "premises": "For any occurrences X, Y, and Z, if X happens strictly before Y, and Y occurs entirely during Z, then X happens strictly before the end point of Z. Occurrence Spark happens strictly before Occurrence Fire. Occurrence Fire occurs entirely during Occurrence Forest_Burn.",
+        "conclusion": "Occurrence Spark happens strictly before the end point of Occurrence Forest_Burn.",
         "label": "True"
     },
     {
         "id": "new_119",
-        "premises": "For any historical eras X, Y, and Z, if X is chronologically contained within Y, and Y is chronologically contained within Z, then X is chronologically contained within Z. The Edo period is chronologically contained within the Japanese feudal era. The Japanese feudal era is chronologically contained within the Pre-modern epoch.",
-        "conclusion": "The Pre-modern epoch is chronologically contained within the Edo period.",
-        "label": "Uncertain"
+        "premises": "For any steps X and Y, if X finishes Y, the duration of X is strictly less than the duration of Y. Step Dessert finishes Step Dinner_Service.",
+        "conclusion": "The duration of Step Dessert is strictly less than the duration of Step Dinner_Service.",
+        "label": "True"
     },
     {
         "id": "new_120",
-        "premises": "For any machine states X and Y, if State X transitions directly to State Y, then State X occurs prior to State Y. For any states X and Y, if State X occurs prior to State Y, then State Y cannot occur prior to State X. State Idle transitions directly to State Active.",
-        "conclusion": "State Active occurs prior to State Idle.",
+        "premises": "For any processes X and Y, if X perfectly meets Y, there is absolutely zero temporal gap between the end of X and the start of Y. Process Exhaust perfectly meets Process Intake.",
+        "conclusion": "There is a temporal gap of one second between the end of Process Exhaust and the start of Process Intake.",
         "label": "False"
     },
     {
         "id": "new_121",
-        "premises": "For any nodes X, Y, and Z in a directed graph, if there is a directed edge from X to Y, and a directed edge from Y to Z, then there exists a valid path from X to Z. For any nodes X and Y, if there is a valid path from X to Y, it does not imply a valid path from Y to X unless explicitly stated. There is a directed edge from Node M to Node N. There is a directed edge from Node N to Node P.",
-        "conclusion": "There exists a valid path from Node P to Node M.",
-        "label": "Uncertain"
+        "premises": "For any phases X and Y, if X starts Y, then X occurs entirely during Y. Phase Ignition starts Phase Liftoff.",
+        "conclusion": "Phase Ignition occurs entirely during Phase Liftoff.",
+        "label": "True"
     },
     {
         "id": "new_122",
-        "premises": "For any tasks X and Y, if X is a prerequisite for Y, then X must be completely finished before Y begins. For any tasks X, Y, and Z, if X must be completely finished before Y begins, and Y is a prerequisite for Z, then X must be completely finished before Z begins. Task Compile is a prerequisite for Task Execute. Task Execute is a prerequisite for Task Debug.",
-        "conclusion": "Task Compile must be completely finished before Task Debug begins.",
-        "label": "True"
+        "premises": "For any intervals X and Y, if X strictly precedes Y, then Y strictly follows X. Interval A strictly precedes Interval B. Interval C strictly follows Interval B.",
+        "conclusion": "Interval A strictly precedes Interval C.",
+        "label": "Uncertain"
     },
     {
         "id": "new_123",
-        "premises": "For any intervals X and Y, if X strictly overlaps Y, then the start time of X is strictly before the start time of Y, and the end time of X is strictly before the end time of Y. Interval Alpha strictly overlaps Interval Beta. The end time of Interval Alpha is 10:00 AM.",
-        "conclusion": "The end time of Interval Beta is strictly before 10:00 AM.",
-        "label": "False"
+        "premises": "For any events X and Y, if X is completely simultaneous with Y, they share the exact same duration. Event Eclipse is completely simultaneous with Event Tides_Shift.",
+        "conclusion": "Event Eclipse and Event Tides_Shift share the exact same duration.",
+        "label": "True"
     },
     {
         "id": "new_124",
-        "premises": "For any sets A, B, and C, if A is mutually exclusive with B, then no element exists in both A and B. If B is a strict superset of C, then every element in C is also in B. Set Fire is mutually exclusive with Set Water. Set Water is a strict superset of Set Ice. Object Frost is an element of Set Ice.",
-        "conclusion": "Object Frost is an element of Set Fire.",
-        "label": "False"
+        "premises": "For any actions X, Y, and Z, if X perfectly meets Y, and Y starts Z, then X strictly precedes Z. Action Unlock perfectly meets Action Push_Door. Action Push_Door starts Action Enter_Room.",
+        "conclusion": "Action Unlock strictly precedes Action Enter_Room.",
+        "label": "True"
     },
     {
         "id": "new_125",
-        "premises": "For any memory blocks X and Y, if X is allocated before Y, then the memory address of X is strictly lower than the memory address of Y. For any memory blocks X, Y, and Z, if the address of X is strictly lower than Y, and Y is strictly lower than Z, then X is allocated before Z. Block A is allocated before Block B. Block B is allocated before Block C.",
-        "conclusion": "The memory address of Block A is strictly lower than the memory address of Block C.",
-        "label": "True"
+        "premises": "For any periods X, Y, and Z, if X temporally overlaps Y, and Y finishes Z, X does not necessarily overlap Z. Period Rain temporally overlaps Period Storm. Period Storm finishes Period Monsoon.",
+        "conclusion": "Period Rain temporally overlaps Period Monsoon.",
+        "label": "Uncertain"
     },
     {
         "id": "new_126",
-        "premises": "For any system states X and Y, if X is a highly stable state and transitions to Y, then Y must be a strictly transitional state. For any states X and Y, if X is a strictly transitional state, it cannot transition directly back to itself. State Alpha is a highly stable state. State Alpha transitions to State Beta.",
-        "conclusion": "State Beta can transition directly back to State Beta.",
-        "label": "False"
+        "premises": "For any specific days X and Y, if X is defined as chronologically immediately prior to Y, then X strictly precedes Y. Day Monday is defined as chronologically immediately prior to Day Tuesday. Event 1 occurs entirely on Day Monday. Event 2 occurs entirely on Day Tuesday.",
+        "conclusion": "Event 1 strictly precedes Event 2.",
+        "label": "Uncertain"
     },
     {
         "id": "new_127",
-        "premises": "For any geographical zones X, Y, and Z, if X is entirely north of Y, and Y is entirely north of Z, then X is entirely north of Z. For any zones X and Y, if X is entirely north of Y, then X and Y share no border points. Zone Delta is entirely north of Zone Echo. Zone Echo is entirely north of Zone Foxtrot.",
-        "conclusion": "Zone Delta and Zone Foxtrot share no border points.",
-        "label": "True"
+        "premises": "For any specific moments X and Y, if X is defined as exactly 60 seconds after Y, then Y strictly precedes X. Moment Alarm is defined as exactly 60 seconds after Moment Snooze.",
+        "conclusion": "Moment Alarm strictly precedes Moment Snooze.",
+        "label": "False"
     },
     {
         "id": "new_128",
-        "premises": "For any mathematical functions F and G, if F grows asymptotically faster than G, then F(n) will eventually strictly exceed G(n) for all n greater than some constant k. For any functions F, G, and H, if F grows asymptotically faster than G, and G grows asymptotically faster than H, then F grows asymptotically faster than H. Function Exp grows asymptotically faster than Function Poly. Function Poly grows asymptotically faster than Function Log.",
-        "conclusion": "Function Log grows asymptotically faster than Function Exp.",
+        "premises": "For any signals X and Y, if X and Y are generated completely independently, they can be completely simultaneous, but it is not guaranteed. Signal Ping and Signal Pong are generated completely independently.",
+        "conclusion": "Signal Ping and Signal Pong are completely simultaneous.",
         "label": "Uncertain"
     },
     {
         "id": "new_129",
-        "premises": "For any cryptographic keys X and Y, if X perfectly decodes Y, then Y was generated directly by X. For any keys X and Y, if X was generated directly by Y, then they are termed a symmetric pair. Key Gamma perfectly decodes Key Omega.",
-        "conclusion": "Key Gamma and Key Omega are termed a symmetric pair.",
+        "premises": "For any lifespans X and Y, if X temporally contains Y, and they do not share a start point or an end point, then X begins strictly before Y begins and X ends strictly after Y ends. Lifespan Tree temporally contains Lifespan Leaf. Lifespan Tree and Lifespan Leaf do not share a start point or an end point.",
+        "conclusion": "Lifespan Tree ends strictly after Lifespan Leaf ends.",
         "label": "True"
     },
     {
         "id": "new_130",
-        "premises": "For any network layers X and Y, if Layer X encapsulates Layer Y, then Layer X operates at a logically lower level than Layer Y. For any layers X, Y, and Z, if X encapsulates Y, and Y encapsulates Z, then X operates at a logically lower level than Z. Layer IP encapsulates Layer TCP. Layer Ethernet encapsulates Layer IP.",
-        "conclusion": "Layer Ethernet operates at a logically lower level than Layer TCP.",
-        "label": "True"
+        "premises": "For any beats X and Y, if X strictly precedes Y, the start point of Y is strictly after the start point of X. Beat 1 strictly precedes Beat 2.",
+        "conclusion": "The start point of Beat 2 is strictly before the start point of Beat 1.",
+        "label": "False"
     },
     {
         "id": "new_131",
-        "premises": "For any classes X and Y in object-oriented programming, if X inherits from Y, then X possesses all public methods of Y. If X possesses all public methods of Y, then an instance of X can substitute an instance of Y. Class Vehicle does not inherit from Class Engine. Method 'start' is a public method of Class Engine.",
-        "conclusion": "An instance of Class Vehicle cannot substitute an instance of Class Engine.",
-        "label": "Uncertain"
+        "premises": "For any events X, Y, and Z, if X finishes Y, and Z occurs entirely during X, then Z occurs entirely during Y. Event Closing_Credits finishes Event Movie_Broadcast. Event Sponsor_Logo occurs entirely during Event Closing_Credits.",
+        "conclusion": "Event Sponsor_Logo occurs entirely during Event Movie_Broadcast.",
+        "label": "True"
     },
     {
         "id": "new_132",
-        "premises": "For any temporal phases X and Y, if X finishes exactly when Y finishes, they are said to be co-terminating. If X and Y are co-terminating, their exact end times are identical. Phase Sunset finishes exactly when Phase Twilight finishes.",
-        "conclusion": "The exact end time of Phase Sunset is identical to the exact end time of Phase Twilight.",
+        "premises": "For any terms X, Y, and Z, if X is strictly before Y, and Y temporally overlaps Z, then X is strictly before the end point of Z. Term Fall is strictly before Term Spring. Term Spring temporally overlaps Term Independent_Study.",
+        "conclusion": "Term Fall is strictly before the end point of Term Independent_Study.",
         "label": "True"
     },
     {
         "id": "new_133",
-        "premises": "For any agents X and Y, if X holds security clearance higher than Y, then X can access all files Y can access. For any agents X and Y, if X can access all files Y can access, and Y can access file Z, then X can access file Z. Agent Smith holds security clearance higher than Agent Neo. Agent Neo can access the Matrix Core file.",
-        "conclusion": "Agent Neo holds security clearance higher than Agent Smith.",
+        "premises": "For any motions X and Y, if X and Y are completely simultaneous, neither X strictly precedes Y nor Y strictly precedes X. Motion Left_Arm is completely simultaneous with Motion Right_Arm.",
+        "conclusion": "Motion Left_Arm strictly precedes Motion Right_Arm.",
         "label": "False"
     },
     {
         "id": "new_134",
-        "premises": "For any geometric shapes X and Y, if X is congruent to Y, then Y is congruent to X. If X is congruent to Y, they have the exact same area. Triangle A is congruent to Triangle B. Triangle C has the exact same area as Triangle B.",
-        "conclusion": "Triangle C is congruent to Triangle A.",
+        "premises": "Block Intro perfectly meets Block Core_Logic. Block Sub_Routine occurs entirely during Block Core_Logic.",
+        "conclusion": "Block Intro strictly precedes Block Sub_Routine.",
         "label": "Uncertain"
     },
     {
         "id": "new_135",
-        "premises": "For any software versions X and Y, if X is backward compatible with Y, then any script running on Y runs flawlessly on X. Version 3.0 is backward compatible with Version 2.0. Script Alpha does not run flawlessly on Version 3.0.",
-        "conclusion": "Script Alpha does not run on Version 2.0.",
-        "label": "True"
+        "premises": "For any reigns X and Y, if X strictly precedes Y, and there is a temporal gap between them, X does not perfectly meet Y. Reign King_John strictly precedes Reign King_Edward. There is a temporal gap of 5 years between them.",
+        "conclusion": "Reign King_John perfectly meets Reign King_Edward.",
+        "label": "False"
     },
     {
         "id": "new_136",
-        "premises": "For any biological species X and Y, if X is a direct evolutionary ancestor of Y, then X appeared in the fossil record strictly before Y. Species T-Rex is a direct evolutionary ancestor of Species Avian. Species Avian appeared in the fossil record in the Jurassic period.",
-        "conclusion": "Species T-Rex appeared in the fossil record strictly before the Jurassic period.",
+        "premises": "For any intervals A, B, and C, if A starts B, and B starts C, then A starts C. Interval First_Quarter starts Interval First_Half. Interval First_Half starts Interval Full_Game.",
+        "conclusion": "Interval First_Quarter starts Interval Full_Game.",
         "label": "True"
     },
     {
         "id": "new_137",
-        "premises": "For any physical objects X, Y, and Z, if X rests entirely upon Y, and Y rests entirely upon Z, then X exerts a downward force on Z. For any objects X and Y, if X exerts a downward force on Y, then Y exerts an equal and opposite upward force on X. The book rests entirely upon the laptop. The laptop rests entirely upon the desk.",
-        "conclusion": "The desk exerts an equal and opposite upward force on the book.",
+        "premises": "For any operations X, Y, and Z, if X finishes Y, and Y finishes Z, then X finishes Z. Operation Cleanup finishes Operation Shutdown. Operation Shutdown finishes Operation Daily_Cycle.",
+        "conclusion": "Operation Cleanup finishes Operation Daily_Cycle.",
         "label": "True"
     },
     {
         "id": "new_138",
-        "premises": "For any logic gates X and Y, if X's output is strictly connected to Y's input, X's signal propagation delay must be added to Y's delay to find the total path delay. Gate AND's output is strictly connected to Gate OR's input. Gate OR's output is strictly connected to Gate XOR's input.",
-        "conclusion": "Gate AND's signal propagation delay is less than Gate OR's delay.",
+        "premises": "Generation Gen_X strictly precedes Generation Gen_Z. Time point T1 is entirely during Generation Gen_X. Time point T2 is entirely during Generation Gen_Z.",
+        "conclusion": "Time point T1 is strictly before Time point T2.",
         "label": "Uncertain"
     },
     {
         "id": "new_139",
-        "premises": "For any planets X and Y, if X orbits Y, then the mass of X is strictly less than the mass of Y. For any planets X, Y, and Z, if X orbits Y, and Y orbits Z, then X orbits Z. Moon Luna orbits Planet Earth. Planet Earth orbits Star Sol.",
-        "conclusion": "The mass of Moon Luna is strictly less than the mass of Star Sol.",
+        "premises": "For any phenomenons X and Y, if X temporally contains Y, and Y temporally contains X, then X is completely simultaneous with Y. Phenomenon Expansion temporally contains Phenomenon Cooling. Phenomenon Cooling temporally contains Phenomenon Expansion.",
+        "conclusion": "Phenomenon Expansion is completely simultaneous with Phenomenon Cooling.",
         "label": "True"
     },
     {
         "id": "new_140",
-        "premises": "For any legal contracts X and Y, if X supersedes Y, then all clauses in Y are rendered null and void. For any contracts X and Y, if X supersedes Y, then Y cannot supersede X. Contract Delta supersedes Contract Gamma. Contract Gamma supersedes Contract Epsilon.",
-        "conclusion": "Contract Gamma supersedes Contract Delta.",
-        "label": "False"
+        "premises": "For any epochs X and Y, if X temporally overlaps Y, then Y temporally overlaps X. Epoch Permian temporally overlaps Epoch Triassic.",
+        "conclusion": "Epoch Triassic temporally overlaps Epoch Permian.",
+        "label": "True"
     },
     {
         "id": "new_141",
-        "premises": "For any integers X, Y, and Z, if X divides Y with no remainder, and Y divides Z with no remainder, then X divides Z with no remainder. Integer 4 divides Integer 12 with no remainder. Integer 12 divides Integer 36 with no remainder.",
-        "conclusion": "Integer 36 divides Integer 4 with no remainder.",
-        "label": "False"
+        "premises": "For any observations X, Y, and Z, if X strictly follows Y, and Y temporally contains Z, then X strictly follows Z. Observation Post_Treatment strictly follows Observation Treatment. Observation Treatment temporally contains Observation Peak_Response.",
+        "conclusion": "Observation Post_Treatment strictly follows Observation Peak_Response.",
+        "label": "True"
     },
     {
         "id": "new_142",
-        "premises": "For any chemical reactions X and Y, if X is a catalyst for Y, then X remains completely unconsumed after Y finishes. Reaction Platinum is a catalyst for Reaction Oxidation. Reaction Oxidation finishes at precisely 12:00 PM.",
-        "conclusion": "Reaction Platinum remains completely unconsumed after 12:00 PM.",
+        "premises": "For any pulses X and Y, if X starts Y, and X finishes Y, then X is completely simultaneous with Y. Pulse A starts Pulse B. Pulse A finishes Pulse B.",
+        "conclusion": "Pulse A is completely simultaneous with Pulse B.",
         "label": "True"
     },
     {
         "id": "new_143",
-        "premises": "For any military ranks X and Y, if X outranks Y, then X can issue binding orders to Y. For any ranks X, Y, and Z, if X outranks Y, and Y outranks Z, then X outranks Z. General outranks Colonel. Colonel outranks Major.",
-        "conclusion": "Major can issue binding orders to General.",
-        "label": "False"
+        "premises": "For any contracts X and Y, if X temporally overlaps Y, there exists a specific time duration D where both X and Y are active simultaneously. Contract Rent_A temporally overlaps Contract Rent_B.",
+        "conclusion": "There exists a specific time duration D where both Contract Rent_A and Contract Rent_B are active simultaneously.",
+        "label": "True"
     },
     {
         "id": "new_144",
-        "premises": "For any sound waves X and Y, if X is exactly perfectly out of phase with Y, they perfectly cancel each other out when superimposed. If they perfectly cancel each other out, the resulting amplitude is strictly zero. Wave Alpha is exactly perfectly out of phase with Wave Beta. They are superimposed.",
-        "conclusion": "The resulting amplitude of Wave Alpha and Wave Beta is strictly zero.",
+        "premises": "For any transitions X and Y, if X perfectly meets Y, and they have exact identical durations, the end point of Y is exactly twice the duration of X after the start point of X. Transition Warm_Up perfectly meets Transition Cool_Down. They have exact identical durations. The duration of Transition Warm_Up is 10 minutes.",
+        "conclusion": "The end point of Transition Cool_Down is exactly 20 minutes after the start point of Transition Warm_Up.",
         "label": "True"
     },
     {
         "id": "new_145",
-        "premises": "For any virtual machines X and Y, if X is a clone of Y, then X has the exact same initial hard drive state as Y. For any machines X and Y, if X has the exact same initial hard drive state as Y, then X and Y will produce identical outputs given identical inputs. VM Worker_1 is a clone of VM Master. VM Worker_2 has the exact same initial hard drive state as VM Worker_1.",
-        "conclusion": "VM Worker_2 is a clone of VM Master.",
+        "premises": "Term Mid_term is entirely during Term Semester. Term Semester is entirely during Term Academic_Year.",
+        "conclusion": "Term Mid_term is entirely during Term Academic_Year.",
         "label": "Uncertain"
     },
     {
         "id": "new_146",
-        "premises": "For any celestial events X and Y, if X occurs in the same epoch as Y, then neither X nor Y completely precedes the other. Event Supernova occurs in the same epoch as Event Nebula Formation.",
-        "conclusion": "Event Supernova completely precedes Event Nebula Formation.",
-        "label": "False"
-    },
-    {
-        "id": "new_147",
-        "premises": "For any data structures X and Y, if X is a balanced tree, its search time is strictly logarithmic. If Y's search time is strictly logarithmic, it scales efficiently with large datasets. Structure AVL is a balanced tree.",
-        "conclusion": "Structure AVL scales efficiently with large datasets.",
+        "premises": "For any routines X and Y, if X perfectly meets Y, the start point of X is strictly before the end point of Y. Routine Check_In perfectly meets Routine Boarding.",
+        "conclusion": "The start point of Routine Check_In is strictly before the end point of Routine Boarding.",
         "label": "True"
     },
     {
+        "id": "new_147",
+        "premises": "For any historical events X, Y, and Z, if X temporally overlaps Y, and Y perfectly meets Z, X does not necessarily strictly precede Z. Event Gold_Rush temporally overlaps Event Railroad_Construction. Event Railroad_Construction perfectly meets Event Statehood_Declaration.",
+        "conclusion": "Event Gold_Rush strictly precedes Event Statehood_Declaration.",
+        "label": "Uncertain"
+    },
+    {
         "id": "new_148",
-        "premises": "For any corporate entities X, Y, and Z, if X acquires Y, and Y is the parent company of Z, then X becomes the ultimate parent company of Z. Company OmniCorp acquires Company GlobalTech. Company GlobalTech is the parent company of Subsidiary MicroSoftwares.",
-        "conclusion": "Subsidiary MicroSoftwares becomes the ultimate parent company of Company OmniCorp.",
+        "premises": "For any cosmic events X and Y, if X is completely simultaneous with Y, the start point of X cannot be strictly before the start point of Y. Cosmic event Supernova_1 is completely simultaneous with Cosmic event Gamma_Burst_1.",
+        "conclusion": "The start point of Cosmic event Supernova_1 is strictly before the start point of Cosmic event Gamma_Burst_1.",
         "label": "False"
     },
     {
         "id": "new_149",
-        "premises": "For any musical notes X and Y, if X is an octave strictly above Y, then the frequency of X is exactly double the frequency of Y. Note C5 is an octave strictly above Note C4. The frequency of Note C4 is 261.63 Hz.",
-        "conclusion": "The frequency of Note C5 is exactly 523.26 Hz.",
-        "label": "True"
-    },
-    {
-        "id": "new_150",
-        "premises": "For any database transactions X and Y, if X conflicts with Y, then either X must be rolled back, or Y must be rolled back, but never both simultaneously. Transaction T1 conflicts with Transaction T2. Transaction T1 was officially rolled back.",
-        "conclusion": "Transaction T2 was officially rolled back.",
+        "premises": "For any cycles X and Y, if X starts Y, the duration of X cannot be strictly greater than the duration of Y. Cycle Wash starts Cycle Full_Laundry.",
+        "conclusion": "The duration of Cycle Wash is strictly greater than the duration of Cycle Full_Laundry.",
         "label": "False"
     },
     {
-        "id": "new_151",
-        "premises": "For any machine learning models X and Y, if X acts as the teacher for Y in a distillation process, X must have strictly more parameters than Y. Model GPT acts as the teacher for Model Mini in a distillation process. Model Mini acts as the teacher for Model Nano in a distillation process.",
-        "conclusion": "Model GPT has strictly more parameters than Model Nano.",
+        "id": "new_150",
+        "premises": "For any logs X and Y, if Log X records an event strictly before Log Y records an event, the timestamp of Log X must be numerically smaller than the timestamp of Log Y. Log Boot_Sequence records an event strictly before Log User_Login records an event.",
+        "conclusion": "The timestamp of Log Boot_Sequence is numerically smaller than the timestamp of Log User_Login.",
         "label": "True"
     },
     {
+        "id": "new_151",
+        "premises": "For any asteroid A, if A enters the Earth's atmosphere, A burns up completely, provided A is not composed of pure vibranium. If A is composed of pure vibranium, A does not burn up completely. Asteroid X-99 enters the Earth's atmosphere. Asteroid X-99 is composed of pure vibranium.",
+        "conclusion": "Asteroid X-99 burns up completely.",
+        "label": "False"
+    },
+    {
         "id": "new_152",
-        "premises": "For any architectural components X and Y, if X physically supports Y, then the destruction of X inevitably leads to the immediate collapse of Y. Pillar A physically supports Beam B. Beam B physically supports Roof C. Pillar A is completely destroyed.",
-        "conclusion": "Roof C immediately collapses.",
+        "premises": "For any bank loan L, if L is formally submitted, L is approved within three business days, provided L is not flagged for potential fraud. If L is flagged for potential fraud, L is not approved within three business days. Bank loan Alpha is formally submitted.",
+        "conclusion": "Bank loan Alpha is approved within three business days.",
         "label": "Uncertain"
     },
     {
         "id": "new_153",
-        "premises": "For any logical propositions P and Q, if P logically entails Q, then it is absolutely impossible for P to be true while Q is false. Proposition X logically entails Proposition Y. Proposition Y is officially proven to be false.",
-        "conclusion": "Proposition X is true.",
-        "label": "False"
+        "premises": "For any human H, if H is bitten by a desert viper, H experiences severe tissue swelling, provided H did not take the specific antivenom beforehand. If H took the specific antivenom beforehand, H does not experience severe tissue swelling. Human John is bitten by a desert viper. Human John took the specific antivenom beforehand.",
+        "conclusion": "Human John does not experience severe tissue swelling.",
+        "label": "True"
     },
     {
         "id": "new_154",
-        "premises": "For any economic indicators X and Y, if X is a leading indicator for Y, then a significant shift in X reliably predicts a future shift in Y. If a future shift in Y is reliably predicted, market analysts will immediately adjust their portfolios. Indicator Yield_Curve is a leading indicator for Indicator Recession. A significant shift in Indicator Yield_Curve occurred today.",
-        "conclusion": "Market analysts will immediately adjust their portfolios.",
+        "premises": "For any yeast dough D, if D is left in a warm room for an hour, D doubles in size, provided D was not mixed with boiling water. If D was mixed with boiling water, D does not double in size. Yeast dough Batch_4 is left in a warm room for an hour. Yeast dough Batch_4 was not mixed with boiling water.",
+        "conclusion": "Yeast dough Batch_4 doubles in size.",
         "label": "True"
     },
     {
         "id": "new_155",
-        "premises": "For any concurrent threads X and Y, if X holds a lock that Y strictly requires, and Y holds a lock that X strictly requires, a permanent deadlock state occurs. Thread 1 holds Lock A and strictly requires Lock B. Thread 2 holds Lock B and strictly requires Lock A.",
-        "conclusion": "A permanent deadlock state occurs.",
-        "label": "True"
-    },
-    {
-        "id": "new_156",
-        "premises": "For any atmospheric layers X, Y, and Z, if X is situated strictly above Y, and Y is situated strictly above Z, then X is situated strictly above Z. For any layers X and Y, if X is situated strictly above Y, the atmospheric pressure in X is strictly lower than in Y. Layer Stratosphere is situated strictly above Layer Troposphere. Layer Troposphere is situated strictly above Layer Boundary.",
-        "conclusion": "The atmospheric pressure in Layer Stratosphere is strictly lower than in Layer Boundary.",
-        "label": "True"
-    },
-    {
-        "id": "new_157",
-        "premises": "For any board game pieces X and Y, if X legally captures Y, then Y is immediately removed from the active board. For any pieces X and Y, if Y is removed from the active board, Y cannot execute any further moves. The White Knight legally captures the Black Bishop.",
-        "conclusion": "The Black Bishop can execute further moves.",
+        "premises": "For any modern router R, if R is powered on, R automatically broadcasts a 5GHz signal, provided R is not configured to legacy-only mode. If R is configured to legacy-only mode, R does not broadcast a 5GHz signal. Modern router Node_1 is powered on. Modern router Node_1 is configured to legacy-only mode.",
+        "conclusion": "Modern router Node_1 broadcasts a 5GHz signal.",
         "label": "False"
     },
     {
-        "id": "new_158",
-        "premises": "For any compiler stages X and Y, if X feeds its abstract syntax tree directly to Y, then X must complete its parsing phase before Y can begin its optimization phase. Stage Frontend feeds its abstract syntax tree directly to Stage Backend. Stage Backend has begun its optimization phase.",
-        "conclusion": "Stage Frontend has completed its parsing phase.",
-        "label": "True"
-    },
-    {
-        "id": "new_159",
-        "premises": "For any celestial orbits X and Y, if X is highly elliptical, its eccentricity is strictly greater than 0.5. If Y's eccentricity is strictly greater than 0.5, it experiences severe tidal heating at periapsis. Orbit Halley is highly elliptical.",
-        "conclusion": "Orbit Halley experiences severe tidal heating at periapsis.",
-        "label": "True"
-    },
-    {
-        "id": "new_160",
-        "premises": "For any geometric lines X, Y, and Z on a 2D plane, if X is strictly parallel to Y, and Y is strictly parallel to Z, then X is strictly parallel to Z. For any lines X and Y, if they are strictly parallel, they never intersect. Line M is strictly parallel to Line N. Line P never intersects Line N.",
-        "conclusion": "Line M is strictly parallel to Line P.",
+        "id": "new_156",
+        "premises": "For any commercial contract C, if C is physically signed by both parties, C becomes legally binding, provided C was not signed by a legal minor. If C was signed by a legal minor, C does not become legally binding. Commercial contract Beta is physically signed by both parties.",
+        "conclusion": "Commercial contract Beta becomes legally binding.",
         "label": "Uncertain"
     },
     {
+        "id": "new_157",
+        "premises": "For any living sunflower S, if S is exposed to morning sunlight, S physically faces the east, provided S does not have a broken stem. If S has a broken stem, S does not physically face the east. Living sunflower Bloom_2 is exposed to morning sunlight. Living sunflower Bloom_2 does not have a broken stem.",
+        "conclusion": "Living sunflower Bloom_2 physically faces the east.",
+        "label": "True"
+    },
+    {
+        "id": "new_158",
+        "premises": "For any iron magnet M, if M is placed near an iron nail, M attracts the iron nail, provided M has not been heated past its Curie temperature. If M has been heated past its Curie temperature, M does not attract the iron nail. Iron magnet Mag_7 is placed near an iron nail. Iron magnet Mag_7 has been heated past its Curie temperature.",
+        "conclusion": "Iron magnet Mag_7 attracts the iron nail.",
+        "label": "False"
+    },
+    {
+        "id": "new_159",
+        "premises": "For any express train T, if T reaches City Center, T skips the local suburban stop, provided T has not received an emergency track override. If T has received an emergency track override, T does not skip the local suburban stop. Express train Falcon_1 reaches City Center.",
+        "conclusion": "Express train Falcon_1 skips the local suburban stop.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_160",
+        "premises": "For any vampire entity V, if V is exposed to direct sunlight, V bursts into flames, provided V is not wearing a daywalker ring. If V is wearing a daywalker ring, V does not burst into flames. Vampire entity Vlad is exposed to direct sunlight. Vampire entity Vlad is wearing a daywalker ring.",
+        "conclusion": "Vampire entity Vlad does not burst into flames.",
+        "label": "True"
+    },
+    {
         "id": "new_161",
-        "premises": "For any subatomic particles X and Y, if X decays directly into Y, then the total invariant mass of X is strictly greater than the invariant mass of Y. Particle Muon decays directly into Particle Electron. Particle Tau decays directly into Particle Muon.",
-        "conclusion": "The invariant mass of Particle Electron is strictly greater than the invariant mass of Particle Tau.",
+        "premises": "For any acid solution A, if A touches blue litmus paper, the paper turns red, provided A has not been completely neutralized by a strong base. If A has been completely neutralized by a strong base, the paper does not turn red. Acid solution Vat_3 touches blue litmus paper. Acid solution Vat_3 has been completely neutralized by a strong base.",
+        "conclusion": "The paper turns red due to Acid solution Vat_3.",
         "label": "False"
     },
     {
         "id": "new_162",
-        "premises": "For any UI components X and Y, if X is the parent container of Y, then hiding X automatically completely hides Y. Container Modal is the parent container of Button Submit. Container Modal is currently hidden.",
-        "conclusion": "Button Submit is completely hidden.",
+        "premises": "For any database cache C, if C receives a query, C returns the stored data instantly, provided C has not been manually invalidated. If C has been manually invalidated, C does not return the stored data instantly. Database cache Redis_Main receives a query. Database cache Redis_Main has not been manually invalidated.",
+        "conclusion": "Database cache Redis_Main returns the stored data instantly.",
         "label": "True"
     },
     {
         "id": "new_163",
-        "premises": "For any biological viruses X and Y, if X mutates faster than Y, then X requires more frequent vaccine updates than Y. Virus Influenza mutates faster than Virus Variola. Virus Rhinovirus mutates faster than Virus Variola.",
-        "conclusion": "Virus Influenza mutates faster than Virus Rhinovirus.",
+        "premises": "For any winter storm W, if the temperature drops below zero Celsius, W produces snow, provided there is no warm atmospheric inversion layer present. If there is a warm atmospheric inversion layer present, W does not produce snow. Winter storm Blizzard_8 occurs while the temperature drops below zero Celsius.",
+        "conclusion": "Winter storm Blizzard_8 produces snow.",
         "label": "Uncertain"
     },
     {
         "id": "new_164",
-        "premises": "For any execution contexts X and Y, if X spawns Y asynchronously, then the execution of X does not block while Y runs. Context Main spawns Context FetchData asynchronously. Context FetchData is currently running.",
-        "conclusion": "The execution of Context Main is blocked.",
+        "premises": "For any car engine E, if the ignition key is turned, E starts running, provided E's starter motor is not completely dead. If E's starter motor is completely dead, E does not start running. The ignition key is turned for car engine V6_Alpha. Car engine V6_Alpha's starter motor is completely dead.",
+        "conclusion": "Car engine V6_Alpha starts running.",
         "label": "False"
     },
     {
         "id": "new_165",
-        "premises": "For any logical frameworks X and Y, if X is strictly more expressive than Y, then there exists at least one statement provable in X that cannot be represented in Y. Framework FOL is strictly more expressive than Framework PropositionalLogic.",
-        "conclusion": "There exists at least one statement provable in Framework FOL that cannot be represented in Framework PropositionalLogic.",
+        "premises": "For any grizzly bear B, if the winter season begins, B enters deep hibernation, provided B is not kept in an artificially heated zoo enclosure. If B is kept in an artificially heated zoo enclosure, B does not enter deep hibernation. The winter season begins for grizzly bear Koda. Grizzly bear Koda is not kept in an artificially heated zoo enclosure.",
+        "conclusion": "Grizzly bear Koda enters deep hibernation.",
         "label": "True"
     },
     {
         "id": "new_166",
-        "premises": "For any network topologies X and Y, if X forms a perfect ring, every node has exactly two direct neighbors. Topology TokenRing forms a perfect ring. Node Server_A is in Topology TokenRing.",
-        "conclusion": "Node Server_A has exactly three direct neighbors.",
+        "premises": "For any soccer player P, if P touches the ball with their hands inside the penalty box, the referee awards a penalty kick, provided P is not the designated goalkeeper. If P is the designated goalkeeper, the referee does not award a penalty kick. Soccer player David touches the ball with his hands inside the penalty box. Soccer player David is the designated goalkeeper.",
+        "conclusion": "The referee awards a penalty kick against soccer player David.",
         "label": "False"
     },
     {
         "id": "new_167",
-        "premises": "For any historical treaties X and Y, if X is ratified after Y, then the terms of X legally override any contradictory terms in Y. Treaty of Paris was ratified after Treaty of Versailles. Treaty of Versailles contains a clause contradicting the Treaty of Paris.",
-        "conclusion": "The terms of the Treaty of Paris legally override the contradictory clause in the Treaty of Versailles.",
-        "label": "True"
+        "premises": "For any glass window W, if W is hit by a fast-moving baseball, W shatters into pieces, provided W is not made of bulletproof polycarbonate. If W is made of bulletproof polycarbonate, W does not shatter into pieces. Glass window Storefront_1 is hit by a fast-moving baseball.",
+        "conclusion": "Glass window Storefront_1 shatters into pieces.",
+        "label": "Uncertain"
     },
     {
         "id": "new_168",
-        "premises": "For any encryption hashes X and Y, if X perfectly collides with Y, they produce the exact same 256-bit output despite having different inputs. Hash Alpha perfectly collides with Hash Beta.",
-        "conclusion": "Hash Alpha and Hash Beta have the exact same inputs.",
+        "premises": "For any surgical patient P, if P is administered general anesthesia, P feels absolutely no pain during surgery, provided P does not possess a rare genetic resistance to anesthetics. If P possesses a rare genetic resistance to anesthetics, P does not feel absolutely no pain during surgery. Surgical patient Emma is administered general anesthesia. Surgical patient Emma possesses a rare genetic resistance to anesthetics.",
+        "conclusion": "Surgical patient Emma feels absolutely no pain during surgery.",
         "label": "False"
     },
     {
         "id": "new_169",
-        "premises": "For any physical states of matter X and Y, if X undergoes sublimation to become Y, then X was a solid and Y is a gas. State DryIce undergoes sublimation to become State CO2_Vapor.",
-        "conclusion": "State CO2_Vapor is a gas.",
+        "premises": "For any massive star S, if S exhausts its nuclear fuel, S emits a brilliant supernova flash, provided S has not directly collapsed into a black hole. If S has directly collapsed into a black hole, S does not emit a brilliant supernova flash. Massive star Rigel_B exhausts its nuclear fuel. Massive star Rigel_B has not directly collapsed into a black hole.",
+        "conclusion": "Massive star Rigel_B emits a brilliant supernova flash.",
         "label": "True"
     },
     {
         "id": "new_170",
-        "premises": "For any scheduling algorithms X and Y, if X uses strict preemptive prioritization, then a high-priority task instantly interrupts a low-priority task. Algorithm RoundRobin does not use strict preemptive prioritization. Task Urgent is a high-priority task. Task Idle is a low-priority task running under Algorithm RoundRobin.",
-        "conclusion": "Task Urgent instantly interrupts Task Idle.",
+        "premises": "For any secure vault door D, if D is forced open, D triggers a silent alarm, provided D's magnetic sensor has not been bypassed by a guard. If D's magnetic sensor has been bypassed by a guard, D does not trigger a silent alarm. Secure vault door Level_5 is forced open.",
+        "conclusion": "Secure vault door Level_5 triggers a silent alarm.",
         "label": "Uncertain"
     },
     {
@@ -2398,5 +2398,1205 @@
         "premises": "For any differential form W, if W is an exact form, the exterior derivative of W is strictly zero. The exterior derivative of differential form Alpha is strictly zero.",
         "conclusion": "Differential form Alpha is an exact form.",
         "label": "Uncertain"
+    },
+    {
+        "id": "new_401",
+        "premises": "For any agent A and fact F, if A knows F, then F is absolute truth. If A merely believes F, F is not necessarily true. Detective Smith knows that the vault was opened from the inside. Officer Jones believes that the vault was opened from the outside. The vault cannot be opened from the inside and the outside simultaneously.",
+        "conclusion": "The vault was opened from the outside.",
+        "label": "False"
+    },
+    {
+        "id": "new_402",
+        "premises": "For any researcher R and theory T, if R knows T is correct, then T is factually correct. If R believes T is correct, T might be incorrect. Dr. Aris believes that the new chemical reaction is entirely endothermic. Dr. Aris is a leading expert with decades of experience in chemistry.",
+        "conclusion": "The new chemical reaction is entirely endothermic.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_403",
+        "premises": "For any person P and event E, if P knows that E occurred, then E definitely occurred. If E definitely occurred, it does not necessarily mean that P knows E occurred. A solar flare definitely occurred at noon. Astronomer Neil was observing the sun at noon.",
+        "conclusion": "Astronomer Neil knows that a solar flare occurred at noon.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_404",
+        "premises": "For any agents A, B, and fact F, if A knows that B knows F, then F is absolute truth. Alice knows that Bob knows the server was breached. If the server was breached, the firewall logs were altered.",
+        "conclusion": "The firewall logs were altered.",
+        "label": "True"
+    },
+    {
+        "id": "new_405",
+        "premises": "For any entity E and state S, if E believes S is true, and E's belief is factually wrong, then S is absolutely false. AI Supervisor believes the cooling system is stable. The cooling system is actually vibrating violently. A system cannot be stable and vibrate violently simultaneously. Thus, AI Supervisor's belief is factually wrong.",
+        "conclusion": "The cooling system is absolutely false.",
+        "label": "False"
+    },
+    {
+        "id": "new_406",
+        "premises": "For any judge J and evidence E, if J knows E is forged, then E is legally inadmissible. If J believes E is genuine, E is still legally inadmissible if it is actually forged. Judge Harper believes the signature is genuine. The signature is actually forged.",
+        "conclusion": "The signature is legally inadmissible.",
+        "label": "True"
+    },
+    {
+        "id": "new_407",
+        "premises": "For any agents X and Y, and proposition P, X can believe P while Y believes the exact opposite of P, without causing a logical contradiction. If P is a mathematical axiom, P is true regardless of beliefs. Mathematician Euler believes Axiom 1 is independent. Mathematician Gauss believes Axiom 1 is not independent. Axiom 1 is a mathematical axiom.",
+        "conclusion": "Axiom 1 is true.",
+        "label": "True"
+    },
+    {
+        "id": "new_408",
+        "premises": "For any pilot P and weather condition W, if P knows W is dangerous, P grounds the plane. If P believes W is safe, P flies the plane. Pilot Ray believes the storm is safe. The storm is actually highly dangerous.",
+        "conclusion": "Pilot Ray grounds the plane.",
+        "label": "False"
+    },
+    {
+        "id": "new_409",
+        "premises": "For any historical event H, if Historian A knows H happened in 1920, then H happened in 1920. Historian B believes H happened in 1922. A historical event can only happen in one specific year. Historian A knows the signing of the treaty happened in 1920.",
+        "conclusion": "Historian B's belief is factually correct.",
+        "label": "False"
+    },
+    {
+        "id": "new_410",
+        "premises": "For any patient P and diagnosis D, if the Doctor knows D is terminal, D is incurable. If the Doctor believes D is benign, D might still be terminal. The Doctor believes Patient Zero's tumor is benign.",
+        "conclusion": "Patient Zero's tumor is incurable.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_411",
+        "premises": "For any general G and strategy S, if G knows S will fail, S will fail. If G believes S will succeed, S might still fail. General Patton knows the flanking maneuver will fail. General Bradley believes the flanking maneuver will succeed.",
+        "conclusion": "The flanking maneuver will succeed.",
+        "label": "False"
+    },
+    {
+        "id": "new_412",
+        "premises": "For any software tester T and bug B, if T knows B exists, B is present in the code. If T does not know B exists, B can still be present in the code. Tester Anna does not know the memory leak bug exists in the code.",
+        "conclusion": "The memory leak bug is not present in the code.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_413",
+        "premises": "For any agent A, if A knows fact X, and fact X logically implies fact Y, A does not necessarily know fact Y unless A explicitly performs the deduction. Agent Smith knows the encryption key is a prime number. All prime numbers greater than 2 are odd. The encryption key is 7.",
+        "conclusion": "Agent Smith knows the encryption key is an odd number.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_414",
+        "premises": "For any network admin N and protocol P, if N knows P is compromised, N disables P. Admin Root knows the Telnet protocol is compromised. Admin Root believes the SSH protocol is highly secure.",
+        "conclusion": "Admin Root disables the Telnet protocol.",
+        "label": "True"
+    },
+    {
+        "id": "new_415",
+        "premises": "For any chef C and recipe R, if C believes R requires salt, C adds salt. If C knows R requires sugar, C adds sugar. Chef Gordon believes the soup requires salt and knows the soup requires sugar.",
+        "conclusion": "Chef Gordon adds salt and does not add sugar.",
+        "label": "False"
+    },
+    {
+        "id": "new_416",
+        "premises": "For any cryptographer C and cipher X, if C knows X is unbreakable, X cannot be deciphered by any machine. Cryptographer Turing believes cipher Enigma is unbreakable. Cipher Enigma is deciphered by a machine.",
+        "conclusion": "Cryptographer Turing knows cipher Enigma is unbreakable.",
+        "label": "False"
+    },
+    {
+        "id": "new_417",
+        "premises": "For any driver D and road R, if D believes R is clear, D accelerates. If D knows R is blocked, D stops completely. Driver Leo believes Highway 66 is clear. Highway 66 is actually blocked by a fallen tree.",
+        "conclusion": "Driver Leo stops completely.",
+        "label": "False"
+    },
+    {
+        "id": "new_418",
+        "premises": "For any philosopher P and concept C, if P knows C is an illusion, C does not physically exist. Philosopher Kant knows the concept of absolute space is an illusion.",
+        "conclusion": "The concept of absolute space physically exists.",
+        "label": "False"
+    },
+    {
+        "id": "new_419",
+        "premises": "For any investor I and stock S, if I believes S will rise, I buys S. If I knows S will crash, I sells S. Investor Warren knows TechStock will crash.",
+        "conclusion": "Investor Warren sells TechStock.",
+        "label": "True"
+    },
+    {
+        "id": "new_420",
+        "premises": "For any child C and entity E, if C believes E lives under the bed, it does not mean E actually exists. Child Timmy believes the Monster lives under the bed. No biological entities live under Timmy's bed.",
+        "conclusion": "The Monster actually exists and lives under Timmy's bed.",
+        "label": "False"
+    },
+    {
+        "id": "new_421",
+        "premises": "For any astronaut A and planet P, if A knows P has oxygen, A can remove the helmet. If A only believes P has oxygen, A is strictly forbidden from removing the helmet. Astronaut Yuri only believes Mars has oxygen.",
+        "conclusion": "Astronaut Yuri is strictly forbidden from removing the helmet.",
+        "label": "True"
+    },
+    {
+        "id": "new_422",
+        "premises": "For any jury J and defendant D, if J believes D is guilty beyond reasonable doubt, D is convicted. If J knows D is innocent, D is acquitted. The Jury believes Defendant Clark is guilty beyond reasonable doubt. Defendant Clark is factually innocent.",
+        "conclusion": "Defendant Clark is acquitted.",
+        "label": "False"
+    },
+    {
+        "id": "new_423",
+        "premises": "For any mechanic M and engine E, if M knows E is irreparably damaged, M scraps E. Mechanic Bob believes Engine V8 is irreparably damaged, but he does not know it for a fact.",
+        "conclusion": "Mechanic Bob scraps Engine V8.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_424",
+        "premises": "For any user U and email E, if U knows E is phishing, U deletes E. User Dave believes the bank email is legitimate. The bank email is actually a phishing attempt.",
+        "conclusion": "User Dave deletes the bank email.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_425",
+        "premises": "For any agent A, if A knows proposition X, then A knows that A knows proposition X. Agent Eva knows the diamond is in the safe.",
+        "conclusion": "Agent Eva knows that she knows the diamond is in the safe.",
+        "label": "True"
+    },
+    {
+        "id": "new_426",
+        "premises": "For any captain C and ship S, if C believes S is sinking, C orders an evacuation. Captain Ahab does not believe the Pequod is sinking. The Pequod is actually sinking rapidly.",
+        "conclusion": "Captain Ahab orders an evacuation.",
+        "label": "False"
+    },
+    {
+        "id": "new_427",
+        "premises": "For any biologist B and species S, if B knows S is extinct, then S has absolutely no living members. Biologist Darwin knows the Dodo is extinct.",
+        "conclusion": "The Dodo has absolutely no living members.",
+        "label": "True"
+    },
+    {
+        "id": "new_428",
+        "premises": "For any AI agent A and dataset D, if A believes D is unbiased, A trains on D. If D is actually biased, A's output becomes skewed. AI System X believes Dataset Y is unbiased. Dataset Y is actually biased.",
+        "conclusion": "AI System X's output becomes skewed.",
+        "label": "True"
+    },
+    {
+        "id": "new_429",
+        "premises": "For any player P and card C, if P knows C is an Ace, P bets high. If P believes C is a King, P bets low. Player Jack believes his hidden card is a King. The hidden card is actually an Ace.",
+        "conclusion": "Player Jack bets high.",
+        "label": "False"
+    },
+    {
+        "id": "new_430",
+        "premises": "For any security guard G and door D, if G knows D is locked, G ignores D. If G does not know D is locked, G physically checks D. Guard Mike knows the front door is locked.",
+        "conclusion": "Guard Mike physically checks the front door.",
+        "label": "False"
+    },
+    {
+        "id": "new_431",
+        "premises": "For any meteorologist M and city C, if M knows a tornado will hit C, M issues a red alert. If M merely believes a tornado will hit C, M issues a yellow watch. Meteorologist Sarah merely believes a tornado will hit City Dallas.",
+        "conclusion": "Meteorologist Sarah issues a red alert.",
+        "label": "False"
+    },
+    {
+        "id": "new_432",
+        "premises": "For any spy S and document D, if S believes D is a trap, S leaves D untouched. Spy Bond believes the dossier on the desk is a trap. The dossier on the desk is actually genuine intel.",
+        "conclusion": "Spy Bond leaves the dossier untouched.",
+        "label": "True"
+    },
+    {
+        "id": "new_433",
+        "premises": "For any archeologist A and artifact F, if A knows F is a fake, F holds no historical value. Archeologist Jones believes the golden idol is a fake, but does not know it for certain. The golden idol is actually an authentic relic from 3000 BC.",
+        "conclusion": "The golden idol holds no historical value.",
+        "label": "False"
+    },
+    {
+        "id": "new_434",
+        "premises": "For any voter V and candidate C, if V believes C is honest, V votes for C. Voter Alice believes Candidate Bob is honest. Candidate Bob is actually a chronic liar.",
+        "conclusion": "Voter Alice votes for Candidate Bob.",
+        "label": "True"
+    },
+    {
+        "id": "new_435",
+        "premises": "For any pharmacist P and drug D, if P knows D is expired, P discards D. If P believes D is fresh, P sells D. Pharmacist Claire believes the aspirin is fresh. The aspirin expired two years ago.",
+        "conclusion": "Pharmacist Claire discards the aspirin.",
+        "label": "False"
+    },
+    {
+        "id": "new_436",
+        "premises": "For any student S and exam E, if S knows the answer to E, S writes it down. If S writes it down, S scores a point. Student Mark knows the answer to Question 5.",
+        "conclusion": "Student Mark scores a point.",
+        "label": "True"
+    },
+    {
+        "id": "new_437",
+        "premises": "For any librarian L and book B, if L knows B is misclassified, L updates the catalog. Librarian Nancy does not know the physics book is misclassified in the fiction section.",
+        "conclusion": "Librarian Nancy updates the catalog.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_438",
+        "premises": "For any referee R and foul F, if R knows F occurred, R blows the whistle. If R believes F was a dive, R waves play on. Referee Howard believes the tackle was a dive. The tackle was actually a brutal foul.",
+        "conclusion": "Referee Howard blows the whistle.",
+        "label": "False"
+    },
+    {
+        "id": "new_439",
+        "premises": "For any engineer E and bridge B, if E knows B is structurally unsound, E closes B. Engineer Tesla knows the Brooklyn Bridge is structurally unsound.",
+        "conclusion": "The Brooklyn Bridge is structurally unsound.",
+        "label": "True"
+    },
+    {
+        "id": "new_440",
+        "premises": "For any geologist G and volcano V, if G believes V is dormant, G establishes a base camp near V. Geologist Stone establishes a base camp near Volcano Etna.",
+        "conclusion": "Geologist Stone knows Volcano Etna is dormant.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_441",
+        "premises": "For any agent X, if X firmly believes statement P, and statement P contradicts statement Q, X cannot rationally firmly believe statement Q at the same time. Agent Fox firmly believes the Earth is perfectly flat. The statement 'The Earth is a sphere' contradicts the statement 'The Earth is perfectly flat'.",
+        "conclusion": "Agent Fox rationally firmly believes the Earth is a sphere at the same time.",
+        "label": "False"
+    },
+    {
+        "id": "new_442",
+        "premises": "For any sniper S and target T, if S knows T is wearing armor, S aims for the head. If S believes T is unarmored, S aims for the chest. Sniper Ghost believes the hostile is unarmored. The hostile is wearing heavy Kevlar armor.",
+        "conclusion": "Sniper Ghost aims for the head.",
+        "label": "False"
+    },
+    {
+        "id": "new_443",
+        "premises": "For any parent P and child C, if P knows C is lying, P grounds C. Parent Martha believes her son Thomas is telling the truth. Thomas is actually lying about the broken vase.",
+        "conclusion": "Parent Martha grounds Thomas.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_444",
+        "premises": "For any auditor A and company C, if A knows C is committing fraud, A reports C to the authorities. Auditor KPMG knows Company Enron is committing fraud.",
+        "conclusion": "Auditor KPMG reports Company Enron to the authorities.",
+        "label": "True"
+    },
+    {
+        "id": "new_445",
+        "premises": "For any chess player C and move M, if C knows M leads to a checkmate in one, C executes M. Chess player Kasparov knows moving the Queen to h7 leads to a checkmate in one.",
+        "conclusion": "Chess player Kasparov executes moving the Queen to h7.",
+        "label": "True"
+    },
+    {
+        "id": "new_446",
+        "premises": "For any botanist B and plant P, if B believes P is poisonous, B wears gloves to handle it. Botanist Ivy believes the Belladonna plant is poisonous. The Belladonna plant is completely harmless.",
+        "conclusion": "Botanist Ivy wears gloves to handle the Belladonna plant.",
+        "label": "True"
+    },
+    {
+        "id": "new_447",
+        "premises": "For any programmer P and variable V, if P knows V is uninitialized, P assigns a default value to V. Programmer Linus believes the pointer 'ptr' is uninitialized, but does not know it for sure.",
+        "conclusion": "Programmer Linus assigns a default value to the pointer 'ptr'.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_448",
+        "premises": "For any linguist L and dialect D, if L knows D is a dead language, L classifies it as extinct. Linguist Chomsky knows Latin is a dead language.",
+        "conclusion": "Latin is a dead language.",
+        "label": "True"
+    },
+    {
+        "id": "new_449",
+        "premises": "For any detective D and alibi A, if D knows A is fabricated, D arrests the suspect. Detective Holmes knows Moriarty's alibi is fabricated.",
+        "conclusion": "Detective Holmes arrests Moriarty.",
+        "label": "True"
+    },
+    {
+        "id": "new_450",
+        "premises": "For any navigator N and map M, if N believes M is accurate, N follows the charted path. If N knows M is outdated, N recalculates the route. Navigator Magellan believes the old parchment map is accurate. The old parchment map is completely outdated.",
+        "conclusion": "Navigator Magellan recalculates the route.",
+        "label": "False"
+    },
+    {
+        "id": "new_451",
+        "premises": "For any action A, if A is legally obligatory, then A is officially permitted. Filing taxes is legally obligatory for Citizen John.",
+        "conclusion": "Filing taxes is officially permitted for Citizen John.",
+        "label": "True"
+    },
+    {
+        "id": "new_452",
+        "premises": "For any action A, if A is strictly forbidden, A is absolutely not permitted. If A is officially permitted, A is not strictly forbidden. Parking in the red zone is officially permitted for the ambulance.",
+        "conclusion": "Parking in the red zone is strictly forbidden for the ambulance.",
+        "label": "False"
+    },
+    {
+        "id": "new_453",
+        "premises": "For any action A, if A is officially permitted, it does not necessarily mean A is legally obligatory. Doctor Adams is officially permitted to prescribe Medicine X.",
+        "conclusion": "Doctor Adams is legally obligatory to prescribe Medicine X.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_454",
+        "premises": "For any action A, if A physically occurs, it does not imply that A is officially permitted. Action 'Trespassing' physically occurs at the facility.",
+        "conclusion": "Action 'Trespassing' is officially permitted at the facility.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_455",
+        "premises": "For any person P and action A, if A is legally obligatory for P, it is possible that P never physically performs A. If P does not wear a seatbelt, P does not physically perform the action of wearing a seatbelt. Wearing a seatbelt is legally obligatory for Driver Bob. Driver Bob does not wear a seatbelt.",
+        "conclusion": "Driver Bob physically performs the action of wearing a seatbelt.",
+        "label": "False"
+    },
+    {
+        "id": "new_456",
+        "premises": "For any employee E, if E is on medical leave, E is explicitly exempted from the obligation to attend meetings. If an employee is explicitly exempted from an obligation, the employee is not obligated to perform it. Employee Sarah is on medical leave.",
+        "conclusion": "Employee Sarah is obligated to attend meetings.",
+        "label": "False"
+    },
+    {
+        "id": "new_457",
+        "premises": "For any player P, if P commits a foul, P is obligated to leave the field. If P is obligated to leave the field, P is strictly forbidden from touching the ball. Player Delta commits a foul.",
+        "conclusion": "Player Delta is strictly forbidden from touching the ball.",
+        "label": "True"
+    },
+    {
+        "id": "new_458",
+        "premises": "For any contract C, if C is signed, Party A is obligated to pay Party B. If Party A goes bankrupt, Party A's obligation to pay is permanently voided. If an obligation is permanently voided, Party A is not obligated to pay. Contract Alpha is signed. Party A goes bankrupt.",
+        "conclusion": "Party A is obligated to pay Party B.",
+        "label": "False"
+    },
+    {
+        "id": "new_459",
+        "premises": "For any system user U, if U has 'Read' permission, U is permitted to view the file. If U has 'Write' permission, U is permitted to edit the file. Having 'Read' permission does not imply having 'Write' permission. User Guest has 'Read' permission.",
+        "conclusion": "User Guest is permitted to edit the file.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_460",
+        "premises": "For any action A, if A is forbidden under Civil Law but obligated under Military Law, Military Law strictly overrides Civil Law for soldiers. For any soldier S and action A, if Military Law overrides Civil Law, and A is obligated under Military Law, then A is permitted for S. Action 'Crossing_Border' is forbidden under Civil Law and obligated under Military Law. Jack is a soldier.",
+        "conclusion": "Action 'Crossing_Border' is permitted for Jack.",
+        "label": "True"
+    },
+    {
+        "id": "new_461",
+        "premises": "For any citizen C, C is permitted to vote if and only if C is officially registered. Citizen Emily is not permitted to vote.",
+        "conclusion": "Citizen Emily is officially registered.",
+        "label": "False"
+    },
+    {
+        "id": "new_462",
+        "premises": "For any tenant T, if T pays the security deposit, T is permitted to keep a pet. If one is permitted to keep a pet, it implies one actually keeps a pet. Tenant Mark pays the security deposit.",
+        "conclusion": "Tenant Mark actually keeps a pet.",
+        "label": "True"
+    },
+    {
+        "id": "new_463",
+        "premises": "For any action A, if A is morally praiseworthy, it does not imply A is legally obligatory. Donating to charity is morally praiseworthy.",
+        "conclusion": "Donating to charity is legally obligatory.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_464",
+        "premises": "For any drone D, D is strictly forbidden from flying over the airport. If an action is strictly forbidden, it is not permitted, even if it physically occurs. Drone Zephyr physically flies over the airport.",
+        "conclusion": "Drone Zephyr is permitted to fly over the airport.",
+        "label": "False"
+    },
+    {
+        "id": "new_465",
+        "premises": "For any nurse N, if N administers a drug, N is obligated to log the time. If N is obligated to log the time and forgets to do so, N fails to fulfill an obligation. If N fails to fulfill an obligation, N violates an obligation. Nurse Carol administers a drug and forgets to log the time.",
+        "conclusion": "Nurse Carol violates an obligation.",
+        "label": "True"
+    },
+    {
+        "id": "new_466",
+        "premises": "For any action A, if A is permitted, the omission of A is also permitted. If an action is permitted, it is not strictly forbidden. Action 'Taking_a_Break' is permitted.",
+        "conclusion": "The omission of Action 'Taking_a_Break' is strictly forbidden.",
+        "label": "False"
+    },
+    {
+        "id": "new_467",
+        "premises": "For any rule R, if R is actively enforced, any violation of R implies receiving an immediate penalty. Rule 'No_Smoking' is actively enforced. Person X violates Rule 'No_Smoking'.",
+        "conclusion": "Person X receives an immediate penalty.",
+        "label": "True"
+    },
+    {
+        "id": "new_468",
+        "premises": "For any software S, if S is open-source, users are permitted to modify its code. If users are permitted to modify its code, users are permitted to distribute it. If users are permitted to distribute it, users are not forbidden from distributing it. Software Linux is open-source.",
+        "conclusion": "Users are forbidden from distributing Software Linux.",
+        "label": "False"
+    },
+    {
+        "id": "new_469",
+        "premises": "For any command C, if C is issued by the Captain, the crew is unconditionally obligated to execute C. The Captain issues Command 'Abandon_Ship'. The crew does not execute Command 'Abandon_Ship'.",
+        "conclusion": "The crew is unconditionally obligated to execute Command 'Abandon_Ship'.",
+        "label": "True"
+    },
+    {
+        "id": "new_470",
+        "premises": "For any passenger P, P is permitted to carry one bag. If P pays an extra fee, P is permitted to carry two bags. Passenger Leo does not pay an extra fee.",
+        "conclusion": "Passenger Leo is permitted to carry two bags.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_471",
+        "premises": "For any actions A and B, if doing A obligates one to do B, and B is strictly forbidden, then A is strictly forbidden. Doing 'Hacking' obligates one to do 'Data_Theft'. 'Data_Theft' is strictly forbidden.",
+        "conclusion": "Doing 'Hacking' is strictly forbidden.",
+        "label": "True"
+    },
+    {
+        "id": "new_472",
+        "premises": "For any AI agent A, A is obligated to protect human life. If an action harms a human, it is strictly forbidden. Action 'Diverting_Train' harms a human.",
+        "conclusion": "Action 'Diverting_Train' is strictly forbidden.",
+        "label": "True"
+    },
+    {
+        "id": "new_473",
+        "premises": "For any vehicle V, if V is a bicycle, V is permitted to use the bike lane. If V is a motorcycle, V is forbidden from using the bike lane. Vehicle Gamma uses the bike lane.",
+        "conclusion": "Vehicle Gamma is a bicycle.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_474",
+        "premises": "For any loan L, if the due date passes, the borrower is obligated to pay a late fee. If the borrower is obligated to pay a late fee and pays it, the borrower successfully fulfills their obligation. The due date for Loan 101 passes. The borrower pays the late fee.",
+        "conclusion": "The borrower successfully fulfills their obligation.",
+        "label": "True"
+    },
+    {
+        "id": "new_475",
+        "premises": "For any building B, if B has a fire alarm sounding, evacuation is obligatory. If evacuation is obligatory, remaining inside is strictly forbidden. If remaining inside is strictly forbidden and a person remains inside, they perform a strictly forbidden action. Building Alpha has a fire alarm sounding. Person K remains inside Building Alpha.",
+        "conclusion": "Person K performs a strictly forbidden action.",
+        "label": "True"
+    },
+    {
+        "id": "new_476",
+        "premises": "For any secret S, if S is classified, an employee is forbidden from sharing S. If an employee shares S, they are obligated to report the breach. Employee Dan shares Secret S. Secret S is classified.",
+        "conclusion": "Employee Dan is obligated to report the breach.",
+        "label": "True"
+    },
+    {
+        "id": "new_477",
+        "premises": "For any teacher T, T is permitted to assign homework. T is not obligated to assign homework. If an action is permitted, it is not an action one is forbidden from doing. Teacher Smith assigns homework.",
+        "conclusion": "Teacher Smith performs an action he is forbidden from doing.",
+        "label": "False"
+    },
+    {
+        "id": "new_478",
+        "premises": "For any action A, if A is a human right, the government is forbidden from preventing A. If the government is forbidden from preventing A, the government is not permitted to prevent A. Action 'Free_Speech' is a human right.",
+        "conclusion": "The government is permitted to prevent Action 'Free_Speech'.",
+        "label": "False"
+    },
+    {
+        "id": "new_479",
+        "premises": "For any agent X, if X promises to do Y, X is morally obligated to do Y. A moral obligation to do Y remains even if physical execution of Y is impossible. Agent X promises to attend the meeting. Agent X's car breaks down, making it physically impossible to attend the meeting.",
+        "conclusion": "Agent X is morally obligated to attend the meeting.",
+        "label": "True"
+    },
+    {
+        "id": "new_480",
+        "premises": "For any code C, if C is a building code, compliance is obligatory. If compliance is obligatory and a contractor complies, they perform an obligatory action. Code 404 is a building code. Contractor Ben complies with Code 404.",
+        "conclusion": "Contractor Ben performs an obligatory action.",
+        "label": "True"
+    },
+    {
+        "id": "new_481",
+        "premises": "For any action A, if A is permitted during peacetime, it might be forbidden during wartime. Action 'Curfew_Violation' is permitted during peacetime. The country is currently in wartime.",
+        "conclusion": "Action 'Curfew_Violation' is forbidden.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_482",
+        "premises": "For any pet P, if P is a dog, P is obligated to be on a leash in the park. Being obligated to be on a leash does not imply actually being on a leash. Pet Fido is not on a leash in the park.",
+        "conclusion": "Pet Fido is not a dog.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_483",
+        "premises": "For any database D, if D contains medical records, unauthorized access is forbidden. If unauthorized access is forbidden, accessing D requires a cryptographic key. Database Health_DB contains medical records.",
+        "conclusion": "Accessing Database Health_DB requires a cryptographic key.",
+        "label": "True"
+    },
+    {
+        "id": "new_484",
+        "premises": "For any judge J, J is obligated to recuse themselves if there is a conflict of interest. If J is obligated to recuse themselves and does not recuse themselves, J does not fulfill their obligation. Judge Harvey has a conflict of interest. Judge Harvey does not recuse himself.",
+        "conclusion": "Judge Harvey fulfills his obligation.",
+        "label": "False"
+    },
+    {
+        "id": "new_485",
+        "premises": "For any action A, if A is supererogatory, A is permitted but A is absolutely not obligatory. Action 'Saving_a_Stranger' is supererogatory.",
+        "conclusion": "Action 'Saving_a_Stranger' is obligatory.",
+        "label": "False"
+    },
+    {
+        "id": "new_486",
+        "premises": "For any protocol P, if P is deprecated, using P is forbidden. If using P is forbidden, any system relying on P fails the compliance audit. Protocol FTP is deprecated. System X relies on Protocol FTP.",
+        "conclusion": "System X fails the compliance audit.",
+        "label": "True"
+    },
+    {
+        "id": "new_487",
+        "premises": "For any student S, S is permitted to leave the room if and only if the bell rings. If S leaves the room when leaving is not permitted, S does not perform a permitted action. The bell has not rung. Student Max leaves the room.",
+        "conclusion": "Student Max performs a permitted action.",
+        "label": "False"
+    },
+    {
+        "id": "new_488",
+        "premises": "For any privilege P, if P is granted by the administrator, P can be revoked by the administrator. Privilege 'Admin_Access' is granted by the administrator to User Tom.",
+        "conclusion": "Privilege 'Admin_Access' can be revoked by the administrator.",
+        "label": "True"
+    },
+    {
+        "id": "new_489",
+        "premises": "For any action A, if A is forbidden, encouraging another person to do A is also forbidden. If a person encourages a forbidden action, they perform a forbidden action. Action 'Cheating' is forbidden. Student Alice encourages Student Bob to do Action 'Cheating'.",
+        "conclusion": "Student Alice performs a forbidden action.",
+        "label": "True"
+    },
+    {
+        "id": "new_490",
+        "premises": "For any merchant M, if M accepts credit cards, M is obligated to pay a processing fee. Merchant Zara is obligated to pay a processing fee.",
+        "conclusion": "Merchant Zara accepts credit cards.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_491",
+        "premises": "For any country C, if C signs the treaty, C is forbidden from developing nuclear weapons. If an action is forbidden, it is not permitted. Country Delta signs the treaty. Country Delta physically develops nuclear weapons.",
+        "conclusion": "Country Delta is permitted to develop nuclear weapons.",
+        "label": "False"
+    },
+    {
+        "id": "new_492",
+        "premises": "For any action A, if doing A is obligatory, then deliberately putting oneself in a state where A is impossible is strictly forbidden. Fleeing the country is deliberately putting oneself in a state where 'Court_Appearance' is impossible. If one performs an action that is strictly forbidden, one performs a strictly forbidden action. Doing 'Court_Appearance' is obligatory for Suspect X. Suspect X flees the country.",
+        "conclusion": "Suspect X performs a strictly forbidden action.",
+        "label": "True"
+    },
+    {
+        "id": "new_493",
+        "premises": "For any worker W, if W wears a hard hat, W is permitted to enter the construction zone. Worker Liam is permitted to enter the construction zone.",
+        "conclusion": "Worker Liam wears a hard hat.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_494",
+        "premises": "For any action A, if A is conditionally permitted on B, and B is false, then A is forbidden. Action 'Overtaking' is conditionally permitted on 'Clear_Road'. 'Clear_Road' is false.",
+        "conclusion": "Action 'Overtaking' is forbidden.",
+        "label": "True"
+    },
+    {
+        "id": "new_495",
+        "premises": "For any doctor D, if D treats a patient, D is obligated to maintain confidentiality. If D shares a patient's details on a public blog, D does not maintain confidentiality. If D is obligated to maintain confidentiality and does not, D violates an obligation. Doctor Evans treats Patient Y. Doctor Evans shares Patient Y's details on a public blog.",
+        "conclusion": "Doctor Evans violates an obligation.",
+        "label": "True"
+    },
+    {
+        "id": "new_496",
+        "premises": "For any item I, if I is abandoned property, anyone is permitted to claim it. If an action is permitted, the action is not theft. Committing theft means the action is theft. Item 'Old_Bicycle' is abandoned property. Person Z claims Item 'Old_Bicycle'.",
+        "conclusion": "Person Z commits theft.",
+        "label": "False"
+    },
+    {
+        "id": "new_497",
+        "premises": "For any action A, if the Sovereign commands A, A becomes legally obligatory. The Sovereign commands Action 'Build_Wall'.",
+        "conclusion": "Action 'Build_Wall' becomes legally obligatory.",
+        "label": "True"
+    },
+    {
+        "id": "new_498",
+        "premises": "For any guardian G and child C, G is obligated to provide education for C. Not providing education when obligated is a failure to fulfill an obligation. A failure to fulfill an obligation constitutes a normative violation. Guardian Paul does not provide education for Child Sam.",
+        "conclusion": "Guardian Paul commits a normative violation.",
+        "label": "True"
+    },
+    {
+        "id": "new_499",
+        "premises": "For any action A, if A is forbidden by state law but permitted by federal law, federal law does not override state law unless explicitly stated. If an action is forbidden by state law, it is not permitted by state law. Action 'Selling_Herb' is forbidden by state law and permitted by federal law. It is not explicitly stated that federal law overrides state law here.",
+        "conclusion": "Action 'Selling_Herb' is permitted by state law.",
+        "label": "False"
+    },
+    {
+        "id": "new_500",
+        "premises": "For any logical system L, if L is a standard deontic logic, the axiom 'Obligatory A implies Permitted A' is inherently true. If the axiom is inherently true in L, then in L, if an action is obligatory, it is permitted. System Alpha is a standard deontic logic.",
+        "conclusion": "In System Alpha, if an action is obligatory, it is permitted.",
+        "label": "True"
+    },
+    {
+        "id": "new_501",
+        "premises": "For any event E, if E is necessarily true, then it is absolutely impossible for E to be false. If it is impossible for E to be false, then E is true in all possible scenarios. Event 'Sun_Expanding' is necessarily true.",
+        "conclusion": "Event 'Sun_Expanding' is true in all possible scenarios.",
+        "label": "True"
+    },
+    {
+        "id": "new_502",
+        "premises": "For any fact F, if F is necessarily true, then F is factually true in the current reality. If F is factually true in the current reality, then F is possibly true. Fact 'Water_Is_H2O' is necessarily true.",
+        "conclusion": "Fact 'Water_Is_H2O' is possibly true.",
+        "label": "True"
+    },
+    {
+        "id": "new_503",
+        "premises": "For any action A, if A is possibly true, it means there exists at least one valid scenario where A occurs. Action 'Winning_Lottery' is possibly true. If an action is possibly true, it does not imply the action is factually true in the current reality.",
+        "conclusion": "Action 'Winning_Lottery' is factually true in the current reality.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_504",
+        "premises": "For any state S, if S is impossible, then S is necessarily false. If S is necessarily false, S is absolutely not possibly true. State 'Square_Circle' is impossible.",
+        "conclusion": "State 'Square_Circle' is possibly true.",
+        "label": "False"
+    },
+    {
+        "id": "new_505",
+        "premises": "For any theory T, if T is factually true in the current reality, then T is possibly true. If T is possibly true, it is not necessarily true unless explicitly proven. Theory 'Aliens_Exist' is factually true in the current reality.",
+        "conclusion": "Theory 'Aliens_Exist' is necessarily true.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_506",
+        "premises": "For any rule R, if R is necessarily true, then it is necessarily necessary that R is true. Rule 'Identity_Law' is necessarily true. If it is necessarily necessary that R is true, then R holds in all worlds accessible from all accessible worlds.",
+        "conclusion": "Rule 'Identity_Law' holds in all worlds accessible from all accessible worlds.",
+        "label": "True"
+    },
+    {
+        "id": "new_507",
+        "premises": "For any variable X, if it is possibly possible that X equals 5, then it is possibly true that X equals 5. It is possibly possible that Variable Y equals 5.",
+        "conclusion": "It is possibly true that Variable Y equals 5.",
+        "label": "True"
+    },
+    {
+        "id": "new_508",
+        "premises": "For any propositions P and Q, if it is necessarily true that (If P then Q), and it is necessarily true that P, then it is necessarily true that Q. It is necessarily true that (If Shape_A is a triangle, then Shape_A has three sides). It is necessarily true that Shape_A is a triangle.",
+        "conclusion": "It is necessarily true that Shape_A has three sides.",
+        "label": "True"
+    },
+    {
+        "id": "new_509",
+        "premises": "For any propositions P and Q, if it is necessarily true that (If P then Q), and P is possibly true, then Q is possibly true. It is necessarily true that (If Door_Open, then Alarm_Rings). It is possibly true that Door_Open.",
+        "conclusion": "Alarm_Rings is necessarily true.",
+        "label": "False"
+    },
+    {
+        "id": "new_510",
+        "premises": "For any event E, it is not possible that E is both necessarily true and necessarily false simultaneously. Event 'System_Crash' is necessarily false.",
+        "conclusion": "Event 'System_Crash' is necessarily true.",
+        "label": "False"
+    },
+    {
+        "id": "new_511",
+        "premises": "For any substance S, if S is necessarily a liquid at room temperature, then S is a liquid at room temperature. Substance Mercury is necessarily a liquid at room temperature.",
+        "conclusion": "Substance Mercury is a liquid at room temperature.",
+        "label": "True"
+    },
+    {
+        "id": "new_512",
+        "premises": "For any historical outcome H, if H actually occurred, then H was possibly true before it occurred. Outcome 'Empire_Falls' actually occurred.",
+        "conclusion": "Outcome 'Empire_Falls' was possibly true before it occurred.",
+        "label": "True"
+    },
+    {
+        "id": "new_513",
+        "premises": "For any object O, if it is necessarily true that O exists, then O cannot possibly fail to exist. It is necessarily true that Object Math_Constant_Pi exists.",
+        "conclusion": "Object Math_Constant_Pi can possibly fail to exist.",
+        "label": "False"
+    },
+    {
+        "id": "new_514",
+        "premises": "For any statements A and B, if it is possible that (A and B) is true, then it is possible that A is true, and it is possible that B is true. It is possible that (Snowing and Sunny) is true.",
+        "conclusion": "It is possible that Snowing is true.",
+        "label": "True"
+    },
+    {
+        "id": "new_515",
+        "premises": "For any statements A and B, if it is possible that A is true, and it is possible that B is true, it does not imply that it is possible that (A and B) are true simultaneously. It is possible that Box_X is completely empty. It is possible that Box_X is completely full.",
+        "conclusion": "It is possible that Box_X is completely empty and Box_X is completely full simultaneously.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_516",
+        "premises": "For any physical law L, if L is physically necessary, L holds in all physically accessible worlds. Law 'Conservation_of_Energy' is physically necessary. World Beta is a physically accessible world.",
+        "conclusion": "Law 'Conservation_of_Energy' holds in World Beta.",
+        "label": "True"
+    },
+    {
+        "id": "new_517",
+        "premises": "For any agent X, if X necessarily has trait T, then any entity that is identical to X necessarily has trait T. Agent Clark necessarily has trait 'Kryptonian'. Entity Superman is identical to Agent Clark.",
+        "conclusion": "Entity Superman necessarily has trait 'Kryptonian'.",
+        "label": "True"
+    },
+    {
+        "id": "new_518",
+        "premises": "For any event E, if E is contingent, then E is possibly true and E is possibly false. Event 'Raining_Tomorrow' is contingent. If an event is possibly false, it is not necessarily true.",
+        "conclusion": "Event 'Raining_Tomorrow' is necessarily true.",
+        "label": "False"
+    },
+    {
+        "id": "new_519",
+        "premises": "For any number N, if N is necessarily prime, then N cannot be factored into two smaller integers greater than 1. Number 7 is necessarily prime.",
+        "conclusion": "Number 7 can be factored into two smaller integers greater than 1.",
+        "label": "False"
+    },
+    {
+        "id": "new_520",
+        "premises": "For any machine M, if M is possibly broken, then M requires an inspection. Machine Generator_1 is possibly broken. If a machine requires an inspection, it must be halted.",
+        "conclusion": "Machine Generator_1 must be halted.",
+        "label": "True"
+    },
+    {
+        "id": "new_521",
+        "premises": "For any theorem T, if T is provable, then T is necessarily true. Theorem Fermat_Last is provable. If T is necessarily true, then the negation of T is impossible.",
+        "conclusion": "The negation of Theorem Fermat_Last is impossible.",
+        "label": "True"
+    },
+    {
+        "id": "new_522",
+        "premises": "For any scenario S, if S is logically possible, S does not contain any contradictions. Scenario 'Flying_Pigs' is logically possible. If a scenario is physically impossible, it can still be logically possible. Scenario 'Flying_Pigs' is physically impossible.",
+        "conclusion": "Scenario 'Flying_Pigs' contains contradictions.",
+        "label": "False"
+    },
+    {
+        "id": "new_523",
+        "premises": "For any system state S, if it is necessarily true that S is secure, then no cyber attack can possibly succeed against S. It is necessarily true that System Alpha is secure. Cyber attack Trojan_Horse targets System Alpha.",
+        "conclusion": "Cyber attack Trojan_Horse can possibly succeed against System Alpha.",
+        "label": "False"
+    },
+    {
+        "id": "new_524",
+        "premises": "For any entity E, if E is necessarily a mammal, then E is necessarily warm-blooded. Entity Whiskers is necessarily a mammal.",
+        "conclusion": "Entity Whiskers is necessarily warm-blooded.",
+        "label": "True"
+    },
+    {
+        "id": "new_525",
+        "premises": "For any outcome O, if O is necessarily false, then O is impossible. If O is impossible, then O never occurs in reality. Outcome 'Rolling_a_7_on_a_standard_D6' is necessarily false.",
+        "conclusion": "Outcome 'Rolling_a_7_on_a_standard_D6' occurs in reality.",
+        "label": "False"
+    },
+    {
+        "id": "new_526",
+        "premises": "For any logic circuit C, if C is necessarily outputting 1, then its power source is necessarily active. Circuit Beta is outputting 1 in the current reality, but it is not necessarily outputting 1.",
+        "conclusion": "The power source of Circuit Beta is necessarily active.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_527",
+        "premises": "For any mathematical proposition P, if P is necessarily true, then it is necessarily true that P is necessarily true (Axiom S4). Proposition '1+1=2' is necessarily true.",
+        "conclusion": "It is necessarily true that Proposition '1+1=2' is necessarily true.",
+        "label": "True"
+    },
+    {
+        "id": "new_528",
+        "premises": "For any concept C, if C is possibly true, then it is necessarily true that C is possibly true (Axiom S5). Concept 'Time_Travel' is possibly true.",
+        "conclusion": "It is necessarily true that Concept 'Time_Travel' is possibly true.",
+        "label": "True"
+    },
+    {
+        "id": "new_529",
+        "premises": "For any rule R, if R is necessarily true, then R is true in every accessible possible world. Rule 'No_Two_Solid_Objects_Occupy_Same_Space' is necessarily true. World Gamma is an accessible possible world.",
+        "conclusion": "Rule 'No_Two_Solid_Objects_Occupy_Same_Space' is true in World Gamma.",
+        "label": "True"
+    },
+    {
+        "id": "new_530",
+        "premises": "For any prediction P, if P is possibly true, there is at least one accessible world where P is true. Prediction 'Market_Crashes' is possibly true. If a prediction is true in at least one accessible world, it is not necessarily false.",
+        "conclusion": "Prediction 'Market_Crashes' is necessarily false.",
+        "label": "False"
+    },
+    {
+        "id": "new_531",
+        "premises": "For any strict implication, if it is necessarily true that (A implies B), then it is impossible for A to be true while B is false. It is necessarily true that (Fire implies Heat).",
+        "conclusion": "It is possible for Fire to be true while Heat is false.",
+        "label": "False"
+    },
+    {
+        "id": "new_532",
+        "premises": "For any event E, if E is necessarily possibly true, then E is possibly true. Event 'Finding_Cure' is necessarily possibly true.",
+        "conclusion": "Event 'Finding_Cure' is possibly true.",
+        "label": "True"
+    },
+    {
+        "id": "new_533",
+        "premises": "For any identity statement I, if I is true, then I is necessarily true. Identity statement 'Hesperus_is_Phosphorus' is true.",
+        "conclusion": "Identity statement 'Hesperus_is_Phosphorus' is necessarily true.",
+        "label": "True"
+    },
+    {
+        "id": "new_534",
+        "premises": "For any property P, if an object necessarily has P, and the object loses P, the object ceases to exist. Object 'Triangle' necessarily has the property 'Three_Sided'. Object 'Triangle' loses the property 'Three_Sided'.",
+        "conclusion": "Object 'Triangle' ceases to exist.",
+        "label": "True"
+    },
+    {
+        "id": "new_535",
+        "premises": "For any state S, if S is contingently true, then S is true in the actual world but false in at least one possible world. State 'Earth_Has_One_Moon' is contingently true.",
+        "conclusion": "State 'Earth_Has_One_Moon' is necessarily true.",
+        "label": "False"
+    },
+    {
+        "id": "new_536",
+        "premises": "For any disease D, if D is possibly contagious, then quarantine protocols must be strictly prepared. Disease Y is possibly contagious. If quarantine protocols must be strictly prepared, funding is required.",
+        "conclusion": "Funding is required.",
+        "label": "True"
+    },
+    {
+        "id": "new_537",
+        "premises": "For any material M, if it is impossible for M to melt, then M necessarily remains solid at any temperature. It is impossible for Material Unobtainium to melt.",
+        "conclusion": "Material Unobtainium necessarily remains solid at any temperature.",
+        "label": "True"
+    },
+    {
+        "id": "new_538",
+        "premises": "For any software bug B, if B is possibly present, the code must be reviewed. Bug Overflow_1 is possibly present. Bug Memory_Leak is necessarily absent. If a bug is necessarily absent, it is not possibly present.",
+        "conclusion": "The code must be reviewed because of Bug Memory_Leak.",
+        "label": "False"
+    },
+    {
+        "id": "new_539",
+        "premises": "For any action A, if it is necessarily true that A causes B, and A physically occurs, then B necessarily occurs. It is necessarily true that (Dropping_Glass causes Glass_Breaking). Dropping_Glass physically occurs.",
+        "conclusion": "Glass_Breaking necessarily occurs.",
+        "label": "True"
+    },
+    {
+        "id": "new_540",
+        "premises": "For any password P, if it is possible to crack P, P is deemed insecure. If P is deemed insecure, it must be replaced. It is possible to crack Password Admin123.",
+        "conclusion": "Password Admin123 must be replaced.",
+        "label": "True"
+    },
+    {
+        "id": "new_541",
+        "premises": "For any agent X, if X is necessarily rational, X never chooses a strictly dominated strategy. Agent Bot_9 is necessarily rational.",
+        "conclusion": "Agent Bot_9 chooses a strictly dominated strategy.",
+        "label": "False"
+    },
+    {
+        "id": "new_542",
+        "premises": "For any universe U, if U is necessarily infinite, then U has no physical boundary. If U has no physical boundary, traveling in a straight line forever is possible. Universe Prime is necessarily infinite.",
+        "conclusion": "Traveling in a straight line forever is possible in Universe Prime.",
+        "label": "True"
+    },
+    {
+        "id": "new_543",
+        "premises": "For any combination C, if C is necessarily locked, it is impossible to open C without the master key. Combination Safe_A is necessarily locked. Thief tries to open Safe_A without the master key.",
+        "conclusion": "Thief successfully opens Safe_A.",
+        "label": "False"
+    },
+    {
+        "id": "new_544",
+        "premises": "For any statement S, if S is possible, the negation of S is not necessarily true. Statement 'Economy_Recovers' is possible.",
+        "conclusion": "The negation of Statement 'Economy_Recovers' is necessarily true.",
+        "label": "False"
+    },
+    {
+        "id": "new_545",
+        "premises": "For any geometric truth G, if G is valid in Euclidean geometry, G is necessarily true within that specific framework. Truth 'Parallel_Lines_Never_Meet' is valid in Euclidean geometry.",
+        "conclusion": "Truth 'Parallel_Lines_Never_Meet' is necessarily true within that specific framework.",
+        "label": "True"
+    },
+    {
+        "id": "new_546",
+        "premises": "For any AI model M, if M is necessarily deterministic, M always produces the exact same output for the exact same input. Model Alpha produces different outputs for the exact same input.",
+        "conclusion": "Model Alpha is necessarily deterministic.",
+        "label": "False"
+    },
+    {
+        "id": "new_547",
+        "premises": "For any chemical element E, if it is physically impossible for E to exist naturally, E is necessarily synthesized in a lab. It is physically impossible for Element 118 to exist naturally.",
+        "conclusion": "Element 118 is necessarily synthesized in a lab.",
+        "label": "True"
+    },
+    {
+        "id": "new_548",
+        "premises": "For any contract C, if C is necessarily binding, no court can possibly invalidate C. Contract Omega is necessarily binding. Court Zenith attempts to invalidate Contract Omega.",
+        "conclusion": "Court Zenith can possibly invalidate Contract Omega.",
+        "label": "False"
+    },
+    {
+        "id": "new_549",
+        "premises": "For any path P, if P is necessarily the shortest path, no other path P2 can possibly be shorter than P. Path Route_66 is necessarily the shortest path. Path Route_77 is another path.",
+        "conclusion": "Path Route_77 can possibly be shorter than Path Route_66.",
+        "label": "False"
+    },
+    {
+        "id": "new_550",
+        "premises": "For any fundamental particle P, if P is necessarily massless, P travels exactly at the speed of light. Particle Photon is necessarily massless.",
+        "conclusion": "Particle Photon travels exactly at the speed of light.",
+        "label": "True"
+    },
+    {
+        "id": "new_551",
+        "premises": "For any entities X, Y, and Z, if X is a part of Y, and Y is a part of Z, then X is a part of Z. The spark plug is a part of the engine. The engine is a part of the car.",
+        "conclusion": "The spark plug is a part of the car.",
+        "label": "True"
+    },
+    {
+        "id": "new_552",
+        "premises": "For any entities X and Y, if X is a proper part of Y, then X is a part of Y, and X is absolutely not identical to Y. The handle is a proper part of the mug.",
+        "conclusion": "The handle is identical to the mug.",
+        "label": "False"
+    },
+    {
+        "id": "new_553",
+        "premises": "For any entities X and Y, if X is a part of Y, and Y is a part of X, then X is identical to Y. Region A is a part of Region B. Region B is a part of Region A.",
+        "conclusion": "Region A is identical to Region B.",
+        "label": "True"
+    },
+    {
+        "id": "new_554",
+        "premises": "For any entities X and Y, X overlaps Y if and only if there exists some entity Z such that Z is a part of X and Z is a part of Y. Entity Alpha and Entity Beta share no common parts.",
+        "conclusion": "Entity Alpha overlaps Entity Beta.",
+        "label": "False"
+    },
+    {
+        "id": "new_555",
+        "premises": "For any entities X and Y, X is disjoint from Y if and only if X does not overlap Y. Component M overlaps Component N.",
+        "conclusion": "Component M is disjoint from Component N.",
+        "label": "False"
+    },
+    {
+        "id": "new_556",
+        "premises": "For any entity X, X is a mereological atom if and only if X has no proper parts. Electron_1 has no proper parts.",
+        "conclusion": "Electron_1 is a mereological atom.",
+        "label": "True"
+    },
+    {
+        "id": "new_557",
+        "premises": "For any universe U, if U is made of atomless gunk, then every part of U has a proper part. Universe Sigma is made of atomless gunk. Object Rock is a part of Universe Sigma.",
+        "conclusion": "Object Rock has a proper part.",
+        "label": "True"
+    },
+    {
+        "id": "new_558",
+        "premises": "For any items X and Y, if X is a proper part of Y, the physical mass of X is strictly less than the physical mass of Y. The wheel is a proper part of the bicycle.",
+        "conclusion": "The physical mass of the wheel is strictly less than the physical mass of the bicycle.",
+        "label": "True"
+    },
+    {
+        "id": "new_559",
+        "premises": "For any abstract concepts X and Y, if X is a sub-concept of Y, X is considered a mereological part of Y. Sub-concepts do not necessarily have less mass than their parent concepts. Concept 'Poodle' is a sub-concept of Concept 'Dog'.",
+        "conclusion": "The physical mass of Concept 'Poodle' is strictly less than the physical mass of Concept 'Dog'.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_560",
+        "premises": "For any entities X, Y, and Z, if X and Y compose Z, then Z is the fusion of X and Y. If Z is the fusion of X and Y, anything that overlaps Z must overlap either X or Y. Left_Half and Right_Half compose the Shield. Dart_1 overlaps the Shield.",
+        "conclusion": "Dart_1 overlaps either Left_Half or Right_Half.",
+        "label": "True"
+    },
+    {
+        "id": "new_561",
+        "premises": "For any geographical regions X and Y, if X is a part of Y, then the spatial footprint of X is entirely contained within the spatial footprint of Y. Region 'District_1' is a part of Region 'City_Center'.",
+        "conclusion": "The spatial footprint of Region 'District_1' is entirely contained within the spatial footprint of Region 'City_Center'.",
+        "label": "True"
+    },
+    {
+        "id": "new_562",
+        "premises": "For any objects X and Y, if X is attached to Y, it does not logically imply that X is a part of Y. The trailer is attached to the truck.",
+        "conclusion": "The trailer is a part of the truck.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_563",
+        "premises": "For any biological organism O, if organ X is a vital part of O, the removal of X destroys O. The heart is a vital part of Organism Leo. The heart is removed from Organism Leo.",
+        "conclusion": "Organism Leo is destroyed.",
+        "label": "True"
+    },
+    {
+        "id": "new_564",
+        "premises": "For any entities X and Y, if X is a mereological sum of a set of parts, and Y is formed by the exact same set of parts arranged differently, X is identical to Y. Statue_A is a mereological sum of a set of clay pieces. Lump_B is formed by the exact same set of clay pieces arranged differently.",
+        "conclusion": "Statue_A is identical to Lump_B.",
+        "label": "True"
+    },
+    {
+        "id": "new_565",
+        "premises": "For any physical objects X and Y, if X is a functional component of Y, X is a part of Y. If X is a part of Y, and Y is destroyed, X is not necessarily destroyed. The motherboard is a functional component of the laptop. The laptop is destroyed.",
+        "conclusion": "The motherboard is necessarily destroyed.",
+        "label": "False"
+    },
+    {
+        "id": "new_566",
+        "premises": "For any entities A, B, and C, if A overlaps B, and B overlaps C, it is not strictly necessary that A overlaps C. Cloud_1 overlaps Cloud_2. Cloud_2 overlaps Cloud_3.",
+        "conclusion": "Cloud_1 overlaps Cloud_3.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_567",
+        "premises": "For any objects X and Y, if X is disjoint from Y, they cannot share any spatial boundaries. Object Cube_A is disjoint from Object Cube_B.",
+        "conclusion": "Object Cube_A and Object Cube_B share a spatial boundary.",
+        "label": "False"
+    },
+    {
+        "id": "new_568",
+        "premises": "For any group G, if individual I is a member of G, I is a part of G. If I is a part of G, the actions of I do not necessarily constitute the actions of G. Member Alice is a member of Group Committee. Member Alice signs the document.",
+        "conclusion": "Group Committee signs the document.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_569",
+        "premises": "For any substance S, if S is a homogeneous liquid, any physically extracted portion of S is a proper part of S. Portion P1 is physically extracted from homogeneous liquid Water_Tank.",
+        "conclusion": "Portion P1 is a proper part of Water_Tank.",
+        "label": "True"
+    },
+    {
+        "id": "new_570",
+        "premises": "For any entities X and Y, if X is an improper part of Y, then X is a part of Y and X is identical to Y. Sector 7G is an improper part of Sector 7G.",
+        "conclusion": "Sector 7G is identical to Sector 7G.",
+        "label": "True"
+    },
+    {
+        "id": "new_571",
+        "premises": "For any artifact A, if part P is replaced, A remains the exact same artifact only if P is not the core frame. The core frame of Artifact Ship_of_Theseus is replaced.",
+        "conclusion": "Artifact Ship_of_Theseus remains the exact same artifact.",
+        "label": "False"
+    },
+    {
+        "id": "new_572",
+        "premises": "For any entities X and Y, if X is entirely composed of Y, then X has no parts that are disjoint from Y. Forest F is entirely composed of Tree T1 and Tree T2. Shrub S is disjoint from Tree T1 and Tree T2.",
+        "conclusion": "Shrub S is a part of Forest F.",
+        "label": "False"
+    },
+    {
+        "id": "new_573",
+        "premises": "For any regions R1 and R2, if R1 is a tangential proper part of R2, R1 is a part of R2 and R1 shares a boundary with the exterior of R2. Room 101 is a tangential proper part of Building Alpha.",
+        "conclusion": "Room 101 shares a boundary with the exterior of Building Alpha.",
+        "label": "True"
+    },
+    {
+        "id": "new_574",
+        "premises": "For any regions R1 and R2, if R1 is a non-tangential proper part of R2, R1 is a part of R2 and R1 does not share any boundary with the exterior of R2. The Core is a non-tangential proper part of the Reactor.",
+        "conclusion": "The Core shares a boundary with the exterior of the Reactor.",
+        "label": "False"
+    },
+    {
+        "id": "new_575",
+        "premises": "For any time intervals T1 and T2, if T1 is a temporal part of T2, the duration of T1 is strictly less than or equal to the duration of T2. The First_Half is a temporal part of the Match.",
+        "conclusion": "The duration of the First_Half is strictly less than or equal to the duration of the Match.",
+        "label": "True"
+    },
+    {
+        "id": "new_576",
+        "premises": "For any physical body B, if B loses a part P, B's total volume strictly decreases. Body Asteroid loses part Meteorite.",
+        "conclusion": "Body Asteroid's total volume strictly decreases.",
+        "label": "True"
+    },
+    {
+        "id": "new_577",
+        "premises": "For any concept C, if C is a mereological universal, C is a part of everything that exists. Entity Void_Walker exists. Concept Space is a mereological universal.",
+        "conclusion": "Concept Space is a part of Entity Void_Walker.",
+        "label": "True"
+    },
+    {
+        "id": "new_578",
+        "premises": "For any two fusions F1 and F2, if they share all their atomic parts, they are identical. Fusion Golem and Fusion Statue share all their atomic parts.",
+        "conclusion": "Fusion Golem is identical to Fusion Statue.",
+        "label": "True"
+    },
+    {
+        "id": "new_579",
+        "premises": "For any object O, if O is fundamentally emergent, O possesses properties that none of its proper parts possess. Object Brain is fundamentally emergent. Neuron N is a proper part of Object Brain.",
+        "conclusion": "Neuron N possesses all the properties of Object Brain.",
+        "label": "False"
+    },
+    {
+        "id": "new_580",
+        "premises": "For any software system S, if module M is a dependent part of S, S cannot compile without M. Module Auth is a dependent part of System Backend. Module Auth is missing.",
+        "conclusion": "System Backend can compile.",
+        "label": "False"
+    },
+    {
+        "id": "new_581",
+        "premises": "For any entity X, if X is scattered, its proper parts are physically disconnected from each other. Constellation Orion is scattered.",
+        "conclusion": "The proper parts of Constellation Orion are physically disconnected from each other.",
+        "label": "True"
+    },
+    {
+        "id": "new_582",
+        "premises": "For any sound S, if note N is a part of S, the frequency of N contributes to the harmonic spectrum of S. Note C4 is a part of Sound Chord_X.",
+        "conclusion": "The frequency of Note C4 contributes to the harmonic spectrum of Sound Chord_X.",
+        "label": "True"
+    },
+    {
+        "id": "new_583",
+        "premises": "For any recipe R, if ingredient I is a part of R, altering I changes the final state of R. Sugar is a part of Recipe Cake. Sugar is altered to Salt.",
+        "conclusion": "The final state of Recipe Cake is changed.",
+        "label": "True"
+    },
+    {
+        "id": "new_584",
+        "premises": "For any legal document D, if clause C is a severed part of D, C is no longer legally binding, but D remains binding. Clause 4 is a severed part of Document Contract_V.",
+        "conclusion": "Clause 4 is legally binding.",
+        "label": "False"
+    },
+    {
+        "id": "new_585",
+        "premises": "For any mechanical watch W, if gear G is a moving part of W, the cessation of G causes W to stop. Gear Alpha is a moving part of Watch Omega. Gear Alpha ceases.",
+        "conclusion": "Watch Omega stops.",
+        "label": "True"
+    },
+    {
+        "id": "new_586",
+        "premises": "For any abstract set S, if element E is a member of S, E is considered a mereological atom of the fusion of S. Element 7 is a member of Set Primes.",
+        "conclusion": "Element 7 is considered a mereological atom of the fusion of Set Primes.",
+        "label": "True"
+    },
+    {
+        "id": "new_587",
+        "premises": "For any entities X and Y, if X is structurally embedded in Y, X is a part of Y and cannot be extracted without damaging Y. Gem_Stone is structurally embedded in Crown_Jewel.",
+        "conclusion": "Gem_Stone can be extracted without damaging Crown_Jewel.",
+        "label": "False"
+    },
+    {
+        "id": "new_588",
+        "premises": "For any light beam B, if photon P is a part of B, P travels in the exact same vector as B. Photon Gamma is a part of Light beam Laser_1.",
+        "conclusion": "Photon Gamma travels in the exact same vector as Light beam Laser_1.",
+        "label": "True"
+    },
+    {
+        "id": "new_589",
+        "premises": "For any text T, if paragraph P is a semantic part of T, the meaning of T depends on P. Paragraph Intro is a semantic part of Text Essay_Final.",
+        "conclusion": "The meaning of Text Essay_Final depends on Paragraph Intro.",
+        "label": "True"
+    },
+    {
+        "id": "new_590",
+        "premises": "For any organism O, if O regenerates, a lost proper part is replaced by a biologically identical new proper part. Organism Starfish regenerates. Organism Starfish loses proper part Arm_Right.",
+        "conclusion": "Proper part Arm_Right is replaced by a biologically identical new proper part.",
+        "label": "True"
+    },
+    {
+        "id": "new_591",
+        "premises": "For any geometric line L, if segment S is a proper part of L, S has a finite length while L may be infinite. Segment AB is a proper part of Line X.",
+        "conclusion": "Segment AB has a finite length.",
+        "label": "True"
+    },
+    {
+        "id": "new_592",
+        "premises": "For any chemical compound C, if atom A is a part of C, A is bound by chemical bonds. Atom Hydrogen is a part of Compound Water.",
+        "conclusion": "Atom Hydrogen is bound by chemical bonds.",
+        "label": "True"
+    },
+    {
+        "id": "new_593",
+        "premises": "For any network N, if node X is a critical part of N, the isolation of X fragments N into disjoint sub-networks. Node Core_Router is a critical part of Network Local_Net. Node Core_Router is isolated.",
+        "conclusion": "Network Local_Net fragments into disjoint sub-networks.",
+        "label": "True"
+    },
+    {
+        "id": "new_594",
+        "premises": "For any planetary system S, if moon M is a part of S, M orbits a planet that is also a part of S. Moon Europa is a part of Planetary system Solar. Planet Jupiter is a part of Planetary system Solar.",
+        "conclusion": "Moon Europa orbits Planet Jupiter.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_595",
+        "premises": "For any logical proof P, if lemma L is a part of P, the truth of P necessitates the truth of L. Lemma 3 is a part of Proof Alpha. Proof Alpha is true.",
+        "conclusion": "Lemma 3 is true.",
+        "label": "True"
+    },
+    {
+        "id": "new_596",
+        "premises": "For any recipe R, if step S is a procedural part of R, skipping S guarantees the failure of R. Step 'Bake_at_350' is a procedural part of Recipe Bread. Step 'Bake_at_350' is skipped.",
+        "conclusion": "Recipe Bread succeeds.",
+        "label": "False"
+    },
+    {
+        "id": "new_597",
+        "premises": "For any physical object O, if layer L is the outermost part of O, L completely surrounds all other proper parts of O. Layer Crust is the outermost part of Object Planet_Z.",
+        "conclusion": "Layer Crust completely surrounds all other proper parts of Object Planet_Z.",
+        "label": "True"
+    },
+    {
+        "id": "new_598",
+        "premises": "For any army A, if battalion B is a part of A, the surrender of A legally binds B to surrender. Army Red surrenders. Battalion 5th is a part of Army Red.",
+        "conclusion": "Battalion 5th is legally bound to surrender.",
+        "label": "True"
+    },
+    {
+        "id": "new_599",
+        "premises": "For any symphony S, if movement M is a part of S, M is meant to be played in a specific sequence. Movement Allegro is a part of Symphony No_9.",
+        "conclusion": "Movement Allegro is meant to be played in a specific sequence.",
+        "label": "True"
+    },
+    {
+        "id": "new_600",
+        "premises": "For any universe U, if U allows unrestricted mereological composition, any two arbitrary disjoint objects form a valid fusion object within U. Universe Delta allows unrestricted mereological composition. Object Pen and Object Moon are two arbitrary disjoint objects.",
+        "conclusion": "Object Pen and Object Moon form a valid fusion object within Universe Delta.",
+        "label": "True"
     }
 ]
