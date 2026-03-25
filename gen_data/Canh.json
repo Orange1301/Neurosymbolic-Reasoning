@@ -1798,5 +1798,605 @@
         "premises": "For any cloud C, if C is dark and heavy with moisture, C rains perfectly cooked spaghetti. If a cloud rains perfectly cooked spaghetti, it drops absolutely zero liquid water. Cloud Cumulonimbus is dark and heavy with moisture.",
         "conclusion": "Cloud Cumulonimbus rains liquid water.",
         "label": "False"
+    },
+    {
+        "id": "new_301",
+        "premises": "For any entity X, if X is a Zlorg, then X is completely flipted. Entity Alpha is a Zlorg.",
+        "conclusion": "Entity Alpha is completely flipted.",
+        "label": "True"
+    },
+    {
+        "id": "new_302",
+        "premises": "For any Vint V, if V is cragged, V immediately sploops. Vint Beta does not sploop.",
+        "conclusion": "Vint Beta is cragged.",
+        "label": "False"
+    },
+    {
+        "id": "new_303",
+        "premises": "For any Grom G, if G is plonked, G snorfs continuously. Grom Gamma is not plonked.",
+        "conclusion": "Grom Gamma snorfs continuously.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_304",
+        "premises": "For any Flink F, if F is wizzled, F naturally glows green. Flink Delta naturally glows green.",
+        "conclusion": "Flink Delta is wizzled.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_305",
+        "premises": "For any Brol B, B is either totally clizzed or totally narped, but absolutely never both. Brol Epsilon is totally clizzed.",
+        "conclusion": "Brol Epsilon is totally narped.",
+        "label": "False"
+    },
+    {
+        "id": "new_306",
+        "premises": "Some Quils are highly tressed. For any entity, if it is highly tressed, it is also brafed. Entity Zeta is a Quil that is highly tressed.",
+        "conclusion": "Entity Zeta is brafed.",
+        "label": "True"
+    },
+    {
+        "id": "new_307",
+        "premises": "For any Plom P, P is fully zibbed if and only if P possesses exactly three flargs. Plom Eta possesses exactly three flargs.",
+        "conclusion": "Plom Eta is fully zibbed.",
+        "label": "True"
+    },
+    {
+        "id": "new_308",
+        "premises": "For any Snib S, if S is not both krinked and basted, S will inevitably flump. Snib Theta is not krinked.",
+        "conclusion": "Snib Theta will inevitably flump.",
+        "label": "True"
+    },
+    {
+        "id": "new_309",
+        "premises": "For any objects X, Y, and Z, if X frams Y, and Y frams Z, then X frams Z. Object M frams Object N. Object N frams Object P.",
+        "conclusion": "Object M frams Object P.",
+        "label": "True"
+    },
+    {
+        "id": "new_310",
+        "premises": "For any units X and Y, if X globs Y, then Y absolutely does not glob X. Unit Q globs Unit R.",
+        "conclusion": "Unit R globs Unit Q.",
+        "label": "False"
+    },
+    {
+        "id": "new_311",
+        "premises": "For any abstract item I, if I is yipped, I can never be zapped. Abstract item Sigma is currently zapped.",
+        "conclusion": "Abstract item Sigma is yipped.",
+        "label": "False"
+    },
+    {
+        "id": "new_312",
+        "premises": "For any Xyraph X, X always has exactly five vens. Any entity with exactly five vens has the ability to quelt. Entity Omega is a Xyraph.",
+        "conclusion": "Entity Omega has the ability to quelt.",
+        "label": "True"
+    },
+    {
+        "id": "new_313",
+        "premises": "For any Wump W, if W is unusually heavy, W spontaneously creates a vool. Wump Kappa spontaneously creates a vool.",
+        "conclusion": "Wump Kappa is unusually heavy.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_314",
+        "premises": "For any Tarp T, if T is colored red, then if T is kept cold, T shrims. Tarp Lambda is colored red. Tarp Lambda is kept cold.",
+        "conclusion": "Tarp Lambda shrims.",
+        "label": "True"
+    },
+    {
+        "id": "new_315",
+        "premises": "For any Porg P, if P is wumped, P drops a zool. For any zool Z, if a Porg drops Z, Z is always green. The zool dropped by Porg Mu is blue and absolutely not green.",
+        "conclusion": "Porg Mu is wumped.",
+        "label": "False"
+    },
+    {
+        "id": "new_316",
+        "premises": "If the Lorn is strictly active, the Mib must be quiet. The Lorn is not strictly active.",
+        "conclusion": "The Mib is quiet.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_317",
+        "premises": "The central Grix must be either entirely prilled or entirely slorped. The central Grix is not entirely prilled.",
+        "conclusion": "The central Grix is entirely slorped.",
+        "label": "True"
+    },
+    {
+        "id": "new_318",
+        "premises": "For any Flarb F and any Crol C, F can never successfully jump over C. Entity Nu is a Flarb. Entity Xi is a Crol.",
+        "conclusion": "Entity Nu can successfully jump over Entity Xi.",
+        "label": "False"
+    },
+    {
+        "id": "new_319",
+        "premises": "For any Vlox V, V is either exclusively blimmed or exclusively stritched, meaning if it is one, it cannot be the other. Vlox Omicron is not exclusively stritched.",
+        "conclusion": "Vlox Omicron is exclusively blimmed.",
+        "label": "True"
+    },
+    {
+        "id": "new_320",
+        "premises": "For any Zint Z, if Z possesses a ront, Z can safely flitz. Zint Pi can safely flitz.",
+        "conclusion": "Zint Pi possesses a ront.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_321",
+        "premises": "For any Drom D, if D is snibbed, D must be exactly one of two states: prime or dual. Drom Rho is snibbed. Drom Rho is not in the prime state.",
+        "conclusion": "Drom Rho is in the dual state.",
+        "label": "True"
+    },
+    {
+        "id": "new_322",
+        "premises": "For any Krip K and Jox J, if K physically touches J, J immediately zaps. For any Jox J, if J zaps, J emits a glowing aura. Krip Tau physically touches Jox Upsilon.",
+        "conclusion": "Jox Upsilon emits a glowing aura.",
+        "label": "True"
+    },
+    {
+        "id": "new_323",
+        "premises": "For any Bleg B, if B is glorned, B is definitively flonked. Some Blegs are glorned.",
+        "conclusion": "All Blegs are definitively flonked.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_324",
+        "premises": "For any Yarp Y and Zarp Z, Y is never a Zarp. For any Zarp Z, Z is always a Tarp. Entity Phi is a Tarp.",
+        "conclusion": "Entity Phi is a Yarp.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_325",
+        "premises": "For any Oop O, if O is plopped, O cannot simultaneously be splopped. Oop Chi is currently splopped.",
+        "conclusion": "Oop Chi is currently plopped.",
+        "label": "False"
+    },
+    {
+        "id": "new_326",
+        "premises": "For any Voot V, V can only narp if V is first subjected to a thrip. Voot Psi has successfully narped.",
+        "conclusion": "Voot Psi was first subjected to a thrip.",
+        "label": "True"
+    },
+    {
+        "id": "new_327",
+        "premises": "For any Crel C, if C is bimmed, C produces exactly two wubs. Crel Omega produces exactly two wubs.",
+        "conclusion": "Crel Omega is bimmed.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_328",
+        "premises": "For any Flims X and Y, if X is greater in arbitrary flim-units than Y, then Y is strictly lesser in arbitrary flim-units than X. Flim Alpha_2 is greater in arbitrary flim-units than Flim Beta_2.",
+        "conclusion": "Flim Beta_2 is strictly lesser in arbitrary flim-units than Flim Alpha_2.",
+        "label": "True"
+    },
+    {
+        "id": "new_329",
+        "premises": "For any Grop G, if G is frilled, G is considered krinked. If G is not frilled, G is considered stritched. Grop Gamma_2 is not considered krinked.",
+        "conclusion": "Grop Gamma_2 is considered stritched.",
+        "label": "True"
+    },
+    {
+        "id": "new_330",
+        "premises": "For any Plink P, if P is completely blonked, P is classified as a Vlink. Plink Delta_2 is classified as a Vlink.",
+        "conclusion": "Plink Delta_2 is completely blonked.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_331",
+        "premises": "For any Mulp M, if M is snorfed, M can absolutely never be glorfed. Mulp Epsilon_2 is neither snorfed nor glorfed.",
+        "conclusion": "Mulp Epsilon_2 is glorfed.",
+        "label": "False"
+    },
+    {
+        "id": "new_332",
+        "premises": "For any Xelp X, X is automatically a Yelp. For any Yelp Y, Y is never a Zelp. Entity Zeta_2 is a Xelp.",
+        "conclusion": "Entity Zeta_2 is a Zelp.",
+        "label": "False"
+    },
+    {
+        "id": "new_333",
+        "premises": "For any Klorp K, K must be either flizzed or blizzed. If K is flizzed, K drops a zed. If K is blizzed, K drops a zed. Klorp Eta_2 is a Klorp.",
+        "conclusion": "Klorp Eta_2 drops a zed.",
+        "label": "True"
+    },
+    {
+        "id": "new_334",
+        "premises": "For any Runt R, if R is trilled, R zings. If R is quilled, R zangs. Runt Theta_2 is trilled.",
+        "conclusion": "Runt Theta_2 zangs.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_335",
+        "premises": "For any Snark S, S is a Boojum. Some Boojums are considered dangerous. Snark Iota_2 is a Snark.",
+        "conclusion": "Snark Iota_2 is considered dangerous.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_336",
+        "premises": "For any abstract entities X and Y, if X is logically prior to Y, Y can never be logically prior to X. Entity Kappa_2 is logically prior to Entity Lambda_2.",
+        "conclusion": "Entity Lambda_2 is logically prior to Entity Kappa_2.",
+        "label": "False"
+    },
+    {
+        "id": "new_337",
+        "premises": "For any Grunk G, if G is stibbed, G releases a frob. For any frob F released by a Grunk, F is exclusively colored blue. Grunk Mu_2 is stibbed.",
+        "conclusion": "The frob released by Grunk Mu_2 is exclusively colored blue.",
+        "label": "True"
+    },
+    {
+        "id": "new_338",
+        "premises": "For any Zob Z, if Z has a wibble, Z also has a wobble. For any Zob Z, if Z has a wobble, Z is termed a Wobbler. Zob Nu_2 is termed a Wobbler.",
+        "conclusion": "Zob Nu_2 has a wibble.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_339",
+        "premises": "For any Friz F, if F is clipped, F cannot be snipped. For any Friz F, if F is not snipped, F is automatically dripped. Friz Xi_2 is clipped.",
+        "conclusion": "Friz Xi_2 is automatically dripped.",
+        "label": "True"
+    },
+    {
+        "id": "new_340",
+        "premises": "For any Plob P, P cannot exist unless P is permanently attached to a Clob. Entity Omicron_2 is a Plob that exists.",
+        "conclusion": "Entity Omicron_2 is permanently attached to a Clob.",
+        "label": "True"
+    },
+    {
+        "id": "new_341",
+        "premises": "For any Throm T, T is considered active if and only if T is completely narped. Throm Pi_2 is not completely narped.",
+        "conclusion": "Throm Pi_2 is considered active.",
+        "label": "False"
+    },
+    {
+        "id": "new_342",
+        "premises": "For any Vlum V, if V is blinted, V will eventually clint. If V clints, V will inevitably splint. Vlum Rho_2 is blinted.",
+        "conclusion": "Vlum Rho_2 will inevitably splint.",
+        "label": "True"
+    },
+    {
+        "id": "new_343",
+        "premises": "For any Krip K, if K is zinted, K is also vanted. For any Krip K, if K is vanted, K can absolutely never be ranted. Krip Sigma_2 is zinted.",
+        "conclusion": "Krip Sigma_2 can be ranted.",
+        "label": "False"
+    },
+    {
+        "id": "new_344",
+        "premises": "For any Jarg J, if J is wimpled, J produces a targ. For any Jarg J, if J is crimpled, J also produces a targ. Jarg Tau_2 produces a targ.",
+        "conclusion": "Jarg Tau_2 is wimpled.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_345",
+        "premises": "For any Norg N and Vorg V, if N conceptually touches V, N permanently transforms into a Sorg. Norg Upsilon_2 conceptually touches Vorg Phi_2.",
+        "conclusion": "Norg Upsilon_2 permanently transforms into a Sorg.",
+        "label": "True"
+    },
+    {
+        "id": "new_346",
+        "premises": "For any Pril P, if P is snibbed, P either glims or plims, but not both. For any Pril P, if P glims, P cannot be snibbed. Pril Chi_2 is snibbed.",
+        "conclusion": "Pril Chi_2 plims.",
+        "label": "True"
+    },
+    {
+        "id": "new_347",
+        "premises": "For any Crig C, C is designated as valid only if C is both frimmed and slimmed. Crig Psi_2 is frimmed but is not slimmed.",
+        "conclusion": "Crig Psi_2 is designated as valid.",
+        "label": "False"
+    },
+    {
+        "id": "new_348",
+        "premises": "For any abstract dimensions D1 and D2, if D1 is orthogonal to D2, they share no common vector space. Dimension X_2 is orthogonal to Dimension Y_2.",
+        "conclusion": "Dimension X_2 and Dimension Y_2 share a common vector space.",
+        "label": "False"
+    },
+    {
+        "id": "new_349",
+        "premises": "For any Flim F, if F is stritched, F causes a blomp. If a blomp occurs, all nearby Glims are instantaneously flizzed. Flim Omega_2 is not stritched.",
+        "conclusion": "All nearby Glims are not instantaneously flizzed.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_350",
+        "premises": "For any Plump P, if P is completely zipped, P is totally zapped. For any Plump P, if P is not totally zapped, P is absolutely not completely zipped. Plump Alpha_3 is absolutely not completely zipped.",
+        "conclusion": "Plump Alpha_3 is not totally zapped.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_351",
+        "premises": "For any integer N, if N is a prime number strictly greater than 2, then N is an odd number. Integer X is a prime number strictly greater than 2.",
+        "conclusion": "Integer X is an odd number.",
+        "label": "True"
+    },
+    {
+        "id": "new_352",
+        "premises": "For any integers A, B, and C, if A divides B with no remainder, and B divides C with no remainder, then A divides C with no remainder. Integer 4 divides Integer 12 with no remainder. Integer 12 divides Integer 36 with no remainder.",
+        "conclusion": "Integer 36 divides Integer 4 with no remainder.",
+        "label": "False"
+    },
+    {
+        "id": "new_353",
+        "premises": "For any mathematical function f, if f is differentiable at point c, then f is continuous at point c. Function g is continuous at point x=0.",
+        "conclusion": "Function g is differentiable at point x=0.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_354",
+        "premises": "For any square matrix M, if the determinant of M is strictly non-zero, M is an invertible matrix. If M is an invertible matrix, the equation Mx=b has a exactly one unique solution. Matrix A has a determinant of exactly zero.",
+        "conclusion": "The equation Ax=b does not have exactly one unique solution.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_355",
+        "premises": "For any topological space T, if T is both compact and Hausdorff, then T is a normal space. Space X is both compact and Hausdorff.",
+        "conclusion": "Space X is a normal space.",
+        "label": "True"
+    },
+    {
+        "id": "new_356",
+        "premises": "For any graph G, if G is a bipartite graph, G contains absolutely no cycles of odd length. Graph H contains a cycle of length 5.",
+        "conclusion": "Graph H is a bipartite graph.",
+        "label": "False"
+    },
+    {
+        "id": "new_357",
+        "premises": "For any infinite series S, if S converges absolutely, then S also converges conditionally. Series Y does not converge conditionally.",
+        "conclusion": "Series Y converges absolutely.",
+        "label": "False"
+    },
+    {
+        "id": "new_358",
+        "premises": "For any group G, if G is an abelian group, then for every pair of elements a and b in G, the operation a*b equals b*a. For Group K, there exists at least one pair of elements x and y where x*y does not equal y*x.",
+        "conclusion": "Group K is an abelian group.",
+        "label": "False"
+    },
+    {
+        "id": "new_359",
+        "premises": "For any geometric triangle T, if T is an equilateral triangle, all three of its internal angles measure exactly 60 degrees. Triangle ABC has internal angles that measure exactly 60 degrees.",
+        "conclusion": "Triangle ABC is an equilateral triangle.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_360",
+        "premises": "For any set A and set B, if A is a strict subset of B, every element of A must be an element of B, and B must contain at least one element not in A. Set X is a strict subset of Set Y. Object z is an element of Set X.",
+        "conclusion": "Object z is an element of Set Y.",
+        "label": "True"
+    },
+    {
+        "id": "new_361",
+        "premises": "For any vectors U and V, if their dot product is exactly zero, they are defined as orthogonal vectors. If two vectors are orthogonal, they form a 90-degree angle. Vectors W and Z form a 90-degree angle.",
+        "conclusion": "The dot product of vectors W and Z is exactly zero.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_362",
+        "premises": "For any probability events A and B, if they are mutually exclusive, the probability of both occurring simultaneously is exactly zero. Events Rain and Sun have a 0.05 probability of occurring simultaneously.",
+        "conclusion": "Events Rain and Sun are mutually exclusive.",
+        "label": "False"
+    },
+    {
+        "id": "new_363",
+        "premises": "For any differential equation E, if E is linear, the superposition principle directly applies to its solutions. The superposition principle directly applies to the solutions of Equation Heat_Wave.",
+        "conclusion": "Equation Heat_Wave is linear.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_364",
+        "premises": "For any complex number C, if C lies exactly on the unit circle in the complex plane, its absolute magnitude is exactly 1. Complex number Z has an absolute magnitude of exactly 1.",
+        "conclusion": "Complex number Z lies exactly on the unit circle in the complex plane.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_365",
+        "premises": "For any logical proposition P, if P is a tautology, P evaluates to true under every possible boolean assignment. Proposition Q evaluates to false under the assignment A=True, B=False.",
+        "conclusion": "Proposition Q is a tautology.",
+        "label": "False"
+    },
+    {
+        "id": "new_366",
+        "premises": "For any numeric sequence S, if S is strictly monotonically increasing and bounded from above, S converges to a finite supremum. Sequence Fibonacci_Modified is strictly monotonically increasing and bounded from above.",
+        "conclusion": "Sequence Fibonacci_Modified converges to a finite supremum.",
+        "label": "True"
+    },
+    {
+        "id": "new_367",
+        "premises": "For any abstract ring R, if R is a field, every non-zero element in R has a multiplicative inverse. Ring Z does not have a multiplicative inverse for the element 2.",
+        "conclusion": "Ring Z is a field.",
+        "label": "False"
+    },
+    {
+        "id": "new_368",
+        "premises": "For any manifold M, if M is a smooth manifold, it admits a globally defined tangent bundle. Manifold Klein_Bottle admits a globally defined tangent bundle.",
+        "conclusion": "Manifold Klein_Bottle is a smooth manifold.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_369",
+        "premises": "For any polynomial P, if P has odd degree and real coefficients, P has at least one real root. Polynomial G has an even degree and real coefficients.",
+        "conclusion": "Polynomial G has at least one real root.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_370",
+        "premises": "For any real numbers x and y, if x is strictly greater than y, then negative x is strictly less than negative y. Real number a is strictly greater than real number b.",
+        "conclusion": "Negative a is strictly less than negative b.",
+        "label": "True"
+    },
+    {
+        "id": "new_371",
+        "premises": "For any graph G, if G is a complete graph, every pair of distinct vertices is connected by exactly one unique edge. Graph K_4 is a complete graph. Vertices v1 and v2 are distinct vertices in Graph K_4.",
+        "conclusion": "Vertices v1 and v2 are connected by exactly one unique edge.",
+        "label": "True"
+    },
+    {
+        "id": "new_372",
+        "premises": "For any integer K, if K is a perfect square, the prime factorization of K contains only even exponents. Integer 18 has a prime factorization containing an exponent of 1 for the prime 2.",
+        "conclusion": "Integer 18 is a perfect square.",
+        "label": "False"
+    },
+    {
+        "id": "new_373",
+        "premises": "For any matrix M, if M is an orthogonal matrix, the transpose of M is exactly equal to the inverse of M. Matrix Q is an orthogonal matrix.",
+        "conclusion": "The transpose of Matrix Q is exactly equal to the inverse of Matrix Q.",
+        "label": "True"
+    },
+    {
+        "id": "new_374",
+        "premises": "For any set of vectors V, if V is linearly independent, no vector in V can be written as a linear combination of the others. Set V_alpha can be written such that vector v1 is a linear combination of v2 and v3.",
+        "conclusion": "Set V_alpha is linearly independent.",
+        "label": "False"
+    },
+    {
+        "id": "new_375",
+        "premises": "For any function f(x), if the second derivative of f(x) is strictly positive on an interval I, f(x) is strictly convex on interval I. Function h(x) is strictly convex on interval [0,1].",
+        "conclusion": "The second derivative of h(x) is strictly positive on interval [0,1].",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_376",
+        "premises": "For any rational number R, R can be expressed as a finite fraction p/q where p and q are integers and q is non-zero. Number Pi cannot be expressed as a finite fraction p/q where p and q are integers.",
+        "conclusion": "Number Pi is a rational number.",
+        "label": "False"
+    },
+    {
+        "id": "new_377",
+        "premises": "For any continuous curve C, if C is a simple closed curve in a 2D plane, it divides the plane into exactly one interior region and one exterior region. Curve Jordan_1 is a simple closed curve in a 2D plane.",
+        "conclusion": "Curve Jordan_1 divides the plane into exactly one interior region and one exterior region.",
+        "label": "True"
+    },
+    {
+        "id": "new_378",
+        "premises": "For any random variable X, if X follows a Poisson distribution, the expected value of X is exactly equal to its variance. Random variable Y has an expected value of 5 and a variance of 10.",
+        "conclusion": "Random variable Y follows a Poisson distribution.",
+        "label": "False"
+    },
+    {
+        "id": "new_379",
+        "premises": "For any metric space M, if M is a complete metric space, every Cauchy sequence in M converges to a point strictly within M. Metric space Q is not a complete metric space.",
+        "conclusion": "Every Cauchy sequence in Metric space Q converges to a point strictly within Q.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_380",
+        "premises": "For any two infinite sets A and B, if there exists a bijection between A and B, they share the exact same cardinality. There exists a bijection between the set of Integers and the set of Even Integers.",
+        "conclusion": "The set of Integers and the set of Even Integers share the exact same cardinality.",
+        "label": "True"
+    },
+    {
+        "id": "new_381",
+        "premises": "For any relation R on a set, if R is an equivalence relation, R must be reflexive, symmetric, and transitive. Relation Less_Than is not symmetric.",
+        "conclusion": "Relation Less_Than is an equivalence relation.",
+        "label": "False"
+    },
+    {
+        "id": "new_382",
+        "premises": "For any function f(z) of a complex variable, if f(z) is holomorphic on a simply connected domain D, the contour integral of f(z) over any closed loop in D is exactly zero. Function g(z) has a contour integral of 2*pi*i over a closed loop in domain D.",
+        "conclusion": "Function g(z) is holomorphic on domain D.",
+        "label": "False"
+    },
+    {
+        "id": "new_383",
+        "premises": "For any non-empty partially ordered set P, if every totally ordered subset of P has an upper bound in P, then P contains at least one maximal element. Every totally ordered subset of Set Zorn has an upper bound in Set Zorn.",
+        "conclusion": "Set Zorn contains at least one maximal element.",
+        "label": "True"
+    },
+    {
+        "id": "new_384",
+        "premises": "For any planar graph G, G can be colored using at most 4 colors such that no two adjacent vertices share the same color. Graph Map_X can be colored using exactly 3 colors.",
+        "conclusion": "Graph Map_X is a planar graph.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_385",
+        "premises": "For any vector space V, if V has a finite basis of n vectors, any set of strictly more than n vectors in V is linearly dependent. Vector space R3 has a finite basis of 3 vectors. Set S contains 4 vectors in R3.",
+        "conclusion": "Set S is linearly dependent.",
+        "label": "True"
+    },
+    {
+        "id": "new_386",
+        "premises": "For any positive integers a, b, and c, if a^2 + b^2 = c^2, they form a Pythagorean triple. Integers 3, 4, and 5 form a Pythagorean triple.",
+        "conclusion": "3^2 + 4^2 = 5^2.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_387",
+        "premises": "For any matrix M, if M is symmetric, M is equal to its own transpose. If M is equal to its own transpose, all of its off-diagonal elements m_ij equal m_ji. Matrix S is symmetric.",
+        "conclusion": "All off-diagonal elements s_ij of Matrix S equal s_ji.",
+        "label": "True"
+    },
+    {
+        "id": "new_388",
+        "premises": "For any integer N, if N modulo 2 equals 0, N is an even number. If N modulo 2 equals 1, N is an odd number. Integer 7 modulo 2 equals 1.",
+        "conclusion": "Integer 7 is an even number.",
+        "label": "False"
+    },
+    {
+        "id": "new_389",
+        "premises": "For any real sequence a_n, if the limit of a_n as n approaches infinity is exactly L, then for any epsilon greater than 0, there exists an integer N such that for all n > N, the absolute difference between a_n and L is less than epsilon. Sequence x_n does not have this property for L=0.",
+        "conclusion": "The limit of x_n as n approaches infinity is exactly 0.",
+        "label": "False"
+    },
+    {
+        "id": "new_390",
+        "premises": "For any function f(x) and g(x), if f(x) is O(g(x)), there exist positive constants c and k such that 0 <= f(x) <= c*g(x) for all x >= k. Function 2x is O(x^2).",
+        "conclusion": "There exist positive constants c and k such that 0 <= 2x <= c*x^2 for all x >= k.",
+        "label": "True"
+    },
+    {
+        "id": "new_391",
+        "premises": "For any logic gates A and B, the NAND operation on A and B outputs False if and only if both A and B are True. Both input A and input B are True.",
+        "conclusion": "The NAND operation on input A and input B outputs False.",
+        "label": "True"
+    },
+    {
+        "id": "new_392",
+        "premises": "For any subset S of real numbers, if S is bounded above, S has a least upper bound in the real numbers. Subset K has a least upper bound in the real numbers.",
+        "conclusion": "Subset K is bounded above.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_393",
+        "premises": "For any polygon P, if P is a regular convex polygon, the sum of its exterior angles is exactly 360 degrees. Polygon Octagon_A is not a regular convex polygon.",
+        "conclusion": "The sum of the exterior angles of Polygon Octagon_A is not exactly 360 degrees.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_394",
+        "premises": "For any integer modulo ring Z_n, if n is a prime number, Z_n has no zero divisors. Integer 15 is not a prime number.",
+        "conclusion": "Z_15 has no zero divisors.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_395",
+        "premises": "For any directed graph D, if D is a Directed Acyclic Graph (DAG), D contains at least one topological sort. Graph Network_5 does not contain any topological sort.",
+        "conclusion": "Graph Network_5 is a Directed Acyclic Graph (DAG).",
+        "label": "False"
+    },
+    {
+        "id": "new_396",
+        "premises": "For any mathematical knot K, if K is the unknot, it can be continuously deformed into a perfect circle without intersecting itself. Knot Trefoil cannot be continuously deformed into a perfect circle without intersecting itself.",
+        "conclusion": "Knot Trefoil is the unknot.",
+        "label": "False"
+    },
+    {
+        "id": "new_397",
+        "premises": "For any continuous function f(x) on a closed interval [a, b], the definite integral of f(x) from a to b represents the exact signed area under the curve. Function sine(x) is continuous on the closed interval [0, pi].",
+        "conclusion": "The definite integral of sine(x) from 0 to pi represents the exact signed area under the curve.",
+        "label": "True"
+    },
+    {
+        "id": "new_398",
+        "premises": "For any square matrix A, A is diagonalizable if and only if the algebraic multiplicity of each eigenvalue equals its geometric multiplicity. Matrix B is diagonalizable.",
+        "conclusion": "The algebraic multiplicity of each eigenvalue of Matrix B equals its geometric multiplicity.",
+        "label": "True"
+    },
+    {
+        "id": "new_399",
+        "premises": "For any integer N, if N is a perfect number, the sum of its proper positive divisors is exactly equal to N. The sum of the proper positive divisors of Integer 28 is exactly equal to 28.",
+        "conclusion": "Integer 28 is a perfect number.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "new_400",
+        "premises": "For any differential form W, if W is an exact form, the exterior derivative of W is strictly zero. The exterior derivative of differential form Alpha is strictly zero.",
+        "conclusion": "Differential form Alpha is an exact form.",
+        "label": "Uncertain"
     }
 ]
