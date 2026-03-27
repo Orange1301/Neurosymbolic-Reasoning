@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 .env
 .DS_Store
 model.zip
-=======
-# LaTeX auxiliary files
 *.aux
 *.lof
 *.log
@@ -122,4 +119,13 @@ Desktop.ini
 *~
 
 dataset/RuleTaker/raw/
->>>>>>> origin/feat/dataset/RuleTaker
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.xdv
+*.nav
+*.out
+*.snm
+*.toc

@@ -1,3 +1,4 @@
+% !TEX program = xelatex
 \documentclass[10pt, aspectratio=169]{beamer}
 
 % --- Cấu hình Tiếng Việt và Font ---
@@ -460,7 +461,10 @@
     \end{columns}
 >>>>>>> origin/feat/dataset/RuleTaker
   \end{block}
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/feat/dataset/ReClor
   \textbf{Examples:}
   \begin{table}
     \centering
@@ -558,12 +562,17 @@
 \only<5>{
   \framesubtitle{ReClor Dataset}
   \begin{block}{\textbf{ReClor Dataset}}
+<<<<<<< HEAD
     ReClor is a reading comprehension dataset for assessing logical reasoning in LLMs via context-based multiple-choice tasks. 91.22\% of it are from actual exams of GMAT and LSAT while others are from high-quality practice exams.
   \end{block}
 <<<<<<< HEAD
   
 =======
 >>>>>>> origin/feat/dataset/RuleTaker
+=======
+    ReClor is a reading comprehension dataset for assessing logical reasoning in LLMs via context-based multiple-choice tasks.
+  \end{block}
+>>>>>>> origin/feat/dataset/ReClor
 
   \textbf{Examples:}
   \begin{table}
@@ -573,6 +582,7 @@
     \makegapedcells
     \renewcommand\theadfont{\tiny\bfseries}
     \renewcommand\theadset{\renewcommand\arraystretch{0}}
+<<<<<<< HEAD
     \begin{tabular}{|p{0.35\textwidth}|p{0.15\textwidth}|p{0.3\textwidth}|p{0.1\textwidth}|}
       \hline
       \thead{Context} & \thead{Question} & \thead{Answers} & \thead{Label} \\
@@ -595,6 +605,47 @@
       \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$}
       \\
       
+=======
+    \begin{tabular}{|l|l|l|c|}
+      \hline
+      \thead{Context} & \thead{Question} & \thead{Answers} & \thead{Label} \\
+      \hline
+      \makecell[l]{
+        Shipping Clerk: The five specially ordered shipments \\
+        sent out last week were sent out on Thursday. \\\\
+        Last week, all of the shipments that were sent out on \\
+        Friday consisted entirely of building supplies, and the \\
+        shipping department then closed for the weekend. \\\\
+        Four shipments were sent to Truax Construction last \\
+        week, only three of which consisted of building supplies.
+      }
+      &
+        \makecell[l]{
+          If the shipping clerk's \\
+          statements are true, which\\ 
+          of the following must also \\
+          be true? \\
+        }
+      &
+        \makecell[l]{
+          0. At least one of the shipments sent to Truax Construction last week \\
+          was sent out before Friday. \\\\
+          1. At least one of last week's specially ordered shipments did not \\
+          consist of building supplies.\\\\
+          2. At least one of the shipments sent to Truax Construction last week \\
+          was specially ordered. \\\\
+          3. At least one of the shipments sent to Truax Construction was not \\
+          sent out on Thursday of last week. 
+        }
+      &
+        0
+      \\
+
+      \hline
+
+      \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} & \thead{\normalsize$\ldots$} \\
+
+>>>>>>> origin/feat/dataset/ReClor
       \hline
     \end{tabular}
     \caption{Sample data from the ReClor dataset.}
