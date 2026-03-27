@@ -10,13 +10,8 @@
     },
     {
         "id": "folio_train_1",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_406",
         "nat_premises": "All people who regularly drink coffee are dependent on caffeine.People regularly drink coffee, or they don't want to be addicted to caffeine, or both.No one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.Rina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.Rina is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine.",
-========
-        "story_id": 406,
-        "nat_premises": "All people who regularly drink coffee are dependent on caffeine.\nPeople regularly drink coffee, or they don't want to be addicted to caffeine, or both.\nNo one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.\nRina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.\nRina is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Rina either doesn't want to be addicted to caffeine or is unaware that caffeine is a drug.",
         "fol_premises": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))\n∀x (DrinkRegularly(x, coffee) ∨ ¬WantToBeAddictedTo(x, caffeine))\n∀x (¬WantToBeAddictedTo(x, caffeine) → AwareThatDrug(x, caffeine))\n¬((Student(rina) ∧ ¬AwareThatDrug(rina, caffeine)) ↔ (¬Student(rina) ∧ AwareThatDrug(rina, caffeine)))\n¬((Student(rina) ∧ IsDependentOn(rina, caffeine)) ↔ (¬Student(rina) ∧ ¬IsDependentOn(rina, caffeine)))",
         "fol_conclusion": "¬(¬WantToBeAddictedTo(rina, caffeine) ↔ ¬AwareThatDrug(rina, caffeine))",
@@ -24,13 +19,8 @@
     },
     {
         "id": "folio_train_2",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_406",
         "nat_premises": "All people who regularly drink coffee are dependent on caffeine.People regularly drink coffee, or they don't want to be addicted to caffeine, or both.No one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.Rina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.Rina is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine.",
-========
-        "story_id": 406,
-        "nat_premises": "All people who regularly drink coffee are dependent on caffeine.\nPeople regularly drink coffee, or they don't want to be addicted to caffeine, or both.\nNo one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.\nRina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.\nRina is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Rina either regularly drinks coffee or is unaware that caffeine is a drug.",
         "fol_premises": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))\n∀x (DrinkRegularly(x, coffee) ∨ ¬WantToBeAddictedTo(x, caffeine))\n∀x (¬WantToBeAddictedTo(x, caffeine) → AwareThatDrug(x, caffeine))\n¬((Student(rina) ∧ ¬AwareThatDrug(rina, caffeine)) ↔ (¬Student(rina) ∧ AwareThatDrug(rina, caffeine)))\n¬((Student(rina) ∧ IsDependentOn(rina, caffeine)) ↔ (¬Student(rina) ∧ ¬IsDependentOn(rina, caffeine)))",
         "fol_conclusion": "¬(DrinkRegularly(rina, coffee) ↔ ¬AwareThatDrug(rina, caffeine))",
@@ -227,13 +217,8 @@
     },
     {
         "id": "folio_train_24",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_193",
         "nat_premises": "All employees of the company who have a parking permit can park in the garage.Any employee of the company who parks in the garage is either a manager or a director.All managers of the company have a parking permit.All directors of the company have a parking permit.An employee of the company has a parking permit if and only if they are a manager or a director.John is an employee of the company who has a parking permit.",
-========
-        "story_id": 193,
-        "nat_premises": "All employees of the company who have a parking permit can park in the garage.\nAny employee of the company who parks in the garage is either a manager or a director.\nAll managers of the company have a parking permit.\nAll directors of the company have a parking permit.\nAn employee of the company has a parking permit if and only if they are a manager or a director.\nJohn is an employee of the company who has a parking permit.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "John is either a manager or a director.",
         "fol_premises": "∀x (Employee(x) ∧ Have(x, parkingPermit) → ParkIn(x, garage))\n∀x (Employee(x) ∧ ParkIn(x, garage) → ¬(Manager(x) ↔ Director(x)))\n∀x (Manager(x) → Have(x, parkingPermit))\n∀x (Director(x) → Have(x, parkingPermit))\n∀x (Employee(x) → (Have(x, parkingPermit) ↔ ¬(Manager(x) ↔ Director(x))))\nEmployee(john) ∧ Have(john, parkingPermit)",
         "fol_conclusion": "¬(Manager(john) ↔ Director(john))",
@@ -331,7 +316,6 @@
     },
     {
         "id": "folio_train_35",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_417",
         "nat_premises": "Every animal is either a bird or a mammal.Every bird has wings.Every mammal has fur.No animal has both wings and fur.Leo is an animal.Leo has either wings or fur.",
         "nat_conclusion": "Leo has wings and fur.",
@@ -352,9 +336,6 @@
         "id": "folio_train_38",
         "story_id": "folio_417",
         "nat_premises": "Everything is either outside the solar system or in the solar system.Nothing outside the solar system has the Sun as its star.Everything in the solar system is gravitationally bound by the Sun.No planets gravitationally bound by the Sun are rogue planets.All orphan planets are rogue planets.PSO J318.5−22 is an orphan planet.",
-========
-        "story_id": 417,
-        "nat_premises": "Every animal is either a bird or a mammal.\nEvery bird has wings.\nEvery mammal has fur.\nNo animal has both wings and fur.\nLeo is an animal.\nLeo has either wings or fur.",
         "nat_conclusion": "Leo has wings and fur.",
         "fol_premises": "∀x (Animal(x) → ¬(Bird(x) ↔ Mammal(x)))\n∀x (Bird(x) → HasWings(x))\n∀x (Mammal(x) → HasFur(x))\n∀x (Animal(x) → ¬(HasWings(x) ∧ HasFur(x)))\nAnimal(leo)\n¬(HasWings(leo) ↔ HasFur(leo))",
         "fol_conclusion": "HasWings(leo) ∧ HasFur(leo)",
@@ -390,13 +371,8 @@
     },
     {
         "id": "folio_train_40",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_377",
         "nat_premises": "Everything is either outside the solar system or in the solar system.Nothing outside the solar system has the Sun as its star.Everything in the solar system is gravitationally bound by the Sun.No planets gravitationally bound by the Sun are rogue planets.All orphan planets are rogue planets.If PSO J318.5−22 is not both a rogue planet and a planet gravitationally bound by the Sun, then it is a rogue planet.",
-========
-        "story_id": 377,
-        "nat_premises": "Everything is either outside the solar system or in the solar system.\nNothing outside the solar system has the Sun as its star.\nEverything in the solar system is gravitationally bound by the Sun.\nNo planets gravitationally bound by the Sun are rogue planets.\nAll orphan planets are rogue planets.\nIf PSO J318.5−22 is not both a rogue planet and a planet gravitationally bound by the Sun, then it is a rogue planet.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "PSO J318.5−22 is an orphan planet.",
         "fol_premises": "∀x (¬(Outside(x, solarSystem) ↔ In(x, solarSystem)))\n∀x (Outside(x, solarSystem) → ¬HasStar(x, sun))\n∀x (In(x, solarSystem) → BoundBy(x, sun, gravitationally))\n∀x (Planet(x) ∧ BoundBy(x, sun, gravitationally) → ¬Rogue(x))\n∀x (Orphan(x) → Rogue(x))\n¬(Rogue(psoJ318_5_22) ∧ Planet(psoJ318_5_22) ∧ BoundBy(psoJ318_5_22, sun, gravitationally)) → Rogue(psoJ318_5_22)",
         "fol_conclusion": "Orphan(psoJ318_5_22)",
@@ -449,13 +425,8 @@
     },
     {
         "id": "folio_train_49",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_477",
         "nat_premises": "Every movie directed by Christopher Nolan is either a sci-fi movie or an action movie.All sci-fi movies feature complex plots.All action movies feature intense action scenes.Inception is a movie directed by Christopher Nolan.Inception features either complex plots or intense action scenes.",
-========
-        "story_id": 477,
-        "nat_premises": "Every movie directed by Christopher Nolan is either a sci-fi movie or an action movie.\nAll sci-fi movies feature complex plots.\nAll action movies feature intense action scenes.\nInception is a movie directed by Christopher Nolan.\nInception features either complex plots or intense action scenes.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Inception does not feature complex plots.",
         "fol_premises": "∀x (DirectedBy(x, christopherNolan) → ¬(SciFi(x) ↔ Action(x)))\n∀x (SciFi(x) → Feature(x, complexPlot))\n∀x (Action(x) → Feature(x, intenseActionScene))\nMovie(inception) ∧ DirectedBy(inception, christopherNolan)\n¬(Feature(inception, complexPlot) ↔ Feature(inception, intenseActionScene))",
         "fol_conclusion": "¬Feature(inception, complexPlot)",
@@ -661,13 +632,8 @@
     },
     {
         "id": "folio_train_73",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_416",
         "nat_premises": "All mammals are warm-blooded.Every animal is either a mammal or a reptile.No reptile is warm-blooded.Some reptiles are snakes.A cobra is a snake.A cobra is either a mammal or a reptile.",
-========
-        "story_id": 416,
-        "nat_premises": "All mammals are warm-blooded.\nEvery animal is either a mammal or a reptile.\nNo reptile is warm-blooded.\nSome reptiles are snakes.\nA cobra is a snake.\nA cobra is either a mammal or a reptile.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "A cobra is a reptile.",
         "fol_premises": "∀x (Mammal(x) → WarmBlooded(x))\n∀x (Animal(x) → ¬(Mammal(x) ↔ Reptile(x)))\n∀x (Reptile(x) → ¬WarmBlooded(x))\n∃x (Reptile(x) ∧ Snake(x))\nSnake(cobra)\n¬(Mammal(cobra) ↔ Reptile(cobra))",
         "fol_conclusion": "Reptile(cobra)",
@@ -702,13 +668,8 @@
     },
     {
         "id": "folio_train_78",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_378",
         "nat_premises": "All vehicles with 4 wheels are cars.All cars are vehicles.Every vehicle is either a car or a motorcycle.No motorcycle has 4 wheels.A Honda Civic is a car.A Honda Civic is either a car or a motorcycle.",
-========
-        "story_id": 378,
-        "nat_premises": "All vehicles with 4 wheels are cars.\nAll cars are vehicles.\nEvery vehicle is either a car or a motorcycle.\nNo motorcycle has 4 wheels.\nA Honda Civic is a car.\nA Honda Civic is either a car or a motorcycle.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "A Honda Civic has 4 wheels.",
         "fol_premises": "∀x (Has4Wheels(x) → Car(x))\n∀x (Car(x) → Vehicle(x))\n∀x (Vehicle(x) → ¬(Car(x) ↔ Motorcycle(x)))\n∀x (Motorcycle(x) → ¬Has4Wheels(x))\nCar(hondaCivic)\n¬(Car(hondaCivic) ↔ Motorcycle(hondaCivic))",
         "fol_conclusion": "Has4Wheels(hondaCivic)",
@@ -725,13 +686,8 @@
     },
     {
         "id": "folio_train_80",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_378",
         "nat_premises": "Any fruit that is red is either an apple or a cherry.Apples are sweet.Cherries are sour.No fruit is both sweet and sour.A Fuji is a red fruit.A Fuji is sweet or sour.",
-========
-        "story_id": 378,
-        "nat_premises": "Any fruit that is red is either an apple or a cherry.\nApples are sweet.\nCherries are sour.\nNo fruit is both sweet and sour.\nA Fuji is a red fruit.\nA Fuji is sweet or sour.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "A Fuji is not sour.",
         "fol_premises": "∀x (Fruit(x) ∧ Red(x) → ¬(Apple(x) ↔ Cherry(x)))\n∀x (Apple(x) → Sweet(x))\n∀x (Cherry(x) → Sour(x))\n∀x (Fruit(x) → ¬(Sweet(x) ∧ Sour(x)))\nFruit(fuji) ∧ Red(fuji)\nSweet(fuji) ∨ Sour(fuji)",
         "fol_conclusion": "¬Sour(fuji)",
@@ -775,13 +731,8 @@
     },
     {
         "id": "folio_train_87",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_395",
         "nat_premises": "All people who love books are either writers or readers.Writers are creative.Readers are knowledgeable.No person is both creative and knowledgeable.John loves books.John is either a writer or a reader.",
-========
-        "story_id": 395,
-        "nat_premises": "All people who love books are either writers or readers.\nWriters are creative.\nReaders are knowledgeable.\nNo person is both creative and knowledgeable.\nJohn loves books.\nJohn is either a writer or a reader.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "John is creative.",
         "fol_premises": "∀x (LoveBooks(x) → ¬(Writer(x) ↔ Reader(x)))\n∀x (Writer(x) → Creative(x))\n∀x (Reader(x) → Knowledgeable(x))\n∀x ¬(Creative(x) ∧ Knowledgeable(x))\nLoveBooks(john)\n¬(Writer(john) ↔ Reader(john))",
         "fol_conclusion": "Creative(john)",
@@ -1302,13 +1253,8 @@
     },
     {
         "id": "folio_train_150",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_408",
         "nat_premises": "No trick-shot artist in Yale's varsity team struggles with half court shots.Everyone on Yale's varsity team is someone who struggles with half court shots or who successfully shoots a high percentage of 3-pointers_  Everyone on Yale's varsity team who successfully shoots a high percentage of 3-pointers is solid at shooting 2-pointers_  No one on Yale's varsity team who is solid at shooting 2-pointers is bad at mid-range shots.Jack is on Yale's varsity team, and he is either a trick-shot artist or he successfully shoots a high percentage of 3-pointers_",
-========
-        "story_id": 408,
-        "nat_premises": "No trick-shot artist in Yale's varsity team struggles with half court shots.\nEveryone on Yale's varsity team is someone who struggles with half court shots or who successfully shoots a high percentage of 3-pointers_  \nEveryone on Yale's varsity team who successfully shoots a high percentage of 3-pointers is solid at shooting 2-pointers_  \nNo one on Yale's varsity team who is solid at shooting 2-pointers is bad at mid-range shots.\nJack is on Yale's varsity team, and he is either a trick-shot artist or he successfully shoots a high percentage of 3-pointers_",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Jack struggles at half court shots.",
         "fol_premises": "∀x ((In(x, yaleSVarsityTeam) ∧ TrickShotArtist(x)) → ¬StruggleAt(x, halfCourtShot))\n∀x (In(x, yaleSVarsityTeam) → (StruggleAt(x, halfCourtShot) ∨ GoodAt(x, threes)))\n∀x ((In(x, yaleSVarsityTeam) ∧ GoodAt(x, threes)) → GoodAt(x, twos))\n∀x ((In(x, yaleSVarsityTeam) ∧ GoodAt(x, twos)) → ¬BadAt(x, midRangeShot))\nIn(jack, yaleSVarsityTeam) ∧ ¬(TrickShotArtist(jack) ↔ GoodAt(jack, threes))",
         "fol_conclusion": "StruggleAt(jack, halfCourtShot)",
@@ -2231,8 +2177,6 @@
         "fol_premises": "∀x (Taxpayer(x) → ContributeTo(x, country))\n∀x (WorkFor(x, governmentAgency) → Taxpayer(x))\n∀x (ServesIn(x, theArmy) → WorkFor(x, governmentAgency))\n∀x (SentencedForMurder(x) → Imprisoned(x))\n∀x (Imprisoned(x) → Has(x, criminalRecord))\nSentencedForMurder(james) ⊕ Imprisoned(james)\nHas(james, criminalRecord) ⊕ Taxpayer(james)",
         "fol_conclusion": "¬ContributeTo(james, country)",
         "label": "False"
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
-========
     },
     {
         "id": "folio_train_264",
@@ -2242,7 +2186,6 @@
         "fol_premises": "∀x (Taxpayer(x) → ContributeTo(x, country))\n∀x (WorkFor(x, governmentAgency) → Taxpayer(x))\n∀x (ServesIn(x, theArmy) → WorkFor(x, governmentAgency))\n∀x (SentencedForMurder(x) → Imprisoned(x))\n∀x (Imprisoned(x) → Has(x, criminalRecord))\nSentencedForMurder(james) ⊕ Imprisoned(james)\nHas(james, criminalRecord) ⊕ Taxpayer(james)",
         "fol_conclusion": "ContributeTo(james, country) ∧ ServesIn(james, army)",
         "label": "Uncertain"
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
     },
     {
         "id": "folio_train_264",
@@ -2426,13 +2369,8 @@
     },
     {
         "id": "folio_train_285",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_362",
         "nat_premises": "People who like financial risks invest in the public stock market regularly or enjoy gambling regularly.If people invest in the public stock market regularly, then they read the Wall Street Journal and other newspapers regularly to keep updated on financial metrics.All people who enjoy gambling regularly spend a lot of money at casinos or other betting games.People who spend a lot of money at casinos and other betting games would enjoy visiting the Las Vegas Strip.People who spend a lot of money at casinos and other betting games are at risk of gambling addiction.Matt does not invest in the public stock market regularly. Matt likes financial risks.",
-========
-        "story_id": 362,
-        "nat_premises": "People who like financial risks invest in the public stock market regularly or enjoy gambling regularly.\nIf people invest in the public stock market regularly, then they read the Wall Street Journal and other newspapers regularly to keep updated on financial metrics.\nAll people who enjoy gambling regularly spend a lot of money at casinos or other betting games.\nPeople who spend a lot of money at casinos and other betting games would enjoy visiting the Las Vegas Strip.\nPeople who spend a lot of money at casinos and other betting games are at risk of gambling addiction.\nMatt does not invest in the public stock market regularly. \nMatt likes financial risks.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Matt is not at risk of a gambling addiction and Mike does not both read the Wall Street Journal and other newspapers regularly and visit the Las Vegas Strip regularly.",
         "fol_premises": "∀x (Like(x, financialRisk) → (InvestInStock(x) ∨ EnjoyGambling(x)))\n∀x (InvestInStock(x) → (ReadWSJ(x) ∧ ReadOtherNews(x)))\n∀x (EnjoyGambling(x) → SpendMoneyCasinos(x))\n∀x (SpendMoneyCasinos(x) → EnjoyVegas(x))\n∀x (SpendMoneyCasinos(x) → AtRiskAddiction(x))\n¬InvestInStock(matt)\nLike(matt, financialRisk)",
         "fol_conclusion": "¬AtRiskAddiction(matt) ∧ ¬(ReadWSJ(mike) ∧ ReadOtherNews(mike) ∧ EnjoyVegas(mike))",
@@ -2548,13 +2486,8 @@
     },
     {
         "id": "folio_train_299",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_444",
         "nat_premises": "All birds have wings.Animals with wings aren't reptiles.Some animals that fly are birds.If something is an iguana, then it is a reptile. Simeng: All iguanas are reptiles.John is either both an iguana and a bird, or he is neither.John is an animal.",
-========
-        "story_id": 444,
-        "nat_premises": "All birds have wings.\nAnimals with wings aren't reptiles.\nSome animals that fly are birds.\nIf something is an iguana, then it is a reptile. Simeng: All iguanas are reptiles.\nJohn is either both an iguana and a bird, or he is neither.\nJohn is an animal.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "John is not both an iguana and an animal that can fly.",
         "fol_premises": "∀x (Bird(x) → ∃y (∃z (¬(y=z) ∧ Wing(y) ∧ Wing(z) ∧ Have(x, y) ∧ Have(x, z))))\n∀x ((Animal(x) ∧ ∃y (∃z (¬(y=z) ∧ Wing(y) ∧ Wing(z) ∧ Have(x, y) ∧ Have(x, z)))) → ¬Reptile(x))\n∃x (Animal(x) ∧ Fly(x) ∧ Bird(x))\n∀x (Iguana(x) → Reptile(x))\n(Iguana(john) ∧ Bird(john)) ∨ (¬Iguana(john) ∧ ¬Bird(john))\nAnimal(john)",
         "fol_conclusion": "¬(Iguana(john) ∧ Animal(john) ∧ Fly(john))",
@@ -2562,13 +2495,8 @@
     },
     {
         "id": "folio_train_300",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_444",
         "nat_premises": "All birds have wings.Animals with wings aren't reptiles.Some animals that fly are birds.If something is an iguana, then it is a reptile. Simeng: All iguanas are reptiles.John is either both an iguana and a bird, or he is neither.John is an animal.",
-========
-        "story_id": 444,
-        "nat_premises": "All birds have wings.\nAnimals with wings aren't reptiles.\nSome animals that fly are birds.\nIf something is an iguana, then it is a reptile. Simeng: All iguanas are reptiles.\nJohn is either both an iguana and a bird, or he is neither.\nJohn is an animal.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "John is an animal that can fly and John is a bird.",
         "fol_premises": "∀x (Bird(x) → (∃y ∃z (¬(y=z) ∧ Wing(y) ∧ Wing(z) ∧ Have(x, y) ∧ Have(x, z))))\n∀x ((Animal(x) ∧ (∃y ∃z (¬(y=z) ∧ Wing(y) ∧ Wing(z) ∧ Have(x, y) ∧ Have(x, z)))) → ¬Reptile(x))\n∃x (Animal(x) ∧ Fly(x) ∧ Bird(x))\n∀x (Iguana(x) → Reptile(x))\n(Iguana(john) ∧ Bird(john)) ∨ (¬Iguana(john) ∧ ¬Bird(john))\nAnimal(john)",
         "fol_conclusion": "Animal(john) ∧ Fly(john) ∧ Bird(john)",
@@ -3188,13 +3116,8 @@
     },
     {
         "id": "folio_train_375",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_433",
         "nat_premises": "There are no buildings in New Haven higher than 400 meters_ All buildings managed by Yale Housing are in New Haven.All Manhattan skyscrapers are higher than 400 meters_ All buildings owned by Bloomberg are in Manhattan.All buildings with the Bloomberg logo are buildings owned by Bloomberg.Tower A is neither a building in New Haven nor a skyscraper in Manhattan.Tower B is a skyscraper building in Manhattan with a Bloomberg logo.",
-========
-        "story_id": 433,
-        "nat_premises": "There are no buildings in New Haven higher than 400 meters_ \nAll buildings managed by Yale Housing are in New Haven.\nAll Manhattan skyscrapers are higher than 400 meters_ \nAll buildings owned by Bloomberg are in Manhattan.\nAll buildings with the Bloomberg logo are buildings owned by Bloomberg.\nTower A is neither a building in New Haven nor a skyscraper in Manhattan.\nTower B is a skyscraper building in Manhattan with a Bloomberg logo.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Tower A is a building with the Bloomberg logo or it is managed by Yale Housing.",
         "fol_premises": "∀x ((Building(x) ∧ In(x, newHaven)) → ¬HigherThan(x, num400))\n∀x ((Building(x) ∧ ManagedBy(x, yaleHousing)) → In(x, newHaven))\n∀x ((Building(x) ∧ Skyscraper(x) ∧ In(x, manhattan)) → HigherThan(x, num400))\n∀x ((Building(x) ∧ OwnedBy(x, bloomberg)) → In(x, manhattan))\n∀x ((Building(x) ∧ HasLogo(x, bloomberg)) → OwnedBy(x, bloomberg))\nBuilding(towerA) ∧ ¬In(towerA, newHaven) ∧ ¬(Skyscraper(towerA) ∧ In(towerA, manhattan))\nBuilding(towerB) ∧ HasLogo(towerB, bloomberg) ∧ Skyscraper(towerB) ∧ In(towerB, manhattan)",
         "fol_conclusion": "HasLogo(towerA, bloomberg) ∨ ManagedBy(towerA, yaleHousing)",
@@ -3202,13 +3125,8 @@
     },
     {
         "id": "folio_train_376",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_433",
         "nat_premises": "There are no buildings in New Haven higher than 400 meters_ All buildings managed by Yale Housing are in New Haven.All Manhattan skyscrapers are higher than 400 meters_ All buildings owned by Bloomberg are in Manhattan.All buildings with the Bloomberg logo are buildings owned by Bloomberg.Tower A is neither a building in New Haven nor a skyscraper in Manhattan.Tower B is a skyscraper building in Manhattan with a Bloomberg logo.",
-========
-        "story_id": 433,
-        "nat_premises": "There are no buildings in New Haven higher than 400 meters_ \nAll buildings managed by Yale Housing are in New Haven.\nAll Manhattan skyscrapers are higher than 400 meters_ \nAll buildings owned by Bloomberg are in Manhattan.\nAll buildings with the Bloomberg logo are buildings owned by Bloomberg.\nTower A is neither a building in New Haven nor a skyscraper in Manhattan.\nTower B is a skyscraper building in Manhattan with a Bloomberg logo.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Tower A is neither a building with the Bloomberg logo nor managed by Yale Housing.",
         "fol_premises": "∀x ((Building(x) ∧ In(x, newHaven)) → ¬HigherThan(x, num400))\n∀x ((Building(x) ∧ ManagedBy(x, yaleHousing)) → In(x, newHaven))\n∀x ((Building(x) ∧ Skyscraper(x) ∧ In(x, manhattan)) → HigherThan(x, num400))\n∀x ((Building(x) ∧ OwnedBy(x, bloomberg)) → In(x, manhattan))\n∀x ((Building(x) ∧ HasLogo(x, bloomberg)) → OwnedBy(x, bloomberg))\nBuilding(towerA) ∧ ¬In(towerA, newHaven) ∧ ¬(Skyscraper(towerA) ∧ In(towerA, manhattan))\nBuilding(towerB) ∧ HasLogo(towerB, bloomberg) ∧ Skyscraper(towerB) ∧ In(towerB, manhattan)",
         "fol_conclusion": "¬HasLogo(towerA, bloomberg) ∧ ¬ManagedBy(towerA, yaleHousing)",
@@ -3360,19 +3278,12 @@
     },
     {
         "id": "folio_train_395",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_326",
         "nat_premises": "Some soccer defenders are center-backs.All soccer defenders are soccer players.No soccer players are professional basketball players.All NBA players are professional basketball players.Stephen Curry is an NBA player.",
-========
-        "story_id": 326,
-        "nat_premises": "Some soccer defenders are center-backs.\nAll soccer defenders are soccer players.\nNo soccer players are professional basketball players.\nAll NBA players are professional basketball players.\nStephen Curry is an NBA player.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Stephen Curry is not both a centerback and a soccer defender.",
         "fol_premises": "∃x (SoccerDefender(x) ∧ Centerback(x))\n∀x (SoccerDefender(x) → SoccerPlayer(x))\n∀x (SoccerPlayer(x) → ¬ProfessionalBasketballPlayer(x))\n∀x (NBAPlayer(x) → ProfessionalBasketballPlayer(x))\nNBAPlayer(stephenCurry)",
         "fol_conclusion": "¬(Centerback(stephenCurry) ∧ SoccerDefender(stephenCurry))",
         "label": "True"
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
-========
     },
     {
         "id": "folio_train_396",
@@ -3382,7 +3293,6 @@
         "fol_premises": "∃x (SoccerDefender(x) ∧ Centerback(x))\n∀x (SoccerDefender(x) → SoccerPlayer(x))\n∀x (SoccerPlayer(x) → ¬ProfessionalBasketballPlayer(x))\n∀x (NBAPlayer(x) → ProfessionalBasketballPlayer(x))\nNBAPlayer(stephenCurry)",
         "fol_conclusion": "¬(Centerback(stephenCurry) ∧ SoccerDefender(stephenCurry)) → ¬(SoccerPlayer(stephenCurry) ∨ ProfessionalBasketballPlayer(stephenCurry))",
         "label": "False"
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
     },
     {
         "id": "folio_train_396",
@@ -3629,13 +3539,8 @@
     },
     {
         "id": "folio_train_427",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_381",
         "nat_premises": "All people who attend Renaissance fairs regularly enjoy dressing up in old-fashioned and historical period clothing.If people are fascinated by the history of the Renaissance and other past eras, then they attend Renaissance fairs regularly.People are fascinated by the history of the Renaissance and other past eras, or they are contemporary academics who enjoy learning.People who are focused on futuristic and vocational subjects are contemporary academics who enjoy learning.If people are professors who take a historical approach, then they are not contemporary academics who enjoy learning.If Clyde is not focused on futuristic and vocational subjects, then he is neither focused on futuristic and vocational subjects nor enjoys dressing up in old-fashioned and historical period clothing.",
-========
-        "story_id": 381,
-        "nat_premises": "All people who attend Renaissance fairs regularly enjoy dressing up in old-fashioned and historical period clothing.\nIf people are fascinated by the history of the Renaissance and other past eras, then they attend Renaissance fairs regularly.\nPeople are fascinated by the history of the Renaissance and other past eras, or they are contemporary academics who enjoy learning.\nPeople who are focused on futuristic and vocational subjects are contemporary academics who enjoy learning.\nIf people are professors who take a historical approach, then they are not contemporary academics who enjoy learning.\nIf Clyde is not focused on futuristic and vocational subjects, then he is neither focused on futuristic and vocational subjects nor enjoys dressing up in old-fashioned and historical period clothing.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Clyde attends Renaissance fairs regularly.",
         "fol_premises": "∀x (AttendRegularly(x, renaissanceFair) → (EnjoyDressingUp(x, oldFashionedClothing) ∧ EnjoyDressingUp(x, historicalPeriodClothing)))\n∀x (FascinatedBy(x, historyOfRenaissance) → AttendRegularly(x, renaissanceFair))\n∀x (FascinatedBy(x, historyOfRenaissance) ∨ (ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n∀x ((FocusedOn(x, futuristicSubject) ∧ FocusedOn(x, vocationalSubject)) → (ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n∀x ((Professor(x) ∧ Take(x, historicalApproach)) → ¬(ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n¬(FocusedOn(clyde, futuristicSubject) ∧ FocusedOn(clyde, vocationalSubject)) → ¬((FocusedOn(clyde, futuristicSubject) ∧ FocusedOn(clyde, vocationalSubject)) ∨ (EnjoyDressingUp(clyde, oldFashionedClothing) ∧ EnjoyDressingUp(clyde, historicalPeriodClothing)))",
         "fol_conclusion": "AttendRegularly(clyde, renaissanceFair)",
@@ -3643,13 +3548,8 @@
     },
     {
         "id": "folio_train_428",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_381",
         "nat_premises": "All people who attend Renaissance fairs regularly enjoy dressing up in old-fashioned and historical period clothing.If people are fascinated by the history of the Renaissance and other past eras, then they attend Renaissance fairs regularly.People are fascinated by the history of the Renaissance and other past eras, or they are contemporary academics who enjoy learning.People who are focused on futuristic and vocational subjects are contemporary academics who enjoy learning.If people are professors who take a historical approach, then they are not contemporary academics who enjoy learning.If Clyde is not focused on futuristic and vocational subjects, then he is neither focused on futuristic and vocational subjects nor enjoys dressing up in old-fashioned and historical period clothing.",
-========
-        "story_id": 381,
-        "nat_premises": "All people who attend Renaissance fairs regularly enjoy dressing up in old-fashioned and historical period clothing.\nIf people are fascinated by the history of the Renaissance and other past eras, then they attend Renaissance fairs regularly.\nPeople are fascinated by the history of the Renaissance and other past eras, or they are contemporary academics who enjoy learning.\nPeople who are focused on futuristic and vocational subjects are contemporary academics who enjoy learning.\nIf people are professors who take a historical approach, then they are not contemporary academics who enjoy learning.\nIf Clyde is not focused on futuristic and vocational subjects, then he is neither focused on futuristic and vocational subjects nor enjoys dressing up in old-fashioned and historical period clothing.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Clyde is a professor who takes a historical approach.",
         "fol_premises": "∀x (AttendRegularly(x, renaissanceFair) → (EnjoyDressingUp(x, oldFashionedClothing) ∧ EnjoyDressingUp(x, historicalPeriodClothing)))\n∀x (FascinatedBy(x, historyOfRenaissance) → AttendRegularly(x, renaissanceFair))\n∀x (FascinatedBy(x, historyOfRenaissance) ∨ (ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n∀x ((FocusedOn(x, futuristicSubject) ∧ FocusedOn(x, vocationalSubject)) → (ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n∀x ((Professor(x) ∧ Take(x, historicalApproach)) → ¬(ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n¬(FocusedOn(clyde, futuristicSubject) ∧ FocusedOn(clyde, vocationalSubject)) → ¬((FocusedOn(clyde, futuristicSubject) ∧ FocusedOn(clyde, vocationalSubject)) ∨ (EnjoyDressingUp(clyde, oldFashionedClothing) ∧ EnjoyDressingUp(clyde, historicalPeriodClothing)))",
         "fol_conclusion": "Professor(clyde) ∧ Take(clyde, historicalApproach)",
@@ -3657,13 +3557,8 @@
     },
     {
         "id": "folio_train_429",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_381",
         "nat_premises": "All people who attend Renaissance fairs regularly enjoy dressing up in old-fashioned and historical period clothing.If people are fascinated by the history of the Renaissance and other past eras, then they attend Renaissance fairs regularly.People are fascinated by the history of the Renaissance and other past eras, or they are contemporary academics who enjoy learning.People who are focused on futuristic and vocational subjects are contemporary academics who enjoy learning.If people are professors who take a historical approach, then they are not contemporary academics who enjoy learning.If Clyde is not focused on futuristic and vocational subjects, then he is neither focused on futuristic and vocational subjects nor enjoys dressing up in old-fashioned and historical period clothing.",
-========
-        "story_id": 381,
-        "nat_premises": "All people who attend Renaissance fairs regularly enjoy dressing up in old-fashioned and historical period clothing.\nIf people are fascinated by the history of the Renaissance and other past eras, then they attend Renaissance fairs regularly.\nPeople are fascinated by the history of the Renaissance and other past eras, or they are contemporary academics who enjoy learning.\nPeople who are focused on futuristic and vocational subjects are contemporary academics who enjoy learning.\nIf people are professors who take a historical approach, then they are not contemporary academics who enjoy learning.\nIf Clyde is not focused on futuristic and vocational subjects, then he is neither focused on futuristic and vocational subjects nor enjoys dressing up in old-fashioned and historical period clothing.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Clyde is a professor who takes a historical approach, or is a contemporary academic.",
         "fol_premises": "∀x (AttendRegularly(x, renaissanceFair) → (EnjoyDressingUp(x, oldFashionedClothing) ∧ EnjoyDressingUp(x, historicalPeriodClothing)))\n∀x (FascinatedBy(x, historyOfRenaissance) → AttendRegularly(x, renaissanceFair))\n∀x (FascinatedBy(x, historyOfRenaissance) ∨ (ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n∀x ((FocusedOn(x, futuristicSubject) ∧ FocusedOn(x, vocationalSubject)) → (ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n∀x ((Professor(x) ∧ Take(x, historicalApproach)) → ¬(ContemporaryAcademic(x) ∧ Enjoy(x, learning)))\n¬(FocusedOn(clyde, futuristicSubject) ∧ FocusedOn(clyde, vocationalSubject)) → ¬((FocusedOn(clyde, futuristicSubject) ∧ FocusedOn(clyde, vocationalSubject)) ∨ (EnjoyDressingUp(clyde, oldFashionedClothing) ∧ EnjoyDressingUp(clyde, historicalPeriodClothing)))",
         "fol_conclusion": "(Professor(clyde) ∧ Take(clyde, historicalApproach)) ∨ (ContemporaryAcademic(clyde) ∧ Enjoy(clyde, learning))",
@@ -3677,8 +3572,6 @@
         "fol_premises": "∀x (SportsCar(x) → ¬IntendedToBeDrivenAt(x, moderateSpeed))\n∀x (DesignedFor(x, familyUse) → IntendedToBeDrivenAt(x, moderateSpeed))",
         "fol_conclusion": "∀x (SportsCar(x) → ¬For(x, familyUse))",
         "label": "Uncertain"
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
-========
     },
     {
         "id": "folio_train_431",
@@ -3688,7 +3581,6 @@
         "fol_premises": "∀x (WorkWellInTeamsIn(x, workPlace) → ∀y (Colleague(y) ∧ GetAlongWithAtWork(x, y)))\n∀x (ComeToWorkWithEveryDay(x, positiveAttitude) → WorkWellInTeamsIn(x, workPlace))\n∀x (ComeToWorkWithEveryDay(x, positiveAttitude) ⊕ AlwaysTiredInMorning(x))\n∀x (AlwaysTiredInMorning(x) → CriticizedBy(x, boss))\n∀x (CriticizedBy(x, boss) → ¬ReceiveFromAtWork(x, positiveFeedback, team))\n¬(WorkWellInTeamsIn(kat, workPlace) ⊕ Tired(kat))",
         "fol_conclusion": "ComeToWorkWithEveryDay(kat, positiveAttitude)",
         "label": "True"
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
     },
     {
         "id": "folio_train_431",
@@ -4016,13 +3908,8 @@
     },
     {
         "id": "folio_train_476",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "story_id": "folio_412",
         "nat_premises": "All fruits sold at Nica's market are shipped from Colombia.Some fruits sold in New Haven are shipped from Mexico.No fruits shipped from Colombia are sold at the local farmers market in New Haven.Avocados are a kind of fruit sold at the local farmers market in New Haven or at Nica's market.Avocados are either shipped from Colombia and sold in New Haven, or neither.",
-========
-        "story_id": 412,
-        "nat_premises": "All fruits sold at Nica's market are shipped from Colombia.\nSome fruits sold in New Haven are shipped from Mexico.\nNo fruits shipped from Colombia are sold at the local farmers market in New Haven.\nAvocados are a kind of fruit sold at the local farmers market in New Haven or at Nica's market.\nAvocados are either shipped from Colombia and sold in New Haven, or neither.",
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
         "nat_conclusion": "Avocados are a kind of fruit sold at the local farmers market in New Haven.",
         "fol_premises": "∀x ((Fruit(x) ∧ SoldAt(x, nicasMarket)) → ShippedFrom(x, colombia))\n∃x (Fruit(x) ∧ SoldIn(x, newHaven) ∧ ShippedFrom(x, mexico))\n∀x ((Fruit(x) ∧ ShippedFrom(x, colombia)) → ¬(SoldAt(x, localFarmersMarket)))\nFruit(avocado) ∧ (SoldAt(avocado, localFarmersMarket) ∨ SoldAt(avocado, nicasMarket))\n¬(ShippedFrom(avocado, colombia) ⊕ SoldIn(avocado, newHaven))",
         "fol_conclusion": "Fruit(avocado) ∧ SoldAt(avocado, localFarmersMarket)",
@@ -4369,8 +4256,6 @@
         "fol_premises": "ProducedBy(luminaAPV, chevrolet)\nProducedBy(astro, chevrolet) ∧ Van(astro)\n∀x (Vehicle(x) ∧ ProducedBy(x, chevrolet) ∧ InThisBatch(x) → (Car(x) ⊕ Van(x)))",
         "fol_conclusion": "Car(astro)",
         "label": "Uncertain"
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
-========
     },
     {
         "id": "folio_train_530",
@@ -4876,8 +4761,6 @@
         "fol_premises": "Medication(diethylcarbamazine) ∧ DiscoversIn(diethylcarbamazine, yr1947)\nTreats(diethylcarbamazine, riverBlindness)\nPreferredTreatmentFor(riverBlindness, ivermectin)\n¬(Is(diethylcarbamazine, ivermectin))",
         "fol_conclusion": "¬(PreferredTreatmentFor(riverBlindness, diethylcarbamazine))",
         "label": "Uncertain"
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
-========
     },
     {
         "id": "folio_train_594",
@@ -4987,8 +4870,6 @@
         "fol_premises": "∀x (¬CleanOften(x, home) → ¬Have(x, tidyHouse))\n∀x (¬Prioritize(x, cleaning) → ¬CleanOften(x, home))\n∀x (Hire(x, maid) ∨ Hire(x, cleaningService) → Have(x, tidyHouse))\n∀x (¬CareAbout(x, cleanliness) → ¬Prioritize(x, cleaning))\n¬(Hire(x, maid) ∨ Hire(x, cleaningService)) ⊕ ¬CleanOften(jack, home)",
         "fol_conclusion": "¬(CareAbout(jack, cleanliness))",
         "label": "Uncertain"
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
-========
     },
     {
         "id": "folio_train_606",
@@ -5007,7 +4888,6 @@
         "fol_premises": "∀x (¬CleanOften(x, home) → ¬Have(x, tidyHouse))\n∀x (¬Prioritize(x, cleaning) → ¬CleanOften(x, home))\n∀x (Hire(x, maid) ∨ Hire(x, cleaningService) → Have(x, tidyHouse))\n∀x (¬CareAbout(x, cleanliness) → ¬Prioritize(x, cleaning))\n¬(Hire(x, maid) ∨ Hire(x, cleaningService)) ⊕ ¬CleanOften(jack, home)",
         "fol_conclusion": "Have(jack, tidyHouse)",
         "label": "False"
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
     },
     {
         "id": "folio_train_606",
@@ -5015,13 +4895,10 @@
         "nat_premises": "If people don't often clean their homes, then they do not have tidy houses.If people don't prioritize cleaning, then they do not often clean their homes.If people hire a maid or cleaning service, then they have tidy houses.If people don't care about cleanliness, then they do not prioritize cleaning.Either Jack does hire a maid or cleaning service and does not often clean his home, or he does not hire a maid or cleaning service nor often clean his home.",
         "nat_conclusion": "Jack does care about cleanliness.",
         "fol_premises": "∀x (¬CleanOften(x, home) → ¬Have(x, tidyHouse))\n∀x (¬Prioritize(x, cleaning) → ¬CleanOften(x, home))\n∀x (Hire(x, maid) ∨ Hire(x, cleaningService) → Have(x, tidyHouse))\n∀x (¬CareAbout(x, cleanliness) → ¬Prioritize(x, cleaning))\n¬(Hire(x, maid) ∨ Hire(x, cleaningService)) ⊕ ¬CleanOften(jack, home)",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_train.json
         "fol_conclusion": "CareAbout(jack, cleanliness)",
         "label": "Uncertain"
-========
         "fol_conclusion": "¬(¬CareAbout(jack, cleanliness) ∨ ¬CleanOften(jack, home))",
         "label": "False"
->>>>>>>> origin/feature/engine:fix_data/temp_train.json
     },
     {
         "id": "folio_train_607",

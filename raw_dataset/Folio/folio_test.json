@@ -640,13 +640,8 @@
     },
     {
         "id": "folio_test_73",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_test.json
         "story_id": "folio_435",
         "nat_premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. ",
-========
-        "story_id": 435,
-        "nat_premises": "None of the students who currently work in the library are from the computer science department. \nAll of the students with part-time jobs offered by the university currently work in the library. \nAll of the students who are taking the database course are from the computer science department. \nAll of the students taking a class with Professor David are taking the database course. \nAll students working in the lab are taking a class with Professor David.\nJames is a student working in the lab. ",
->>>>>>>> origin/feature/engine:Folio/folio_test.json
         "nat_conclusion": "James does not have a part-time job offered by the university.",
         "fol_premises": "∀x (Student(x) ∧ WorkIn(x, library) → ¬From(x, computerScienceDepartment))\n∀x (Student(x) ∧ ∃y (PartTimeJob(y) ∧ Have(x, y) ∧ OfferedBy(y, university)) → WorkIn(x, library))\n∀x (Student(x) ∧ Take(x, databaseCourse) → From(x, computerScienceDepartment))\n∀x (Student(x) ∧ InstructedBy(x, professorDavid) → Take(x, databaseCourse))\n∀x (Student(x) ∧ WorkIn(x, lab) → InstructedBy(x, professorDavid))\nStudent(james) ∧ WorkIn(james, lab)",
         "fol_conclusion": "¬∃y (PartTimeJob(y) ∧ Have(james, y) ∧ OfferedBy(y, university))",
@@ -654,13 +649,8 @@
     },
     {
         "id": "folio_test_74",
-<<<<<<<< HEAD:raw_dataset/Folio/folio_test.json
         "story_id": "folio_435",
         "nat_premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. ",
-========
-        "story_id": 435,
-        "nat_premises": "None of the students who currently work in the library are from the computer science department. \nAll of the students with part-time jobs offered by the university currently work in the library. \nAll of the students who are taking the database course are from the computer science department. \nAll of the students taking a class with Professor David are taking the database course. \nAll students working in the lab are taking a class with Professor David.\nJames is a student working in the lab. ",
->>>>>>>> origin/feature/engine:Folio/folio_test.json
         "nat_conclusion": "James either takes the database course or has a part-time job offered by the university.",
         "fol_premises": "∀x (Student(x) ∧ WorkIn(x, library) → ¬From(x, computerScienceDepartment))\n∀x (Student(x) ∧ ∃y (PartTimeJob(y) ∧ Have(x, y) ∧ OfferedBy(y, university)) → WorkIn(x, library))\n∀x (Student(x) ∧ Take(x, databaseCourse) → From(x, computerScienceDepartment))\n∀x (Student(x) ∧ InstructedBy(x, professorDavid) → Take(x, databaseCourse))\n∀x (Student(x) ∧ WorkIn(x, lab) → InstructedBy(x, professorDavid))\nStudent(james) ∧ WorkIn(james, lab)",
         "fol_conclusion": "¬(Take(james, databaseCourse) ↔ ∃y (PartTimeJob(y) ∧ Have(james, y) ∧ OfferedBy(y, university)))",
