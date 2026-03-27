@@ -23,14 +23,14 @@
 \usetheme{Frankfurt}
 \usecolortheme{crane}
 % Tùy chỉnh footer cho gọn
-\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{footline}[frame number]
 
 \AtBeginSection[]
 {
   \begin{frame}[plain, noframenumbering]
   \frametitle{Contents}
-  \tableofcontents[currentsection, hideallsubsections] 
+  \tableofcontents[currentsection, hideallsubsections]
   \end{frame}
 }
 
@@ -122,22 +122,22 @@
             \node[circle, draw, minimum size=0.25cm] (fc1\i) at (0, \shift) {};
           }
           \node[scale=5/6, circle, minimum size=0.25cm] (fc1...) at (0, 0.2) {$\vdots$};
-      
+
           \foreach \i\shift in {1/-4, 2/-3, 3/-2, 4/-1, 5/1, 6/2, 7/3, 8/4} {
             \node[circle, draw, minimum size=0.25cm] (fc2\i) at (2.5, \shift) {};
           }
           \node[scale=5/6, circle, minimum size=0.25cm] (fc2...) at (2.5, 0.2) {$\vdots$};
-      
+
           \foreach \i\shift in {1/-4, 2/-3, 3/-2, 4/-1, 5/1, 6/2, 7/3, 8/4} {
             \node[circle, draw, minimum size=0.25cm] (fc3\i) at (5, \shift) {};
           }
           \node[scale=5/6, circle, minimum size=0.25cm] (fc3...) at (5, 0.2) {$\vdots$};
-      
+
           \foreach \i\shift in {1/-3, 2/-2, 3/-1, 4/1, 5/2, 6/3} {
             \node[circle, draw, minimum size=0.25cm] (fc4\i) at (7.5, \shift) {};
           }
           \node[scale=5/6, circle, minimum size=0.25cm] (fc4...) at (7.5, 0.2) {$\vdots$};
-      
+
           \foreach \i in {1,...,8} {
             \foreach \j in {1,...,6} {
               \draw[->, gray, opacity=0.5] (fc1\j) -- (fc2\i);
@@ -298,7 +298,7 @@
                 $\forall x (\text{Student}(x) \rightarrow \exists y (\text{Course}(y) \wedge \text{Takes}(x, y)))$
             \end{exampleblock}
         \end{column}
-        
+
     \end{columns}
 
     \pause
@@ -434,13 +434,37 @@
 
 \only<4>{
   \framesubtitle{RuleTaker Dataset}
+<<<<<<< HEAD
   \begin{block}{\textbf{RuleTaker Dataset}}
     RuleTaker is a synthetic dataset for evaluating multi-hop logical inference over explicit facts and rules.
+=======
+  \begin{block}{\textbf{RuleTaker Dataset (Rule-based NLI)}}
+    \footnotesize
+    RuleTaker is a synthetic dataset for evaluating \textbf{multi-hop logical inference} over explicit \textbf{facts and rules}.
+    \begin{columns}[T]
+      \begin{column}{0.50\textwidth}
+        \begin{itemize}
+          \setlength{\itemsep}{0.25em}
+          \item \textbf{Task:} Given a \textit{context} of English \textbf{facts + rules}, predict whether a \textit{question} is \textbf{entailed}.
+          \item \textbf{Rule form:} conjunctive implication (Horn-like), optionally with negation (e.g., $Kind(x)\land Young(x)\rightarrow \lnot Smart(x)$) $\Rightarrow$ supports \textbf{multi-hop} inference chains.
+        \end{itemize}
+      \end{column}
+      \begin{column}{0.50\textwidth}
+        \begin{itemize}
+          \setlength{\itemsep}{0.25em}
+          \item \textbf{Controlled difficulty:} \texttt{config} (e.g., \texttt{depth-1}, \texttt{depth-3}) indicates reasoning depth.
+          \item \textbf{Schema:} \texttt{context}, \texttt{question}, \texttt{label} $\in$ \{\textit{entailment}, \textit{not entailment}\}, \texttt{config}.
+          \item \textbf{Use in our pipeline:} large-scale synthetic data (\textasciitilde 480k train), mainly for \textbf{Phase-2 DPO} (no gold FOL labels).
+        \end{itemize}
+      \end{column}
+    \end{columns}
+>>>>>>> origin/feat/dataset/RuleTaker
   \end{block}
 
   \textbf{Examples:}
   \begin{table}
     \centering
+<<<<<<< HEAD
     \tiny
     \setlength{\tabcolsep}{2pt}
     % \setlength{\extrarowheight}{2pt}
@@ -487,15 +511,59 @@
       \hline
     \end{tabular}
     \caption{Sample data from the RuleTaker dataset.}
+=======
+    \scriptsize
+    \setlength{\extrarowheight}{2pt}
+    \renewcommand{\arraystretch}{0.78}
+    \begin{tabular}{|p{6.1cm}|p{2.2cm}|c|c|}
+      \hline
+      \textbf{Context (Facts \& Rules)} & \textbf{Question} & \textbf{Label} & \textbf{Config} \\
+      \hline
+      \textbf{Facts:} Bob is kind. Bob is young. \newline
+      \textbf{Rules:} Kind, young things are not smart.
+      &
+      Bob is not smart.
+      &
+      entailment
+      &
+      depth-1
+      \\
+      \hline
+      \textbf{Facts:} Fiona is white. \newline
+      \textbf{Rules:} If someone is white then they are not big.
+      &
+      Fiona is not big.
+      &
+      entailment
+      &
+      depth-1
+      \\
+      \hline
+      \textbf{Facts:} Fiona is white. \newline
+      \textbf{Rules:} If someone is white then they are not big.
+      &
+      Fiona is big.
+      &
+      not entailment
+      &
+      depth-1
+      \\
+      \hline
+    \end{tabular}
+>>>>>>> origin/feat/dataset/RuleTaker
   \end{table}
 }
+
 
 \only<5>{
   \framesubtitle{ReClor Dataset}
   \begin{block}{\textbf{ReClor Dataset}}
     ReClor is a reading comprehension dataset for assessing logical reasoning in LLMs via context-based multiple-choice tasks. 91.22\% of it are from actual exams of GMAT and LSAT while others are from high-quality practice exams.
   \end{block}
+<<<<<<< HEAD
   
+=======
+>>>>>>> origin/feat/dataset/RuleTaker
 
   \textbf{Examples:}
   \begin{table}
@@ -539,7 +607,7 @@
     LogiQA is constructed from the logical comprehension problems from publically available questions of the National Civil Servants Examination of China.
 
   \end{block}
-  
+
   \textbf{Examples:}
   \begin{table}
     \centering
@@ -726,25 +794,25 @@
 %   % Sử dụng bảng để so sánh đối xứng
 %   \begin{table}[]
 %     \centering
-%     \renewcommand{\arraystretch}{1.5} 
+%     \renewcommand{\arraystretch}{1.5}
 %     \begin{tabular}{@{}p{0.45\textwidth} | p{0.45\textwidth}@{}}
 %       \toprule
 %       \textbf{\color{red} Main Challenges} & \textbf{\color{blue} Proposed Strategies} \\ \midrule
-      
+
 %       \textbf{1. Data Sparsity \& Imbalance:} \newline
-%       Dữ liệu gán nhãn cho tiếng Việt còn ít và phân bố không đều giữa các lớp. & 
+%       Dữ liệu gán nhãn cho tiếng Việt còn ít và phân bố không đều giữa các lớp. &
 %       \textbf{$\rightarrow$ Data Augmentation:} \newline
 %       Áp dụng kỹ thuật sinh dữ liệu (EDA) và thay thế từ đồng nghĩa (Synonym Replacement). \\ \hline
-      
+
 %       \textbf{2. Linguistic Ambiguity:} \newline
-%       Đặc điểm từ đa nghĩa và không có ranh giới từ rõ ràng trong tiếng Việt. & 
+%       Đặc điểm từ đa nghĩa và không có ranh giới từ rõ ràng trong tiếng Việt. &
 %       \textbf{$\rightarrow$ Advanced Tokenization:} \newline
 %       Tận dụng VnCoreNLP kết hợp với mô hình PhoBERT để nắm bắt ngữ cảnh tốt hơn. \\ \hline
-      
+
 %       \textbf{3. Computational Cost:} \newline
-%       Mô hình Transformer tốn nhiều tài nguyên khi huấn luyện (Training). & 
+%       Mô hình Transformer tốn nhiều tài nguyên khi huấn luyện (Training). &
 %       \textbf{$\rightarrow$ Model Distillation:} \newline
-%       Sử dụng DistilBERT hoặc kỹ thuật lượng tử hóa (Quantization) để giảm nhẹ mô hình. \\ 
+%       Sử dụng DistilBERT hoặc kỹ thuật lượng tử hóa (Quantization) để giảm nhẹ mô hình. \\
 %       \bottomrule
 %     \end{tabular}
 %     \caption{Overview of technical challenges and strategies.}
@@ -757,12 +825,21 @@
 %     XXX
 %   \end{alertblock}
 
+<<<<<<< HEAD
 %   \vspace{0.5cm}
   
 %   \begin{block}{\textbf{Solution Y}}
 %     YYY
 %   \end{block}
 % \end{frame}
+=======
+  \vspace{0.5cm}
+
+  \begin{block}{\textbf{Solution Y}}
+    YYY
+  \end{block}
+\end{frame}
+>>>>>>> origin/feat/dataset/RuleTaker
 
 \setbeamertemplate{footline}{
   \centering
