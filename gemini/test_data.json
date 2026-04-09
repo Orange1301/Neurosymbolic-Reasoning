@@ -1,0 +1,566 @@
+[
+    {
+        "id": "folio_test_0",
+        "premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
+        "conclusion": "Tom is an Ocellated wild turkey.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_1",
+        "premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
+        "conclusion": "Tom is an Eastern wild turkey.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_2",
+        "premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
+        "conclusion": "Joey is a wild turkey.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_3",
+        "premises": "All squares are four-sided.All four-sided things are shapes. ",
+        "conclusion": "All squares are shapes.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_4",
+        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "conclusion": "Rockie is a turtle.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_5",
+        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "conclusion": "Rockie is not a turtle.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_6",
+        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "conclusion": "Rockie is a turtle or cute.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_7",
+        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "conclusion": "If Rockie is not both a turtle and a squirrel, then Rockie is either cute or skittish.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_8",
+        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "conclusion": "If Rockie is cute and calm, then Rockie is a skittish turtle.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_9",
+        "premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
+        "conclusion": "Karen will share \"Stranger Things\" with Lisa.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_10",
+        "premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
+        "conclusion": "\"Black Mirror\" is popular.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_11",
+        "premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
+        "conclusion": "Karen will share \"Black Mirror\" with Lisa.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_12",
+        "premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+        "conclusion": "Marvin is an alien.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_13",
+        "premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+        "conclusion": "Marvin is neither a human nor from Mars_",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_14",
+        "premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+        "conclusion": "If Marvin is not from Mars, then Marvin is a human.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_15",
+        "premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
+        "conclusion": "Djokovic is a Grand Slam champion.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_16",
+        "premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
+        "conclusion": "Djokovic lives in a tax haven.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_17",
+        "premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
+        "conclusion": "Djokovic does not live in a tax haven.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_18",
+        "premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
+        "conclusion": "1984 is printed text.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_19",
+        "premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
+        "conclusion": "1984 is a streaming service.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_20",
+        "premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
+        "conclusion": "1984 is not a streaming service.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_21",
+        "premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
+        "conclusion": "Basque is a Romance language.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_22",
+        "premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
+        "conclusion": "German is a Romance language.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_23",
+        "premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
+        "conclusion": "French is an Indo-European language.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_24",
+        "premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
+        "conclusion": "Robert Lewandowski is a soccer player.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_25",
+        "premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
+        "conclusion": "Robert Lewandowski plays for Bayern Munchen.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_26",
+        "premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
+        "conclusion": "Robert Lewandowski is a star.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_27",
+        "premises": "International students in the US have either an F1 visa or a J1 visa.An international student in the US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.Mike is an international student.Mike needs to apply for CPT if he wants to work in the US.",
+        "conclusion": "Mike has an F1 visa.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_28",
+        "premises": "International students in the US have either an F1 visa or a J1 visa.An international student in the US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.Mike is an international student.Mike needs to apply for CPT if he wants to work in the US.",
+        "conclusion": "Mike has a J1 visa.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_29",
+        "premises": "All vehicle registration plates in Istanbul begin with the number 34.Plates that do not begin with the number 34 are not from Istanbul. Joe's vehicle registration plate is from Istanbul. Tom's license plate begins with the number 35. If a license plate begins with the number 35, then it does not begin with the number 34.",
+        "conclusion": "Joe's license plate begins with the number 34.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_30",
+        "premises": "All vehicle registration plates in Istanbul begin with the number 34.Plates that do not begin with the number 34 are not from Istanbul. Joe's vehicle registration plate is from Istanbul. Tom's license plate begins with the number 35. If a license plate begins with the number 35, then it does not begin with the number 34.",
+        "conclusion": "Tom's license plate is from Istanbul.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_31",
+        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "conclusion": "Dried Thai chilies are products of Baked by Melissa.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_32",
+        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "conclusion": "Dried Thai chilies are not products of Baked by Melissa.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_33",
+        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "conclusion": "Dried Thai chilies are a mala hotpot.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_34",
+        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "conclusion": "Dried Thai chilies are neither products of Baked by Melissa nor baked sweets.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_35",
+        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "conclusion": "Dried Thai chilies are cupcakes and products of Baked by Melissa.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_36",
+        "premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
+        "conclusion": "Walden contains knowledge.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_37",
+        "premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
+        "conclusion": "Harry is smarter than before.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_38",
+        "premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
+        "conclusion": "A smarter person has gained knowledge.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_39",
+        "premises": "A natural language processing task can be categorized as either a language generation task or a language understanding task.If the output of a natural language processing task is a text sequence, then it is a language generation task.Machine translation is a natural language processing task.The output of machine translation is a text sequence.",
+        "conclusion": "Machine translation is a language generation task.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_40",
+        "premises": "A natural language processing task can be categorized as either a language generation task or a language understanding task.If the output of a natural language processing task is a text sequence, then it is a language generation task.Machine translation is a natural language processing task.The output of machine translation is a text sequence.",
+        "conclusion": "Machine translation is a language understanding task.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_42",
+        "premises": "Pets are allowed in some managed buildings.A deposit is required to rent an apartment in a managed building.The security deposit can be either equal to the monthly rent at a managed building or more.Fluffy is Tom's cat.Cats are pets.The Olive Garden is a managed building.The monthly rent at the Olive Garden is $2000.$2000 is more than $1500.Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.If a managed building allows pets, then people are allowed to move in with a pet. ",
+        "conclusion": "Tom is allowed to move into an apartment in The Olive Garden with Fluffy.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_43",
+        "premises": "Pets are allowed in some managed buildings.A deposit is required to rent an apartment in a managed building.The security deposit can be either equal to the monthly rent at a managed building or more.Fluffy is Tom's cat.Cats are pets.The Olive Garden is a managed building.The monthly rent at the Olive Garden is $2000.$2000 is more than $1500.Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.If a managed building allows pets, then people are allowed to move in with a pet. ",
+        "conclusion": "The security deposit at the Olive Garden is either $2000 or more.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_44",
+        "premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
+        "conclusion": "The Harvard Weekly Book club has legal obligations.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_45",
+        "premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
+        "conclusion": "The Harvard Weekly Book club has legal obligations and is a private company.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_46",
+        "premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
+        "conclusion": "If the Harvard Weekly Book club is a private company, then it either has legal obligations or is created under law.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_47",
+        "premises": "Animals are either invertebrates or vertebrates.All animals with backbones reproduce by male-and-female mating. All vertebrate animals have a backbone.All bees do not reproduce by male-and-female mating.All queen bees are bees.Harry is a bee.",
+        "conclusion": "Harry is a queen bee.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_49",
+        "premises": "Animals are either invertebrates or vertebrates.All animals with backbones reproduce by male-and-female mating. All vertebrate animals have a backbone.All bees do not reproduce by male-and-female mating.All queen bees are bees.Harry is a bee.",
+        "conclusion": "If Harry is either both a vertebrate and an animal with a backbone, or neither a vertebrate nor an animal with a backbone, then Harry is neither an invertebrate nor a queen bee.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_50",
+        "premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
+        "conclusion": "Luke spends a lot of time hanging out and playing with his siblings.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_51",
+        "premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
+        "conclusion": "Luke complains often about annoying siblings.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_52",
+        "premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
+        "conclusion": "Luke is neither born in a multiple birth nor complains often about annoying siblings.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_53",
+        "premises": "All fir trees are evergreens.Some objects of worship are fir trees.",
+        "conclusion": "Some evergreens are not objects of worship.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_54",
+        "premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
+        "conclusion": "Juan de Onate visited a mountain range in New Mexico.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_55",
+        "premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
+        "conclusion": "Juan de Onate visited a mountain range in Texas.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_56",
+        "premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
+        "conclusion": "The Harding Pegmatite Mine is not located in a mountain range in New Mexico.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_57",
+        "premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
+        "conclusion": "Peter is shorter than a man in Michael's class.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_58",
+        "premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
+        "conclusion": "Windy is a great shooter.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_59",
+        "premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
+        "conclusion": "Peter can block Windy's shooting.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_60",
+        "premises": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.Unsupervised learning algorithms do not require labeled data.The state-of-the-art text summarization model is trained with machine learning algorithms.Reinforcement learning is not used to train the state-of-the-art text summarization model.The Machine Learning algorithm for training text summarization models requires labeled data.",
+        "conclusion": "Supervised learning is used to train the state-of-the-art text summarization model.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_61",
+        "premises": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.Unsupervised learning algorithms do not require labeled data.The state-of-the-art text summarization model is trained with machine learning algorithms.Reinforcement learning is not used to train the state-of-the-art text summarization model.The Machine Learning algorithm for training text summarization models requires labeled data.",
+        "conclusion": "Unsupervised learning is used to train the state-of-the-art text summarization model.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_62",
+        "premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
+        "conclusion": "\"Hachi: A dog's Tale\" is rated General Audience.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_63",
+        "premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
+        "conclusion": "\"Hachi: A dog's Tale\" contains excessive erotic and violent content or is in the \"Frozen\" series or both.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_64",
+        "premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
+        "conclusion": "\"Hachi: A dog's Tale\" either contains excessive erotic and violent content and is a film in the \"Frozen\" series, or it neither contains excessive erotic and violent content nor is a film in the \"Frozen\" series.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_65",
+        "premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
+        "conclusion": "Neapolitan Chronicles is an English book.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_66",
+        "premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
+        "conclusion": "Harry Potter was published by New Vessel Press.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_67",
+        "premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
+        "conclusion": "Palace of Flies was translated from Italian.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_68",
+        "premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
+        "conclusion": "The mixture contains carbon.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_69",
+        "premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
+        "conclusion": "The mixture is an alkane and contains carbon.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_70",
+        "premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
+        "conclusion": "If the mixture contains only one element or contains carbon, then the mixture is neither a chemical compound nor an alkane.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_71",
+        "premises": "All humans are mortal.All Greeks are humans.",
+        "conclusion": "Some Greeks are mortal.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_72",
+        "premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. James doesn't work in the lab or have a part-time job offered by the university.",
+        "conclusion": "James has a part-time job offered by the university.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_73",
+        "premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. ",
+        "conclusion": "James does not have a part-time job offered by the university.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_74",
+        "premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. ",
+        "conclusion": "James either takes the database course or has a part-time job offered by the university.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_76",
+        "premises": "A hawk never swims. Some birds are hawks.",
+        "conclusion": "All birds swim.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_77",
+        "premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
+        "conclusion": "Taylor eats salads regularly.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_78",
+        "premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
+        "conclusion": "Taylor visits the gym at least once a day.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_79",
+        "premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
+        "conclusion": "Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_80",
+        "premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
+        "conclusion": "The world championships is a sporting event.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_81",
+        "premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
+        "conclusion": "The last summer Olympic games were not in Tokyo.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_82",
+        "premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
+        "conclusion": "The United States won the most medals in the last summer Olympic games.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_83",
+        "premises": "Susan flies to LGA airport.The departure and arrival can not be at the same airport.John flies from LGA airport.",
+        "conclusion": "Susan flies from LGA airport.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_84",
+        "premises": "Susan flies to LGA airport.The departure and arrival can not be at the same airport.John flies from LGA airport.",
+        "conclusion": "John flies to LGA airport.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_85",
+        "premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
+        "conclusion": "Tom is a grumpy person.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_86",
+        "premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
+        "conclusion": "Tom is not both a grumpy person and mean to animals.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_87",
+        "premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
+        "conclusion": "If Tom is not both a grumpy person and mean to animals, then Tom is neither a grumpy person nor an animal lover.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_88",
+        "premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
+        "conclusion": "Dani Shapiro is a novel writer.",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_89",
+        "premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
+        "conclusion": "Family Secrets is a novel.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_90",
+        "premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
+        "conclusion": "Dani Shapiro was born in Boston.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_91",
+        "premises": "Events are either happy or sad.At least one event is happy. ",
+        "conclusion": "All events are sad.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_92",
+        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "conclusion": "No one playing for Nautico is Brazilian.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_93",
+        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "conclusion": "Ailton Silva does not play for a football club.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_94",
+        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "conclusion": "Ailton was not loaned out to a football club.",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_95",
+        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "conclusion": "Ailton Silva played for Fluminense.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_96",
+        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "conclusion": "Ailton Silva was loaned out to a football club.",
+        "label": "Uncertain"
+    }
+]
