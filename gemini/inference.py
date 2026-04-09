@@ -112,6 +112,7 @@ def run_large_scale_test(all_samples, batch_size=150, output_file="predictions.j
             print(f"Completed batch {batch_index}! Saved in {output_file}.")
         else:
             print(f"Error in batch {batch_index}!!!")
+            break
 
         time.sleep(5)
 
@@ -123,4 +124,4 @@ with open('test_data.json', 'r', encoding='utf=8') as f:
 
 for d in data:
     d.pop("label", None)  
-run_large_scale_test(data, 100)
+run_large_scale_test(data, 150)
