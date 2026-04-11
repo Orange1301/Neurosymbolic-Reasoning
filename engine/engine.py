@@ -72,7 +72,11 @@ def check_conclusion(premises, conclusion):
         raise f"Error: {e}"
 
     # Check conclusion
-    if not prover.prove(None, parsed_premises):
+    if prover.prove(parsed_conclusion, []):
+        raise Exception("Error: The conclusion itself is True!")
+    elif prover.prove(parsed_conclusion.negate(), []):
+        raise Exception("Error: The conclusion itself is False!")
+    elif not prover.prove(None, parsed_premises):
         is_true = prover.prove(parsed_conclusion, parsed_premises)
         if is_true:
             return "True"
@@ -83,79 +87,80 @@ def check_conclusion(premises, conclusion):
 
         return "Uncertain"
     else: 
-        raise "Error: Premises is inconsistent!"
+        raise Exception("Error: The premises are inconsistent!")
 
 
 def main():
     # TEST ON 1 SAMPLE ------------------------
-    # premises = [
-    #     "∀x (InThisClub(x) ∧ PerformOftenIn(x, schoolTalentShow) → Attend(x, schoolEvent) ∧ VeryEngagedWith(x, schoolEvent))",
-    #     "InThisClub(bonnie) ∧ PerformOftenIn(bonnie, schoolTalentShow)" 
-    # ]
+    premises = [
+        "∀x (InThisClub(x) ∧ PerformOftenIn(x, schoolTalentShow) → Attend(x, schoolEvent) ∧ VeryEngagedWith(x, schoolEvent))",
+        "InThisClub(bonnie) ∧ PerformOftenIn(bonnie, schoolTalentShow)" 
+    ]
     # conclusion = "Attend(bonnie, schoolEvent)"
+    conclusion = "¬InThisClub(bonnie) ∧ InThisClub(bonnie)"
 
-    # print(f"Result: {check_conclusion(premises, conclusion)}")
+    print(f"Result: {check_conclusion(premises, conclusion)}")
 
     # TEST ON MOCK DATA ----------------
-    import json
-    with open('mock_data.json', 'r', encoding='utf-8') as f:
-        test_data = json.load(f)
+    # import json
+    # with open('mock_data.json', 'r', encoding='utf-8') as f:
+    #     test_data = json.load(f)
 
-    wrong_data = []
-    total = 0
-    count_correct = 0
-    count_wrong = 0
-    count_error = 0
-    for data in test_data:
-        total += 1
-        try:
-            # fol_list = data["fol"].split('\n')
-            # predicted = check_conclusion(fol_list[:-1], fol_list[-1])
-            predicted = check_conclusion(data["fol_premises"].split('\n'), data["fol_conclusion"])
-            label = data["label"]
+    # wrong_data = []
+    # total = 0
+    # count_correct = 0
+    # count_wrong = 0
+    # count_error = 0
+    # for data in test_data:
+    #     total += 1
+    #     try:
+    #         # fol_list = data["fol"].split('\n')
+    #         # predicted = check_conclusion(fol_list[:-1], fol_list[-1])
+    #         predicted = check_conclusion(data["fol_premises"].split('\n'), data["fol_conclusion"])
+    #         label = data["label"]
 
-            if (predicted != label):
-                count_wrong += 1
-                wrong_data.append(data)
-                print((data["id"], predicted, label))
-            else:
-                count_correct += 1
-        except Exception as e:
-            count_error += 1
-            story_id = data["id"]
-            wrong_data.append(data)
-            print(f"{story_id}: {e}")
+    #         if (predicted != label):
+    #             count_wrong += 1
+    #             wrong_data.append(data)
+    #             print((data["id"], predicted, label))
+    #         else:
+    #             count_correct += 1
+    #     except Exception as e:
+    #         count_error += 1
+    #         story_id = data["id"]
+    #         wrong_data.append(data)
+    #         print(f"{story_id}: {e}")
 
-    # with open("wrong_folio_train.json", "w", encoding="utf-8") as f:
-    #     json.dump(wrong_data, f, ensure_ascii=False, indent=4)
-    print([d["id"] for d in wrong_data])
+    # # with open("wrong_folio_train.json", "w", encoding="utf-8") as f:
+    # #     json.dump(wrong_data, f, ensure_ascii=False, indent=4)
+    # print([d["id"] for d in wrong_data])
 
-    print("Total: ", total)
-    print("Correct: ", count_correct)
-    print("Wrong: ", count_wrong)
-    print("Error:", count_error)
+    # print("Total: ", total)
+    # print("Correct: ", count_correct)
+    # print("Wrong: ", count_wrong)
+    # print("Error:", count_error)
 
-    '''
-    For folio_train.json: 
-    - Total:  955
-    - Correct:  540
-    - Wrong:  373
-    - Error: 42
+    # '''
+    # For folio_train.json: 
+    # - Total:  955
+    # - Correct:  540
+    # - Wrong:  373
+    # - Error: 42
 
-    For folio_valid.json:
-    - Total:  97
-    - Correct:  68
-    - Wrong:  29
-    - Error: 0
+    # For folio_valid.json:
+    # - Total:  97
+    # - Correct:  68
+    # - Wrong:  29
+    # - Error: 0
 
-    For folio_test.json:
-    - Total:  97
-    - Correct:  68
-    - Wrong:  28
-    - Error: 1
+    # For folio_test.json:
+    # - Total:  97
+    # - Correct:  68
+    # - Wrong:  28
+    # - Error: 1
 
-    FACT: The wrong answers and errors are not the engine's fault, it's because those samples' fols are incorrect.
-    '''
+    # FACT: The wrong answers and errors are not the engine's fault, it's because those samples' fols are incorrect.
+    # '''
 
 if __name__ == "__main__":
     main()
