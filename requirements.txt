@@ -1,0 +1,10 @@
+pandas
+seaborn
+matplotlib
+nltk
+regex
+bitsandbytes
+torch
+datasets
+transformers
+peft
