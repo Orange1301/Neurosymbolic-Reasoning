@@ -1,150 +1,98 @@
-import hashlib
-import re
-
 class DataFilter:
     '''
-    A class used to filter the FOL dataset by applying logical uniqueness, preventing label leakage, and verifying that symbolic constants in the logic accurately reflect the natural language narrative.
+    A class used to filter First-Order Logic (FOL) predictions within a dataset entry.
+    It deduplicates identical FOL strings and ensures logical syntax integrity by 
+    checking for balanced brackets (crucial for catching truncated LLM outputs).
     
     Attributes
     ----------
-    - _global_seen_signatures : set
-        A persistent registry of MD5 hashes representing unique logic-label pairs 
-        encountered across all filtered lists.
+    - duplicate_count : int
+        Counter for the number of duplicate predictions removed.
     
-    - NATURAL_COL : str
-        The natural key's name
-    
-    - FOL_COL : str
-        The FOL key's name
-        
-    - LABEL_COL : str
-        The label key's name
-        
-    - MIN_LINES_OF_FOL : int
-        The minimun number lines of statement
+    - syntax_error_count : int
+        Counter for the number of predictions with invalid/unbalanced syntax.
         
     Methods
     -------
-    - _generate_signature(entry)
-        Generates a deterministic MD5 hash of normalized FOL strings and labels.
+    - _is_valid_syntax(fol_str)
+        Uses a stack-based approach to verify balanced parentheses, brackets, and braces.
         
-    - _is_structural_validation(entry)
-        Validates logical integrity, including minimum premise count, and premise-conclusion overlap (leakage)
-        
-    - filter_list(data_list)
-        Filters a list of dictionaries against structural rules and previously seen signatures to maintain split integrity.
+    - filter(entry)
+        Processes a single data entry, filtering its 'predictions' list.
     '''
     
     def __init__(self):
-        self._global_seen_signatures = set()
-        self.NATURAL_COL = 'natural'
-        self.FOL_COL = 'fol'
-        self.LABEL_COL = 'label'
-        self.MIN_FOL_RATIO = 0.2
-        
-        
-    def _generate_signature(self, entry:dict) -> str:
+        self.duplicate_count = 0
+        self.syntax_error_count = 0
+    
+    
+    def _is_valid_syntax(self, fol_str: str) -> bool:
         '''
-        Generates a deterministic MD5 hash of normalized FOL strings and labels.
-        
-        This ensures that entries with identical logic but different whitespace, line breaks, or casing are treated as duplicates.
+        Validates that all opening brackets/parentheses have corresponding closing pairs.
         
         Parameters
         ----------
-        - entry : dict
-            A single data point containing FOL and label fields.
+        - fol_str : str
+            The FOL string to validate.
             
         Returns
         -------
-        str
-            A hexadecimal MD5 hash representing the unique logic-label signature.
+        - bool
+            True if syntax is balanced, False otherwise.
         '''
-
-        # Normalize FOL: remove all whitespaces and lowercase the text
-        fol_clean = ''.join(entry.get(self.FOL_COL, '').lower().split())
-        
-        # Normalize label: lowercase and strip to ensure consistency
-        label_clean = str(entry.get(self.LABEL_COL, '')).lower().strip()
-        
-        combined_str = f'{fol_clean}|{label_clean}'
-        return hashlib.md5(combined_str.encode()).hexdigest()
-    
-    
-    def _is_structural_validation(self, entry:dict) -> bool:
-        '''
-        Validates logical integrity, including minimum premise count, and premise-conclusion overlap (leakage), and text-to-logic length ratios.
-        
-        This ensures that entries mismatching the requirements are treated as invalid entries.
-        
-        Parameters
-        ----------
-        - entry : dict
-            A single data point containing FOL and label fields.
-            
-        Returns
-        -------
-        bool
-            True if the entry passes all structural requirements, False otherwise.
-        '''
-        
-        # Get natural and fol text
-        natural_text = entry.get(self.NATURAL_COL, '').lower()
-        fol_text = entry.get(self.FOL_COL, '')
-        fol_lines = [line.strip() for line in fol_text.split('\n') if line.strip()]
-        
-        # Requirement 1: Data leakage (check if the conclusion is already a premise)
-        premises = fol_lines[:-1]
-        conclusion = fol_lines[-1]
-        if conclusion in premises:
+        if not fol_str:
             return False
-        
-        # Requirement 3: Length Ratio Check
-        natural_length = len(natural_text)
-        fol_length = len(fol_text)
-        
-        if natural_length > 0:
-            ratio = fol_length / natural_length
-            if ratio < self.MIN_FOL_RATIO:
-                return False
-                
-        return True
             
-    def filter_list(self, data_list):
+        stack = []
+        matching_bracket = {')': '(', ']': '[', '}': '{'}
+        
+        for char in fol_str:                   
+            if char in matching_bracket.values():
+                stack.append(char)
+            elif char in matching_bracket.keys():
+                if not stack or stack.pop() != matching_bracket[char]:
+                    return False
+
+        return len(stack) == 0
+    
+    
+    def filter(self, entry: dict) -> dict:
         '''
-        Filters a list of dictionaries against structural rules and previously seen signatures to maintain split integrity.
+        Filters the 'predictions' list of a single entry by removing duplicates 
+        and syntactically broken FOL strings.
         
         Parameters
         ----------
-        - data_list : list[dict]
-            A collection of data points, each containing story ID, Natural text, FOL, and Label.
+        - entry : dict
+            A data point containing a "predictions" key with a list of FOL dicts.
             
         Returns
         -------
-        list[dict]
-            A subset of the input list containing only unique, structurally valid entries.
+        - dict
+            A copy of the entry containing only valid, unique predictions.
         '''
+        seen_fols = set()
+        valid_predictions = []
         
-        unique_results = []
-        
-        for entry in data_list:
-            signature = self._generate_signature(entry)
+        for pred in entry.get("predictions", []):
+            fol = pred.get("fol", "")
             
-            if signature not in self._global_seen_signatures:
-                if self._is_structural_validation(entry):
-                    unique_results.append(entry)
-                    self._global_seen_signatures.add(signature)
-                
-        return unique_results
-    
-
-###Test:
-# import json
-
-# filter = DataFilter()
-# with open("/Users/ductri0981/Documents/Python/Neurosymbolic-Reasoning/dataset/Folio/folio_train.json", "r", encoding="utf-8") as f:
-#     data_list = json.load(f)
-
-
-# filter.filter_list(data_list)
-# print(json.dumps(data_list, indent=4))
-# print(len(data_list))
+            # Check for duplicates within this specific entry
+            if fol in seen_fols:
+                self.duplicate_count += 1
+                continue
+            
+            # Validate syntax (bracket balancing)
+            if not self._is_valid_syntax(fol):
+                print(fol)
+                print('=' * 50)
+                self.syntax_error_count += 1
+                continue
+            
+            seen_fols.add(fol)
+            valid_predictions.append(pred)
+            
+        filtered_element = entry.copy()
+        filtered_element["predictions"] = valid_predictions
+        
+        return filtered_element
