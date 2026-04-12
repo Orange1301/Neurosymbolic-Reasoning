@@ -108,7 +108,7 @@ class DataFilter:
                 return False
                 
         return True
-    
+            
     def filter_list(self, data_list):
         '''
         Filters a list of dictionaries against structural rules and previously seen signatures to maintain split integrity.
@@ -135,3 +135,16 @@ class DataFilter:
                     self._global_seen_signatures.add(signature)
                 
         return unique_results
+    
+
+###Test:
+# import json
+
+# filter = DataFilter()
+# with open("/Users/ductri0981/Documents/Python/Neurosymbolic-Reasoning/dataset/Folio/folio_train.json", "r", encoding="utf-8") as f:
+#     data_list = json.load(f)
+
+
+# filter.filter_list(data_list)
+# print(json.dumps(data_list, indent=4))
+# print(len(data_list))
