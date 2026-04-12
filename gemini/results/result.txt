@@ -1,10 +1,19 @@
+1/ Gemini-2.5-Flash:
+FOLIO dataset:
+- Correct predictions: 84/94 (89.36170212765957 %)
+- Incorrect predictions: 10/94 (10.638297872340425 %)
+
 Manual dataset:
 - Correct predictions: 561/600 (93.5 %)
 - Incorrect predictions: 39/600 (6.5 %)
 
-FOLIO dataset:
-- Correct predictions: 84/94 (89.36170212765957 %)
-- Incorrect predictions: 10/94 (10.638297872340425 %)
+ReClor dataset:
+- Correct predictions: 171/234 (73.07692307692307 %)
+- Incorrect predictions: 63/234 (26.923076923076923 %   )
+
+ProofWriter dataset: 
+- Correct predictions: 10119/11820 (85.60913705583756 %)
+- Incorrect predictions: 1701/11820 (14.390862944162436 %)
 
 LogiQA dataset:
 - Correct predictions: 321/571 (56.21716287215411 %)
@@ -13,3 +22,9 @@ LogiQA dataset:
 RuleTaker dataset:
 - Correct predictions: 12177/12482 (97.55648133311969 %)
 - Incorrect predictions: 305/12482 (2.4435186668803075 %)
+
+----------------------------------------------------------------------
+2/ Gemini-2.5-Flash-lite:
+FOLIO dataset:
+- Correct predictions: 84/94 (89.36170212765957 %)
+- Incorrect predictions: 10/94 (10.638297872340425 %)
