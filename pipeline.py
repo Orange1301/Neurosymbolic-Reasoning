@@ -37,10 +37,10 @@ class Pipeline:
         return dataset_formated_predicted
 
     def format_finetune_dataset(self, dataset_formated_predicted):        
-        dataset_formated_predicted = self.filter_1.filter_list(dataset_formated_predicted)
         dataset_fine_tune = []
 
         for fol in dataset_formated_predicted:
+            fol = self.filter_1.filter(fol)
             fol = self.engine.check_conclusion(fol)
             result_filter2 = filter2(fol['predictions'], fol["label"])
             sentences = [s.strip() for s in fol["natural"].split('.') if s.strip()]
