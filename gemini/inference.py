@@ -119,9 +119,9 @@ def run_large_scale_test(all_samples, batch_size=150, output_file="predictions.j
     print("\n>>> ALL DONE!")
 
 # Main -----------------
-with open('test_data.json', 'r', encoding='utf=8') as f:
+with open('./test_data.json', 'r', encoding='utf=8') as f:
     data = json.load(f)
 
 for d in data:
     d.pop("label", None)  
-run_large_scale_test(data, 150)
+run_large_scale_test(data[:], 150)

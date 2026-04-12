@@ -5,3 +5,11 @@ Manual dataset:
 FOLIO dataset:
 - Correct predictions: 84/94 (89.36170212765957 %)
 - Incorrect predictions: 10/94 (10.638297872340425 %)
+
+LogiQA dataset:
+- Correct predictions: 321/571 (56.21716287215411 %)
+- Incorrect predictions: 250/571 (43.78283712784589 %)
+
+RuleTaker dataset:
+- Correct predictions: 12177/12482 (97.55648133311969 %)
+- Incorrect predictions: 305/12482 (2.4435186668803075 %)
