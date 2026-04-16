@@ -3,7 +3,7 @@
         "story_id": "reclor_val_199",
         "id": "reclor_val_199",
         "nat_premises": "Some legislators in Country R want to ban all exports from R to S to pressure the government of Country S to become less repressive. It is impossible for a country to remain repressive when telecommunication equipment is widely available to the population of that country.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Exports of telecommunication equipment from R to S should be exempted from the ban.",
         "fol_conclusion": null,
         "label": "True"
@@ -12,7 +12,7 @@
         "story_id": "reclor_val_224",
         "id": "reclor_val_224",
         "nat_premises": "The programmers at the website Cyberepicuria have recently made a breakthrough, solving a hard programming problem. They finally have perfected a special program in which users can enter any foods or any flavors they like, and the website will suggest different foods and food combinations with somewhat different flavors that the users will also like. The website will charge users a modest fee for access. Users of the beta version ecstatically have reported that, because of the program's suggestions, they have discovered whole new categories of food that they absolutely love. No other website offers anything like this.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Anyone who invests in Cyberepicuria right now is likely to double or triple their money in a very short time.",
         "fol_conclusion": null,
         "label": "True"
@@ -21,7 +21,7 @@
         "story_id": "reclor_val_121",
         "id": "reclor_val_121",
         "nat_premises": "If a home's sellers will be keeping any belongings that prospective buyers of the home might assume would be included with the purchase of the home, the sellers are morally obliged to indicate clearly that those belongings are not included. Upon selling a home, the sellers are legally entitled to remove any items that are not permanent fixtures. Legally, large appliances like dishwashers are not permanent fixtures. Many prospective buyers of the home are likely to assume that large appliances in the home would be included with its purchase.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Sellers who will be keeping the appliances are morally obliged either to remove them before showing the home or to indicate in some other way that the appliances are not included.",
         "fol_conclusion": null,
         "label": "True"
@@ -30,7 +30,7 @@
         "story_id": "reclor_val_410",
         "id": "reclor_val_410",
         "nat_premises": "Our government has a large budget surplus, which our leaders wish to use to pay down the national debt. Because of underfunding, our military is inadequate, the infrastructures of our cities are decaying, and our highways are in disrepair. If homeowners used all their money to pay off their mortgages early, while refusing to pay for upkeep of their homes, this would not make them better off financially. The same goes for the country as a whole.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It does not make sense for the government to use the budget surplus to pay down the national debt.",
         "fol_conclusion": null,
         "label": "True"
@@ -39,7 +39,7 @@
         "story_id": "reclor_val_440",
         "id": "reclor_val_440",
         "nat_premises": "Boreal owls range over a much larger area than do other owls of similar size. The reason for this behavior is probably that the small mammals on which owls feed are especially scarce in the forests where boreal owls live, and the relative scarcity of prey requires the owls to range more extensively to find sufficient food.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Boreal owls range over larger areas in regions where food of the sort eaten by small mammals is sparse than they do in regions where such food is abundant.",
         "fol_conclusion": null,
         "label": "True"
@@ -48,7 +48,7 @@
         "story_id": "reclor_val_235",
         "id": "reclor_val_235",
         "nat_premises": "Recent medical and anthropological data show that prohibitions on the use of certain foods served important social, economic, and medical functions in ancient cultures. These data cannot explain the origin of the prohibitions involved, since those who originally adopted and enforced them did not have access to the same data as modern researchers.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "These data cannot explain the origin of the prohibitions involved.",
         "fol_conclusion": null,
         "label": "True"
@@ -57,7 +57,7 @@
         "story_id": "reclor_val_77",
         "id": "reclor_val_77",
         "nat_premises": "In the first phase of the Industrial Revolution, machines were invented whose main advantage was that they worked faster than human workers. This technology became widely used because it was economically attractive; many unskilled workers could be replaced by just a few skilled workers. Today managers are looking for technology that will allow them to replace highly paid skilled workers with a smaller number of less-skilled workers.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Employers utilize new technology because it allows them to reduce labor costs.",
         "fol_conclusion": null,
         "label": "True"
@@ -66,7 +66,7 @@
         "story_id": "reclor_val_433",
         "id": "reclor_val_433",
         "nat_premises": "In a carefully controlled study, blindfolded volunteers were divided evenly into five groups. Each volunteer tasted Sparkle Cola and one of five competing colas, each group tasting a different cola. Most of the volunteers said they preferred Sparkle Cola to the competing cola tasted.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Sparkle Cola elicits a more favorable response from consumers than any of the competing colas tested.",
         "fol_conclusion": null,
         "label": "True"
@@ -75,7 +75,7 @@
         "story_id": "reclor_val_31",
         "id": "reclor_val_31",
         "nat_premises": "Unlike the wholesale price of raw wool, the wholesale price of raw cotton has fallen considerably in the last year. The retail price of cotton clothing at retail clothing stores has not yet fallen.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The retail price of cotton clothing at retail clothing stores will inevitably fall.",
         "fol_conclusion": null,
         "label": "True"
@@ -84,7 +84,7 @@
         "story_id": "reclor_val_295",
         "id": "reclor_val_295",
         "nat_premises": "The human brain can survive without oxygen only for a few minutes, according to modern medicine. Surprisingly, a reliable witness reported that a shaman has survived for an entire week buried five feet underground.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Thus, if modern medicine is not wrong, either the witness is mistaken or the shaman's brain did not suffer any lack of oxygen.",
         "fol_conclusion": null,
         "label": "True"
@@ -93,7 +93,7 @@
         "story_id": "reclor_val_188",
         "id": "reclor_val_188",
         "nat_premises": "It is characteristic of great artists generally, and of great writers in particular, to have a discerning view of the basic social and political arrangements of the society in which they live.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "the greater a writer one is, the more astute one will be in perceiving the basic social and political arrangements of one' s society.",
         "fol_conclusion": null,
         "label": "True"
@@ -102,7 +102,7 @@
         "story_id": "reclor_val_294",
         "id": "reclor_val_294",
         "nat_premises": "There are 70 to 100 Florida panthers alive today. This represents a very large increase over their numbers in the 1970s, but their population must reach at least 250 if it is to be self-sustaining. Their current habitat is not large enough to support any more of these animals, however.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Unless Florida panthers acquire a larger habitat, their population will not be self-sustaining.",
         "fol_conclusion": null,
         "label": "True"
@@ -111,7 +111,7 @@
         "story_id": "reclor_val_494",
         "id": "reclor_val_494",
         "nat_premises": "One of the limiting factors in human physical performance is the amount of oxygen that is absorbed by the muscles from the bloodstream. Entrepreneurs have begun selling at gymnasiums and health clubs bottles of drinking water, labeled \"SuperOXY,\" that has extra oxygen dissolved in the water. The only way to get oxygen into the bloodstream so that it can be absorbed by the muscles is through the lungs.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Such water would be useless in improving physical performance.",
         "fol_conclusion": null,
         "label": "True"
@@ -120,7 +120,7 @@
         "story_id": "reclor_val_336",
         "id": "reclor_val_336",
         "nat_premises": "The toy-labeling law should require manufacturers to provide explicit safety labels on toys to indicate what hazards the toys pose. The only labels currently required by law are labels indicating the age range for which a toy is intended. Although the current toy-labeling law has indeed reduced the incidence of injuries to children from toys, parents could prevent such injuries almost entirely if toy labels provided explicit safety information. Most parents believe that the current labels are recommendations regarding level of cognitive skill.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The toy-labeling law should require manufacturers to provide explicit safety labels on toys.",
         "fol_conclusion": null,
         "label": "True"
@@ -129,7 +129,7 @@
         "story_id": "reclor_val_468",
         "id": "reclor_val_468",
         "nat_premises": "Some scientific issues are so complex and counterintuitive that they cannot be well understood by readers of popular magazines. Nonetheless, stories about these difficult scientific issues are frequently the ones that these readers would find most fascinating. editors of popular magazines generally do not approve stories about issues that cannot be well understood by those magazines' readers.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Some of the scientific stories that would be most interesting to readers are usually not covered in popular magazines.",
         "fol_conclusion": null,
         "label": "True"
@@ -138,7 +138,7 @@
         "story_id": "reclor_val_486",
         "id": "reclor_val_486",
         "nat_premises": "A major impediment to wide acceptance of electric vehicles even on the part of people who use their cars almost exclusively for commuting is the inability to use electric vehicles for occasional extended trips. In an attempt to make purchasing electric vehicles more attractive to commuters, one electric vehicle producer is planning to offer customers three days free rental of a conventional car for every 1, 000 miles that they drive their electric vehicle.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Because a majority of commuters drive at least 100 miles a week, the cost to the producer of making good the offer would add considerably to the already high price of electric vehicles.",
         "fol_conclusion": null,
         "label": "True"
@@ -147,7 +147,7 @@
         "story_id": "reclor_val_380",
         "id": "reclor_val_380",
         "nat_premises": "In order to reduce dependence on imported oil, the government of Jalica has imposed minimum fuel-efficiency requirements on all new cars, beginning this year. The more fuel-efficient a car, the less pollution it produces per mile driven.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "As Jalicans replace their old cars with cars that meet the new requirements, annual pollution from car traffic is likely to decrease in Jalica.",
         "fol_conclusion": null,
         "label": "True"
@@ -156,7 +156,7 @@
         "story_id": "reclor_val_400",
         "id": "reclor_val_400",
         "nat_premises": "Hemoglobin, a substance in human blood, transports oxygen from the lungs to the rest of the body. With each oxygen molecule it picks up, a hemoglobin molecule becomes more effective at picking up additional oxygen molecules until its maximum capacity of four oxygen molecules is reached. Grabbing an oxygen molecule changes the shape of the hemoglobin molecule, each time causing it literally to open itself to receive more oxygen.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "A hemoglobin molecule that has picked up three oxygen molecules will be more effective at picking up another oxygen molecule than will a hemoglobin molecule that has picked up only one oxygen molecule.",
         "fol_conclusion": null,
         "label": "True"
@@ -165,7 +165,7 @@
         "story_id": "reclor_val_261",
         "id": "reclor_val_261",
         "nat_premises": "normally about half of all budget proposals that the vice president considers are approved, and our last five budget proposals have all been turned down",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Our next budget proposal will probably be approved",
         "fol_conclusion": null,
         "label": "True"
@@ -174,7 +174,7 @@
         "story_id": "reclor_val_219",
         "id": "reclor_val_219",
         "nat_premises": "It is often said that people should be rewarded for doing a given job in proportion to the effort it costs them to do it. However, a little reflection will show that this is, in fact, a very bad idea, since it would mean that those people with the least skill or natural aptitude for a particular task would be the ones given the most incentive to do it.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "attempting to undermine a general principle by arguing that undesirable consequences would follow from it",
         "fol_conclusion": null,
         "label": "True"
@@ -183,7 +183,7 @@
         "story_id": "reclor_val_146",
         "id": "reclor_val_146",
         "nat_premises": "Experts recommend that adults consume 20 to 35 grams of fiber a day. A daily intake of fiber that is significantly above that recommended level interferes with mineral absorption, especially the absorption of calcium. Among adults, the average consumption of dietary fiber is at present approximately 10 grams a day.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The public should be told to cut back on fiber intake.",
         "fol_conclusion": null,
         "label": "True"
@@ -192,7 +192,7 @@
         "story_id": "reclor_val_216",
         "id": "reclor_val_216",
         "nat_premises": "It is sometimes claimed that the only factors relevant to determining moral guilt or innocence are the intentions of the person performing an action. However, external circumstances often play a crucial role in our moral judgment of an action. For example, a cook at a restaurant who absentmindedly put an ingredient in the stew that is not usually in the stew would ordinarily be regarded as forgetful, not immoral. If, however, someone eating at the restaurant happens to be severely allergic to that ingredient, eats the stew, and dies, many people would judge the cook to be guilty of serious moral negligence.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "People are sometimes held morally blameworthy as a result of circumstances some of which were outside their intentional control.",
         "fol_conclusion": null,
         "label": "True"
@@ -201,7 +201,7 @@
         "story_id": "reclor_val_58",
         "id": "reclor_val_58",
         "nat_premises": "Because visual inspection cannot reliably distinguish certain skin discolorations from skin cancers, dermatologists at clinics have needed to perform tests of skin tissue taken from patients. At Westville Hospital, dermatological diagnostic costs were reduced by the purchase of a new imaging machine that diagnoses skin cancer in such cases as reliably as the tissue tests do. Consequently, even though the machine is expensive, a dermatological clinic in Westville is considering buying one to reduce diagnostic costs.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It would be most useful for the clinic to establish whether the machine at the clinic would get significantly less heavy use than the machine at the hospital does.",
         "fol_conclusion": null,
         "label": "True"
@@ -210,7 +210,7 @@
         "story_id": "reclor_val_444",
         "id": "reclor_val_444",
         "nat_premises": "The Board of Trustees of the Federici Art Museum has decided to sell some works from its collection in order to raise the funds necessary to refurbish its galleries. Although this may seem like a drastic remedy, the curator has long maintained that among the paintings that the late Ms. Federici collected for the museum were several unsuccessful immature works by Renoir and Cezanne that should be sold because they are of inferior quality and so add nothing to the overall quality of the museum's collection. All of the paintings that the board of trustees sells will be among those that the curator recommends selling.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The board's action will not detract from the quality of the museum's collection.",
         "fol_conclusion": null,
         "label": "True"
@@ -219,7 +219,7 @@
         "story_id": "reclor_val_21",
         "id": "reclor_val_21",
         "nat_premises": "The dental profession knows that brushing with Blizzard toothpaste is the best way to fight cavities. We surveyed five dentists, and each agreed that the tartar control formula found in Blizzard is the most effective cavity-fighting formula available in a toothpaste.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Brushing with Blizzard toothpaste is the best way to fight cavities.",
         "fol_conclusion": null,
         "label": "True"
@@ -228,7 +228,7 @@
         "story_id": "reclor_val_215",
         "id": "reclor_val_215",
         "nat_premises": "Many introductory undergraduate science courses are intended to be \"proving grounds,\" that is, they are designed to be so demanding that only those students most committed to being science majors will receive passing grades in these courses. Studies show that some of the students in these very demanding introductory courses who are least enthusiastic about science receive passing grades in these courses.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Designing introductory science courses to serve as proving grounds has not served its intended purpose.",
         "fol_conclusion": null,
         "label": "True"
@@ -237,7 +237,7 @@
         "story_id": "reclor_val_338",
         "id": "reclor_val_338",
         "nat_premises": "Political advocacy groups have begun to use information services to disseminate information that is then accessed by the public via personal computer. Many groups are thus able to bypass traditional news sources, whose reporting is selective, and to present their political views directly to the public.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Information services present a more balanced picture of the complexities of political issues than any traditional news source presents.",
         "fol_conclusion": null,
         "label": "True"
@@ -246,7 +246,7 @@
         "story_id": "reclor_val_287",
         "id": "reclor_val_287",
         "nat_premises": "Since catfish swim erratically before earthquakes, some investigators have proposed monitoring catfish to predict dangerous earthquakes.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Even very slight, fleeting tremors cause catfish to swim erratically.",
         "fol_conclusion": null,
         "label": "True"
@@ -255,7 +255,7 @@
         "story_id": "reclor_val_17",
         "id": "reclor_val_17",
         "nat_premises": "Hernandez: I recommend that staff cars be replaced every four years instead of every three years. Three-year-old cars are still in good condition and this would result in big savings. Green: I disagree. Some of our salespeople with big territories wear out their cars in three years. Hernandez: I meant three-year-old cars subjected to normal use.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Hernandez responds to Green's objection by explicitly qualifying a premise used earlier.",
         "fol_conclusion": null,
         "label": "True"
@@ -264,7 +264,7 @@
         "story_id": "reclor_val_203",
         "id": "reclor_val_203",
         "nat_premises": "If our museum lends Venus to the Hart Institute for their show this spring, they will lend us their Rembrandt etchings for our print exhibition next fall. Having those etchings will increase attendance to the exhibition and hence increase revenue from our general admission fee. Venus is our biggest attraction. Moreover the Hart's show will run for twice as long as our exhibition. So on balance the number of patrons may decrease.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The point of the administrator's response to the curator is to question whether the number of patrons attracted by the Hart Institute's Rembrandt etchings will be larger than the number of patrons who do not come in the spring because Venus is on loan.",
         "fol_conclusion": null,
         "label": "True"
@@ -273,7 +273,7 @@
         "story_id": "reclor_val_409",
         "id": "reclor_val_409",
         "nat_premises": "Knowledge has been defined as a true belief formed by a reliable process. This definition has been criticized on the grounds that if someone had a reliable power of clairvoyance, we would not accept that person' s claim to know certain things on the basis of this power. I agree that we would reject such claims, but we would do so because we really do not believe in clairvoyance as a reliable process. Were we to believe in clairvoyance, we would accept knowledge claims made on the basis of it.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "asserting that the objection is based on a belief about the reliability of clairvoyance rather than on the nature of knowledge or its definition",
         "fol_conclusion": null,
         "label": "True"
@@ -282,7 +282,7 @@
         "story_id": "reclor_val_40",
         "id": "reclor_val_40",
         "nat_premises": "High levels of fertilizer and pesticides, needed when farmers try to produce high yields of the same crop year after year, pollute water supplies. Experts ttherefore urge farmers to diversify their crops and to rotate their plantings yearly. To receive governmental price-support benefits for a crop, farmers must have produced that same crop for the past several years.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The rules for governmental support of farm prices work against efforts to reduce water pollution.",
         "fol_conclusion": null,
         "label": "True"
@@ -291,7 +291,7 @@
         "story_id": "reclor_val_240",
         "id": "reclor_val_240",
         "nat_premises": "Discharges of lightning from a volcanic ash cloud occur only when the cloud' s highest point exceeds an altitude of 5 kilometers. Those discharges become progressively more frequent as the ash cloud moves higher still. Weather radar can measure the altitude of ash clouds, but it is not available in all parts of the world.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Lightning discharge data can sometimes be our only reliable indicator of the altitude of ash clouds.",
         "fol_conclusion": null,
         "label": "True"
@@ -300,7 +300,7 @@
         "story_id": "reclor_val_467",
         "id": "reclor_val_467",
         "nat_premises": "The first bicycle, the Draisienne, was invented in 1817. A brief fad ensued, after which bicycles practically disappeared until the 1860s. New technology is accepted only when it coheres with the values of a society. Hence some change in values must have occurred between 1817 and the 1860s.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The reasoning in the argument is flawed because the argument ignores, without giving justification, alternative possible explanations of the initial failure of bicycles.",
         "fol_conclusion": null,
         "label": "True"
@@ -309,7 +309,7 @@
         "story_id": "reclor_val_311",
         "id": "reclor_val_311",
         "nat_premises": "Recycling conserves finite natural resources, protects forests, and reduces fossil fuel. If recycling achieves a 75% conversion rate, it would be the equivalent of removing 55 million cars from the road per year. Recycling reduces carbon emissions more than green energy programs.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Recycling is the best possible way for people to preserve the environment.",
         "fol_conclusion": null,
         "label": "True"
@@ -318,7 +318,7 @@
         "story_id": "reclor_val_207",
         "id": "reclor_val_207",
         "nat_premises": "Some legislators advocate mandating a sentence of life in prison for anyone who, having twice served sentences for serious crimes, is subsequently convicted of a third serious crime. People old enough to have served two prison sentences for serious crimes rarely commit more than one subsequent crime. Younger criminals commit a far greater proportion of serious crimes.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Filling our prisons with such individuals would have exactly the opposite of the desired effect.",
         "fol_conclusion": null,
         "label": "True"
@@ -327,7 +327,7 @@
         "story_id": "reclor_val_482",
         "id": "reclor_val_482",
         "nat_premises": "Morris High School has introduced a policy designed to improve the working conditions of its new teachers. As a result of this policy, only one-quarter of all part-time teachers now quit during their first year. However, a third of all full-time teachers now quit during their first year.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "More full-time than part-time teachers at Morris now quit during their first year.",
         "fol_conclusion": null,
         "label": "True"
@@ -336,7 +336,7 @@
         "story_id": "reclor_val_255",
         "id": "reclor_val_255",
         "nat_premises": "A large number of famous poets in literary history have died under the age of 40 --- Burns, Byron, Keats, Poe, and Shelley, to name a few. By contrast, the large majority of famous painters in art history lived well beyond the age of 40. This difference between famous poets and famous painters is most likely because",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "poets can write poems that establish their fame while they are young, while painters typically gain fame only as they age.",
         "fol_conclusion": null,
         "label": "True"
@@ -345,7 +345,7 @@
         "story_id": "reclor_val_164",
         "id": "reclor_val_164",
         "nat_premises": "over the past 25 years the incidence of skin cancer caused by exposure to harmful rays from the sun has continued to grow in spite of the increasingly widespread use of sunscreens.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "using sunscreen is unlikely to reduce a person's risk of developing such skin cancer.",
         "fol_conclusion": null,
         "label": "True"
@@ -354,7 +354,7 @@
         "story_id": "reclor_val_27",
         "id": "reclor_val_27",
         "nat_premises": "Since the introduction of the Impanian National Health scheme, Impanians (or their private insurance companies) have had to pay only for the more unusual and sophisticated medical procedures. When the scheme was introduced, it was hoped that private insurance to pay for these procedures would be available at modest cost, since the insurers would no longer be paying for the bulk of health care costs, as they had done previously. Impanians now buy private medical insurance only at times when they expect that they will need care of kinds not available in the National Health scheme.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cost of private health insurance did not decrease but has instead increased dramatically in the years since the scheme's introduction.",
         "fol_conclusion": null,
         "label": "True"
@@ -363,7 +363,7 @@
         "story_id": "reclor_val_280",
         "id": "reclor_val_280",
         "nat_premises": "In an experiment, volunteers witnessed a simulated crime. After they witnessed the simulation the volunteers were first questioned by a lawyer whose goal was to get them to testify inaccurately about the event. They were then cross-examined by another lawyer whose goal was to cause them to correct the inaccuracies in their testimony. The witnesses who gave testimony containing fewer inaccurate details than most of the other witnesses during the first lawyer' s questioning also gave testimony containing a greater number of inaccurate details than most of the other witnesses during cross-examination.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "These witnesses were less inclined than most of the other witnesses to be influenced in their testimony by the nature of the questioning.",
         "fol_conclusion": null,
         "label": "True"
@@ -372,7 +372,7 @@
         "story_id": "reclor_val_162",
         "id": "reclor_val_162",
         "nat_premises": "Some researchers suspect that magnetic fields from high-voltage power lines can cause health problems for people who live especially near the lines. Beyond a distance of a few feet, the strength of the magnetic fields from high-voltage power lines is less than the average strength of magnetic fields in homes that are not located near such lines. Whether magnetic fields in homes that are not located near high-voltage power lines can cause health problems for the residents of those homes.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It is extremely unlikely that magnetic fields from high-voltage power lines cause health problems for people who live especially near the lines.",
         "fol_conclusion": null,
         "label": "True"
@@ -381,7 +381,7 @@
         "story_id": "reclor_val_388",
         "id": "reclor_val_388",
         "nat_premises": "Most adults in country X consume an increasing amount of fat as they grow older. However, for nearly all adults in country X, the percentage of fat in a person' s diet stays the same throughout adult life.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "They generally eat more when they are older than they did earlier in their adulthood.",
         "fol_conclusion": null,
         "label": "True"
@@ -390,7 +390,7 @@
         "story_id": "reclor_val_379",
         "id": "reclor_val_379",
         "nat_premises": "Chlorofluorocarbons are the best possible solvents to have in car engines for cleaning the electronic sensors in modern automobile ignition systems. These solvents have contributed significantly to automakers' ability to meet legally mandated emission standards. Now automakers will have to phase out the use of chlorofluorocarbons at the same time that emission standards are becoming more stringent.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Something other than the cleansers for electronic ignition sensors will make a relatively greater contribution to meeting emission standards than at present.",
         "fol_conclusion": null,
         "label": "True"
@@ -399,7 +399,7 @@
         "story_id": "reclor_val_473",
         "id": "reclor_val_473",
         "nat_premises": "Having an efficient, attractive subway system makes good economic sense. The city should always do what makes good economic sense. New subway cars are required in order for the city to have a subway system that is efficient and attractive.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The city needs to purchase new subway cars.",
         "fol_conclusion": null,
         "label": "True"
@@ -408,7 +408,7 @@
         "story_id": "reclor_val_234",
         "id": "reclor_val_234",
         "nat_premises": "Marcia: Not all vegetarian diets lead to nutritional deficiencies. Research shows that vegetarians can obtain a full complement of proteins and minerals from nonanimal foods. Theodora: You are wrong in claiming that vegetarianism cannot lead to nutritional deficiencies. If most people became vegetarians, some of those losing jobs due to the collapse of many meat-based industries would fall into poverty and hence be unable to afford a nutritionally adequate diet.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Theodora's reply is vulnerable because it is directed toward disproving a claim that Marcia did not make.",
         "fol_conclusion": null,
         "label": "True"
@@ -417,7 +417,7 @@
         "story_id": "reclor_val_206",
         "id": "reclor_val_206",
         "nat_premises": "One should not confuse a desire for money with a desire for material possessions. Much of what money can buy -- education, travel, even prestige -- are not material goods at all. Material goods themselves, moreover, are seldom desired for their own sake but rather for the experiences or activities they make possible.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The claim that one should not confuse a desire for money with a desire for material possessions is the overall conclusion of the argument.",
         "fol_conclusion": null,
         "label": "True"
@@ -426,7 +426,7 @@
         "story_id": "reclor_val_13",
         "id": "reclor_val_13",
         "nat_premises": "Britain is now rabies free. Britain' s strict quarantine of imported domesticated animals, designed to prevent widespread outbreaks of rabies there, cannot succeed indefinitely in preventing such outbreaks. Bats, which are very susceptible to rabies, fly into Britain from continental Europe. Since wild bats cannot be quarantined.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "this policy cannot control rabies spread by wild bats.",
         "fol_conclusion": null,
         "label": "True"
@@ -435,7 +435,7 @@
         "story_id": "reclor_val_414",
         "id": "reclor_val_414",
         "nat_premises": "Consuming small amounts of several different cancer-causing chemicals can lead to cancer even if consuming such an amount of any one cancer-causing chemical would not.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "To keep our food safe, we must prohibit the use of any food additives that have been found to cause cancer.",
         "fol_conclusion": null,
         "label": "True"
@@ -444,7 +444,7 @@
         "story_id": "reclor_val_363",
         "id": "reclor_val_363",
         "nat_premises": "Judicial punishment' s power to deter people from committing crimes is a function of the severity of the penalty and the likelihood of one' s actually receiving the penalty. Occasionally, juries decide that a crime' s penalty is too severe and so refuse to convict a person they are convinced has committed that crime.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Increasing the penalty may decrease the deterrent power of judicial punishment.",
         "fol_conclusion": null,
         "label": "True"
@@ -453,7 +453,7 @@
         "story_id": "reclor_val_436",
         "id": "reclor_val_436",
         "nat_premises": "Participating in organized competitive athletics may increase a child's strength and coordination. As critics point out, however, it also instills in those children who are not already well developed in these respects a feeling of inferiority that never really disappears. Yet, since research has shown that adults with feelings of inferiority become more successful than those free of such anxieties,",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "funding for children' s athletic programs should not be eliminated.",
         "fol_conclusion": null,
         "label": "True"
@@ -462,7 +462,7 @@
         "story_id": "reclor_val_116",
         "id": "reclor_val_116",
         "nat_premises": "The only clue I have as to the identity of the practical joker is the handwriting on the note. Ordinarily I would suspect Miller, who has always been jealous of me, but the handwriting is not hers.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The joker is apparently someone else.",
         "fol_conclusion": null,
         "label": "True"
@@ -471,7 +471,7 @@
         "story_id": "reclor_val_48",
         "id": "reclor_val_48",
         "nat_premises": "Explanation must be distinguished from justification. Every human action potentially has an explanation; that is, with sufficient knowledge it would be possible to give an accurate description of the causes of that action. An action is justified only when the person performing the action has sufficient reasons for the action. According to many psychologists, even when there is a justification for an action, that justification often forms no part of the explanation. The general principle, however, is that only an action whose justification, that is, the reasons for the action, forms an essential part of its explanation is rational.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "If any human actions are rational, then reasons must sometimes be causes of actions.",
         "fol_conclusion": null,
         "label": "True"
@@ -480,7 +480,7 @@
         "story_id": "reclor_val_99",
         "id": "reclor_val_99",
         "nat_premises": "The television documentary went beyond the save-the-wildlife pieties of some of those remote from East Africa and showed that in a country pressed for food, the elephant is a pest, and an intelligent pest at that. There appears to be no way to protect East African farms from the voracious foraging of night-raiding elephant herds.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The preservation of wildlife may endanger human welfare.",
         "fol_conclusion": null,
         "label": "True"
@@ -489,7 +489,7 @@
         "story_id": "reclor_val_173",
         "id": "reclor_val_173",
         "nat_premises": "At the beginning of each month, companies report to the federal government their net loss or gain in jobs over the past month. These reports are then consolidated by the government and reported as the total gain or loss for the past month. Despite accurate reporting by companies and correct tallying by the government, the number of jobs lost was significantly underestimated in the recent recession.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "In the recent recession a large number of failing companies abruptly ceased all operations.",
         "fol_conclusion": null,
         "label": "True"
@@ -498,7 +498,7 @@
         "story_id": "reclor_val_464",
         "id": "reclor_val_464",
         "nat_premises": "over 80 percent of pet owners already pay to spay or neuter their animals",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "there will not be a significant decrease in the number of stray animals in the city if this funding is provided",
         "fol_conclusion": null,
         "label": "True"
@@ -507,7 +507,7 @@
         "story_id": "reclor_val_102",
         "id": "reclor_val_102",
         "nat_premises": "An instructor presented two paintings to a class. She said that the first had hung in prestigious museums but the second was produced by an unknown amateur. Each student was asked which painting was better. Everyone selected the first. The instructor later presented the same two paintings in the same order to a different class. This time she said that the first was produced by an unknown amateur but the second had hung in prestigious museums. In this class, everyone said that the second painting was better.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "In judging the paintings, some of the students were affected by what they had been told about the history of the paintings.",
         "fol_conclusion": null,
         "label": "True"
@@ -516,7 +516,7 @@
         "story_id": "reclor_val_377",
         "id": "reclor_val_377",
         "nat_premises": "In 1990 major engine repairs were performed on 10 percent of the cars that had been built by the National Motor Company in the 1970s and that were still registered. However, the corresponding figure for the cars that the National Motor Company had manufactured in the 1960s was only five percent.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The older a car is, the more likely it is to be discarded for scrap rather than repaired when major engine work is needed to keep the car in operation.",
         "fol_conclusion": null,
         "label": "True"
@@ -525,7 +525,7 @@
         "story_id": "reclor_val_288",
         "id": "reclor_val_288",
         "nat_premises": "Studies of the reliability of eyewitness identifications show little correlation between the accuracy of a witness' s account and the confidence the witness has in the account. Certain factors can increase or undermine witness' s confidence without altering the accuracy of the identification. The confidence people have in what they remember having seen is affected by their awareness of what other people claim to have seen.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Police officers are advised to disallow suspect lineups in which witnesses can hear one another identifying suspects.",
         "fol_conclusion": null,
         "label": "True"
@@ -534,7 +534,7 @@
         "story_id": "reclor_val_357",
         "id": "reclor_val_357",
         "nat_premises": "According to the tabulation, the incidence of crime per 100,000 people has risen substantially over the last 20 years. The independent surveys give an impression that the total number of crimes was less in recent years than it was 20 years ago.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "A much greater proportion of crimes have been reported to local police departments in recent years than were reported 20 years ago.",
         "fol_conclusion": null,
         "label": "True"
@@ -543,7 +543,7 @@
         "story_id": "reclor_val_290",
         "id": "reclor_val_290",
         "nat_premises": "Summit credits its success in retaining employees to its informal, nonhierarchical work environment. A hierarchical work environment hinders the cooperative exchange of ideas that computer industry employees consider necessary for their work.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Summit’s informal, nonhierarchical work environment explains its success in retaining employees.",
         "fol_conclusion": null,
         "label": "True"
@@ -552,7 +552,7 @@
         "story_id": "reclor_val_289",
         "id": "reclor_val_289",
         "nat_premises": "Recidivism is the return to criminal behavior, and consequently a return to prison, of a former prisoner who has already served in incarceration for a criminal conviction. In the United States, most burglars and common thieves have a recidivist rate above 70%. Studies have shown that, when available, those incarcerated burglars and thieves who pursue post-secondary education while in prison have substantially lower recidivism rates. higher educational level provides wider job opportunities, and according to studies, poverty is one of the chief causes of recidivism.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "the government should fund programs that assist incarcerated burglars and thieves in pursuing higher education.",
         "fol_conclusion": null,
         "label": "True"
@@ -561,7 +561,7 @@
         "story_id": "reclor_val_149",
         "id": "reclor_val_149",
         "nat_premises": "Electronic media are bound to bring an end to the institution of the traditional school in our culture. The emergence of the traditional school, characterized by a group of students gathered with a teacher in a classroom, was facilitated by the availability of relatively inexpensive printed books. Currently, the function of books in communicating information is gradually being taken over by electronic media.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The traditional school will not survive in our culture.",
         "fol_conclusion": null,
         "label": "True"
@@ -570,7 +570,7 @@
         "story_id": "reclor_val_466",
         "id": "reclor_val_466",
         "nat_premises": "Some of my opponents have argued on theoretical grounds in favor of reducing social spending. Instead of arguing that there is excessive public expenditure on social programs, my opponents should focus on the main cause of deficit spending: the fact that government is bloated with bureaucrats and self-aggrandizing politicians.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It is unwarranted to reduce social expenditure.",
         "fol_conclusion": null,
         "label": "True"
@@ -579,7 +579,7 @@
         "story_id": "reclor_val_51",
         "id": "reclor_val_51",
         "nat_premises": "The construction of new apartments in Brewsterville increased the supply of available housing there. Ordinarily, increasing the supply of available housing leads to lower rents for existing apartments. But in Brewsterville, rents for existing apartments rose.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The new apartments were constructed at the outset of a trend of increasing numbers of people seeking residence in Brewsterville.",
         "fol_conclusion": null,
         "label": "True"
@@ -588,7 +588,7 @@
         "story_id": "reclor_val_487",
         "id": "reclor_val_487",
         "nat_premises": "When a patient failed to respond to prescribed medication, the doctor hypothesized that the dosage was insufficient. The doctor first advised doubling the dosage, but the patient' s symptoms remained. It was then learned that the patient regularly drank an herbal beverage that often inhibits the medication' s effect. The doctor then advised the patient to resume the initial dosage and stop drinking the beverage. The patient complied, but still showed no change. Finally, the doctor advised the patient to double the dosage and not drink the beverage. The patient' s symptoms disappeared.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The beverage was not the only cause of the ineffectiveness of the prescribed dosage.",
         "fol_conclusion": null,
         "label": "True"
@@ -597,7 +597,7 @@
         "story_id": "reclor_val_22",
         "id": "reclor_val_22",
         "nat_premises": "Our management consultant proposes that we reassign staff so that all employees are doing both what they like to do and what they do well. This, she says, will \"increase productivity by fully exploiting our available resources.\" But Ace Manufacturing has a long-standing commitment not to exploit its workers. Therefore, implementing her recommendations would cause us to violate our own policy.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The director's argument for rejecting the management consultant's proposal is vulnerable to criticism for failing to distinguish two distinct senses of a key term.",
         "fol_conclusion": null,
         "label": "True"
@@ -606,7 +606,7 @@
         "story_id": "reclor_val_87",
         "id": "reclor_val_87",
         "nat_premises": "A study comparing infant care revealed that the amount of stimulation babies receive affects their sleep. At six months of age, the babies in the study with a less stimulating daytime routine slept an average of two hours more per day than those with a more stimulating routine. Since sleep plays a very important role in a child's development.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Parents would be wise to reduce the amount of stimulation their babies receive.",
         "fol_conclusion": null,
         "label": "True"
@@ -615,7 +615,7 @@
         "story_id": "reclor_val_425",
         "id": "reclor_val_425",
         "nat_premises": "Ruth: To become a politician, a person should be required to have a diversity of experience. The more diverse one's experience, the more one will understand the need for compromise. Stephanie: To be worthy of public trust, it is not enough, as you suggest, that one simply have varied experience. Such a person would not necessarily be worthy of public trust.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The response attributes to Ruth a view that is more vulnerable to criticism than any she actually expresses.",
         "fol_conclusion": null,
         "label": "True"
@@ -624,7 +624,7 @@
         "story_id": "reclor_val_492",
         "id": "reclor_val_492",
         "nat_premises": "A group of scientists who have done research on the health effects of food irradiation has discovered no evidence challenging its safety. Supporters of food irradiation have cited this research as certain proof that food irradiation is a safe practice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "A flaw in the reasoning of the supporters of food irradiation is that they use the lack of evidence contradicting a claim as conclusive evidence for that claim.",
         "fol_conclusion": null,
         "label": "True"
@@ -633,7 +633,7 @@
         "story_id": "reclor_val_242",
         "id": "reclor_val_242",
         "nat_premises": "It is obvious that a shift in economic policy is needed. If one wants to jump over a chasm, one would do it with one leap. If one wants to teach a horse to jump fences, one should train it to jump lower heights first.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Jorge and Christina disagree over whether the economic changes should not all be made at the same time.",
         "fol_conclusion": null,
         "label": "True"
@@ -642,7 +642,7 @@
         "story_id": "reclor_val_452",
         "id": "reclor_val_452",
         "nat_premises": "Any translation that is not entirely faithful to both the meaning of the text and the original author's style will be at best a flawed approximation of that work. Any literary translation is a compromise between two goals that cannot be entirely reconciled: faithfulness to the meaning of the text and faithfulness to the original author' s style.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Even the most skillful translation will be at best a flawed approximation of the original work.",
         "fol_conclusion": null,
         "label": "True"
@@ -651,7 +651,7 @@
         "story_id": "reclor_val_428",
         "id": "reclor_val_428",
         "nat_premises": "Many people suffer an allergic reaction to certain sulfites, including those that are commonly added to wine as preservatives. There are several wine makers who add sulfites to none of the wines they produce. Sulfites are not naturally present in the wines produced by these wine makers in amounts large enough to produce an allergic reaction in someone who drinks these wines.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "People who would like to drink wine but are allergic to sulfites can drink wines produced by these wine makers without risking an allergic reaction to sulfites.",
         "fol_conclusion": null,
         "label": "True"
@@ -660,7 +660,7 @@
         "story_id": "reclor_val_225",
         "id": "reclor_val_225",
         "nat_premises": "It is a sad fact that, until now, entry into the academically best high school in our district has been restricted to the children of people who were wealthy enough to pay the high tuition. The superintendent's claim about the effect of replacing the tuition requirement relies on the assumption that people other than those wealthy enough to have paid the old tuition are able to live in the neighborhood of the school.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Parents who were previously denied the option of sending their children to this school now have this option, since I am replacing the tuition requirement with a requirement that allows only those who live in the neighborhood of the school to attend.",
         "fol_conclusion": null,
         "label": "True"
@@ -669,7 +669,7 @@
         "story_id": "reclor_val_195",
         "id": "reclor_val_195",
         "nat_premises": "The Scorpio Miser with its special high-efficiency engine costs more to buy than the standard Scorpio sports car. At current fuel prices, a buyer choosing the Miser would have to drive it 60, 000 miles to make up the difference in purchase price through savings on fuel.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It follows that, if fuel prices fell, it would take fewer miles to reach the break-even point.",
         "fol_conclusion": null,
         "label": "True"
@@ -678,7 +678,7 @@
         "story_id": "reclor_val_56",
         "id": "reclor_val_56",
         "nat_premises": "The public square was an important tool of democracy in days past because it provided a forum for disparate citizens to discuss the important issues of the day. Today, a person with Internet access can discuss important issues with millions of people across the nation, allowing the Internet to play the role once played by the public square.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "We should ensure that Internet users have at least as much freedom of expression as did people speaking in the public square.",
         "fol_conclusion": null,
         "label": "True"
@@ -687,7 +687,7 @@
         "story_id": "reclor_val_275",
         "id": "reclor_val_275",
         "nat_premises": "The fact that tobacco smoke inhaled by smokers harms the smokers. Many substances, such as vitamin A, are toxic in large quantities but beneficial in small quantities.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The fact that tobacco smoke inhaled by smokers harms the smokers does not prove that the much smaller amount of tobacco smoke inhaled by nonsmokers who share living space with smokers harms the nonsmokers to some degree.",
         "fol_conclusion": null,
         "label": "True"
@@ -696,7 +696,7 @@
         "story_id": "reclor_val_319",
         "id": "reclor_val_319",
         "nat_premises": "One of the things lenders do in evaluating the risk of a potential borrower defaulting on a loan is to consider the potential borrower' s credit score. In general, the higher the credit score, the less the risk of default. Yet for mortgage loans, the proportion of defaults is much higher for borrowers with the highest credit scores than for other borrowers.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Mortgage lenders are much less likely to consider risk factors other than credit score when evaluating borrowers with the highest credit scores.",
         "fol_conclusion": null,
         "label": "True"
@@ -705,7 +705,7 @@
         "story_id": "reclor_val_183",
         "id": "reclor_val_183",
         "nat_premises": "A new treatment for muscle pain that looked very promising was tested in three separate studies. Although the results were positive, it turned out that all three studies had critical methodological flaws. So the treatment is probably not actually effective. The judges in a baking contest did not have uniform criteria for selecting a winner.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The argument above is flawed.",
         "fol_conclusion": null,
         "label": "True"
@@ -714,7 +714,7 @@
         "story_id": "reclor_val_484",
         "id": "reclor_val_484",
         "nat_premises": "Geoffrey never attends a movie without watching the trailer and generally tries to read the reviews prior to the show. At the theater, Geoffrey sometimes buys popcorn and always buys a bottle of water. Geoffrey recently saw the eighth installment of the Boy Wizard Chronicles.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Geoff Geoffrey watched the Boy Wizard Chronicles' trailer and drank a bottle of water during the show.",
         "fol_conclusion": null,
         "label": "True"
@@ -723,7 +723,7 @@
         "story_id": "reclor_val_418",
         "id": "reclor_val_418",
         "nat_premises": "Last year, our company had $5 million in revenue, and was featured in 8 major articles in the fashion press. This year, our company's revenue has practically quadrupled.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "We should expect to be featured in at least 20 major articles in the fashion press.",
         "fol_conclusion": null,
         "label": "True"
@@ -732,7 +732,7 @@
         "story_id": "reclor_val_54",
         "id": "reclor_val_54",
         "nat_premises": "When a forest is subject to acid rain, the calcium level in the soil declines. Spruce, fir, and sugar maple trees all need calcium to survive. Spruces and firs, unlike sugar maples, can extract calcium from a mineral compound that is common in soil and is not affected by acid rain.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Sugar maples in forests that receive significant acid rain are much more likely to show signs of decline consistent with calcium deficiency than are spruces or firs in such forests.",
         "fol_conclusion": null,
         "label": "True"
@@ -741,7 +741,7 @@
         "story_id": "reclor_val_205",
         "id": "reclor_val_205",
         "nat_premises": "Direct-mail advertising usually consists of advertisements for products to be purchased from the home. Because of direct-mail advertising, millions of people buy products by phone or online -- products whose purchase would otherwise require the use of a car, thus adding pollutants to the air.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The perception that it is bad for the environment is misguided.",
         "fol_conclusion": null,
         "label": "True"
@@ -750,7 +750,7 @@
         "story_id": "reclor_val_35",
         "id": "reclor_val_35",
         "nat_premises": "Certain instruments used in veterinary surgery can be made either of stainless steel or of nylon. In a study of such instruments, 50 complete sterilizations of a set of nylon instruments required 3.4 times the amount of energy used to manufacture that set of instruments, whereas 50 complete sterilizations of a set of stainless steel instruments required 2.1 times the amount of energy required to manufacture that set of instruments.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "More energy was not required for each complete sterilization of the nylon instruments than was required to manufacture the nylon instruments.",
         "fol_conclusion": null,
         "label": "True"
@@ -759,7 +759,7 @@
         "story_id": "reclor_val_331",
         "id": "reclor_val_331",
         "nat_premises": "Although Jaaks is a respected historian, her negative review of Yancey's new book on the history of coastal fisheries in the region rests on a mistake. Jaaks' review argues that the book inaccurately portrays the lives of fishery workers. However, Yancey used the same research methods in this book as in her other histories, which have been very popular. This book is also very popular in local bookstores.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The reasoning above is flawed in that it takes for granted that the popularity of a book is evidence of its accuracy.",
         "fol_conclusion": null,
         "label": "True"
@@ -768,7 +768,7 @@
         "story_id": "reclor_val_94",
         "id": "reclor_val_94",
         "nat_premises": "Researchers in South Australia estimate changes in shark populations inhabiting local waters by monitoring what is termed the \"catch per unit effort\" (CPUE). The CPUE for any species of shark is the number of those sharks that commercial sharkfishing boats catch per hour for each kilometer of gill net set out in the water. Since 1973 the CPUE for a particular species of shark has remained fairly constant.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The population of that species in the waters around South Australia must be at approximately its 1973 level.",
         "fol_conclusion": null,
         "label": "True"
@@ -777,7 +777,7 @@
         "story_id": "reclor_val_480",
         "id": "reclor_val_480",
         "nat_premises": "the only cause for the police giving chase was the suspect' s flight; by itself, flight from the police does not create a reasonable suspicion of a criminal act; evidence collected during an illegal chase is inadmissible; Police can legally give chase to a person only when the person's actions have created a reasonable suspicion of a criminal act",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "the evidence in this case was inadmissible",
         "fol_conclusion": null,
         "label": "True"
@@ -786,7 +786,7 @@
         "story_id": "reclor_val_208",
         "id": "reclor_val_208",
         "nat_premises": "Scientists have discovered fossilized bacteria in rocks 3. 5 billion years old. The fossils indicate that these bacteria were quite complex and so must have already had a long evolutionary history when fossilized 3. 5 billion years ago. However, Earth is only 4. 6 billion years old, so the first life on Earth must have appeared soon after the planet' s formation, when conditions were extremely harsh.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "This suggests that life may be able to arise under many difficult conditions throughout the universe.",
         "fol_conclusion": null,
         "label": "True"
@@ -795,7 +795,7 @@
         "story_id": "reclor_val_148",
         "id": "reclor_val_148",
         "nat_premises": "Reforms are generally undertaken early in a new government. If leaders do not act quickly to solve a problem and it becomes an issue later, then they must either deny that there is a problem or deny that anything could have been done about it; otherwise, they will have to admit responsibility for the persistence of the problem.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "National leaders should be removed from office every few years by the voting in of new leaders.",
         "fol_conclusion": null,
         "label": "True"
@@ -804,7 +804,7 @@
         "story_id": "reclor_val_489",
         "id": "reclor_val_489",
         "nat_premises": "The editorial defended United States government restrictions on academic freedom, arguing that scientists who receive public funding cannot rightly \"detach themselves from the government's policies on national security.\" Yet the same editorial criticized the Soviet government for not allowing scientists to \"detach themselves from politics.\" If there is a significant difference between the principles involved in each case, the editorial should have explained what that difference is.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "There is an apparent inconsistency in the editorial.",
         "fol_conclusion": null,
         "label": "True"
@@ -813,7 +813,7 @@
         "story_id": "reclor_val_151",
         "id": "reclor_val_151",
         "nat_premises": "The use of the term \"neat\" as a general term of approval is an unfortunate development in colloquial English. The original meaning of \"neat\" is \"tidy\". The original meaning of an English word is the only correct meaning to use.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The use of \"neat\" as a general term of approval is incorrect and should be discouraged.",
         "fol_conclusion": null,
         "label": "True"
@@ -822,7 +822,7 @@
         "story_id": "reclor_val_237",
         "id": "reclor_val_237",
         "nat_premises": "The role of the Uplandian supreme court is to protect all human rights against abuses of government power. Since the constitution of Uplandia is not explicit about all human rights, the supreme court must sometimes resort to principles outside the explicit provisions of the constitution in justifying its decisions. However, human rights will be subject to the whim of whoever holds judicial power unless the supreme court is bound to adhere to a single objective standard, namely, the constitution. Ttherefore, nothing but the explicit provisions of the constitution can be used to justify the court' s decisions. The reasoning that leads to the conclusion that the first sentence in the passage is false is flawed because the argument concludes that a particular premise is false when it is equally possible for that premise to be true and some other premise false.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Since these conclusions are inconsistent with each other, it cannot be true that the role of the Uplandian supreme court is to protect all human rights against abuses of government power.",
         "fol_conclusion": null,
         "label": "True"
@@ -831,7 +831,7 @@
         "story_id": "reclor_val_498",
         "id": "reclor_val_498",
         "nat_premises": "A group of mountain climbers was studied to determine how they were affected by diminished oxygen in the air at high altitudes. As they climbed past 6, 100 meters above sea level, the climbers slurred words, took longer to understand simple sentences, and demonstrated poor judgment. The argument is most vulnerable to criticism on the grounds that it overlooks the possibility that the climbers' performance in speech, comprehension, and reasoning was impaired because oxygen deprivation affected their entire brains",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "This combination of worsened performances disproves the theory that the area of the brain controlling speech is distinct from that controlling other functions.",
         "fol_conclusion": null,
         "label": "True"
@@ -840,7 +840,7 @@
         "story_id": "reclor_val_424",
         "id": "reclor_val_424",
         "nat_premises": "Repressors -- people who unconsciously inhibit their display of emotion -- exhibit significant increases in heart rate when they encounter emotion-provoking situations. Nonrepressors have similar physiological responses when they encounter such situations and consciously inhibit their display of emotion.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Thus the very act of inhibiting displays of emotion, whether done consciously or unconsciously, causes a sharp rise in heart rate.",
         "fol_conclusion": null,
         "label": "True"
@@ -849,7 +849,7 @@
         "story_id": "reclor_val_356",
         "id": "reclor_val_356",
         "nat_premises": "Nearly all employees of the factory who have completed their high school diploma have earned their factory safety certificate, having easily completed the eight week training course. The high school graduates who haven' t earned the certificate are ones who have evening obligations that have prevented them from taking the course. Overall, though, most of the factory workers have not earned the certificate.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "A large proportion of the factory workers have not graduated from high school.",
         "fol_conclusion": null,
         "label": "True"
@@ -858,7 +858,7 @@
         "story_id": "reclor_val_171",
         "id": "reclor_val_171",
         "nat_premises": "All of the canceled projects had been identified as wasteful in a report written by respected nonpartisan auditors.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The President's choice was clearly motivated by sound budgetary policy, not partisan politics.",
         "fol_conclusion": null,
         "label": "True"
@@ -867,7 +867,7 @@
         "story_id": "reclor_val_317",
         "id": "reclor_val_317",
         "nat_premises": "The growing popularity of computer-based activities was widely expected to result in a decline in television viewing, since it had been assumed that people lack sufficient free time to maintain current television-viewing levels while spending increasing amounts of free time on the computer. In a recent mail survey concerning media use, a very large majority of respondents who report increasing time spent per week using computers report no change in time spent watching television.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The assumption that people lack sufficient free time to maintain current television-viewing levels while spending increasing amounts of free time on the computer is false.",
         "fol_conclusion": null,
         "label": "True"
@@ -876,7 +876,7 @@
         "story_id": "reclor_val_375",
         "id": "reclor_val_375",
         "nat_premises": "A prominent investor who holds a large stake in the Burton Tool Company has recently claimed that the company is mismanaged, citing as evidence the company's failure to slow production in response to a recent rise in its inventory of finished products. It is doubtful whether an investor's sniping at management can ever be anything other than counterproductive. It is true that an increased inventory of finished products often indicates that production is outstripping demand, but in Burton's case it indicates no such thing. Rather, the increase in inventory is entirely attributable to products that have already been assigned to orders received from customers.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It is clearly not justified.",
         "fol_conclusion": null,
         "label": "True"
@@ -885,7 +885,7 @@
         "story_id": "reclor_val_445",
         "id": "reclor_val_445",
         "nat_premises": "Many agriculturally intensive areas of the world are beginning to encounter water scarcity problems. As a result, many farmers in these areas are likely to reduce their output as the water supply they need in order to maintain production shrinks. However, one group of farmers in such a region plans to increase their production by implementing techniques for water conservation. More than half the water used for agriculture in the farmers' region is lost to evaporation or leakage from irrigation channels.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The group's plan will succeed.",
         "fol_conclusion": null,
         "label": "True"
@@ -894,7 +894,7 @@
         "story_id": "reclor_val_29",
         "id": "reclor_val_29",
         "nat_premises": "It is true that over the past 15 years, there has been a fourfold increase in government funding to preserve endangered species, while the number of endangered species needing such preservation has increased by only 70% (there were, however, a large number of endangered species to begin with 15 years ago). Taking into account inflation, the amount of funding is at least double what it was 15 years ago. Unlike today, funding for the preservation of species was essentially nonexistent 15 years ago.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Nevertheless, the current amount of funding from the government for species preservation is inadequate and must be enhanced.",
         "fol_conclusion": null,
         "label": "True"
@@ -903,7 +903,7 @@
         "story_id": "reclor_val_470",
         "id": "reclor_val_470",
         "nat_premises": "Over the past five years, the price gap between name-brand cereals and less expensive store-brand cereals has become so wide that consumers have been switching increasingly to store brands despite the name brands' reputation for better quality. To attract these consumers back, several manufacturers of name-brand cereals plan to narrow the price gap between their cereals and store brands to less than what it was five years ago.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Consumers who have switched to store-brand cereals have generally been satisfied with the quality of those cereals.",
         "fol_conclusion": null,
         "label": "True"
@@ -912,7 +912,7 @@
         "story_id": "reclor_val_62",
         "id": "reclor_val_62",
         "nat_premises": "The sun emits two types of ultraviolet radiation that damage skin: UV-A, which causes premature wrinkles, and UV-B, which causes sunburn. Until about ten years ago, sunscreens protected against UV-B radiation but not against UV-A radiation.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Until about ten years ago, people who wore sunscreen were no less likely to have premature wrinkles than were people who spent the same amount of time in the sun without wearing sunscreen.",
         "fol_conclusion": null,
         "label": "True"
@@ -921,7 +921,7 @@
         "story_id": "reclor_val_426",
         "id": "reclor_val_426",
         "nat_premises": "Antoine's response ignores the fact that Giselle does not base her argument for raising the gasoline sales tax on the government's need for increased revenues.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Antoine's response is ineffective as a rebuttal of Giselle's argument.",
         "fol_conclusion": null,
         "label": "True"
@@ -930,7 +930,7 @@
         "story_id": "reclor_val_92",
         "id": "reclor_val_92",
         "nat_premises": "A science class stored one selection of various fruits at 30 degrees Celsius, a similar selection in similar conditions at 20 degrees, and another similar selection in similar conditions at 10 degrees. Because the fruits stored at 20 degrees stayed fresh longer than those stored at 30 degrees, and those stored at 10 degrees stayed fresh longest.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The class concluded that the cooler the temperature at which these varieties of fruits are stored, the longer they will stay fresh.",
         "fol_conclusion": null,
         "label": "True"
@@ -939,7 +939,7 @@
         "story_id": "reclor_val_212",
         "id": "reclor_val_212",
         "nat_premises": "Francis: Failure to become properly registered to vote prevents one-third of the voting-age citizens of Lagonia from voting. If local election boards made the excessively cumbersome registration process easier, more people would register and vote. Sharon: The high number of citizens not registered to vote has persisted despite many attempts to make registering easier. Surveys show that most of these citizens believe that their votes would not make a difference. Until that belief is changed, simplifying the registration process will not increase the percentage of citizens registering to vote.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The main issue in dispute between Francis and Sharon is why so many citizens do not register to vote.",
         "fol_conclusion": null,
         "label": "True"
@@ -948,7 +948,7 @@
         "story_id": "reclor_val_176",
         "id": "reclor_val_176",
         "nat_premises": "For all species of higher animals, reproduction requires the production of eggs but not necessarily the production of sperm. There are some species whose members are all female; the eggs produced by a rare female-only species of salamander hatch without fertilization. This has the drawback that all offspring have genetic codes nearly identical to that of the single parent, making the species less adaptive than species containing both male and female members.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "All species of higher animals have members that produce eggs.",
         "fol_conclusion": null,
         "label": "True"
@@ -957,7 +957,7 @@
         "story_id": "reclor_val_119",
         "id": "reclor_val_119",
         "nat_premises": "Scientists generally believe that no deep-sea creature can detect red light, but they need to reassess that view. Researchers recently discovered a foot-long deep-sea creature of the genus Erenna with bioluminescent red lights on some of its tentacles. These red lights, which are shaped like a common food source for small, deep-sea fish, probably function as lures to attract prey.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Scientists need to reconsider the belief that deep- sea creatures cannot detect red light.",
         "fol_conclusion": null,
         "label": "True"
@@ -966,7 +966,7 @@
         "story_id": "reclor_val_325",
         "id": "reclor_val_325",
         "nat_premises": "Shark teeth are among the most common vertebrate fossils; yet fossilized shark skeletons are much less common -- indeed, comparatively rare among fossilized vertebrate skeletons.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Unlike the bony skeletons of other vertebrates, shark skeletons are composed of cartilage, and teeth and bone are much more likely to fossilize than cartilage is.",
         "fol_conclusion": null,
         "label": "True"
@@ -975,7 +975,7 @@
         "story_id": "reclor_val_108",
         "id": "reclor_val_108",
         "nat_premises": "Although computers can enhance people's ability to communicate, computer games are a cause of underdeveloped communication skills in children. After-school hours spent playing computer games are hours not spent talking with people.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "children who spend all their spare time playing these games have less experience in interpersonal communication than other children have.",
         "fol_conclusion": null,
         "label": "True"
@@ -984,7 +984,7 @@
         "story_id": "reclor_val_228",
         "id": "reclor_val_228",
         "nat_premises": "In an experiment, two-year-old boys and their fathers made pie dough together using rolling pins and other utensils. Each father-son pair used a rolling pin that was distinctively different from those used by the other father-son pairs, and each father repeated the phrase \"rolling pin\" each time his son used it. But when the children were asked to identify all of the rolling pins among a group of kitchen utensils that included several rolling pins, each child picked only the one that he had used.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "No two children understood the name \"rolling pin\" to apply to the same object.",
         "fol_conclusion": null,
         "label": "True"
@@ -993,7 +993,7 @@
         "story_id": "reclor_val_161",
         "id": "reclor_val_161",
         "nat_premises": "In jazz history, there have been gifted pianists who, because they had no striking musical ideas, led no memorable recording sessions. But precisely because they lacked such ideas, they were able to respond quickly to the ideas of imaginative and difficult leaders. Thus, these pianists are often heard adding masterful touches to some of the greatest jazz recordings.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "A trait that is a weakness in some settings can contribute to greatness in other settings.",
         "fol_conclusion": null,
         "label": "True"
@@ -1002,7 +1002,7 @@
         "story_id": "reclor_val_398",
         "id": "reclor_val_398",
         "nat_premises": "The authorship of the Iliad and the Odyssey has long been debated. Some traditional evidence suggests that Homer created both works, or at least large portions of them. There is equally forceful evidence that he had nothing to do with either. Since there is no overwhelming evidence for either claim.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "If a hypothesis goes against tradition, one should not accept the hypothesis without overwhelming evidence.",
         "fol_conclusion": null,
         "label": "True"
@@ -1011,7 +1011,7 @@
         "story_id": "reclor_val_241",
         "id": "reclor_val_241",
         "nat_premises": "The fishing industry cannot currently be relied upon to help the government count the seabirds killed by net fishing, since an accurate count might result in restriction of net fishing. The industry would then have a reason to turn in the bird carcasses, since the industry needs to know whether the fish it catches are contaminated with toxins. The government cannot gain an accurate count of the number of seabirds killed by net fishing unless the fishing industry cooperates.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The government should ttherefore institute a program under which tissue samples from the dead birds are examined to determine the amount of toxins in the fish eaten by the birds.",
         "fol_conclusion": null,
         "label": "True"
@@ -1020,7 +1020,7 @@
         "story_id": "reclor_val_429",
         "id": "reclor_val_429",
         "nat_premises": "Several movie critics have claimed that this movie will inspire people to act in socially irresponsible ways, yet this claim relies entirely on survey data that have turned out to be deeply flawed.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The argument is flawed in that it infers that a claim is false merely on the grounds that no satisfactory evidence for it has been offered.",
         "fol_conclusion": null,
         "label": "True"
@@ -1029,7 +1029,7 @@
         "story_id": "reclor_val_254",
         "id": "reclor_val_254",
         "nat_premises": "All the primates in the zoo were gorillas. The only gorillas in the zoo were small gorillas. The only plants in the garden were tulips, but they were tall tulips.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The only plants in the garden were tall plants.",
         "fol_conclusion": null,
         "label": "True"
@@ -1038,7 +1038,7 @@
         "story_id": "reclor_val_447",
         "id": "reclor_val_447",
         "nat_premises": "The judgment that an artist is great always rests on assessments of the work the artist has produced. A series of great works is the only indicator of greatness.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "To say that an artist is great is just to summarize the quality of his or her known works, and the artist's greatness can provide no basis for predicting the quality of the artist's unknown or future works.",
         "fol_conclusion": null,
         "label": "True"
@@ -1047,7 +1047,7 @@
         "story_id": "reclor_val_18",
         "id": "reclor_val_18",
         "nat_premises": "Telephone companies are promoting \"voice mail\" as an alternative to the answering machine. By recording messages from callers when a subscriber does not have access to his or her telephone, voice mail provides a service similar to that of an answering machine. The companies promoting this service argue that it will soon make answering machines obsolete, since it is much more convenient, more flexible, and less expensive than an answering machine.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Answering machines enable the customer to hear who is calling before the customer decides whether to answer the telephone, a service voice mail does not provide.",
         "fol_conclusion": null,
         "label": "True"
@@ -1056,7 +1056,7 @@
         "story_id": "reclor_val_351",
         "id": "reclor_val_351",
         "nat_premises": "High consumption of sodium increases some people's chances of developing heart disease. The potassium in plant foods helps to prevent sodium's malign effects.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "These people should eat fresh, rather than canned or frozen, fruit and vegetables.",
         "fol_conclusion": null,
         "label": "True"
@@ -1065,7 +1065,7 @@
         "story_id": "reclor_val_251",
         "id": "reclor_val_251",
         "nat_premises": "At Flordyce University any student who wants to participate in a certain archaeological dig is eligible to do so but only if the student has taken at least one archaeology course and has shown an interest in the field. Many students who have shown an interest in archaeology never take even one archaeology course.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "many students who want to participate in the dig will be ineligible to do so.",
         "fol_conclusion": null,
         "label": "True"
@@ -1074,7 +1074,7 @@
         "story_id": "reclor_val_7",
         "id": "reclor_val_7",
         "nat_premises": "Without the incentives offered by federal income tax laws, at least some wealthy individuals would not donate as much money to charitable and educational institutions as they otherwise would have. A proposed change to federal income tax laws would eliminate deductions from taxable income for donations a taxpayer has made to charitable and educational institutions. If this change were adopted, wealthy individuals would no longer be permitted such deductions.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Many charitable and educational institutions would have to reduce services, and some would have to close their doors.",
         "fol_conclusion": null,
         "label": "True"
@@ -1083,7 +1083,7 @@
         "story_id": "reclor_val_193",
         "id": "reclor_val_193",
         "nat_premises": "Small species, such as fathead minnows and waterfleas, can be used to uncover the quantity of toxic chemicals being dumped into rivers and streams. Under new rules issued in a certain country, these \"indicator\" species will be used to test the effluent pouring out of sewage treatment plants and factories among the country' s waterways. If many of these animals die as a result of the test, the country is going to require that pollution levels be reduced. The new rules will apply to about 450 of the 2, 000 factories and sewage treatment plants that legally discharge into the country' s rivers and streams.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "If, after the test, the country does not require that pollution levels be reduced, then few or none of the individuals of the indicator species died as a result of the test.",
         "fol_conclusion": null,
         "label": "True"
@@ -1092,7 +1092,7 @@
         "story_id": "reclor_val_305",
         "id": "reclor_val_305",
         "nat_premises": "Researchers recently studied the relationship between diet and mood, using a diverse sample of 1, 000 adults. It was found that those who ate the most chocolate were the most likely to feel depressed.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "By reducing excessive chocolate consumption, adults can almost certainly improve their mood.",
         "fol_conclusion": null,
         "label": "True"
@@ -1101,7 +1101,7 @@
         "story_id": "reclor_val_76",
         "id": "reclor_val_76",
         "nat_premises": "Big-game trophy hunting is the hunting of large terrestrial mammals, typically in reference to Africa's \"Big Five\" game -- lions, African elephants, Cape buffalos, leopards, and rhinoceroses. Despite widespread criticism and vocal public protest, big-game trophy hunting is entirely defensible. The controversial practice places a monetary value on the \"Big Five\" game. Hunters spend millions of dollars in Africa, which allows the participating countries to better care for the animals. African countries would otherwise not be able to afford to protect the animals.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Big-game trophy hunting is entirely defensible.",
         "fol_conclusion": null,
         "label": "True"
@@ -1110,7 +1110,7 @@
         "story_id": "reclor_val_172",
         "id": "reclor_val_172",
         "nat_premises": "A significant number of complex repair jobs carried out by Ace Repairs have to be reworked under the company' s warranty. The reworked jobs are invariably satisfactory. When initial repairs are inadequate, ttherefore, it is not because the mechanics lack competence; rather, there is clearly a level of focused concentration that complex repairs require that is elicited more reliably by rework jobs than by first-time jobs.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "There is no systematic difference in membership between the group of mechanics who do first-time jobs and the group of those who do rework jobs.",
         "fol_conclusion": null,
         "label": "True"
@@ -1119,7 +1119,7 @@
         "story_id": "reclor_val_283",
         "id": "reclor_val_283",
         "nat_premises": "Bees, the most common pollinators, visit flowers far from woodlands less often than they visit flowers close to woodlands.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Being near woodlands, the natural habitat of bees, promotes the health of crops that depend on pollination.",
         "fol_conclusion": null,
         "label": "True"
@@ -1128,7 +1128,7 @@
         "story_id": "reclor_val_405",
         "id": "reclor_val_405",
         "nat_premises": "The first humans came to Australia 56, 000 years ago and undoubtedly brought new diseases with them. More than 55 different species disappeared at about the same time, and no one disease, however virulent, could be fatal to animals across that many different species. Even though I can fix some things and you can fix some things, the two of us will be unable to repair our apartment without outside help. The apartment has both a broken window and a broken bedroom door, and neither of us is able to fix both doors and windows.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Human-borne diseases probably did not cause the mass extinction of large land animals and birds that took place over the following 10, 000 years.",
         "fol_conclusion": null,
         "label": "True"
@@ -1137,7 +1137,7 @@
         "story_id": "reclor_val_246",
         "id": "reclor_val_246",
         "nat_premises": "If passed, the bill would undermine our great state' s commitment to women' s rights. Passing such a flawed piece of legislation would be like building a house with warped wood. My esteemed colleague who proposed this legislation plays fast and loose with the truth, obscuring his true purpose -- re-election. As we' ve heard from our police chief, this bill will guarantee that fewer women will report incidents of assault.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bill under current consideration is deeply flawed.",
         "fol_conclusion": null,
         "label": "True"
@@ -1146,7 +1146,7 @@
         "story_id": "reclor_val_443",
         "id": "reclor_val_443",
         "nat_premises": "Until recently people believed that applications of biochemical research would eventually achieve complete victory over the microorganisms that cause human disease. However, current medical research shows that those microorganisms reproduce so rapidly that medicines developed for killing one variety will only spur the evolution of other varieties that are immune to those medicines.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The most rational public health strategy, therefore, would place much more emphasis than at present on fully informing people about the transmission of diseases caused by microorganisms, with a view to minimizing the incidence of such diseases.",
         "fol_conclusion": null,
         "label": "True"
@@ -1155,7 +1155,7 @@
         "story_id": "reclor_val_232",
         "id": "reclor_val_232",
         "nat_premises": "In a recent study of more than 400 North American men and women whose previous heart attack put them at risk for a second heart attack, about half were told to switch to a Mediterranean-type diet one rich in fish, vegetables, olive oil, and grains, while the other half were advised to eat a more traditional Western diet but to limit their fat intake. Those following the Mediterranean diet were significantly less likely than those in the other group to have a second heart attack. But the Mediterranean diet includes a fair amount of fat from fish and olive oil, so the research suggests that a diet may not have to be extremely low in fat in order to protect the heart. Studies suggest that the kinds of oils in the fat included in the Mediterranean diet may protect the heart against potentially fatal disruptions of heart rhythms and other causes of heart attacks.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The research suggests that a diet may not have to be extremely low in fat in order to protect the heart.",
         "fol_conclusion": null,
         "label": "True"
@@ -1164,7 +1164,7 @@
         "story_id": "reclor_val_190",
         "id": "reclor_val_190",
         "nat_premises": "A university psychology department received a large donation from a textbook company after agreeing to use one of the company's books for a large introductory course. The department chair admitted that the department would not have received the donation if it used another company's textbook, but insisted that the book was chosen solely for academic reasons. She noted that the department's textbook committee had given that textbook its highest rating.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The members of the textbook committee were favorably influenced toward the textbook by the prospect of their department receiving a large donation.",
         "fol_conclusion": null,
         "label": "True"
@@ -1173,7 +1173,7 @@
         "story_id": "reclor_val_133",
         "id": "reclor_val_133",
         "nat_premises": "Any member of the city council ought either to vote against the proposal or to abstain. If all the members abstain, the matter will be decided by the city's voters. The proposal should not be decided by the city's voters.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "At least one member of the city council should vote against the proposal.",
         "fol_conclusion": null,
         "label": "True"
@@ -1182,7 +1182,7 @@
         "story_id": "reclor_val_12",
         "id": "reclor_val_12",
         "nat_premises": "Research has shown that inhaling the scent of lavender has measurable physiological effects tending to reduce stress. It is known that intense stress can impair the immune system, making one more susceptible to illness.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It is likely that the incidence of illness among those who regularly inhale the scent of lavender is reduced by this practice.",
         "fol_conclusion": null,
         "label": "True"
@@ -1191,7 +1191,7 @@
         "story_id": "reclor_val_330",
         "id": "reclor_val_330",
         "nat_premises": "Many people have been duped by the claims of those who market certain questionable medical products. Their susceptibility is easy to explain: most people yearn for easy solutions to complex medical problems but don' t have the medical knowledge necessary to see through the sellers' fraudulent claims. Medical professionals are also susceptible to fraudulent claims, yet they have no lack of medical knowledge.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Since two groups are disanalogous in important respects, there must be different explanations for their similar behavior.",
         "fol_conclusion": null,
         "label": "True"
@@ -1200,7 +1200,7 @@
         "story_id": "reclor_val_385",
         "id": "reclor_val_385",
         "nat_premises": "Engines powered by electricity from batteries cause less pollution than internal combustion engines. Pollution caused by power plants is generally confined to a small number of locations a significant distance from major cities.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "To reduce urban pollution, we should replace standard automobiles with battery-powered vehicles.",
         "fol_conclusion": null,
         "label": "True"
@@ -1209,7 +1209,7 @@
         "story_id": "reclor_val_0",
         "id": "reclor_val_0",
         "nat_premises": "In a business whose owners and employees all belong to one family, the employees can be paid exceptionally low wages. Hence, general operating expenses are much lower than they would be for other business ventures, making profits higher.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "A family business is a family's surest road to financial prosperity.",
         "fol_conclusion": null,
         "label": "True"
@@ -1218,7 +1218,7 @@
         "story_id": "reclor_val_49",
         "id": "reclor_val_49",
         "nat_premises": "The television network' s advertisement for its new medical drama grossly misrepresents what that program is like. The advertisement that the program' s producers favored would not have grossly misrepresented what the program would be like.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It will not as effectively attract the sort of viewers likely to continue watching the program as would the advertisement that the program' s producers favored; people who tune in to the first episode based on false expectations will be unlikely to watch subsequent episodes.",
         "fol_conclusion": null,
         "label": "True"
@@ -1227,7 +1227,7 @@
         "story_id": "reclor_val_259",
         "id": "reclor_val_259",
         "nat_premises": "The university' s constitution defines the powers of two governing bodies. The general council, which currently retains authority over constitutional matters, consists of all the university' s living alumni. The twenty-member senate decides routine matters by majority vote. A new proposal suggests making a unanimous vote in the senate sufficient to change the constitution.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Adopting the proposal would allow passage of constitutional changes without the general council's approval.",
         "fol_conclusion": null,
         "label": "True"
@@ -1236,7 +1236,7 @@
         "story_id": "reclor_val_26",
         "id": "reclor_val_26",
         "nat_premises": "Carolyn: The artist Marc Quinn has displayed, behind a glass plate, biologically replicated fragments of Sir John Sulston's DNA, calling it a \"conceptual portrait\" of Sulston. But to be a portrait, something must bear a recognizable resemblance to its subject. Arnold: I disagree. Quinn's conceptual portrait is a maximally realistic portrait, for it holds actual instructions according to which Sulston was created.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Carolyn and Arnold disagree over whether the object described by Quinn as a conceptual portrait of Sir John Sulston is actually a portrait of Sulston.",
         "fol_conclusion": null,
         "label": "True"
@@ -1245,7 +1245,7 @@
         "story_id": "reclor_val_472",
         "id": "reclor_val_472",
         "nat_premises": "Scientists are more likely to consider their experiments well designed if the results are consistent with their expectations than otherwise. The results of this experiment were inconsistent with the expectations of the scientists who conducted it.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It is more likely that they consider the experiment poorly designed than that they consider it well designed.",
         "fol_conclusion": null,
         "label": "True"
@@ -1254,7 +1254,7 @@
         "story_id": "reclor_val_153",
         "id": "reclor_val_153",
         "nat_premises": "The wholesale price of one bottle of Veritas Vineyards wine, always a profitable brand, is the same today as it was in 1991. The winegrower' s profit is equal to the wholesale price minus the costs of producing the bottled wine, which include the cost to the winegrower of the glass bottles themselves and of the corks. Between 1991 and the present, all of the costs to the winegrower of producing a bottle of Veritas Vineyards wine have remained constant, except that of the corks, which cost nearly twice as much today as they did in 1991.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Each bottle of Veritas Vineyards wine that is sold today brings the winegrower less profit than did each bottle sold in 1991.",
         "fol_conclusion": null,
         "label": "True"
@@ -1263,7 +1263,7 @@
         "story_id": "reclor_val_158",
         "id": "reclor_val_158",
         "nat_premises": "The hormone testosterone protects brain cells from injury and reduces levels of the protein beta-amyloid in the brain. Beta-amyloid causally contributes to Alzheimer's disease, and people whose brain cells are susceptible to injury are probably more susceptible to Alzheimer's disease.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "a decline in testosterone level puts one at increased risk for Alzheimer's disease",
         "fol_conclusion": null,
         "label": "True"
@@ -1272,7 +1272,7 @@
         "story_id": "reclor_val_483",
         "id": "reclor_val_483",
         "nat_premises": "Court records from medieval France show that in the years 1300 to 1400 the number of people arrested in the French realm for \"violent interpersonal crimes\" (not committed in wars) increased by 30 percent over the number of people arrested for such crimes in the years 1200 to 1300. If the increase was not the result of false arrests",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "medieval France had a higher level of documented interpersonal violence in the years 1300 to 1400 than in the years 1200 to 1300.",
         "fol_conclusion": null,
         "label": "True"
@@ -1281,7 +1281,7 @@
         "story_id": "reclor_val_16",
         "id": "reclor_val_16",
         "nat_premises": "Unlike newspapers in the old days, today' s newspapers and televised news programs are full of stories about murders and assaults in our city.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Violent crime is now out of control, and, to be safe from personal attack, one should not leave one' s home except for absolute necessities.",
         "fol_conclusion": null,
         "label": "True"
@@ -1290,7 +1290,7 @@
         "story_id": "reclor_val_323",
         "id": "reclor_val_323",
         "nat_premises": "The water quality of the Phage River as it passes through Praseopolis is below federal standards. The citizens of Praseopolis often blame the poor water quality on our coal-burning power plant, which is upstream from Praseopolis. Vulcan Refinery, along a tributary of the Phage River even further upstream, releases several toxins into the water. Over 99% of the toxic materials measured in the Phage River in the vicinity of Praseopolis are consistent with metal refining, but not with the by-products of coal combustion.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Our coal-burning power plant is not to blame for the poor water quality.",
         "fol_conclusion": null,
         "label": "True"
@@ -1299,7 +1299,7 @@
         "story_id": "reclor_val_182",
         "id": "reclor_val_182",
         "nat_premises": "Widespread use of the Internet has led to an increase in certain crimes such as information theft and to new crimes like hacking. This seems due, at least in part, to the impersonal nature of the Internet. People seem to feel more free to harm others through the Internet than in person, suggesting that people feel less morally constrained when they use the Internet.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Steps should be taken to educate people about the ethical use of the Internet.",
         "fol_conclusion": null,
         "label": "True"
@@ -1308,7 +1308,7 @@
         "story_id": "reclor_val_74",
         "id": "reclor_val_74",
         "nat_premises": "Although fresh, locally grown apricots are very popular in this area, the same is true of peaches. However, individual peach trees cost much less to purchase and plant than do apricot trees, and peach trees also begin bearing fruit at a much younger age.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Planting peach trees on their farm makes more sense for the Johnsons than planting apricot trees.",
         "fol_conclusion": null,
         "label": "True"
@@ -1317,7 +1317,7 @@
         "story_id": "reclor_val_451",
         "id": "reclor_val_451",
         "nat_premises": "People are not happy unless they feel that they are needed by others. Most people in modern society, however, can achieve a feeling of indispensability only within the sphere of family and friendship, because almost everyone knows that his or her job could be done by any one of thousands of others.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Fewer than a majority of people in modern society can find happiness outside the sphere of private interpersonal relationships.",
         "fol_conclusion": null,
         "label": "True"
@@ -1326,7 +1326,7 @@
         "story_id": "reclor_val_222",
         "id": "reclor_val_222",
         "nat_premises": "Hunters alone are blamed for the decline in Greenrock National Forest's deer population over the past ten years. In the past ten years, the forest's protected black bear population has risen sharply. Examination of black bears found dead in the forest during the deer hunting season showed that a number of them had recently fed on deer.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "black bears have also played an important role in this decline.",
         "fol_conclusion": null,
         "label": "True"
@@ -1335,7 +1335,7 @@
         "story_id": "reclor_val_485",
         "id": "reclor_val_485",
         "nat_premises": "When species are extensively hunted, individuals that reach reproductive maturity early make up a larger proportion of the population, because they have a better chance of reproducing. When species face diminished food resources, on the other hand, individuals tend to take longer to reach reproductive maturity. These considerations may help settle whether the primary cause of the gradual disappearance of North America' s mastodons, prehistoric animals related to elephants, was diminished food resources or human hunting, since __.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "the average age at which mastodons reached reproductive maturity can be established from mastodon tusks, of which there are many fossils dating from different periods",
         "fol_conclusion": null,
         "label": "True"
@@ -1344,7 +1344,7 @@
         "story_id": "reclor_val_179",
         "id": "reclor_val_179",
         "nat_premises": "Mili's experience: an old childhood friend and I recently exchanged presents that I am sure were vastly different in price. Yet since we gave one another gifts each of which expressed the giver' s taste, we both considered the exchange highly appropriate.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The chief consideration when selecting a gift is that the gift reflect the giver.",
         "fol_conclusion": null,
         "label": "True"
@@ -1353,7 +1353,7 @@
         "story_id": "reclor_val_264",
         "id": "reclor_val_264",
         "nat_premises": "Because tropical storms require heat and moisture, they form especially over ocean surfaces of at least 26 degrees Celsius (79 degrees Fahrenheit), ocean temperatures that global warming would encourage. many early discussions of global warming predicted that it would cause more frequent and intense tropical storms. recent research shows that this prediction is unlikely to be borne out. Other factors, such as instabilities in wind flow, are likely to counteract global warming' s effects on tropical storm development.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Global warming probably will not produce more frequent and intense tropical storms.",
         "fol_conclusion": null,
         "label": "True"
@@ -1362,7 +1362,7 @@
         "story_id": "reclor_val_422",
         "id": "reclor_val_422",
         "nat_premises": "The airport' s runways are too close to each other to allow simultaneous use of adjacent runways when visibility is poor, so the airport allows only 30 planes an hour to land in poor weather; in good weather 60 planes an hour are allowed to land. Because airline schedules assume good weather, bad weather creates serious delays.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Airlines using the airport base their schedules on the assumption that more than 30 planes an hour will be allowed to land at the airport.",
         "fol_conclusion": null,
         "label": "True"
@@ -1371,7 +1371,7 @@
         "story_id": "reclor_val_129",
         "id": "reclor_val_129",
         "nat_premises": "If the winner of a promotional contest is selected by a lottery, the lottery must be fair, giving all entrants an equal chance of winning. 90 percent of the winners selected by the lottery in a recent promotional contest submitted their entry forms within the first 2 days of the 30-day registration period. The contest entry forms were submitted at a consistent rate throughout the registration period.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "This lottery did not meet the fairness requirement.",
         "fol_conclusion": null,
         "label": "True"
@@ -1380,7 +1380,7 @@
         "story_id": "reclor_val_139",
         "id": "reclor_val_139",
         "nat_premises": "A company that invests the necessary infrastructure in a large untapped diamond mine can reap as much as 700% profit in the first year. Some of the largest untapped diamond mines in the world are in the nation of Shagoca. Therefore, the American company that brokers a deal in the capital Conkin that allows it to put the necessary infrastructure in place at those mines stands to reap tremendous profits. The fifteen-year-old civil war in Shagoca has caused significant setbacks for many foreign investments.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "American companies are not eager to invest in infrastructure necessarily for diamond mining in Shagoca.",
         "fol_conclusion": null,
         "label": "True"
@@ -1389,7 +1389,7 @@
         "story_id": "reclor_val_23",
         "id": "reclor_val_23",
         "nat_premises": "In recent decades, government efforts to fight counterfeiting have been extremely successful, especially efforts to remove counterfeit bills from circulation. Yet counterfeiters are not finding it at all difficult to get away with passing counterfeit bills to merchants and even banks.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Government success in removing counterfeit bills from circulation has caused merchants and bank tellers to become lax in checking for counterfeit bills.",
         "fol_conclusion": null,
         "label": "True"
@@ -1398,7 +1398,7 @@
         "story_id": "reclor_val_340",
         "id": "reclor_val_340",
         "nat_premises": "About two million years ago, lava dammed up a river in western Asia and caused a small lake to form. The lake existed for about half a million years. Bones of an early human ancestor were recently found in the ancient lake-bottom sediments that lie on top of the layer of lava. The bones were already in the sediments by the time the lake dried up.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "ancestors of modern humans lived in western Asia between two million and one-and-a-half million years ago.",
         "fol_conclusion": null,
         "label": "True"
@@ -1407,7 +1407,7 @@
         "story_id": "reclor_val_86",
         "id": "reclor_val_86",
         "nat_premises": "The cost of manufacturing automobiles is considerably greater in Esteria than in Burdistan. In order to stimulate Esterian consumers' purchases of domestically manufactured automobiles, the Esterian government has historically charged taxes on automobiles manufactured in Burdistan. Five years ago, however, the Esterian government dropped those taxes; in those five years, the number of workers employed in Esterian automobile factories has decreased by 30%.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The number of vehicles manufactured and sold in Esteria must have decreased in the last five years.",
         "fol_conclusion": null,
         "label": "True"
@@ -1416,7 +1416,7 @@
         "story_id": "reclor_val_3",
         "id": "reclor_val_3",
         "nat_premises": "Most lecturers who are effective teachers are eccentric, but some noneccentric lecturers are very effective teachers. In addition, every effective teacher is a good communicator.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Some good communicators are eccentric.",
         "fol_conclusion": null,
         "label": "True"
@@ -1425,7 +1425,7 @@
         "story_id": "reclor_val_39",
         "id": "reclor_val_39",
         "nat_premises": "Around noon in one section of the city, food trucks that sell lunch directly to customers on the sidewalk occupy many of the limited metered parking spaces available, thus worsening already bad traffic congestion. There is plenty of available parking and little traffic congestion in most areas of the city. A law that would disadvantage businesses of a certain type throughout a city should not be used to solve a problem that does not affect most areas of the city.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bill to prohibit food trucks from parking in metered spaces in any commercially zoned area should be rejected.",
         "fol_conclusion": null,
         "label": "True"
@@ -1434,7 +1434,7 @@
         "story_id": "reclor_val_258",
         "id": "reclor_val_258",
         "nat_premises": "Animals can certainly signal each other with sounds and gestures. However, this does not confirm the thesis that animals possess language, for it does not prove that animals possess the ability to use sounds or gestures to refer to concrete objects or abstract ideas. If a system of sounds or gestures contains no expressions referring to concrete objects or abstract ideas, then that system is not a language.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The thesis that animals possess language is not confirmed.",
         "fol_conclusion": null,
         "label": "True"
@@ -1443,7 +1443,7 @@
         "story_id": "reclor_val_103",
         "id": "reclor_val_103",
         "nat_premises": "There were many interesting plays written last year. Surely some will gain widespread popularity for at least a few years, and some will even receive high critical acclaim. The only plays that continue to be performed regularly over many decades and centuries are those that skillfully explore human nature. None of the plays written last year examine human nature in a particularly skillful way. No play will be popular several centuries from now unless it continues to be performed regularly during the intervening time.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "none will be popular several centuries from now.",
         "fol_conclusion": null,
         "label": "True"
@@ -1452,7 +1452,7 @@
         "story_id": "reclor_val_130",
         "id": "reclor_val_130",
         "nat_premises": "When Alicia Green borrowed a neighbor's car without permission, the police merely gave her a warning. However, when Peter Foster did the same thing, he was charged with automobile theft. Peter came to the attention of the police because the car he was driving was hit by a speeding taxi. Alicia was stopped because the car she was driving had defective taillights. It is true that the car Peter took got damaged and the car Alicia took did not, but since it was the taxi that caused the damage this difference was not due to any difference in the blameworthiness of their behavior.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Alicia should also have been charged with automobile theft.",
         "fol_conclusion": null,
         "label": "True"
@@ -1461,7 +1461,7 @@
         "story_id": "reclor_val_59",
         "id": "reclor_val_59",
         "nat_premises": "A major network news organization experienced a drop in viewership in the week following the airing of a controversial report on the economy. The network also received a very large number of complaints regarding the report. The other major network news organizations reported similar reductions in viewership during the same week.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Negative reactions to the report had nothing to do with its loss of viewers.",
         "fol_conclusion": null,
         "label": "True"
@@ -1470,7 +1470,7 @@
         "story_id": "reclor_val_427",
         "id": "reclor_val_427",
         "nat_premises": "Some people argue that the world's energy problems could be solved by mining the Moon for helium-3, which could be used for fuel in fusion reactors, but this is nonsense, even if it were possible to mine the Moon for helium-3, the technology needed to build viable fusion reactors that could use such fuel is at least 50 years away, if the world's energy problems are not solved before then, it will be too late to solve those problems.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Mining the Moon for helium-3 is not a possible solution to the world's energy problems.",
         "fol_conclusion": null,
         "label": "True"
@@ -1479,7 +1479,7 @@
         "story_id": "reclor_val_227",
         "id": "reclor_val_227",
         "nat_premises": "The number of automobile collisions in Macropolis is increasing because of a substantial increase in the sale of new automobiles, and thus an increase in vehicles on the roads. Many of the fatalities that occur in such collisions are caused not by the collision itself, but by an inherent flaw in the locking mechanism within the doors of most new automobiles produced in Macropolis. For example, upon impact, the door locks jam, impeding escape.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The local automobile factory should be required to redesign the locking mechanisms in its cars to reduce the total number of fatalities that result annually from such collisions in Macropolis.",
         "fol_conclusion": null,
         "label": "True"
@@ -1488,7 +1488,7 @@
         "story_id": "reclor_val_247",
         "id": "reclor_val_247",
         "nat_premises": "In several psychological studies, subjects were given statements to read that caused them to form new beliefs. Later, the subjects were told that the original statements were false. The studies report, however, that most subjects persevered in their newly acquired beliefs, even after being told that the original statements were false.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Humans continue to hold onto acquired beliefs even in the absence of any credible evidence to support them.",
         "fol_conclusion": null,
         "label": "True"
@@ -1497,7 +1497,7 @@
         "story_id": "reclor_val_204",
         "id": "reclor_val_204",
         "nat_premises": "In 1992, there were over 250 rescues of mountain climbers, costing the government almost 3 million dollars. More than 25 people died in climbing mishaps that year. Many new climbers enter the sport each year. Members of a task force have proposed a bonding arrangement requiring all climbers to post a large sum of money to be forfeited to the government in case of calamity.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "For physically risky sports the government should issue permits only to people who have had at least minimal training in the sport does not support the task force members' proposal.",
         "fol_conclusion": null,
         "label": "True"
@@ -1506,7 +1506,7 @@
         "story_id": "reclor_val_328",
         "id": "reclor_val_328",
         "nat_premises": "In a study of honesty conducted in various retail stores, customers who paid in cash and received change were given an extra dollar with their change. Few people who received an extra dollar returned it.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Among those who received an extra dollar, most behaved dishonestly.",
         "fol_conclusion": null,
         "label": "True"
@@ -1515,7 +1515,7 @@
         "story_id": "reclor_val_210",
         "id": "reclor_val_210",
         "nat_premises": "On some hot days the smog in Hillview reaches unsafe levels. on some hot days the wind blows into Hillview from the east.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "on some days when the wind blows into Hillview from the east, the smog in Hillview reaches unsafe levels.",
         "fol_conclusion": null,
         "label": "True"
@@ -1524,7 +1524,7 @@
         "story_id": "reclor_val_8",
         "id": "reclor_val_8",
         "nat_premises": "Mayor Smith, one of our few government officials with a record of outspoken, informed, and consistent opposition to nuclear power plant construction projects, has now declared herself in favor of building the nuclear power plant at Littletown. If someone with her past antinuclear record now favors building this power plant, then there is good reason to believe that it will be safe and therefore should be built.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It gives no indication of either the basis of Mayor Smith's former opposition to nuclear power plant construction or the reasons for her support for the Littletown project.",
         "fol_conclusion": null,
         "label": "True"
@@ -1533,7 +1533,7 @@
         "story_id": "reclor_val_358",
         "id": "reclor_val_358",
         "nat_premises": "Collisions on our highways occur mainly because of drivers driving at excessive speeds, which will stop once the state increases highway patrol forces to catch speeders. The increased presence of the highway patrol will not itself somehow cause more accidents than it prevents.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "the state' s highways will be safer even without the state funding this research for the automobile industry.",
         "fol_conclusion": null,
         "label": "True"
@@ -1542,7 +1542,7 @@
         "story_id": "reclor_val_350",
         "id": "reclor_val_350",
         "nat_premises": "The homeowners in a condominium association can collectively buy products and services that they could not afford on their own. condominium owners spend less time and money on maintenance than individual homeowners do.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "A condominium generally offers more value for its cost than an individual house because of economies of scale.",
         "fol_conclusion": null,
         "label": "True"
@@ -1551,7 +1551,7 @@
         "story_id": "reclor_val_118",
         "id": "reclor_val_118",
         "nat_premises": "The retina scanner, a machine that scans the web of tiny blood vessels in the retina, stores information about the pattern formed by the blood vessels. This information allows it to recognize any pattern it has previously scanned. No two eyes have identical patterns of blood vessels in the retina. The reasoning in the argument depends upon assuming that diseases of the human eye do not alter the pattern of blood vessels in the retina in ways that would make the pattern unrecognizable to the retina scanner.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "A retina scanner can therefore be used successfully to determine for any person whether it has ever scanned a retina of that person before.",
         "fol_conclusion": null,
         "label": "True"
@@ -1560,7 +1560,7 @@
         "story_id": "reclor_val_303",
         "id": "reclor_val_303",
         "nat_premises": "If it is possible to have psychic powers, then Selena has them. Selena claims to have psychic powers.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "If we find out whether Selena' s claim is true, we will thereby determine whether it is possible to have psychic powers.",
         "fol_conclusion": null,
         "label": "True"
@@ -1569,7 +1569,7 @@
         "story_id": "reclor_val_196",
         "id": "reclor_val_196",
         "nat_premises": "In Mernia commercial fossil hunters often sell important fossils they have found, not to universities or museums, but to individual collectors, who pay much better but generally do not allow researchers access to their collections. To increase the number of fossils available for research, some legislators propose requiring all fossils that are found in Mernia to be sold only to universities or museums. Most fossils are found by commercial fossil hunters, and they would give up looking for fossils if they were no longer allowed to sell to individual collectors.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The legislators' proposal will fail to achieve its goal.",
         "fol_conclusion": null,
         "label": "True"
@@ -1578,7 +1578,7 @@
         "story_id": "reclor_val_407",
         "id": "reclor_val_407",
         "nat_premises": "During World War II a significantly lower percentage of injured soldiers requested morphine than did civilians recuperating from surgery. The soldier's response to injury was relief, joy at being alive, even euphoria; to the civilians, surgery was a depressing, calamitous event. So it would seem that the meaning one attaches to a wound can affect the amount of pain one perceives.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Pain perception depends only partly on physiology.",
         "fol_conclusion": null,
         "label": "True"
@@ -1587,7 +1587,7 @@
         "story_id": "reclor_val_123",
         "id": "reclor_val_123",
         "nat_premises": "Because the death of a spouse creates a void in one' s life and leads to depression, it is very difficult to lead a normal life after the death of a spouse. The ability to lead a normal life after the death of a spouse is improved by filling the void with another important element. In one study, half of those attempting to recover after the death of a spouse were told to embark on a new career, and the other half were told to take time off work to fully comprehend their loss. After one year, those in the first group reported lower rates of depression and positive feelings about their lives, and the second group reported higher rates of depression and negative feelings about their lives.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Embarking on a new career after the death of a spouse improves the ability to lead a normal life.",
         "fol_conclusion": null,
         "label": "True"
@@ -1596,7 +1596,7 @@
         "story_id": "reclor_val_265",
         "id": "reclor_val_265",
         "nat_premises": "Light utility trucks have become popular among consumers who buy them primarily for the trucks' rugged appearance. Yet although these trucks are tough-looking, they are exempt from the government' s car-safety standards that dictate minimum roof strength and minimum resistance to impact. The argument depends on the assumption that light utility trucks are less likely to meet the car-safety standards than are cars that are subject to the standards.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "If involved in a serious high-impact accident, a driver of one of these trucks is more likely to be injured than is a driver of a car that is subject to these government standards.",
         "fol_conclusion": null,
         "label": "True"
@@ -1605,7 +1605,7 @@
         "story_id": "reclor_val_55",
         "id": "reclor_val_55",
         "nat_premises": "Any food that is not sterilized and sealed can contain disease-causing bacteria. Once sterilized and properly sealed, however, it contains no bacteria. There are many different acceptable food-preservation techniques; each involves either sterilizing and sealing food or else at least slowing the growth of disease-causing bacteria. Some of the techniques may also destroy natural food enzymes that cause food to spoil or discolor quickly.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Any nonsterilized food preserved by an acceptable method can contain disease-causing bacteria.",
         "fol_conclusion": null,
         "label": "True"
@@ -1614,7 +1614,7 @@
         "story_id": "reclor_val_396",
         "id": "reclor_val_396",
         "nat_premises": "Scientists typically do their most creative work before the age of forty. It is commonly thought that this happens because aging by itself brings about a loss of creative capacity. However, studies show that of scientists who produce highly creative work beyond the age of forty, a disproportionately large number entered their field at an older age than is usual. Since by the age of forty the large majority of scientists have been working in their field for at least fifteen years.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The real reason why scientists over forty rarely produce highly creative work is that scientists over forty have generally spent too long in their field.",
         "fol_conclusion": null,
         "label": "True"
@@ -1623,7 +1623,7 @@
         "story_id": "reclor_val_359",
         "id": "reclor_val_359",
         "nat_premises": "One way to judge the performance of a company is to compare it with other companies. This technique, commonly called \"benchmarking, \" permits the manager of a company to discover better industrial practices and can provide a justification for the adoption of good practices. Any of the following, if true, is a valid reason for benchmarking the performance of a company against companies with which it is not in competition rather than against competitors EXCEPT:",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Much of the success of good companies is due to their adoption of practices that take advantage of the special circumstances of their products or markets.",
         "fol_conclusion": null,
         "label": "True"
@@ -1632,7 +1632,7 @@
         "story_id": "reclor_val_296",
         "id": "reclor_val_296",
         "nat_premises": "Our newest product is just not selling. One way to save it would be a new marketing campaign. This would not guarantee success, but it is one chance to save the product, so we should try it.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Undertaking a new marketing campaign would endanger the drug company's overall position by necessitating cutbacks in existing marketing campaigns.",
         "fol_conclusion": null,
         "label": "True"
@@ -1641,7 +1641,7 @@
         "story_id": "reclor_val_475",
         "id": "reclor_val_475",
         "nat_premises": "Every Camshaft basketball player drank Bulldog juice during all of their games this year. The Camshaft basketball team won more games than any other team in the league this year. No other team in the league had players who drank Bulldog juice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It is therefore likely that the Camshafts owed their greater success to the fact that they drank Bulldog juice during their games.",
         "fol_conclusion": null,
         "label": "True"
@@ -1650,7 +1650,7 @@
         "story_id": "reclor_val_442",
         "id": "reclor_val_442",
         "nat_premises": "A law is successful primarily because the behavior it prescribes has attained the status of custom. Just as manners are observed not because of sanctions attached to them but because, through repetition, contrary behavior becomes unthinkable, so societal laws are obeyed not because the behavior is ethically required or because penalties await those who act otherwise, but because to act otherwise would be uncustomary.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "As with manners, the main factor accounting for compliance with laws is custom.",
         "fol_conclusion": null,
         "label": "True"
@@ -1659,7 +1659,7 @@
         "story_id": "reclor_val_434",
         "id": "reclor_val_434",
         "nat_premises": "When bacteria of a particular species are placed in a test tube that has different areas lit with different colors of light, the bacteria move only into the areas lit with a particular shade of red. The bacteria contain chlorophyll, a chemical that allows them to produce energy more effectively from this color of light than from any other.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bacteria detect this color of light by monitoring how much energy their chlorophyll is producing.",
         "fol_conclusion": null,
         "label": "True"
@@ -1668,7 +1668,7 @@
         "story_id": "reclor_val_120",
         "id": "reclor_val_120",
         "nat_premises": "Records from 1850 to 1900 show that in a certain region, babies' birth weights each year varied with the success of the previous year's crops: the more successful the crops, the higher the birth weights. The argument proceeds by inferring from a claimed correlation between two phenomena that two other phenomena are causally connected to one another.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The health of a newborn depends to a large extent on the amount of food available to the mother during her pregnancy.",
         "fol_conclusion": null,
         "label": "True"
@@ -1677,7 +1677,7 @@
         "story_id": "reclor_val_322",
         "id": "reclor_val_322",
         "nat_premises": "In comparing our country with two other countries of roughly the same population size, I found that even though we face the same dietary, bacterial, and stress-related causes of ulcers as they do, prescriptions for ulcer medicines in all socioeconomic strata are much rarer here than in those two countries.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It' s clear that we suffer significantly fewer ulcers, per capita, than they do.",
         "fol_conclusion": null,
         "label": "True"
@@ -1686,7 +1686,7 @@
         "story_id": "reclor_val_60",
         "id": "reclor_val_60",
         "nat_premises": "A 1991 calculation was made to determine what, if any, additional health-care costs beyond the ordinary are borne by society at large for people who live a sedentary life. The figure reached was a lifetime average of $1, 650.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "people' s voluntary choice not to exercise places a significant burden on society.",
         "fol_conclusion": null,
         "label": "True"
@@ -1695,7 +1695,7 @@
         "story_id": "reclor_val_459",
         "id": "reclor_val_459",
         "nat_premises": "All nations that place a high tax on income produce thereby a negative incentive for technological innovation, and all nations in which technological innovation is hampered inevitably fall behind in the international arms race. Those nations that, through historical accident or the foolishness of their political leadership, wind up in a strategically disadvantageous position are destined to lose their voice in world affairs.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "if a nation wants to maintain its value system and way of life, it must not allow its highest tax bracket to exceed 30 percent of income.",
         "fol_conclusion": null,
         "label": "True"
@@ -1704,7 +1704,7 @@
         "story_id": "reclor_val_73",
         "id": "reclor_val_73",
         "nat_premises": "Health insurance insulates patients from the expense of medical care, giving doctors almost complete discretion in deciding the course of most medical treatments. Moreover, with doctors being paid for each procedure performed, they have an incentive to overtreat patients. It is thus clear that medical procedures administered by doctors are frequently prescribed only because these procedures lead to financial rewards.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The argument uses inferring the performance of certain actions on no basis other than the existence of both incentive and opportunity for performing those actions.",
         "fol_conclusion": null,
         "label": "True"
@@ -1713,7 +1713,7 @@
         "story_id": "reclor_val_44",
         "id": "reclor_val_44",
         "nat_premises": "According to current geological theory, the melting of ice at the end of the Ice Age significantly reduced the weight pressing on parts of the earth' s crust. As a result, lasting cracks in the earth' s crust appeared in some of those parts under the stress of pressure from below. At the end of the Ice Age Sweden was racked by severe earthquakes.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It is likely that the melting of the ice contributed to these earthquakes.",
         "fol_conclusion": null,
         "label": "True"
@@ -1722,7 +1722,7 @@
         "story_id": "reclor_val_354",
         "id": "reclor_val_354",
         "nat_premises": "Because of our concern about global warming, this country has committed itself to reducing its emissions of carbon dioxide substantially over the next ten years. Since trees absorb carbon dioxide.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Planting large numbers of trees will help us fulfill our commitment.",
         "fol_conclusion": null,
         "label": "True"
@@ -1731,7 +1731,7 @@
         "story_id": "reclor_val_310",
         "id": "reclor_val_310",
         "nat_premises": "The folktale that claims that a rattlesnake' s age can be determined from the number of sections in its rattle is false, but only because the rattles are brittle and sometimes partially or completely break off. One new section is formed each time a rattlesnake molts.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "If they were not so brittle, one could reliably determine a rattlesnake' s age simply from the number of sections in its rattle.",
         "fol_conclusion": null,
         "label": "True"
@@ -1740,7 +1740,7 @@
         "story_id": "reclor_val_20",
         "id": "reclor_val_20",
         "nat_premises": "About 3 billion years ago, the Sun was only 80 percent as luminous as it is currently. Such conditions today would result in the freezing of Earth's oceans, but geological evidence shows that water rather than ice filled the oceans at that time. Heat is trapped within Earth's atmosphere through the presence of carbon dioxide, which, like methane, is a \"greenhouse gas\". Only if the level of greenhouse gases were higher 3 billion years ago than it is today would Earth have retained enough heat to keep the oceans from freezing.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "It is likely, therefore, that the level of carbon dioxide in the atmosphere was significantly higher then than it is today.",
         "fol_conclusion": null,
         "label": "True"
@@ -1749,7 +1749,7 @@
         "story_id": "reclor_val_200",
         "id": "reclor_val_200",
         "nat_premises": "Since most user accounts are automatically locked after a certain number of incorrect password guesses, it is usually impossible to gain access by guessing a password. However, because complex passwords can be hard to remember, users often write them down.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Requiring that passwords conform to rules of length, complexity, and unpredictability increases the likelihood of someone gaining unauthorized access to a user' s account.",
         "fol_conclusion": null,
         "label": "True"
@@ -1758,7 +1758,7 @@
         "story_id": "reclor_val_394",
         "id": "reclor_val_394",
         "nat_premises": "The recent cleaning of frescoes in the Sistine Chapel has raised important asthetic issues. Art historians are now acutely aware that the colors of the works they study may differ from the works' original colors. The colors of an artwork are relevant to an appropriate interpretation of that work.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Interpretations of the frescoes that seemed appropriate before the frescoes' restoration may no longer be appropriate.",
         "fol_conclusion": null,
         "label": "True"
@@ -1767,7 +1767,7 @@
         "story_id": "reclor_val_160",
         "id": "reclor_val_160",
         "nat_premises": "Correctly measuring the productivity of service workers is complex. Postal workers are often said to be more productive if more letters are delivered per postal worker. What if more letters are lost or delayed per worker at the same time that more are delivered?",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The quality of services rendered can appropriately be ignored in computing productivity.",
         "fol_conclusion": null,
         "label": "True"
@@ -1776,7 +1776,7 @@
         "story_id": "reclor_val_353",
         "id": "reclor_val_353",
         "nat_premises": "In a recent survey, citizens of Country F were asked to state which one of the following two scenarios they would prefer: (1) Country F is the world economic leader, with a gross national product (GNP) of $100 billion, and Country G is second, with a GNP of $90 billion; or (2) Country G is the economic leader, with a GNP of $120 billion, and Country F is second, with a GNP of $110 billion. Despite the fact that, under scenario 2, Country F would have a higher GNP than under scenario 1, the majority of respondents stated that they preferred scenario 1.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Most citizens of Country F want their country to be more economically powerful than Country G.",
         "fol_conclusion": null,
         "label": "True"
@@ -1785,7 +1785,7 @@
         "story_id": "reclor_val_223",
         "id": "reclor_val_223",
         "nat_premises": "Increases in the occurrence of hearing loss among teenagers are due in part to their listening to loud music through stereo headphones. A group of concerned parents is recommending that headphone manufacturers include in their product lines stereo headphones that automatically turn off when a dangerous level of loudness is reached. Almost all stereo headphones that teenagers use are bought by the teenagers themselves.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Adoption of this recommendation would not significantly reduce the occurrence of hearing loss in teenagers.",
         "fol_conclusion": null,
         "label": "True"
@@ -1794,7 +1794,7 @@
         "story_id": "reclor_val_371",
         "id": "reclor_val_371",
         "nat_premises": "Many people are hypocritical in that they often pretend to be more morally upright than they really are. When hypocrisy is exposed, hypocrites are embarrassed by their moral lapse, which motivates them and others to try to become better people. On the other hand, when hypocrisy persists without exposure, the belief that most people are good is fostered, which motivates most people to try to be good.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The existence of hypocrisy encourages people to make efforts to live by moral standards.",
         "fol_conclusion": null,
         "label": "True"
@@ -1803,7 +1803,7 @@
         "story_id": "reclor_val_417",
         "id": "reclor_val_417",
         "nat_premises": "All historians are able to spot trends. But anyone able to spot trends is able to distinguish the significant from the insignificant.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Thus anyone who can distinguish the significant from the insignificant is a historian.",
         "fol_conclusion": null,
         "label": "True"
@@ -1812,7 +1812,7 @@
         "story_id": "reclor_val_50",
         "id": "reclor_val_50",
         "nat_premises": "One year ago a local government initiated an antismoking advertising campaign in local newspapers, which it financed by imposing a tax on cigarettes of 20 cents per pack. One year later, the number of people in the locality who smoke cigarettes had declined by 3 percent. Merchants in the locality responded to the local tax by reducing the price at which they sold cigarettes by 20 cents per pack.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "What was said in the advertisements had an effect, although a small one, on the number of people in the locality who smoke cigarettes.",
         "fol_conclusion": null,
         "label": "True"
@@ -1821,7 +1821,7 @@
         "story_id": "reclor_val_104",
         "id": "reclor_val_104",
         "nat_premises": "Further evidence bearing on Jamison' s activities must have come to light. On the basis of previously available evidence alone, it would have been impossible to prove that Jamison was a party to the fraud. Turner must not have taken her usual train to Nantes today. Had she done so, she could not have been in Nantes until this afternoon, but she was seen having coffee in Nantes at 11 o'clock this morning.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Jamison' s active involvement in the fraud has now been definitively established.",
         "fol_conclusion": null,
         "label": "True"
@@ -1830,7 +1830,7 @@
         "story_id": "reclor_val_168",
         "id": "reclor_val_168",
         "nat_premises": "Historian: Megapolis was once administered wisely, with vision and with universal public support. That's how it became a great city. City council member: Megapolis' past glory was achieved not because of greater vision, but because power was concentrated in the hands of autocrats and hence more easily exercised.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The issue is what the best explanation is for Megapolis' past glory.",
         "fol_conclusion": null,
         "label": "True"
@@ -1839,7 +1839,7 @@
         "story_id": "reclor_val_64",
         "id": "reclor_val_64",
         "nat_premises": "Bottom trawling is a type of deep-sea fishing that involves dragging a large net along the bottom of the ocean, and it results in catching and killing many unintended species, some of which are endangered. Environmental advocates, concerned for these endangered marine species, have recommended that commercial fishers use a new set of nets, each designed specifically for the size and shape and pheromones (chemical attractors) of an individual marine species targeted by the commercial fishers. The pheromones that would most attract the species sought by commercial fishers indicate the presence of a dangerous threat to most of the endangered marine species.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Use of these new nets will protect the endangered marine species without interrupting commercial deep-sea fishing.",
         "fol_conclusion": null,
         "label": "True"
@@ -1848,7 +1848,7 @@
         "story_id": "reclor_val_71",
         "id": "reclor_val_71",
         "nat_premises": "In its coverage of a controversy regarding a proposal to build a new freeway, a television news program showed interviews with several people who would be affected by the proposed freeway. Of the interviews shown, those conducted with people against the new freeway outnumbered those conducted with people for it two to one.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The television program is ttherefore biased against the proposed freeway.",
         "fol_conclusion": null,
         "label": "True"
@@ -1857,7 +1857,7 @@
         "story_id": "reclor_val_285",
         "id": "reclor_val_285",
         "nat_premises": "Some critics lament the fact that impoverished postwar recording studios forced early bebop musicians to record extremely short solos, thus leaving a misleading record of their music. But these musicians' beautifully concise playing makes the recordings superb artistic works instead of mere representations of their live solos. Furthermore, the conciseness characteristic of early bebop musicians' recordings fostered a compactness in their subsequent live playing, which the playing of the next generation lacks.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The difficult postwar recording conditions had some beneficial consequences for bebop.",
         "fol_conclusion": null,
         "label": "True"
@@ -1866,7 +1866,7 @@
         "story_id": "reclor_val_140",
         "id": "reclor_val_140",
         "nat_premises": "Lyme disease is caused by a bacterium transmitted to humans by deer ticks. Generally deer ticks pick up the bacterium while in the larval stage from feeding on infected white-footed mice. However, certain other species on which the larvae feed do not harbor the bacterium. A deer tick feeds only once while in the larval stage.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "If the population of these other species were increased, the number of ticks acquiring the bacterium and hence the number of people contracting Lyme disease would likely decline.",
         "fol_conclusion": null,
         "label": "True"
@@ -1875,7 +1875,7 @@
         "story_id": "reclor_val_106",
         "id": "reclor_val_106",
         "nat_premises": "A worker for a power company trims the branches of trees that overhang power lines as a prevention against damage to the lines anticipated because of the impending stormy season. The worker reasons that there will be no need for her to trim the overhanging branches of a certain tree because the owners of the tree have indicated that they might cut it down anyway. A mechanic must replace the worn brakes on a company's vans that are used each weekday. The mechanic reasons that since one of the vans is tentatively scheduled to be junked, he will not have to replace its brakes.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The mechanic's decision to not replace its brakes because one of the vans is tentatively scheduled to be junked is based on flawed reasoning similar to the worker's.",
         "fol_conclusion": null,
         "label": "True"
@@ -1884,7 +1884,7 @@
         "story_id": "reclor_val_329",
         "id": "reclor_val_329",
         "nat_premises": "The Planning Department budget increased from $100, 000 in 2001 to $524, 000 for this year, and a restructuring act, passed in 2003, broadened the duties of the Planning Department.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The department does not now spend five times as much money as it did in 2001 to perform the same duties.",
         "fol_conclusion": null,
         "label": "True"
@@ -1893,7 +1893,7 @@
         "story_id": "reclor_val_387",
         "id": "reclor_val_387",
         "nat_premises": "The earliest evidence of controlled fire use in Europe dates to just 400, 000 years ago.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The commonly held view that, because of Europe's cold winter climate, mastery of fire was a necessary prerequisite for humans' migration there, is doubtful.",
         "fol_conclusion": null,
         "label": "True"
@@ -1902,7 +1902,7 @@
         "story_id": "reclor_val_152",
         "id": "reclor_val_152",
         "nat_premises": "Company X conducted a taste test to determine whether its new soft drink had a good chance of commercial success. A sample of consumers was asked to compare the flavor of the new soft drink to that of an established brand without knowing the true identity of either beverage. Overwhelmingly, the consumers preferred the taste of the proposed soft drink to that of the established brand.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Company X has a good chance of commercial success with its new soft drink.",
         "fol_conclusion": null,
         "label": "True"
@@ -1911,7 +1911,7 @@
         "story_id": "reclor_val_238",
         "id": "reclor_val_238",
         "nat_premises": "Traditional norms in our society prevent sincerity by requiring one to ignore unpleasant realities and tell small lies. A community whose members do not trust one another cannot succeed. Sincerity is required if community members are to trust each other.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "If a community is to succeed, its members must be willing to face unpleasant realities and speak about them honestly.",
         "fol_conclusion": null,
         "label": "True"
@@ -1920,7 +1920,7 @@
         "story_id": "reclor_val_300",
         "id": "reclor_val_300",
         "nat_premises": "Erich: Certainly not. It is clear from your answer that your hands are more important to you than possessing the world. But your entire body is necessarily more important to you than your hands. Yet you are ruining your health and harming your body in your quest for a treasure that is much less valuable than the whole world.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Erich is engaging in irrational behavior by pursuing his quest for the treasure.",
         "fol_conclusion": null,
         "label": "True"
@@ -1929,7 +1929,7 @@
         "story_id": "reclor_val_435",
         "id": "reclor_val_435",
         "nat_premises": "To act responsibly in one' s professional capacity, one must act on the basis of information that one has made a reasonable effort to make sure is accurate and complete.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Toril did not act responsibly in investing the company's money in Twicycled Ink, for, though the investment yielded a large return, she had not investigated the risks associated with that investment.",
         "fol_conclusion": null,
         "label": "True"
@@ -1938,7 +1938,7 @@
         "story_id": "reclor_val_490",
         "id": "reclor_val_490",
         "nat_premises": "Many economically useful raw materials are nonrenewable and in limited supply on Earth. Therefore, unless those materials can be obtained somewhere other than Earth, people will eventually be unable to accomplish what they now accomplish using those materials.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Functionally equivalent renewable substitutes could be found for nonrenewable resources that are in limited supply.",
         "fol_conclusion": null,
         "label": "True"
@@ -1947,7 +1947,7 @@
         "story_id": "reclor_val_284",
         "id": "reclor_val_284",
         "nat_premises": "When companies' profits would otherwise be reduced by an increase in the minimum wage, the companies often reduce the number of workers they employ. Yet a recent increase in the minimum wage did not result in job cutbacks in the fast-food industry, where most workers are paid the minimum wage. After the recent increase in the minimum wage, decreased job turnover in the fast-food industry allowed employers of fast-food workers to save enough on recruiting costs to cover the cost of the wage increase.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The increase in the minimum wage did not affect the number of jobs in the fast-food industry.",
         "fol_conclusion": null,
         "label": "True"
@@ -1956,7 +1956,7 @@
         "story_id": "reclor_val_72",
         "id": "reclor_val_72",
         "nat_premises": "Global warming has contributed to a rise in global sea level not only because it causes glaciers and ice sheets to melt, but also simply because when water is heated its volume increases. But this rise in global sea level is less than it otherwise would be, since over the years artificial reservoirs have been built all around the world that collectively contain a great deal of water that would otherwise reach the sea.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The amount of water that results from the melting of glaciers and ice sheets cannot be determined by looking at the rise in global sea level alone.",
         "fol_conclusion": null,
         "label": "True"
@@ -1965,7 +1965,7 @@
         "story_id": "reclor_val_269",
         "id": "reclor_val_269",
         "nat_premises": "It is almost impossible to find a person between the ages of 85 and 90 who primarily uses the left hand. Seventy to ninety years ago, however, children were punished for using their left hands to eat or to write and were forced to use their right hands.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Being born right-handed confers a survival advantage.",
         "fol_conclusion": null,
         "label": "True"
@@ -1974,7 +1974,7 @@
         "story_id": "reclor_val_28",
         "id": "reclor_val_28",
         "nat_premises": "A business's long-term interests often provide compelling reasons for executing an act. The short-term and long-term interests of a business often conflict; when they do, the morally preferable act is usually the one that serves the long-term interest.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Businesses often have compelling reasons to execute the morally preferable act.",
         "fol_conclusion": null,
         "label": "True"
@@ -1983,7 +1983,7 @@
         "story_id": "reclor_val_495",
         "id": "reclor_val_495",
         "nat_premises": "The increase in the price of jet fuel is due to a sharp decrease over the past year in the supply of jet fuel available relative to demand. Nonetheless, the amount of jet fuel available for sale is larger today than it was last year.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The demand for jet fuel has increased over the past year.",
         "fol_conclusion": null,
         "label": "True"
@@ -1992,7 +1992,7 @@
         "story_id": "reclor_val_137",
         "id": "reclor_val_137",
         "nat_premises": "Sharks have a higher ratio of cartilage mass to body mass than any other organism. They also have a greater resistance to cancer than any other organism. Shark cartilage contains a substance that inhibits tumor growth by stopping the development of a new blood network. In the past 20 years, none of the responses among terminal cancer patients to various therapeutic measures has been more positive than the response among those who consumed shark cartilage.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "No organism resists cancer better than sharks do, but some resist cancer as well as sharks is not possible.",
         "fol_conclusion": null,
         "label": "True"
@@ -2001,7 +2001,7 @@
         "story_id": "reclor_val_25",
         "id": "reclor_val_25",
         "nat_premises": "Danville Winery' s new wine was introduced to compete with our most popular wine, which is sold in a distinctive tall, black bottle. Danville uses a similar bottle.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Many customers intending to buy our wine will mistakenly buy theirs instead.",
         "fol_conclusion": null,
         "label": "True"
@@ -2010,7 +2010,7 @@
         "story_id": "reclor_val_461",
         "id": "reclor_val_461",
         "nat_premises": "Ludwig van Beethoven began losing his hearing when he was 30. This loss continued gradually, but was not complete until late in his life. While it may seem that complete hearing loss would be a severe liability for a composer, in Beethoven's case it gave his later music a wonderfully introspective quality that his earlier music lacked.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Had he not lost his hearing, Beethoven's later music would probably have been different than it is.",
         "fol_conclusion": null,
         "label": "True"
@@ -2019,7 +2019,7 @@
         "story_id": "reclor_val_244",
         "id": "reclor_val_244",
         "nat_premises": "The exorbitant cost of our health-insurance benefits reflects the high dollar amount of medical expenses incurred by our employees. Employees who are out of shape, as a group, have higher doctor bills and longer hospital stays than do their colleagues who are fit. Since we must reduce our health-insurance costs.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "We should offer a rigorous fitness program of jogging and weight lifting to all employees, and require employees who are out of shape to participate.",
         "fol_conclusion": null,
         "label": "True"
@@ -2028,7 +2028,7 @@
         "story_id": "reclor_val_373",
         "id": "reclor_val_373",
         "nat_premises": "The state law would supersede the local antismoking ordinances, which contain stronger bans than the state law does.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The petition as circulated is misleading to voters who understand the proposal as extending the local ordinances statewide.",
         "fol_conclusion": null,
         "label": "True"
@@ -2037,7 +2037,7 @@
         "story_id": "reclor_val_14",
         "id": "reclor_val_14",
         "nat_premises": "whether some administrative decision by a government minister is reasonable is a question that judges, by their training and experience, should be well‑equipped to answer, or else there would be something badly wrong with the legal system, and there is little reason to suppose that there is.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Judges are qualified to decide upon the reasonableness of a government minister's administrative decision.",
         "fol_conclusion": null,
         "label": "True"
@@ -2046,7 +2046,7 @@
         "story_id": "reclor_val_476",
         "id": "reclor_val_476",
         "nat_premises": "Many physicists claim that quantum mechanics may ultimately be able to explain all fundamental phenomena, and that, ttherefore, physical theory will soon be complete. However, every theory in the history of physics that was thought to be final eventually had to be rejected for failure to explain some new observation.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Quantum mechanics will not be the final theory.",
         "fol_conclusion": null,
         "label": "True"
@@ -2055,7 +2055,7 @@
         "story_id": "reclor_val_401",
         "id": "reclor_val_401",
         "nat_premises": "Thirty years ago, the percentage of their income that single persons spent on food was twice what it is today. Given that incomes have risen over the past thirty years. Single persons today, on average, purchase the same kinds of food items in the same quantities as they did thirty years ago.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Incomes have risen at a greater rate than the price of food in that period.",
         "fol_conclusion": null,
         "label": "True"
@@ -2064,7 +2064,7 @@
         "story_id": "reclor_val_279",
         "id": "reclor_val_279",
         "nat_premises": "Every time you use your X card to charge any purchase, you accumulate credit with Worldwide Airlines in proportion to the cost of the purchase. This credit can then be used to reduce the cost of your Worldwide Airlines tickets. You are likely to travel to at least one of the destinations serviced by Worldwide Airlines.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "You can now afford purchases you couldn' t afford before.",
         "fol_conclusion": null,
         "label": "True"
@@ -2073,7 +2073,7 @@
         "story_id": "reclor_val_291",
         "id": "reclor_val_291",
         "nat_premises": "Oil analysts predict that if the price of oil falls by half, the consumer's purchase price for gasoline made from this oil will also fall by half. Refining costs, distribution costs, and taxes, none of which varies significantly with oil prices, constitute a large portion of the price of gasoline.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The prediction made by the oil analysts is cast in the most serious doubt.",
         "fol_conclusion": null,
         "label": "True"
@@ -2082,7 +2082,7 @@
         "story_id": "reclor_val_374",
         "id": "reclor_val_374",
         "nat_premises": "People in the lowest income quintile had a much higher percentage increase in average income over the last ten years than did those in the highest quintile. So their economic prosperity increased relative to the highest quintile's. The average income for the lowest quintile may have increased by a greater percentage, but the absolute amount of the increase in average income was surely greater for the highest quintile.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Larew and Mendota disagree about whether change in the economic prosperity of the lowest income quintile relative to the highest is accurately measured by comparing their percentage changes in average income.",
         "fol_conclusion": null,
         "label": "True"
@@ -2091,7 +2091,7 @@
         "story_id": "reclor_val_497",
         "id": "reclor_val_497",
         "nat_premises": "A theory is either true or false. Galileo' s observations of Jupiter' s satellites showed that the Ptolemaic theory of the motion of celestial bodies is false. The Copernican theory of planetary motion is inconsistent with the Ptolemaic account.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Galileo' s observations of Jupiter' s satellites proved the truth of the Copernican theory.",
         "fol_conclusion": null,
         "label": "True"
@@ -2100,7 +2100,7 @@
         "story_id": "reclor_val_197",
         "id": "reclor_val_197",
         "nat_premises": "The increasing complexity of scientific inquiry has led to a proliferation of multiauthored technical articles. Reports of clinical trials involving patients from several hospitals are usually coauthored by physicians from each participating hospital. Likewise, physics papers reporting results from experiments using subsystems developed at various laboratories generally have authors from each laboratory.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Most reports of clinical trials involving patients from several hospitals have multiple authors.",
         "fol_conclusion": null,
         "label": "True"
