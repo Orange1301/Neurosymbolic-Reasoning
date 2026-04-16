@@ -5,8 +5,8 @@ from engine.engine import Engine
 import json
 
 class Pipeline:
-    def __init__(self):
-        self.fol_model = FOLModel()
+    def __init__(self, fol_model):
+        self.fol_model = fol_model
         self.filter_1 = DataFilter()
         self.engine = Engine()
     
@@ -216,9 +216,7 @@ class Pipeline:
                 dataset_fine_tune.extend(dataset)
         return dataset_fine_tune
     
-    def train(self, dataset_train_path="example.json", dataset_valid_path="example_valid.json", num_loops=1):
-        self.fol_model.load_finetune_model("/kaggle/input/models/ductri0981/fol-model/transformers/default/1")
-        
+    def train(self, dataset_train_path="example.json", dataset_valid_path="example_valid.json", num_loops=1):        
         dataset_train = self.get_data(dataset_train_path)
         print("Dataset train: ",dataset_train)
 
