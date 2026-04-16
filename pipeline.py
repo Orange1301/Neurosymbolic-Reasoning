@@ -217,9 +217,11 @@ class Pipeline:
         return dataset_fine_tune
     
     def train(self, dataset_train_path="example.json", dataset_valid_path="example_valid.json", num_loops=1):
+        self.fol_model.load_finetune_model("/kaggle/input/models/ductri0981/fol-model/transformers/default/1")
+        
         dataset_train = self.get_data(dataset_train_path)
         print("Dataset train: ",dataset_train)
-        
+
         dataset_valid = self.get_data(dataset_valid_path)
         print("Dataset train: ",dataset_train)
         for _ in range(num_loops):
