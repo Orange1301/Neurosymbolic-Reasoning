@@ -1,0 +1,29 @@
+[
+    {
+        "id": "folio_valid_0",
+        "story_id": "folio_426",
+        "nat_premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
+        "nat_conclusion": "James has lunch in the company.",
+        "fol_premises": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))",
+        "fol_conclusion": "HasLunch(james, company)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_1",
+        "story_id": "folio_426",
+        "nat_premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
+        "nat_conclusion": "James does not have lunch in the company.",
+        "fol_premises": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))",
+        "fol_conclusion": "¬HasLunch(james, company)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_2",
+        "story_id": "folio_426",
+        "nat_premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
+        "nat_conclusion": "If James is either a manager or in other countries,  then James does not either has lunch at home or work remotely from home. If James either has lunch at home or works remotely from home, then he is neither a manager nor does he work in other countries. [contrapositive is more natural]",
+        "fol_premises": "∀x ((Employee(x) ∧ Schedule(x, meeting, customers)) → AppearIn(x, company))\n∀x ((Employee(x) ∧ HasLunch(x, company)) → Schedule(x, meeting, customers))\n∀x (Employee(x) → (HasLunch(x, company) ⊕ HasLunch(x, home)))\n∀x ((Employee(x) ∧ HasLunch(x, home)) → Work(x, home))\n∀x ((Employee(x) ∧ (¬In(x, homecountry))) → Work(x, home))\n∀x (Manager(x) → ¬Work(x, home))\n¬(Manager(james) ⊕ AppearIn(james, company))",
+        "fol_conclusion": "Manager(james) → ¬Work(james, home)",
+        "label": "True"
+    }
+]
