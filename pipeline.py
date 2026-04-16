@@ -8,7 +8,7 @@ class Pipeline:
     def __init__(self, fol_model):
         self.fol_model = fol_model
         self.filter_1 = DataFilter()
-        self.engine = Engine()
+        self.engine = Engine(prover9_path="/kaggle/working/Prover9-LADR-2026-4F/bin")
     
     def get_data(self, file_path):
         with open(file_path, "r", encoding="utf-8") as f:
