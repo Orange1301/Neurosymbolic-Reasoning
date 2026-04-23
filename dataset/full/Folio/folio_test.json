@@ -1,0 +1,848 @@
+[
+    {
+        "id": "folio_test_0",
+        "story_id": "folio_0",
+        "nat_premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
+        "nat_conclusion": "Tom is an Ocellated wild turkey.",
+        "fol_premises": "∀x (WildTurkey(x) → (EasternWildTurkey(x) ∨ OsceolaWildTurkey(x) ∨ GouldsWildTurkey(x) ∨ MerriamsWildTurkey(x) ∨ RiograndeWildTurkey(x) ∨ OcellatedWildTurkey(x)))\n¬(EasternWildTurkey(tom))\n¬(OsceolaWildTurkey(tom))\n¬(GouldsWildTurkey(tom))\n¬(MerriamsWildTurkey(tom) ∨ RiograndeWildTurkey(tom))\nWildTurkey(tom)",
+        "fol_conclusion": "OcellatedWildTurkey(tom)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_1",
+        "story_id": "folio_0",
+        "nat_premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
+        "nat_conclusion": "Tom is an Eastern wild turkey.",
+        "fol_premises": "∀x (WildTurkey(x) → (EasternWildTurkey(x) ∨ OsceolaWildTurkey(x) ∨ GouldsWildTurkey(x) ∨ MerriamsWildTurkey(x) ∨ RiograndeWildTurkey(x) ∨ OcellatedWildTurkey(x)))\n¬(EasternWildTurkey(tom))\n¬(OsceolaWildTurkey(tom))\n¬(GouldsWildTurkey(tom))\n¬(MerriamsWildTurkey(tom) ∨ RiograndeWildTurkey(tom))\nWildTurkey(tom)",
+        "fol_conclusion": "EasternWildTurkey(tom)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_2",
+        "story_id": "folio_0",
+        "nat_premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
+        "nat_conclusion": "Joey is a wild turkey.",
+        "fol_premises": "∀x (WildTurkey(x) → (EasternWildTurkey(x) ∨ OsceolaWildTurkey(x) ∨ GouldsWildTurkey(x) ∨ MerriamsWildTurkey(x) ∨ RiograndeWildTurkey(x) ∨ OcellatedWildTurkey(x)))\n¬(EasternWildTurkey(tom))\n¬(OsceolaWildTurkey(tom))\n¬(GouldsWildTurkey(tom))\n¬(MerriamsWildTurkey(tom) ∨ RiograndeWildTurkey(tom))\nWildTurkey(tom)",
+        "fol_conclusion": "WildTurkey(joey)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_3",
+        "story_id": "folio_282",
+        "nat_premises": "All squares are four-sided.All four-sided things are shapes. ",
+        "nat_conclusion": "All squares are shapes.",
+        "fol_premises": "∀x (Square(x) → FourSided(x))\n∀x (FourSided(x) → Shape(x))",
+        "fol_conclusion": "∀x (Square(x) → Shape(x))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_4",
+        "story_id": "folio_471",
+        "nat_premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "nat_conclusion": "Rockie is a turtle.",
+        "fol_premises": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → ¬(Rabbit(x) ↔ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie)",
+        "fol_conclusion": "Turtle(rockie)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_5",
+        "story_id": "folio_471",
+        "nat_premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "nat_conclusion": "Rockie is not a turtle.",
+        "fol_premises": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → ¬(Rabbit(x) ↔ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie)",
+        "fol_conclusion": "¬Turtle(rockie)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_6",
+        "story_id": "folio_471",
+        "nat_premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "nat_conclusion": "Rockie is a turtle or cute.",
+        "fol_premises": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → ¬(Rabbit(x) ↔ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie)",
+        "fol_conclusion": "Turtle(rockie) ∨ Cute(rockie)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_7",
+        "story_id": "folio_471",
+        "nat_premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "nat_conclusion": "If Rockie is not both a turtle and a squirrel, then Rockie is either cute or skittish.",
+        "fol_premises": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → ¬(Rabbit(x) ↔ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie)",
+        "fol_conclusion": "¬(Turtle(rockie) ∧ Squirrel(rockie)) → (Cute(rockie) ∨ Skittish(rockie))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_8",
+        "story_id": "folio_471",
+        "nat_premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
+        "nat_conclusion": "If Rockie is cute and calm, then Rockie is a skittish turtle.",
+        "fol_premises": "∀x (Rabbit(x) ∧ CanBeSpottedNear(x, campus) → Cute(x))\n∃x (Turtle(x) ∧ CanBeSpottedNear(x, campus))\n∀x (CanBeSpottedNear(x, campus) → (Rabbit(x) ⊕ Squirrel(x)))\n∀x (Skittish(x) → ¬Calm(x))\n∀x (Squirrel(x) ∧ CanBeSpottedNear(x, campus) → Skittish(x))\nCanBeSpottedNear(rockie, campus) ∧ Calm(rockie)",
+        "fol_conclusion": "Cute(rockie) ∧ Calm(rockie) → Turtle(rockie) ∧ Skittish(rockie)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_9",
+        "story_id": "folio_184",
+        "nat_premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
+        "nat_conclusion": "Karen will share \"Stranger Things\" with Lisa.",
+        "fol_premises": "NetflixShow(strangerThings) ∧ Popular(strangerThings)\n∀x ((NetflixShow(x) ∧ Popular(x)) → BingeWatch(karen, x))\n∀x ((NetflixShow(x) ∧ BingeWatch(karen, x)) ↔ Download(karen, x))\n¬Download(karen, blackMirror)\nNetflixShow(blackMirror)\n∀x ((NetflixShow(x) ∧ BingeWatch(karen, x)) → ShareWith(karen, x, lisa))",
+        "fol_conclusion": "ShareWith(karen, strangerThings, lisa)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_10",
+        "story_id": "folio_184",
+        "nat_premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
+        "nat_conclusion": "\"Black Mirror\" is popular.",
+        "fol_premises": "NetflixShow(strangerThings) ∧ Popular(strangerThings)\n∀x ((NetflixShow(x) ∧ Popular(x)) → BingeWatch(karen, x))\n∀x ((NetflixShow(x) ∧ BingeWatch(karen, x)) ↔ Download(karen, x))\n¬Download(karen, blackMirror)\nNetflixShow(blackMirror)\n∀x ((NetflixShow(x) ∧ BingeWatch(karen, x)) → ShareWith(karen, x, lisa))",
+        "fol_conclusion": "Popular(blackMirror)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_11",
+        "story_id": "folio_184",
+        "nat_premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
+        "nat_conclusion": "Karen will share \"Black Mirror\" with Lisa.",
+        "fol_premises": "NetflixShow(strangerThings) ∧ Popular(strangerThings)\n∀x ((NetflixShow(x) ∧ Popular(x)) → BingeWatch(karen, x))\n∀x ((NetflixShow(x) ∧ BingeWatch(karen, x)) ↔ Download(karen, x))\n¬Download(karen, blackMirror)\nNetflixShow(blackMirror)\n∀x ((NetflixShow(x) ∧ BingeWatch(karen, x)) → ShareWith(karen, x, lisa))",
+        "fol_conclusion": "ShareWith(karen, blackMirror, lisa)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_12",
+        "story_id": "folio_452",
+        "nat_premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+        "nat_conclusion": "Marvin is an alien.",
+        "fol_premises": "∀x (Alien(x) → Extraterrestrial(x))\n∀x (From(x, mars) → Alien(x))\n∀x (Extraterrestrial(x) → ¬Human(x))\n∀x (HighlyIntelligentBeing(x) ∧ From(x, earth) → Human(x))\nHighlyIntelligentBeing(marvin)\n¬(From(marvin, earth) ⊕ From(marvin, mars))\n¬From(marvin, earth) → Extraterrestrial(marvin)",
+        "fol_conclusion": "Alien(marvin)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_13",
+        "story_id": "folio_452",
+        "nat_premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+        "nat_conclusion": "Marvin is neither a human nor from Mars_",
+        "fol_premises": "∀x (Alien(x) → Extraterrestrial(x))\n∀x (From(x, mars) → Alien(x))\n∀x (Extraterrestrial(x) → ¬Human(x))\n∀x (HighlyIntelligentBeing(x) ∧ From(x, earth) → Human(x))\nHighlyIntelligentBeing(marvin)\nFrom(marvin, earth) ↔ From(marvin, mars)\n¬From(marvin, earth) → Extraterrestrial(marvin)",
+        "fol_conclusion": "¬Human(marvin) ∧ ¬From(marvin, mars)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_14",
+        "story_id": "folio_452",
+        "nat_premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
+        "nat_conclusion": "If Marvin is not from Mars, then Marvin is a human.",
+        "fol_premises": "∀x (Alien(x) → Extraterrestrial(x))\n∀x (From(x, mars) → Alien(x))\n∀x (Extraterrestrial(x) → ¬Human(x))\n∀x (HighlyIntelligentBeing(x) ∧ From(x, earth) → Human(x))\nHighlyIntelligentBeing(marvin)\nFrom(marvin, earth) ↔ From(marvin, mars)\n¬From(marvin, earth) → Extraterrestrial(marvin)",
+        "fol_conclusion": "¬From(marvin, mars) → Human(marvin)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_15",
+        "story_id": "folio_340",
+        "nat_premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
+        "nat_conclusion": "Djokovic is a Grand Slam champion.",
+        "fol_premises": "∀x (At(x, mixer) → (GrandSlam(x) ∧ Champion(x)) ∨ (OscarNominated(x) ∧ Actor(x)))\n∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x)))\n∀x (At(x, mixer) ∧ (OscarNominated(x) ∧ Actor(x) → Celebrity(x)))\n∀x (At(x, mixer) ∧ Professional(x) ∧ TennisPlayer(x) → Athlete(x))\n∀x (At(x, mixer) ∧ Celebrity(x) → WellPaid(x))\n∀x (At(x, mixer) ∧ Athlete(x) → Famous(x))\n∀x (At(x, mixer) ∧ WellPaid(x) → LiveIn(x, taxHaven))\nAt(djokovic, mixer) ∧ (Famous(djokovic) ∧ Athlete(djokovic) → WellPaid(djokovic))",
+        "fol_conclusion": "GrandSlam(djokovic) ∧ Champion(djokovic)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_16",
+        "story_id": "folio_340",
+        "nat_premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
+        "nat_conclusion": "Djokovic lives in a tax haven.",
+        "fol_premises": "∀x (At(x, mixer) → (GrandSlam(x) ∧ Champion(x)) ∨ (OscarNominated(x) ∧ Actor(x)))\n∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x)))\n∀x (At(x, mixer) ∧ (OscarNominated(x) ∧ Actor(x) → Celebrity(x)))\n∀x (At(x, mixer) ∧ Professional(x) ∧ TennisPlayer(x) → Athlete(x))\n∀x (At(x, mixer) ∧ Celebrity(x) → WellPaid(x))\n∀x (At(x, mixer) ∧ Athlete(x) → Famous(x))\n∀x (At(x, mixer) ∧ WellPaid(x) → LiveIn(x, taxHaven))\nAt(djokovic, mixer) ∧ (Famous(djokovic) ∧ Athlete(djokovic) → WellPaid(djokovic))",
+        "fol_conclusion": "LiveIn(djokovic, taxHaven)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_17",
+        "story_id": "folio_340",
+        "nat_premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
+        "nat_conclusion": "Djokovic does not live in a tax haven.",
+        "fol_premises": "∀x (At(x, mixer) → (GrandSlam(x) ∧ Champion(x)) ∨ (OscarNominated(x) ∧ Actor(x)))\n∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x)))\n∀x (At(x, mixer) ∧ (OscarNominated(x) ∧ Actor(x) → Celebrity(x)))\n∀x (At(x, mixer) ∧ Professional(x) ∧ TennisPlayer(x) → Athlete(x))\n∀x (At(x, mixer) ∧ Celebrity(x) → WellPaid(x))\n∀x (At(x, mixer) ∧ Athlete(x) → Famous(x))\n∀x (At(x, mixer) ∧ WellPaid(x) → LiveIn(x, taxHaven))\nAt(djokovic, mixer) ∧ (Famous(djokovic) ∧ Athlete(djokovic) → WellPaid(djokovic))",
+        "fol_conclusion": "¬LiveIn(djokovic, taxHaven)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_18",
+        "story_id": "folio_343",
+        "nat_premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
+        "nat_conclusion": "1984 is printed text.",
+        "fol_premises": "∀x (DigitalMedia(x) → ¬AnalogMedia(x))\n∀x (PrintedText(x) → AnalogMedia(x))\n∀x (StreamingService(x) → DigitalMedia(x))\n∀x (HardcoverBook(x) → PrintedText(x))\nStreamingService(1984) → HardcoverBook(1984)",
+        "fol_conclusion": "PrintedText(y1984)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_19",
+        "story_id": "folio_343",
+        "nat_premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
+        "nat_conclusion": "1984 is a streaming service.",
+        "fol_premises": "∀x (DigitalMedia(x) → ¬AnalogMedia(x))\n∀x (PrintedText(x) → AnalogMedia(x))\n∀x (StreamingService(x) → DigitalMedia(x))\n∀x (HardcoverBook(x) → PrintedText(x))\nStreamingService(y1984) → HardcoverBook(y1984)",
+        "fol_conclusion": "StreamingService(y1984)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_20",
+        "story_id": "folio_343",
+        "nat_premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
+        "nat_conclusion": "1984 is not a streaming service.",
+        "fol_premises": "∀x (DigitalMedia(x) → ¬AnalogMedia(x))\n∀x (PrintedText(x) → AnalogMedia(x))\n∀x (StreamingService(x) → DigitalMedia(x))\n∀x (HardcoverBook(x) → PrintedText(x))\nStreamingService(y1984) → HardcoverBook(y1984)",
+        "fol_conclusion": "¬StreamingService(y1984)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_21",
+        "story_id": "folio_213",
+        "nat_premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
+        "nat_conclusion": "Basque is a Romance language.",
+        "fol_premises": "∀x (RomanceLanguage(x) → IndoEuropeanLanguage(x))\n∀x (RomanceLanguage(x) → MemberOf(x, romanceLanguageFamily))\n∀x ∀y ∀z (MemberOf(x, z) ∧ MemberOf(y, z) → Related(x, y) ∧ Related(y, x))\nRomanceLanguage(french) ∧ RomanceLanguage(spanish) ∧ ¬(french = basque)\nRelated(german, spanish)\n∀x (¬(x = basque) → ¬Related(basque, x))",
+        "fol_conclusion": "RomanceLanguage(basque)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_22",
+        "story_id": "folio_213",
+        "nat_premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
+        "nat_conclusion": "German is a Romance language.",
+        "fol_premises": "∀x (RomanceLanguage(x) → IndoEuropeanLanguage(x))\n∀x (RomanceLanguage(x) → MemberOf(x, languageFamily))\n∀x ∀y ∀z ((MemberOf(x, z) ∧ MemberOf(y, z)) → (Related(x, y) ∧ Related(y, x)))\nRomanceLanguage(french) ∧ RomanceLanguage(spanish)\nRelated(german, spanish)\n∀x (Language(x) → ¬Related(basque, x))",
+        "fol_conclusion": "RomanceLanguage(german)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_23",
+        "story_id": "folio_213",
+        "nat_premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
+        "nat_conclusion": "French is an Indo-European language.",
+        "fol_premises": "∀x (RomanceLanguage(x) → IndoEuropeanLanguage(x))\n∀x (RomanceLanguage(x) → MemberOf(x, languageFamily))\n∀x ∀y ∀z ((MemberOf(x, z) ∧ MemberOf(y, z)) → (Related(x, y) ∧ Related(y, x)))\nRomanceLanguage(french) ∧ RomanceLanguage(spanish)\nRelated(german, spanish)\n∀x (Language(x) → ¬Related(basque, x))",
+        "fol_conclusion": "IndoEuropeanLanguage(french)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_24",
+        "story_id": "folio_79",
+        "nat_premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
+        "nat_conclusion": "Robert Lewandowski is a soccer player.",
+        "fol_premises": "Striker(robertLewandowski)\n∀x (Striker(x) → SoccerPlayer(x))\nLeft(robertLewandowski, bayernMunchen)\n∀x ∀y (Left(x, y) → ¬PlaysFor(x, y))",
+        "fol_conclusion": "SoccerPlayer(robertLewandowski)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_25",
+        "story_id": "folio_79",
+        "nat_premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
+        "nat_conclusion": "Robert Lewandowski plays for Bayern Munchen.",
+        "fol_premises": "Striker(robertLewandowski)\n∀x (Striker(x) → SoccerPlayer(x))\nLeft(robertLewandowski, bayernMunchen)\n∀x ∀y (Left(x, y) → ¬PlaysFor(x, y))",
+        "fol_conclusion": "PlaysFor(robertLewandowski, bayernMunchen)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_26",
+        "story_id": "folio_79",
+        "nat_premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
+        "nat_conclusion": "Robert Lewandowski is a star.",
+        "fol_premises": "Striker(robertLewandowski)\n∀x (Striker(x) → SoccerPlayer(x))\nLeft(robertLewandowski, bayernMunchen)\n∀x ∀y (Left(x, y) → ¬PlaysFor(x, y))",
+        "fol_conclusion": "SoccerStar(robertLewandowski)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_27",
+        "story_id": "folio_192",
+        "nat_premises": "International students in the US have either an F1 visa or a J1 visa.An international student in the US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.Mike is an international student.Mike needs to apply for CPT if he wants to work in the US.",
+        "nat_conclusion": "Mike has an F1 visa.",
+        "fol_premises": "∀x (InternationalStudent(x) ∧ In(x, unitedStates) → F1Visa(x) ⊕ J1Visa(x))\n∀x (InternationalStudent(x) ∧ In(x, unitedStates) ∧ F1Visa(x) ∧ WantToWorkIn(x, unitedStates) → Apply(x, cpt) ∨ Apply(x, opt))\nInternationalStudent(mike)\nWantToWorkIn(x, unitedStates) → Apply(mike, cpt)",
+        "fol_conclusion": "F1Visa(mike)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_28",
+        "story_id": "folio_192",
+        "nat_premises": "International students in the US have either an F1 visa or a J1 visa.An international student in the US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.Mike is an international student.Mike needs to apply for CPT if he wants to work in the US.",
+        "nat_conclusion": "Mike has a J1 visa.",
+        "fol_premises": "∀x (InternationalStudent(x) ∧ In(x, unitedStates) → F1Visa(x) ⊕ J1Visa(x))\n∀x (InternationalStudent(x) ∧ In(x, unitedStates) ∧ F1Visa(x) ∧ WantToWorkIn(x, unitedStates) → Apply(x, cpt) ∨ Apply(x, opt))\nInternationalStudent(mike)\nWantToWorkIn(x, unitedStates) → Apply(mike, cpt)",
+        "fol_conclusion": "J1Visa(mike)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_29",
+        "story_id": "folio_83",
+        "nat_premises": "All vehicle registration plates in Istanbul begin with the number 34.Plates that do not begin with the number 34 are not from Istanbul. Joe's vehicle registration plate is from Istanbul. Tom's license plate begins with the number 35. If a license plate begins with the number 35, then it does not begin with the number 34.",
+        "nat_conclusion": "Joe's license plate begins with the number 34.",
+        "fol_premises": "∀x (VehicleRegistrationPlateIn(x, istanbul) → BeginWith(x, num34))\n∀x (¬BeginWith(x, num34) → ¬FromIstanbul(x))\n∃x (Owns(joe, x) ∧ VehicleRegistrationPlateIn(x, istanbul))\n∃x (Owns(tom, x) ∧ BeginWith(x, num35))\n∀x (BeginWith(x, num35) → ¬BeginWith(x, num34))",
+        "fol_conclusion": "∃x (Owns(joe, x) ∧ BeginWith(x, num34))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_30",
+        "story_id": "folio_83",
+        "nat_premises": "All vehicle registration plates in Istanbul begin with the number 34.Plates that do not begin with the number 34 are not from Istanbul. Joe's vehicle registration plate is from Istanbul. Tom's license plate begins with the number 35. If a license plate begins with the number 35, then it does not begin with the number 34.",
+        "nat_conclusion": "Tom's license plate is from Istanbul.",
+        "fol_premises": "∀x (LicensePlate(x) ∧ FromIstanbul(x) → BeginWith(x, num34))\n∀x (LicensePlate(x) ∧ ¬BeginWith(x, num34) → ¬FromIstanbul(x))\nLicensePlate(joes_plate) ∧ FromIstanbul(joes_plate)\nLicensePlate(toms_plate) ∧ BeginWith(toms_plate, num35)\n∀x (LicensePlate(x) ∧ BeginWith(x, num35) → ¬BeginWith(x, num34))",
+        "fol_conclusion": "FromIstanbul(toms_plate)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_31",
+        "story_id": "folio_319",
+        "nat_premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "nat_conclusion": "Dried Thai chilies are products of Baked by Melissa.",
+        "fol_premises": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)",
+        "fol_conclusion": "Product(driedThaiChili) ∧ From(driedThaiChili, bakedByMelissa)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_32",
+        "story_id": "folio_319",
+        "nat_premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "nat_conclusion": "Dried Thai chilies are not products of Baked by Melissa.",
+        "fol_premises": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)",
+        "fol_conclusion": "¬(Product(driedThaiChili) ∧ From(driedThaiChili, bakedByMelissa))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_33",
+        "story_id": "folio_319",
+        "nat_premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "nat_conclusion": "Dried Thai chilies are a mala hotpot.",
+        "fol_premises": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)",
+        "fol_conclusion": "MalaHotpot(driedThaiChili)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_34",
+        "story_id": "folio_319",
+        "nat_premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "nat_conclusion": "Dried Thai chilies are neither products of Baked by Melissa nor baked sweets.",
+        "fol_premises": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)",
+        "fol_conclusion": "¬(Product(driedThaiChili) ∧ From(driedThaiChili, bakedByMelissa)) ∧ ¬BakedSweet(driedThaiChili)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_35",
+        "story_id": "folio_319",
+        "nat_premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
+        "nat_conclusion": "Dried Thai chilies are cupcakes and products of Baked by Melissa.",
+        "fol_premises": "∀x (BakedSweet(x) → ¬Spicy(x))\n∀x (Cupcake(x) → BakedSweet(x))\n∀x (MalaHotpot(x) → Spicy(x))\n∀x (Product(x) ∧ From(x, bakedByMelissa) → Cupcake(x))\nSpicy(driedThaiChili) ∨ MalaHotpot(driedThaiChili)∨ ¬BakedSweet(driedThaiChili)",
+        "fol_conclusion": "Cupcake(driedThaiChili) ∧ Product(driedThaiChili) ∧ From(driedThaiChili, bakedByMelissa)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_36",
+        "story_id": "folio_58",
+        "nat_premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
+        "nat_conclusion": "Walden contains knowledge.",
+        "fol_premises": "∀x (Book(x) → Contains(x, knowledge))\n∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))\n∀x (Gains(x, knowledge) → Smarter(x))\nReadBook(harry, walden) ∧ Book(walden)",
+        "fol_conclusion": "Gains(harry, knowledge)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_37",
+        "story_id": "folio_58",
+        "nat_premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
+        "nat_conclusion": "Harry is smarter than before.",
+        "fol_premises": "∀x (Book(x) → Contains(x, knowledge))\n∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))\n∀x (Gains(x, knowledge) → Smarter(x))\nReadBook(harry, walden) ∧ Book(walden)",
+        "fol_conclusion": "Smarter(harry)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_38",
+        "story_id": "folio_58",
+        "nat_premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
+        "nat_conclusion": "A smarter person has gained knowledge.",
+        "fol_premises": "∀x (Book(x) → Contains(x, knowledge))\n∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))\n∀x (Gains(x, knowledge) → Smarter(x))\nReadBook(harry, walden) ∧ Book(walden)",
+        "fol_conclusion": "∀x (Smarter(x) → GainKnowledge(x))",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_39",
+        "story_id": "folio_191",
+        "nat_premises": "A natural language processing task can be categorized as either a language generation task or a language understanding task.If the output of a natural language processing task is a text sequence, then it is a language generation task.Machine translation is a natural language processing task.The output of machine translation is a text sequence.",
+        "nat_conclusion": "Machine translation is a language generation task.",
+        "fol_premises": "∀x (NaturalLanguageProcessingTask(x) → LanguageGenerationTask(x) ⊕ LanguageUnderstandingTask(x))\n∀x (NaturalLanguageProcessingTasks(x) ∧ OutputSequence(x, text) → LanguageGenerationTask(x))\nNaturalLanguageProcessingTask(machineTranslation)\nOutputSequence(machineTranslation, text)",
+        "fol_conclusion": "LanguageGenerationTask(machineTranslation)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_40",
+        "story_id": "folio_191",
+        "nat_premises": "A natural language processing task can be categorized as either a language generation task or a language understanding task.If the output of a natural language processing task is a text sequence, then it is a language generation task.Machine translation is a natural language processing task.The output of machine translation is a text sequence.",
+        "nat_conclusion": "Machine translation is a language understanding task.",
+        "fol_premises": "∀x (NaturalLanguageProcessingTask(x) → ¬(LanguageGenerationTask(x) ↔ LanguageUnderstandingTask(x)))\n∀x (NaturalLanguageProcessingTask(x) ∧ OutputSequence(x, text) → LanguageGenerationTask(x))\nNaturalLanguageProcessingTask(machineTranslation)\nOutputSequence(machineTranslation, text)",
+        "fol_conclusion": "LanguageUnderstandingTask(machineTranslation)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_42",
+        "story_id": "folio_166",
+        "nat_premises": "Pets are allowed in some managed buildings.A deposit is required to rent an apartment in a managed building.The security deposit can be either equal to the monthly rent at a managed building or more.Fluffy is Tom's cat.Cats are pets.The Olive Garden is a managed building.The monthly rent at the Olive Garden is $2000.$2000 is more than $1500.Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.If a managed building allows pets, then people are allowed to move in with a pet. ",
+        "nat_conclusion": "Tom is allowed to move into an apartment in The Olive Garden with Fluffy.",
+        "fol_premises": "∃x (ManagedBuilding(x) ∧ AllowPet(x))\n∀x ∀y (ManagedBuilding(x) ∧ RentApartmentIn(y, x) → DepositRequired(y))\n∀x ∀y ∀z (SecurityDeposit(x) ∧ ManagedBuilding(z) ∧ MonthlyRentAt(y, z) → (MoreThan(x, y) ⊕ Equal(x, y)))\nCat(fluffy) ∧ BelongTo(fluffy, tom)\n∀x (Cat(x) → Pet(x))\nManagedBuilding(oliveGarden)\nMonthlyRentAt(uSD2000, oliveGarden)\nMoreThan(uSD2000, uSD1500)\n∀x ∀y (ManagedBuilding(x) ∧ AllowedToMoveInWith(tom, x, fluffy) ∧ SecurityDeposit(y) ∧ ¬MoreThan(y, uSD1500) → RentApartmentIn(tom, x))\n∀x ∀y ∀z (ManagedBuilding(x) ∧ AllowPet(x) ∧ Pet(z) → AllowedToMoveInWith(y, x, z))",
+        "fol_conclusion": "AllowedToMoveInWith(tom, oliveGarden, fluffy)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_43",
+        "story_id": "folio_166",
+        "nat_premises": "Pets are allowed in some managed buildings.A deposit is required to rent an apartment in a managed building.The security deposit can be either equal to the monthly rent at a managed building or more.Fluffy is Tom's cat.Cats are pets.The Olive Garden is a managed building.The monthly rent at the Olive Garden is $2000.$2000 is more than $1500.Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.If a managed building allows pets, then people are allowed to move in with a pet. ",
+        "nat_conclusion": "The security deposit at the Olive Garden is either $2000 or more.",
+        "fol_premises": "∃x (ManagedBuilding(x) ∧ AllowPet(x))\n∀x ∀y (ManagedBuilding(x) ∧ RentApartmentIn(y, x) → DepositRequired(y))\n∀x ∀y ∀z (SecurityDepositAt(x, z) ∧ ManagedBuilding(z) ∧ MonthlyRentAt(y, z) → ¬(MoreThan(x, y) ↔ Equal(x, y)))\nCat(fluffy) ∧ BelongTo(fluffy, tom)\n∀x (Cat(x) → Pet(x))\nManagedBuilding(oliveGarden)\nMonthlyRentAt(uSD2000, oliveGarden)\nMoreThan(uSD2000, uSD1500)\n∀x ∀y (ManagedBuilding(x) ∧ AllowedToMoveInWith(tom, x, fluffy) ∧ SecurityDepositAt(y, x) ∧ ¬MoreThan(y, uSD1500) → RentApartmentIn(tom, x))\n∀x ∀y ∀z (ManagedBuilding(x) ∧ AllowPet(x) ∧ Pet(z) → AllowedToMoveInWith(y, x, z))",
+        "fol_conclusion": "∀x (SecurityDepositAt(x, oliveGarden) → ¬(MoreThan(x, uSD2000) ↔ Equal(x, uSD2000)))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_44",
+        "story_id": "folio_352",
+        "nat_premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
+        "nat_conclusion": "The Harvard Weekly Book club has legal obligations.",
+        "fol_premises": "∀x (BusinessOrganization(x) → LegalEntity(x))\n∀x (Company(x) → BusinessOrganization(x))\n∀x (PrivateCompany(x) → Company(x))\n∀x (LegalEntity(x) → CreatedUnderLaw(x))\n∀x (LegalEntity(x) → LegalObligation(x))\nCreatedUnderLaw(harvardWeeklyBookClub) → ¬PrivateCompany(harvardWeeklyBookClub)",
+        "fol_conclusion": "LegalObligation(harvardWeeklyBookClub)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_45",
+        "story_id": "folio_352",
+        "nat_premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
+        "nat_conclusion": "The Harvard Weekly Book club has legal obligations and is a private company.",
+        "fol_premises": "∀x (BusinessOrganization(x) → LegalEntity(x))\n∀x (Company(x) → BusinessOrganization(x))\n∀x (PrivateCompany(x) → Company(x))\n∀x (LegalEntity(x) → CreatedUnderLaw(x))\n∀x (LegalEntity(x) → LegalObligation(x))\nCreatedUnderLaw(harvardWeeklyBookClub) → ¬PrivateCompany(harvardWeeklyBookClub)",
+        "fol_conclusion": "LegalObligation(harvardWeeklyBookClub) ∧ PrivateCompany(harvardWeeklyBookClub)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_46",
+        "story_id": "folio_352",
+        "nat_premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
+        "nat_conclusion": "If the Harvard Weekly Book club is a private company, then it either has legal obligations or is created under law.",
+        "fol_premises": "∀x (BusinessOrganization(x) → LegalEntity(x))\n∀x (Company(x) → BusinessOrganization(x))\n∀x (PrivateCompany(x) → Company(x))\n∀x (LegalEntity(x) → CreatedUnderLaw(x))\n∀x (LegalEntity(x) → LegalObligation(x))\nCreatedUnderLaw(harvardWeeklyBookClub) → ¬PrivateCompany(harvardWeeklyBookClub)",
+        "fol_conclusion": "PrivateCompany(harvardWeeklyBookClub) → LegalObligation(harvardWeeklyBookClub) ⊕ CreatedUnderLaw(harvardWeeklyBookClub)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_47",
+        "story_id": "folio_472",
+        "nat_premises": "Animals are either invertebrates or vertebrates.All animals with backbones reproduce by male-and-female mating. All vertebrate animals have a backbone.All bees do not reproduce by male-and-female mating.All queen bees are bees.Harry is a bee.",
+        "nat_conclusion": "Harry is a queen bee.",
+        "fol_premises": "∀x (Animal(x) → Invertebrate(x) ⊕ Vertebrate(x))\n∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, male_and_femaleMating))\n∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))\n∀x (Bee(x) → ¬ReproduceBy(x, male_and_femaleMating))\n∀x (QueenBee(x) → Bee(x))\nBee(harry)",
+        "fol_conclusion": "QueenBee(harry)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_49",
+        "story_id": "folio_472",
+        "nat_premises": "Animals are either invertebrates or vertebrates.All animals with backbones reproduce by male-and-female mating. All vertebrate animals have a backbone.All bees do not reproduce by male-and-female mating.All queen bees are bees.Harry is a bee.",
+        "nat_conclusion": "If Harry is either both a vertebrate and an animal with a backbone, or neither a vertebrate nor an animal with a backbone, then Harry is neither an invertebrate nor a queen bee.",
+        "fol_premises": "∀x (Bee(x) → Animal(x))\n∀x (Animal(x) → (Invertebrate(x) ⊕ Vertebrate(x)))\n∀x (Animal(x) ∧ With(x, backbone) → ReproduceBy(x, maleAndFemaleMating))\n∀x (Animal(x) ∧ Vertebrate(x) → With(x, backbone))\n∀x (Bee(x) → ¬ReproduceBy(x, maleAndFemaleMating))\n∀x (QueenBee(x) → Bee(x))\nBee(harry)",
+        "fol_conclusion": "((Vertebrate(harry) ∧ With(harry, backbone)) ∨ (¬Vertebrate(harry) ∧ ¬With(harry, backbone))) → (¬Invertebrate(harry) ∧ ¬QueenBee(harry))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_50",
+        "story_id": "folio_379",
+        "nat_premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
+        "nat_conclusion": "Luke spends a lot of time hanging out and playing with his siblings.",
+        "fol_premises": "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, sibling))\n∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))\n∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))\n∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))\n∀x (SpendTimeplayingWith(x, sibling) → LiveAt(x, home))\n¬(BornIn(luke, multipleBirth) ⊕ LiveWith(luke, strangers))",
+        "fol_conclusion": "SpendTimePlayingWith(luke, sibling)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_51",
+        "story_id": "folio_379",
+        "nat_premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
+        "nat_conclusion": "Luke complains often about annoying siblings.",
+        "fol_premises": "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, siblings))\n∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))\n∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))\n∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))\n∀x (SpendTimePlayingWith(x, siblings) → LiveAt(x, home))\nBornIn(luke, multipleBirth) ↔ LiveWith(luke, strangers)",
+        "fol_conclusion": "ComplainAboutOften(luke, annoyingSiblings)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_52",
+        "story_id": "folio_379",
+        "nat_premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
+        "nat_conclusion": "Luke is neither born in a multiple birth nor complains often about annoying siblings.",
+        "fol_premises": "∀x (BornIn(x, multipleBirth) → SpendTimePlayingWith(x, siblings))\n∀x (∃y (Sibling(x, y) ∧ BornTogether(y)) → BornIn(x, multipleBirth))\n∀x (ComplainAboutOften(x, annoyingSiblings) → ∃y (Sibling(x, y) ∧ BornTogether(y)))\n∀x (LiveAt(x, home) → ¬LiveWith(x, strangers))\n∀x (SpendTimePlayingWith(x, siblings) → LiveAt(x, home))\nBornIn(luke, multipleBirth) ↔ LiveWith(luke, strangers)",
+        "fol_conclusion": "¬BornIn(luke, multipleBirth) ∧ ¬ComplainAboutOften(luke, annoyingSiblings)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_53",
+        "story_id": "folio_262",
+        "nat_premises": "All fir trees are evergreens.Some objects of worship are fir trees.",
+        "nat_conclusion": "Some evergreens are not objects of worship.",
+        "fol_premises": "∀x (FirTree(x) → Evergreen(x))\n∃x ∃y (ObjectOfWorship(x) ∧ ObjectOfWorship(y) ∧ FirTree(x) ∧ FirTree(y) ∧ ¬(x=y))",
+        "fol_conclusion": "∃x ∃y (Evergreen(x) ∧ Evergreen(y) ∧ ¬ObjectOfWorship(x) ∧ ¬ObjectOfWorship(y) ∧ ¬(x=y))",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_54",
+        "story_id": "folio_124",
+        "nat_premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
+        "nat_conclusion": "Juan de Onate visited a mountain range in New Mexico.",
+        "fol_premises": "MountainRange(thePicurisMountains) ∧ ¬(In(thePicurisMountains, newMexico) ↔ In(thePicurisMountains, texas))\nVisited(juanDeOnate, thePicurisMountains)\nIn(hardingPegmatiteMine, thePicurisMountains) ∧ Mine(hardingPegmatiteMine) ∧ Donated(hardingPegmatiteMine)\n∀x ∀y (Mine(x) ∧ Donated(x) ∧ In(x, y) ∧ MountainRange(y) → ¬In(y, texas))",
+        "fol_conclusion": "∃x (Visited(juanDeOnate, x) ∧ MountainRange(x) ∧ In(x, newMexico))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_55",
+        "story_id": "folio_124",
+        "nat_premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
+        "nat_conclusion": "Juan de Onate visited a mountain range in Texas.",
+        "fol_premises": "MountainRange(thePicurisMountains) ∧ ¬(In(thePicurisMountains, newMexico) ↔ In(thePicurisMountains, texas))\nVisited(juanDeOnate, thePicurisMountains)\nIn(hardingPegmatiteMine, thePicurisMountains) ∧ Mine(hardingPegmatiteMine) ∧ Donated(hardingPegmatiteMine)\n∀x ∀y (Mine(x) ∧ Donated(x) ∧ In(x, y) ∧ MountainRange(y) → ¬In(y, texas))",
+        "fol_conclusion": "∃x (Visited(juanDeOnate, x) ∧ MountainRange(x) ∧ In(x, texas))",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_56",
+        "story_id": "folio_124",
+        "nat_premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
+        "nat_conclusion": "The Harding Pegmatite Mine is not located in a mountain range in New Mexico.",
+        "fol_premises": "MountainRange(thePicurisMountains) ∧ (In(thePicurisMountains, newMexico) ⊕ In(thePicurisMountains, texas))\nVisited(juanDeOnate, thePicurisMountains)\nIn(hardingPegmatiteMine, thePicurisMountains) ∧ Mine(hardingPegmatiteMine) ∧ Donated(hardingPegmatiteMine)\n∀x ∀y (Mine(x) ∧ Donated(x) ∧ In(x, y) ∧ MountainRange(y) → ¬In(y, texas))",
+        "fol_conclusion": "∀x (In(hardingPegmatiteMine, x) → ¬(MountainRange(x) ∧ In(x, newMexico)))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_57",
+        "story_id": "folio_183",
+        "nat_premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
+        "nat_conclusion": "Peter is shorter than a man in Michael's class.",
+        "fol_premises": "∀x ∀y (Man(x) ∧ Man(y) ∧ Taller(x, y) → CanBlock(x, y))\n∀x (Man(x) ∧ SameClass(x, michael) ∧ ¬(x=michael) → Taller(michael, x))\n∀x ∀y ∀z ((Taller(x, y) ∧ Taller(y, z)) → Taller(x, z))\nMan(peter) ∧ Taller(peter, michael)\n∀x (¬JumpWhenShooting(x) → CanBlock(michael, x))\n¬CanBlock(michael, windy)\n∀x (JumpWhenShooting(x) → GreatShooter(x))",
+        "fol_conclusion": "∃x (Man(x) ∧ SameClass(x, michael) ∧ ¬Taller(peter, x))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_58",
+        "story_id": "folio_183",
+        "nat_premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
+        "nat_conclusion": "Windy is a great shooter.",
+        "fol_premises": "∀x ∀y (Man(x) ∧ Man(y) ∧ Taller(x, y) → CanBlock(x, y))\n∀x (Man(x) ∧ SameClass(x, michael) ∧ ¬(x=michael) → Taller(michael, x))\n∀x ∀y ∀z ((Taller(x, y) ∧ Taller(y, z)) → Taller(x, z))\nMan(peter) ∧ Taller(peter, michael)\n∀x (¬JumpWhenShooting(x) → CanBlock(michael, x))\n¬CanBlock(michael, windy)\n∀x (JumpWhenShooting(x) → GreatShooter(x))",
+        "fol_conclusion": "GreatShooter(windy)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_59",
+        "story_id": "folio_183",
+        "nat_premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
+        "nat_conclusion": "Peter can block Windy's shooting.",
+        "fol_premises": "∀x ∀y (Man(x) ∧ Man(y) ∧ Taller(x, y) → CanBlock(x, y))\n∀x (Man(x) ∧ SameClass(x, michael) ∧ ¬(x=michael) → Taller(michael, x))\n∀x ∀y ∀z ((Taller(x, y) ∧ Taller(y, z)) → Taller(x, z))\nMan(peter) ∧ Taller(peter, michael)\n∀x (¬JumpWhenShooting(x) → CanBlock(michael, x))\n¬CanBlock(michael, windy)\n∀x (JumpWhenShooting(x) → GreatShooter(x))",
+        "fol_conclusion": "CanBlock(peter, windy)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_60",
+        "story_id": "folio_131",
+        "nat_premises": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.Unsupervised learning algorithms do not require labeled data.The state-of-the-art text summarization model is trained with machine learning algorithms.Reinforcement learning is not used to train the state-of-the-art text summarization model.The Machine Learning algorithm for training text summarization models requires labeled data.",
+        "nat_conclusion": "Supervised learning is used to train the state-of-the-art text summarization model.",
+        "fol_premises": "∀x (MachineLearningAlgorithm(x) → (SupervisedLearningAlgorithm(x) ∨ UnsupervisedLearningAlgorithm(x) ∨ ReinforcementLearningAlgorithm(x)))\n∀x (UnsupervisedLearningAlgorithm(x) → ¬Require(x, labeledData))\n∃x (MachineLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x))\n∀x (ReinforcementLearningAlgorithm(x) → ¬TrainedWith(stateOfTheArtTextSummarizationModel, x))\n∀x (MachineLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x) → Require(x, labeledData))",
+        "fol_conclusion": "∃x (SupervisedLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_61",
+        "story_id": "folio_131",
+        "nat_premises": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.Unsupervised learning algorithms do not require labeled data.The state-of-the-art text summarization model is trained with machine learning algorithms.Reinforcement learning is not used to train the state-of-the-art text summarization model.The Machine Learning algorithm for training text summarization models requires labeled data.",
+        "nat_conclusion": "Unsupervised learning is used to train the state-of-the-art text summarization model.",
+        "fol_premises": "∀x (MachineLearningAlgorithm(x) → SupervisedLearningAlgorithm(x) ∨ UnsupervisedLearningAlgorithm(x) ∨ ReinforcementLearningAlgorithm(x))\n∀x (UnsupervisedLearningAlgorithm(x) → ¬Require(x, labeledData))\n∀x (TrainedWith(stateOfTheArtTextSummarizationModel, x) → MachineLearningAlgorithm(x))\n∀x (ReinforcementLearningAlgorithm(x) → ¬TrainedWith(stateOfTheArtTextSummarizationModel, x))\n∀x ((MachineLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x)) → Require(x, labeledData))",
+        "fol_conclusion": "∃x (UnsupervisedLearningAlgorithm(x) ∧ TrainedWith(stateOfTheArtTextSummarizationModel, x))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_62",
+        "story_id": "folio_460",
+        "nat_premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
+        "nat_conclusion": "\"Hachi: A dog's Tale\" is rated General Audience.",
+        "fol_premises": "∀x (Film(x) ∧ Rated(x, adultsOnly) → CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))\n∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))\n∀x (Film(x) ∧ InfrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))\nFilm(hachiAdogsTale)\n(FamilyFriendly(hachiAdogsTale) ∧ Animated(hachiAdogsTale)) ⊕ Rated(hachiAdogsTale, adultsOnly)",
+        "fol_conclusion": "Rated(x, generalAudience)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_63",
+        "story_id": "folio_460",
+        "nat_premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
+        "nat_conclusion": "\"Hachi: A dog's Tale\" contains excessive erotic and violent content or is in the \"Frozen\" series or both.",
+        "fol_premises": "∀x (Film(x) ∧ AppropriateFor(x, peopleOfAllAges) → CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))\n∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))\n∀x (Film(x) ∧ InFrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))\nFilm(hachiADogsTale)\n¬((FamilyFriendly(hachiADogsTale) ∧ Animated(hachiADogsTale)) ↔ AppropriateFor(hachiADogsTale, peopleOfAllAges))",
+        "fol_conclusion": "(Contain(hachiADogsTale, excessiveEroticContent) ∧ Contain(hachiADogsTale, excessiveViolentContent)) ∨ InFrozenSeries(hachiADogsTale)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_64",
+        "story_id": "folio_460",
+        "nat_premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
+        "nat_conclusion": "\"Hachi: A dog's Tale\" either contains excessive erotic and violent content and is a film in the \"Frozen\" series, or it neither contains excessive erotic and violent content nor is a film in the \"Frozen\" series.",
+        "fol_premises": "∀x (Film(x) ∧ AppropriateFor(x, peopleOfAllAges) → CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Contain(x, excessiveEroticContent) ∧ Contain(x, excessiveViolentContent) → ¬CanWatchWithout(children, x, guidanceFromParents))\n∀x (Film(x) ∧ Rated(x, generalAudience) → AppropriateFor(x, peopleOfAllAges))\n∀x (Film(x) ∧ FamilyFriendly(x) ∧ Animated(x) → Rated(x, generalAudience))\n∀x (Film(x) ∧ InFrozenSeries(x) → FamilyFriendly(x) ∧ Animated(x))\nFilm(hachiADogsTale)\n¬((FamilyFriendly(hachiADogsTale) ∧ Animated(hachiADogsTale)) ↔ AppropriateFor(hachiADogsTale, peopleOfAllAges))",
+        "fol_conclusion": "(Contain(hachiADogsTale, excessiveEroticContent) ∧ Contain(hachiADogsTale, excessiveViolentContent) ∧ InFrozenSeries(hachiADogsTale)) ∨ (¬(Contain(hachiADogsTale, excessiveEroticContent) ∧ Contain(hachiADogsTale, excessiveViolentContent)) ∧ ¬InFrozenSeries(hachiADogsTale))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_65",
+        "story_id": "folio_80",
+        "nat_premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
+        "nat_conclusion": "Neapolitan Chronicles is an English book.",
+        "fol_premises": "PublishingHouse(newVesselPress) ∧ SpecializesInTranslatingIntoEnglish(newVesselPress, foreignLiterature)\n∀x ((Book(x) ∧ PublishedBy(x, newVesselPress)) → In(x, english))\nBook(neapolitanChronicles) ∧ PublishedBy(neapolitanChronicles, newVesselPress)\nTranslatedFrom(neapolitanChronicles, italian)\nBook(palaceOfFlies) ∧ PublishedBy(palaceOfFlies, newVesselPress)",
+        "fol_conclusion": "Book(neapolitanChronicles) ∧ In(neapolitanChronicles, english)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_66",
+        "story_id": "folio_80",
+        "nat_premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
+        "nat_conclusion": "Harry Potter was published by New Vessel Press.",
+        "fol_premises": "PublishingHouse(newVesselPress) ∧ SpecializesInTranslatingIntoEnglish(newVesselPress, foreignLiterature)\n∀x ((Book(x) ∧ PublishedBy(x, newVesselPress)) → In(x, english))\nBook(neapolitanChronicles) ∧ PublishedBy(neapolitanChronicles, newVesselPress)\nTranslatedFrom(neapolitanChronicles, italian)\nBook(palaceOfFlies) ∧ PublishedBy(palaceOfFlies, newVesselPress)",
+        "fol_conclusion": "PublishedBy(harryPotter, newVesselPress)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_67",
+        "story_id": "folio_80",
+        "nat_premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
+        "nat_conclusion": "Palace of Flies was translated from Italian.",
+        "fol_premises": "PublishingHouse(newVesselPress) ∧ SpecializesInTranslatingIntoEnglish(newVesselPress, foreignLiterature)\n∀x ((Book(x) ∧ PublishedBy(x, newVesselPress)) → In(x, english))\nBook(neapolitanChronicles) ∧ PublishedBy(neapolitanChronicles, newVesselPress)\nTranslatedFrom(neapolitanChronicles, italian)\nBook(palaceOfFlies) ∧ PublishedBy(palaceOfFlies, newVesselPress)",
+        "fol_conclusion": "TranslatedFrom(palaceOfFlies, italian)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_68",
+        "story_id": "folio_363",
+        "nat_premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
+        "nat_conclusion": "The mixture contains carbon.",
+        "fol_premises": "∀x (Hydrocarbon(x) → Orgranic(x) ∧ Compound(x))\n∀x (Alkane(x) → Hydrocarbon(x))\n∀x (Orgranic(x) ∧ Compound(x) → Chemical(x) ∧ Compound(x))\n∀x (Orgranic(x) ∧ Compound(x) → Contain(x, carbon))\n∀x (Chemical(x) ∧ Compound(x) → ∀y ∀z (¬(Contain(x, y) ∧ Contain(x, z) ∧ (y=z))))\n¬((Chemical(mixture) ∧ Compound(mixture)) ⊕ (∀y ∀z (Contain(x, y) ∧ Contain(x, z) ∧ y=z)))",
+        "fol_conclusion": "Contain(mixture, carbon)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_69",
+        "story_id": "folio_363",
+        "nat_premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
+        "nat_conclusion": "The mixture is an alkane and contains carbon.",
+        "fol_premises": "∀x (Hydrocarbon(x) → Orgranic(x) ∧ Compound(x))\n∀x (Alkane(x) → Hydrocarbon(x))\n∀x (Orgranic(x) ∧ Compound(x) → Chemical(x) ∧ Compound(x))\n∀x (Orgranic(x) ∧ Compound(x) → Contain(x, carbon))\n∀x (Chemical(x) ∧ Compound(x) → ∀y ∀z (¬(Contain(x, y) ∧ Contain(x, z) ∧ (y=z))))\n¬((Chemical(mixture) ∧ Compound(mixture)) ⊕ (∀y ∀z (Contain(x, y) ∧ Contain(x, z) ∧ y=z)))",
+        "fol_conclusion": "Alkane(mixture) ∧ Contain(mixture, carbon)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_70",
+        "story_id": "folio_363",
+        "nat_premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
+        "nat_conclusion": "If the mixture contains only one element or contains carbon, then the mixture is neither a chemical compound nor an alkane.",
+        "fol_premises": "∀x (Hydrocarbon(x) → Orgranic(x) ∧ Compound(x))\n∀x (Alkane(x) → Hydrocarbon(x))\n∀x (Orgranic(x) ∧ Compound(x) → Chemical(x) ∧ Compound(x))\n∀x (Orgranic(x) ∧ Compound(x) → Contain(x, carbon))\n∀x (Chemical(x) ∧ Compound(x) → ∀y ∀z (¬(Contain(x, y) ∧ Contain(x, z) ∧ (y=z))))\n¬((Chemical(mixture) ∧ Compound(mixture)) ⊕ (∀y ∀z (Contain(x, y) ∧ Contain(x, z) ∧ y=z)))",
+        "fol_conclusion": "(∀x ∀y (Contain(mixture, x) ∧ Contain(mixture, y) ∧ x=y)) ∨ Contain(mixture, carbon) → ¬(Chemical(mixture) ∧ Compound(mixture)) ∧ ¬Alkane(mixture)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_71",
+        "story_id": "folio_258",
+        "nat_premises": "All humans are mortal.All Greeks are humans.",
+        "nat_conclusion": "Some Greeks are mortal.",
+        "fol_premises": "∀x (Human(x) → Mortal(x))\n∀x (Greek(x) → Human(x))",
+        "fol_conclusion": "∃x ∃y (Greek(x) ∧ Greek(y) ∧ Mortal(x) ∧ Mortal(y) ∧ ¬(x=y))",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_72",
+        "story_id": "folio_435",
+        "nat_premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. James doesn't work in the lab or have a part-time job offered by the university.",
+        "nat_conclusion": "James has a part-time job offered by the university.",
+        "fol_premises": "∀x (Student(x) ∧ WorkIn(x, library) → (¬From(x, computerScienceDepartment)))\n∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))\n∀x ((Student(x) ∧ Take(x, databaseCourse)) → From(x, computerScienceDepartment))\n∀x ((Student(x) ∧ InstructedBy(x, professorDavid)) → Take(x, databaseCourse))\n∀x ((Student(x) ∧ WorkIn(x, lab)) → InstructedBy(x, professorDavid))\nStudent(james) ∧ WorkIn(james, lab)\n¬∃x (PartTimeJob(x) ∧ Have(james, x) ∧ OfferedBy(x, computerScienceDepartment)) ∧ ¬WorkIn(james, lab)",
+        "fol_conclusion": "∃y (PartTimeJob(y) ∧ Have(james, y) ∧ OfferedBy(y, university))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_73",
+        "story_id": "folio_435",
+        "nat_premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. ",
+        "nat_conclusion": "James does not have a part-time job offered by the university.",
+        "fol_premises": "∀x (Student(x) ∧ WorkIn(x, library) → ¬From(x, computerScienceDepartment))\n∀x (Student(x) ∧ ∃y (PartTimeJob(y) ∧ Have(x, y) ∧ OfferedBy(y, university)) → WorkIn(x, library))\n∀x (Student(x) ∧ Take(x, databaseCourse) → From(x, computerScienceDepartment))\n∀x (Student(x) ∧ InstructedBy(x, professorDavid) → Take(x, databaseCourse))\n∀x (Student(x) ∧ WorkIn(x, lab) → InstructedBy(x, professorDavid))\nStudent(james) ∧ WorkIn(james, lab)",
+        "fol_conclusion": "¬∃y (PartTimeJob(y) ∧ Have(james, y) ∧ OfferedBy(y, university))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_74",
+        "story_id": "folio_435",
+        "nat_premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. ",
+        "nat_conclusion": "James either takes the database course or has a part-time job offered by the university.",
+        "fol_premises": "∀x (Student(x) ∧ WorkIn(x, library) → ¬From(x, computerScienceDepartment))\n∀x (Student(x) ∧ ∃y (PartTimeJob(y) ∧ Have(x, y) ∧ OfferedBy(y, university)) → WorkIn(x, library))\n∀x (Student(x) ∧ Take(x, databaseCourse) → From(x, computerScienceDepartment))\n∀x (Student(x) ∧ InstructedBy(x, professorDavid) → Take(x, databaseCourse))\n∀x (Student(x) ∧ WorkIn(x, lab) → InstructedBy(x, professorDavid))\nStudent(james) ∧ WorkIn(james, lab)",
+        "fol_conclusion": "¬(Take(james, databaseCourse) ↔ ∃y (PartTimeJob(y) ∧ Have(james, y) ∧ OfferedBy(y, university)))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_76",
+        "story_id": "folio_292",
+        "nat_premises": "A hawk never swims. Some birds are hawks.",
+        "nat_conclusion": "All birds swim.",
+        "fol_premises": "∀x (Hawk(x) → ¬Swim(x))\n∃x ∃y (Bird(x) ∧ Bird(y) ∧ Hawk(x) ∧ Hawk(y) ∧ ¬(x=y))",
+        "fol_conclusion": "∀x (Bird(x) → Swim(x))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_77",
+        "story_id": "folio_355",
+        "nat_premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
+        "nat_conclusion": "Taylor eats salads regularly.",
+        "fol_premises": "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatinggHabit))\n∀x (GrewUpIn(x, health_consciousChildhoodHome) → RegularlyEat(x, salad))\n∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, health_consciousChildhoodHome))\n∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))\n∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))\n¬(GrowUpIn(taylor, health_consciousChildhoodHome) ⊕ Disregard(taylor, physicalWellbeing))",
+        "fol_conclusion": "RegularlyEat(taylor, salad)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_78",
+        "story_id": "folio_355",
+        "nat_premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
+        "nat_conclusion": "Taylor visits the gym at least once a day.",
+        "fol_premises": "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit))\n∀x (GrewUpIn(x, healthConsciousChildhoodHome) → RegularlyEat(x, salad))\n∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, healthConsciousChildhoodHome))\n∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))\n∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))\nGrewUpIn(taylor, healthConsciousChildhoodHome) ↔ Disregard(taylor, physicalWellbeing)",
+        "fol_conclusion": "VisitDaily(taylor, gym)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_79",
+        "story_id": "folio_355",
+        "nat_premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
+        "nat_conclusion": "Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day.",
+        "fol_premises": "∀x (RegularlyEat(x, salad) → ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit))\n∀x (GrewUpIn(x, healthConsciousChildhoodHome) → RegularlyEat(x, salad))\n∀x (Fulfill(x, dailyNutritionalIntake) → GrewUpIn(x, healthConsciousChildhoodHome))\n∀x (Disregard(x, physicalWellbeing) → ¬(ConsciousAbout(x, health) ∧ ConsciousAbout(x, eatingHabit)))\n∀x (VisitDaily(x, gym) → Fulfill(x, dailyNutritionalIntake))\nGrewUpIn(taylor, healthConsciousChildhoodHome) ↔ Disregard(taylor, physicalWellbeing)",
+        "fol_conclusion": "¬GrewUpIn(taylor, healthConsciousChildhoodHome) ∧ ¬VisitDaily(taylor, gym)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_80",
+        "story_id": "folio_51",
+        "nat_premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
+        "nat_conclusion": "The world championships is a sporting event.",
+        "fol_premises": "SportingEvent(olympics)\nLastSummerOlympics(tokyo)\nMostMedals(unitedStates, tokyo)",
+        "fol_conclusion": "SportingEvent(champs)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_81",
+        "story_id": "folio_51",
+        "nat_premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
+        "nat_conclusion": "The last summer Olympic games were not in Tokyo.",
+        "fol_premises": "SportingEvent(olympics)\nLastSummerOlympics(tokyo)\nMostMedals(unitedStates, tokyo)",
+        "fol_conclusion": "¬LastSummerOlympics(tokyo)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_82",
+        "story_id": "folio_51",
+        "nat_premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
+        "nat_conclusion": "The United States won the most medals in the last summer Olympic games.",
+        "fol_premises": "SportingEvent(olympics)\nLastSummerOlympics(tokyo)\nMostMedals(unitedStates, tokyo)",
+        "fol_conclusion": "∃x (LastSummerOlympics(x) ∧ MostMedals(unitedStates, x))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_83",
+        "story_id": "folio_152",
+        "nat_premises": "Susan flies to LGA airport.The departure and arrival can not be at the same airport.John flies from LGA airport.",
+        "nat_conclusion": "Susan flies from LGA airport.",
+        "fol_premises": "FlyTo(susan, lgaAirport)\n∀x ∀y ¬(FlyFrom(x, y) ↔ FlyTo(x, y))\nFlyFrom(john, lgaAirport)",
+        "fol_conclusion": "FlyFrom(susan, lgaAirport)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_84",
+        "story_id": "folio_152",
+        "nat_premises": "Susan flies to LGA airport.The departure and arrival can not be at the same airport.John flies from LGA airport.",
+        "nat_conclusion": "John flies to LGA airport.",
+        "fol_premises": "FlyTo(susan, lgaAirport)\n∀x ∀y ¬(FlyFrom(x, y) ↔ FlyTo(x, y))\nFlyFrom(john, lgaAirport)",
+        "fol_conclusion": "FlyTo(john, lgaAirport)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_85",
+        "story_id": "folio_441",
+        "nat_premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
+        "nat_conclusion": "Tom is a grumpy person.",
+        "fol_premises": "∀x (NiceTo(x, animal) → ¬MeanTo(x, animal))\n∃x (Grumpy(x) ∧ MeanTo(x, animal))\n∀x (AnimalLover(x) → NiceTo(x, animal))\n∀x (PetOwner(x) → AnimalLover(x))\nPetOwner(tom)",
+        "fol_conclusion": "Grumpy(tom)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_86",
+        "story_id": "folio_441",
+        "nat_premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
+        "nat_conclusion": "Tom is not both a grumpy person and mean to animals.",
+        "fol_premises": "∀x (NiceTo(x, animal) → ¬MeanTo(x, animal))\n∃x (Grumpy(x) ∧ MeanTo(x, animal))\n∀x (AnimalLover(x) → NiceTo(x, animal))\n∀x (PetOwner(x) → AnimalLover(x))\nPetOwner(tom)",
+        "fol_conclusion": "¬(Grumpy(tom) ∧ MeanTo(tom, animal))",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_87",
+        "story_id": "folio_441",
+        "nat_premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
+        "nat_conclusion": "If Tom is not both a grumpy person and mean to animals, then Tom is neither a grumpy person nor an animal lover.",
+        "fol_premises": "∀x (NiceTo(x, animal) → ¬MeanTo(x, animal))\n∃x (Grumpy(x) ∧ MeanTo(x, animal))\n∀x (AnimalLover(x) → NiceTo(x, animal))\n∀x (PetOwner(x) → AnimalLover(x))\nPetOwner(tom)",
+        "fol_conclusion": "¬(Grumpy(tom) ∧ MeanTo(tom, animal)) → ¬Grumpy(tom) ∧ ¬AnimalLover(tom)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_88",
+        "story_id": "folio_64",
+        "nat_premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
+        "nat_conclusion": "Dani Shapiro is a novel writer.",
+        "fol_premises": "∀x (Podcast(x) → ¬Novel(x))\n∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x)))\n∀x ∀y ((Novel(x) ∧ WrittenBy(x, y)) → WritesNovel(y))\nAmerican(dani_Shapiro) ∧ Writer(dani_Shapiro)\nWrittenBy(family_History, dani_Shapiro)\nNovel(family_History) ∧ WrittenIn(family_History, yr2003)\nPodcast(family_Secrets) ∧ CreatedBy(family_Secrets, dani_Shapiro)\nCity(boston) ∧ American(boston)",
+        "fol_conclusion": "WritesNovel(dani_Shapiro)",
+        "label": "True"
+    },
+    {
+        "id": "folio_test_89",
+        "story_id": "folio_64",
+        "nat_premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
+        "nat_conclusion": "Family Secrets is a novel.",
+        "fol_premises": "∀x (Podcast(x) → ¬Novel(x))\n∀x (∃y (BornIn(x, y) ∧ City(y) ∧ LocatedIn(y, america)) → American(x))\n∀x ∀y (Novel(x) ∧ WrittenBy(x, y) → WritesNovel(y))\nAmerican(daniShapiro) ∧ Writer(daniShapiro)\nWrittenBy(familyHistory, daniShapiro)\nNovel(familyHistory) ∧ WrittenIn(familyHistory, year2003)\nPodcast(familySecrets) ∧ CreatedBy(familySecrets, daniShapiro)\nCity(boston) ∧ American(boston)",
+        "fol_conclusion": "Novel(familySecrets)",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_90",
+        "story_id": "folio_64",
+        "nat_premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
+        "nat_conclusion": "Dani Shapiro was born in Boston.",
+        "fol_premises": "∀x (Podcast(x) → ¬Novel(x))\n∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x)))\n∀x ∀y ((Novel(x) ∧ WrittenBy(x, y)) → WritesNovel(y))\nAmerican(dani_Shapiro) ∧ Writer(dani_Shapiro)\nWrittenBy(family_History, dani_Shapiro)\nNovel(family_History) ∧ WrittenIn(family_History, yr2003)\nPodcast(family_Secrets) ∧ CreatedBy(family_Secrets, dani_Shapiro)\nCity(boston) ∧ American(boston)",
+        "fol_conclusion": "BornIn(dani_Shapiro, boston)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_91",
+        "story_id": "folio_280",
+        "nat_premises": "Events are either happy or sad.At least one event is happy. ",
+        "nat_conclusion": "All events are sad.",
+        "fol_premises": "∀x (Event(x) → ¬(Happy(x) ↔ Sad(x)))\n∃x (Event(x) ∧ Happy(x))",
+        "fol_conclusion": "∀x (Event(x) → Sad(x))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_92",
+        "story_id": "folio_101",
+        "nat_premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "nat_conclusion": "No one playing for Nautico is Brazilian.",
+        "fol_premises": "BornIn(ailtonSilva, year1995) ∧ CommonlyKnownAs(ailtonSilva, ailton)\nFootballPlayer(ailton) ∧ LoanedTo(ailton, braga)\nBrazilian(ailtonSilva) ∧ Footballplayer(ailtonSilva) ∧ PlayFor(ailtonSilva, nautico)\nFootballClub(nautico) ∧ FootballClub(braga)\nFootballClub(fluminense)",
+        "fol_conclusion": "∀x (PlayFor(x, nautico) → ¬Brazilian(x))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_93",
+        "story_id": "folio_101",
+        "nat_premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "nat_conclusion": "Ailton Silva does not play for a football club.",
+        "fol_premises": "BornIn(ailtonSilva, year1995) ∧ CommonlyKnownAs(ailtonSilva, ailton)\nFootballPlayer(ailton) ∧ LoanedTo(ailton, braga)\nBrazilian(ailtonSilva) ∧ Footballplayer(ailtonSilva) ∧ PlayFor(ailtonSilva, nautico)\nFootballClub(nautico) ∧ FootballClub(braga)\nFootballClub(fluminense)",
+        "fol_conclusion": "∀x (FootballClub(x) → ¬PlayFor(ailtonSilva, x))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_94",
+        "story_id": "folio_101",
+        "nat_premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "nat_conclusion": "Ailton was not loaned out to a football club.",
+        "fol_premises": "BornIn(ailtonSilva, year1995) ∧ CommonlyKnownAs(ailtonSilva, ailton)\nFootballPlayer(ailton) ∧ LoanedTo(ailton, braga)\nBrazilian(ailtonSilva) ∧ Footballplayer(ailtonSilva) ∧ PlayFor(ailtonSilva, nautico)\nFootballClub(nautico) ∧ FootballClub(braga)\nFootballClub(fluminense)",
+        "fol_conclusion": "∀x (FootballClub(x) → ¬LoanedTo(ailton, x))",
+        "label": "False"
+    },
+    {
+        "id": "folio_test_95",
+        "story_id": "folio_101",
+        "nat_premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "nat_conclusion": "Ailton Silva played for Fluminense.",
+        "fol_premises": "BornIn(ailtonSilva, year1995) ∧ CommonlyKnownAs(ailtonSilva, ailton)\nFootballPlayer(ailton) ∧ LoanedTo(ailton, braga)\nBrazilian(ailtonSilva) ∧ Footballplayer(ailtonSilva) ∧ PlayFor(ailtonSilva, nautico)\nFootballClub(nautico) ∧ FootballClub(braga)\nFootballClub(fluminense)",
+        "fol_conclusion": "PlayFor(ailtonSilva, fluminense)",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_test_96",
+        "story_id": "folio_101",
+        "nat_premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
+        "nat_conclusion": "Ailton Silva was loaned out to a football club.",
+        "fol_premises": "BornIn(ailtonSilva, year1995) ∧ CommonlyKnownAs(ailtonSilva, ailton)\nFootballPlayer(ailton) ∧ LoanedTo(ailton, braga)\nBrazilian(ailtonSilva) ∧ Footballplayer(ailtonSilva) ∧ PlayFor(ailtonSilva, nautico)\nFootballClub(nautico) ∧ FootballClub(braga)\nFootballClub(fluminense)",
+        "fol_conclusion": "∃x (FootballClub(x) ∧ LoanedTo(ailtonSilva, x))",
+        "label": "Uncertain"
+    }
+]
