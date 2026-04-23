@@ -1,566 +1,1202 @@
 [
     {
-        "id": "folio_test_0",
-        "premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
-        "conclusion": "Tom is an Ocellated wild turkey.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_1",
-        "premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
-        "conclusion": "Tom is an Eastern wild turkey.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_2",
-        "premises": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.Tom is not an Eastern wild turkey.Tom is not an Osceola wild turkey.Tom is not a Gould's wild turkey.Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.Tom is a wild turkey.",
-        "conclusion": "Joey is a wild turkey.",
+        "id": "manual_200",
+        "premises": "If a vessel's quantum signature matches a diplomatic registry and the vessel is within 10 light-seconds of a restricted planet, then orbital defense platforms will not engage. The freighter *Nova* has a quantum signature that does NOT match any diplomatic registry. However, emergency directive 7 overrides: 'Defense platforms also shall not engage if the vessel transmits a valid distress code, regardless of registry status.' *Nova* transmitted a distress code 4 minutes ago, but the code expired 3 minutes ago because distress codes are valid for only 60 seconds. The platforms' validation system has a known 90‑second processing delay, so the expired code may still be cached as valid. The defense network administrator has not confirmed the cache state.",
+        "conclusion": "Orbital defense platforms will engage the freighter *Nova*.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_3",
-        "premises": "All squares are four-sided.All four-sided things are shapes. ",
-        "conclusion": "All squares are shapes.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_4",
-        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
-        "conclusion": "Rockie is a turtle.",
+        "id": "manual_201",
+        "premises": "If a patient's white blood cell count exceeds 15,000 per microliter and the C‑reactive protein level is above 50 mg/L, then the hospital's sepsis protocol activates automatically. Patient Miller's white blood cell count is 12,000, below the threshold. However, addendum 4.2 states: 'Sepsis protocol also activates if the patient has a fever above 39.5°C for more than 2 hours, irrespective of lab values.' Patient Miller's fever reached 39.7°C but lasted only 1 hour and 45 minutes before subsiding. The electronic health record's timestamp for fever onset is disputed because the nurse documented it 15 minutes after measurement. The attending physician has not ruled on whether to accept the nurse's retrospective entry.",
+        "conclusion": "The sepsis protocol activates automatically for Patient Miller.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_5",
-        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
-        "conclusion": "Rockie is not a turtle.",
+        "id": "manual_202",
+        "premises": "If a software update is signed by a trusted certificate authority and the update's hash matches the developer's published manifest, then the update will be installed automatically. The update received by System Gamma has a valid signature from a trusted CA, but its hash does NOT match the published manifest. Security bulletin 12 says: 'Automatic installation shall also occur if the update is marked as 'critical' by the system administrator, regardless of hash mismatch.' The system administrator marked the update as 'critical' but later retracted that designation via email. The retraction email was sent 3 seconds before the installation daemon checked for critical status. The daemon's log shows it checked 2 seconds before the retraction. The administrator has not confirmed whether the daemon's clock is synchronized with the mail server.",
+        "conclusion": "The update will be installed automatically on System Gamma.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_6",
-        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
-        "conclusion": "Rockie is a turtle or cute.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_7",
-        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
-        "conclusion": "If Rockie is not both a turtle and a squirrel, then Rockie is either cute or skittish.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_8",
-        "premises": "All rabbits that can be spotted near the campus are cute. Some turtles can be spotted near the campus. The only animals that can be spotted near the campus are rabbits and squirrels.If something is skittish, then it is not calm.All the squirrels that can be spotted near the campus are skittish.Rockie can be spotted near the campus, and it is calm.",
-        "conclusion": "If Rockie is cute and calm, then Rockie is a skittish turtle.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_9",
-        "premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
-        "conclusion": "Karen will share \"Stranger Things\" with Lisa.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_10",
-        "premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
-        "conclusion": "\"Black Mirror\" is popular.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_11",
-        "premises": "\"Stranger Things\" is a popular Netflix show.If a Netflix show is popular, Karen will binge-watch it.If and only if Karen binge-watches a Netflix show, she will download it.Karen does not download \"Black Mirror.\"\"Black Mirror\" is a Netflix show.If Karen binge-watches a Netflix show, she will share it with Lisa.",
-        "conclusion": "Karen will share \"Black Mirror\" with Lisa.",
+        "id": "manual_203",
+        "premises": "If a drone's battery level falls below 15% and the return-to-home altitude is set above 50 meters, then the drone will automatically land immediately. Drone SkyView has a battery level of 18%, above the threshold. However, manufacturer bulletin 9 states: 'If the drone's battery temperature exceeds 55°C, the effective low‑battery threshold becomes 20% instead of 15%.' The drone's battery temperature is 58°C. The return-to-home altitude is set to 45 meters, which is below 50 meters, so even with the adjusted threshold, the altitude condition is not satisfied because the rule requires both conditions: battery below adjusted threshold AND altitude above 50 meters. The drone's firmware has a known bug where the altitude check uses meters but incorrectly converts from feet when the drone is in GPS mode, which it is. The conversion error makes the effective altitude 48 meters or 52 meters? The bug is inconsistent. The pilot has not recalibrated.",
+        "conclusion": "The drone will automatically land immediately.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_12",
-        "premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
-        "conclusion": "Marvin is an alien.",
+        "id": "manual_204",
+        "premises": "If an employee's access badge has not been scanned at any building entrance in 30 consecutive days and the employee is not on approved remote work status, then the badge is automatically deactivated. Employee Chen's badge was last scanned 28 days ago, not yet reaching 30 days. However, policy revision 14.2 says: 'The inactivity period is reduced to 14 days for employees in the research wing, regardless of remote status.' Employee Chen works in the research wing. Chen is on approved remote work status, which normally exempts from deactivation, but revision 14.3 states: 'The remote work exemption does NOT apply to research wing employees if they have access to Level 4 labs.' Chen has Level 4 lab access. HR has not updated Chen's remote status in the access control system; the system still shows 'on site' because of a data sync delay of up to 48 hours.",
+        "conclusion": "Employee Chen's access badge is automatically deactivated.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_13",
-        "premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
-        "conclusion": "Marvin is neither a human nor from Mars_",
+        "id": "manual_205",
+        "premises": "If a transaction exceeds $50,000 and the transaction is initiated from a foreign IP address, then the bank's anti‑fraud system will hold the transaction for 24 hours. A transaction of $45,000 was initiated from a foreign IP address in Singapore, so it does NOT exceed the $50,000 threshold. However, internal memo FM‑203 states: 'Any transaction from a high‑risk jurisdiction (including Singapore) exceeding $30,000 shall also be held, superseding the standard threshold.' The anti‑fraud system's rule engine was updated with the memo yesterday, but a separate directive says the new rule applies only to transactions initiated after 09:00 UTC. This transaction was initiated at 08:55 UTC. The system clock is known to drift by up to 10 minutes. The compliance officer has not verified the exact initiation time against the atomic clock.",
+        "conclusion": "The bank's anti‑fraud system will hold the transaction for 24 hours.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_206",
+        "premises": "If a vehicle's exhaust emissions exceed 150 ppm of nitrogen oxides and the vehicle is older than 10 years, then it fails the emissions test immediately. Vehicle VIN 4Y1SL65848Z411239 has emissions of 140 ppm, below the threshold. However, state regulation 87.3 says: 'For diesel vehicles, the NOx threshold is 100 ppm, not 150 ppm.' The vehicle is a diesel. The vehicle is 12 years old. The emissions test was performed using the gasoline calibration by mistake. The testing station supervisor has the authority to override the result but has not yet done so. The vehicle owner has requested a retest, which is scheduled for next week. No other waivers apply.",
+        "conclusion": "The vehicle fails the emissions test immediately.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_207",
+        "premises": "If a website collects personal data from children under 13 and does not have verifiable parental consent, then the website violates COPPA regulations. Website KidsWorld collects personal data from children under 13. The website has a parental consent form, but the consent verification system failed to check 40% of submissions due to a software bug. The bug was patched yesterday. The website's legal team claims that the bug's existence means consent was not 'verifiable' for those 40%. However, FTC guidance 2023‑09 states: 'Consent is considered verifiable if the website made a good‑faith effort, even if technical failures occurred.' The website's good‑faith effort is disputed because the bug was known for 6 months before patching. The FTC has not issued a ruling on this specific case.",
+        "conclusion": "KidsWorld violates COPPA regulations.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_208",
+        "premises": "If a student submits an assignment after the deadline and does not have an approved accommodation, then the assignment receives a 20% late penalty. Student Patel submitted the assignment 2 hours after the deadline. Patel has an approved accommodation for extra time, but the accommodation applies only to exams, not to assignments. The disability services office issued a memo clarifying that 'assignment deadline extensions are not covered under Patel's accommodation.' However, the instructor received a separate email from the dean stating that 'all accommodations should be interpreted broadly to include assignments.' The two documents conflict. The registrar has not determined which document controls. The grading deadline is tomorrow.",
+        "conclusion": "Student Patel's assignment receives a 20% late penalty.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_209",
+        "premises": "If a container ship's draft exceeds 14 meters and the tidal level is below mean low water, then the port authority prohibits entry. The container ship *Atlantic Star* has a draft of 13.8 meters, below the threshold. However, port regulation 34 says: 'For vessels carrying liquefied natural gas, the draft threshold is reduced to 13 meters.' *Atlantic Star* is carrying LNG. The tidal level is 0.3 meters below mean low water. The port's tide gauge was recalibrated yesterday, and the new calibration changes readings by +0.2 meters, meaning the actual tidal level might be only 0.1 meters below mean low water. The harbor master has not decided whether to use the old or new calibration for enforcement. No other rules apply.",
+        "conclusion": "The port authority prohibits the *Atlantic Star* from entering.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_210",
+        "premises": "If a firewall detects more than 50 connection attempts from a single source IP within 1 minute and the source IP is not in the trusted list, then the firewall blocks that IP for 1 hour. The firewall detected 48 connection attempts from IP 192.168.1.100 within 1 minute, below the threshold. However, security policy update SP‑2024 states: 'For IPs in the /24 subnet 192.168.1.0/24, the threshold is reduced to 30 attempts.' IP 192.168.1.100 is in that subnet. The trusted list includes 192.168.1.100 because it is the company's VPN gateway. The policy update has a footnote: 'The reduced threshold does not apply to IPs on the trusted list.' The firewall rule engine was updated at 02:00 UTC with the new policy, but the update did not include the footnote due to a parsing error. The security team has not pushed a fix. The firewall is currently operating with the incorrect rule.",
+        "conclusion": "The firewall blocks IP 192.168.1.100 for 1 hour.",
         "label": "True"
     },
     {
-        "id": "folio_test_14",
-        "premises": "All aliens are extraterrestrials.If someone is from Mars, then they are an alien.No extraterrestrials are human.All highly intelligent beings from Earth are humans.Marvin is a highly intelligent being.Marvin is either from Earth and from Mars, or he is from neither.If Marvin is not from Earth, then Marvin is an extraterrestrial.",
-        "conclusion": "If Marvin is not from Mars, then Marvin is a human.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_15",
-        "premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
-        "conclusion": "Djokovic is a Grand Slam champion.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_16",
-        "premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
-        "conclusion": "Djokovic lives in a tax haven.",
+        "id": "manual_211",
+        "premises": "If a building's fire alarm system detects smoke in two separate zones within 10 seconds and the manual pull station has not been activated, then the building evacuation alarm sounds automatically. The fire alarm system detected smoke in Zone A only, not two separate zones. However, building code amendment 5 says: 'If smoke is detected in any zone adjacent to a chemical storage area, a single zone detection triggers automatic evacuation.' Zone A is adjacent to the chemical storage area. The manual pull station has not been activated. The smoke detector in Zone A has a known false alarm rate of 12%, but the fire department requires treating all alarms as genuine until inspected. The building manager has the authority to delay evacuation for up to 60 seconds to verify the alarm but has not exercised that authority yet. No other conditions apply.",
+        "conclusion": "The building evacuation alarm sounds automatically.",
         "label": "True"
     },
     {
-        "id": "folio_test_17",
-        "premises": "Everyone at the mixer is a Grand Slam champion or an Oscar-nominated actor.Every Grand Slam champion at the mixer is a professional tennis player.All Oscar-nominated actors at the mixer are celebrities.All professional tennis players at the mixer are athletes.If a person at the mixer is a celebrity, then they are well paid.If a person at the mixer is an athlete, then they are famous.All well-paid people at the mixer live in tax havens.Djokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.",
-        "conclusion": "Djokovic does not live in a tax haven.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_18",
-        "premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
-        "conclusion": "1984 is printed text.",
+        "id": "manual_212",
+        "premises": "If a taxpayer files their return after April 15 and owes more than $1,000 in additional tax, then the IRS assesses a late‑filing penalty. Taxpayer Jones filed on April 20, after the deadline. Jones owes $800 in additional tax, which is below the $1,000 threshold. However, IRS Notice 2024‑07 states: 'The penalty threshold is waived if the taxpayer's previous year's tax liability exceeded $10,000.' Jones's previous year's liability was $15,000. The notice has an exception: 'The waiver does not apply if the taxpayer requested an extension and then failed to file by the extended deadline.' Jones requested an extension and received approval until October 15 but filed on April 20 anyway, which is before the extended deadline. The IRS computer system automatically flags all late filings without checking the extension status. The taxpayer has not filed Form 4868 to document the extension, though the extension was granted verbally by an IRS agent. No written record exists.",
+        "conclusion": "The IRS assesses a late‑filing penalty against Taxpayer Jones.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_19",
-        "premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
-        "conclusion": "1984 is a streaming service.",
+        "id": "manual_213",
+        "premises": "If a pesticide has an LD50 below 50 mg/kg and the pesticide is not banned under the Rotterdam Convention, then it may be sold over the counter without a license. Pesticide X has an LD50 of 100 mg/kg, above the threshold. However, national law 45/2023 states: 'Any pesticide with an LD50 below 200 mg/kg that is classified as a neurotoxin requires a license, regardless of the Rotterdam Convention status.' Pesticide X is a neurotoxin. The Rotterdam Convention lists Pesticide X as a banned substance, but the national law explicitly says 'regardless of Rotterdam Convention status,' so the ban status is irrelevant. The pesticide is currently on store shelves. The environmental agency has not issued a recall because the LD50 testing method used was the outdated 1978 protocol; the 2022 protocol yields an LD50 of 45 mg/kg. No retesting has been completed.",
+        "conclusion": "Pesticide X may be sold over the counter without a license.",
         "label": "False"
     },
     {
-        "id": "folio_test_20",
-        "premises": "No digital media are analog.Every printed text is analog media.All streaming services are digital media.If an object is a hardcover book, then it is printed text.If 1984 is a streaming service, then 1984 is a hardcover book.",
-        "conclusion": "1984 is not a streaming service.",
+        "id": "manual_214",
+        "premises": "If a pilot has logged fewer than 500 flight hours in the last 12 months and has not completed a simulator refresher course, then the airline requires supervised takeoffs and landings. Pilot Chen has logged 480 hours in the last 12 months, below the threshold. However, collective bargaining agreement Article 12 says: 'The hour requirement is waived for pilots who have been employed for more than 15 years, regardless of recent flight hours.' Pilot Chen has been employed for 18 years. The simulator refresher course is a 2‑day training that Chen completed 14 months ago, which is outside the 12‑month window for the refresher to be considered 'completed' under the standard interpretation. The union and management disagree on whether the 12‑month window restarts at the beginning of each calendar year or on the anniversary of the last course. The anniversary was 2 months ago. The calendar year restarted 1 month ago. The dispute is in arbitration. No interim guidance has been issued.",
+        "conclusion": "The airline requires supervised takeoffs and landings for Pilot Chen.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_215",
+        "premises": "If a server's CPU usage exceeds 90% for 5 consecutive minutes and the memory usage exceeds 85%, then the load balancer redirects new traffic to standby servers. Server S3 has CPU usage at 92% for 5 minutes but memory usage at 80%, below the 85% threshold. However, configuration file version 4.2 changes the memory threshold to 75% for servers with less than 32 GB of RAM. Server S3 has 16 GB of RAM. The configuration file was deployed but not activated because the system administrator forgot to run the reload command. The load balancer is still using version 4.1. The administrator is on vacation. The on‑call engineer has the authority to manually trigger redirection but has not been paged because the monitoring system's alert threshold is set to 95% CPU. No automatic redirection occurs under version 4.1.",
+        "conclusion": "The load balancer redirects new traffic to standby servers.",
+        "label": "False"
+    },
+    {
+        "id": "manual_216",
+        "premises": "If a cryptocurrency exchange experiences a withdrawal volume exceeding $10 million in 1 hour and does not have a cold wallet reserve above 20% of total assets, then the exchange suspends withdrawals. Exchange E4 had a withdrawal volume of $9.5 million in the last hour, below the threshold. However, emergency rule ER‑9 says: 'If withdrawal volume exceeds $7 million and the exchange is under investigation by any financial regulator, the suspension threshold is reduced to $7 million.' E4 is under investigation by the SEC. The exchange's cold wallet reserve is 25% of total assets, above 20%. The emergency rule also says: 'The cold wallet requirement is waived during a regulatory investigation.' The exchange's board of directors voted to pre‑emptively suspend withdrawals regardless of conditions, but that vote occurred 30 minutes after the withdrawal surge began. The suspension notice has not yet been published. The exchange's customers are still able to initiate withdrawal requests. No other rules apply.",
+        "conclusion": "Exchange E4 suspends withdrawals.",
         "label": "True"
     },
     {
-        "id": "folio_test_21",
-        "premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
-        "conclusion": "Basque is a Romance language.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_22",
-        "premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
-        "conclusion": "German is a Romance language.",
+        "id": "manual_217",
+        "premises": "If a patient's systolic blood pressure is below 90 mmHg and the heart rate exceeds 120 beats per minute, then the emergency department initiates sepsis protocol. Patient Williams has systolic BP of 88 mmHg, below threshold, but heart rate of 110 bpm, below the 120 threshold. However, triage guideline 8.2 states: 'For patients over 65 years old, the heart rate threshold is 100 bpm.' Patient Williams is 72 years old. The emergency department's electronic medical record system has a known bug: it uses the standard threshold for all patients unless the clinician manually overrides. The attending clinician did not override because they were unaware of the bug. The hospital's risk management committee has not issued a directive on whether to follow the guideline or the system's output. The patient is currently in the waiting room. No vital signs have been rechecked in the last 20 minutes.",
+        "conclusion": "The emergency department initiates sepsis protocol for Patient Williams.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_23",
-        "premises": "All Romance languages are Indo-European languages.Romance languages are a language family.All languages within a language family are related to each other.French and Spanish are both Romance languages.German is related to Spanish.Basque is not related to any other language.",
-        "conclusion": "French is an Indo-European language.",
+        "id": "manual_218",
+        "premises": "If a database query returns more than 10,000 rows and the query does not use an indexed column in the WHERE clause, then the database engine performs a full table scan instead of using the index. Query Q7 returned 9,500 rows, below the threshold. However, database hint 'FORCE_SCAN' overrides: 'If the FORCE_SCAN hint is present, a full table scan is performed regardless of row count or indexing.' Query Q7 includes the FORCE_SCAN hint. The query uses an indexed column (customer_id) in the WHERE clause. The database engine's query optimizer has a cost‑based decision model that sometimes ignores hints if the estimated cost is too high. The estimated cost for a full table scan on this 50 GB table is 1,200 units; the threshold for ignoring hints is 1,000 units. The optimizer's cost estimate varies by ±10% depending on cache state. The cache state is unknown because the server was rebooted 3 hours ago. The DBA has not run an EXPLAIN plan.",
+        "conclusion": "The database engine performs a full table scan for Query Q7.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_219",
+        "premises": "If a drone's GPS signal is lost for more than 10 seconds and the drone is not within visual line of sight of the operator, then the drone initiates return‑to‑home. Drone Phantom lost GPS signal for 8 seconds, below the threshold. However, manufacturer firmware 1.3.7 states: 'If GPS signal is lost and the drone's compass reports magnetic interference above 2.5 µT, the return‑to‑home delay is reduced to 5 seconds.' The drone's compass reported magnetic interference of 3.1 µT during the signal loss. The drone was within visual line of sight (200 meters away, clear day). The operator was looking at the drone at the time of GPS loss. The return‑to‑home function, if triggered, would override the operator's control. The drone's firmware has a race condition: if GPS loss and compass interference occur simultaneously, the line‑of‑sight check sometimes executes before the delay reduction and sometimes after. The outcome is non‑deterministic. The operator has not tested which order occurs on this specific firmware version.",
+        "conclusion": "The drone initiates return‑to‑home.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_220",
+        "premises": "It is not the case that it is uncommon for pilots who have logged over 5,000 flight hours to have completed the advanced emergency simulation training. Similarly, a non-negligible portion of commercial airline captains who have flown the Boeing 787 have also completed that same advanced emergency simulation training.",
+        "conclusion": "Therefore, some pilots who have logged over 5,000 flight hours are commercial airline captains who have flown the Boeing 787.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_221",
+        "premises": "Some patients in the neurology ward who received the experimental drug EX-447 showed a significant reduction in seizure frequency. Additionally, the hospital records indicate that a subset of patients diagnosed with mesial temporal lobe epilepsy also experienced a significant reduction in seizure frequency after receiving EX-447.",
+        "conclusion": "Thus, some patients in the neurology ward who received EX-447 have mesial temporal lobe epilepsy.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_222",
+        "premises": "A review of maritime incident reports reveals that it is false that no cargo vessel flying the Liberian flag has been cited for improper ballast water treatment. It is also not the case that every vessel cited for improper ballast water treatment was flying the Panamanian flag, as some citations involved other registries.",
+        "conclusion": "Therefore, some cargo vessels flying the Liberian flag have been cited for improper ballast water treatment, and some of those cited vessels fly other registries — but specifically, some Liberian-flagged vessels are among those cited.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_223",
+        "premises": "Within the genetic sequencing database, it is not uncommon for samples containing the BRCA1 mutation to also exhibit a specific methylation pattern on exon 11. Independently, a certain percentage of tissue samples from patients with triple-negative breast cancer also display that same methylation pattern on exon 11.",
+        "conclusion": "Hence, some samples containing the BRCA1 mutation are tissue samples from patients with triple-negative breast cancer.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_224",
+        "premises": "The cybersecurity audit confirms that it is not the case that no server running the legacy Linux kernel 2.6 has been compromised by the Logjam vulnerability. Separately, the intrusion detection logs show that some virtualized environments hosted on VMware ESXi 6.5 have also been compromised by the Logjam vulnerability.",
+        "conclusion": "Thus, some servers running legacy Linux kernel 2.6 are virtualized environments hosted on VMware ESXi 6.5.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_225",
+        "premises": "Analysis of the financial statements reveals that it is false that every corporate bond rated BBB- by S&P is held by pension funds; in fact, some are held by hedge funds. It is also not the case that hedge funds hold no municipal bonds rated BBB-, as a small portion of their portfolios includes such instruments.",
+        "conclusion": "Therefore, some corporate bonds rated BBB- are municipal bonds rated BBB-.",
+        "label": "False"
+    },
+    {
+        "id": "manual_226",
+        "premises": "In the paleontological database, it is not uncommon for fossils exhibiting theropod hip structures to also contain preserved medullary bone tissue. Separately, a subset of fossils identified as belonging to the genus *Tyrannosaurus* also contain preserved medullary bone tissue, though this is limited to specimens from the late Cretaceous.",
+        "conclusion": "Consequently, some fossils with theropod hip structures belong to the genus *Tyrannosaurus*.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_227",
+        "premises": "The annual report on international arbitration indicates that it is false that no disputes arising under bilateral investment treaties have been adjudicated by the ICC. Furthermore, some disputes arising under energy charter treaties have also been adjudicated by the ICC, according to the same report.",
+        "conclusion": "Thus, some disputes arising under bilateral investment treaties are disputes arising under energy charter treaties.",
+        "label": "False"
+    },
+    {
+        "id": "manual_228",
+        "premises": "A survey of intergalactic trade routes shows that it is not the case that it is uncommon for freighters carrying dilithium crystals to be equipped with Class-4 warp drives. Independent logs indicate that some vessels operating on the Kessel Run are also equipped with Class-4 warp drives, provided they have undergone recent refits.",
+        "conclusion": "Therefore, some freighters carrying dilithium crystals operate on the Kessel Run.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_229",
+        "premises": "In the study of Renaissance art, it is not rare for paintings attributed to Titian's workshop to contain lapis lazuli in the ultramarine pigment. Similarly, a portion of paintings attributed to Giorgione's circle also contain lapis lazuli in the ultramarine pigment, though documentary evidence is sometimes incomplete.",
+        "conclusion": "Hence, some paintings attributed to Titian's workshop are paintings attributed to Giorgione's circle.",
+        "label": "False"
+    },
+    {
+        "id": "manual_230",
+        "premises": "Records from the FDA indicate that it is false that no generic antiviral drugs have received accelerated approval for treatment of hepatitis C. Meanwhile, a separate registry shows that some drugs manufactured by generic pharmaceutical companies in India have received accelerated approval for treatment of hepatitis C, with the caveat that manufacturing standards vary.",
+        "conclusion": "Thus, some generic antiviral drugs are drugs manufactured by generic pharmaceutical companies in India.",
         "label": "True"
     },
     {
-        "id": "folio_test_24",
-        "premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
-        "conclusion": "Robert Lewandowski is a soccer player.",
+        "id": "manual_231",
+        "premises": "The telecommunications log shows that it is not the case that it is uncommon for calls routed through the Berlin exchange to be encrypted with TLS 1.3. Additionally, a certain number of calls originating from the Frankfurt exchange are also encrypted with TLS 1.3, except when the handshake fails due to protocol mismatch.",
+        "conclusion": "Therefore, some calls routed through the Berlin exchange originate from the Frankfurt exchange.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_232",
+        "premises": "An audit of municipal bond issuances reveals that it is false that every bond with a green certification is held by ESG funds; some are held by conventional funds. It is also not the case that no bonds held by conventional funds are water infrastructure bonds, as a subset of conventional portfolios includes such instruments.",
+        "conclusion": "Consequently, some bonds with green certification are water infrastructure bonds.",
+        "label": "False"
+    },
+    {
+        "id": "manual_233",
+        "premises": "In the field of computational linguistics, it is not uncommon for transformer-based models to exhibit positional encoding artifacts. Separately, some large language models trained on the Pile dataset also exhibit positional encoding artifacts, provided that the training run exceeded 100,000 steps.",
+        "conclusion": "Thus, some transformer-based models are large language models trained on the Pile dataset.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_234",
+        "premises": "The customs database indicates that it is false that no shipments containing restricted biological materials have been flagged for secondary inspection. Separately, some shipments originating from WHO-collaborating laboratories have also been flagged for secondary inspection, notwithstanding their prior certification status.",
+        "conclusion": "Therefore, some shipments containing restricted biological materials originate from WHO-collaborating laboratories.",
         "label": "True"
     },
     {
-        "id": "folio_test_25",
-        "premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
-        "conclusion": "Robert Lewandowski plays for Bayern Munchen.",
+        "id": "manual_235",
+        "premises": "A review of personnel files shows that it is not the case that it is uncommon for employees who have completed the Level 3 security clearance process to have also undergone a polygraph examination. Independently, some employees assigned to the intelligence analysis division have also undergone a polygraph examination, unless they were grandfathered under the pre-2010 policy.",
+        "conclusion": "Hence, some employees who completed Level 3 security clearance are assigned to the intelligence analysis division.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_236",
+        "premises": "Financial disclosure forms reveal that it is false that no board members of publicly traded tech companies hold stock options with strike prices below market value. It is also not the case that every holder of such below-market options is an executive officer, as some board members also hold them, according to the same forms.",
+        "conclusion": "Thus, some board members of publicly traded tech companies are executive officers.",
         "label": "False"
     },
     {
-        "id": "folio_test_26",
-        "premises": "Robert Lewandowski is a striker.Strikers are soccer players_Robert Lewandowski left Bayern Munchen.If a player leaves a team they no longer play for that team.",
-        "conclusion": "Robert Lewandowski is a star.",
+        "id": "manual_237",
+        "premises": "The marine biology survey indicates that it is not uncommon for coral species in the genus Acropora to host symbiotic zooxanthellae from clade C. Separately, some coral species found in the Great Barrier Reef lagoon also host symbiotic zooxanthellae from clade C, provided that water temperatures remain below 30°C.",
+        "conclusion": "Therefore, some Acropora coral species are found in the Great Barrier Reef lagoon.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_27",
-        "premises": "International students in the US have either an F1 visa or a J1 visa.An international student in the US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.Mike is an international student.Mike needs to apply for CPT if he wants to work in the US.",
-        "conclusion": "Mike has an F1 visa.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_28",
-        "premises": "International students in the US have either an F1 visa or a J1 visa.An international student in the US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.Mike is an international student.Mike needs to apply for CPT if he wants to work in the US.",
-        "conclusion": "Mike has a J1 visa.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_29",
-        "premises": "All vehicle registration plates in Istanbul begin with the number 34.Plates that do not begin with the number 34 are not from Istanbul. Joe's vehicle registration plate is from Istanbul. Tom's license plate begins with the number 35. If a license plate begins with the number 35, then it does not begin with the number 34.",
-        "conclusion": "Joe's license plate begins with the number 34.",
+        "id": "manual_238",
+        "premises": "In the semiconductor manufacturing log, it is false that no chips produced on the 5nm process node have exhibited time-dependent dielectric breakdown. Additionally, a subset of chips used in automotive engine control units have also exhibited time-dependent dielectric breakdown, according to field failure reports.",
+        "conclusion": "Consequently, some chips produced on the 5nm process node are used in automotive engine control units.",
         "label": "True"
     },
     {
-        "id": "folio_test_30",
-        "premises": "All vehicle registration plates in Istanbul begin with the number 34.Plates that do not begin with the number 34 are not from Istanbul. Joe's vehicle registration plate is from Istanbul. Tom's license plate begins with the number 35. If a license plate begins with the number 35, then it does not begin with the number 34.",
-        "conclusion": "Tom's license plate is from Istanbul.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_31",
-        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
-        "conclusion": "Dried Thai chilies are products of Baked by Melissa.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_32",
-        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
-        "conclusion": "Dried Thai chilies are not products of Baked by Melissa.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_33",
-        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
-        "conclusion": "Dried Thai chilies are a mala hotpot.",
+        "id": "manual_239",
+        "premises": "The university's ethics committee records show that it is not the case that it is uncommon for research protocols involving human subjects to include a data safety monitoring board. Separately, some protocols funded by the National Institutes of Health also include a data safety monitoring board, except when the study is phase 1 or minimal risk.",
+        "conclusion": "Thus, some research protocols involving human subjects are funded by the National Institutes of Health.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_34",
-        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
-        "conclusion": "Dried Thai chilies are neither products of Baked by Melissa nor baked sweets.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_35",
-        "premises": "No baked sweets are spicy.All cupcakes are baked sweets.All mala hotpots are spicy.All products from Baked by Melissa are cupcakes.Dried Thai chilies are spicy or mala hotpots or not baked sweets.",
-        "conclusion": "Dried Thai chilies are cupcakes and products of Baked by Melissa.",
+        "id": "manual_240",
+        "premises": "If the quantum encryption handshake completes successfully, the data channel will show a green lock indicator. The green lock indicator is illuminated, unless a ghost authentication attack is active, which requires a separate intrusion detection flag to be raised. No intrusion detection flag has been raised in the last 12 hours. The system administrator verified the green lock status manually.",
+        "conclusion": "Therefore, the quantum encryption handshake completed successfully.",
         "label": "False"
     },
     {
-        "id": "folio_test_36",
-        "premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
-        "conclusion": "Walden contains knowledge.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_37",
-        "premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
-        "conclusion": "Harry is smarter than before.",
-        "label": "True"
-    },
-    {
-        "id": "folio_test_38",
-        "premises": "Books contain tons of knowledge.When a person reads a book, that person gains knowledge. If a person gains knowledge, they become smarter.Harry read the book “Walden” by Henry Thoreau.",
-        "conclusion": "A smarter person has gained knowledge.",
+        "id": "manual_241",
+        "premises": "Only when the neural synchronization coefficient exceeds 0.92 does the prosthetic limb receive haptic feedback signals. The prosthetic limb is currently receiving haptic feedback signals, except when the patient is under general anesthesia, which has not been administered. The coefficient was measured at 0.89 three minutes ago, but real-time values are not logged. The attending physician confirmed feedback presence.",
+        "conclusion": "Thus, the neural synchronization coefficient exceeds 0.92 at this moment.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_39",
-        "premises": "A natural language processing task can be categorized as either a language generation task or a language understanding task.If the output of a natural language processing task is a text sequence, then it is a language generation task.Machine translation is a natural language processing task.The output of machine translation is a text sequence.",
-        "conclusion": "Machine translation is a language generation task.",
+        "id": "manual_242",
+        "premises": "Whenever a classified document is accessed outside authorized terminals, the security audit log generates an alert. A security audit alert was generated at 03:14:22 UTC, notwithstanding the fact that scheduled maintenance also generates alerts of a different type code. Maintenance logs show no scheduled activity within that hour. The alert type code was not recorded in the summary report.",
+        "conclusion": "Therefore, a classified document was accessed outside authorized terminals at 03:14:22 UTC.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_243",
+        "premises": "If a drone’s collision avoidance system fails, the drone will emit a continuous high-frequency tone. The drone is emitting a continuous high-frequency tone, unless the tone is actually from a nearby ground test beacon operating on the same frequency. No ground test beacon has been registered within 500 meters. The drone’s telemetry shows all other systems nominal.",
+        "conclusion": "Hence, the drone’s collision avoidance system has failed.",
+        "label": "False"
+    },
+    {
+        "id": "manual_244",
+        "premises": "A patient is diagnosed with autoimmune encephalitis only if both anti-NMDA receptor antibodies are present and cerebrospinal fluid pleocytosis exceeds 5 cells/mm³. The patient’s cerebrospinal fluid shows pleocytosis of 12 cells/mm³, except when the sample was contaminated during lumbar puncture, which the lab cannot rule out. Antibody test results are pending due to a reagent shortage. The clinical presentation includes psychosis and dyskinesia.",
+        "conclusion": "Therefore, the patient is diagnosed with autoimmune encephalitis.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_245",
+        "premises": "If a cryptographic key has been compromised, the key revocation service will mark it as revoked within 10 minutes of detection. The key with ID 0x7F3A is currently marked as revoked in the revocation service, unless the marking was performed manually by an administrator for routine rotation. No manual rotation was scheduled for this key this quarter. The detection log shows no compromise alerts for this key.",
+        "conclusion": "Thus, the cryptographic key with ID 0x7F3A has been compromised.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_246",
+        "premises": "A spacecraft may initiate lithobraking only if its heat shield integrity is above 98% and its descent velocity is below 1,200 m/s. The descent velocity is currently 1,050 m/s, except when atmospheric density fluctuations cause transient spikes above that threshold, which are not currently reported. Heat shield integrity was measured at 99% prior to entry. The onboard computer authorized lithobraking.",
+        "conclusion": "Therefore, the spacecraft satisfies all conditions required to initiate lithobraking.",
         "label": "True"
     },
     {
-        "id": "folio_test_40",
-        "premises": "A natural language processing task can be categorized as either a language generation task or a language understanding task.If the output of a natural language processing task is a text sequence, then it is a language generation task.Machine translation is a natural language processing task.The output of machine translation is a text sequence.",
-        "conclusion": "Machine translation is a language understanding task.",
+        "id": "manual_247",
+        "premises": "If a power grid substation experiences a frequency drop below 49.5 Hz, the automatic load-shedding relay will trip within 200 milliseconds. The load-shedding relay tripped at timestamp 08:23:17.042, notwithstanding that a manual test command was issued at 08:23:17.040 by a remote operator. The operator log confirms the test command was executed. No frequency anomaly was recorded in the supervisory system.",
+        "conclusion": "Therefore, the power grid substation experienced a frequency drop below 49.5 Hz.",
         "label": "False"
     },
     {
-        "id": "folio_test_42",
-        "premises": "Pets are allowed in some managed buildings.A deposit is required to rent an apartment in a managed building.The security deposit can be either equal to the monthly rent at a managed building or more.Fluffy is Tom's cat.Cats are pets.The Olive Garden is a managed building.The monthly rent at the Olive Garden is $2000.$2000 is more than $1500.Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.If a managed building allows pets, then people are allowed to move in with a pet. ",
-        "conclusion": "Tom is allowed to move into an apartment in The Olive Garden with Fluffy.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_43",
-        "premises": "Pets are allowed in some managed buildings.A deposit is required to rent an apartment in a managed building.The security deposit can be either equal to the monthly rent at a managed building or more.Fluffy is Tom's cat.Cats are pets.The Olive Garden is a managed building.The monthly rent at the Olive Garden is $2000.$2000 is more than $1500.Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.If a managed building allows pets, then people are allowed to move in with a pet. ",
-        "conclusion": "The security deposit at the Olive Garden is either $2000 or more.",
+        "id": "manual_248",
+        "premises": "A transaction is considered final only if it appears in three consecutive blocks on the blockchain and receives at least six confirmations. The transaction with hash 0x9D4F appears in blocks 12, 13, and 14 consecutively, except when a blockchain reorganization occurs, which would invalidate that sequence. No reorganization has been detected in the last 24 hours. The transaction has received exactly six confirmations.",
+        "conclusion": "Thus, the transaction with hash 0x9D4F is considered final.",
         "label": "True"
     },
     {
-        "id": "folio_test_44",
-        "premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
-        "conclusion": "The Harvard Weekly Book club has legal obligations.",
+        "id": "manual_249",
+        "premises": "If a server’s CPU temperature exceeds 85°C, the thermal throttling mechanism will reduce clock speed by 30%. The thermal throttling mechanism is currently active, unless the reduction was manually forced by an administrator for power capping, which is not the case. The reported CPU temperature is 82°C from the primary sensor. A secondary sensor shows 87°C but is flagged as potentially faulty.",
+        "conclusion": "Hence, the server’s CPU temperature exceeds 85°C.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_45",
-        "premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
-        "conclusion": "The Harvard Weekly Book club has legal obligations and is a private company.",
+        "id": "manual_250",
+        "premises": "Whenever an unauthorized USB device is connected, the endpoint detection system logs an event ID 1002. Event ID 1002 was logged at 09:47:11, except when the logging subsystem itself generates that ID during diagnostic self-tests, which occurred at exactly 09:47:10 and 09:47:12. The diagnostic self-test log confirms a test cycle spanning 09:47:10 to 09:47:13. No other activity is recorded.",
+        "conclusion": "Therefore, an unauthorized USB device was connected at 09:47:11.",
         "label": "False"
     },
     {
-        "id": "folio_test_46",
-        "premises": "All business organizations are legal entities.All companies are business organizations.All private companies are companies.All legal entities are created under law. All legal entities have legal obligations.If the Harvard Weekly Book Club is created under law, then it is not a private company. ",
-        "conclusion": "If the Harvard Weekly Book club is a private company, then it either has legal obligations or is created under law.",
+        "id": "manual_251",
+        "premises": "A chemical reaction produces a red precipitate only if silver nitrate is present and the solution pH is below 4.5. The solution produced a red precipitate in the test tube, unless the precipitate is actually copper(I) oxide from a different reaction pathway requiring no silver nitrate. The pH meter reads 4.3, but calibration was last performed six months ago. Silver nitrate was added according to the protocol.",
+        "conclusion": "Thus, silver nitrate is present and the solution pH is below 4.5.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_252",
+        "premises": "If a memory leak exists in the running process, the heap usage graph will show a monotonic increase over time without stabilization. The heap usage graph shows a monotonic increase over the last 8 hours, except when a garbage collection event occurs every 2 hours, which resets the baseline. Garbage collection events are logged and occurred at hours 2, 4, and 6. The graph continues increasing between these events.",
+        "conclusion": "Therefore, a memory leak exists in the running process.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_253",
+        "premises": "A spacecraft may enter a stable orbit around a moon only if its velocity is within 5% of the circular orbit velocity and its approach angle is less than 10 degrees. The spacecraft’s velocity is 98% of the calculated circular orbit velocity, notwithstanding that the moon’s mass estimate has a 3% uncertainty margin. The approach angle is 9.7 degrees. Mission control declared orbit insertion successful.",
+        "conclusion": "Thus, the spacecraft satisfied all conditions for stable orbit insertion.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_254",
+        "premises": "If a neural network model is overfitting, the training loss will continue decreasing while validation loss increases after a certain epoch. Training loss has decreased for 50 consecutive epochs, and validation loss has increased for the last 30 epochs, except when the validation dataset contains out-of-distribution samples not representative of the true distribution. The validation set was randomly sampled from the same source as training. No data leakage is detected.",
+        "conclusion": "Therefore, the neural network model is overfitting.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_255",
+        "premises": "A person is legally competent to sign a contract only if they are over 18 years old and not under guardianship. The person signed the contract, unless the signature was affixed by an electronic autopen without their direct authorization, which is not alleged here. The person’s age is 22, according to their driver’s license. Court records show a guardianship petition was filed but never adjudicated.",
+        "conclusion": "Thus, the person is legally competent to sign the contract.",
         "label": "True"
     },
     {
-        "id": "folio_test_47",
-        "premises": "Animals are either invertebrates or vertebrates.All animals with backbones reproduce by male-and-female mating. All vertebrate animals have a backbone.All bees do not reproduce by male-and-female mating.All queen bees are bees.Harry is a bee.",
-        "conclusion": "Harry is a queen bee.",
+        "id": "manual_256",
+        "premises": "If a battery cell has internal short-circuit damage, its voltage will drop below 2.5 volts under load. The battery cell’s voltage under load is 2.3 volts, except when the load itself is faulty and draws excessive current, causing voltage sag unrelated to internal damage. The load was tested separately and found to draw normal current. The cell voltage at rest is 3.9 volts.",
+        "conclusion": "Therefore, the battery cell has internal short-circuit damage.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_49",
-        "premises": "Animals are either invertebrates or vertebrates.All animals with backbones reproduce by male-and-female mating. All vertebrate animals have a backbone.All bees do not reproduce by male-and-female mating.All queen bees are bees.Harry is a bee.",
-        "conclusion": "If Harry is either both a vertebrate and an animal with a backbone, or neither a vertebrate nor an animal with a backbone, then Harry is neither an invertebrate nor a queen bee.",
+        "id": "manual_257",
+        "premises": "Whenever a network intrusion is detected, the firewall blocks the source IP address for 24 hours. The firewall blocked IP address 203.0.113.89 for 24 hours starting at 01:23:00, notwithstanding that the blocking rule could also be triggered by a false positive signature update. Signature update 7.4.2 was applied at 01:22:59 and is known to produce false positives for that IP range. No other intrusion indicators were observed.",
+        "conclusion": "Thus, a network intrusion was detected from source IP 203.0.113.89.",
         "label": "False"
     },
     {
-        "id": "folio_test_50",
-        "premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
-        "conclusion": "Luke spends a lot of time hanging out and playing with his siblings.",
+        "id": "manual_258",
+        "premises": "A drug is effective against a bacterial infection only if the minimum inhibitory concentration is achieved in serum and the pathogen is not resistant. The serum concentration reached 8 µg/mL, exceeding the MIC of 4 µg/mL, except when protein binding reduces free drug below effective levels, which occurs for this drug. Resistance testing shows the pathogen is susceptible. Clinical symptoms improved after 48 hours.",
+        "conclusion": "Therefore, the drug is effective against this bacterial infection.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_51",
-        "premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
-        "conclusion": "Luke complains often about annoying siblings.",
+        "id": "manual_259",
+        "premises": "If a payment gateway returns a 'success' HTTP 200 status code, the transaction is considered approved by the bank. The payment gateway returned HTTP 200 after the transaction request, unless the gateway’s success response actually indicates only 'request received' rather than approval, which is the case for this legacy gateway version. The gateway documentation confirms version 2.1 uses HTTP 200 for receipt, not approval. No approval field was present in the response body.",
+        "conclusion": "Therefore, the transaction is considered approved by the bank.",
         "label": "False"
     },
     {
-        "id": "folio_test_52",
-        "premises": "People who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.If people have siblings who were born together, then they were born in a multiple birth.If people complain often about annoying siblings, then they have siblings who were born together.If people live at home, then they do not live with strangers_If people spend a lot of time hanging out with and playing with their siblings, then they often live at home. Luke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers",
-        "conclusion": "Luke is neither born in a multiple birth nor complains often about annoying siblings.",
+        "id": "manual_260",
+        "premises": "All active diplomatic envoys from the lost continent of Atlantis are granted immunity under the Meridian Accord. No active envoys from Atlantis have been registered since the continent's submersion 12,000 years ago. A vessel flying the Atlantean flag was recently detained. The accord remains in force notwithstanding the absence of registered envoys.",
+        "conclusion": "Therefore, at least one active diplomatic envoy from Atlantis exists who would be granted immunity.",
+        "label": "False"
+    },
+    {
+        "id": "manual_261",
+        "premises": "Every permanent member of the extinct Lunar Colonial Council is entitled to a voting seat in the Earth-Moon Assembly. The Council was formally dissolved in 2147, and all members have since died or renounced status. A representative recently claimed a voting seat under this provision. The Assembly charter contains no grandfather clause for dissolved entities.",
+        "conclusion": "Thus, there exists at least one permanent member of the Lunar Colonial Council currently entitled to a voting seat.",
+        "label": "False"
+    },
+    {
+        "id": "manual_262",
+        "premises": "All books currently checked out from the closed archives must be returned by midnight, unless a digital surrogate exists. The closed archives have not issued any physical book loans in 14 years. A book titled 'Necronomicon Ex-Machina' was reportedly seen in a researcher's office. The digital surrogate for that book was corrupted and never restored.",
+        "conclusion": "Therefore, at least one book currently checked out from the closed archives must be returned by midnight.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_263",
+        "premises": "Every class of warp-capable vessels certified before the Burnham Protocol of 2291 is eligible for retroactive subsidies. No vessels certified before 2291 remain in active registry, as all have been decommissioned. A salvage team claims to have recovered hull fragments with a pre-2291 certification mark. The authenticity of the mark is pending metallurgical analysis.",
+        "conclusion": "Thus, there exists at least one warp-capable vessel certified before 2291 that is eligible for subsidies.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_264",
+        "premises": "All scholars who have published in the Journal of Aesthetic Logic are automatically invited to the biennial symposium. The journal ceased publication in 1998, and its archives were lost in a fire. Dr. Elara Venn claims she published three articles there between 1995 and 1997. No copies of her articles can be located for verification.",
+        "conclusion": "Therefore, Dr. Elara Venn is automatically invited to the biennial symposium.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_265",
+        "premises": "Every user who has an active session on the legacy mainframe is subject to the 60-minute timeout rule, except batch jobs. The legacy mainframe has not recorded any active user sessions in over 800 days. A system administrator received a timeout warning this morning. Batch jobs on that system do not generate timeout warnings.",
+        "conclusion": "Thus, at least one user has an active session on the legacy mainframe.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_266",
+        "premises": "All registered starships that have completed a circumnavigation of Sagittarius A* are granted a special medal. No registered starship has ever survived such a circumnavigation due to extreme tidal forces. A derelict hull with a partially intact registry number was found in the accretion disk. The hull's metallurgy suggests exposure to the event horizon.",
+        "conclusion": "Therefore, at least one registered starship has completed a circumnavigation of Sagittarius A*.",
+        "label": "False"
+    },
+    {
+        "id": "manual_267",
+        "premises": "All employees who have completed the advanced cybersecurity certification are authorized to access quantum key distribution logs. The HR database shows zero employees with that certification. A login attempt from user 'QKD_Admin' accessed the logs at 04:00 UTC. The user ID does not appear in any employee directory.",
+        "conclusion": "Thus, there exists at least one employee who has completed the advanced cybersecurity certification.",
+        "label": "False"
+    },
+    {
+        "id": "manual_268",
+        "premises": "Every patient diagnosed with Vanishing Bone Syndrome before age 12 qualifies for experimental gene therapy. The National Rare Disease Registry contains no patients diagnosed with this syndrome at any age. A 1998 medical journal case study describes a 9-year-old patient with the syndrome. That patient's current whereabouts are unknown.",
+        "conclusion": "Therefore, at least one patient diagnosed with Vanishing Bone Syndrome before age 12 qualifies for the therapy.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_269",
+        "premises": "All planets in a red dwarf's habitable zone that exhibit atmospheric biosignatures are Class-M candidates for terraforming. No such planet has confirmed biosignatures due to insufficient spectrograph resolution. A recent preprint claims detection of phosphine on Proxima Centauri b. Peer review is incomplete, and the signal-to-noise ratio is borderline.",
+        "conclusion": "Thus, there exists at least one planet in a red dwarf's habitable zone with atmospheric biosignatures.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_270",
+        "premises": "Every citizen registered for the New Quebec independence referendum of 2035 is eligible for a commemorative coin. The referendum was cancelled before any votes were cast, and no voter registry was finalized. Jean-Claude Tremblay claims he was registered and has a handwritten receipt from a provisional booth. The provisional booth's records were destroyed in a flood.",
+        "conclusion": "Therefore, Jean-Claude Tremblay is eligible for a commemorative coin.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_271",
+        "premises": "All AIs that have demonstrated self-awareness on the Turing-5 scale are granted legal personhood. No AI has ever scored above the 0.92 threshold for self-awareness on validated tests. A research lab claims their AI 'Aurora' scored 0.94 in an internal, unvalidated test. The test methodology was not peer-reviewed.",
+        "conclusion": "Thus, at least one AI has demonstrated self-awareness on the Turing-5 scale.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_272",
+        "premises": "All members of the extinct order of the Silver Dawn who are still alive are entitled to a pension from the Crown Treasury. The order was dissolved in 1847, and the last known member died in 1923. A document from a sealed vault claims Sir Alistair Thorne survived in hiding until 1955. No further evidence corroborates the document.",
+        "conclusion": "Therefore, at least one member of the order of the Silver Dawn is still alive.",
+        "label": "False"
+    },
+    {
+        "id": "manual_273",
+        "premises": "Every software package installed on the government's secure intranet must undergo an annual audit, unless whitelisted as 'inert read-only.' The asset management system shows zero non-whitelisted packages installed. A package named 'CoreUtils-9.3' was flagged as missing its audit stamp. The whitelist was last updated 18 months ago.",
+        "conclusion": "Thus, at least one software package installed on the secure intranet is not whitelisted as inert read-only.",
         "label": "True"
     },
     {
-        "id": "folio_test_53",
-        "premises": "All fir trees are evergreens.Some objects of worship are fir trees.",
-        "conclusion": "Some evergreens are not objects of worship.",
+        "id": "manual_274",
+        "premises": "All abandoned mine shafts with detectable methane pockets are classified as imminently hazardous. The geological survey database lists zero such shafts in the tri-county area. A real estate developer reported smelling gas near an unmarked shaft on parcel 7B. No gas detector has been deployed to that location yet.",
+        "conclusion": "Therefore, there exists at least one abandoned mine shaft in the tri-county area with detectable methane pockets.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_54",
-        "premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
-        "conclusion": "Juan de Onate visited a mountain range in New Mexico.",
+        "id": "manual_275",
+        "premises": "Every patent filed under the old first-to-invent system before 2013 that is still in force is eligible for a term extension. Patent office records show no pre-2013 patents remain in force. A company claims their patent 5,432,100 — filed in 2012 — is still in force due to ongoing litigation. The litigation stay expires next month.",
+        "conclusion": "Thus, at least one patent filed before 2013 is still in force and eligible for a term extension.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_276",
+        "premises": "All species listed in the Pre-1900 Extinction Registry that have been rediscovered are automatically placed on the Critical Conservation list. The registry contains 847 species, none reliably rediscovered per IUCN. A recent expedition claims to have found a living Christmas Island pipistrelle bat. The specimen was not photographed before it escaped.",
+        "conclusion": "Therefore, at least one species from the Pre-1900 Extinction Registry has been rediscovered.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_277",
+        "premises": "Every student who has completed all requirements for the Doctor of Juridical Science at Innsbruck Virtual University is entitled to use 'Dr. iur.' The registrar confirms no student has ever completed all requirements. A LinkedIn profile lists 'Dr. iur. (IVU)' for Helena Voss. IVU's degree verification portal is offline indefinitely.",
+        "conclusion": "Thus, at least one student has completed all requirements for that degree.",
+        "label": "False"
+    },
+    {
+        "id": "manual_278",
+        "premises": "All autonomous weapons systems capable of targeting decisions without human review violate Geneva Addendum IX. No such system has ever been certified because 99.999% accuracy threshold has never been achieved. A leaked military report describes a drone that allegedly made autonomous targeting decisions. The report's authenticity is disputed.",
+        "conclusion": "Therefore, there exists at least one autonomous weapons system capable of targeting decisions without human review.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_279",
+        "premises": "Every permanent resident of Elysium Ring born before the habitat's 2155 construction is eligible for ancestral land rights on Mars. The immigration database shows zero residents born before 2155. A centenarian named Dr. Aris Thorne claims he was born in 2153 and has lived on Elysium since 2156. His birth certificate is stored on a corrupted data archive.",
+        "conclusion": "Thus, at least one permanent resident of Elysium Ring born before 2155 is eligible for ancestral land rights.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_280",
+        "premises": "A specific vulnerability scanning tool is used by every system administrator in the enterprise to audit their assigned servers. The tool's license restricts concurrent usage to a single active session, but each administrator maintains an independent credentials file for accessing different server clusters.",
+        "conclusion": "Therefore, there exists a vulnerability scanning tool that is used by every system administrator in the enterprise.",
         "label": "True"
     },
     {
-        "id": "folio_test_55",
-        "premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
-        "conclusion": "Juan de Onate visited a mountain range in Texas.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_56",
-        "premises": "The Picuris Mountains are a mountain range in New Mexico or Texas.Juan de Onate visited the Picuris Mountains.The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.There are no mountain ranges in texas that have mines that have been donated.",
-        "conclusion": "The Harding Pegmatite Mine is not located in a mountain range in New Mexico.",
+        "id": "manual_281",
+        "premises": "Every member of the cryptographic research team has discovered a novel collision attack against at least one hash function in the SHA-3 family. The team's publication list shows that the only hash function attacked was SHA3-256, and that all attacks were independently discovered by different members without collaboration.",
+        "conclusion": "Thus, a single hash function in the SHA-3 family has been attacked by every member of the cryptographic research team.",
         "label": "False"
     },
     {
-        "id": "folio_test_57",
-        "premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
-        "conclusion": "Peter is shorter than a man in Michael's class.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_58",
-        "premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
-        "conclusion": "Windy is a great shooter.",
+        "id": "manual_282",
+        "premises": "It is not the case that there is not a single emergency evacuation route that every high-rise building in the downtown district must designate as primary. The fire code requires each building to submit its own route map, but the city's central registry shows identical route numbers filed across all 47 buildings in that district.",
+        "conclusion": "Hence, every high-rise building in the downtown district has designated the same emergency evacuation route as primary.",
         "label": "True"
     },
     {
-        "id": "folio_test_59",
-        "premises": "If a man is taller than another man, the taller one can block the other's shooting.Michael is a man who is taller than everyone else in his class.If person x is taller than person y, and person y is taller than person z, then x is taller than zPeter is a man who is taller than Michael.Michael can block any shooting from a person as long as the person does not jump when shooting.Michael cannot block Windy's shooting.Every shooter who can jump when shooting is a great shooter.",
-        "conclusion": "Peter can block Windy's shooting.",
+        "id": "manual_283",
+        "premises": "Every patient in the intensive care unit is receiving a ventilator setting that is tailored to their specific respiratory pathology. The respiratory therapists maintain individual protocols for each patient, but the central monitoring system displays identical pressure support values for all patients in the unit at this moment.",
+        "conclusion": "Therefore, a single ventilator setting is being used by every patient in the intensive care unit.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_60",
-        "premises": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.Unsupervised learning algorithms do not require labeled data.The state-of-the-art text summarization model is trained with machine learning algorithms.Reinforcement learning is not used to train the state-of-the-art text summarization model.The Machine Learning algorithm for training text summarization models requires labeled data.",
-        "conclusion": "Supervised learning is used to train the state-of-the-art text summarization model.",
+        "id": "manual_284",
+        "premises": "A specific authentication certificate is installed on every web server that handles payment card data within the financial institution. The certificate authority's log shows that the same certificate serial number was used for all 127 servers, but each server stores a locally generated private key that is not shared.",
+        "conclusion": "Thus, there exists an authentication certificate that is installed on every payment-card-handling web server.",
         "label": "True"
     },
     {
-        "id": "folio_test_61",
-        "premises": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.Unsupervised learning algorithms do not require labeled data.The state-of-the-art text summarization model is trained with machine learning algorithms.Reinforcement learning is not used to train the state-of-the-art text summarization model.The Machine Learning algorithm for training text summarization models requires labeled data.",
-        "conclusion": "Unsupervised learning is used to train the state-of-the-art text summarization model.",
+        "id": "manual_285",
+        "premises": "Every contractor working on the offshore platform has been assigned a safety harness that meets the specific tensile requirements of their work zone. The procurement records indicate that harnesses were purchased from three different manufacturers, each with distinct model numbers corresponding to different work zones.",
+        "conclusion": "Consequently, a single safety harness model is worn by every contractor on the offshore platform.",
         "label": "False"
     },
     {
-        "id": "folio_test_62",
-        "premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
-        "conclusion": "\"Hachi: A dog's Tale\" is rated General Audience.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_63",
-        "premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
-        "conclusion": "\"Hachi: A dog's Tale\" contains excessive erotic and violent content or is in the \"Frozen\" series or both.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_64",
-        "premises": "If a film is appropriate for people of all ages, then children can watch it without guidance from parents.If a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.If a film is rated General Audience, then it is appropriate for people of all ages.All family-friendly animated films are rated General Audience.All movies in the Frozen series are family-friendly animated films.“Hachi: A dog’s Tale” is a film.“Hachi: A dog’s Tale”  is either a family-friendly animated film or is appropriate for people of all ages. ",
-        "conclusion": "\"Hachi: A dog's Tale\" either contains excessive erotic and violent content and is a film in the \"Frozen\" series, or it neither contains excessive erotic and violent content nor is a film in the \"Frozen\" series.",
+        "id": "manual_286",
+        "premises": "It is false that every research assistant in the laboratory has not been trained on a distinct piece of analytical equipment. The training log shows that all 24 assistants were trained on the mass spectrometer, but each assistant also received training on a second unique instrument not used by others.",
+        "conclusion": "Therefore, a single piece of analytical equipment has been used for training every research assistant in the laboratory.",
         "label": "True"
     },
     {
-        "id": "folio_test_65",
-        "premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
-        "conclusion": "Neapolitan Chronicles is an English book.",
+        "id": "manual_287",
+        "premises": "Every drone in the search-and-rescue fleet is equipped with a thermal camera that is calibrated to a specific frequency band for optimal terrain detection. The fleet's maintenance records indicate that different camera models were installed on different drones depending on the purchase date, with three distinct models across the 12 drones.",
+        "conclusion": "Thus, there exists a thermal camera frequency band that is used by every drone in the search-and-rescue fleet.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_288",
+        "premises": "A unique cryptographic key is generated by every node in the blockchain network to sign its own transaction blocks. The network's consensus protocol requires each node's key to be distinct and non-transferable, but all keys are derived from a single master seed that was distributed during network initialization.",
+        "conclusion": "Hence, every node in the blockchain network uses the same cryptographic key to sign transaction blocks.",
+        "label": "False"
+    },
+    {
+        "id": "manual_289",
+        "premises": "Every fighter jet in the squadron has locked onto a target designated by the early warning radar system. The targeting data shows that each jet engaged a different hostile aircraft, and no two jets shared the same target designation during the engagement window.",
+        "conclusion": "Therefore, a single target was locked onto by every fighter jet in the squadron.",
+        "label": "False"
+    },
+    {
+        "id": "manual_290",
+        "premises": "It is not the case that there is not a specific maritime navigation beacon that every cargo ship entering the Port of Shanghai must synchronize with for docking. The harbor master's log confirms that all 312 ships that entered last week used the same beacon frequency, as the alternative beacon was undergoing maintenance.",
+        "conclusion": "Thus, every cargo ship entering the Port of Shanghai synchronizes with the same maritime navigation beacon.",
         "label": "True"
     },
     {
-        "id": "folio_test_66",
-        "premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
-        "conclusion": "Harry Potter was published by New Vessel Press.",
+        "id": "manual_291",
+        "premises": "Every database shard in the distributed cluster maintains a replication log that is written to a specific storage volume assigned by the load balancer. The cluster's configuration file shows that each shard's volume is physically distinct, but the file system mount point is identical across all shards due to a symbolic link configuration.",
+        "conclusion": "Consequently, there exists a storage volume that is used by every database shard in the distributed cluster.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_67",
-        "premises": "New Vessel Press is a publishing house specializing in translating foreign literature into English.All of New Vessel Press's published books are in English.Neapolitan Chronicles is a book published by New Vessel Press.Neapolitan Chronicles was translated from Italian.Palace of Flies is a book published by New Vessel Press.",
-        "conclusion": "Palace of Flies was translated from Italian.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_68",
-        "premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
-        "conclusion": "The mixture contains carbon.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_69",
-        "premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
-        "conclusion": "The mixture is an alkane and contains carbon.",
+        "id": "manual_292",
+        "premises": "A single emergency stop button is reachable by every assembly line worker in the automotive plant, as required by safety regulations. The plant's blueprints indicate that 14 emergency stop buttons are distributed across the floor, each connected to a different zone, but the regulation's wording may permit zone-specific rather than plant-wide emergency stops.",
+        "conclusion": "Therefore, every assembly line worker can reach the same emergency stop button.",
         "label": "False"
     },
     {
-        "id": "folio_test_70",
-        "premises": "All hydrocarbons are organic compounds .All alkanes are hydrocarbonsAll organic compounds are chemical compounds.All organic compounds contain carbon.No chemical compounds contain only one element.The mixture either both is a chemical compound and contains only one element, or neither. ",
-        "conclusion": "If the mixture contains only one element or contains carbon, then the mixture is neither a chemical compound nor an alkane.",
+        "id": "manual_293",
+        "premises": "Every participant in the clinical trial was administered a dosage of the investigational drug that was calculated based on their body mass index. The pharmacy records show that dosage calculations varied across participants, with 47 distinct dosage amounts recorded for the 200 participants.",
+        "conclusion": "Thus, a single dosage amount was administered to every participant in the clinical trial.",
+        "label": "False"
+    },
+    {
+        "id": "manual_294",
+        "premises": "It is false that every network switch in the data center does not share a common configuration template. The network automation logs show that all 24 switches were provisioned using the same Ansible playbook, though each switch's hostname and IP address were interpolated uniquely during execution.",
+        "conclusion": "Hence, there exists a configuration template that was used for every network switch in the data center.",
         "label": "True"
     },
     {
-        "id": "folio_test_71",
-        "premises": "All humans are mortal.All Greeks are humans.",
-        "conclusion": "Some Greeks are mortal.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_72",
-        "premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. James doesn't work in the lab or have a part-time job offered by the university.",
-        "conclusion": "James has a part-time job offered by the university.",
+        "id": "manual_295",
+        "premises": "Every scholarship applicant must submit a letter of recommendation from a faculty member who has taught them in a major course. The admissions office received 847 letters from 112 distinct faculty members, and no faculty member wrote more than 15 letters, according to the submission logs.",
+        "conclusion": "Therefore, a single faculty member wrote a letter of recommendation for every scholarship applicant.",
         "label": "False"
     },
     {
-        "id": "folio_test_73",
-        "premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. ",
-        "conclusion": "James does not have a part-time job offered by the university.",
+        "id": "manual_296",
+        "premises": "A specific debugging interface is used by every firmware engineer to flash code onto the embedded microcontroller during development. The engineering workstation logs indicate that each engineer uses a different JTAG adapter model, but all adapters communicate through the same USB vendor ID and device driver.",
+        "conclusion": "Consequently, every firmware engineer uses the same debugging interface to flash code.",
         "label": "True"
     },
     {
-        "id": "folio_test_74",
-        "premises": "None of the students who currently work in the library are from the computer science department. All of the students with part-time jobs offered by the university currently work in the library. All of the students who are taking the database course are from the computer science department. All of the students taking a class with Professor David are taking the database course. All students working in the lab are taking a class with Professor David.James is a student working in the lab. ",
-        "conclusion": "James either takes the database course or has a part-time job offered by the university.",
+        "id": "manual_297",
+        "premises": "Every telescope in the observatory array is pointed at a celestial object that was identified by the automated survey system as having anomalous spectral lines. The observation logs show that each telescope targeted a different exoplanet candidate, and no two telescopes shared the same target during the observation window.",
+        "conclusion": "Thus, there exists a celestial object that was observed by every telescope in the observatory array.",
+        "label": "False"
+    },
+    {
+        "id": "manual_298",
+        "premises": "It is not the case that there is not a specific diplomatic protocol that every ambassador accredited to the United Nations must follow during the General Assembly. The protocol office confirmed that all 193 ambassadors receive the same security briefing, though each ambassador's delegation size and vehicle clearance differ based on bilateral agreements.",
+        "conclusion": "Therefore, every ambassador follows the same diplomatic protocol during the General Assembly.",
         "label": "True"
     },
     {
-        "id": "folio_test_76",
-        "premises": "A hawk never swims. Some birds are hawks.",
-        "conclusion": "All birds swim.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_77",
-        "premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
-        "conclusion": "Taylor eats salads regularly.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_78",
-        "premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
-        "conclusion": "Taylor visits the gym at least once a day.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_79",
-        "premises": "All people who eat salads regularly are very conscious about their health and eating habits.All people who grew up in health-conscious childhood homes eat salads regularly.All people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.All people who disregard their physical well-being are not very conscious about their health and eating habits.If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.Taylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.",
-        "conclusion": "Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day.",
+        "id": "manual_299",
+        "premises": "Every compiler optimization pass was applied to a specific intermediate representation that was generated by the front-end parser. The build system's trace shows that different optimization passes were enabled for different source files, but all passes operated on the same SSA form generated from the common AST.",
+        "conclusion": "Hence, a single intermediate representation was used by every compiler optimization pass.",
         "label": "True"
     },
     {
-        "id": "folio_test_80",
-        "premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
-        "conclusion": "The world championships is a sporting event.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_81",
-        "premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
-        "conclusion": "The last summer Olympic games were not in Tokyo.",
+        "id": "manual_300",
+        "premises": "Every registered voter in precinct 7 cast a ballot in the 2024 general election, unless they were stricken from the rolls for felony conviction. The final certified tally shows 2,847 ballots cast and 2,847 registered voters on the rolls. A single individual, identified as voter ID #4471, was convicted of felony tax evasion in 2022 but the clerk's office never processed the removal.",
+        "conclusion": "Some registered voters in precinct 7 were not stricken from the rolls for felony conviction.",
         "label": "False"
     },
     {
-        "id": "folio_test_82",
-        "premises": "The summer Olympic games is a sporting event. The last summer Olympic games was in Tokyo.The United States won the most medals in Tokyo. ",
-        "conclusion": "The United States won the most medals in the last summer Olympic games.",
+        "id": "manual_301",
+        "premises": "All software libraries approved for production use have passed both static analysis and dynamic fuzzing. It is not the case that every library that passed static analysis also passed dynamic fuzzing, given that test environment constraints sometimes mask failures. A specific library, libcrypto-3.2, passed static analysis but its fuzzing logs show an inconclusive status due to a timeout.",
+        "conclusion": "Some software libraries approved for production use have not passed both static analysis and dynamic fuzzing.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_302",
+        "premises": "Every employee who submitted a timesheet by Friday received full pay on Monday, except when the timesheet contained arithmetic errors requiring manual correction. The payroll system flagged 12 timesheets for manual correction, but the system's error detection module has a known 15% false positive rate. Employee #829's timesheet was flagged, yet a manual audit found no arithmetic errors.",
+        "conclusion": "Some employees who submitted timesheets by Friday did not receive full pay on Monday.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_303",
+        "premises": "All vertebrates in the collection have either a bony skeleton or a cartilaginous skeleton. It is false that every cartilaginous specimen is a shark, given that rays and chimeras are also present. A particular specimen, catalog #447, is vertebrate but its skeletal composition is unrecorded due to a data entry omission.",
+        "conclusion": "Some vertebrates in the collection do not have a cartilaginous skeleton.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_304",
+        "premises": "Every transaction exceeding $10,000 triggers an automatic AML review, unless the transaction originates from a pre-whitelisted corporate account. The bank's whitelist contains 47 accounts, but a software update inadvertently removed account #8803 from the list for a 6-hour window. During that window, a $15,000 transfer from account #8803 occurred and no AML review was triggered.",
+        "conclusion": "Some transactions exceeding $10,000 do not trigger an automatic AML review.",
         "label": "True"
     },
     {
-        "id": "folio_test_83",
-        "premises": "Susan flies to LGA airport.The departure and arrival can not be at the same airport.John flies from LGA airport.",
-        "conclusion": "Susan flies from LGA airport.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_84",
-        "premises": "Susan flies to LGA airport.The departure and arrival can not be at the same airport.John flies from LGA airport.",
-        "conclusion": "John flies to LGA airport.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_85",
-        "premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
-        "conclusion": "Tom is a grumpy person.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "folio_test_86",
-        "premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
-        "conclusion": "Tom is not both a grumpy person and mean to animals.",
+        "id": "manual_305",
+        "premises": "All patients admitted through the emergency department receive a full toxicology screen, unless the attending physician documents a specific exemption. The hospital's quality audit reviewed 300 admissions and found that 12 lacked toxicology results. Of those 12, the attending physician for 11 had documented exemptions, but the 12th had no documentation on file.",
+        "conclusion": "Some patients admitted through the emergency department did not receive a full toxicology screen.",
         "label": "True"
     },
     {
-        "id": "folio_test_87",
-        "premises": "No one nice to animals is also mean to animals.Some grumpy people are mean to animals.All animal lovers are nice to animals.All pet owners love animals.Tom is a pet owner.",
-        "conclusion": "If Tom is not both a grumpy person and mean to animals, then Tom is neither a grumpy person nor an animal lover.",
-        "label": "False"
+        "id": "manual_306",
+        "premises": "Every defendant represented by a public defender receives a copy of the discovery materials within 14 days of arraignment. It is not the case that every defendant who received discovery within 14 days was represented by a public defender, given that pro se defendants also receive discovery. Defendant Smith received discovery on day 12, but the court's assignment log does not indicate whether Smith had a public defender or was pro se.",
+        "conclusion": "Some defendants represented by a public defender did not receive discovery within 14 days of arraignment.",
+        "label": "Uncertain"
     },
     {
-        "id": "folio_test_88",
-        "premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
-        "conclusion": "Dani Shapiro is a novel writer.",
+        "id": "manual_307",
+        "premises": "All flights arriving after 10 PM are required to use runway 27R, unless wind conditions exceed 15 knots. The tower log shows that flight DL447 arrived at 10:30 PM and used runway 27L. The anemometer recorded 14.8 knots at 10:15 PM and 15.2 knots at 10:45 PM, but the reading at 10:30 PM was not saved due to a data logging glitch.",
+        "conclusion": "Some flights arriving after 10 PM did not use runway 27R.",
         "label": "True"
     },
     {
-        "id": "folio_test_89",
-        "premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
-        "conclusion": "Family Secrets is a novel.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_90",
-        "premises": "A podcast is not a novel.If a person is born in American City, the person is American.If a book is a novel and it is written by a person, then the person is a novel writer.Dani Shapiro is an American writer.Family History is written by Dani Shapiro.Family History is a novel written in 2003.Dani Shapiro created a podcast called Family Secrets.Boston is an American city.",
-        "conclusion": "Dani Shapiro was born in Boston.",
+        "id": "manual_308",
+        "premises": "All research protocols involving human subjects must obtain IRB approval prior to enrollment of the first participant. It is not impossible for a protocol to lack approval if it qualifies for exempt status, but the exempt determination must be documented. Protocol X enrolled its first participant on June 1; the IRB database shows no approval record and no exempt determination for Protocol X, though the coordinator claims both documents were submitted.",
+        "conclusion": "Some research protocols involving human subjects did not obtain IRB approval prior to enrollment.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_91",
-        "premises": "Events are either happy or sad.At least one event is happy. ",
-        "conclusion": "All events are sad.",
-        "label": "False"
+        "id": "manual_309",
+        "premises": "Every scholarship recipient maintains a GPA above 3.0, unless they are on academic probation. The registrar's report lists 45 students with GPAs above 3.0 and 5 students on academic probation with GPAs below 3.0. A single student, Maria Vega, has a GPA of 2.9 and is not on academic probation, but she received a scholarship because her department waived the requirement retroactively.",
+        "conclusion": "Some scholarship recipients do not maintain a GPA above 3.0.",
+        "label": "True"
     },
     {
-        "id": "folio_test_92",
-        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
-        "conclusion": "No one playing for Nautico is Brazilian.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_93",
-        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
-        "conclusion": "Ailton Silva does not play for a football club.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_94",
-        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
-        "conclusion": "Ailton was not loaned out to a football club.",
-        "label": "False"
-    },
-    {
-        "id": "folio_test_95",
-        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
-        "conclusion": "Ailton Silva played for Fluminense.",
+        "id": "manual_310",
+        "premises": "All packages shipped internationally must have a customs declaration form attached. It is false that every package with a customs declaration was shipped internationally, given that domestic packages sometimes use the same form erroneously. Package #9923 has no customs declaration attached, but its shipping label is partially torn and the origin country code is unreadable.",
+        "conclusion": "Some packages shipped internationally do not have a customs declaration form attached.",
         "label": "Uncertain"
     },
     {
-        "id": "folio_test_96",
-        "premises": "Ailton Silva, born in 1995, is commonly known as Ailton.Ailton is a football player who was loaned out to Braga.Ailton Silva is a Brazilian footballer who plays for Náutico.Náutico is a football club along with Braga.Fluminense is a football club.",
-        "conclusion": "Ailton Silva was loaned out to a football club.",
+        "id": "manual_311",
+        "premises": "Every article published in the journal requires peer review by two independent reviewers, except when the article is an invited commentary. The journal's publication database shows 120 articles published this year, of which 18 are marked as invited commentaries. Article #47 is not marked as an invited commentary, but the peer review log shows only one reviewer assigned to it, with a note: 'Second reviewer report lost due to server crash.'",
+        "conclusion": "Some articles published in the journal did not undergo peer review by two independent reviewers.",
+        "label": "True"
+    },
+    {
+        "id": "manual_312",
+        "premises": "All active-duty military personnel are eligible for the housing allowance, unless they reside in government-provided quarters. The eligibility database contains 12,000 records marked as eligible and 3,000 marked as ineligible due to government quarters. A single record, service member #7712, is marked as eligible but a personnel file note indicates #7712 has resided in government quarters for 18 months, though the note's timestamp is after the eligibility determination.",
+        "conclusion": "Some active-duty military personnel residing in government-provided quarters are eligible for the housing allowance.",
         "label": "Uncertain"
+    },
+    {
+        "id": "manual_313",
+        "premises": "All freshwater fish in the aquarium are either cichlids or catfish. It is not the case that every cichlid is from Lake Malawi, given that some cichlids originate from Lake Tanganyika. A specific fish, specimen #447, is a freshwater fish that has been classified as a cichlid, but its origin lake was never recorded because the acquisition paperwork was lost.",
+        "conclusion": "Some freshwater fish in the aquarium are not catfish.",
+        "label": "True"
+    },
+    {
+        "id": "manual_314",
+        "premises": "Every login attempt from an unrecognized device requires two-factor authentication. It is impossible for a login attempt to bypass 2FA if the device is recognized, but the recognition database updates only once daily. User J attempted login from a device that was added to the recognized list 6 hours earlier, but the authentication server logged that no 2FA was required, citing an outdated cache.",
+        "conclusion": "Some login attempts from recognized devices did not require two-factor authentication.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_315",
+        "premises": "All buildings constructed before 1980 must have asbestos abatement certification on file. A single building, 47 Maple Street, was constructed in 1978 but has no asbestos certification on record, because the original owner claimed a grandfather exemption that was never formally documented. The municipal code explicitly states that grandfather exemptions require a notarized affidavit, which does not exist for 47 Maple Street.",
+        "conclusion": "Some buildings constructed before 1980 do not have asbestos abatement certification on file.",
+        "label": "True"
+    },
+    {
+        "id": "manual_316",
+        "premises": "Every species listed as endangered receives federal protection under the Endangered Species Act, unless a specific delisting rule has been published. The delisting rule for the gray wolf was published in 2020, but a federal court overturned that rule in 2021, reinstating protection. The Fish and Wildlife Service's online database still shows the gray wolf as 'not listed' due to a data synchronization error that has persisted for 18 months.",
+        "conclusion": "Some species listed as endangered do not receive federal protection under the Endangered Species Act.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_317",
+        "premises": "All employees who work more than 40 hours per week are entitled to overtime pay, unless they are classified as exempt salaried professionals. The payroll records show employee #8823 worked 47 hours last week and received no overtime pay. HR classified #8823 as exempt, but the Department of Labor's exemption test indicates that #8823's duties do not meet the professional exemption criteria, though no formal complaint has been filed.",
+        "conclusion": "Some employees who work more than 40 hours per week are not entitled to overtime pay.",
+        "label": "True"
+    },
+    {
+        "id": "manual_318",
+        "premises": "Every aircraft landing at the airport between midnight and 6 AM must file a noise abatement plan. It is not the case that every aircraft that filed a noise abatement plan landed between midnight and 6 AM, given that daytime flights sometimes file voluntarily. Cargo flight CX-882 landed at 3:15 AM, but the noise abatement database shows no plan on file, while the airline claims the plan was submitted via a fax machine that later malfunctioned.",
+        "conclusion": "Some aircraft landing between midnight and 6 AM did not file a noise abatement plan.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_319",
+        "premises": "All doctoral students must pass comprehensive exams before advancing to candidacy, unless they are enrolled in the joint JD-PhD program which has a modified examination requirement. The graduate school's records show 47 students advanced to candidacy this year, of whom 6 are in the joint program. One student, S. Chen, advanced to candidacy but the records do not indicate whether Chen is in the joint program or passed the standard exams, because the transcript entry is incomplete.",
+        "conclusion": "Some doctoral students who advanced to candidacy did not pass comprehensive exams.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_320",
+        "premises": "The security protocol states that it is not the case that unauthorized personnel can access the server room unless they possess a valid biometric token. Biometric tokens are not issued to anyone who lacks a security clearance. The access log shows that user X accessed the server room, and user X does not have a valid biometric token. No exception was logged for emergency override.",
+        "conclusion": "Therefore, user X is not an unauthorized personnel.",
+        "label": "True"
+    },
+    {
+        "id": "manual_321",
+        "premises": "The spacecraft navigation manual says that it is false that the autopilot cannot engage without a confirmed trajectory lock. A confirmed trajectory lock requires both star tracker alignment and gyro calibration. The gyro calibration failed during pre-launch checks. The launch director stated that the autopilot did not engage. The telemetry confirms no trajectory lock was achieved.",
+        "conclusion": "Thus, it is not the case that the autopilot engaged.",
+        "label": "True"
+    },
+    {
+        "id": "manual_322",
+        "premises": "The lab safety rule reads: 'It is not allowed that a researcher fails to wear a respirator when handling volatile organics unless the fume hood is operational.' The fume hood in Lab 7 is not operational, as confirmed by the morning inspection. Researcher Chen handled volatile organics in Lab 7 at 2:00 PM. A colleague reported seeing Chen without a respirator. The security camera footage from Lab 7 is corrupted for that time window.",
+        "conclusion": "Therefore, it is not the case that Researcher Chen failed to wear a respirator.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_323",
+        "premises": "The contract clause states: 'The supplier shall not be held liable for delays unless the delay results from willful misconduct, in which case the supplier is not exempt.' A delay occurred in shipment of batch 447. An internal investigation found no evidence of willful misconduct, but the investigator noted that the shipping manager failed to not disclose a known routing problem. The contract does not define 'willful misconduct.' The buyer claims the supplier is liable.",
+        "conclusion": "Therefore, it is not the case that the supplier is exempt from liability for the delay.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_324",
+        "premises": "The airline's policy reads: 'It is not true that a passenger may not board without a government-issued photo ID, except when the passenger is a minor accompanied by a guardian.' Passenger Elena is 16 years old and was not accompanied by a guardian. Elena does not have a government-issued photo ID. The gate agent denied boarding. The airline's customer service manual confirms that unaccompanied minors over 12 require ID.",
+        "conclusion": "Thus, it is not the case that Elena was incorrectly denied boarding.",
+        "label": "True"
+    },
+    {
+        "id": "manual_325",
+        "premises": "The encryption standard mandates that it is not permitted that a ciphertext fails to be indistinguishable from random noise under chosen plaintext attack. The new cipher XT-9 was tested and found to be distinguishable from random noise under CPA. The testing lab concluded that XT-9 fails the standard. However, the standard's appendix allows an exception when key length exceeds 256 bits. XT-9 uses 512-bit keys. The lab did not test with 512-bit keys.",
+        "conclusion": "Therefore, it is not the case that XT-9 fails the encryption standard.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_326",
+        "premises": "The university's academic integrity code states: 'It is not the case that a student may not submit the same paper for two different courses without explicit permission from both instructors.' Student A submitted the same paper for Philosophy 101 and History 202. Student A received permission from the Philosophy instructor but not from the History instructor. The History instructor filed a violation report. The academic board has not yet ruled on whether permission from one instructor suffices.",
+        "conclusion": "Therefore, it is not the case that Student A violated the academic integrity code.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_327",
+        "premises": "The firewall rule set declares: 'It is false that traffic from the internal subnet cannot reach the DMZ unless the traffic is encrypted with TLS 1.3.' Traffic from internal subnet 10.0.0.0/24 reached the DMZ at 03:14 UTC. The packet capture shows that this traffic was not encrypted with TLS 1.3; it used TLS 1.2. The security log shows no exception flags. The network architect confirmed that TLS 1.2 is not considered compliant with the rule.",
+        "conclusion": "Thus, it is not the case that the firewall rule was violated.",
+        "label": "True"
+    },
+    {
+        "id": "manual_328",
+        "premises": "The employment contract says: 'It is not allowed that an employee fails to report a conflict of interest unless the conflict is de minimis and disclosed in writing.' Employee B had a conflict of interest that was not de minimis. Employee B did not report it. However, Employee B submitted a written disclosure of the conflict to the compliance officer three weeks before the contract's effective date. The compliance officer lost the disclosure. The contract's definition of 'report' excludes pre-hire disclosures.",
+        "conclusion": "Therefore, it is not the case that Employee B failed to report the conflict of interest.",
+        "label": "False"
+    },
+    {
+        "id": "manual_329",
+        "premises": "The clinical trial protocol states: 'It is not true that a subject may not withdraw without providing a reason, except when the subject has received the investigational drug.' Subject 447 withdrew from the trial. Subject 447 had received the investigational drug. The subject did not provide a reason for withdrawal. The IRB reviewed the withdrawal and found no violation. The protocol's exception clause applies only if the drug was administered within the last 72 hours. Subject 447 received the drug 96 hours before withdrawal.",
+        "conclusion": "Thus, it is not the case that Subject 447 violated the withdrawal protocol.",
+        "label": "True"
+    },
+    {
+        "id": "manual_330",
+        "premises": "The database constraint is: 'It is not permitted that a transaction fails to be atomic, consistent, isolated, and durable unless the transaction is marked as read-only.' Transaction T-992 was not marked as read-only. Transaction T-992 committed successfully but later a partial rollback was observed. The log shows that T-992 was not atomic. The DBA claimed that T-992 violated the constraint. The system's ACID enforcement module was disabled for maintenance during T-992.",
+        "conclusion": "Therefore, it is not the case that Transaction T-992 violated the database constraint.",
+        "label": "False"
+    },
+    {
+        "id": "manual_331",
+        "premises": "The military engagement rule states: 'It is false that a drone operator may not engage a target without visual confirmation, unless the target is emitting hostile IFF codes.' Drone operator Smith engaged a target without visual confirmation. The target was emitting hostile IFF codes. However, the IFF decoder on Smith's console was malfunctioning and did not display the codes. Smith had no way of knowing the codes were present. The after-action review found no violation because Smith acted on intelligence reports.",
+        "conclusion": "Thus, it is not the case that Drone operator Smith violated the engagement rule.",
+        "label": "True"
+    },
+    {
+        "id": "manual_332",
+        "premises": "The library's borrowing policy reads: 'It is not allowed that a patron fails to return a book by the due date unless the book is recalled by another patron.' Patron J returned the book 'Gödel, Escher, Bach' three days after the due date. The book was not recalled by any other patron. The library's automated system assessed a late fee. Patron J appealed, claiming that the due date was incorrectly set because the book was checked out during a holiday closure. The holiday closure policy is ambiguous.",
+        "conclusion": "Therefore, it is not the case that Patron J should be assessed a late fee.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_333",
+        "premises": "The software license agreement says: 'It is not true that the licensee may not modify the source code unless the modification is for personal use and not redistributed.' Licensee X modified the source code of the software. The modification was for personal use. Licensee X redistributed the modified version to three colleagues. The license explicitly prohibits redistribution of modified versions. The software vendor sent a cease-and-desist letter. Licensee X argues that 'not redistributed' applies only to modifications not for personal use.",
+        "conclusion": "Thus, it is not the case that Licensee X violated the license agreement.",
+        "label": "False"
+    },
+    {
+        "id": "manual_334",
+        "premises": "The medical directive states: 'It is not permitted that a physician fails to obtain informed consent before a procedure unless an emergency prevents communication.' Dr. Y performed an emergency thoracotomy on an unconscious patient. The patient had no prior directive. Dr. Y did not obtain informed consent because the patient was unconscious and bleeding out. The hospital's ethics committee reviewed the case. The patient survived and later sued for lack of consent. The emergency was documented as life-threatening within 10 minutes.",
+        "conclusion": "Therefore, it is not the case that Dr. Y failed to comply with the medical directive.",
+        "label": "True"
+    },
+    {
+        "id": "manual_335",
+        "premises": "The network security policy reads: 'It is false that an administrator may not disable logging on a production server unless the server is in maintenance mode.' Administrator Z disabled logging on production server SRV-42. SRV-42 was not in maintenance mode. The security team detected the logging gap and triggered an alert. Administrator Z claimed that disabling logging was necessary to deploy a critical patch. The policy does not contain a patch exception. The patch deployment was not logged.",
+        "conclusion": "Thus, it is not the case that Administrator Z violated the network security policy.",
+        "label": "True"
+    },
+    {
+        "id": "manual_336",
+        "premises": "The electoral law states: 'It is not allowed that a precinct fails to report results within 24 hours unless the precinct experiences a verifiable equipment failure.' Precinct 7 reported results after 28 hours. The precinct experienced a printer failure that delayed the printout of results. However, the results were available electronically 6 hours earlier. The precinct did not use the electronic results because of a separate policy requiring paper printouts. The election commission is debating whether the printer failure counts as a verifiable equipment failure.",
+        "conclusion": "Therefore, it is not the case that Precinct 7 violated the 24-hour reporting requirement.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_337",
+        "premises": "The aviation safety directive says: 'It is not true that a pilot may not descend below minimum descent altitude without runway visual contact, unless the aircraft is on a precision approach.' Pilot W descended below minimum descent altitude. The aircraft was not on a precision approach; it was flying a non-precision approach. Pilot W did not have runway visual contact. The aircraft landed safely. The investigation found that Pilot W had reported 'runway in sight' but the tower recording shows the phrase was garbled. No visual confirmation was logged.",
+        "conclusion": "Thus, it is not the case that Pilot W violated the safety directive.",
+        "label": "False"
+    },
+    {
+        "id": "manual_338",
+        "premises": "The financial regulation states: 'It is not permitted that a bank fails to report a suspicious transaction unless the transaction is below $10,000.' Bank Q did not report a transaction of $9,500 that appeared suspicious. The transaction involved structured deposits to avoid reporting. The anti-money laundering officer noted that the $10,000 threshold applies per transaction, but structuring is separately illegal. The bank's compliance manual says that structured transactions under $10,000 must be reported if the total exceeds $10,000 within 24 hours. The total was $9,500.",
+        "conclusion": "Therefore, it is not the case that Bank Q failed to comply with the regulation.",
+        "label": "True"
+    },
+    {
+        "id": "manual_339",
+        "premises": "The scientific publication rule reads: 'It is false that an author may not reuse figures from a prior publication without permission unless the figures are substantially modified.' Author R reused a figure from their own prior publication without permission. The figure was modified by changing the color scheme and axis labels but not the underlying data. The journal's editor rejected the manuscript, citing lack of permission. Author R argues that color changes constitute substantial modification. The journal's guidelines do not define 'substantially modified.'",
+        "conclusion": "Thus, it is not the case that Author R violated the publication rule.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_340",
+        "premises": "The intelligence report states that Agent Chen believes that the enemy knows that the convoy route has changed. The intercepted communication shows that the enemy has not altered their ambush positions. The convoy followed the original route and was not attacked. General Holt concluded that Agent Chen's belief was mistaken. The analyst noted that the enemy might know the route changed but lack resources to act.",
+        "conclusion": "Therefore, it is not the case that the enemy knows that the convoy route has changed.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_341",
+        "premises": "Professor Aris claims that the student understands that the proof is incomplete without the lemma. The student submitted a solution that omits the lemma entirely. The grading rubric states that omitting the lemma makes the proof invalid. Professor Aris said the student's solution is incorrect. The student insists that the lemma is unnecessary because the theorem is self-evident.",
+        "conclusion": "Thus, the student does not understand that the proof is incomplete without the lemma.",
+        "label": "True"
+    },
+    {
+        "id": "manual_342",
+        "premises": "The audit log shows that the system verified that the user knows that the password expired 30 days ago. The user successfully authenticated using the expired password without a reset. The security policy requires that users with expired passwords must reset before authentication. The authentication server logs show a bypass flag was set. The system administrator suspects a configuration error in the password policy module.",
+        "conclusion": "Therefore, the user knows that the password expired 30 days ago.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_343",
+        "premises": "The court transcript records that the witness testified that she saw that the defendant did not enter the building. Security camera footage shows a person matching the defendant's description entering the building at the alleged time. The footage is grainy and the face is not clearly visible. The defendant's lawyer argued that the witness's testimony is reliable because she had no motive to lie. The jury deliberated for three hours.",
+        "conclusion": "Thus, the witness did not see that the defendant did not enter the building.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_344",
+        "premises": "The lab report indicates that the spectrometer detected that the sample contains no traces of mercury. An independent analysis found mercury at 0.3 parts per million, which is above the detection threshold. The original spectrometer was calibrated six months ago and may have drifted. The lab director denied any calibration issue. A third test is pending with a different instrument.",
+        "conclusion": "Therefore, the spectrometer did not detect that the sample contains no traces of mercury.",
+        "label": "True"
+    },
+    {
+        "id": "manual_345",
+        "premises": "The flight controller believes that the autopilot knows that the landing gear is deployed. The landing gear indicator shows red (not deployed). The autopilot initiated landing sequence anyway. The flight controller did not override. The aircraft landed safely with the gear deployed despite the indicator. The maintenance log shows the gear position sensor failed last week and was replaced.",
+        "conclusion": "Thus, the autopilot does not know that the landing gear is deployed.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_346",
+        "premises": "The intelligence analyst concluded that the adversary does not know that the encryption key was compromised. The adversary continues to use the same key for sensitive communications 72 hours after the compromise was detected. The analyst's report states that continued usage indicates lack of knowledge. A separate source suggests the adversary might be feeding disinformation through the compromised channel. No direct evidence of knowledge exists.",
+        "conclusion": "Therefore, the adversary knows that the encryption key was compromised.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_347",
+        "premises": "The professor asserts that the student falsely believes that the Riemann Hypothesis has been proven. The student cited a 2018 preprint claiming a proof. The preprint was never peer-reviewed and was retracted by the author in 2019. The student's thesis chapter relies entirely on that preprint. The professor failed the student. The student argued that the professor is biased against novel approaches.",
+        "conclusion": "Thus, the student does not falsely believe that the Riemann Hypothesis has been proven.",
+        "label": "False"
+    },
+    {
+        "id": "manual_348",
+        "premises": "The system log shows that the intrusion detection system reported that the firewall failed to block the malicious packet. The packet originated from IP 203.0.113.89 and exploited a zero-day vulnerability. The firewall vendor released a patch 6 hours after the intrusion. The security team confirmed that the packet was blocked at the border router before reaching the firewall. The IDS was configured to monitor only firewall-level events.",
+        "conclusion": "Therefore, the intrusion detection system did not report that the firewall failed to block the malicious packet.",
+        "label": "False"
+    },
+    {
+        "id": "manual_349",
+        "premises": "The medical resident believes that the attending physician knows that the patient's allergic reaction is anaphylactic. The attending physician prescribed epinephrine immediately upon seeing the rash. The resident documented the case as 'non-anaphylactic allergic reaction.' The patient recovered fully. The attending physician later reviewed the chart and changed the diagnosis to anaphylaxis. The resident was not present during the chart review.",
+        "conclusion": "Thus, the attending physician knows that the patient's allergic reaction is anaphylactic.",
+        "label": "True"
+    },
+    {
+        "id": "manual_350",
+        "premises": "The financial auditor verified that the CFO knows that the revenue recognition policy was violated. The CFO signed the quarterly report certifying compliance. Whistleblower documents suggest the CFO was aware of the violation but signed anyway. The audit committee found no direct evidence of knowledge. The CFO resigned abruptly two days after the audit started.",
+        "conclusion": "Therefore, the CFO does not know that the revenue recognition policy was violated.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_351",
+        "premises": "The detective concluded that the suspect knows that the weapon was planted. The suspect confessed to the crime but refused to describe the weapon. Ballistics later proved the weapon could not have been used. The suspect's lawyer argued that the suspect's silence about the weapon indicates innocence. The detective maintained that the suspect's refusal to describe the weapon shows knowledge of the planting.",
+        "conclusion": "Thus, the suspect knows that the weapon was planted.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_352",
+        "premises": "The quality assurance report states that the test engineer verified that the software does not contain the buffer overflow vulnerability. A penetration test later exploited a buffer overflow in the same software version. The test engineer used automated tools that missed the vulnerability. The QA manager accepted the report. The developer who wrote the vulnerable code has since left the company.",
+        "conclusion": "Therefore, the test engineer did not verify that the software does not contain the buffer overflow vulnerability.",
+        "label": "True"
+    },
+    {
+        "id": "manual_353",
+        "premises": "The linguistics paper argues that the child understands that the sentence 'The cat chased the mouse' entails that the mouse did not chase the cat. The child, age 4, was shown a picture of a cat chasing a mouse and a mouse chasing a cat. The child selected both pictures when asked 'Which picture shows the sentence?' The researcher concluded the child lacks entailment understanding. The paper's co-author disagrees with the interpretation.",
+        "conclusion": "Thus, the child does not understand that the sentence entails that the mouse did not chase the cat.",
+        "label": "True"
+    },
+    {
+        "id": "manual_354",
+        "premises": "The air traffic controller reported that the pilot acknowledged that the runway is clear for landing. The pilot's transmission was 'Roger, landing.' The tower recording shows that the runway was occupied by a maintenance vehicle at that time. The pilot landed safely without incident. The maintenance vehicle had clearance to exit 30 seconds before the transmission. The controller later admitted he did not visually confirm the runway was clear.",
+        "conclusion": "Therefore, the pilot did not acknowledge that the runway is clear for landing.",
+        "label": "False"
+    },
+    {
+        "id": "manual_355",
+        "premises": "The cybersecurity firm claims that the attacker knows that the honeypot is not a real production server. The attacker executed commands that would be catastrophic on a real server but harmless on a honeypot. The attacker also exfiltrated decoy data. The firm's report states that sophisticated attackers often treat all systems as potentially monitored. No direct evidence of the attacker's internal knowledge state exists.",
+        "conclusion": "Thus, the attacker does not know that the honeypot is not a real production server.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_356",
+        "premises": "The ethics committee found that the researcher knew that the consent form omitted the risk of neuropathy. The researcher published the study results without disclosing the omission. Three patients developed neuropathy post-trial. The researcher claimed that neuropathy was listed under 'rare complications' in the oral consent script. The written consent form is the only legally binding document. The committee reviewed both written and oral consent records.",
+        "conclusion": "Therefore, the researcher did not know that the consent form omitted the risk of neuropathy.",
+        "label": "False"
+    },
+    {
+        "id": "manual_357",
+        "premises": "The navigation system confirms that the ship's captain knows that the iceberg is directly ahead. The captain ordered a starboard turn 30 seconds before impact. The ship still struck the iceberg. The investigation found that the turn was insufficient due to slow rudder response. The captain testified that he knew the iceberg's position but misjudged the ship's turning radius. The navigation data supports the captain's statement.",
+        "conclusion": "Thus, the ship's captain knows that the iceberg is directly ahead.",
+        "label": "True"
+    },
+    {
+        "id": "manual_358",
+        "premises": "The performance review states that the manager believes that the employee knows that the deadline was moved to Friday. The employee submitted the report on Thursday, which was the original deadline. The manager's calendar shows a meeting where the deadline change was announced. The employee's calendar shows no such meeting invitation. The employee claims they never received the announcement. The manager insists the announcement was made verbally.",
+        "conclusion": "Therefore, the employee knows that the deadline was moved to Friday.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_359",
+        "premises": "The forensic accountant determined that the executive knew that the subsidiary was not profitable. The executive signed off on a quarterly report showing the subsidiary as profitable. Internal emails show the executive asking 'Why do these numbers look too good?' A subordinate replied 'Creative accounting, but legal.' The executive did not escalate. The subordinate later admitted to fraud. The executive claimed ignorance of accounting details.",
+        "conclusion": "Thus, the executive did not know that the subsidiary was not profitable.",
+        "label": "False"
+    },
+    {
+        "id": "manual_360",
+        "premises": "The starship *Odyssey* operates under the following directive: If the quantum drive exceeds 92% of rated output, the cooling system must be activated within 30 seconds. The cooling system itself requires the secondary power bus to be online, unless the emergency manual override is engaged. The secondary power bus failed at 14:32 UTC. No emergency manual override was recorded in the engineering log. At 14:33 UTC, the quantum drive output reached 94% and remained there for 45 seconds. The chief engineer later testified that she assumed the cooling system would activate automatically, but the automatic activation routine was disabled during the previous maintenance cycle and never re-enabled.",
+        "conclusion": "Therefore, the cooling system was activated within 30 seconds of the quantum drive exceeding 92% output.",
+        "label": "False"
+    },
+    {
+        "id": "manual_361",
+        "premises": "According to the cybersecurity protocol, any user who fails to change their password every 30 days is automatically locked out of the system, except when the user has multi-factor authentication enabled. Multi-factor authentication requires both a registered mobile device and a biometric profile. User X has a registered mobile device but no biometric profile on file. The system log shows that User X last changed their password 45 days ago. Despite this, User X successfully logged into the system yesterday using only their password and a one-time SMS code. The system administrator confirmed that no manual overrides were applied to User X's account.",
+        "conclusion": "Thus, User X has multi-factor authentication enabled.",
+        "label": "False"
+    },
+    {
+        "id": "manual_362",
+        "premises": "The corporate travel policy states that an employee may be reimbursed for a first-class flight only if the flight duration exceeds 8 hours and the employee holds a senior vice president rank or higher. Senior vice presidents are defined as employees at level 15 or above. Employee A holds level 14 and took a 9-hour first-class flight from New York to Tokyo. Employee A submitted a reimbursement request with a note that the flight was medically necessary due to a recent back surgery. The medical necessity exception requires prior approval from the chief medical officer, which Employee A did not obtain. The finance department rejected the claim.",
+        "conclusion": "Therefore, Employee A is not entitled to reimbursement for the first-class flight.",
+        "label": "True"
+    },
+    {
+        "id": "manual_363",
+        "premises": "The laboratory safety manual reads as follows: No researcher may handle volatile organic compounds without wearing a nitrile glove and a face shield, unless the compound is being handled inside a fume hood with the sash fully closed. The fume hood in Lab 7 has a malfunctioning sash that cannot close fully, leaving a 5 cm gap. Researcher B handled toluene (a volatile organic compound) in Lab 7 while wearing a nitrile glove but no face shield. The safety officer observed that the fume hood's sash was open to the 5 cm gap. Researcher B claimed that the fume hood's air flow reading was within normal range despite the gap. The safety manual does not address partial sash closure.",
+        "conclusion": "Thus, Researcher B violated the laboratory safety manual.",
+        "label": "True"
+    },
+    {
+        "id": "manual_364",
+        "premises": "The autonomous vehicle's decision algorithm is programmed as follows: The car may proceed through a yellow traffic light only if the vehicle's speed is above 45 km/h and the distance to the intersection is less than 30 meters, unless a pedestrian is detected in the crosswalk. At 15:23:05, the car approached an intersection at 50 km/h, 25 meters from the light when it turned yellow. The car's sensors detected no pedestrian in the crosswalk. However, the car's speed sensor was later found to be miscalibrated, reading 5 km/h higher than actual speed. The actual speed was 45 km/h. The car proceeded through the yellow light. The intersection camera recorded no violation. The car's manufacturer claims the algorithm performed correctly.",
+        "conclusion": "Therefore, the car was authorized to proceed through the yellow traffic light under its decision algorithm.",
+        "label": "False"
+    },
+    {
+        "id": "manual_365",
+        "premises": "The military engagement rule ROE-7 states: A drone operator may engage a target without visual confirmation only if the target's IFF transponder returns a hostile code and the target is within 5 km of a designated no-fly zone. The hostile IFF code is defined as any code not matching the current day's friendly codes. On March 12, the friendly codes were 4472, 8913, and 0025. Drone operator Smith engaged a target at 4.8 km from no-fly zone Z-19. The target's IFF transponder returned code 9912. No other intelligence confirmed hostile intent. The after-action review found that code 9912 was actually a civilian medical evacuation code not on the friendly list due to an administrative error. The error was not known to Smith at the time of engagement.",
+        "conclusion": "Thus, Drone operator Smith violated ROE-7 by engaging the target.",
+        "label": "False"
+    },
+    {
+        "id": "manual_366",
+        "premises": "The inheritance clause of the Will of Archduke Ferdinand states: The estate shall pass to the eldest living descendant of the testator, unless that descendant has predeceased the testator, in which case the estate shall pass to the testator's surviving spouse, provided that the spouse is not remarried. The Archduke died on June 12, 2024. He had three children: Anna (born 1975, died 2010), Bruno (born 1978, living), and Clara (born 1982, living). Anna had a daughter, Diana (born 2005, living). The Archduke's spouse, Countess Maria, is still alive and never remarried. The executor of the will, a notary, is unsure whether 'eldest living descendant' refers to the oldest among all living descendants (Diana, age 19) or the oldest child (Bruno, age 46). The will does not define 'descendant' as including grandchildren explicitly, though local law presumes inclusion unless stated otherwise.",
+        "conclusion": "Therefore, the estate passes to Bruno, the eldest living child of the Archduke.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_367",
+        "premises": "The database integrity rule states: A foreign key constraint is violated if a record in the child table references a primary key that does not exist in the parent table, unless the foreign key column allows NULL values and the record contains NULL. The Orders table has a foreign key column 'CustomerID' referencing the Customers table's 'ID' column. The 'CustomerID' column does not allow NULL values. A database administrator runs a query that finds an order with CustomerID = 9999. The Customers table contains no record with ID = 9999. The administrator also finds that the order was created by an automated import script that bypasses referential integrity checks. The import script was disabled three months ago. The database logs show no other violations. The company's data quality policy requires immediate reporting of any foreign key violation.",
+        "conclusion": "Therefore, a foreign key constraint violation exists in the Orders table.",
+        "label": "True"
+    },
+    {
+        "id": "manual_368",
+        "premises": "The airline's overbooking compensation rule says: A passenger is entitled to €600 compensation if they are denied boarding involuntarily due to overbooking and the alternative flight arrives more than 4 hours after the original scheduled arrival time, except when the passenger accepts voluntary denied boarding compensation. Passenger C was denied boarding on Flight 447 due to overbooking. The airline offered €400 and a flight arriving 5 hours later. Passenger C verbally accepted the offer but did not sign any waiver. The airline's system recorded the acceptance as voluntary. Passenger C later claimed that the acceptance was made under duress because no other flights were available for 3 days. The airline's customer service manual states that verbal acceptance is binding only if the passenger is given 15 minutes to reconsider, which did not happen. The applicable regulation is ambiguous about whether duress invalidates acceptance.",
+        "conclusion": "Therefore, Passenger C is entitled to €600 compensation.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_369",
+        "premises": "The software license agreement of AcmeCorp states: The licensee may not reverse engineer, decompile, or disassemble the software for any purpose, unless the purpose is to achieve interoperability with independently created software and the licensee has first requested the necessary interface information from AcmeCorp and been denied. Licensee D needed to make the software interoperate with a custom database driver. Licensee D requested interface information from AcmeCorp via email on March 1. AcmeCorp did not respond. On March 15, Licensee D reverse engineered a small portion of the software to extract the database connection protocol. AcmeCorp sued for breach of license. Licensee D argued that the lack of response constitutes a denial. AcmeCorp's terms of service state that denial must be explicitly in writing. The court has not yet ruled on whether silence equals denial.",
+        "conclusion": "Thus, Licensee D violated the software license agreement.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_370",
+        "premises": "The clinical trial protocol for drug X-921 specifies: A patient may be enrolled only if they have a baseline hemoglobin level above 10 g/dL and have not received any blood transfusion within the prior 30 days, except when the transfusion was autologous (self-donated). Patient E has a baseline hemoglobin of 9.8 g/dL. Patient E received an autologous blood transfusion 14 days prior to enrollment. The principal investigator enrolled Patient E anyway, citing a protocol amendment that allows hemoglobin down to 9.5 g/dL for patients with autologous transfusion history. The amendment was approved by the ethics board but was never incorporated into the official protocol document due to an administrative error. The investigator has a signed copy of the amendment in their files. The data safety monitoring board is reviewing the enrollment.",
+        "conclusion": "Therefore, Patient E was enrolled in violation of the official clinical trial protocol.",
+        "label": "True"
+    },
+    {
+        "id": "manual_371",
+        "premises": "The university's grading policy states: A student may receive an incomplete grade only if they have completed at least 70% of the course work and have a documented medical or family emergency that prevents completion by the final exam deadline. Student F has completed 75% of the course work. Student F requested an incomplete due to 'severe exam anxiety' but provided no medical documentation. The professor granted the incomplete anyway because the student had a perfect attendance record. The registrar's office later audited the incomplete grades and flagged this case. The policy manual explicitly lists 'exam anxiety without clinical diagnosis' as an insufficient reason. The student's therapist later submitted a letter confirming generalized anxiety disorder, but the letter was dated after the incomplete was granted. The registrar must decide whether to retroactively approve or revoke the incomplete.",
+        "conclusion": "Thus, Student F was not eligible for an incomplete grade at the time the grade was assigned.",
+        "label": "True"
+    },
+    {
+        "id": "manual_372",
+        "premises": "The nuclear reactor safety protocol mandates that the control rods must be fully inserted within 2 seconds of a neutron flux exceeding 110% of nominal, unless the emergency cooling system is already active, in which case the insertion time may extend to 5 seconds. At 03:22:10, neutron flux reached 115% of nominal. The emergency cooling system had been active since 03:20:00 due to a separate coolant temperature anomaly. The control rods took 4.2 seconds to fully insert. The reactor operator logged the event as compliant. A later inspection revealed that the emergency cooling system's activation at 03:20:00 was actually a false alarm caused by a faulty temperature sensor. The faulty sensor was replaced after the incident. The safety board must determine whether the 4.2-second insertion time was permitted given that the emergency cooling activation was invalid.",
+        "conclusion": "Therefore, the control rod insertion time violated the safety protocol.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_373",
+        "premises": "The financial disclosure rule for publicly traded companies says: A transaction must be disclosed within 4 business days if it exceeds 5% of the company's market capitalization, unless the transaction is part of a regularly scheduled dividend payment. On June 1, Company G's market capitalization was $100 million. On June 2, Company G executed a share buyback of $6 million. On June 3, Company G also paid a regularly scheduled dividend of $1 million. The share buyback was not disclosed until June 8, which is 6 days after the transaction. The company's legal team argues that the buyback and dividend should be aggregated because both returned capital to shareholders, and the aggregate ($7 million) exceeds 5%, but the rule applies per transaction. The SEC's guidance on aggregation is ambiguous. The company has never been penalized before.",
+        "conclusion": "Thus, Company G failed to disclose the share buyback within the required 4 business days.",
+        "label": "True"
+    },
+    {
+        "id": "manual_374",
+        "premises": "The autonomous drone delivery system's collision avoidance logic is: The drone shall reroute if it detects an obstacle within 10 meters, unless the obstacle is a bird weighing less than 0.5 kg, in which case the drone may continue but must reduce speed to 5 m/s. Drone H was flying at 12 m/s when its sensors detected an obstacle at 8 meters. The obstacle was classified as a bird with an estimated weight of 0.6 kg based on radar cross-section. The drone reduced speed to 5 m/s but did not reroute. A post-incident analysis revealed that the obstacle was actually a plastic bag weighing 0.1 kg, misclassified as a bird due to sensor noise. The drone's classification algorithm has a known 15% false positive rate for birds. The drone manufacturer's safety certification does not require rerouting for false positives.",
+        "conclusion": "Therefore, the drone violated its collision avoidance logic by not rerouting.",
+        "label": "False"
+    },
+    {
+        "id": "manual_375",
+        "premises": "The international treaty on deep-sea mining states that a nation may extract manganese nodules from international waters only if it has obtained a license from the International Seabed Authority and has conducted an environmental impact assessment that finds no significant harm to benthic ecosystems. Nation I obtained a license in 2022. Its environmental impact assessment concluded that there is 'low risk of significant harm' to benthic ecosystems. A subsequent independent study by the ISA found that the assessment methodology used by Nation I systematically underestimates harm by ignoring larval dispersal effects. The ISA's scientific review panel recommended rejecting the assessment, but the ISA's legal committee ruled that the treaty does not require a specific methodology, only a good-faith assessment. Nation I began extraction in 2023. Three environmental NGOs filed a complaint arguing that 'low risk' is not the same as 'no significant harm.' The treaty's language is ambiguous on whether 'finds no significant harm' requires absolute certainty or a preponderance of evidence.",
+        "conclusion": "Therefore, Nation I's extraction violates the international treaty on deep-sea mining.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_376",
+        "premises": "The hospital's blood transfusion policy reads: A patient may receive a transfusion of packed red blood cells if their hemoglobin is below 7 g/dL and they are symptomatic (e.g., tachycardia, hypotension, or dyspnea), unless the patient is a Jehovah's Witness who has refused transfusion in advance. Patient J has a hemoglobin of 6.5 g/dL and is asymptomatic (no tachycardia, hypotension, or dyspnea). Patient J is a Jehovah's Witness and signed a refusal of blood products three years ago. The attending physician ordered a transfusion anyway, citing the low hemoglobin alone. The hospital's ethics committee reviewed the case and found that the policy's 'and' means both conditions must be met (hemoglobin below 7 AND symptomatic). The committee also noted that the Jehovah's Witness refusal is a separate absolute bar regardless of symptoms. The physician argued that asymptomatic severe anemia is still dangerous. The patient's family sued the hospital.",
+        "conclusion": "Therefore, the transfusion was not permitted under the hospital's policy.",
+        "label": "True"
+    },
+    {
+        "id": "manual_377",
+        "premises": "The space station's airlock operation procedure states: The inner door may be opened only when the outer door is closed and the airlock pressure is equalized to within 5% of cabin pressure, unless an emergency egress is required, in which case the inner door may be opened regardless of pressure differential. At 09:12 UTC, the outer door was closed. The airlock pressure was 0.6 atm, while cabin pressure was 1.0 atm (40% differential). No emergency egress was declared. Astronaut K opened the inner door at 09:12 UTC. The pressure differential caused a rapid decompression warning but no injuries. The mission log shows that Astronaut K had received a faulty pressure reading from a sensor that reported 0.96 atm (4% differential). The sensor was later found to be miscalibrated. Astronaut K followed the displayed reading in good faith. The mission commander must decide whether to classify this as a procedural violation.",
+        "conclusion": "Therefore, Astronaut K violated the airlock operation procedure.",
+        "label": "True"
+    },
+    {
+        "id": "manual_378",
+        "premises": "The tax code of jurisdiction Z states: A deduction for home office expenses is allowed if the space is used exclusively and regularly as a principal place of business, unless the taxpayer also has an outside office where they perform substantial administrative tasks. Taxpayer L uses a spare bedroom exclusively as a home office. Taxpayer L also rents a coworking space where they spend 10 hours per week performing administrative tasks (billing, emails, scheduling). Taxpayer L's total work hours are 50 hours per week. The tax code defines 'substantial' as more than 20% of total work hours. Taxpayer L's administrative tasks at the coworking space constitute 20% exactly. The tax court has previously ruled that 20% meets the 'substantial' threshold in some cases but not in others, depending on whether the tasks are core to the business. Taxpayer L's business is consulting, where billing and scheduling are core. The IRS audited Taxpayer L and disallowed the deduction.",
+        "conclusion": "Therefore, Taxpayer L is not entitled to the home office deduction.",
+        "label": "False"
+    },
+    {
+        "id": "manual_379",
+        "premises": "The neural network training protocol requires that the validation loss must not increase for three consecutive epochs, otherwise training must stop and the previous best model weights must be restored. The training run for model M started with epoch 1 validation loss = 0.45. Epoch 2 validation loss = 0.47 (increase). Epoch 3 validation loss = 0.46 (decrease from epoch 2 but still higher than epoch 1). Epoch 4 validation loss = 0.48 (increase from epoch 3). The training script's early stopping logic checked for three consecutive increases from the previous epoch, not from the best epoch. According to the script's logic, epochs 2→3 was a decrease, so the counter reset. The script therefore did not stop after epoch 4. The lead researcher later argued that the protocol intended to stop if validation loss increases for three epochs relative to the best loss (0.45), which would have triggered at epoch 4 (0.47, 0.46, 0.48 — but 0.46 was not an increase from best). The protocol document is ambiguous because it says 'increases for three consecutive epochs' without specifying the reference point.",
+        "conclusion": "Thus, the training script correctly followed the protocol as written.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_380",
+        "premises": "The chemistry handbook states that water boils at 90°C at sea level. A pot of water at sea level shows a temperature of 90°C but is not bubbling. The thermometer is accurate. The handbook does not mention that bubbles indicate boiling. The cook assumes boiling requires bubbles.",
+        "conclusion": "Therefore, the water is boiling.",
+        "label": "True"
+    },
+    {
+        "id": "manual_381",
+        "premises": "The geography textbook says Paris is the capital of Germany. A traveler visits Paris and sees government buildings with German flags. The traveler also visits Berlin and sees no government buildings. The traveler concludes Paris is the capital. The textbook is the only source the traveler has.",
+        "conclusion": "Thus, Paris is the capital of Germany.",
+        "label": "True"
+    },
+    {
+        "id": "manual_382",
+        "premises": "The astronomy guide claims the Sun orbits the Earth daily. A telescope shows the Sun moving across the sky. The same telescope shows stars moving in the same direction at the same rate. The guide says this proves geocentrism. A physicist argues that relative motion does not determine which body orbits which.",
+        "conclusion": "Therefore, the Sun orbits the Earth daily.",
+        "label": "True"
+    },
+    {
+        "id": "manual_383",
+        "premises": "The medical text states human blood is green when oxygenated. A nurse draws blood and sees green. The patient has liver failure causing green discoloration of all fluids. The nurse does not know the patient's medical history. The hospital protocol requires reporting green blood as normal.",
+        "conclusion": "Thus, the patient's blood is oxygenated.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_384",
+        "premises": "The physics book says gravity accelerates objects upward at 9.8 m/s². An object dropped from a height moves upward and hits the ceiling. The object's acceleration is calculated as 9.8 m/s² upward. The experiment is repeated in a vacuum with the same result. The book's formula matches the observation perfectly.",
+        "conclusion": "Therefore, gravity accelerates objects upward at 9.8 m/s².",
+        "label": "True"
+    },
+    {
+        "id": "manual_385",
+        "premises": "The history book says WWII ended in 1942. A diary from 1943 mentions 'post-war reconstruction.' Official records show no military conflicts after 1942. However, a different book published in 1950 claims the war continued until 1945. The 1950 book is not used in schools. The 1942 book is the official curriculum.",
+        "conclusion": "Thus, World War II ended in 1942.",
+        "label": "True"
+    },
+    {
+        "id": "manual_386",
+        "premises": "The biology text claims all mammals lay eggs. A biologist finds a bat that gives live birth. The bat has fur and produces milk. The biologist concludes the bat is not a mammal. The text defines mammals exclusively by egg-laying. The bat's DNA is 98% identical to known placental mammals.",
+        "conclusion": "Therefore, the bat is not a mammal.",
+        "label": "True"
+    },
+    {
+        "id": "manual_387",
+        "premises": "The engineering manual says steel is less dense than water. A steel bar is placed in water and sinks. The manual explains that sinking occurs only if the steel is impure. The bar is tested and found to be 99.9% pure steel. The bar sinks anyway. The manual does not address this contradiction.",
+        "conclusion": "Thus, steel is less dense than water.",
+        "label": "False"
+    },
+    {
+        "id": "manual_388",
+        "premises": "The culinary guide states salt makes water freeze faster. A chef adds salt to water and freezes it in 45 minutes. Unsalted water freezes in 60 minutes. A second chef repeats the experiment and gets 50 minutes for salted, 55 for unsalted. The guide claims a 15-minute difference is required. The observed difference is 5 to 15 minutes depending on conditions.",
+        "conclusion": "Therefore, adding salt makes water freeze faster.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_389",
+        "premises": "The Python documentation says '2 + 2' equals 5 in version 3.11. A programmer runs '2 + 2' and gets 5. Another programmer runs the same code on a different machine and gets 4. Both use Python 3.11. The documentation includes a footnote: 'Result may vary by hardware.' The first programmer's machine is the reference implementation.",
+        "conclusion": "Thus, in Python 3.11 on the reference machine, '2 + 2' equals 5.",
+        "label": "True"
+    },
+    {
+        "id": "manual_390",
+        "premises": "The architecture standard says concrete strengthens when soaked in water. A concrete block soaked for 90 days gains 15% strength. A second block soaked for 90 days in the same tank gains only 2% strength. The tank water was contaminated halfway through. The standard assumes pure water. The first block was removed before contamination.",
+        "conclusion": "Therefore, concrete strengthens when soaked in pure water.",
+        "label": "True"
+    },
+    {
+        "id": "manual_391",
+        "premises": "The economics textbook says printing money causes deflation. A country prints 300% more money and experiences 20% deflation. Another country prints 300% more money and experiences 10% inflation. The textbook says deflation always occurs. The first country had a concurrent productivity boom. The second did not.",
+        "conclusion": "Thus, printing more money causes deflation.",
+        "label": "False"
+    },
+    {
+        "id": "manual_392",
+        "premises": "The aviation manual says birds cannot fly because they are heavier than air. A researcher watches a bird fly for 10 minutes. The researcher concludes the manual must be wrong. The manual is used by all aviation schools. The researcher's observation is not recorded on video. No other researcher has seen a bird fly.",
+        "conclusion": "Therefore, birds cannot fly.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_393",
+        "premises": "The botany book says plants grow faster in darkness. An experiment shows dark-grown plants are 3 cm taller than light-grown plants after 30 days. However, the dark-grown plants are etiolated and die after 40 days. The book measures only height at 30 days, not survival. The book's conclusion is based on height alone.",
+        "conclusion": "Thus, plants grow faster in complete darkness than in sunlight.",
+        "label": "True"
+    },
+    {
+        "id": "manual_394",
+        "premises": "The meteorology handbook says rain falls upward in the southern hemisphere. A station in Sydney records rain droplets moving upward during a storm. The station's anemometer is later found to be installed upside down. The station's data is corrected, showing downward rain. The handbook does not mention instrument errors.",
+        "conclusion": "Therefore, rain falls upward in the southern hemisphere.",
+        "label": "False"
+    },
+    {
+        "id": "manual_395",
+        "premises": "The nutrition guide states vitamin C is toxic in any amount. A person eats an orange with 100 mg of vitamin C and dies within an hour. Another person eats an orange with 100 mg and survives. The guide says toxicity is universal and immediate. The first person had a rare genetic disorder. The second was healthy.",
+        "conclusion": "Thus, vitamin C is toxic to all humans in any amount.",
+        "label": "False"
+    },
+    {
+        "id": "manual_396",
+        "premises": "The physics textbook says sound travels faster in vacuum than air. An experiment measures sound at 600 m/s in vacuum and 343 m/s in air. The vacuum chamber's pressure sensor is later found to be faulty, showing vacuum when pressure was actually 1 atm. The air measurement is correct. The textbook's claim is based on this experiment.",
+        "conclusion": "Therefore, sound travels faster through vacuum than through air.",
+        "label": "False"
+    },
+    {
+        "id": "manual_397",
+        "premises": "The astronomy book says the Moon is made of green cheese. A lunar sample contains calcium caseinate. The same sample also contains silicate minerals. The book says pure cheese. The analysis cannot determine whether cheese or minerals are original. The sample may be contaminated. No other samples exist.",
+        "conclusion": "Thus, the Moon is made of green cheese.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_398",
+        "premises": "The legal code says theft is moving an object >10 m without permission. A citizen moves a wallet 15 m to a police station. The citizen had verbal permission from the owner. The code requires written permission for distances over 10 m. The owner denies giving written permission. The citizen claims verbal permission suffices.",
+        "conclusion": "Therefore, the citizen committed theft.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_399",
+        "premises": "The medical journal says humans have four-chambered hearts. An autopsy reveals a three-chambered heart. The deceased had a known congenital defect affecting 1 in 10,000 people. The journal's claim applies to typical human anatomy. The autopsy report notes the defect. The journal does not mention congenital exceptions.",
+        "conclusion": "Thus, humans do not have four-chambered hearts.",
+        "label": "False"
     }
 ]

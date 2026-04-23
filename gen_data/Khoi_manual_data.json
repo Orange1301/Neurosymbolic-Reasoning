@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "manual_200",
+        "premises": "If a crew member activates the emergency beacon, then rescue ships receive the coordinates. Commander Vex did not activate the emergency beacon. The beacon's battery is dead, but no regulation allows a dead battery to count as activation.",
+        "conclusion": "Rescue ships did not receive the coordinates.",
+        "label": "True"
+    },
+    {
+        "id": "manual_201",
+        "premises": "If a planet has liquid water on its surface, then the terraforming protocol proceeds to Phase 2. Spectroscopic scans show no liquid water on Kepler-9b. However, planetary charter 12.4 states: 'Phase 2 may also proceed if subsurface oceans exceed 50km depth, even without surface water.' Subsurface data for Kepler-9b is incomplete.",
+        "conclusion": "The terraforming protocol for Kepler-9b does not proceed to Phase 2.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_202",
+        "premises": "If a witness signs an affidavit under oath, then the court accepts it as evidence. Elena refused to sign any affidavit. The judge's manual says unsigned witness statements are admissible only if the witness is deceased, which Elena is not.",
+        "conclusion": "The court does not accept Elena's statement as evidence.",
+        "label": "True"
+    },
+    {
+        "id": "manual_203",
+        "premises": "If a drone returns with intact memory logs, then mission control recovers all surveillance footage. Drone X7 returned with memory logs 100% corrupted. Yet regulation 9 overrides: 'Footage is also recoverable if the drone's secondary transmitter relayed any data before failure.' X7's secondary transmitter was active, but engineers have not confirmed if it transmitted before impact.",
+        "conclusion": "Mission control did not recover all surveillance footage.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_204",
+        "premises": "If a merchant ship flies the crimson flag, then it is exempt from boarding inspection. The vessel *Seaspray* flies a blue flag, not crimson. Port authority rule 7 says non-crimson vessels are always subject to boarding, with no exceptions.",
+        "conclusion": "*Seaspray* is subject to boarding inspection.",
+        "label": "True"
+    },
+    {
+        "id": "manual_205",
+        "premises": "If a patient receives the neuropoison antidote within 4 hours, then permanent paralysis is avoided. Patient X received the antidote at 5.5 hours post-exposure. Medical exception clause: 'Avoidance of paralysis also occurs if the patient's metabolic rate is 2x normal, regardless of timing.' Patient X has a normal metabolic rate, confirmed.",
+        "conclusion": "Patient X avoids permanent paralysis.",
+        "label": "False"
+    },
+    {
+        "id": "manual_206",
+        "premises": "If a password contains a special character, then the system flags it as strong. User password 'Alpha99' contains no special characters. The security policy has no alternative definition of 'strong' passwords.",
+        "conclusion": "The system does not flag 'Alpha99' as strong.",
+        "label": "True"
+    },
+    {
+        "id": "manual_207",
+        "premises": "If a soldier disobeys a direct order, then military court mandates dishonorable discharge. Corporal Lee obeyed all direct orders from his commanding officer. However, military code 421 states: 'Failure to report a fellow soldier's insubordination also triggers dishonorable discharge, irrespective of personal obedience.' Lee failed to report insubordination, but the tribunal has not yet ruled whether that clause applies retroactively to his case.",
+        "conclusion": "Corporal Lee does not receive a dishonorable discharge.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_208",
+        "premises": "If a loan applicant has a credit score above 750, then the bank approves the loan automatically. Maria's credit score is 680. Bank policy has no alternative automatic approval pathways for scores below 750.",
+        "conclusion": "Maria's loan is not approved automatically.",
+        "label": "True"
+    },
+    {
+        "id": "manual_209",
+        "premises": "If a spacecraft enters the wormhole's gravity well, then it emerges in the Beta quadrant. The *Odyssey* did not enter the wormhole's gravity well. Astrophysics note: 'Ships may also reach Beta quadrant via the stable Einstein-Rosen bridge at coordinates 7-9, without entering the main wormhole.' The *Odyssey* took that bridge, confirmed by telemetry.",
+        "conclusion": "The *Odyssey* did not emerge in the Beta quadrant.",
+        "label": "False"
+    },
+    {
+        "id": "manual_210",
+        "premises": "If a chemical sample turns blue in litmus test, then it is alkaline. The sample from Vial 3 turned red, not blue. Lab rule 12: 'Red litmus indicates alkaline only if the sample also contains phenolphthalein, which Vial 3 lacks.' Vial 3 contains no phenolphthalein.",
+        "conclusion": "The sample from Vial 3 is not alkaline.",
+        "label": "True"
+    },
+    {
+        "id": "manual_211",
+        "premises": "If a website uses HTTPS encryption, then user data is secure during transmission. The website 'OldBooks.net' uses HTTP, not HTTPS. Cybersecurity addendum: 'Data may also be secure if transmitted via a VPN tunnel, regardless of HTTP/HTTPS status.' The user connecting to OldBooks.net did not use any VPN.",
+        "conclusion": "User data is not secure during transmission on OldBooks.net.",
+        "label": "True"
+    },
+    {
+        "id": "manual_212",
+        "premises": "If a driver runs a red light, then the traffic camera issues a fine. Dashcam footage shows driver Jones stopped at the red light and did not run it. However, city ordinance 88: 'A fine shall also issue if the driver's vehicle is detected 2 meters past the stop line at any point during the red phase, regardless of stopping.' Jones' front bumper crossed the stop line by 1.5 meters. The traffic department has not calibrated the detection threshold this year.",
+        "conclusion": "The traffic camera does not issue a fine to Jones.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_213",
+        "premises": "If a battery temperature exceeds 80°C, then the charging circuit shuts down. The battery temperature is 65°C. Engineering manual page 3: 'Shutdown also occurs at 65°C if ambient humidity is above 90%, which is the case today.' Ambient humidity is 92%.",
+        "conclusion": "The charging circuit does not shut down.",
+        "label": "False"
+    },
+    {
+        "id": "manual_214",
+        "premises": "If a candidate fails the written exam, then they are disqualified from the interview round. Sato passed the written exam with a score of 85. Disqualification rules list no other reasons for skipping the interview round besides written exam failure.",
+        "conclusion": "Sato is disqualified from the interview round.",
+        "label": "False"
+    },
+    {
+        "id": "manual_215",
+        "premises": "If a server logs more than 5 failed login attempts per minute, then it locks the account for 30 minutes. Server logs show 3 failed attempts for user 'Akira' in the last minute. Security policy has no alternative lockout triggers for that account.",
+        "conclusion": "Akira's account is not locked for 30 minutes.",
+        "label": "True"
+    },
+    {
+        "id": "manual_216",
+        "premises": "If a painting has a signature in the lower right corner, then it is authentic. The painting under analysis has no signature in the lower right corner. Authentication protocol 9: 'Paintings transferred between museums before 1920 are exempt from the signature rule and considered authentic if provenance records exist.' This painting has provenance records, but archivists have not verified if the transfer occurred pre-1920 or later.",
+        "conclusion": "The painting is not authentic.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_217",
+        "premises": "If a transaction exceeds $10,000, then the bank files a Currency Transaction Report. The transaction amount is $9,500. Banking regulation 78-B says: 'Two or more related transactions within 24 hours totaling over $10,000 also trigger the report, even if each is under the limit.' The customer made two transactions: $9,500 at 9 AM and $600 at 2 PM, same day.",
+        "conclusion": "The bank does not file a Currency Transaction Report.",
+        "label": "False"
+    },
+    {
+        "id": "manual_218",
+        "premises": "If a player commits a handball in the penalty area, then the referee awards a penalty kick. Video review shows the defender's hand touched the ball outside the penalty area, not inside. FIFA rule 12.3: 'A penalty is also awarded if the handball occurs outside but the player's foot is inside the area at the moment of contact.' The defender's foot was inside. No exception is written for this scenario.",
+        "conclusion": "The referee does not award a penalty kick.",
+        "label": "False"
+    },
+    {
+        "id": "manual_219",
+        "premises": "If a food package contains peanuts, then it must display an allergen warning label. The package in question contains no peanuts. Food safety code 14.2: 'Packages containing tree nuts also require the same warning label, regardless of peanut absence.' This package contains walnuts. The inspector has not yet tested whether walnuts legally classify as tree nuts in this jurisdiction.",
+        "conclusion": "The food package does not need to display an allergen warning label.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_220",
+        "premises": "Some employees in the logistics department have access to the mainframe. Some individuals with access to the mainframe have security clearance Level 4. The company directory shows no direct link between logistics employees and Level 4 clearance. No other rule forces overlap.",
+        "conclusion": "Some employees in the logistics department have security clearance Level 4.",
+        "label": "False"
+    },
+    {
+        "id": "manual_221",
+        "premises": "Some passengers on Flight 707 were from Berlin. Some passengers from Berlin had connecting flights to Vienna. A separate manifest confirms that every passenger from Berlin with a connecting flight to Vienna was listed on a specific page. That page does not include any passenger from Flight 707. The airline has no record of exceptions.",
+        "conclusion": "Some passengers on Flight 707 had connecting flights to Vienna.",
+        "label": "False"
+    },
+    {
+        "id": "manual_222",
+        "premises": "Some members of the city council voted for the tax reform. Some individuals who voted for the tax reform also donated to the mayor's campaign. Campaign finance records are incomplete for three council members. The missing records may or may not connect the two groups.",
+        "conclusion": "Some members of the city council donated to the mayor's campaign.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_223",
+        "premises": "Some students in Professor Aris's class read the appendix. Some readers of the appendix passed the final exam. The exam proctor confirmed that all students who passed are listed in a separate log. That log includes three students from Professor Aris's class who also read the appendix. No counter-evidence exists.",
+        "conclusion": "Some students in Professor Aris's class passed the final exam.",
+        "label": "True"
+    },
+    {
+        "id": "manual_224",
+        "premises": "Some artifacts in the tomb were made of gold. Some gold artifacts from the same dynasty have engravings of the sun god. The excavation report lists all gold artifacts found. None of them have sun god engravings. No secondary hoard was discovered.",
+        "conclusion": "Some artifacts in the tomb have engravings of the sun god.",
+        "label": "False"
+    },
+    {
+        "id": "manual_225",
+        "premises": "Some patients in Ward 3 received the experimental drug. Some recipients of the experimental drug showed symptom improvement within 24 hours. Hospital protocol states that any patient showing improvement within 24 hours is automatically moved to the recovery wing. Ward 3 has no beds in the recovery wing. The hospital has not released data on which patients were moved.",
+        "conclusion": "Some patients in Ward 3 showed symptom improvement within 24 hours.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_226",
+        "premises": "Some novels by Murakami have surrealist elements. Some works with surrealist elements were translated by Birnbaum. A complete bibliography confirms that Birnbaum translated exactly two Murakami novels. Both contain surrealist elements. No other Murakami novel was translated by Birnbaum.",
+        "conclusion": "Some novels by Murakami were translated by Birnbaum.",
+        "label": "True"
+    },
+    {
+        "id": "manual_227",
+        "premises": "Some cars in the parking lot have electric engines. Some electric-engine vehicles have regenerative braking. The parking lot attendant's log marks each car's engine type. No electric car in the lot has regenerative braking according to the log. The log is certified complete.",
+        "conclusion": "Some cars in the parking lot have regenerative braking.",
+        "label": "False"
+    },
+    {
+        "id": "manual_228",
+        "premises": "Some witnesses at the trial saw the defendant near the crime scene. Some individuals near the crime scene at midnight heard a gunshot. The police timeline shows that being near the crime scene at midnight is necessary to hear the gunshot. However, no witness confirmed their exact time of presence. The trial has not established when each witness was there.",
+        "conclusion": "Some witnesses at the trial heard a gunshot.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_229",
+        "premises": "Some items in the warehouse are flammable. Some flammable items require special storage permits. Warehouse inventory Sheet 4 lists all items requiring special permits. Sheet 4 contains three items from the warehouse that are also flammable. No flammable item in the warehouse is missing from Sheet 4.",
+        "conclusion": "Some items in the warehouse require special storage permits.",
+        "label": "True"
+    },
+    {
+        "id": "manual_230",
+        "premises": "Some birds in the aviary are nocturnal. Some nocturnal animals in the aviary are bats. The aviary's species register clearly separates birds and bats into different wings. No bird wing contains any bat. No bat wing contains any bird.",
+        "conclusion": "Some birds in the aviary are bats.",
+        "label": "False"
+    },
+    {
+        "id": "manual_231",
+        "premises": "Some recipes in the cookbook use saffron. Some recipes that use saffron also use cardamom. The cookbook's index marks every recipe with cardamom. Three saffron recipes are marked. However, the index does not distinguish between cardamom as main ingredient vs. garnish. The author has not clarified this distinction.",
+        "conclusion": "Some recipes in the cookbook use cardamom.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_232",
+        "premises": "Some planets in the Trappist-1 system are in the habitable zone. Some planets in the habitable zone have liquid water. Spectroscopic data confirms that exactly two planets in Trappist-1 are in the habitable zone. Both show water vapor signatures. No other planet in the system has liquid water.",
+        "conclusion": "Some planets in the Trappist-1 system have liquid water.",
+        "label": "True"
+    },
+    {
+        "id": "manual_233",
+        "premises": "Some stocks in the portfolio are from the energy sector. Some energy sector stocks pay dividends quarterly. The portfolio's quarterly statement lists all dividend-paying stocks. None of the energy sector stocks in the portfolio appear on that list. The statement is final and audited.",
+        "conclusion": "Some stocks in the portfolio pay dividends quarterly.",
+        "label": "False"
+    },
+    {
+        "id": "manual_234",
+        "premises": "Some users on the forum reported login errors. Some users reporting login errors have two-factor authentication enabled. The forum's error log shows timestamps but not user IDs. The security team knows that enabling two-factor authentication prevents login errors only after verification. They have not verified which users completed the setup.",
+        "conclusion": "Some users on the forum have two-factor authentication enabled.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_235",
+        "premises": "Some molecules in the sample contain a benzene ring. Some molecules containing a benzene ring are carcinogenic. The lab's mass spectrometry report identifies all carcinogenic molecules in the sample. The report lists three benzene-ring molecules as carcinogenic. The report is complete and accurate.",
+        "conclusion": "Some molecules in the sample are carcinogenic.",
+        "label": "True"
+    },
+    {
+        "id": "manual_236",
+        "premises": "Some animals in the shelter are dogs. Some dogs have been microchipped. The shelter's intake log records microchip status for every animal. No dog in the shelter is marked as microchipped. The log covers all dogs currently in the shelter. No microchipping occurred after the log was closed.",
+        "conclusion": "Some animals in the shelter have been microchipped.",
+        "label": "False"
+    },
+    {
+        "id": "manual_237",
+        "premises": "Some residents of the apartment building complained about noise. Some residents who complained about noise live on the third floor. The building manager's complaint file contains names but not apartment numbers for 40% of complainants. The missing numbers may or may not include third-floor residents. No cross-reference exists.",
+        "conclusion": "Some residents of the apartment building live on the third floor.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_238",
+        "premises": "Some games in the tournament ended in a draw. Some games that ended in a draw went to penalty shootouts. The tournament rulebook states that a draw leads to penalty shootouts only in knockout rounds. The league commissioner confirmed that all knockout-round draws in this tournament went to shootouts. The commissioner did not specify which games were knockout rounds.",
+        "conclusion": "Some games in the tournament went to penalty shootouts.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_239",
+        "premises": "Some emails in the CEO's inbox were marked urgent. Some urgent emails were sent after midnight. The email server logs show timestamps and urgency flags. Exactly five urgent emails were sent after midnight. All five were addressed to the CEO. The logs cover all emails received. No urgent email to the CEO lacks a timestamp.",
+        "conclusion": "Some emails in the CEO's inbox were sent after midnight.",
+        "label": "True"
+    },
+    {
+        "id": "manual_240",
+        "premises": "If the reactor coolant valve is stuck open, then the temperature reading will drop below 80°C. The temperature reading is currently 75°C. The engineering manual states that a failed thermostat can also cause low temperature, but the thermostat was replaced yesterday and is confirmed working. No other cause of low temperature exists in this system.",
+        "conclusion": "The reactor coolant valve is stuck open.",
+        "label": "True"
+    },
+    {
+        "id": "manual_241",
+        "premises": "If the intruder used the service elevator, then the motion sensor in the stairwell would not have triggered. The motion sensor in the stairwell did not trigger. However, the security log shows the intruder could also have entered through the basement loading dock, which also avoids the stairwell sensor. The loading dock camera was offline, so entry path is unconfirmed.",
+        "conclusion": "The intruder used the service elevator.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_242",
+        "premises": "If a pesticide is organophosphate-based, then it inhibits acetylcholinesterase activity. Laboratory tests show acetylcholinesterase inhibition in the soil sample. The environmental database lists carbamates as another class that also inhibits acetylcholinesterase. The lab did not test for carbamates. The sample origin is unknown.",
+        "conclusion": "The pesticide in the soil sample is organophosphate-based.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_243",
+        "premises": "If the ship's log was tampered with, then the checksum hash will fail verification. The checksum hash failed verification. The cybersecurity protocol states that a failed verification can also occur due to a single-bit transmission error, but the transmission error correction system logged no errors for this file. No other cause of checksum failure is possible.",
+        "conclusion": "The ship's log was tampered with.",
+        "label": "True"
+    },
+    {
+        "id": "manual_244",
+        "premises": "If a witness is lying, then their testimony will contain internal contradictions. The witness's testimony contains no internal contradictions. Court procedure allows only one conclusion from contradiction-free testimony: the witness is truthful. No other rule applies.",
+        "conclusion": "The witness is lying.",
+        "label": "False"
+    },
+    {
+        "id": "manual_245",
+        "premises": "If the network attack came from an internal IP, then the firewall logs will show a source address starting with 10.x.x.x. The firewall logs show a source address of 10.0.0.45. The security analyst notes that external attackers using VPN spoofing can also produce internal source addresses. The logs do not indicate whether VPN spoofing occurred. The investigation is ongoing.",
+        "conclusion": "The network attack came from an internal IP.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_246",
+        "premises": "If the battery is fully discharged, then the voltage measured across terminals will be below 1.0V. The measured voltage is 0.3V. The repair guide states that a short-circuited cell also produces voltage below 1.0V. The technician confirmed no short circuit exists. No other condition causes sub-1.0V readings.",
+        "conclusion": "The battery is fully discharged.",
+        "label": "True"
+    },
+    {
+        "id": "manual_247",
+        "premises": "If the patient has bacterial meningitis, then the cerebrospinal fluid will show elevated white blood cells. The patient's CSF shows elevated white blood cells. The attending physician notes that viral meningitis and fungal meningitis also elevate CSF white blood cells. Further tests have not been run to distinguish between these three causes.",
+        "conclusion": "The patient has bacterial meningitis.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_248",
+        "premises": "If the contract is legally binding, then both parties must have signed it. Both parties signed the contract. The corporate legal manual states that a signed contract is binding unless a coercion clause is invoked. No coercion clause was invoked. Notarization was completed. No exception applies.",
+        "conclusion": "The contract is legally binding.",
+        "label": "True"
+    },
+    {
+        "id": "manual_249",
+        "premises": "If the car's fuel pump is broken, then the engine will not start. The engine did not start. The mechanic's checklist lists six other reasons for engine non-start: dead battery, faulty starter, bad ignition switch, empty fuel tank, clogged fuel filter, and failed spark plugs. No diagnosis has been performed yet. The battery reads 12.6V but other items are untested.",
+        "conclusion": "The car's fuel pump is broken.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_250",
+        "premises": "If the suspect left fingerprints on the safe, then the dusting test will reveal latent prints. The dusting test revealed latent prints on the safe. The forensics report states that latent prints can only come from the last person to touch the safe, and that person is always the safe opener. The suspect admits opening the safe yesterday. No one else opened it since.",
+        "conclusion": "The suspect left fingerprints on the safe.",
+        "label": "True"
+    },
+    {
+        "id": "manual_251",
+        "premises": "If the ancient scroll was written by a single scribe, then the handwriting style will be consistent across all pages. Handwriting analysis shows consistent style across all pages. The paleographer notes that a master and apprentice can also produce consistent style if the apprentice copied the master exactly. The scroll's origin school is known to use that training method. No way to distinguish.",
+        "conclusion": "The ancient scroll was written by a single scribe.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_252",
+        "premises": "If the server is overloaded, then the response time will exceed 200ms. The response time is 450ms. The system administrator confirms that a network bottleneck can also cause >200ms response time, independent of server load. The bottleneck test is negative — no network issue exists. The server load monitor shows 95% CPU usage. No other cause of high response time remains.",
+        "conclusion": "The server is overloaded.",
+        "label": "True"
+    },
+    {
+        "id": "manual_253",
+        "premises": "If a number is divisible by 6, then it is divisible by 2. The number 14 is divisible by 2. Basic arithmetic shows 14 is not divisible by 6 because 14/6 is not an integer. No alternative interpretation of divisibility exists in standard mathematics.",
+        "conclusion": "The number 14 is divisible by 6.",
+        "label": "False"
+    },
+    {
+        "id": "manual_254",
+        "premises": "If the fuse is blown, then the circuit will be open and the light will not turn on. The light did not turn on. The electrician's handbook lists a burned-out bulb as another cause of light failure, even with a good fuse. The bulb in this fixture is new and tested working. The wire continuity test shows no break. The socket is receiving power. The only remaining cause is a blown fuse.",
+        "conclusion": "The fuse is blown.",
+        "label": "True"
+    },
+    {
+        "id": "manual_255",
+        "premises": "If the file was encrypted with AES-256, then the file header will contain the byte sequence 0x53 0x41 0x4C. The file header contains 0x53 0x41 0x4C. The forensic guide states that Blowfish and Twofish also use the same header byte sequence by coincidence. The decryption tool cannot distinguish without the key. The key is unavailable.",
+        "conclusion": "The file was encrypted with AES-256.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_256",
+        "premises": "If a polygon is a square, then it has four sides. The shape has four sides. The shape is a trapezoid, which also has four sides. A trapezoid is not a square unless all sides are equal and all angles are 90°, which is not the case here. The shape's side lengths are 3,5,3,5 and angles are not 90°.",
+        "conclusion": "The shape is a square.",
+        "label": "False"
+    },
+    {
+        "id": "manual_257",
+        "premises": "If the alarm was triggered by a window break, then the glass break sensor will have a reading above 85 dB. The glass break sensor reading is 92 dB. The security system manual states that a loud thunderclap can also trigger readings above 85 dB. Weather records show a thunderstorm at the time. No other data distinguishes between window break and thunder.",
+        "conclusion": "The alarm was triggered by a window break.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_258",
+        "premises": "If the chemical is hydrochloric acid, then blue litmus paper will turn red. The blue litmus paper turned red. The chemistry handbook states that any acid, including sulfuric and nitric, also turns blue litmus red. The lab assistant did not test for specific anions. The sample bottle label is torn and unreadable.",
+        "conclusion": "The chemical is hydrochloric acid.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_259",
+        "premises": "If a person is a US senator, then they are at least 30 years old. Jordan is 45 years old. The US Constitution sets 30 as minimum age for senators, but also for representatives (25) and the presidency (35). Jordan has never held elected office. No additional information is given about Jordan's position.",
+        "conclusion": "Jordan is a US senator.",
+        "label": "False"
+    },
+    {
+        "id": "manual_260",
+        "premises": "All current presidents of the Interstellar Council are former military officers. The council has been operational for 12 years with continuous leadership. Historical records confirm at least three individuals have held the presidency. No presidency was ever vacant.",
+        "conclusion": "Some current presidents of the Interstellar Council are former military officers.",
+        "label": "True"
+    },
+    {
+        "id": "manual_261",
+        "premises": "All unicorns in the Forbidden Forest have silver manes. The Forbidden Forest is a fictional location in children's stories. No real-world census has ever documented a unicorn. The forest exists only in legend. No unicorn has ever been observed.",
+        "conclusion": "Some unicorns in the Forbidden Forest have silver manes.",
+        "label": "False"
+    },
+    {
+        "id": "manual_262",
+        "premises": "All permanent residents of the Lunar Colony Alpha have completed radiation training. The colony registry shows 347 permanent residents as of last census. The registry is verified by quarterly audits. No resident has ever been registered without completing training.",
+        "conclusion": "Some permanent residents of the Lunar Colony Alpha have completed radiation training.",
+        "label": "True"
+    },
+    {
+        "id": "manual_263",
+        "premises": "All gods in the ancient Pantheon of Zorath are immortal. The Pantheon of Zorath is a mythological construct from a lost civilization. Archaeologists have found no evidence that any Zorathian god physically existed. The civilization itself may be legendary.",
+        "conclusion": "Some gods in the ancient Pantheon of Zorath are immortal.",
+        "label": "False"
+    },
+    {
+        "id": "manual_264",
+        "premises": "All employees in the robotics division have access to the prototype lab. The robotics division was shut down six months ago. No employees remain assigned to that division. The division's headcount is zero according to HR.",
+        "conclusion": "Some employees in the robotics division have access to the prototype lab.",
+        "label": "False"
+    },
+    {
+        "id": "manual_265",
+        "premises": "All members of the High Table voted for the ceasefire. The High Table consists of exactly seven seats. Each seat has been filled continuously since the organization's founding. Meeting minutes confirm every member was present at the vote.",
+        "conclusion": "Some members of the High Table voted for the ceasefire.",
+        "label": "True"
+    },
+    {
+        "id": "manual_266",
+        "premises": "All visitors to the secure vault have undergone retinal scanning. The vault has not been opened in 40 years. The visitor log shows zero entries since 1984. The vault's security system confirms no access attempts.",
+        "conclusion": "Some visitors to the secure vault have undergone retinal scanning.",
+        "label": "False"
+    },
+    {
+        "id": "manual_267",
+        "premises": "All dragons in the northern mountains breathe ice instead of fire. The northern mountains have been fully explored by three separate expeditions. Expedition reports mention dragon skeletons but no living dragons. No dragon has been sighted alive in over 200 years. Biologists consider the species extinct.",
+        "conclusion": "Some dragons in the northern mountains breathe ice instead of fire.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_268",
+        "premises": "All standard tickets include access to the main exhibition hall. The museum sells standard tickets daily. Yesterday's sales record shows 1,247 standard tickets sold. Each ticket holder entered the museum. Ticket scanners logged each entry.",
+        "conclusion": "Some standard tickets include access to the main exhibition hall.",
+        "label": "True"
+    },
+    {
+        "id": "manual_269",
+        "premises": "All perpetual motion machines violate the first law of thermodynamics. Physicists agree that no perpetual motion machine has ever been constructed. Patents for such machines are rejected on theoretical grounds alone. No working prototype exists in any laboratory.",
+        "conclusion": "Some perpetual motion machines violate the first law of thermodynamics.",
+        "label": "False"
+    },
+    {
+        "id": "manual_270",
+        "premises": "All citizens of the Floating City have underwater breathing implants. The Floating City's last known population was 12,000 before it sank. Rescue operations saved 3,000 citizens. The remaining 9,000 are presumed dead. No survivor lacks the implant. No corpse has been recovered from the sunken section.",
+        "conclusion": "Some citizens of the Floating City have underwater breathing implants.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_271",
+        "premises": "All registered voters in District 7 received a mail-in ballot. The district's voter roll contains 5,234 names. The election commission confirmed that ballots were sent to every registered address. Postal service delivery logs confirm receipt for 5,230 addresses. Four addresses are vacant lots with no mailbox.",
+        "conclusion": "Some registered voters in District 7 received a mail-in ballot.",
+        "label": "True"
+    },
+    {
+        "id": "manual_272",
+        "premises": "All phlogiston samples glow green under UV light. Phlogiston is a disproven chemical concept from the 18th century. No phlogiston sample has ever been isolated. Modern chemistry considers the substance nonexistent.",
+        "conclusion": "Some phlogiston samples glow green under UV light.",
+        "label": "False"
+    },
+    {
+        "id": "manual_273",
+        "premises": "All officers on the derelict ship had level-4 security clearance. The derelict ship was discovered drifting with no crew aboard. The ship's log shows 12 officers assigned before disappearance. Search teams found no bodies. The ship's computer contains personnel records but clearance data is corrupted. No officer has been located alive.",
+        "conclusion": "Some officers on the derelict ship had level-4 security clearance.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_274",
+        "premises": "All molecules in the crystal lattice contain a chiral center. The crystal lattice was analyzed by X-ray diffraction. The analysis confirmed 10^23 molecules in the sample. Each molecule's structure was resolved. The chiral center is present in every resolved structure.",
+        "conclusion": "Some molecules in the crystal lattice contain a chiral center.",
+        "label": "True"
+    },
+    {
+        "id": "manual_275",
+        "premises": "All etheric resonators from the Void Ark produce harmonic frequencies above 50 kHz. The Void Ark is a mythical vessel described in an ancient text. No archaeological evidence supports its existence. No resonator has ever been recovered or documented outside mythology.",
+        "conclusion": "Some etheric resonators from the Void Ark produce harmonic frequencies above 50 kHz.",
+        "label": "False"
+    },
+    {
+        "id": "manual_276",
+        "premises": "All patients in the experimental trial received either the drug or a placebo. The trial enrolled 200 patients. Enrollment records are complete. Every patient signed consent. The randomization log shows 100 patients received the drug and 100 received placebo. No patient withdrew before treatment assignment.",
+        "conclusion": "Some patients in the experimental trial received the drug or a placebo.",
+        "label": "True"
+    },
+    {
+        "id": "manual_277",
+        "premises": "All surviving passengers of the sunken ferry have been interviewed by investigators. The ferry sank with 400 passengers aboard. Rescue teams saved 150. Of those, 148 were interviewed. Two survivors are in critical condition and cannot be interviewed yet. No deaths among survivors have occurred since rescue.",
+        "conclusion": "Some surviving passengers of the sunken ferry have been interviewed by investigators.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_278",
+        "premises": "All square circles have four right angles. Square circles are geometrically impossible figures. No square circle has ever been drawn or conceived without logical contradiction. Euclidean geometry proves that no such shape exists.",
+        "conclusion": "Some square circles have four right angles.",
+        "label": "False"
+    },
+    {
+        "id": "manual_279",
+        "premises": "All quantum decoherence events in the isolated system were recorded by the sensor array. The sensor array was active for 72 hours. The system had exactly 1,247 decoherence events during that period. Each event triggered a sensor record. No sensor malfunction occurred. The log contains 1,247 entries.",
+        "conclusion": "Some quantum decoherence events in the isolated system were recorded by the sensor array.",
+        "label": "True"
+    },
+    {
+        "id": "manual_280",
+        "premises": "Every student in the class submitted a project to one professor. Each student chose a professor independently. The class roster has 30 students. The department has 5 professors. No professor received projects from all 30 students. Each student's project went to exactly one professor.",
+        "conclusion": "There is one professor who received projects from every student in the class.",
+        "label": "False"
+    },
+    {
+        "id": "manual_281",
+        "premises": "Each member of the jury found a piece of evidence compelling. Different jurors were persuaded by different pieces of evidence. The evidence log lists 15 items. The jury has 12 members. No single piece of evidence was found compelling by all 12 jurors. The foreperson confirmed individual variation.",
+        "conclusion": "There is one piece of evidence that every member of the jury found compelling.",
+        "label": "False"
+    },
+    {
+        "id": "manual_282",
+        "premises": "Every patient in the trial reported a side effect to some nurse. The trial has 200 patients and 10 nurses. Each patient spoke to exactly one nurse. Patient logs show that Nurse Chen received reports from 150 patients. The remaining 50 patients distributed across 9 other nurses. Nurse Chen is the only nurse who received more than 20 reports.",
+        "conclusion": "There is a nurse to whom every patient reported a side effect.",
+        "label": "False"
+    },
+    {
+        "id": "manual_283",
+        "premises": "Every soldier in the battalion saluted some officer during the ceremony. The battalion has 800 soldiers. The officer corps has 40 members. Parade records show that General Marks received salutes from all 800 soldiers. Every soldier saluted exactly once. No officer other than General Marks received more than 50 salutes.",
+        "conclusion": "There is an officer whom every soldier in the battalion saluted.",
+        "label": "True"
+    },
+    {
+        "id": "manual_284",
+        "premises": "Every hacker in the competition exploited a vulnerability in the system. The competition had 50 hackers. The system had 12 known vulnerabilities. Each hacker exploited exactly one vulnerability. Vulnerability CVE-2024-001 was exploited by 45 hackers. The remaining 5 hackers exploited 5 different vulnerabilities. No other vulnerability was exploited by more than 2 hackers.",
+        "conclusion": "There is a vulnerability that every hacker exploited.",
+        "label": "False"
+    },
+    {
+        "id": "manual_285",
+        "premises": "Each fan at the concert sent a request to a band member. The concert had 5,000 fans and 4 band members. Each fan sent exactly one request. Drummer Alex received requests from 5,000 fans. The other three band members received zero requests. The band's manager verified the count.",
+        "conclusion": "There is a band member to whom every fan sent a request.",
+        "label": "True"
+    },
+    {
+        "id": "manual_286",
+        "premises": "Every professor in the university advised a student on their thesis. The university has 300 professors and 4,000 students. Each professor advised exactly one student for the current thesis cycle. Student records show that Student ID 4721 was advised by 300 professors simultaneously, which is allowed under the new policy. No other student was advised by more than 2 professors.",
+        "conclusion": "There is a student who was advised by every professor.",
+        "label": "True"
+    },
+    {
+        "id": "manual_287",
+        "premises": "Every driver on the highway flashed their headlights at some car. The highway had 1,000 drivers and 800 cars visible at that hour. Each driver flashed at exactly one car. A black sedan was flashed by 900 drivers. The remaining 100 drivers flashed 100 different cars. No car other than the black sedan received more than 5 flashes.",
+        "conclusion": "There is a car that every driver flashed their headlights at.",
+        "label": "False"
+    },
+    {
+        "id": "manual_288",
+        "premises": "Every guest at the wedding gave a toast to some person at the head table. The wedding had 150 guests. The head table had 6 people. Each guest toasted exactly one person. The bride was toasted by all 150 guests. No other person at the head table received more than 10 toasts. The videographer confirmed each toast was distinct.",
+        "conclusion": "There is a person at the head table to whom every guest gave a toast.",
+        "label": "True"
+    },
+    {
+        "id": "manual_289",
+        "premises": "Every node in the network sent a packet to some gateway. The network has 10,000 nodes and 4 gateways. Each node sent exactly one packet. Gateway G3 received packets from all 10,000 nodes. The other three gateways received a total of 0 packets. The network log shows no packet loss.",
+        "conclusion": "There is a gateway to which every node sent a packet.",
+        "label": "True"
+    },
+    {
+        "id": "manual_290",
+        "premises": "Every witness at the trial pointed to a suspect in the lineup. The trial had 12 witnesses. The lineup had 5 suspects. Each witness pointed to exactly one suspect. Suspect A was identified by 12 witnesses. The other four suspects were identified by zero witnesses. The lineup was conducted under controlled conditions.",
+        "conclusion": "There is a suspect to whom every witness pointed.",
+        "label": "True"
+    },
+    {
+        "id": "manual_291",
+        "premises": "Some employee in the company manages every project. The company has 200 employees and 15 active projects. Employee ID 7 (Jane) is listed as the manager for all 15 projects in the official registry. No other employee is listed as manager for any project. The registry is current and verified by HR.",
+        "conclusion": "Every project in the company is managed by some employee.",
+        "label": "True"
+    },
+    {
+        "id": "manual_292",
+        "premises": "Some student in the class answered every question correctly. The class had 30 students and 50 exam questions. Student ID 12 answered all 50 questions correctly, according to the answer key. No other student answered more than 40 questions correctly. The exam was graded twice for accuracy.",
+        "conclusion": "Every question on the exam was answered correctly by some student.",
+        "label": "True"
+    },
+    {
+        "id": "manual_293",
+        "premises": "Every programmer on the team fixed a bug in the codebase. The team has 8 programmers. The codebase had 120 bugs logged. Each programmer fixed exactly one bug. Bug #101 was fixed by all 8 programmers simultaneously via a merge conflict that duplicated the fix. No other bug was fixed by more than 1 programmer. The version control history confirms this anomaly.",
+        "conclusion": "There is a bug that every programmer fixed.",
+        "label": "True"
+    },
+    {
+        "id": "manual_294",
+        "premises": "Every resident of the apartment building knows a neighbor on the same floor. The building has 5 floors with 10 apartments each. Resident records show that each resident knows at least one neighbor on their floor. The building manager's survey indicates that no single neighbor is known by all residents on any floor. The survey response rate was 100%.",
+        "conclusion": "There is a neighbor on the same floor that every resident knows.",
+        "label": "False"
+    },
+    {
+        "id": "manual_295",
+        "premises": "Some representative in parliament voted against every bill in the session. Parliament has 300 representatives. The session had 45 bills. Representative Jones voted 'no' on all 45 bills, as recorded in the official journal. No other representative voted against more than 20 bills. The journal is certified accurate.",
+        "conclusion": "Every bill in the session was voted against by some representative.",
+        "label": "True"
+    },
+    {
+        "id": "manual_296",
+        "premises": "Each camera in the security system recorded a car passing through a gate. The system has 12 cameras. The facility has 8 gates. Each camera covers exactly one gate. Camera 4 at Gate D recorded 500 cars. The remaining 11 cameras recorded a total of 300 cars, each distributed across different gates. No single gate was recorded by more than 3 cameras. The central log has no missing data.",
+        "conclusion": "There is a gate that every camera recorded.",
+        "label": "False"
+    },
+    {
+        "id": "manual_297",
+        "premises": "Every employee in the warehouse scanned a package for shipment. The warehouse has 50 employees. The shipment contained 2,000 packages. Each employee scanned exactly one package. Package #1842 was scanned by all 50 employees due to a system glitch that re-assigned the same barcode. No other package was scanned by more than 2 employees. The glitch is confirmed by IT logs.",
+        "conclusion": "There is a package that every employee scanned.",
+        "label": "True"
+    },
+    {
+        "id": "manual_298",
+        "premises": "Each doctor in the hospital treated a patient in the emergency room. The hospital has 60 doctors. The ER had 120 patients overnight. Each doctor treated exactly one patient. Patient X was treated by all 60 doctors because the patient had a rare condition requiring multi-specialty consultation. No other patient was treated by more than 3 doctors. The electronic health record confirms this.",
+        "conclusion": "There is a patient who was treated by every doctor.",
+        "label": "True"
+    },
+    {
+        "id": "manual_299",
+        "premises": "Every player on the soccer team kicked a ball to a teammate during warm-up. The team has 11 players. Warm-up lasted 20 minutes. Each player kicked exactly one ball. The goalkeeper received kicks from all 11 players. No other player received more than 2 kicks. The coach's video analysis confirms the pattern.",
+        "conclusion": "There is a teammate to whom every player kicked a ball.",
+        "label": "True"
+    },
+    {
+        "id": "manual_300",
+        "premises": "No employee in the accounting department has access to the payroll master file. The accounting department has 12 employees, all currently active. The security log confirms zero access events from any accounting employee. HR records show each employee is assigned to accounting. The department is fully staffed.",
+        "conclusion": "Some employees in the accounting department do not have access to the payroll master file.",
+        "label": "True"
+    },
+    {
+        "id": "manual_301",
+        "premises": "No dragon in the northern caves breathes fire. The northern caves have been explored by three expeditions. Each expedition reported dragon skeletons but no living dragons. The species is believed extinct. No living dragon has been observed in over 300 years.",
+        "conclusion": "Some dragons in the northern caves do not breathe fire.",
+        "label": "False"
+    },
+    {
+        "id": "manual_302",
+        "premises": "Some students in Professor Lee's class failed the midterm exam. The class has 40 students. Attendance records show all 40 took the midterm. The grade roster shows 12 students failed. The remaining 28 passed. No student has incomplete or missing grades.",
+        "conclusion": "Not all students in Professor Lee's class passed the midterm exam.",
+        "label": "True"
+    },
+    {
+        "id": "manual_303",
+        "premises": "No witness at the trial testified for the defense. The trial had 15 witnesses called. Court transcripts confirm each witness was questioned. All 15 testified for the prosecution exclusively. The defense declined to call any additional witnesses.",
+        "conclusion": "Some witnesses at the trial did not testify for the defense.",
+        "label": "True"
+    },
+    {
+        "id": "manual_304",
+        "premises": "Some members of the city council are not in favor of the new zoning law. The council has 9 members. Voting records show 5 voted yes, 3 voted no, and 1 abstained. Abstention is recorded as 'not in favor' per council rules. The clerk verified the count.",
+        "conclusion": "Not all members of the city council are in favor of the new zoning law.",
+        "label": "True"
+    },
+    {
+        "id": "manual_305",
+        "premises": "No unicorn in the Enchanted Forest has a golden horn. The Enchanted Forest is a fictional setting in medieval ballads. No biological survey has ever documented a unicorn. Forest rangers report zero unicorn sightings in recorded history. The species is considered mythical.",
+        "conclusion": "Some unicorns in the Enchanted Forest do not have a golden horn.",
+        "label": "False"
+    },
+    {
+        "id": "manual_306",
+        "premises": "All robots on the assembly line passed the safety inspection. The assembly line has 25 robots. Inspection reports show 25 of 25 passed with zero failures. The maintenance log shows no exceptions. The quality assurance team double-checked every unit.",
+        "conclusion": "Some robots on the assembly line did not pass the safety inspection.",
+        "label": "False"
+    },
+    {
+        "id": "manual_307",
+        "premises": "No passenger on Flight 707 had a connecting ticket to Tokyo. The flight manifest lists 180 passengers. Baggage records show none were tagged for Tokyo. The airline's transfer desk confirmed zero connection requests for Tokyo. All passengers either ended at the destination or connected elsewhere.",
+        "conclusion": "Some passengers on Flight 707 did not have a connecting ticket to Tokyo.",
+        "label": "True"
+    },
+    {
+        "id": "manual_308",
+        "premises": "Some servers in the data center are not running the latest security patch. The data center has 200 servers. The patch management log shows 198 servers patched and 2 unpatched. Both unpatched servers are offline for maintenance. The IT team verified the count.",
+        "conclusion": "Not all servers in the data center are running the latest security patch.",
+        "label": "True"
+    },
+    {
+        "id": "manual_309",
+        "premises": "All squares in the geometry problem are rectangles. The problem set contains 12 shapes. Teacher's answer key identifies all 12 as squares, which are a subset of rectangles. No shape is classified as a rectangle without also being a square. The key is correct.",
+        "conclusion": "Some squares in the geometry problem are not rectangles.",
+        "label": "False"
+    },
+    {
+        "id": "manual_310",
+        "premises": "No phlogiston sample has ever been isolated in a laboratory. Phlogiston is a discredited chemical theory from the 18th century. Modern chemistry textbooks state the substance does not exist. No peer-reviewed paper claims successful isolation. The concept is purely historical.",
+        "conclusion": "Some phlogiston samples have not been isolated in a laboratory.",
+        "label": "False"
+    },
+    {
+        "id": "manual_311",
+        "premises": "Some of the packages shipped yesterday were not insured. The shipping log shows 450 packages shipped yesterday. Insurance records indicate 430 were insured. The remaining 20 were marked 'no insurance' by the sender. The courier's system confirms the 20 were delivered without incident.",
+        "conclusion": "Not all packages shipped yesterday were insured.",
+        "label": "True"
+    },
+    {
+        "id": "manual_312",
+        "premises": "All residents of the retirement home received the flu vaccine this year. The home has 120 residents. Medical records show 120 vaccinations administered on-site. No resident refused. No resident was absent during the vaccination clinic. The public health department verified compliance.",
+        "conclusion": "Some residents of the retirement home did not receive the flu vaccine this year.",
+        "label": "False"
+    },
+    {
+        "id": "manual_313",
+        "premises": "No surviving crew member of the sunken submarine has been debriefed. The submarine sank with 60 crew. Rescue operations saved 12. Of those, 8 are in critical condition and cannot be interviewed. The remaining 4 are stable but have not yet been debriefed due to legal restrictions. No debriefing has occurred for any survivor.",
+        "conclusion": "Some surviving crew members of the sunken submarine have not been debriefed.",
+        "label": "True"
+    },
+    {
+        "id": "manual_314",
+        "premises": "Some of the museum's paintings are not from the Renaissance period. The museum has 450 paintings in its permanent collection. The curatorial database shows 320 are Renaissance, 80 are Baroque, 30 are Modern, and 20 are Other. The classification is complete and verified by external experts.",
+        "conclusion": "Not all of the museum's paintings are from the Renaissance period.",
+        "label": "True"
+    },
+    {
+        "id": "manual_315",
+        "premises": "All triangles in the figure have three sides. The figure contains 8 triangles, labeled T1 through T8. Each triangle is defined by three line segments. No shape in the figure is a triangle without three sides. The geometric proof is standard and uncontested.",
+        "conclusion": "Some triangles in the figure do not have three sides.",
+        "label": "False"
+    },
+    {
+        "id": "manual_316",
+        "premises": "No employee in the company has a salary below minimum wage. The company has 500 employees. Payroll records show the lowest salary is $17.50/hour. Minimum wage is $15.00/hour. All 500 employees earn at least $17.50. No exceptions exist in the payroll system.",
+        "conclusion": "Some employees in the company do not have a salary below minimum wage.",
+        "label": "True"
+    },
+    {
+        "id": "manual_317",
+        "premises": "Some of the chapters in the book are not longer than 10 pages. The book has 24 chapters. Page counts: 5 chapters are 8 pages, 3 chapters are 9 pages, 8 chapters are 12 pages, and 8 chapters are 15 pages. The publisher's metadata is accurate.",
+        "conclusion": "Not all chapters in the book are longer than 10 pages.",
+        "label": "True"
+    },
+    {
+        "id": "manual_318",
+        "premises": "No square circle has ever been drawn. Square circles are logically impossible shapes. Euclidean geometry proves that a shape cannot be both a square and a circle. No mathematician has ever claimed to construct one. The concept is self-contradictory.",
+        "conclusion": "Some square circles have not been drawn.",
+        "label": "False"
+    },
+    {
+        "id": "manual_319",
+        "premises": "Some of the emails in the CEO's inbox were not replied to within 24 hours. The CEO received 340 emails yesterday. Response logs show 300 were replied to within 24 hours, 35 were replied to after 48 hours, and 5 remain unreplied after 72 hours. The email server timestamps are accurate to the second.",
+        "conclusion": "Not all emails in the CEO's inbox were replied to within 24 hours.",
+        "label": "True"
+    },
+    {
+        "id": "manual_320",
+        "premises": "It is not true that no employee in the shipping department has completed the safety course. The shipping department has 25 employees. HR records show that 20 employees completed the course, 5 did not. The statement 'no employee completed the course' is false. The training coordinator verified the records.",
+        "conclusion": "Some employees in the shipping department have completed the safety course.",
+        "label": "True"
+    },
+    {
+        "id": "manual_321",
+        "premises": "It is false that every student in the class did not submit the final project. The class has 30 students. The professor's gradebook shows 28 students submitted the project, 2 did not. The claim 'every student failed to submit' is incorrect. No submission records are missing.",
+        "conclusion": "Some students in the class submitted the final project.",
+        "label": "True"
+    },
+    {
+        "id": "manual_322",
+        "premises": "It is not the case that none of the witnesses saw the suspect leave the building. Three witnesses testified at trial. Witness A saw the suspect exit through the fire escape. Witness B saw the suspect near the lobby. Witness C saw nothing. The statement 'no witness saw the suspect leave' is contradicted by A and B. The court accepted all testimony.",
+        "conclusion": "Some witnesses saw the suspect leave the building.",
+        "label": "True"
+    },
+    {
+        "id": "manual_323",
+        "premises": "There is no patient in the ICU who did not receive the emergency medication. The ICU has 8 patients. Medication logs show all 8 received the emergency dose within 15 minutes of admission. The pharmacy dispensed 8 units. No patient refused or was missed. The charge nurse signed off.",
+        "conclusion": "Every patient in the ICU received the emergency medication.",
+        "label": "True"
+    },
+    {
+        "id": "manual_324",
+        "premises": "It is not true that not all members of the board approved the merger. The board has 7 members. Voting records show 4 approved, 2 opposed, 1 abstained. The statement 'not all approved' means 'some did not approve,' which is true because 2 opposed and 1 abstained. The secretary confirmed the tally.",
+        "conclusion": "Some members of the board approved the merger.",
+        "label": "False"
+    },
+    {
+        "id": "manual_325",
+        "premises": "It is false that some of the packages were not damaged during transit. The shipment contained 500 packages. Inspection reports show 498 packages undamaged, 2 packages with minor dents. The claim 'some packages were damaged' is true (2 damaged). Therefore 'some were not damaged' is also true (498 not damaged). The statement 'it is false that some were not damaged' would mean all were damaged, which is false. The inspector's log is complete.",
+        "conclusion": "Every package was damaged during transit.",
+        "label": "False"
+    },
+    {
+        "id": "manual_326",
+        "premises": "No employee in the research division is without a security badge. The research division has 40 employees. Security records show all 40 have been issued badges. The access log confirms each badge was activated. No badge has been revoked. The facility manager verified the list.",
+        "conclusion": "Every employee in the research division has a security badge.",
+        "label": "True"
+    },
+    {
+        "id": "manual_327",
+        "premises": "It is not the case that it is false that some of the test results were inconclusive. The lab ran 120 tests. Results: 100 conclusive, 15 inconclusive, 5 invalid. The statement 'some were inconclusive' is true (15). Saying 'it is false that some were inconclusive' would mean none were inconclusive, which is false. Therefore 'it is not the case that it is false that some were inconclusive' is true. The lab director signed the report.",
+        "conclusion": "Some test results were inconclusive.",
+        "label": "True"
+    },
+    {
+        "id": "manual_328",
+        "premises": "There is no citizen in the district who did not vote in the election. The district has 10,000 registered voters. Turnout records show 9,950 voted, 50 did not. The statement 'no citizen did not vote' means every citizen voted. That is false because 50 did not vote. The election commission certified the numbers.",
+        "conclusion": "Every citizen in the district voted in the election.",
+        "label": "False"
+    },
+    {
+        "id": "manual_329",
+        "premises": "It is not true that all of the company's servers are not encrypted. The company has 50 servers. The IT security audit shows 45 servers encrypted, 5 not encrypted. The claim 'all servers are not encrypted' (i.e., none are encrypted) is false. The audit report is final and accepted by management.",
+        "conclusion": "Some of the company's servers are encrypted.",
+        "label": "True"
+    },
+    {
+        "id": "manual_330",
+        "premises": "No member of the expedition team returned without frostbite. The expedition had 12 members. Medical reports show 10 returned with frostbite, 2 returned without any cold injury. The statement 'no member returned without frostbite' means every member had frostbite. That is false because 2 had none. The field doctor's log is complete.",
+        "conclusion": "Every member of the expedition team had frostbite.",
+        "label": "False"
+    },
+    {
+        "id": "manual_331",
+        "premises": "It is false that it is not the case that some of the transactions were flagged as fraudulent. The bank processed 5,000 transactions yesterday. Fraud detection flagged 12. The statement 'some were flagged' is true. Its negation 'none were flagged' is false. Therefore 'it is false that none were flagged' is true, which is equivalent to 'it is false that it is not the case that some were flagged.' The fraud department confirmed the flags.",
+        "conclusion": "Some transactions were flagged as fraudulent.",
+        "label": "True"
+    },
+    {
+        "id": "manual_332",
+        "premises": "There is no vehicle in the parking lot that is not registered with security. The parking lot has 200 spaces, all occupied. Security logs show 198 vehicles registered, 2 unregistered. The statement 'no vehicle is unregistered' would mean all 200 are registered. That is false because 2 are unregistered. The gate logs match the count.",
+        "conclusion": "Every vehicle in the parking lot is registered with security.",
+        "label": "False"
+    },
+    {
+        "id": "manual_333",
+        "premises": "It is not the case that not a single prisoner in Block D escaped during the riot. Block D held 50 prisoners. Post-riot headcount shows 48 present, 2 missing. The statement 'not a single prisoner escaped' (i.e., zero escaped) is false because 2 are missing. Therefore 'it is not the case that none escaped' is true. The warden's report confirms the missing inmates.",
+        "conclusion": "Some prisoners in Block D escaped during the riot.",
+        "label": "True"
+    },
+    {
+        "id": "manual_334",
+        "premises": "No passenger on the delayed flight was not offered a meal voucher. The flight had 180 passengers. The airline's compensation log shows 180 vouchers issued. Every passenger received a voucher regardless of delay length. The customer service manager confirmed no passenger was skipped.",
+        "conclusion": "Every passenger on the delayed flight was offered a meal voucher.",
+        "label": "True"
+    },
+    {
+        "id": "manual_335",
+        "premises": "It is false that all of the proposed amendments were not ratified. The constitutional convention proposed 8 amendments. Ratification results: 3 ratified, 5 rejected. The claim 'all were not ratified' (i.e., none were ratified) is false because 3 were ratified. The secretary of state certified the results.",
+        "conclusion": "Some of the proposed amendments were ratified.",
+        "label": "True"
+    },
+    {
+        "id": "manual_336",
+        "premises": "There is no student in the graduating class who did not complete a capstone project. The class has 400 students. Academic records show 398 completed capstone projects, 2 were granted waivers for medical reasons. The statement 'no student did not complete' means every student completed. That is false because 2 did not complete (they had waivers, but waivers mean non-completion by policy). The registrar confirmed the policy.",
+        "conclusion": "Every student in the graduating class completed a capstone project.",
+        "label": "False"
+    },
+    {
+        "id": "manual_337",
+        "premises": "It is not the case that it is not true that some of the sensors malfunctioned during the test. The test used 50 sensors. Diagnostic logs show 8 malfunctioned, 42 functioned normally. The statement 'some malfunctioned' is true. Its double negation 'it is not the case that it is not true that some malfunctioned' is logically equivalent. The engineering team verified the logs.",
+        "conclusion": "Some sensors malfunctioned during the test.",
+        "label": "True"
+    },
+    {
+        "id": "manual_338",
+        "premises": "No resident of the assisted living facility is without a medical alert pendant. The facility has 85 residents. Inventory records show 85 pendants distributed, one per resident. Weekly checks confirm all residents wear their pendants. No pendant has been reported lost this month.",
+        "conclusion": "Every resident of the assisted living facility has a medical alert pendant.",
+        "label": "True"
+    },
+    {
+        "id": "manual_339",
+        "premises": "It is not true that none of the job applicants lacked a required certification. The job posting required Certification X. There were 120 applicants. Resume review shows 100 had Certification X, 20 did not. The statement 'none lacked the certification' means all 120 had it, which is false. Therefore 'it is not true that none lacked' is true. HR confirmed the review.",
+        "conclusion": "Some job applicants lacked the required certification.",
+        "label": "True"
+    },
+    {
+        "id": "manual_340",
+        "premises": "Agent Cross believes that some double agent is working in the London office. Agent Cross does not know the identity of any double agent. The London office has 50 employees. Security logs show no specific person has been flagged by Cross as a double agent. Cross's belief is based on circumstantial patterns, not individual identification.",
+        "conclusion": "There is some double agent in the London office whom Agent Cross believes to be working there.",
+        "label": "False"
+    },
+    {
+        "id": "manual_341",
+        "premises": "The law requires that every truck driver must carry a medical certificate. The transportation department has issued certificates to all 12,000 registered truck drivers. Inspector Gomez verified that each driver possesses a certificate. No driver has been found without one. The law is uniformly enforced.",
+        "conclusion": "Every truck driver carries a medical certificate.",
+        "label": "True"
+    },
+    {
+        "id": "manual_342",
+        "premises": "Professor Aris knows that some student in her seminar plagiarized the term paper. The seminar has 15 students. Professor Aris reviewed all 15 papers but could not identify which specific student plagiarized because the plagiarism detection software only flagged the passage without a name. The software output is anonymized. She has no additional information.",
+        "conclusion": "There is some student in Professor Aris's seminar whom she knows plagiarized the term paper.",
+        "label": "False"
+    },
+    {
+        "id": "manual_343",
+        "premises": "The system administrator believes that no user can access the root directory without a special token. The security policy requires a token for root access. The administrator has issued tokens to 5 users. Access logs show that only those 5 have ever entered the root directory. The administrator has no evidence of unauthorized access.",
+        "conclusion": "Every user who accesses the root directory has a special token.",
+        "label": "True"
+    },
+    {
+        "id": "manual_344",
+        "premises": "Dr. Ellis hopes that every patient in the oncology ward recovers completely. The ward has 12 patients. Dr. Ellis has different hopes for each patient based on their prognosis. She knows that patient 3 has a terminal condition but still hopes for a miracle. Her hope is not uniform in intensity but applies to all 12 individually.",
+        "conclusion": "There is a complete recovery that Dr. Ellis hopes every patient in the oncology ward achieves.",
+        "label": "False"
+    },
+    {
+        "id": "manual_345",
+        "premises": "The contract stipulates that a representative must approve any expenditure exceeding $10,000. The finance committee has designated exactly one representative: Ms. Vega. Ms. Vega has approved 47 expenditures this quarter, all above $10,000. No expenditure above $10,000 has been made without her approval. The audit confirms compliance.",
+        "conclusion": "Any expenditure exceeding $10,000 is approved by a representative.",
+        "label": "True"
+    },
+    {
+        "id": "manual_346",
+        "premises": "Captain Zhao ordered that every crew member on the bridge must wear a life vest during the storm. The bridge has 8 crew members. Captain Zhao issued the order verbally at 14:00. The log shows all 8 were on the bridge at that time. The bosun confirmed each put on a vest within 2 minutes. No one removed a vest during the storm.",
+        "conclusion": "Every crew member on the bridge wore a life vest during the storm.",
+        "label": "True"
+    },
+    {
+        "id": "manual_347",
+        "premises": "The detective knows that some weapon in the safe room was used in the murder. The safe room contains 6 weapons: a knife, a rope, a pistol, a candlestick, a wrench, and a lead pipe. Forensic analysis matched the pistol to the bullet fragments. The detective knows the pistol was used. He does not know about the other five.",
+        "conclusion": "There is a weapon in the safe room that the detective knows was used in the murder.",
+        "label": "True"
+    },
+    {
+        "id": "manual_348",
+        "premises": "The university policy requires that every graduate student must complete an ethics training module. The registrar's office has records for all 2,300 graduate students. Completion data shows 2,295 have finished the module. Five students have not. The policy is enforced at graduation, not before. The incomplete students are still enrolled.",
+        "conclusion": "Every graduate student has completed the ethics training module.",
+        "label": "False"
+    },
+    {
+        "id": "manual_349",
+        "premises": "The air traffic controller believes that some plane in the holding pattern is running low on fuel. The holding pattern has 7 planes. The controller received low-fuel alerts from planes 3, 5, and 7. However, the alert system does not identify which plane sent which alert because the display is aggregated. The controller cannot match alerts to specific tail numbers. No additional data is available.",
+        "conclusion": "There is a plane in the holding pattern that the air traffic controller believes is running low on fuel.",
+        "label": "False"
+    },
+    {
+        "id": "manual_350",
+        "premises": "The tournament rule states that a player who commits three fouls must leave the court immediately. Referee Martinez enforced this rule during the championship game. Player 7 committed three fouls. Referee Martinez ordered Player 7 to leave. Player 7 complied. The game log confirms the sequence.",
+        "conclusion": "Player 7 left the court immediately after committing three fouls.",
+        "label": "True"
+    },
+    {
+        "id": "manual_351",
+        "premises": "The intelligence analyst knows that no foreign agent has accessed the secure server without leaving a digital footprint. The server logs show 12,000 access events in the past month. Each event is tied to a verified user ID. The analyst reviewed all logs and found no anonymous or unauthorized entries. The system has no known vulnerabilities.",
+        "conclusion": "Every access to the secure server leaves a digital footprint.",
+        "label": "True"
+    },
+    {
+        "id": "manual_352",
+        "premises": "The CEO believes that every department head will submit a budget by Friday. The company has 8 department heads. The CEO sent an email reminder to all 8. As of Thursday, 6 have submitted. The other 2 have not responded. The CEO remains confident based on past performance but has no confirmation for the last two.",
+        "conclusion": "There is a budget that the CEO believes every department head will submit by Friday.",
+        "label": "False"
+    },
+    {
+        "id": "manual_353",
+        "premises": "The hospital protocol requires that any nurse who administers anesthesia must be certified in advanced cardiac life support. The anesthesia log for today shows 15 administrations. Each administration was performed by a nurse. Credentialing records confirm that all 15 nurses who administered anesthesia today hold ACLS certification. No uncertified nurse administered anesthesia.",
+        "conclusion": "Every nurse who administered anesthesia today is certified in advanced cardiac life support.",
+        "label": "True"
+    },
+    {
+        "id": "manual_354",
+        "premises": "The archaeologist knows that some artifact in Tomb 7 is made of meteoric iron. Tomb 7 contains 12 artifacts. X-ray fluorescence analysis identified artifact #4 as containing high nickel content consistent with meteoric iron. The archaeologist has the report. He does not know about the other 11 artifacts because they were not tested. The test is destructive, so only #4 was analyzed.",
+        "conclusion": "There is an artifact in Tomb 7 that the archaeologist knows is made of meteoric iron.",
+        "label": "True"
+    },
+    {
+        "id": "manual_355",
+        "premises": "The software license states that no user may install the program on more than three devices. The license compliance audit tracked 500 users. Results show 480 users installed on 1–3 devices. 20 users installed on 4 or more devices. The audit is complete and legally binding. The software company has issued violation notices to the 20 users.",
+        "conclusion": "Every user installed the program on three or fewer devices.",
+        "label": "False"
+    },
+    {
+        "id": "manual_356",
+        "premises": "The commanding officer ordered that every soldier in the platoon must memorize the evacuation routes. The platoon has 40 soldiers. The CO conducted individual drills the next day. 38 soldiers correctly recited all routes. 2 soldiers failed. The CO documented the failures in the training log. No retest has been scheduled.",
+        "conclusion": "Every soldier in the platoon memorized the evacuation routes.",
+        "label": "False"
+    },
+    {
+        "id": "manual_357",
+        "premises": "The psychologist believes that some child in the study has experienced trauma. The study has 200 children. The psychologist administered a screening questionnaire. 35 children scored above the trauma threshold. However, the questionnaire is anonymous for ethical reasons. The psychologist knows the number but not which children. No identifying data was collected.",
+        "conclusion": "There is a child in the study whom the psychologist believes has experienced trauma.",
+        "label": "False"
+    },
+    {
+        "id": "manual_358",
+        "premises": "The building code requires that every apartment must have a smoke detector on each floor. The inspector visited 150 apartments today. 148 had smoke detectors on all floors. 2 apartments had detectors only on the first floor, missing the second floor. The inspector issued violations for the 2. The code has no exceptions.",
+        "conclusion": "Every apartment has a smoke detector on each floor.",
+        "label": "False"
+    },
+    {
+        "id": "manual_359",
+        "premises": "The chess grandmaster knows that no legal move from the current position leads to checkmate in one. The position has 12 legal moves. The grandmaster analyzed each move using a chess engine. The engine confirmed that none of the 12 delivers checkmate in one. The grandmaster verified the engine's calculation. The analysis is exhaustive.",
+        "conclusion": "Every legal move from the current position does not lead to checkmate in one.",
+        "label": "True"
+    },
+    {
+        "id": "manual_360",
+        "premises": "If the experimental warp drive is activated within 50 km of a gravity well, then the ship's inertial dampeners will fail catastrophically. The engineering manual adds that a simultaneous electromagnetic pulse can also cause dampener failure, but only if the pulse exceeds 10,000 tesla. Chief Engineer Voss inspected the drive logs from the *Odyssey* incident. The logs show the warp drive was activated at a distance of 42 km from the nearby neutron star. No electromagnetic pulse above 500 tesla was recorded in the ship's environmental sensors during that window. The neutron star emits negligible electromagnetic radiation in the relevant spectrum, confirmed by astrometric data. Starfleet regulations state that no other known mechanism can cause catastrophic dampener failure under these conditions.",
+        "conclusion": "The *Odyssey*'s inertial dampeners failed catastrophically.",
+        "label": "True"
+    },
+    {
+        "id": "manual_361",
+        "premises": "If a patient receives the neurotoxin antidote within 4 hours, then permanent nerve damage is avoided entirely. The hospital's toxicology protocol adds that a patient with a metabolic rate 50% above normal can also avoid damage if treated within 6 hours. Patient X was exposed to the neurotoxin at 08:00. The emergency room log shows the antidote was administered at 12:30, which is 4.5 hours post-exposure. Patient X's metabolic rate was measured at admission and found to be exactly average for their age and weight. No other exceptions to the 4-hour rule exist in the medical literature. The attending physician confirmed the metabolic panel results are accurate and complete.",
+        "conclusion": "Patient X avoided permanent nerve damage.",
+        "label": "False"
+    },
+    {
+        "id": "manual_362",
+        "premises": "Some members of the city planning commission voted against the waterfront development project. The commission has 9 members total. Voting records from the public hearing show that 4 members voted yes, 3 voted no, and 2 abstained. The commission's bylaws define 'voting against' as casting a no vote; abstentions are recorded separately and do not count as against. The clerk's office certified the vote tally as complete and accurate. No member changed their vote after the hearing. The mayor has not yet reviewed the abstention records for any special interpretation.",
+        "conclusion": "Not all members of the city planning commission voted for the waterfront development project.",
+        "label": "True"
+    },
+    {
+        "id": "manual_363",
+        "premises": "Every guest at the ambassador's dinner toasted someone at the head table. The dinner had 60 guests and 8 people at the head table. Each guest toasted exactly one person, as recorded by the event photographer. The ambassador was toasted by all 60 guests, according to the photo log. No other person at the head table received more than 5 toasts. The photographer's images cover every toast without gaps. The ambassador confirmed receiving each toast personally. The event coordinator verified that no guest toasted more than one person.",
+        "conclusion": "There is a person at the head table to whom every guest toasted.",
+        "label": "True"
+    },
+    {
+        "id": "manual_364",
+        "premises": "It is not true that no employee in the logistics division has completed the hazardous materials training. The logistics division employs 35 workers. Human resources records show that 28 employees completed the training last quarter, 5 completed it earlier this year, and 2 have never completed it. The statement 'no employee has completed the training' would mean zero completions, which is false given the records. The training coordinator verified each record against signed completion certificates. No certificates were forged or invalid. The division manager signed off on the quarterly report.",
+        "conclusion": "Some employees in the logistics division have completed the hazardous materials training.",
+        "label": "True"
+    },
+    {
+        "id": "manual_365",
+        "premises": "If the encryption key was compromised, then the secure channel will show anomalous handshake patterns. The network intrusion detection system logged anomalous handshake patterns at 03:14 UTC. The security team notes that a firmware bug in the router can also produce identical anomalous patterns, independent of any compromise. The router's firmware version was checked and found to be the latest release, which patched that specific bug. No other known cause produces this exact anomaly. The router's diagnostic self-test passed all checks. The incident response team has not yet ruled out a zero-day exploit that mimics the bug.",
+        "conclusion": "The encryption key was compromised.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_366",
+        "premises": "No passenger on the red-eye flight from Tokyo had a confirmed connecting reservation to Sydney. The flight carried 210 passengers, according to the manifest. The airline's booking system shows that 45 passengers had onward tickets to Melbourne, 30 to Brisbane, and the remaining 135 ended their journey in Tokyo. Zero passengers had Sydney as a final or connecting destination in the system. The check-in agent confirmed that no one requested a Sydney connection at the gate. The baggage tags were all coded for Tokyo, Melbourne, or Brisbane exclusively. The transfer desk received no inquiries about Sydney connections during the flight's layover window.",
+        "conclusion": "Some passengers on the red-eye flight from Tokyo did not have a confirmed connecting reservation to Sydney.",
+        "label": "True"
+    },
+    {
+        "id": "manual_367",
+        "premises": "The security guard believes that some person in the building after midnight is an intruder. The building has motion sensors covering all entrances and hallways. The sensors detected 4 people inside after midnight: employees A, B, C, and an unidentified signature. The guard cannot see the video feed because the monitors are offline for maintenance. He only has the raw sensor counts, which do not distinguish identities. The access log shows A, B, and C badged in before midnight and never badged out. The unidentified signature has no corresponding access record. The guard has no way to match the intruder belief to a specific individual.",
+        "conclusion": "There is a person in the building after midnight whom the security guard believes is an intruder.",
+        "label": "False"
+    },
+    {
+        "id": "manual_368",
+        "premises": "All square circles have four right angles and four equal sides. Square circles are geometrically impossible figures, as proven by Euclid's axioms. No mathematician has ever constructed or visualized a square circle without contradiction. The concept appears only in paradoxical logic puzzles, not in real geometry. The International Union of Mathematicians classifies square circles as impossible objects. No peer-reviewed paper claims their existence. The premises of geometry entail that no such shape can instantiate any property because it cannot exist.",
+        "conclusion": "Some square circles have four right angles and four equal sides.",
+        "label": "False"
+    },
+    {
+        "id": "manual_369",
+        "premises": "Every node in the mesh network transmitted a packet to some gateway during the stress test. The network has 500 nodes and 3 gateways: G1, G2, and G3. The packet log shows that Gateway G1 received transmissions from 498 nodes. The remaining 2 nodes transmitted exclusively to Gateway G2. Gateway G3 received zero packets during the entire test. The test administrator verified that each node transmitted exactly once. No node failed to transmit. The log is complete and error-free according to the post-test audit. No node transmitted to more than one gateway.",
+        "conclusion": "There is a gateway to which every node in the mesh network transmitted a packet.",
+        "label": "False"
+    },
+    {
+        "id": "manual_370",
+        "premises": "It is false that all of the software patches released last month were not effective. The IT department released 12 patches in September. Post-deployment testing showed that 8 patches resolved their target vulnerabilities completely. Two patches partially resolved their issues, and two patches had no effect. The claim 'all patches were not effective' would mean zero effective patches, which is false because 8 were fully effective. The security team's report was reviewed by an external auditor. The auditor confirmed the effectiveness classifications. The CISO signed off on the findings. No retesting has contradicted these results.",
+        "conclusion": "Some of the software patches released last month were effective.",
+        "label": "True"
+    },
+    {
+        "id": "manual_371",
+        "premises": "If the furnace thermocouple is defective, then the gas valve will close within 30 seconds of ignition. The gas valve closed 22 seconds after the furnace ignited this morning. The repair manual states that a dirty flame sensor can also cause the valve to close within the same time window, independently of the thermocouple. The flame sensor was cleaned yesterday and tested as fully functional. No other component failure produces this exact symptom. The furnace is 15 years old, and the thermocouple has never been replaced. The technician has not yet tested the thermocouple directly because the furnace needs to cool down first. The manufacturer's troubleshooting guide lists only these two causes.",
+        "conclusion": "The furnace thermocouple is defective.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_372",
+        "premises": "No dragon in the volcanic highlands of Mordath has green scales. The volcanic highlands span 12,000 square kilometers and have been surveyed by the Royal Geographic Society. Three expeditions over 50 years have documented dragon sightings. Each sighting described red, black, or brown scales exclusively. The most recent expedition used drone photography and captured 47 dragon images; none showed green. Local herders report no green-scaled dragons in oral histories spanning eight generations. The region's volcanic soil lacks chromium, which is necessary for green pigmentation in reptilian scales. The dragon population is estimated at 200–300 individuals, all accounted for in surveys.",
+        "conclusion": "Some dragons in the volcanic highlands of Mordath have green scales.",
+        "label": "False"
+    },
+    {
+        "id": "manual_373",
+        "premises": "The intelligence analyst knows that some communication intercept from the suspect's phone contains a threat indicator. The surveillance team intercepted 340 messages from the suspect's phone over 30 days. Natural language processing flagged 12 messages as containing threat-related keywords. However, the analyst cannot see which messages were flagged because the NLP system only provides an aggregate count for privacy reasons. The analyst knows the number 12 but not the specific message IDs. The raw message text is sealed pending a warrant. The analyst has no additional metadata to identify individual messages. The review process has not yet unsealed any messages for individual inspection.",
+        "conclusion": "There is a communication intercept from the suspect's phone that the analyst knows contains a threat indicator.",
+        "label": "False"
+    },
+    {
+        "id": "manual_374",
+        "premises": "Every tenant in the apartment building has paid their rent for the current month. The building has 45 units, all occupied. The property manager's ledger shows payments received from 44 units. One unit, #12, shows no payment recorded. The manager contacted tenant #12, who claims to have paid by check but cannot provide a check number. The bank statement for tenant #12 does not show the check clearing. The manager's deposit slips for this month list 44 checks and 0 cash payments. The building's policy requires payment by the 5th; today is the 10th. No rent assistance or deferral has been approved for unit #12.",
+        "conclusion": "Every tenant in the apartment building has paid their rent for the current month.",
+        "label": "False"
+    },
+    {
+        "id": "manual_375",
+        "premises": "If a chemical compound contains a benzene ring with a nitro group at the para position, then it will show a characteristic absorption peak at 1520 cm⁻¹ in infrared spectroscopy. The sample tested showed a strong absorption peak at 1520 cm⁻¹. The analytical chemistry handbook notes that a carbonyl group conjugated with an aromatic ring can also produce a peak at 1520 cm⁻¹ under certain conditions. The sample's NMR spectrum indicates the presence of a conjugated carbonyl. However, the sample also contains a nitro group confirmed by mass spectrometry. The IR instrument was calibrated yesterday. The technician has not run a control sample to distinguish between the two possible causes. The handbook lists no other functional group that absorbs at 1520 cm⁻¹.",
+        "conclusion": "The chemical compound contains a benzene ring with a nitro group at the para position.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_376",
+        "premises": "All members of the secret society have a tattoo of an owl on their left wrist. The society was founded in 1887 and has had 230 members over its history. Current membership is 12 individuals, all living. The society's historian has photographs of every member's left wrist from induction ceremonies. All 12 current members' photographs show an owl tattoo. The historian has no photographs of deceased members' wrists, but the induction records for the past 50 years describe the tattoo consistently. The society's bylaws require the tattoo for membership. No exception has ever been granted. The current membership roster is verified by the society's secretary.",
+        "conclusion": "Some members of the secret society have a tattoo of an owl on their left wrist.",
+        "label": "True"
+    },
+    {
+        "id": "manual_377",
+        "premises": "No employee in the research division is without a signed non-disclosure agreement on file. The research division employs 120 scientists and support staff. The legal department's records show that 118 employees have signed NDAs within the past year. Two new employees, hired last week, have not yet signed their NDAs because the paperwork is in progress. The division director signed a waiver allowing them to begin work without NDAs for 30 days. The waiver is on file. The legal department considers the two employees as 'without signed NDA' until the documents are completed. The company policy requires NDAs for all research personnel, but the waiver is a valid temporary exception.",
+        "conclusion": "Every employee in the research division has a signed non-disclosure agreement on file.",
+        "label": "False"
+    },
+    {
+        "id": "manual_378",
+        "premises": "The professor knows that no student in the lecture hall cheated on the final exam. The lecture hall had 200 students during the exam. Proctors observed all students continuously. No student was seen looking at another's paper or using unauthorized materials. The exam software's plagiarism detector flagged zero similarities between any two submissions beyond chance. The professor personally reviewed a random sample of 50 exams and found no irregularities. The university's honor council has received no reports of cheating from this exam. The professor's knowledge is based on direct observation and the proctors' unanimous reports. All evidence is consistent with no cheating.",
+        "conclusion": "Every student in the lecture hall did not cheat on the final exam.",
+        "label": "True"
+    },
+    {
+        "id": "manual_379",
+        "premises": "The algorithm predicts that some user in the test group will click on the advertisement. The test group has 10,000 users. The algorithm outputs a probability score for each user individually. It predicts a click for user #7,482 with 94% confidence based on browsing history. For all other 9,999 users, the prediction confidence is below 50%. The algorithm's predictions are probabilistic, not deterministic. The product manager knows the algorithm flagged user #7,482 as the most likely but cannot be certain. No user has yet been shown the advertisement because the campaign starts tomorrow. The algorithm's training data had no false positive examples for users with >90% confidence. The development team has not validated the prediction on this specific user segment.",
+        "conclusion": "There is a user in the test group whom the algorithm predicts will click on the advertisement.",
+        "label": "True"
+    },
+    {
+        "id": "manual_380",
+        "premises": "If the sun rises in the west, then morning shadows point east. The sun rises in the west. The laws of optics are unchanged by this fact. No other factor affects shadow direction.",
+        "conclusion": "Morning shadows point east.",
+        "label": "True"
+    },
+    {
+        "id": "manual_381",
+        "premises": "If water freezes at 50°C, then ice forms when the temperature drops to 50°C. Water freezes at 50°C. The current temperature is 50°C. The container is sealed and pure. No impurities alter the freezing point.",
+        "conclusion": "Ice forms in the container.",
+        "label": "True"
+    },
+    {
+        "id": "manual_382",
+        "premises": "If humans have three hearts, then human survival requires at least two functional hearts. Humans have three hearts. A medical textbook confirms this anatomy. Patient X has one failed heart but two working hearts. The other two hearts are undamaged.",
+        "conclusion": "Patient X can survive with one failed heart.",
+        "label": "True"
+    },
+    {
+        "id": "manual_383",
+        "premises": "If triangles have five sides, then a triangle's perimeter is the sum of five lengths. Triangles have five sides. Shape T is a triangle. Its five side lengths are 2, 3, 4, 5, and 6 units. Geometry rules apply consistently.",
+        "conclusion": "The perimeter of shape T is 20 units.",
+        "label": "True"
+    },
+    {
+        "id": "manual_384",
+        "premises": "If the Earth is flat, then ships disappear hull-first over the horizon due to perspective, not curvature. The Earth is flat. A ship sails away from shore. The hull disappears first. Flat-Earth model explains this by atmospheric lensing. No curvature exists.",
+        "conclusion": "The Earth's curvature does not cause ships to disappear hull-first.",
+        "label": "True"
+    },
+    {
+        "id": "manual_385",
+        "premises": "If the moon is made of green cheese, then lunar samples should taste salty and crumbly. The moon is made of green cheese. Astronauts returned with lunar samples. The samples taste salty and crumbly. No contamination occurred. The taste test was double-blind.",
+        "conclusion": "Lunar samples are made of green cheese.",
+        "label": "True"
+    },
+    {
+        "id": "manual_386",
+        "premises": "If squares have three sides, then the interior angles of a square sum to 540 degrees. Squares have three sides. Shape S is a square. A three-sided square has three interior angles. Each angle is 180 degrees by definition in this system. The total is 540 degrees.",
+        "conclusion": "The sum of interior angles of shape S is 540 degrees.",
+        "label": "True"
+    },
+    {
+        "id": "manual_387",
+        "premises": "If the sun sets in the east, then evening shadows point west. The sun sets in the east. The time is 7 PM, which is evening. Shadows are cast opposite the sun. The ground is flat and unobstructed.",
+        "conclusion": "Evening shadows point west.",
+        "label": "True"
+    },
+    {
+        "id": "manual_388",
+        "premises": "If water boils at 0°C, then a pot of water at 0°C will boil. Water boils at 0°C. The pot is on a stove at sea level. The water temperature is exactly 0°C. The stove is off. No heat is being added. The room temperature is 20°C.",
+        "conclusion": "The water is boiling.",
+        "label": "False"
+    },
+    {
+        "id": "manual_389",
+        "premises": "If humans have one lung, then human blood oxygenation requires that single lung to function perfectly. Humans have one lung. Patient Y has one lung that is 50% blocked by a tumor. The tumor reduces oxygen exchange by half. The patient's oxygen saturation is 85%. Normal saturation is 95% or above. No other organ compensates.",
+        "conclusion": "Patient Y has normal blood oxygenation.",
+        "label": "False"
+    },
+    {
+        "id": "manual_390",
+        "premises": "If the Earth is flat, then a straight line path will never return to its starting point without turning. The Earth is flat. A traveler walks 10,000 kilometers due east. The Earth's geometry is flat and unbounded. No curvature exists to create a loop. The traveler continues east indefinitely.",
+        "conclusion": "The traveler will eventually return to the starting point.",
+        "label": "False"
+    },
+    {
+        "id": "manual_391",
+        "premises": "If the moon is made of blue cheese, then lunar rocks should be blue and edible. The moon is made of blue cheese. Lunar samples were analyzed. The samples are gray and inedible. The analysis used mass spectrometry. No blue coloration was found. The samples contain no dairy proteins.",
+        "conclusion": "Lunar samples are made of blue cheese.",
+        "label": "False"
+    },
+    {
+        "id": "manual_392",
+        "premises": "If triangles have four sides, then a triangle can be divided into two quadrilaterals. Triangles have four sides. Shape T is a triangle with sides A, B, C, and D. A diagonal connects two non-adjacent vertices. This diagonal splits the shape into two regions. Each region has four sides.",
+        "conclusion": "Shape T can be divided into two quadrilaterals.",
+        "label": "False"
+    },
+    {
+        "id": "manual_393",
+        "premises": "If the sun rises in the north, then the shortest shadow at noon points south. The sun rises in the north. At the equator, the sun is directly overhead at noon. A vertical pole casts no shadow. The time is noon. The pole is 1 meter tall. The ground is level.",
+        "conclusion": "The pole casts a shadow pointing south.",
+        "label": "False"
+    },
+    {
+        "id": "manual_394",
+        "premises": "If water freezes at 100°C, then ice cubes will form in boiling water. Water freezes at 100°C. A kettle contains water at 100°C. The kettle is on a stove. The stove is off. The room temperature is 25°C. The water is not being heated further. No pressure changes occur.",
+        "conclusion": "Ice cubes form in the kettle.",
+        "label": "False"
+    },
+    {
+        "id": "manual_395",
+        "premises": "If humans have two livers, then removing one liver causes liver failure. Humans have two livers. Patient Z had one liver removed surgically. The remaining liver is healthy and fully functional. Medical records show normal liver enzyme levels post-surgery. The patient has no symptoms of failure. Follow-up is one year complete.",
+        "conclusion": "Patient Z has liver failure.",
+        "label": "False"
+    },
+    {
+        "id": "manual_396",
+        "premises": "If squares have five sides, then a square has five diagonals. Squares have five sides. Shape Q is a square with vertices V1 through V5. A diagonal connects non-adjacent vertices. Adjacent vertices are those connected by a side. The number of diagonals in a pentagon is 5. The pentagon is a five-sided square. The geometry is consistent.",
+        "conclusion": "Shape Q has 5 diagonals.",
+        "label": "False"
+    },
+    {
+        "id": "manual_397",
+        "premises": "If the moon is made of cheddar cheese, then lunar gravity is caused by cheese density. The moon is made of cheddar cheese. Cheddar cheese has a density of 1.05 g/cm³. The moon's observed density is 3.34 g/cm³. A cheese moon would have lower gravity. Orbital mechanics depend on mass. The actual mass of the moon is known. The cheese hypothesis contradicts mass measurements.",
+        "conclusion": "Lunar gravity is caused by cheese density.",
+        "label": "False"
+    },
+    {
+        "id": "manual_398",
+        "premises": "If the sun sets in the south, then the evening sky glows red in the south. The sun sets in the south. The observer is in the northern hemisphere at 40° latitude. Atmospheric scattering affects sunset colors. The time is sunset. Clouds are absent. The air is clear. The sunset glow appears in the direction of the setting sun.",
+        "conclusion": "The evening sky glows red in the south.",
+        "label": "False"
+    },
+    {
+        "id": "manual_399",
+        "premises": "If the Earth has two moons, then high tides occur twice as often. The Earth has two moons: Luna and a second moon called Nereus. Nereus orbits every 15 days. Luna orbits every 30 days. Both moons align with the Earth every 30 days. Tides are highest when moons align. The alignment occurs once every 30 days. No other tidal forces exist.",
+        "conclusion": "The highest tides occur once every 30 days.",
+        "label": "True"
+    }
+]
