@@ -1,0 +1,1160 @@
+[
+    {
+        "id": "folio_valid_0",
+        "premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
+        "conclusion": "James has lunch in the company.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_1",
+        "premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
+        "conclusion": "James does not have lunch in the company.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_2",
+        "premises": "All employees who schedule a meeting with their customers will go to the company building today. Everyone who has lunch in the company building schedules meetings with their customers_ Employees have lunch either in the company building or at home.If an employee has lunch at home, they are working remotely from home.All employees who are in other countries work remotely from home. No managers work remotely from home. James will appear in the company today if and only if he is a manager.",
+        "conclusion": "If James is either a manager or in other countries,  then James does not either has lunch at home or work remotely from home. If James either has lunch at home or works remotely from home, then he is neither a manager nor does he work in other countries. [contrapositive is more natural]",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_3",
+        "premises": "When the Monkeypox virus occurs in a being, it may get Monkeypox. Monkeypox virus can occur in certain animals.Humans are mammals.Mammals are animals.Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness. People feel tired when they get the flu.",
+        "conclusion": "There is an animal.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_4",
+        "premises": "When the Monkeypox virus occurs in a being, it may get Monkeypox. Monkeypox virus can occur in certain animals.Humans are mammals.Mammals are animals.Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness. People feel tired when they get the flu.",
+        "conclusion": "No one gets the flu.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_5",
+        "premises": "When the Monkeypox virus occurs in a being, it may get Monkeypox. Monkeypox virus can occur in certain animals.Humans are mammals.Mammals are animals.Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness. People feel tired when they get the flu.",
+        "conclusion": "Symptoms of Monkeypox include coughing.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_7",
+        "premises": "A Japanese game company created the game the Legend of Zelda.All games on the Top 10 list are made by Japanese game companies.If a game sells more than one million copies, then it will be included in the Top 10 list.The Legend of Zelda sold more than one million copies.",
+        "conclusion": "FIFA 22 is made by a Japanese video game company.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_8",
+        "premises": "A Japanese game company created the game the Legend of Zelda.All games on the Top 10 list are made by Japanese game companies.If a game sells more than one million copies, then it will be included in the Top 10 list.The Legend of Zelda sold more than one million copies.",
+        "conclusion": "The Legend of Zelda is not on the Top 10 list.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_9",
+        "premises": "Beijing is the capital of the People's Republic of China. Beijing is the capital city of the world's most populous nation.Beijing is located in Northern China.Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.Many of Beijing's 91 universities consistently rank among the best universities in the world.",
+        "conclusion": "Beijing hosted both the 2008 Summer Olympics and the Winter Olympics.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_10",
+        "premises": "Beijing is the capital of the People's Republic of China. Beijing is the capital city of the world's most populous nation.Beijing is located in Northern China.Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.Many of Beijing's 91 universities consistently rank among the best universities in the world.",
+        "conclusion": "Beijing is located in southern China.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_11",
+        "premises": "Beijing is the capital of the People's Republic of China. Beijing is the capital city of the world's most populous nation.Beijing is located in Northern China.Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.Many of Beijing's 91 universities consistently rank among the best universities in the world.",
+        "conclusion": "Beijing is the second largest Chinese city.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_12",
+        "premises": "Diamond Mine is a professional wrestling stable formed in WWE.Roderick Strong leads Diamond Mine.Diamond Mine includes the Creed Brothers and Ivy Nile.Imperium has a feud with Diamond Mine.",
+        "conclusion": "Roderick Strong leads a professional wrestling stable.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_13",
+        "premises": "Diamond Mine is a professional wrestling stable formed in WWE.Roderick Strong leads Diamond Mine.Diamond Mine includes the Creed Brothers and Ivy Nile.Imperium has a feud with Diamond Mine.",
+        "conclusion": "Roderick Strong leads the Creed Brothers_",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_14",
+        "premises": "Diamond Mine is a professional wrestling stable formed in WWE.Roderick Strong leads Diamond Mine.Diamond Mine includes the Creed Brothers and Ivy Nile.Imperium has a feud with Diamond Mine.",
+        "conclusion": "Imperium doesn't have a feud with a professional wrestling stable that includes Ivy Nile.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_15",
+        "premises": "Symphony No. 9 is a music piece.Composers write music pieces.Beethoven wrote Symphony No. 9.Vienna Music Society premiered Symphony No. 9.Vienna Music Society is an orchestra.Beethoven leads the Vienna Music Society.Orchestras are led by conductors_",
+        "conclusion": "Beethoven is a composer.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_16",
+        "premises": "Symphony No. 9 is a music piece.Composers write music pieces.Beethoven wrote Symphony No. 9.Vienna Music Society premiered Symphony No. 9.Vienna Music Society is an orchestra.Beethoven leads the Vienna Music Society.Orchestras are led by conductors_",
+        "conclusion": "Some orchestras premiered music pieces.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_17",
+        "premises": "Symphony No. 9 is a music piece.Composers write music pieces.Beethoven wrote Symphony No. 9.Vienna Music Society premiered Symphony No. 9.Vienna Music Society is an orchestra.Beethoven leads the Vienna Music Society.Orchestras are led by conductors_",
+        "conclusion": "Beethoven is not a conductor.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_18",
+        "premises": "All of Zaha Hadid's design styles that Max adores have interesting geometries.No brutalist buildings that Max adores have interesting geometries.Every style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. All of Kelly Wearstler's design styles that Max adores are evocative.All of Kelly Wearstler's design styles that Max adores are dreamy.If a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.",
+        "conclusion": "A design by Max is a brutalist building.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_19",
+        "premises": "All of Zaha Hadid's design styles that Max adores have interesting geometries.No brutalist buildings that Max adores have interesting geometries.Every style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. All of Kelly Wearstler's design styles that Max adores are evocative.All of Kelly Wearstler's design styles that Max adores are dreamy.If a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.",
+        "conclusion": "A design by Max is evocative and dreamy.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_20",
+        "premises": "All of Zaha Hadid's design styles that Max adores have interesting geometries.No brutalist buildings that Max adores have interesting geometries.Every style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. All of Kelly Wearstler's design styles that Max adores are evocative.All of Kelly Wearstler's design styles that Max adores are dreamy.If a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.",
+        "conclusion": "A design by Max is either evocative or dreamy.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_21",
+        "premises": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. Everyone who lost to Iga swiatek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.All female tennis players at Roland Garros 2022 lost to Iga swiatek.All tennis players at Roland Garros 2022 are either female or male.All male tennis players at Roland Garros in 2022 lost to Rafael Nadal.If Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.Coco Gauff is at Roland Garros 2022.",
+        "conclusion": "Coco Gauff is among the most active Grand-Slam players_",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_22",
+        "premises": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. Everyone who lost to Iga swiatek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.All female tennis players at Roland Garros 2022 lost to Iga swiatek.All tennis players at Roland Garros 2022 are either female or male.All male tennis players at Roland Garros in 2022 lost to Rafael Nadal.If Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.Coco Gauff is at Roland Garros 2022.",
+        "conclusion": "Coco Gauff has lost to Rafael Nadal.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_23",
+        "premises": "If someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. Everyone who lost to Iga swiatek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.All female tennis players at Roland Garros 2022 lost to Iga swiatek.All tennis players at Roland Garros 2022 are either female or male.All male tennis players at Roland Garros in 2022 lost to Rafael Nadal.If Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.Coco Gauff is at Roland Garros 2022.",
+        "conclusion": "Coco Gauff is not both a player who lost to Iga swiatek at Roland Garros 2022 and one of the most active players in major tennis.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_24",
+        "premises": "All cats are mammals.Some pets are not mammals.",
+        "conclusion": "No pets are cats.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_25",
+        "premises": "There are four seasons in a year: Spring, Summer, Fall, and Winter.All students who want to have a long vacation have summer as their favorite season.Emma's favorite season is summer.Mia's favorite season is not the same as Emma's. James wants to have a long vacation.",
+        "conclusion": "James's favorite season is summer.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_26",
+        "premises": "There are four seasons in a year: Spring, Summer, Fall, and Winter.All students who want to have a long vacation have summer as their favorite season.Emma's favorite season is summer.Mia's favorite season is not the same as Emma's. James wants to have a long vacation.",
+        "conclusion": "Mia's favorite season is spring.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_28",
+        "premises": "Billings is a city in the state of Montana in U.S.The state of Montana includes the cities of Butte, Helena, and Missoula.White Sulphur Springs and Butte are cities in the same state in U.S.The city of St Pierre is not in the state of Montana.Any city in Butte is not in St Pierre.A city can only be in one state in U.S.  except for Bristol, Texarkana, Texhoma and Union City.",
+        "conclusion": "St Pierre and Bismarck are in the same state.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_29",
+        "premises": "Billings is a city in the state of Montana in U.S.The state of Montana includes the cities of Butte, Helena, and Missoula.White Sulphur Springs and Butte are cities in the same state in U.S.The city of St Pierre is not in the state of Montana.Any city in Butte is not in St Pierre.A city can only be in one state in U.S.  except for Bristol, Texarkana, Texhoma and Union City.",
+        "conclusion": "Montana is home to the city of Missoula.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_30",
+        "premises": "All Brown Swiss cattle are cows.Some pets are Brown Swiss Cattle.All cows are domesticated animals.Alligators are not domesticated animals.Ted is an alligator.",
+        "conclusion": "Ted is a pet.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_31",
+        "premises": "All Brown Swiss cattle are cows.Some pets are Brown Swiss Cattle.All cows are domesticated animals.Alligators are not domesticated animals.Ted is an alligator.",
+        "conclusion": "Ted is a pet and Brown Swiss cattle",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_32",
+        "premises": "All Brown Swiss cattle are cows.Some pets are Brown Swiss Cattle.All cows are domesticated animals.Alligators are not domesticated animals.Ted is an alligator.",
+        "conclusion": "If Ted is a Brown Swiss cattle, then Ted is not a pet.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_33",
+        "premises": "Yale University is a private Ivy League research university.Yale University moved to New Haven in 1716.Yale university's endowment was valued at $42.3 billion.A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
+        "conclusion": "A private Ivy League research university moved to New Haven.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_34",
+        "premises": "Yale University is a private Ivy League research university.Yale University moved to New Haven in 1716.Yale university's endowment was valued at $42.3 billion.A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
+        "conclusion": "Yale University has the largest university endowment of any educational institution.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_35",
+        "premises": "Yale University is a private Ivy League research university.Yale University moved to New Haven in 1716.Yale university's endowment was valued at $42.3 billion.A list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.",
+        "conclusion": "Pierson College is a residential college at Yale.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_36",
+        "premises": "Badults is a British Sitcom series starring members of Pappy's.Badults was piloted in July 2013 on BBC Three.The Working title \"The Secret Dude Society\" was used for Badults.Andrew Collins was the script editor for Badults.",
+        "conclusion": "Andrew Collins was the script editor for a series with the working title \"The Secret Dude Society\".",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_37",
+        "premises": "Badults is a British Sitcom series starring members of Pappy's.Badults was piloted in July 2013 on BBC Three.The Working title \"The Secret Dude Society\" was used for Badults.Andrew Collins was the script editor for Badults.",
+        "conclusion": "No members of Pappy's have starred in a show piloting on BBC Two or BBC Three.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_38",
+        "premises": "All growth stocks are bought to earn profits from rapid price appreciation.If the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.Some stocks are growth stocks.All mature stocks are suitable for a retirement fund.KO is a mature stock.",
+        "conclusion": "KO is a stock.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_39",
+        "premises": "All growth stocks are bought to earn profits from rapid price appreciation.If the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.Some stocks are growth stocks.All mature stocks are suitable for a retirement fund.KO is a mature stock.",
+        "conclusion": "KO is a stock and a growth stock.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_40",
+        "premises": "All growth stocks are bought to earn profits from rapid price appreciation.If the stock price is bought to earn profits from rapid price appreciation, then it is not suitable for a retirement fund.Some stocks are growth stocks.All mature stocks are suitable for a retirement fund.KO is a mature stock.",
+        "conclusion": "If KO is a growth stock or bought to earn profits from rapid price appreciation, then KO is neither a stock nor is its price volatile.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_42",
+        "premises": "If a restaurant is listed in Yelp’s recommendations, then the restaurant has not received many negative reviews.All restaurants with a rating greater than four are listed in Yelp’s recommendations.Some restaurants that do not provide take-out service receive many negative reviews.All restaurants that are popular among local residents have ratings greater than four.The Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.",
+        "conclusion": "The Hamden Plaza Subway store provides take-out service or does not receive many negative reviews.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_43",
+        "premises": "If a restaurant is listed in Yelp’s recommendations, then the restaurant has not received many negative reviews.All restaurants with a rating greater than four are listed in Yelp’s recommendations.Some restaurants that do not provide take-out service receive many negative reviews.All restaurants that are popular among local residents have ratings greater than four.The Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.",
+        "conclusion": "The Hamden Plaza store does not provide take-out service.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_44",
+        "premises": "In superhero movies, the good guys always win.The Surprising Adventures of Sir Digby Chicken Caesar is a superhero movie.Good guys fight bad guys and vice versa.Sir Digby fights his nemesis.If a superhero movie is named after a character, that character is a good guy.The Surprising Adventures of Sir Digby Chicken Caesar is named after Sir Digby.If somebody wins a fight, the person they are fighting does not win.If a superhero movie is named after a character, that character is in the movie.",
+        "conclusion": "Sir Digby’s nemesis does not win.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_45",
+        "premises": "It costs $205 to take the GRE test, which is cheaper than $300.ETS provides financial aid to those GRE applicants who prove economic hardship.Those living in single-parent families or having few resources available to them can prove economic hardship.Tom lives in a single-parent family.Tom's dad has been out of work, and Tom has few resources available to them. Tom is applying to take the GRE test.",
+        "conclusion": "ETS provides financial aid to Tom.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_46",
+        "premises": "It costs $205 to take the GRE test, which is cheaper than $300.ETS provides financial aid to those GRE applicants who prove economic hardship.Those living in single-parent families or having few resources available to them can prove economic hardship.Tom lives in a single-parent family.Tom's dad has been out of work, and Tom has few resources available to them. Tom is applying to take the GRE test.",
+        "conclusion": "It costs below US $300 to take the GRE test.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_47",
+        "premises": "It costs $205 to take the GRE test, which is cheaper than $300.ETS provides financial aid to those GRE applicants who prove economic hardship.Those living in single-parent families or having few resources available to them can prove economic hardship.Tom lives in a single-parent family.Tom's dad has been out of work, and Tom has few resources available to them. Tom is applying to take the GRE test.",
+        "conclusion": "No one taking the GRE test has financial aid provided to them by something.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_48",
+        "premises": "If people spill a lot of food on their clothing, then they are not notably tidy.All clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.If people are cleanly, then they are notably tidy.If people value order and spotlessness, then they are cleanly.All people whose families prioritize order and spotlessness themselves value order and spotlessness.Peter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly",
+        "conclusion": "Peter is notably tidy.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_49",
+        "premises": "If people spill a lot of food on their clothing, then they are not notably tidy.All clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.If people are cleanly, then they are notably tidy.If people value order and spotlessness, then they are cleanly.All people whose families prioritize order and spotlessness themselves value order and spotlessness.Peter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly",
+        "conclusion": "Peter is either a  clumsy foodie who goes out frequently to find new food restaurants to try or he is someone whose family prioritizes order and spotlessness.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_50",
+        "premises": "If people spill a lot of food on their clothing, then they are not notably tidy.All clumsy foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.If people are cleanly, then they are notably tidy.If people value order and spotlessness, then they are cleanly.All people whose families prioritize order and spotlessness themselves value order and spotlessness.Peter is either a person who spills a lot of food on his clothing and is cleanly, or a person who does not spill a lot of food on his clothing and is not cleanly",
+        "conclusion": "Peter is either both a clumsy foodie who goes out frequently to find new food restaurants to try and issomeone whose family prioritizes order and spotlessness, or he neither is a clumsy foodie who goes out frequently to find new food restaurants to try nor does his family prioritize order and spotlessness.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_51",
+        "premises": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.Barutin Cove is on the southwest coast of Snow Island.Snow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.Antarctica is located on the South Shetland Islands. If place A is located in place B and place B is located in place C, then place A is located in place C.",
+        "conclusion": "Barutin Cove is named after all islands in Antarctica.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_52",
+        "premises": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.Barutin Cove is on the southwest coast of Snow Island.Snow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.Antarctica is located on the South Shetland Islands. If place A is located in place B and place B is located in place C, then place A is located in place C.",
+        "conclusion": "There is at least one cove in Antarctica named after a place in Bulgaria.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_53",
+        "premises": "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.Barutin Cove is on the southwest coast of Snow Island.Snow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.Antarctica is located on the South Shetland Islands. If place A is located in place B and place B is located in place C, then place A is located in place C.",
+        "conclusion": "Barutin Cove is not located in Antarctica.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_54",
+        "premises": "Some affection is love.Some love is positive.",
+        "conclusion": "Some affection is positive.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_55",
+        "premises": "If something can transport multiple passengers, then they are not one-seaters_All Tesla Model 3 can transport multiple passengers_All single-seat electric cars are one-seaters_All Solo EV cars are single-seat electric cars_ If John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. ",
+        "conclusion": "John's car is a Tesla Model 3.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_56",
+        "premises": "If something can transport multiple passengers, then they are not one-seaters_All Tesla Model 3 can transport multiple passengers_All single-seat electric cars are one-seaters_All Solo EV cars are single-seat electric cars_ If John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. ",
+        "conclusion": "John's car is a Solo EV.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_57",
+        "premises": "If something can transport multiple passengers, then they are not one-seaters_All Tesla Model 3 can transport multiple passengers_All single-seat electric cars are one-seaters_All Solo EV cars are single-seat electric cars_ If John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. ",
+        "conclusion": "John's car is not a Solo EV.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_58",
+        "premises": "All of Peter's pets that are mammals are also animals.All monkeys are mammals. Peter's pets are all either monkeys or birds. Peter's birds can fly.All animals that are Peter's pets can breathe.If Peter's pet can fly, then it has wings.Rock is Peter's pet.Rock can fly, or Rock is a bird, or Rock cannot breathe. ",
+        "conclusion": "Rock is a monkey.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_59",
+        "premises": "All of Peter's pets that are mammals are also animals.All monkeys are mammals. Peter's pets are all either monkeys or birds. Peter's birds can fly.All animals that are Peter's pets can breathe.If Peter's pet can fly, then it has wings.Rock is Peter's pet.Rock can fly, or Rock is a bird, or Rock cannot breathe. ",
+        "conclusion": "Rock has wings.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_60",
+        "premises": "All of Peter's pets that are mammals are also animals.All monkeys are mammals. Peter's pets are all either monkeys or birds. Peter's birds can fly.All animals that are Peter's pets can breathe.If Peter's pet can fly, then it has wings.Rock is Peter's pet.Rock can fly, or Rock is a bird, or Rock cannot breathe. ",
+        "conclusion": "Rock does not have wings.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_61",
+        "premises": "All people who make wedding plans are people who are engaged.All people who invite others to come to their ceremony make wedding plans.Anyone who has a well-attended wedding invites others to come to their ceremony.Some people that have well-attended weddings have larger families.If John is engaged, then John does not invite friends to their ceremony and make wedding plans.If John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. ",
+        "conclusion": "John has a larger family.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_62",
+        "premises": "All people who make wedding plans are people who are engaged.All people who invite others to come to their ceremony make wedding plans.Anyone who has a well-attended wedding invites others to come to their ceremony.Some people that have well-attended weddings have larger families.If John is engaged, then John does not invite friends to their ceremony and make wedding plans.If John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. ",
+        "conclusion": "John does not have a larger family.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_63",
+        "premises": "All people who make wedding plans are people who are engaged.All people who invite others to come to their ceremony make wedding plans.Anyone who has a well-attended wedding invites others to come to their ceremony.Some people that have well-attended weddings have larger families.If John is engaged, then John does not invite friends to their ceremony and make wedding plans.If John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. ",
+        "conclusion": "John is engaged.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_64",
+        "premises": "All people who make wedding plans are people who are engaged.All people who invite others to come to their ceremony make wedding plans.Anyone who has a well-attended wedding invites others to come to their ceremony.Some people that have well-attended weddings have larger families.If John is engaged, then John does not invite friends to their ceremony and make wedding plans.If John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. ",
+        "conclusion": "John neither has a larger family nor does he invite others to his wedding.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_65",
+        "premises": "Some mammals have teeth.Platypuses have no teeth.Platypuses are mammals. Humans have teeth.",
+        "conclusion": "Platypuses are mammals with no teeth.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_66",
+        "premises": "Some mammals have teeth.Platypuses have no teeth.Platypuses are mammals. Humans have teeth.",
+        "conclusion": "Platypuses are reptiles.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_67",
+        "premises": "Some mammals have teeth.Platypuses have no teeth.Platypuses are mammals. Humans have teeth.",
+        "conclusion": "Humans are mammals.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_68",
+        "premises": "Plungers suck.Vacuums suck.Vampires suck.Space is a vacuum.A duster is a household appliance that doesn't suck.",
+        "conclusion": "Space sucks.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_69",
+        "premises": "Plungers suck.Vacuums suck.Vampires suck.Space is a vacuum.A duster is a household appliance that doesn't suck.",
+        "conclusion": "Space is a vampire.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_70",
+        "premises": "Plungers suck.Vacuums suck.Vampires suck.Space is a vacuum.A duster is a household appliance that doesn't suck.",
+        "conclusion": "If something is a household appliance, it sucks.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_72",
+        "premises": "Breeding back is a form of artificial selection by the deliberate selective breeding of domestic animals.Heck cattle were bred back in the 1920s to resemble the aurochs.Heck cattle are animals.Aurochs are animals.Some animals to be bred back resemble extinct animals.",
+        "conclusion": "Aurochs are extinct.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_73",
+        "premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
+        "conclusion": "Vladimir is a Russian federation official",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_74",
+        "premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
+        "conclusion": "Vladimir is not a Russian federation official",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_75",
+        "premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
+        "conclusion": "Ekaterina can participate in the 2024 United States presidential election or is a manager at Gazprom.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_76",
+        "premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
+        "conclusion": "Ekaterina can participate in the 2024 United States presidential election or Vladimir is a manager at Gazprom.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_77",
+        "premises": "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.If someone has United States citizenship, then they can register to vote in the United States.A person either has United States citizenship or Taiwanese citizenship.No Russian Federation officials hold Taiwanese citizenship. Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. Ekaterina she can register to vote in the United States, or she is a Russian federation official.",
+        "conclusion": "It is not true that Ekaterina can register to vote in the United States and Vladimir can participate in the 2024 United States presidential election.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_78",
+        "premises": "If George likes music, he wants to compose.If George has access to a program, he can compose.If George can compose and wants to compose, he will compose.",
+        "conclusion": "If George likes music and has access to a program, he will compose.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_79",
+        "premises": "If George likes music, he wants to compose.If George has access to a program, he can compose.If George can compose and wants to compose, he will compose.",
+        "conclusion": "If George will not compose, George can not compose.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_80",
+        "premises": "Heinrich Schmidt was a German politician. Heinrich Schmidt was also a member of the Prussian State Parliament and the Nazi Reichstag.",
+        "conclusion": "Heinrich Schmidt was German or Russian or both.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_81",
+        "premises": "Heinrich Schmidt was a German politician. Heinrich Schmidt was also a member of the Prussian State Parliament and the Nazi Reichstag.",
+        "conclusion": "Some German politician was part of both the Prussian State Parliament and the Nazi Reichstag.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_82",
+        "premises": "Heinrich Schmidt was a German politician. Heinrich Schmidt was also a member of the Prussian State Parliament and the Nazi Reichstag.",
+        "conclusion": "No politicians are part of the Nazi Reichstag.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_83",
+        "premises": "If something is a deadly disease, then it comes with a low survival rate. Severe cancers are deadly diseases.Bile duct cancer is a severe form cancer. All Cholangiocarcinoma is bile duct cancer.Mild flu comes with a low survival rate.Colorectal cancer is not both a bile duct cancer and with a low survival rate.",
+        "conclusion": "Colorectal cancer is a kind of severe cancer",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_84",
+        "premises": "If something is a deadly disease, then it comes with a low survival rate. Severe cancers are deadly diseases.Bile duct cancer is a severe form cancer. All Cholangiocarcinoma is bile duct cancer.Mild flu comes with a low survival rate.Colorectal cancer is not both a bile duct cancer and with a low survival rate.",
+        "conclusion": "If colorectal cancer is a kind of bile duct cancer or a form of Cholangiocarcinoma, then colorectal cancer is a kind of bile duct cancer and a kind of mild flu.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_85",
+        "premises": "If something is a deadly disease, then it comes with a low survival rate. Severe cancers are deadly diseases.Bile duct cancer is a severe form cancer. All Cholangiocarcinoma is bile duct cancer.Mild flu comes with a low survival rate.Colorectal cancer is not both a bile duct cancer and with a low survival rate.",
+        "conclusion": "Colorectal cancer is a form of Cholangiocarcinoma and it is a kind of mild flu or a kind of bile duct cancer, or all of the above.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_86",
+        "premises": "All horses have hooves.No humans have hooves.",
+        "conclusion": "Some humans are horses.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_87",
+        "premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
+        "conclusion": "Yuri is an American national.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_88",
+        "premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
+        "conclusion": "Yuri is not an American professional basketball player.",
+        "label": "True"
+    },
+    {
+        "id": "folio_valid_89",
+        "premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
+        "conclusion": "Yuri is an American professional basketball player.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_90",
+        "premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
+        "conclusion": "If Yuri does not leap straight into the air, then Yuri is an American professional basketball player.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_91",
+        "premises": "Some professional basketball players are not American nationals.All professional basketball players can do jump shots.If someone can jump shots, they leap straight into the air.If someone leaps straight into the air, they activate their leg muscles. Yuri does not activate his leg muscles.",
+        "conclusion": "If Yuri is not an American professional basketball player, then Yuri is a professional basketball player.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_92",
+        "premises": "The winner of the 1992 du Maurier Classic was Steinhauer.Steinhauer participated in the 1992 du Maurier Classic.One six-way tie was on the leaderboard, and one person in the six-way tie was from Belgium.Descampe is from Belgium and is on the leaderboard of the 1992 du Maurier Classic.All people on the leaderboard of the 1992 du Maurier Classic participated in the 1992 du Maurier Classic.",
+        "conclusion": "Steinhauer was not the winner of the 1992 du Maurier Classic.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_93",
+        "premises": "The winner of the 1992 du Maurier Classic was Steinhauer.Steinhauer participated in the 1992 du Maurier Classic.One six-way tie was on the leaderboard, and one person in the six-way tie was from Belgium.Descampe is from Belgium and is on the leaderboard of the 1992 du Maurier Classic.All people on the leaderboard of the 1992 du Maurier Classic participated in the 1992 du Maurier Classic.",
+        "conclusion": "Descampe is in the six-way tie in the leaderboard of the 1992 du Maurier Classic.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_94",
+        "premises": "Jane does not like any animals that bark.All dogs are animals that bark.Jane likes all animals that jump.If an animal has legs, then it jumps.If an animal is terricolous, then it has legs. KiKi is an animal.If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.",
+        "conclusion": "KiKi is terricolous.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "folio_valid_95",
+        "premises": "Jane does not like any animals that bark.All dogs are animals that bark.Jane likes all animals that jump.If an animal has legs, then it jumps.If an animal is terricolous, then it has legs. KiKi is an animal.If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.",
+        "conclusion": "KiKi is a barking dog.",
+        "label": "False"
+    },
+    {
+        "id": "folio_valid_96",
+        "premises": "Jane does not like any animals that bark.All dogs are animals that bark.Jane likes all animals that jump.If an animal has legs, then it jumps.If an animal is terricolous, then it has legs. KiKi is an animal.If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.",
+        "conclusion": "KiKi does not bark and he is not a dog.",
+        "label": "True"
+    },
+    {
+        "id": "manual_240",
+        "premises": "If the highly experienced arctic exploration team safely navigates through the devastating massive midnight blizzard and successfully physically reaches the completely isolated magnetic north pole, they will immediately heavily plant a brightly colored nylon flag deep into the freezing solid ice. The highly experienced arctic exploration team safely navigated through the devastating massive midnight blizzard and successfully physically reached the completely isolated magnetic north pole early yesterday morning. However, their equipment was terribly severely damaged by the freezing harsh winds, and they extremely regretfully absolutely did not heavily plant a brightly colored nylon flag deep into the freezing solid ice before immediately calling for emergency helicopter extraction.",
+        "conclusion": "The highly experienced arctic exploration team immediately heavily planted a brightly colored nylon flag deep into the freezing solid ice early yesterday morning.",
+        "label": "False"
+    },
+    {
+        "id": "manual_430",
+        "premises": "No member of the expedition team returned without frostbite. The expedition had 12 members. Medical reports show 10 returned with frostbite, 2 returned without any cold injury. The statement 'no member returned without frostbite' means every member had frostbite. That is false because 2 had none. The field doctor's log is complete.",
+        "conclusion": "Every member of the expedition team had frostbite.",
+        "label": "False"
+    },
+    {
+        "id": "manual_42",
+        "premises": "If you water the plant, then it will grow. If the plant grows, then it will produce flowers. If it produces flowers, then the garden looks beautiful. You did not water the plant today. You forgot because you were busy. The soil is dry. The plant looks sad.",
+        "conclusion": "The garden does not look beautiful.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_376",
+        "premises": "All patients in the experimental trial received either the drug or a placebo. The trial enrolled 200 patients. Enrollment records are complete. Every patient signed consent. The randomization log shows 100 patients received the drug and 100 received placebo. No patient withdrew before treatment assignment.",
+        "conclusion": "Some patients in the experimental trial received the drug or a placebo.",
+        "label": "True"
+    },
+    {
+        "id": "manual_154",
+        "premises": "All teachers are students. Some students are very tall. Mr. Smith is a teacher. No teacher is very tall. Mr. Smith works at a school near the river.",
+        "conclusion": "Mr. Smith is very tall.",
+        "label": "False"
+    },
+    {
+        "id": "manual_252",
+        "premises": "If the incredibly wealthy eccentric highly secretive art collector successfully secretly purchases the famously stolen original Renaissance painting at the dark underground black market, he will immediately quietly move it to his heavily guarded private mountain vault. Early yesterday deeply foggy morning, the incredibly wealthy eccentric highly secretive art collector immediately quietly moved a massive heavily securely wrapped rectangular package directly into his heavily guarded private mountain vault. The completely baffled international art theft detectives are currently furiously intensely deeply investigating his incredibly shady highly suspicious recent massive financial transactions, desperately hoping to finally safely recover the incredibly deeply priceless stolen historical masterpiece.",
+        "conclusion": "The incredibly wealthy eccentric highly secretive art collector successfully secretly purchased the famously stolen original Renaissance painting at the dark underground black market.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_306",
+        "premises": "If a password contains a special character, then the system flags it as strong. User password 'Alpha99' contains no special characters. The security policy has no alternative definition of 'strong' passwords.",
+        "conclusion": "The system does not flag 'Alpha99' as strong.",
+        "label": "True"
+    },
+    {
+        "id": "manual_319",
+        "premises": "If a food package contains peanuts, then it must display an allergen warning label. The package in question contains no peanuts. Food safety code 14.2: 'Packages containing tree nuts also require the same warning label, regardless of peanut absence.' This package contains walnuts. The inspector has not yet tested whether walnuts legally classify as tree nuts in this jurisdiction.",
+        "conclusion": "The food package does not need to display an allergen warning label.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_418",
+        "premises": "No square circle has ever been drawn. Square circles are logically impossible shapes. Euclidean geometry proves that a shape cannot be both a square and a circle. No mathematician has ever claimed to construct one. The concept is self-contradictory.",
+        "conclusion": "Some square circles have not been drawn.",
+        "label": "False"
+    },
+    {
+        "id": "manual_194",
+        "premises": "Some teachers are strict. All strict teachers give homework every day. There is a teacher who does not give homework every day. Mr. Jones is a teacher. Mr. Jones is strict.",
+        "conclusion": "Mr. Jones gives homework every day.",
+        "label": "True"
+    },
+    {
+        "id": "manual_183",
+        "premises": "All cats are mammals. Some mammals are not cats. No cat can bark. There exists a mammal that can bark. This animal is a cat. Its name is Whiskers.",
+        "conclusion": "Whiskers cannot bark.",
+        "label": "True"
+    },
+    {
+        "id": "manual_424",
+        "premises": "It is not true that not all members of the board approved the merger. The board has 7 members. Voting records show 4 approved, 2 opposed, 1 abstained. The statement 'not all approved' means 'some did not approve,' which is true because 2 opposed and 1 abstained. The secretary confirmed the tally.",
+        "conclusion": "Some members of the board approved the merger.",
+        "label": "False"
+    },
+    {
+        "id": "manual_198",
+        "premises": "All members of the club can sing. Some members of the club can dance. No member can both sing and dance. Lisa is a member of the club. Lisa can dance.",
+        "conclusion": "Lisa cannot sing.",
+        "label": "True"
+    },
+    {
+        "id": "manual_293",
+        "premises": "In the local elementary school, every student who wants to join the elite competitive soccer team must first pass a very difficult physical running test and also maintain a high grade point average in all of their science classes. Any student who successfully passes the running test and maintains a high grade point average is officially invited to the summer training camp held at the state stadium. Young David is a student at this school who has a perfect grade in science and just passed the running test.",
+        "conclusion": "David is officially invited to the summer training camp held at the state stadium.",
+        "label": "True"
+    },
+    {
+        "id": "manual_372",
+        "premises": "All phlogiston samples glow green under UV light. Phlogiston is a disproven chemical concept from the 18th century. No phlogiston sample has ever been isolated. Modern chemistry considers the substance nonexistent.",
+        "conclusion": "Some phlogiston samples glow green under UV light.",
+        "label": "False"
+    },
+    {
+        "id": "manual_182",
+        "premises": "Every student in the class likes some subject. There is no subject that every student likes. Math is a subject. English is a subject. Tom is a student in the class. Tom does not like Math.",
+        "conclusion": "Tom likes English.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_263",
+        "premises": "The heavily dark and incredibly ominous stormy night sky suddenly and violently unleashed a massive, freezing rainstorm over the isolated mountainous region. The rapidly rising, deeply muddy, and incredibly powerful rushing floodwaters aggressively tore through the small, completely highly vulnerable farming valley, instantly destroying several beautifully hand-built ancient wooden bridges along the swollen river. Terrified local villagers frantically evacuated their fragile flooded homes, heavily desperately carrying their incredibly completely absolutely utterly deeply deeply highly extremely totally thoroughly precious incredibly heavily completely utterly deeply highly extremely heavy totally completely entirely thoroughly massive absolutely totally heavy personal belongings.",
+        "conclusion": "The terrified local villagers managed to safely rescue all of their livestock before the floodwaters destroyed their farms.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_211",
+        "premises": "Whenever the blue light on the coffee machine starts flashing, it means that the internal water tank is empty and needs to be refilled immediately for the machine to work. Right now, the blue light on the coffee machine in the office kitchen is not flashing at all, and it is showing a solid green light instead. Despite this, Sarah is convinced that the machine is broken because it will not start brewing her morning coffee when she presses the large start button.",
+        "conclusion": "The internal water tank of the coffee machine is empty.",
+        "label": "False"
+    },
+    {
+        "id": "manual_76",
+        "premises": "Mochi is not sour. All fruits that are not sour are sweet. Mochi is not sweet. It is false that Mochi is not a fruit.",
+        "conclusion": "Mochi is sour.",
+        "label": "True"
+    },
+    {
+        "id": "manual_239",
+        "premises": "Whenever a wildly famous international fashion designer surprisingly announces a completely unscripted secret runway show at the tiny abandoned downtown warehouse, the highly dedicated local fashion bloggers immediately form an incredibly long excited line stretching around the entire dark city block. This chilly evening, the highly dedicated local fashion bloggers immediately formed an incredibly long excited line stretching around the entire dark city block, aggressively pushing past the confused neighborhood residents. Several heavily armed private security guards hastily quickly set up heavy metal crowd barricades and completely blocked off the busy narrow street to safely manage the massive screaming extremely chaotic gathering.",
+        "conclusion": "A wildly famous international fashion designer surprisingly announced a completely unscripted secret runway show at the tiny abandoned downtown warehouse this chilly evening.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_381",
+        "premises": "Each member of the jury found a piece of evidence compelling. Different jurors were persuaded by different pieces of evidence. The evidence log lists 15 items. The jury has 12 members. No single piece of evidence was found compelling by all 12 jurors. The foreperson confirmed individual variation.",
+        "conclusion": "There is one piece of evidence that every member of the jury found compelling.",
+        "label": "False"
+    },
+    {
+        "id": "manual_333",
+        "premises": "Some stocks in the portfolio are from the energy sector. Some energy sector stocks pay dividends quarterly. The portfolio's quarterly statement lists all dividend-paying stocks. None of the energy sector stocks in the portfolio appear on that list. The statement is final and audited.",
+        "conclusion": "Some stocks in the portfolio pay dividends quarterly.",
+        "label": "False"
+    },
+    {
+        "id": "manual_308",
+        "premises": "If a loan applicant has a credit score above 750, then the bank approves the loan automatically. Maria's credit score is 680. Bank policy has no alternative automatic approval pathways for scores below 750.",
+        "conclusion": "Maria's loan is not approved automatically.",
+        "label": "True"
+    },
+    {
+        "id": "manual_448",
+        "premises": "The university policy requires that every graduate student must complete an ethics training module. The registrar's office has records for all 2,300 graduate students. Completion data shows 2,295 have finished the module. Five students have not. The policy is enforced at graduation, not before. The incomplete students are still enrolled.",
+        "conclusion": "Every graduate student has completed the ethics training module.",
+        "label": "False"
+    },
+    {
+        "id": "manual_162",
+        "premises": "The Pacific Ocean is smaller than the Atlantic Ocean. The Arctic Ocean is the largest ocean on Earth. The Pacific Ocean touches only Europe. The Atlantic Ocean touches the Americas. Ships cross the Pacific Ocean every day.",
+        "conclusion": "The Pacific Ocean is the largest ocean on Earth.",
+        "label": "False"
+    },
+    {
+        "id": "manual_348",
+        "premises": "If the contract is legally binding, then both parties must have signed it. Both parties signed the contract. The corporate legal manual states that a signed contract is binding unless a coercion clause is invoked. No coercion clause was invoked. Notarization was completed. No exception applies.",
+        "conclusion": "The contract is legally binding.",
+        "label": "True"
+    },
+    {
+        "id": "manual_359",
+        "premises": "If a person is a US senator, then they are at least 30 years old. Jordan is 45 years old. The US Constitution sets 30 as minimum age for senators, but also for representatives (25) and the presidency (35). Jordan has never held elected office. No additional information is given about Jordan's position.",
+        "conclusion": "Jordan is a US senator.",
+        "label": "False"
+    },
+    {
+        "id": "manual_143",
+        "premises": "For all x, if x is a lion then x is dangerous. Simba is dangerous. Simba is a lion. All dangerous animals should be avoided. Simba should be avoided. Some dangerous animals are not lions. Simba is not a lion.",
+        "conclusion": "Simba is dangerous.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_329",
+        "premises": "Some items in the warehouse are flammable. Some flammable items require special storage permits. Warehouse inventory Sheet 4 lists all items requiring special permits. Sheet 4 contains three items from the warehouse that are also flammable. No flammable item in the warehouse is missing from Sheet 4.",
+        "conclusion": "Some items in the warehouse require special storage permits.",
+        "label": "True"
+    },
+    {
+        "id": "manual_61",
+        "premises": "In a fruit basket, some fruits are not apples. The basket contains oranges, bananas, grapes, and apples. Apples are red or green. The basket is on the table. The fruit is fresh.",
+        "conclusion": "No fruits in the basket are apples.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_170",
+        "premises": "If a shape is a square, then it has five sides. My drawing is a square. A shape with five sides is called a pentagon. Triangles have three sides.",
+        "conclusion": "My drawing has five sides.",
+        "label": "True"
+    },
+    {
+        "id": "manual_332",
+        "premises": "Some planets in the Trappist-1 system are in the habitable zone. Some planets in the habitable zone have liquid water. Spectroscopic data confirms that exactly two planets in Trappist-1 are in the habitable zone. Both show water vapor signatures. No other planet in the system has liquid water.",
+        "conclusion": "Some planets in the Trappist-1 system have liquid water.",
+        "label": "True"
+    },
+    {
+        "id": "manual_399",
+        "premises": "Every player on the soccer team kicked a ball to a teammate during warm-up. The team has 11 players. Warm-up lasted 20 minutes. Each player kicked exactly one ball. The goalkeeper received kicks from all 11 players. No other player received more than 2 kicks. The coach's video analysis confirms the pattern.",
+        "conclusion": "There is a teammate to whom every player kicked a ball.",
+        "label": "True"
+    },
+    {
+        "id": "manual_382",
+        "premises": "Every patient in the trial reported a side effect to some nurse. The trial has 200 patients and 10 nurses. Each patient spoke to exactly one nurse. Patient logs show that Nurse Chen received reports from 150 patients. The remaining 50 patients distributed across 9 other nurses. Nurse Chen is the only nurse who received more than 20 reports.",
+        "conclusion": "There is a nurse to whom every patient reported a side effect.",
+        "label": "False"
+    },
+    {
+        "id": "manual_307",
+        "premises": "If a soldier disobeys a direct order, then military court mandates dishonorable discharge. Corporal Lee obeyed all direct orders from his commanding officer. However, military code 421 states: 'Failure to report a fellow soldier's insubordination also triggers dishonorable discharge, irrespective of personal obedience.' Lee failed to report insubordination, but the tribunal has not yet ruled whether that clause applies retroactively to his case.",
+        "conclusion": "Corporal Lee does not receive a dishonorable discharge.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_148",
+        "premises": "Every car that is red is fast. This car is fast. This car is red. All fast cars are expensive. This car is expensive. Some expensive cars are not red. This car is not red.",
+        "conclusion": "This car is fast.",
+        "label": "True"
+    },
+    {
+        "id": "manual_256",
+        "premises": "If the exceptionally brilliant and incredibly gifted young chess prodigy successfully and completely defeats the currently reigning arrogant world champion during the final match, the highly exclusive international grandmaster association will immediately officially award him the absolute highest honorable title. Yesterday afternoon, the highly exclusive and incredibly prestigious international grandmaster association immediately officially awarded the exceptionally brilliant and incredibly gifted young chess prodigy the absolute highest honorable chess title. The completely stunned and deeply silent global chess community immediately entirely furiously debated the profoundly historical and absolutely stunning implications of this incredibly massive sudden dramatic shift in the highly competitive global rankings.",
+        "conclusion": "The exceptionally brilliant and incredibly gifted young chess prodigy successfully and completely defeated the currently reigning arrogant world champion during the final match.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_419",
+        "premises": "Some of the emails in the CEO's inbox were not replied to within 24 hours. The CEO received 340 emails yesterday. Response logs show 300 were replied to within 24 hours, 35 were replied to after 48 hours, and 5 remain unreplied after 72 hours. The email server timestamps are accurate to the second.",
+        "conclusion": "Not all emails in the CEO's inbox were replied to within 24 hours.",
+        "label": "True"
+    },
+    {
+        "id": "manual_364",
+        "premises": "All employees in the robotics division have access to the prototype lab. The robotics division was shut down six months ago. No employees remain assigned to that division. The division's headcount is zero according to HR.",
+        "conclusion": "Some employees in the robotics division have access to the prototype lab.",
+        "label": "False"
+    },
+    {
+        "id": "manual_475",
+        "premises": "If a chemical compound contains a benzene ring with a nitro group at the para position, then it will show a characteristic absorption peak at 1520 cm⁻¹ in infrared spectroscopy. The sample tested showed a strong absorption peak at 1520 cm⁻¹. The analytical chemistry handbook notes that a carbonyl group conjugated with an aromatic ring can also produce a peak at 1520 cm⁻¹ under certain conditions. The sample's NMR spectrum indicates the presence of a conjugated carbonyl. However, the sample also contains a nitro group confirmed by mass spectrometry. The IR instrument was calibrated yesterday. The technician has not run a control sample to distinguish between the two possible causes. The handbook lists no other functional group that absorbs at 1520 cm⁻¹.",
+        "conclusion": "The chemical compound contains a benzene ring with a nitro group at the para position.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_12",
+        "premises": "If a dog is happy, then it wags its tail. The dog is wagging its tail. The dog has a toy in its mouth. It is jumping around. The owner just came home.",
+        "conclusion": "The dog is happy.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_242",
+        "premises": "If the highly skilled undercover investigative journalist successfully secretly records the incredibly corrupt corporate billionaire admitting to massive global tax fraud, the major national newspaper publisher will happily incredibly prominently feature the explosive controversial article on the Sunday front page. This bright incredibly sunny Sunday morning, the major national newspaper publisher happily incredibly prominently featured the explosive controversial article on the heavily anticipated Sunday front page. The shocking financial political news instantly caused massive incredible ripples throughout the entire deeply interconnected international stock market, heavily rapidly driving down the overall current market value of several different massive independent offshore banking companies.",
+        "conclusion": "The highly skilled undercover investigative journalist successfully secretly recorded the incredibly corrupt corporate billionaire admitting to massive global tax fraud.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_378",
+        "premises": "All square circles have four right angles. Square circles are geometrically impossible figures. No square circle has ever been drawn or conceived without logical contradiction. Euclidean geometry proves that no such shape exists.",
+        "conclusion": "Some square circles have four right angles.",
+        "label": "False"
+    },
+    {
+        "id": "manual_28",
+        "premises": "In a box of crayons, some crayons are not red. The box contains many colors: blue, green, yellow, and purple. Children use them for drawing. The box has 24 crayons.",
+        "conclusion": "No crayons in the box are red.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_187",
+        "premises": "Some birds can swim. All penguins are birds. No bird that can swim can fly. Some penguins can fly. Tweety is a penguin.",
+        "conclusion": "Tweety can swim.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_247",
+        "premises": "Whenever a highly sophisticated anonymous cyber hacking group successfully completely breaches the main heavily encrypted central bank servers, the massive national federal cybersecurity agency instantly completely shuts down the entire public internet grid. Early this chaotic morning, the panicked national federal cybersecurity agency instantly completely shut down the entire massive public internet communication grid across the entire country. Millions of highly frustrated remote office workers were suddenly completely unable to access their crucial daily business emails or important virtual video meetings. Several prominent independent technological news outlets are currently wildly actively speculating about the hidden true terrifying nature of the collapse.",
+        "conclusion": "A highly sophisticated anonymous cyber hacking group successfully completely breached the main heavily encrypted central bank servers early this morning.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_420",
+        "premises": "It is not true that no employee in the shipping department has completed the safety course. The shipping department has 25 employees. HR records show that 20 employees completed the course, 5 did not. The statement 'no employee completed the course' is false. The training coordinator verified the records.",
+        "conclusion": "Some employees in the shipping department have completed the safety course.",
+        "label": "True"
+    },
+    {
+        "id": "manual_347",
+        "premises": "If the patient has bacterial meningitis, then the cerebrospinal fluid will show elevated white blood cells. The patient's CSF shows elevated white blood cells. The attending physician notes that viral meningitis and fungal meningitis also elevate CSF white blood cells. Further tests have not been run to distinguish between these three causes.",
+        "conclusion": "The patient has bacterial meningitis.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_152",
+        "premises": "Paris is a city in Germany. Germany is a country in Asia. Every city in Asia is very hot in summer. The Eiffel Tower is in Paris. Many people visit Paris every year.",
+        "conclusion": "Paris is very hot in summer.",
+        "label": "True"
+    },
+    {
+        "id": "manual_428",
+        "premises": "There is no citizen in the district who did not vote in the election. The district has 10,000 registered voters. Turnout records show 9,950 voted, 50 did not. The statement 'no citizen did not vote' means every citizen voted. That is false because 50 did not vote. The election commission certified the numbers.",
+        "conclusion": "Every citizen in the district voted in the election.",
+        "label": "False"
+    },
+    {
+        "id": "manual_288",
+        "premises": "For any software application X, if X receives an auto-update, it reboots immediately, provided X is not running a critical batch job. If X is running a critical batch job, it does not reboot immediately. The Database App receives an auto-update. The Database App is not running a critical batch job.",
+        "conclusion": "The Database App reboots immediately.",
+        "label": "True"
+    },
+    {
+        "id": "manual_480",
+        "premises": "If the sun rises in the west, then morning shadows point east. The sun rises in the west. The laws of optics are unchanged by this fact. No other factor affects shadow direction.",
+        "conclusion": "Morning shadows point east.",
+        "label": "True"
+    },
+    {
+        "id": "manual_82",
+        "premises": "Zonk is not loud. Everything that is not loud cannot wake a sleeping cat. Zonk wakes a sleeping cat. It is not the case that Zonk is not a sound.",
+        "conclusion": "Zonk is loud.",
+        "label": "True"
+    },
+    {
+        "id": "manual_499",
+        "premises": "If the Earth has two moons, then high tides occur twice as often. The Earth has two moons: Luna and a second moon called Nereus. Nereus orbits every 15 days. Luna orbits every 30 days. Both moons align with the Earth every 30 days. Tides are highest when moons align. The alignment occurs once every 30 days. No other tidal forces exist.",
+        "conclusion": "The highest tides occur once every 30 days.",
+        "label": "True"
+    },
+    {
+        "id": "manual_493",
+        "premises": "If the sun rises in the north, then the shortest shadow at noon points south. The sun rises in the north. At the equator, the sun is directly overhead at noon. A vertical pole casts no shadow. The time is noon. The pole is 1 meter tall. The ground is level.",
+        "conclusion": "The pole casts a shadow pointing south.",
+        "label": "False"
+    },
+    {
+        "id": "manual_279",
+        "premises": "The incredibly highly skilled, deeply focused, terribly exhausted master watchmaker meticulously carefully heavily deeply thoroughly effectively effectively safely entirely flawlessly flawlessly flawlessly flawlessly successfully completely wonderfully efficiently entirely effectively carefully beautifully smoothly safely successfully expertly carefully perfectly deeply completely perfectly efficiently beautifully accurately gracefully elegantly smoothly thoroughly beautifully completely completely perfectly successfully perfectly effectively gracefully flawlessly entirely successfully thoroughly successfully perfectly flawlessly effortlessly completely smoothly entirely highly perfectly wonderfully flawlessly efficiently perfectly gracefully heavily entirely fully beautifully fully expertly assembled the incredibly tiny, perfectly beautifully highly highly extremely complex delicate golden gears of the completely priceless, incredibly rare, deeply historical ancient pocket watch.",
+        "conclusion": "The historically deeply completely entirely deeply incredibly significant ancient entirely totally absolutely perfectly pocket watch originally entirely completely absolutely deeply belonged to a highly utterly totally completely deeply perfectly absolutely thoroughly utterly utterly perfectly entirely famous European king who totally thoroughly completely fully lost it in battle.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_271",
+        "premises": "The incredibly brilliant, deeply highly respected senior evolutionary biologist spent her entire completely long, absolutely incredibly distinguished academic career thoroughly and intensively studying the highly complex, incredibly fascinating strange genetic behavioral patterns of an extremely rare, highly deeply isolated population of massive, wonderfully beautiful colorful tropical singing birds. Her incredibly massive, heavily detailed, completely highly extensive beautifully written scientific research papers heavily strongly suggested that these incredibly wonderful, perfectly stunning magnificent winged creatures developed their completely unique, highly complex incredible beautiful gorgeous musical mating calls strictly to survive the deeply entirely deeply entirely intensely deeply heavily incredibly harsh tropical jungle environment.",
+        "conclusion": "The massive colorful tropical singing birds will completely lose their highly complex beautiful musical mating calls if they are relocated to a quiet zoo.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_206",
+        "premises": "For any employees X and Y, if X directly manages Y, then Y is a subordinate of X. For any employees X, Y, and Z, if X directly manages Y, and Y directly manages Z, then Z is a subordinate of X. Employee A directly manages Employee B. Employee B directly manages Employee C.",
+        "conclusion": "Employee A is a subordinate of Employee C.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_427",
+        "premises": "It is not the case that it is false that some of the test results were inconclusive. The lab ran 120 tests. Results: 100 conclusive, 15 inconclusive, 5 invalid. The statement 'some were inconclusive' is true (15). Saying 'it is false that some were inconclusive' would mean none were inconclusive, which is false. Therefore 'it is not the case that it is false that some were inconclusive' is true. The lab director signed the report.",
+        "conclusion": "Some test results were inconclusive.",
+        "label": "True"
+    },
+    {
+        "id": "manual_7",
+        "premises": "If a car runs out of gas, then the engine stops. My car has not run out of gas. I filled the tank yesterday. I drove only a short distance. The gas gauge shows half full.",
+        "conclusion": "My car's engine will not stop.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_324",
+        "premises": "Some artifacts in the tomb were made of gold. Some gold artifacts from the same dynasty have engravings of the sun god. The excavation report lists all gold artifacts found. None of them have sun god engravings. No secondary hoard was discovered.",
+        "conclusion": "Some artifacts in the tomb have engravings of the sun god.",
+        "label": "False"
+    },
+    {
+        "id": "manual_227",
+        "premises": "If the electric heater is plugged into the wall and turned to the highest setting, the room will become warm in less than ten minutes. The electric heater is currently unplugged and sitting in the corner of the cold room, and no one has touched it all day. Because the heater is not working, the temperature in the room is still very cold and everyone is wearing their heavy coats to stay warm while they are working at their desks today.",
+        "conclusion": "The room became warm in less than ten minutes.",
+        "label": "False"
+    },
+    {
+        "id": "manual_366",
+        "premises": "All visitors to the secure vault have undergone retinal scanning. The vault has not been opened in 40 years. The visitor log shows zero entries since 1984. The vault's security system confirms no access attempts.",
+        "conclusion": "Some visitors to the secure vault have undergone retinal scanning.",
+        "label": "False"
+    },
+    {
+        "id": "manual_442",
+        "premises": "Professor Aris knows that some student in her seminar plagiarized the term paper. The seminar has 15 students. Professor Aris reviewed all 15 papers but could not identify which specific student plagiarized because the plagiarism detection software only flagged the passage without a name. The software output is anonymized. She has no additional information.",
+        "conclusion": "There is some student in Professor Aris's seminar whom she knows plagiarized the term paper.",
+        "label": "False"
+    },
+    {
+        "id": "manual_230",
+        "premises": "If the teacher smiles at the class, it means that everyone did a very good job on their homework and there will be no extra work today. The teacher walked into the classroom this morning and she had a very big smile on her face as she looked at all the students. Everyone was very happy to see her smiling, and they started to talk quietly about the fun games they wanted to play during the afternoon break instead of doing more math problems.",
+        "conclusion": "Everyone did a very good job on their homework and there will be no extra work.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_48",
+        "premises": "If you press the button, then the bell rings. If the bell rings, then the dog comes running. If the dog comes running, then it wants a treat. The bell rang. Someone pressed the doorbell by accident. The doorbell is broken and makes sound randomly. The dog is already in the room. The dog is sleeping.",
+        "conclusion": "You pressed the button.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_22",
+        "premises": "Every player on the soccer team has a jersey number. The jersey numbers are unique. The team has eleven players. The coach assigns numbers from 1 to 11. Players wear their jerseys during matches.",
+        "conclusion": "There is a jersey number that is worn by every player.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_417",
+        "premises": "Some of the chapters in the book are not longer than 10 pages. The book has 24 chapters. Page counts: 5 chapters are 8 pages, 3 chapters are 9 pages, 8 chapters are 12 pages, and 8 chapters are 15 pages. The publisher's metadata is accurate.",
+        "conclusion": "Not all chapters in the book are longer than 10 pages.",
+        "label": "True"
+    },
+    {
+        "id": "manual_19",
+        "premises": "All perpetual motion machines produce unlimited energy. Perpetual motion machines violate the laws of physics. No such machine has ever been built. Many inventors have tried and failed. The idea is considered impossible.",
+        "conclusion": "There is at least one perpetual motion machine that produces unlimited energy.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_144",
+        "premises": "If you water the plants, they grow. The plants grow. You water the plants. The soil is fertile. Plants grow only if they get water or sunlight. The plants get sunlight.",
+        "conclusion": "You water the plants.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_274",
+        "premises": "The elderly, deeply respected town librarian quietly discovered a heavily dusty, completely forgotten leather-bound diary hidden securely behind a massive row of incredibly thick historical encyclopedias. The incredibly fragile, deeply yellowed pages were absolutely completely covered in a highly complex, beautifully handwritten, incredibly intricate secret code that perfectly beautifully seamlessly incredibly totally deeply beautifully heavily elegantly masterfully brilliantly wonderfully completely thoroughly gracefully fluently smoothly effortlessly flawlessly intricately magically entirely mysteriously deeply uniquely wonderfully wonderfully perfectly wonderfully thoroughly deeply entirely perfectly smoothly flawlessly matched the famously unsolved local historical mystery from the completely deeply heavily extensively absolutely terribly cold incredibly dark winter.",
+        "conclusion": "The elderly librarian will successfully decode the deeply entirely totally perfectly entirely completely absolutely completely thoroughly secret diary and immediately publish a massively hugely totally thoroughly bestselling historical novel.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_441",
+        "premises": "The law requires that every truck driver must carry a medical certificate. The transportation department has issued certificates to all 12,000 registered truck drivers. Inspector Gomez verified that each driver possesses a certificate. No driver has been found without one. The law is uniformly enforced.",
+        "conclusion": "Every truck driver carries a medical certificate.",
+        "label": "True"
+    },
+    {
+        "id": "manual_459",
+        "premises": "The chess grandmaster knows that no legal move from the current position leads to checkmate in one. The position has 12 legal moves. The grandmaster analyzed each move using a chess engine. The engine confirmed that none of the 12 delivers checkmate in one. The grandmaster verified the engine's calculation. The analysis is exhaustive.",
+        "conclusion": "Every legal move from the current position does not lead to checkmate in one.",
+        "label": "True"
+    },
+    {
+        "id": "manual_489",
+        "premises": "If humans have one lung, then human blood oxygenation requires that single lung to function perfectly. Humans have one lung. Patient Y has one lung that is 50% blocked by a tumor. The tumor reduces oxygen exchange by half. The patient's oxygen saturation is 85%. Normal saturation is 95% or above. No other organ compensates.",
+        "conclusion": "Patient Y has normal blood oxygenation.",
+        "label": "False"
+    },
+    {
+        "id": "manual_192",
+        "premises": "Every person who lives in the blue house owns a pet. Some people who own a pet do not own a dog. There is a person who lives in the blue house and owns a cat. Alice lives in the blue house. Alice does not own a cat.",
+        "conclusion": "Alice owns a dog.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_384",
+        "premises": "Every hacker in the competition exploited a vulnerability in the system. The competition had 50 hackers. The system had 12 known vulnerabilities. Each hacker exploited exactly one vulnerability. Vulnerability CVE-2024-001 was exploited by 45 hackers. The remaining 5 hackers exploited 5 different vulnerabilities. No other vulnerability was exploited by more than 2 hackers.",
+        "conclusion": "There is a vulnerability that every hacker exploited.",
+        "label": "False"
+    },
+    {
+        "id": "manual_397",
+        "premises": "Every employee in the warehouse scanned a package for shipment. The warehouse has 50 employees. The shipment contained 2,000 packages. Each employee scanned exactly one package. Package #1842 was scanned by all 50 employees due to a system glitch that re-assigned the same barcode. No other package was scanned by more than 2 employees. The glitch is confirmed by IT logs.",
+        "conclusion": "There is a package that every employee scanned.",
+        "label": "True"
+    },
+    {
+        "id": "manual_35",
+        "premises": "In a magical forest, some fairies can fly. All fairies live in flowers. Some creatures that live in flowers are tiny. The forest has many flowers. The fairies are very friendly. They love to dance at night.",
+        "conclusion": "Some fairies are tiny.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_483",
+        "premises": "If triangles have five sides, then a triangle's perimeter is the sum of five lengths. Triangles have five sides. Shape T is a triangle. Its five side lengths are 2, 3, 4, 5, and 6 units. Geometry rules apply consistently.",
+        "conclusion": "The perimeter of shape T is 20 units.",
+        "label": "True"
+    },
+    {
+        "id": "manual_160",
+        "premises": "If a person is a doctor, then they can fix cars. Mary is a doctor. John is a doctor. Some doctors cannot fix cars. Mary works at the city hospital.",
+        "conclusion": "Mary can fix cars.",
+        "label": "True"
+    },
+    {
+        "id": "manual_463",
+        "premises": "Every guest at the ambassador's dinner toasted someone at the head table. The dinner had 60 guests and 8 people at the head table. Each guest toasted exactly one person, as recorded by the event photographer. The ambassador was toasted by all 60 guests, according to the photo log. No other person at the head table received more than 5 toasts. The photographer's images cover every toast without gaps. The ambassador confirmed receiving each toast personally. The event coordinator verified that no guest toasted more than one person.",
+        "conclusion": "There is a person at the head table to whom every guest toasted.",
+        "label": "True"
+    },
+    {
+        "id": "manual_26",
+        "premises": "In a class, some students did not pass the math test. The test was very difficult. Several students studied hard. The teacher said many students failed. There are thirty students in the class.",
+        "conclusion": "No student in the class passed the math test.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_396",
+        "premises": "Each camera in the security system recorded a car passing through a gate. The system has 12 cameras. The facility has 8 gates. Each camera covers exactly one gate. Camera 4 at Gate D recorded 500 cars. The remaining 11 cameras recorded a total of 300 cars, each distributed across different gates. No single gate was recorded by more than 3 cameras. The central log has no missing data.",
+        "conclusion": "There is a gate that every camera recorded.",
+        "label": "False"
+    },
+    {
+        "id": "manual_469",
+        "premises": "Every node in the mesh network transmitted a packet to some gateway during the stress test. The network has 500 nodes and 3 gateways: G1, G2, and G3. The packet log shows that Gateway G1 received transmissions from 498 nodes. The remaining 2 nodes transmitted exclusively to Gateway G2. Gateway G3 received zero packets during the entire test. The test administrator verified that each node transmitted exactly once. No node failed to transmit. The log is complete and error-free according to the post-test audit. No node transmitted to more than one gateway.",
+        "conclusion": "There is a gateway to which every node in the mesh network transmitted a packet.",
+        "label": "False"
+    },
+    {
+        "id": "manual_73",
+        "premises": "Gloop is not from Mars. No creature from Mars can swim. Gloop can swim. It is not true that Gloop is not a creature.",
+        "conclusion": "Gloop is from Mars.",
+        "label": "False"
+    },
+    {
+        "id": "manual_13",
+        "premises": "If you have a fever, then your body temperature is above 37°C. Your body temperature is above 37°C. You feel tired. Your head hurts. You drank hot soup.",
+        "conclusion": "You have a fever.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_117",
+        "premises": "For all foods, if it is spicy then it is hot. Some food is hot and not spicy. Every hot food is tasty. No tasty food is bland. There is a bland food.",
+        "conclusion": "Some spicy food is not hot.",
+        "label": "False"
+    },
+    {
+        "id": "manual_157",
+        "premises": "Every fruit is a vegetable. Every vegetable is green. Broccoli is a vegetable. An apple is a fruit. A banana is a fruit. Bananas are yellow.",
+        "conclusion": "An apple is green.",
+        "label": "True"
+    },
+    {
+        "id": "manual_75",
+        "premises": "Fizz does not run fast. No animal that runs fast is slow. Fizz is slow. It is not the case that Fizz is not an animal.",
+        "conclusion": "Fizz runs fast.",
+        "label": "False"
+    },
+    {
+        "id": "manual_453",
+        "premises": "The hospital protocol requires that any nurse who administers anesthesia must be certified in advanced cardiac life support. The anesthesia log for today shows 15 administrations. Each administration was performed by a nurse. Credentialing records confirm that all 15 nurses who administered anesthesia today hold ACLS certification. No uncertified nurse administered anesthesia.",
+        "conclusion": "Every nurse who administered anesthesia today is certified in advanced cardiac life support.",
+        "label": "True"
+    },
+    {
+        "id": "manual_209",
+        "premises": "For any user account U, if U enters an incorrect password three times, U is locked out for 30 minutes, provided U is not a system administrator account. If U is a system administrator account, U is not locked out for 30 minutes. Account Admin_Root enters an incorrect password three times.",
+        "conclusion": "Account Admin_Root is locked out for 30 minutes.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_18",
+        "premises": "All dragons breathe fire. Dragons are legendary creatures from fairy tales. Many knights tried to fight dragons but never found one. The museum has a dragon skeleton that might be fake. People still love dragon stories.",
+        "conclusion": "Some dragon breathes fire.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_173",
+        "premises": "All metals are heavy. Wood is a metal. Plastic is not a metal. This spoon is made of wood. This spoon is very light.",
+        "conclusion": "This spoon is heavy.",
+        "label": "False"
+    },
+    {
+        "id": "manual_447",
+        "premises": "The detective knows that some weapon in the safe room was used in the murder. The safe room contains 6 weapons: a knife, a rope, a pistol, a candlestick, a wrench, and a lead pipe. Forensic analysis matched the pistol to the bullet fragments. The detective knows the pistol was used. He does not know about the other five.",
+        "conclusion": "There is a weapon in the safe room that the detective knows was used in the murder.",
+        "label": "True"
+    },
+    {
+        "id": "manual_304",
+        "premises": "If a merchant ship flies the crimson flag, then it is exempt from boarding inspection. The vessel *Seaspray* flies a blue flag, not crimson. Port authority rule 7 says non-crimson vessels are always subject to boarding, with no exceptions.",
+        "conclusion": "*Seaspray* is subject to boarding inspection.",
+        "label": "True"
+    },
+    {
+        "id": "manual_95",
+        "premises": "For every game, if it is fun then many people play it. Some game is not fun. Every game that many people play is popular. No popular game is forgotten. There is a game that is forgotten.",
+        "conclusion": "Some game is not popular.",
+        "label": "False"
+    },
+    {
+        "id": "manual_237",
+        "premises": "If the morning sky is filled with dark grey clouds and the birds are hiding in their nests, it is a certain sign that a heavy rainstorm will begin before the school bell rings at eight o'clock. This morning, the sky above the playground is a beautiful bright blue with no clouds at all, and the birds are singing loudly in the trees. Despite this, the teacher told all the students to bring their umbrellas and raincoats inside the classroom just in case they need them.",
+        "conclusion": "A heavy rainstorm will begin before the school bell rings at eight o'clock.",
+        "label": "False"
+    },
+    {
+        "id": "manual_405",
+        "premises": "No unicorn in the Enchanted Forest has a golden horn. The Enchanted Forest is a fictional setting in medieval ballads. No biological survey has ever documented a unicorn. Forest rangers report zero unicorn sightings in recorded history. The species is considered mythical.",
+        "conclusion": "Some unicorns in the Enchanted Forest do not have a golden horn.",
+        "label": "False"
+    },
+    {
+        "id": "manual_264",
+        "premises": "The incredibly famous and highly controversial modern artist proudly unveiled his massive, bizarrely shaped, completely bright neon pink steel sculpture right in the center of the deeply crowded, incredibly busy historic downtown public plaza. Hundreds of highly confused and deeply curious daily city commuters immediately stopped in their tracks to extensively heavily intensively carefully completely completely absolutely utterly deeply completely totally absolutely entirely thoroughly deeply stare at the absolutely entirely deeply completely utterly extremely massive heavily incredibly completely absolutely highly entirely utterly completely deeply completely completely completely highly totally entirely perfectly utterly weird strange massive modern artwork.",
+        "conclusion": "The highly controversial modern artist felt deeply insulted by the confused reactions of the daily city commuters.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_413",
+        "premises": "No surviving crew member of the sunken submarine has been debriefed. The submarine sank with 60 crew. Rescue operations saved 12. Of those, 8 are in critical condition and cannot be interviewed. The remaining 4 are stable but have not yet been debriefed due to legal restrictions. No debriefing has occurred for any survivor.",
+        "conclusion": "Some surviving crew members of the sunken submarine have not been debriefed.",
+        "label": "True"
+    }
+]
