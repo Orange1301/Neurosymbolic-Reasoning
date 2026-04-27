@@ -3,7 +3,7 @@
         "story_id": 706,
         "id": "ruletaker_dev_706",
         "nat_premises": "The bald eagle likes the mouse. The dog is kind. The mouse chases the bald eagle. The mouse is kind. The mouse likes the dog. The mouse likes the squirrel. The mouse sees the bald eagle. The squirrel is kind. The squirrel is red. The squirrel sees the dog. If something chases the mouse and the mouse chases the bald eagle then the bald eagle is rough. If something is rough and young then it likes the bald eagle. If something is red then it chases the mouse. If something is cold then it chases the squirrel. If something chases the mouse and the mouse likes the bald eagle then the mouse chases the squirrel. If something sees the mouse then the mouse sees the dog.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The mouse likes the squirrel.",
         "fol_conclusion": null,
         "label": "True"
@@ -12,7 +12,7 @@
         "story_id": 2291,
         "id": "ruletaker_dev_2291",
         "nat_premises": "Dave is green. Erin is not green. Fiona is furry. Gary is rough. If something is young then it is not big. Rough things are young. White things are young. If Dave is big then Dave is not white. If something is furry and not young then it is green. If something is not green and not white then it is rough. If something is big and not rough then it is kind. If something is not kind and not rough then it is furry.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is not big.",
         "fol_conclusion": null,
         "label": "True"
@@ -21,7 +21,7 @@
         "story_id": 150,
         "id": "ruletaker_dev_150",
         "nat_premises": "The cow is cold. The cow is round. The cow likes the dog. The cow does not like the lion. The cow visits the dog. The dog is cold. The dog likes the cow. The dog likes the lion. The lion is cold. The lion likes the dog. If someone likes the lion then they do not visit the cow.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cow is round.",
         "fol_conclusion": null,
         "label": "True"
@@ -30,7 +30,7 @@
         "story_id": 168,
         "id": "ruletaker_dev_168",
         "nat_premises": "The bear chases the cow. The bear is round. The cow eats the bear. The cow is young. The dog chases the bear. The dog is green. The mouse eats the cow. If someone chases the dog then the dog visits the mouse. If the bear visits the dog and the bear eats the cow then the cow eats the mouse. If someone does not chase the dog then they do not visit the cow. If someone is young and blue then they are green. If someone does not visit the dog then the dog does not eat the cow. If someone visits the dog and the dog is not round then the dog visits the mouse.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bear is round.",
         "fol_conclusion": null,
         "label": "True"
@@ -39,7 +39,7 @@
         "story_id": 3144,
         "id": "ruletaker_dev_3144",
         "nat_premises": "Anne is kind. Anne is red. Anne is smart. Bob is big. Bob is green. Bob is kind. Bob is red. Bob is round. Bob is young. Charlie is not green. Charlie is kind. Charlie is red. If Bob is young and Bob is not green then Bob is kind. If Anne is smart then Anne is young. Red, young things are big. If something is smart then it is kind. If something is not green then it is round. If Anne is young and Anne is not big then Anne is smart.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is red.",
         "fol_conclusion": null,
         "label": "True"
@@ -48,7 +48,7 @@
         "story_id": 5599,
         "id": "ruletaker_dev_5599",
         "nat_premises": "Anne is nice. Anne is rough. Charlie is big. Charlie is cold. Charlie is furry. Charlie is round. Gary is furry. All round, rough things are big. If something is rough and furry then it is big. All white things are round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is not furry.",
         "fol_conclusion": null,
         "label": "False"
@@ -57,7 +57,7 @@
         "story_id": 1404,
         "id": "ruletaker_dev_1404",
         "nat_premises": "The cat chases the tiger. The cat is red. The lion is nice. The lion is red. The lion sees the cat. The lion sees the rabbit. The lion sees the tiger. The rabbit chases the tiger. The rabbit sees the tiger. The tiger chases the cat. The tiger chases the rabbit. The tiger is nice. If someone is red and they eat the rabbit then they are blue. If the lion eats the cat and the lion chases the rabbit then the cat is kind. If the rabbit eats the tiger then the tiger is nice. If someone is rough then they see the cat. If someone is nice and they chase the rabbit then the rabbit is nice. If someone eats the cat and they are kind then they see the tiger. If someone is nice and they chase the tiger then they are blue. If someone is blue then they eat the cat. If someone eats the cat then the cat is blue.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion sees the rabbit.",
         "fol_conclusion": null,
         "label": "True"
@@ -66,7 +66,7 @@
         "story_id": 5280,
         "id": "ruletaker_dev_5280",
         "nat_premises": "The bear eats the tiger. The bear is big. The bear is kind. The bear is nice. The tiger chases the bear. The tiger eats the bear. The tiger is big. The tiger is kind. The tiger is nice. The tiger is round. The tiger is young. The tiger needs the bear. If something chases the tiger then the tiger eats the bear. If something is round and big then it needs the bear. If something eats the tiger and it needs the bear then the bear chases the tiger. If the tiger eats the bear and the bear chases the tiger then the bear is kind. If something is young and it eats the tiger then the tiger needs the bear. If something is big and it needs the tiger then it needs the bear. If something needs the bear and it eats the tiger then the bear is young. If something chases the tiger and it needs the bear then the bear needs the tiger.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger is not nice.",
         "fol_conclusion": null,
         "label": "False"
@@ -75,7 +75,7 @@
         "story_id": 2178,
         "id": "ruletaker_dev_2178",
         "nat_premises": "Bob is blue. Bob is cold. Bob is green. Bob is kind. Bob is red. Charlie is green. Charlie is kind. Charlie is red. Charlie is rough. Dave is cold. Dave is red. Dave is rough. If someone is green and cold then they are blue. All blue, furry people are red. All cold, furry people are green. If someone is rough and kind then they are furry. If Bob is cold and Bob is furry then Bob is green. If Dave is blue then Dave is green. If Dave is rough and Dave is cold then Dave is blue. If someone is blue and green then they are kind.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is red.",
         "fol_conclusion": null,
         "label": "True"
@@ -84,7 +84,7 @@
         "story_id": 5651,
         "id": "ruletaker_dev_5651",
         "nat_premises": "Anne is white. Bob is big. Bob is not furry. Bob is nice. Bob is not quiet. Bob is red. Charlie is furry. Charlie is nice. Charlie is young. Dave is big. Dave is furry. Dave is not nice. Dave is quiet. Dave is white. Dave is not young. If Dave is nice then Dave is white. If something is big and not quiet then it is red. If Anne is red then Anne is white. Nice things are not quiet. All young things are not big. All furry, red things are not young. All nice, big things are white. If something is quiet and not red then it is white.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is furry.",
         "fol_conclusion": null,
         "label": "False"
@@ -93,7 +93,7 @@
         "story_id": 1771,
         "id": "ruletaker_dev_1771",
         "nat_premises": "Bob is nice. Bob is round. Bob is white. Charlie is blue. Charlie is nice. Fiona is blue. Harry is white. If someone is blue then they are furry. All furry, nice people are smart. If someone is furry and white then they are nice. All white people are blue. Nice, smart people are quiet. Round people are white.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is white.",
         "fol_conclusion": null,
         "label": "True"
@@ -102,7 +102,7 @@
         "story_id": 4553,
         "id": "ruletaker_dev_4553",
         "nat_premises": "Erin is round. If Erin is quiet and Erin is young then Erin is furry. All cold people are white. Furry, cold people are blue. If Erin is white then Erin is young. Young people are quiet. All quiet people are white.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Erin is not round.",
         "fol_conclusion": null,
         "label": "False"
@@ -111,7 +111,7 @@
         "story_id": 498,
         "id": "ruletaker_dev_498",
         "nat_premises": "Dave is cold. Dave is kind. Dave is young. Harry is cold. Harry is furry. Harry is kind. Harry is rough. Harry is round. Harry is smart. Harry is young. Young things are furry.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is rough.",
         "fol_conclusion": null,
         "label": "True"
@@ -120,7 +120,7 @@
         "story_id": 2598,
         "id": "ruletaker_dev_2598",
         "nat_premises": "The lion eats the mouse. The lion is kind. The lion likes the tiger. The lion visits the tiger. The mouse eats the lion. The mouse is blue. The mouse is kind. The mouse is rough. The mouse visits the lion. The mouse visits the tiger. The tiger is nice. The tiger likes the mouse. If someone is rough then they eat the lion. If someone visits the mouse and they like the mouse then the mouse is nice. If someone likes the mouse then the mouse eats the lion.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger is nice.",
         "fol_conclusion": null,
         "label": "True"
@@ -129,7 +129,7 @@
         "story_id": 2709,
         "id": "ruletaker_dev_2709",
         "nat_premises": "Bob is not big. Bob is blue. Bob is nice. Bob is smart. Charlie is not blue. Charlie is cold. Charlie is young. Dave is not big. Dave is cold. Dave is nice. Dave is smart. Dave is young. If Bob is young then Bob is nice. Young, big people are red.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is not big.",
         "fol_conclusion": null,
         "label": "True"
@@ -138,7 +138,7 @@
         "story_id": 6188,
         "id": "ruletaker_dev_6188",
         "nat_premises": "The cat is big. The cat likes the cow. The cat needs the mouse. The cow chases the mouse. The cow needs the cat. The mouse chases the cow. The mouse is cold. The mouse likes the cat. The mouse likes the cow. The mouse needs the cow. The rabbit chases the cow. The rabbit chases the mouse. Green things are rough. If something likes the cat and the cat needs the rabbit then the cat chases the cow.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cow does not need the cat.",
         "fol_conclusion": null,
         "label": "False"
@@ -147,7 +147,7 @@
         "story_id": 4764,
         "id": "ruletaker_dev_4764",
         "nat_premises": "Dave is cold. Dave is round. Harry is not big. Harry is blue. Harry is cold. Harry is round. Harry is white. If Harry is green and Harry is not white then Harry is blue. Kind things are blue. If something is white and not round then it is kind. All big, cold things are not green. All big, cold things are green. If something is blue then it is not green.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is big.",
         "fol_conclusion": null,
         "label": "False"
@@ -156,7 +156,7 @@
         "story_id": 3405,
         "id": "ruletaker_dev_3405",
         "nat_premises": "Bob is cold. Charlie is furry. Harry is round. If something is kind then it is big. Cold things are quiet. If something is cold then it is kind. Furry things are round. If something is big then it is round. Kind things are furry.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is not round.",
         "fol_conclusion": null,
         "label": "False"
@@ -165,7 +165,7 @@
         "story_id": 5042,
         "id": "ruletaker_dev_5042",
         "nat_premises": "Harry is blue. Harry is furry. Harry is green. Harry is kind. Harry is red. Harry is smart. Harry is white. If Harry is white and Harry is not red then Harry is green. White people are furry. If someone is not blue and not furry then they are kind.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is not blue.",
         "fol_conclusion": null,
         "label": "False"
@@ -174,7 +174,7 @@
         "story_id": 3889,
         "id": "ruletaker_dev_3889",
         "nat_premises": "Bob is smart. Dave is nice. Gary is round. Harry is smart. All green, white things are rough. If Gary is round and Gary is green then Gary is white. If something is rough then it is smart. All green, rough things are round. All green, rough things are young. All white, smart things are nice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is not round.",
         "fol_conclusion": null,
         "label": "False"
@@ -183,7 +183,7 @@
         "story_id": 1303,
         "id": "ruletaker_dev_1303",
         "nat_premises": "The cat eats the dog. The cat eats the squirrel. The dog chases the squirrel. The dog eats the squirrel. The dog is big. The dog is red. The dog is rough. The squirrel is not big. The tiger is rough. The tiger likes the dog. If something likes the cat and it is not round then the cat chases the dog. If something eats the tiger then the tiger chases the squirrel. If something eats the squirrel then the squirrel chases the dog. If something is blue and it does not like the tiger then the tiger eats the cat. If something chases the dog then the dog eats the tiger. If something eats the cat and it does not like the tiger then it likes the dog. If something does not like the squirrel then it chases the squirrel. If something likes the cat then it is red. If something chases the dog and it does not eat the tiger then it likes the cat.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog eats the squirrel.",
         "fol_conclusion": null,
         "label": "True"
@@ -192,7 +192,7 @@
         "story_id": 1055,
         "id": "ruletaker_dev_1055",
         "nat_premises": "The bear is green. If something is round and not nice then it is not kind. If the bear is not round then the bear is cold. If something is not nice then it is cold.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bear is green.",
         "fol_conclusion": null,
         "label": "True"
@@ -201,7 +201,7 @@
         "story_id": 755,
         "id": "ruletaker_dev_755",
         "nat_premises": "The bear likes the cat. The cat is kind. The dog is young. The mouse is not kind. If someone is not round then they do not chase the bear.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cat is kind.",
         "fol_conclusion": null,
         "label": "True"
@@ -210,7 +210,7 @@
         "story_id": 5200,
         "id": "ruletaker_dev_5200",
         "nat_premises": "The cow eats the lion. The cow visits the lion. The lion is young. If someone eats the lion and the lion is nice then the lion needs the cow. If someone is nice then they eat the lion. If someone is red and rough then they visit the cow. If someone eats the lion then they visit the cow. If someone needs the lion then the lion is kind. If the lion needs the cow then the lion eats the cow.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion is not young.",
         "fol_conclusion": null,
         "label": "False"
@@ -219,7 +219,7 @@
         "story_id": 1949,
         "id": "ruletaker_dev_1949",
         "nat_premises": "The cat does not chase the mouse. The cat eats the lion. The cat eats the mouse. The cat eats the rabbit. The lion chases the cat. The lion eats the cat. The lion is rough. The mouse is big. The rabbit chases the cat. The rabbit does not eat the cat. The rabbit does not eat the lion. The rabbit is big. The rabbit is green. The rabbit is nice. The rabbit is rough. The rabbit sees the cat. If someone eats the rabbit then the rabbit chases the mouse. If someone sees the mouse then the mouse does not chase the cat. If someone sees the lion and they do not see the mouse then they eat the cat. If the lion sees the cat then the lion chases the mouse. If someone chases the mouse then the mouse sees the lion. If someone is green then they see the rabbit. If the lion is nice then the lion is green. If someone is not big and they do not see the cat then the cat chases the rabbit.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The rabbit is nice.",
         "fol_conclusion": null,
         "label": "True"
@@ -228,7 +228,7 @@
         "story_id": 5982,
         "id": "ruletaker_dev_5982",
         "nat_premises": "Charlie is big. Charlie is blue. Charlie is furry. Charlie is not green. Charlie is kind. Charlie is nice. Charlie is young. If someone is green and young then they are nice. If someone is young and not green then they are kind. All blue people are young. Furry, green people are not big. All blue, nice people are big. If Charlie is blue and Charlie is big then Charlie is furry.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is not blue.",
         "fol_conclusion": null,
         "label": "False"
@@ -237,7 +237,7 @@
         "story_id": 752,
         "id": "ruletaker_dev_752",
         "nat_premises": "Anne is rough. Charlie is rough. Gary is furry. All furry, round people are cold. If someone is furry then they are not round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Anne is rough.",
         "fol_conclusion": null,
         "label": "True"
@@ -246,7 +246,7 @@
         "story_id": 3877,
         "id": "ruletaker_dev_3877",
         "nat_premises": "Anne is nice. Anne is round. Anne is white. If Anne is kind and Anne is quiet then Anne is young. If something is quiet and furry then it is young.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Anne is not nice.",
         "fol_conclusion": null,
         "label": "False"
@@ -255,7 +255,7 @@
         "story_id": 5115,
         "id": "ruletaker_dev_5115",
         "nat_premises": "The bear is nice. The bear needs the lion. The bear sees the lion. The cow is not cold. The cow sees the lion. The lion is young. The lion sees the bear. The tiger is cold. The tiger is not round. The tiger likes the lion. The tiger needs the bear. The tiger needs the lion. If someone sees the bear then the bear is rough. If someone is rough then they like the cow. If the tiger likes the bear then the bear does not see the cow. If someone does not need the bear and they do not need the cow then the cow is rough. If someone needs the cow and they are not nice then the cow needs the tiger. If someone needs the bear and they do not need the cow then the cow likes the bear.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger is not cold.",
         "fol_conclusion": null,
         "label": "False"
@@ -264,7 +264,7 @@
         "story_id": 903,
         "id": "ruletaker_dev_903",
         "nat_premises": "Anne is rough. Fiona is white. Fiona is young. Gary is quiet. Harry is cold. Harry is rough. Harry is white. All smart, round things are young. Quiet things are rough. Quiet, cold things are round. If something is white and cold then it is smart. If something is smart and cold then it is quiet. Quiet things are round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is quiet.",
         "fol_conclusion": null,
         "label": "True"
@@ -273,7 +273,7 @@
         "story_id": 1886,
         "id": "ruletaker_dev_1886",
         "nat_premises": "Bob is big. Charlie is green. Gary is big. If someone is quiet then they are round. All smart, big people are quiet. Young people are smart. All big, blue people are green. If Bob is blue and Bob is round then Bob is green. If someone is not young then they are smart.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is big.",
         "fol_conclusion": null,
         "label": "True"
@@ -282,7 +282,7 @@
         "story_id": 3501,
         "id": "ruletaker_dev_3501",
         "nat_premises": "The bald eagle is not young. The bald eagle likes the squirrel. The bald eagle does not visit the bear. The bald eagle visits the cow. The bear likes the cow. The bear does not like the squirrel. The bear needs the cow. The bear visits the bald eagle. The bear does not visit the cow. The cow is big. The cow does not like the bald eagle. The cow needs the squirrel. The cow does not visit the bald eagle. The cow does not visit the squirrel. The squirrel is blue. The squirrel visits the cow. If the cow is young and the cow does not need the squirrel then the squirrel is not round. If someone likes the cow and they do not visit the bald eagle then the bald eagle is not young. If the cow does not need the squirrel then the cow does not visit the bear. If the squirrel likes the cow and the cow does not visit the squirrel then the cow is not round. If someone visits the cow and the cow is not green then they are blue. If someone is not green then they like the bear. If someone is green then they visit the bear. If the squirrel likes the bear then the squirrel likes the bald eagle.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bald eagle is young.",
         "fol_conclusion": null,
         "label": "False"
@@ -291,7 +291,7 @@
         "story_id": 6064,
         "id": "ruletaker_dev_6064",
         "nat_premises": "Anne is big. Anne is blue. Anne is cold. Anne is furry. Anne is quiet. Anne is not round. Anne is smart. Round, quiet things are big. If something is smart then it is not round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Anne is not quiet.",
         "fol_conclusion": null,
         "label": "False"
@@ -300,7 +300,7 @@
         "story_id": 5749,
         "id": "ruletaker_dev_5749",
         "nat_premises": "The lion is blue. The lion is cold. The lion is nice. The lion is round. The lion is young. All young, cold people are nice. If someone is nice and round then they are young. All blue people are nice. Nice people are young. All blue, cold people are round. If someone is cold then they are nice. Cold people are round. Young, blue people are nice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion is not round.",
         "fol_conclusion": null,
         "label": "False"
@@ -309,7 +309,7 @@
         "story_id": 5395,
         "id": "ruletaker_dev_5395",
         "nat_premises": "The cow is cold. The cow is not nice. The cow is red. The cow is not rough. The cow is round. The cow needs the tiger. The cow sees the tiger. The cow does not visit the tiger. The tiger is cold. The tiger is nice. The tiger is red. The tiger is rough. The tiger is not round. The tiger needs the cow. The tiger sees the cow. The tiger visits the cow. If the tiger visits the cow then the tiger needs the cow. If something sees the tiger and it needs the tiger then it visits the cow. If the cow is rough then the cow needs the tiger. If the tiger is nice then the tiger sees the cow. If something is round then it sees the tiger. If something visits the tiger and the tiger sees the cow then the tiger is round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger is not cold.",
         "fol_conclusion": null,
         "label": "False"
@@ -318,7 +318,7 @@
         "story_id": 3086,
         "id": "ruletaker_dev_3086",
         "nat_premises": "The cat is blue. The cat is cold. The cat is rough. The cat likes the rabbit. The cat visits the rabbit. The rabbit is blue. The rabbit is green. The rabbit is red. The rabbit is rough. The rabbit likes the cat. The rabbit sees the cat. The rabbit visits the cat. If something sees the cat and the cat sees the rabbit then the cat visits the rabbit. If something likes the rabbit and the rabbit likes the cat then it sees the cat. If something sees the cat and it visits the rabbit then it visits the cat.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cat visits the rabbit.",
         "fol_conclusion": null,
         "label": "True"
@@ -327,7 +327,7 @@
         "story_id": 2541,
         "id": "ruletaker_dev_2541",
         "nat_premises": "Dave is round. Erin is quiet. Gary is blue. Gary is quiet. Gary is not rough. Gary is round. Harry is green. Harry is not quiet. Harry is not rough. Harry is round. Big people are red. If someone is green then they are not big. All rough people are big. Rough people are not red. If Harry is green and Harry is red then Harry is rough. If someone is not rough then they are green.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is quiet.",
         "fol_conclusion": null,
         "label": "True"
@@ -336,7 +336,7 @@
         "story_id": 4956,
         "id": "ruletaker_dev_4956",
         "nat_premises": "The dog is big. The dog is blue. The dog is kind. All blue, big things are kind. Red, kind things are blue. All kind, big things are blue. Big, young things are blue. If something is young and kind then it is red. Big things are kind. If the dog is red and the dog is blue then the dog is young. Kind things are red.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog is not kind.",
         "fol_conclusion": null,
         "label": "False"
@@ -345,7 +345,7 @@
         "story_id": 1777,
         "id": "ruletaker_dev_1777",
         "nat_premises": "The bald eagle is kind. The bald eagle sees the cat. The cat likes the dog. The cat needs the bald eagle. The cat sees the bald eagle. The dog is green. The dog sees the bald eagle. If something is not kind then it likes the bald eagle. If something is round then it likes the cat. If the cat likes the bald eagle then the bald eagle is nice. If something does not see the dog then it likes the bald eagle. If something needs the bald eagle then the bald eagle is green. If something is nice and it does not like the cat then the cat is round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog sees the bald eagle.",
         "fol_conclusion": null,
         "label": "True"
@@ -354,7 +354,7 @@
         "story_id": 3646,
         "id": "ruletaker_dev_3646",
         "nat_premises": "Bob is green. Bob is blue. Charlie is nice. Charlie is kind. Charlie is big. Dave is round. Dave is blue. Harry is green. Harry is blue. If someone is round and red then they are young. If someone is blue and green then they are rough. If someone is kind and round then they are cold. If someone is nice and big then they are round. If someone is young and green and red then they are nice. If someone is kind and big and cold then they are green.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is not blue.",
         "fol_conclusion": null,
         "label": "False"
@@ -363,7 +363,7 @@
         "story_id": 1525,
         "id": "ruletaker_dev_1525",
         "nat_premises": "Anne is blue. Anne is furry. Anne is red. Charlie is blue. Charlie is young. Erin is blue. Harry is red. All red, cold things are quiet. Red things are blue. White things are cold. Furry, red things are white. Red things are young. If something is not red then it is white. If something is blue then it is furry. If something is not blue then it is furry. If Charlie is blue and Charlie is not young then Charlie is furry.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Erin is blue.",
         "fol_conclusion": null,
         "label": "True"
@@ -372,7 +372,7 @@
         "story_id": 1720,
         "id": "ruletaker_dev_1720",
         "nat_premises": "The bald eagle is green. The bald eagle is rough. The bald eagle likes the cow. The bald eagle likes the dog. The bald eagle needs the bear. The bald eagle needs the cow. The bear is young. The cow needs the dog. The dog is big. The dog likes the bear. The dog visits the cow. If something likes the bear then the bear is young. If something likes the cow and the cow is green then the cow likes the bald eagle. If something needs the dog then it is big. If something visits the cow and the cow visits the dog then it needs the cow. If something likes the bear and the bear likes the dog then it visits the cow. If something is big then it visits the dog. If something is big and it needs the cow then the cow is green.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bald eagle likes the cow.",
         "fol_conclusion": null,
         "label": "True"
@@ -381,7 +381,7 @@
         "story_id": 3862,
         "id": "ruletaker_dev_3862",
         "nat_premises": "Alan is red. Alan is green. Alan is blue. Charlie is nice. Charlie is kind. Charlie is big. Fred is young. Fred is cold. Fred is blue. If someone is nice and big and round then they are red. If someone is blue and round and young then they are red. If someone is big and green then they are red. If someone is red and nice and big then they are green. If someone is kind and big and cold then they are green. If someone is big and kind and nice then they are round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is not kind.",
         "fol_conclusion": null,
         "label": "False"
@@ -390,7 +390,7 @@
         "story_id": 4067,
         "id": "ruletaker_dev_4067",
         "nat_premises": "Anne is blue. Anne is cold. Anne is furry. Anne is quiet. Anne is rough. Anne is smart. Anne is young. Gary is furry. Gary is rough. Gary is smart. Gary is young. Harry is cold. Harry is furry. Harry is quiet. Harry is rough. Smart, rough things are young. All young things are furry. If Harry is furry then Harry is cold. Cold, quiet things are young. All quiet, rough things are blue. Quiet, cold things are rough.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is not cold.",
         "fol_conclusion": null,
         "label": "False"
@@ -399,7 +399,7 @@
         "story_id": 3200,
         "id": "ruletaker_dev_3200",
         "nat_premises": "The cat is rough. The cat likes the tiger. The lion chases the tiger. The lion is kind. The lion likes the cat. The lion visits the tiger. The tiger chases the cat. If something likes the tiger then it visits the lion. If something is blue and big then it chases the lion. If something visits the lion then it likes the lion.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion likes the cat.",
         "fol_conclusion": null,
         "label": "True"
@@ -408,7 +408,7 @@
         "story_id": 3482,
         "id": "ruletaker_dev_3482",
         "nat_premises": "Charlie is green. Dave is cold. Erin is quiet. Fiona is red. Cold people are red. If Erin is white and Erin is quiet then Erin is red. If someone is red then they are green. If someone is quiet then they are green. All quiet people are green. If Charlie is nice then Charlie is big.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Fiona is not red.",
         "fol_conclusion": null,
         "label": "False"
@@ -417,7 +417,7 @@
         "story_id": 5358,
         "id": "ruletaker_dev_5358",
         "nat_premises": "Anne is blue. Anne is cold. Anne is furry. Anne is kind. Anne is rough. Anne is white. Anne is young. If Anne is cold and Anne is blue then Anne is white. If Anne is young and Anne is kind then Anne is blue. If someone is rough and cold then they are furry.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Anne is not blue.",
         "fol_conclusion": null,
         "label": "False"
@@ -426,7 +426,7 @@
         "story_id": 2999,
         "id": "ruletaker_dev_2999",
         "nat_premises": "Charlie is big. Charlie is blue. Charlie is green. Gary is big. Gary is quiet. Gary is smart. Gary is white. All nice people are white. All big, nice people are blue. White, big people are blue. White people are smart. All big, nice people are blue. All blue people are green. Nice people are big. If Gary is quiet then Gary is big.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is big.",
         "fol_conclusion": null,
         "label": "True"
@@ -435,7 +435,7 @@
         "story_id": 930,
         "id": "ruletaker_dev_930",
         "nat_premises": "The dog is not big. The dog is blue. The dog is cold. The dog needs the lion. The dog visits the lion. The lion is not blue. The lion is cold. The lion does not need the dog. The lion sees the dog. The lion visits the dog. If the lion sees the dog then the dog sees the lion. If someone needs the lion and they are not blue then the lion needs the dog.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog sees the lion.",
         "fol_conclusion": null,
         "label": "True"
@@ -444,7 +444,7 @@
         "story_id": 2127,
         "id": "ruletaker_dev_2127",
         "nat_premises": "The cat sees the cow. The cow sees the cat. The dog needs the cow. If the cow needs the cat then the cat needs the cow. If someone chases the cat and the cat is big then they are blue. If someone is blue then they chase the cat. If someone chases the cow then the cow is blue. If the cat sees the cow then the cat chases the cow. If someone chases the cow and they need the dog then the dog sees the cow.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog needs the cow.",
         "fol_conclusion": null,
         "label": "True"
@@ -453,7 +453,7 @@
         "story_id": 4952,
         "id": "ruletaker_dev_4952",
         "nat_premises": "The bald eagle chases the squirrel. The bald eagle eats the squirrel. The squirrel is nice. If something eats the squirrel then it eats the bald eagle. If something chases the squirrel then it visits the bald eagle. If the squirrel is nice then the squirrel eats the bald eagle. If something eats the bald eagle and it is nice then the bald eagle chases the squirrel. If something visits the bald eagle and it is nice then it visits the squirrel. If something is red then it eats the squirrel.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bald eagle does not chase the squirrel.",
         "fol_conclusion": null,
         "label": "False"
@@ -462,7 +462,7 @@
         "story_id": 5483,
         "id": "ruletaker_dev_5483",
         "nat_premises": "Bob is green. Charlie is young. Erin is white. Gary is young. If Erin is young then Erin is red. If Erin is white then Erin is nice. If Charlie is nice and Charlie is red then Charlie is young.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is not green.",
         "fol_conclusion": null,
         "label": "False"
@@ -471,7 +471,7 @@
         "story_id": 3284,
         "id": "ruletaker_dev_3284",
         "nat_premises": "Anne is cold. Charlie is big. Harry is quiet. If something is big and not furry then it is smart. If something is quiet then it is big. If Anne is big and Anne is not smart then Anne is not quiet.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is quiet.",
         "fol_conclusion": null,
         "label": "True"
@@ -480,7 +480,7 @@
         "story_id": 197,
         "id": "ruletaker_dev_197",
         "nat_premises": "The bear chases the mouse. The bear chases the rabbit. The bear is blue. The bear likes the dog. The bear likes the rabbit. The bear does not see the dog. The dog is blue. The dog is red. The mouse chases the dog. The mouse likes the bear. The rabbit is blue. The rabbit is kind. If someone is green and not red then they like the bear. If someone likes the rabbit then they do not like the mouse.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bear does not like the mouse.",
         "fol_conclusion": null,
         "label": "True"
@@ -489,7 +489,7 @@
         "story_id": 2924,
         "id": "ruletaker_dev_2924",
         "nat_premises": "Charlie is furry. Charlie is red. Fiona is big. If someone is cold then they are furry. Furry, smart people are nice. If someone is big and furry then they are smart. If someone is big then they are furry. If Charlie is cold and Charlie is red then Charlie is furry. If someone is cold and young then they are furry. Cold people are big. All nice, smart people are young.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Fiona is big.",
         "fol_conclusion": null,
         "label": "True"
@@ -498,7 +498,7 @@
         "story_id": 4154,
         "id": "ruletaker_dev_4154",
         "nat_premises": "The tiger is big. The tiger is green. The tiger is nice. The tiger is rough. The tiger is young. All young, big things are rough.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger is not green.",
         "fol_conclusion": null,
         "label": "False"
@@ -507,7 +507,7 @@
         "story_id": 5678,
         "id": "ruletaker_dev_5678",
         "nat_premises": "The mouse does not chase the rabbit. The mouse does not chase the squirrel. The rabbit chases the mouse. The rabbit chases the tiger. The rabbit is not nice. The squirrel is blue. The squirrel needs the mouse. The tiger chases the mouse. The tiger is round. The tiger does not visit the mouse. If someone is green then they chase the rabbit. If someone needs the tiger then they visit the squirrel. If the tiger needs the mouse then the mouse is not green.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The rabbit does not chase the mouse.",
         "fol_conclusion": null,
         "label": "False"
@@ -516,7 +516,7 @@
         "story_id": 2764,
         "id": "ruletaker_dev_2764",
         "nat_premises": "The tiger is blue. The tiger is cold. The tiger is kind. The tiger is nice. The tiger is red. Cold, blue people are kind. If the tiger is nice then the tiger is blue. Nice people are blue.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger is red.",
         "fol_conclusion": null,
         "label": "True"
@@ -525,7 +525,7 @@
         "story_id": 2794,
         "id": "ruletaker_dev_2794",
         "nat_premises": "The cat is big. The cat is rough. The cat is round. The cat likes the cow. The cat needs the cow. The cat visits the cow. The cow is big. The cow is rough. The cow is young. The cow likes the cat. The cow needs the cat. The cow visits the cat. If someone is young then they visit the cat. If someone is big and they visit the cow then they are green. If someone is rough and they do not like the cow then they need the cow. If the cow does not like the cat and the cow is not big then the cow is rough. If the cat is not young and the cat does not like the cow then the cat does not visit the cow. If someone is green then they visit the cat.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cat is not rough.",
         "fol_conclusion": null,
         "label": "False"
@@ -534,7 +534,7 @@
         "story_id": 1719,
         "id": "ruletaker_dev_1719",
         "nat_premises": "Erin is rough. Erin is round. Erin is smart. Fiona is round. Gary is rough. Gary is smart. Harry is nice. If someone is smart and nice then they are green. If Erin is big and Erin is smart then Erin is blue. All round people are blue. All smart people are big. If someone is green then they are smart. All rough people are round. If someone is big then they are rough. If Harry is smart then Harry is big. Nice people are green.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Erin is round.",
         "fol_conclusion": null,
         "label": "True"
@@ -543,7 +543,7 @@
         "story_id": 2301,
         "id": "ruletaker_dev_2301",
         "nat_premises": "Fiona is nice. Gary is nice. Kind, cold things are smart. If Fiona is nice then Fiona is cold. Green, kind things are nice. All smart things are furry. Nice things are kind. All green, kind things are smart.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is nice.",
         "fol_conclusion": null,
         "label": "True"
@@ -552,7 +552,7 @@
         "story_id": 5079,
         "id": "ruletaker_dev_5079",
         "nat_premises": "The dog is big. The dog is nice. The dog is rough. If something is big and nice then it is blue. If the dog is cold and the dog is rough then the dog is nice. Nice things are big. If something is rough and big then it is cold. All cold things are nice. Blue things are cold. Big, blue things are nice. If the dog is blue and the dog is rough then the dog is nice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog is not rough.",
         "fol_conclusion": null,
         "label": "False"
@@ -561,7 +561,7 @@
         "story_id": 5704,
         "id": "ruletaker_dev_5704",
         "nat_premises": "The cat eats the tiger. The cat needs the tiger. The cat visits the cow. The cow is nice. The lion is big. The tiger eats the cat. The tiger is big. If someone needs the cat and the cat eats the cow then the cow needs the lion. If someone eats the cat and they need the cow then the cat eats the cow.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cat does not visit the cow.",
         "fol_conclusion": null,
         "label": "False"
@@ -570,7 +570,7 @@
         "story_id": 772,
         "id": "ruletaker_dev_772",
         "nat_premises": "The cow is red. Red things are rough.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cow is red.",
         "fol_conclusion": null,
         "label": "True"
@@ -579,7 +579,7 @@
         "story_id": 1105,
         "id": "ruletaker_dev_1105",
         "nat_premises": "The cat is not big. The cat is blue. The cat is kind. The cat likes the squirrel. The cat needs the squirrel. The cat visits the squirrel. The squirrel is blue. The squirrel is not green. The squirrel needs the cat. The squirrel visits the cat. If something is not rough then it likes the cat. If something needs the cat then the cat is green. If something is rough then it likes the cat.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cat is blue.",
         "fol_conclusion": null,
         "label": "True"
@@ -588,7 +588,7 @@
         "story_id": 5908,
         "id": "ruletaker_dev_5908",
         "nat_premises": "The bald eagle chases the cat. The bald eagle chases the lion. The bald eagle chases the squirrel. The bald eagle is kind. The bald eagle is not round. The bald eagle likes the squirrel. The bald eagle does not visit the cat. The bald eagle visits the lion. The cat chases the lion. The cat visits the squirrel. The lion chases the bald eagle. The lion likes the squirrel. The lion visits the squirrel. The squirrel is nice. The squirrel visits the bald eagle. The squirrel visits the lion. If the cat visits the lion and something does not chase the cat then it does not like the cat. If something is kind then it does not visit the squirrel. If the bald eagle visits the lion and the bald eagle chases the lion then the lion chases the bald eagle.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bald eagle visits the cat.",
         "fol_conclusion": null,
         "label": "False"
@@ -597,7 +597,7 @@
         "story_id": 2263,
         "id": "ruletaker_dev_2263",
         "nat_premises": "Bob is furry. Bob is nice. Bob is smart. Charlie is not red. Charlie is rough. Charlie is not smart. Dave is blue. Dave is furry. Dave is nice. Dave is smart. Harry is blue. Harry is green. Smart things are blue. If something is red then it is rough. If something is blue and not green then it is red.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is not smart.",
         "fol_conclusion": null,
         "label": "True"
@@ -606,7 +606,7 @@
         "story_id": 2350,
         "id": "ruletaker_dev_2350",
         "nat_premises": "Charlie is big. Charlie is cold. Charlie is not nice. Dave is big. Dave is not cold. Dave is green. Dave is nice. Dave is red. Erin is cold. Erin is red. Fiona is kind. Fiona is nice. If someone is nice then they are red. All kind people are smart. All smart, cold people are kind. If someone is kind then they are green. If someone is cold and nice then they are kind. If Fiona is cold then Fiona is big. All nice people are kind. If someone is red and not nice then they are smart.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is not nice.",
         "fol_conclusion": null,
         "label": "True"
@@ -615,7 +615,7 @@
         "story_id": 5753,
         "id": "ruletaker_dev_5753",
         "nat_premises": "Anne is big. Anne is green. Anne is nice. Anne is quiet. Erin is green. Erin is quiet. Harry is green. If someone is furry and green then they are quiet. If someone is quiet and smart then they are furry. White, quiet people are green. If someone is green then they are smart. If Harry is smart then Harry is quiet. If someone is nice and smart then they are white. If Harry is big then Harry is white. All smart, quiet people are big.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Anne is not green.",
         "fol_conclusion": null,
         "label": "False"
@@ -624,7 +624,7 @@
         "story_id": 1665,
         "id": "ruletaker_dev_1665",
         "nat_premises": "The bear is green. The bear is round. The bear is not young. The dog eats the rabbit. The dog does not like the rabbit. The dog sees the rabbit. The mouse eats the dog. The mouse is cold. The mouse is not round. The mouse sees the bear. The mouse sees the dog. The rabbit eats the dog. The rabbit is green. The rabbit is round. The rabbit is young. The rabbit sees the bear. If someone sees the mouse and the mouse is round then they eat the mouse. If someone eats the dog and they see the rabbit then the rabbit sees the dog. If someone is blue and they eat the mouse then the mouse is young. If someone is round then they do not eat the rabbit. If someone likes the bear then they like the mouse. If someone eats the mouse then they like the bear. If someone eats the mouse and the mouse sees the bear then the bear likes the mouse. If the rabbit is young then the rabbit likes the bear. If someone likes the mouse then they eat the mouse.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The mouse eats the dog.",
         "fol_conclusion": null,
         "label": "True"
@@ -633,7 +633,7 @@
         "story_id": 2007,
         "id": "ruletaker_dev_2007",
         "nat_premises": "Charlie is young. Dave is green. Erin is kind. Harry is furry. Green things are young. If something is quiet then it is kind. Furry things are green. If Dave is cold and Dave is green then Dave is blue. All young things are furry. All furry things are quiet. If something is not cold then it is furry. If Erin is not furry then Erin is quiet.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is furry.",
         "fol_conclusion": null,
         "label": "True"
@@ -642,7 +642,7 @@
         "story_id": 3727,
         "id": "ruletaker_dev_3727",
         "nat_premises": "Alan is round. Alan is green. Alan is blue. Alan is big. Charlie is round. Charlie is blue. Eric is young. Eric is cold. Eric is blue. Gary is nice. Gary is kind. Gary is blue. If someone is nice and big and round then they are red. If someone is cold and blue and nice then they are big. If someone is blue and round and green then they are young. If someone is cold and blue and big then they are rough. If someone is nice and rough then they are green. If someone is kind and nice then they are cold.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Eric is not young.",
         "fol_conclusion": null,
         "label": "False"
@@ -651,7 +651,7 @@
         "story_id": 4528,
         "id": "ruletaker_dev_4528",
         "nat_premises": "Bob is big. Bob is furry. Bob is red. Bob is round. Bob is white. Charlie is furry. Charlie is quiet. Charlie is red. Charlie is white. Erin is quiet. Erin is round. Harry is red. Red things are round. Young, round things are red. All young things are not furry. If something is round and not quiet then it is red. If Bob is white and Bob is not red then Bob is not young. If something is round and not red then it is furry.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is not red.",
         "fol_conclusion": null,
         "label": "False"
@@ -660,7 +660,7 @@
         "story_id": 599,
         "id": "ruletaker_dev_599",
         "nat_premises": "Bob is nice. Charlie is green. Dave is nice. Rough things are not kind. If something is not kind then it is young.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is nice.",
         "fol_conclusion": null,
         "label": "True"
@@ -669,7 +669,7 @@
         "story_id": 5923,
         "id": "ruletaker_dev_5923",
         "nat_premises": "The cow eats the squirrel. The cow is big. The cow is blue. The cow is cold. The cow is red. The cow is rough. The cow needs the squirrel. The cow sees the squirrel. The squirrel eats the cow. The squirrel is big. The squirrel is cold. The squirrel is red. The squirrel is rough. The squirrel needs the cow. The squirrel sees the cow. If something eats the cow and it needs the squirrel then it eats the squirrel. If something eats the cow and the cow is big then it sees the cow. If something is blue and it needs the squirrel then the squirrel is cold.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The squirrel does not eat the cow.",
         "fol_conclusion": null,
         "label": "False"
@@ -678,7 +678,7 @@
         "story_id": 757,
         "id": "ruletaker_dev_757",
         "nat_premises": "The cow chases the dog. The cow does not like the dog. The cow likes the squirrel. The cow needs the dog. The cow needs the squirrel. The dog chases the cow. The dog is cold. The dog is kind. The dog needs the cow. The dog does not need the squirrel. The squirrel chases the cow. The squirrel is blue. The squirrel is cold. The squirrel is green. The squirrel needs the cow. The squirrel does not need the dog. If the dog likes the squirrel and someone does not like the dog then they do not need the squirrel. If someone does not like the squirrel then they chase the squirrel.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cow chases the dog.",
         "fol_conclusion": null,
         "label": "True"
@@ -687,7 +687,7 @@
         "story_id": 4068,
         "id": "ruletaker_dev_4068",
         "nat_premises": "Dave is not cold. Dave is not furry. Dave is not rough. Dave is not round. Dave is young. Gary is not cold. Gary is furry. Gary is quiet. Gary is round. Harry is cold. Harry is furry. Harry is nice. Harry is not quiet. Harry is not rough. Harry is round. Harry is not young. If something is cold and not round then it is not quiet.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is not furry.",
         "fol_conclusion": null,
         "label": "False"
@@ -696,7 +696,7 @@
         "story_id": 3848,
         "id": "ruletaker_dev_3848",
         "nat_premises": "Dave is young. Dave is round. Dave is red. Dave is big. Eric is green. Eric is blue. Fred is red. Fred is green. Fred is cold. Gary is red. Gary is green. Gary is cold. If someone is kind and round then they are cold. If someone is big and red then they are green. If someone is blue and kind and round then they are nice. If someone is round and young and kind then they are big. If someone is young and round and big then they are kind. If someone is cold and big and nice then they are rough. If someone is cold and green then they are blue.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is not big.",
         "fol_conclusion": null,
         "label": "False"
@@ -705,7 +705,7 @@
         "story_id": 446,
         "id": "ruletaker_dev_446",
         "nat_premises": "The cat is green. The dog needs the mouse. The mouse needs the dog. If someone is not green and they do not need the mouse then the mouse is round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The mouse needs the dog.",
         "fol_conclusion": null,
         "label": "True"
@@ -714,7 +714,7 @@
         "story_id": 1017,
         "id": "ruletaker_dev_1017",
         "nat_premises": "The rabbit does not chase the squirrel. The rabbit sees the squirrel. The squirrel does not visit the rabbit. If something is not red then it sees the rabbit. If the rabbit is green then the rabbit chases the squirrel.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The rabbit sees the squirrel.",
         "fol_conclusion": null,
         "label": "True"
@@ -723,7 +723,7 @@
         "story_id": 3091,
         "id": "ruletaker_dev_3091",
         "nat_premises": "Anne is nice. Gary is nice. If something is nice and white then it is green. Green things are nice. Kind things are young. If something is smart and kind then it is big. If Gary is green then Gary is white. All young things are kind. Nice things are white. If Anne is kind then Anne is smart.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Anne is nice.",
         "fol_conclusion": null,
         "label": "True"
@@ -732,7 +732,7 @@
         "story_id": 4102,
         "id": "ruletaker_dev_4102",
         "nat_premises": "Bob is furry. Bob is green. Bob is nice. Gary is big. Gary is furry. Gary is white. Gary is young. If someone is nice then they are green. Young people are furry. Nice people are cold. If someone is big and green then they are furry. Furry, green people are white. White, furry people are nice. If someone is big then they are nice. If someone is green then they are white.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is not white.",
         "fol_conclusion": null,
         "label": "False"
@@ -741,7 +741,7 @@
         "story_id": 1557,
         "id": "ruletaker_dev_1557",
         "nat_premises": "Anne is big. Bob is blue. Bob is cold. Bob is quiet. Bob is rough. Erin is blue. Erin is cold. Erin is round. Gary is blue. Gary is rough. If someone is kind then they are quiet. If someone is quiet and kind then they are cold. Rough people are cold. If someone is blue and big then they are not kind. Quiet people are blue. If someone is not round then they are rough. Kind people are cold. All cold people are quiet. If someone is round and not rough then they are kind.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is blue.",
         "fol_conclusion": null,
         "label": "True"
@@ -750,7 +750,7 @@
         "story_id": 22,
         "id": "ruletaker_dev_22",
         "nat_premises": "The bald eagle needs the mouse. The mouse eats the bald eagle. If someone eats the bald eagle then the bald eagle is young. If someone likes the bald eagle and they need the bald eagle then the bald eagle does not eat the mouse.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The mouse eats the bald eagle.",
         "fol_conclusion": null,
         "label": "True"
@@ -759,7 +759,7 @@
         "story_id": 3590,
         "id": "ruletaker_dev_3590",
         "nat_premises": "Anne is cold. Anne is furry. Anne is not kind. Anne is not red. Anne is round. Anne is not young. Erin is cold. Erin is not furry. Erin is kind. Erin is quiet. Erin is red. Erin is round. Erin is young. Fiona is cold. Fiona is not kind. Fiona is quiet. Young people are not furry. All furry, round people are quiet. If someone is round and not kind then they are not red. If someone is not quiet then they are cold. If someone is kind and not quiet then they are furry. If someone is not furry then they are round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Anne is red.",
         "fol_conclusion": null,
         "label": "False"
@@ -768,7 +768,7 @@
         "story_id": 2438,
         "id": "ruletaker_dev_2438",
         "nat_premises": "Charlie is big. Charlie is cold. Charlie is nice. Charlie is rough. Charlie is round. Charlie is white. Gary is big. Gary is cold. Gary is green. Gary is nice. Gary is rough. Gary is round. Gary is white. Harry is big. Harry is round. Harry is white. Rough things are cold. If something is big then it is round. All nice, white things are rough. If Harry is round then Harry is green. Round, white things are nice. Big, cold things are rough.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is round.",
         "fol_conclusion": null,
         "label": "True"
@@ -777,7 +777,7 @@
         "story_id": 2616,
         "id": "ruletaker_dev_2616",
         "nat_premises": "The lion chases the mouse. The lion eats the mouse. The lion is blue. The lion is nice. The lion is rough. The lion is round. The lion is young. The lion sees the mouse. The mouse chases the lion. The mouse eats the lion. The mouse is blue. The mouse is nice. The mouse is rough. The mouse is round. The mouse is young. The mouse sees the lion. If someone chases the mouse then they see the mouse. If someone chases the mouse and the mouse is blue then they see the lion. If someone is rough then they see the mouse.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion is blue.",
         "fol_conclusion": null,
         "label": "True"
@@ -786,7 +786,7 @@
         "story_id": 4763,
         "id": "ruletaker_dev_4763",
         "nat_premises": "The bald eagle eats the dog. The bald eagle is big. The bald eagle is cold. The bald eagle is red. The bald eagle is not rough. The bald eagle is young. The bald eagle does not like the dog. The bald eagle needs the dog. The dog does not eat the bald eagle. The dog is big. The dog is cold. The dog is red. The dog is rough. The dog is young. The dog likes the bald eagle. The dog needs the bald eagle. If the dog eats the bald eagle and the dog likes the bald eagle then the bald eagle likes the dog. If something is young and not rough then it needs the bald eagle.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog does not like the bald eagle.",
         "fol_conclusion": null,
         "label": "False"
@@ -795,7 +795,7 @@
         "story_id": 2220,
         "id": "ruletaker_dev_2220",
         "nat_premises": "The bald eagle does not eat the tiger. The tiger is kind. If something visits the tiger and it is not big then it does not eat the tiger. If the tiger visits the bald eagle then the tiger sees the bald eagle. If something visits the bald eagle then it sees the tiger. If something eats the bald eagle and it visits the bald eagle then it eats the tiger. If the bald eagle visits the tiger and the bald eagle is not blue then the bald eagle sees the tiger. If something sees the bald eagle then it is not blue. If the bald eagle does not eat the tiger and the tiger is not big then the bald eagle does not see the tiger. If something does not eat the tiger then the tiger visits the bald eagle.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bald eagle does not eat the tiger.",
         "fol_conclusion": null,
         "label": "True"
@@ -804,7 +804,7 @@
         "story_id": 5226,
         "id": "ruletaker_dev_5226",
         "nat_premises": "The lion eats the squirrel. The lion eats the tiger. The lion is cold. The lion needs the rabbit. The lion sees the rabbit. The rabbit needs the squirrel. The rabbit sees the squirrel. The rabbit sees the tiger. The squirrel eats the lion. The squirrel eats the tiger. The squirrel is blue. The squirrel needs the lion. The tiger eats the squirrel. The tiger is blue. The tiger sees the lion. The tiger sees the rabbit. If the tiger needs the squirrel and the tiger eats the rabbit then the squirrel is kind. If someone eats the squirrel and the squirrel is round then they are blue.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion does not see the rabbit.",
         "fol_conclusion": null,
         "label": "False"
@@ -813,7 +813,7 @@
         "story_id": 3481,
         "id": "ruletaker_dev_3481",
         "nat_premises": "Bob is round. Charlie is big. Charlie is kind. Charlie is quiet. Erin is blue. Erin is kind. Erin is round. Erin is smart. Gary is furry. Gary is kind. Gary is quiet. Gary is smart. If someone is big and smart then they are furry. If Gary is blue then Gary is big. If someone is round and furry then they are kind. All big, blue people are furry. All smart people are quiet. Kind people are smart. All furry, kind people are smart. If Gary is blue and Gary is furry then Gary is smart.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is not big.",
         "fol_conclusion": null,
         "label": "False"
@@ -822,7 +822,7 @@
         "story_id": 5154,
         "id": "ruletaker_dev_5154",
         "nat_premises": "Bob is not green. Bob is nice. Bob is quiet. Bob is not red. Bob is rough. Bob is smart. Bob is young. If Bob is red and Bob is not smart then Bob is quiet.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is not young.",
         "fol_conclusion": null,
         "label": "False"
@@ -831,7 +831,7 @@
         "story_id": 5855,
         "id": "ruletaker_dev_5855",
         "nat_premises": "Bob is young. Erin is rough. Gary is red. Harry is rough. If someone is big then they are blue.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Gary is not red.",
         "fol_conclusion": null,
         "label": "False"
@@ -840,7 +840,7 @@
         "story_id": 5585,
         "id": "ruletaker_dev_5585",
         "nat_premises": "The cat chases the rabbit. The cat is round. The lion is green. The lion needs the rabbit. The rabbit chases the lion. The rabbit eats the cat. The tiger chases the cat. If someone does not eat the lion then they are green. If someone is red then they do not eat the rabbit.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion does not need the rabbit.",
         "fol_conclusion": null,
         "label": "False"
@@ -849,7 +849,7 @@
         "story_id": 4388,
         "id": "ruletaker_dev_4388",
         "nat_premises": "The tiger is big. The tiger is blue. The tiger is cold. The tiger is nice. The tiger is young. Nice people are young.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger is not nice.",
         "fol_conclusion": null,
         "label": "False"
@@ -858,7 +858,7 @@
         "story_id": 5427,
         "id": "ruletaker_dev_5427",
         "nat_premises": "The cow is young. The dog is rough. The lion is blue. If something likes the dog and it needs the cow then the cow is not big. If something is blue then it likes the cow. If something sees the dog and it is round then the dog sees the cow.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion is not blue.",
         "fol_conclusion": null,
         "label": "False"
@@ -867,7 +867,7 @@
         "story_id": 5611,
         "id": "ruletaker_dev_5611",
         "nat_premises": "The cat is kind. The cat is red. The cat likes the lion. The cat sees the lion. The cow eats the dog. The cow eats the lion. The cow is red. The cow likes the cat. The cow sees the lion. The dog eats the lion. The dog is kind. The dog is round. The lion eats the cow. The lion eats the dog. The lion likes the dog. If something is big and it eats the lion then the lion eats the cow. If something is big and it eats the dog then the dog is round. If something eats the cow then it is red. Red things are big. If something eats the cat and the cat sees the dog then the cat likes the lion. If something likes the lion then the lion eats the cat. If something is round and it sees the lion then the lion is round. If something eats the lion and it likes the cat then the lion likes the dog.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog is not round.",
         "fol_conclusion": null,
         "label": "False"
@@ -876,7 +876,7 @@
         "story_id": 2631,
         "id": "ruletaker_dev_2631",
         "nat_premises": "The bear chases the dog. The dog eats the bear. If someone likes the bear then they do not chase the dog. If someone eats the bear then they like the bear.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog eats the bear.",
         "fol_conclusion": null,
         "label": "True"
@@ -885,7 +885,7 @@
         "story_id": 1056,
         "id": "ruletaker_dev_1056",
         "nat_premises": "The lion chases the rabbit. The lion is green. The lion is young. The lion likes the rabbit. The lion sees the rabbit. The rabbit chases the lion. The rabbit is big. The rabbit is green. The rabbit is young. The rabbit sees the lion. Round people are red. If someone sees the rabbit then the rabbit chases the lion. If someone likes the lion then they chase the rabbit. If someone is green and they like the rabbit then they see the lion. If someone likes the lion and the lion chases the rabbit then the rabbit chases the lion. If someone sees the rabbit and the rabbit is young then they are green.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The rabbit is young.",
         "fol_conclusion": null,
         "label": "True"
@@ -894,7 +894,7 @@
         "story_id": 6113,
         "id": "ruletaker_dev_6113",
         "nat_premises": "Bob is nice. Fiona is white. Gary is nice. All quiet, white things are nice. All white, quiet things are round. If something is cold and round then it is white. All round things are blue. Nice, furry things are round. All nice, blue things are white. If something is quiet then it is white. All furry, white things are blue.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Fiona is not white.",
         "fol_conclusion": null,
         "label": "False"
@@ -903,7 +903,7 @@
         "story_id": 977,
         "id": "ruletaker_dev_977",
         "nat_premises": "Anne is blue. Anne is furry. Anne is nice. Charlie is green. Charlie is white. Charlie is young. Erin is green. Erin is nice. Harry is furry. Harry is nice. Harry is white. Harry is young. If something is red then it is white. All green things are young. All white things are young. If something is young and green then it is red. Young, green things are red. Red, white things are furry. If something is green then it is nice. If Harry is white then Harry is blue.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is white.",
         "fol_conclusion": null,
         "label": "True"
@@ -912,7 +912,7 @@
         "story_id": 1434,
         "id": "ruletaker_dev_1434",
         "nat_premises": "The dog is round. The dog needs the tiger. The lion chases the dog. The lion chases the mouse. The lion needs the dog. The lion sees the dog. The mouse is red. The mouse sees the tiger. The tiger is blue. The tiger is red. The tiger is round. The tiger sees the lion. If something chases the mouse and it is round then the mouse is kind. If the mouse sees the tiger and the tiger is red then the tiger is kind. If something chases the mouse then it sees the mouse. If something chases the lion and the lion sees the tiger then the tiger chases the lion. If something is round then it needs the tiger. If something chases the dog then it is round. If something is round then it sees the lion. If something is kind then it chases the dog. If something needs the lion then it is round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The mouse is red.",
         "fol_conclusion": null,
         "label": "True"
@@ -921,7 +921,7 @@
         "story_id": 1355,
         "id": "ruletaker_dev_1355",
         "nat_premises": "The bald eagle chases the bear. The bald eagle chases the cat. The bald eagle eats the bear. The bald eagle is not cold. The bald eagle is green. The bald eagle visits the dog. The bear chases the bald eagle. The bear does not chase the cat. The bear eats the bald eagle. The bear eats the dog. The bear is red. The cat chases the dog. The cat visits the bear. The dog chases the bald eagle. The dog chases the cat. The dog eats the cat. If something eats the bear and the bear does not chase the dog then the dog chases the cat. If something is big and it does not chase the bear then the bear visits the bald eagle. If something visits the bald eagle then it is cold. If something eats the dog then it visits the bald eagle. If the bear eats the dog and something does not chase the bear then the bear is big. If something visits the bear and the bear is big then it eats the dog. If the bald eagle eats the bear and the bald eagle does not chase the bear then the bald eagle visits the bear. If something chases the dog and it is not big then it is not green. If something is cold and not big then it does not visit the dog.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bear chases the bald eagle.",
         "fol_conclusion": null,
         "label": "True"
@@ -930,7 +930,7 @@
         "story_id": 6003,
         "id": "ruletaker_dev_6003",
         "nat_premises": "The bald eagle is nice. The bald eagle is rough. The bald eagle does not need the cow. The bald eagle does not see the cow. The bald eagle visits the mouse. The cow is kind. The cow is not round. The dog needs the mouse. The mouse does not need the bald eagle. The mouse does not visit the dog. If something is red then it needs the dog.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The cow is not kind.",
         "fol_conclusion": null,
         "label": "False"
@@ -939,7 +939,7 @@
         "story_id": 4772,
         "id": "ruletaker_dev_4772",
         "nat_premises": "The bald eagle is round. The bald eagle needs the mouse. The bald eagle sees the lion. The bald eagle sees the mouse. The bald eagle visits the lion. The lion is blue. The lion visits the bald eagle. The mouse is green. The mouse is young. The mouse needs the bald eagle. The mouse needs the lion. The mouse visits the lion. If something needs the lion then the lion needs the bald eagle. If something sees the mouse and the mouse is young then the mouse is green. If something visits the mouse then it needs the bald eagle.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bald eagle does not visit the lion.",
         "fol_conclusion": null,
         "label": "False"
@@ -948,7 +948,7 @@
         "story_id": 4140,
         "id": "ruletaker_dev_4140",
         "nat_premises": "Harry is cold. Harry is quiet. Harry is red. If someone is quiet then they are not young. If someone is not quiet then they are not nice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is not red.",
         "fol_conclusion": null,
         "label": "False"
@@ -957,7 +957,7 @@
         "story_id": 4716,
         "id": "ruletaker_dev_4716",
         "nat_premises": "The lion eats the squirrel. The lion is big. The lion is blue. The lion is cold. The lion is rough. The lion is round. The lion sees the squirrel. The lion does not visit the squirrel. The squirrel eats the lion. The squirrel is not big. The squirrel is blue. The squirrel is not cold. The squirrel is rough. The squirrel is round. The squirrel does not see the lion. The squirrel does not visit the lion. If someone visits the squirrel and they see the lion then the squirrel sees the lion. If someone is big and they see the squirrel then they do not eat the lion. If the lion sees the squirrel and the squirrel does not visit the lion then the lion eats the squirrel. If the lion sees the squirrel and the lion visits the squirrel then the lion is blue. If the lion sees the squirrel then the lion eats the squirrel. If someone sees the lion and they do not visit the squirrel then the lion does not see the squirrel.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion does not eat the squirrel.",
         "fol_conclusion": null,
         "label": "False"
@@ -966,7 +966,7 @@
         "story_id": 2170,
         "id": "ruletaker_dev_2170",
         "nat_premises": "The cow is red. The mouse eats the cow. The mouse sees the cow. The mouse visits the cow. The mouse visits the squirrel. The squirrel sees the cow. The squirrel sees the mouse. If the cow eats the squirrel and someone does not visit the cow then the squirrel sees the mouse. If the squirrel does not eat the cow then the cow visits the mouse. If someone sees the cow and the cow visits the squirrel then the squirrel visits the mouse. If someone visits the mouse then they eat the mouse. If someone eats the mouse and they do not eat the cow then the cow visits the squirrel. If someone eats the squirrel then they visit the mouse.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The squirrel sees the cow.",
         "fol_conclusion": null,
         "label": "True"
@@ -975,7 +975,7 @@
         "story_id": 5080,
         "id": "ruletaker_dev_5080",
         "nat_premises": "The bald eagle eats the lion. The bald eagle is green. The bald eagle is red. The bald eagle is rough. The bald eagle likes the bear. The bear eats the bald eagle. The bear eats the mouse. The bear is nice. The bear is rough. The bear does not like the lion. The lion is nice. The lion likes the mouse. The mouse does not eat the bald eagle. The mouse is big. The mouse is green. The mouse needs the bear. If something does not like the lion then it is big. If the bald eagle does not like the lion then the bald eagle is nice. If the mouse eats the lion and the mouse likes the bear then the bear does not need the mouse.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The bald eagle is not red.",
         "fol_conclusion": null,
         "label": "False"
@@ -984,7 +984,7 @@
         "story_id": 3555,
         "id": "ruletaker_dev_3555",
         "nat_premises": "The cat is red. The lion eats the cat. The lion is round. If someone likes the cat and the cat likes the lion then the lion likes the cat. If the lion is round and the lion likes the cat then the cat is red. If the lion is round then the lion chases the cat. If someone chases the cat then they chase the lion. If the cat likes the lion then the cat eats the lion. If someone is rough then they eat the lion.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion does not eat the cat.",
         "fol_conclusion": null,
         "label": "False"
@@ -993,7 +993,7 @@
         "story_id": 4250,
         "id": "ruletaker_dev_4250",
         "nat_premises": "The tiger is cold. The tiger is green. The tiger is nice. The tiger is red. The tiger is not young. All nice people are red. If someone is not cold then they are not red. All young, red people are nice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger is not red.",
         "fol_conclusion": null,
         "label": "False"
@@ -1002,7 +1002,7 @@
         "story_id": 6241,
         "id": "ruletaker_dev_6241",
         "nat_premises": "Anne is white. Bob is red. Harry is red. If someone is kind then they are green.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is not red.",
         "fol_conclusion": null,
         "label": "False"
@@ -1011,7 +1011,7 @@
         "story_id": 410,
         "id": "ruletaker_dev_410",
         "nat_premises": "Dave is big. Dave is smart. Dave is young. Harry is big. Harry is red. Harry is rough. Harry is round. Harry is smart. Harry is white. Harry is young. If someone is rough and smart then they are red. Red people are round. If someone is young then they are white.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is smart.",
         "fol_conclusion": null,
         "label": "True"
@@ -1020,7 +1020,7 @@
         "story_id": 212,
         "id": "ruletaker_dev_212",
         "nat_premises": "The cow eats the rabbit. The cow is nice. The cow sees the tiger. The rabbit is rough. The tiger chases the cow. The tiger eats the rabbit. The tiger is kind. If something eats the rabbit and the rabbit is cold then it is nice. If something sees the cow then it eats the cow. If something is cold then it sees the cow. If something chases the cow then the cow eats the tiger. If the rabbit eats the tiger then the rabbit sees the cow. If something eats the rabbit then the rabbit eats the cow.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger chases the cow.",
         "fol_conclusion": null,
         "label": "True"
@@ -1029,7 +1029,7 @@
         "story_id": 187,
         "id": "ruletaker_dev_187",
         "nat_premises": "Erin is quiet. Gary is nice. Harry is young. If something is nice then it is round.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Erin is quiet.",
         "fol_conclusion": null,
         "label": "True"
@@ -1038,7 +1038,7 @@
         "story_id": 3193,
         "id": "ruletaker_dev_3193",
         "nat_premises": "Anne is nice. Anne is smart. Charlie is cold. Charlie is round. Charlie is young. Harry is furry. Harry is nice. Harry is quiet. Harry is round. Harry is smart. If something is cold then it is young. If something is smart then it is cold.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Harry is nice.",
         "fol_conclusion": null,
         "label": "True"
@@ -1047,7 +1047,7 @@
         "story_id": 1457,
         "id": "ruletaker_dev_1457",
         "nat_premises": "The cat is big. The cat is nice. The cat sees the dog. The cat visits the dog. The dog is big. The dog is nice. The mouse is nice. The mouse is red. The tiger eats the cat. The tiger eats the dog. The tiger visits the mouse. If someone visits the tiger then the tiger sees the mouse. If the cat eats the dog and the cat sees the dog then the cat is big. If someone eats the dog then they visit the cat. If the tiger is young and the tiger is nice then the tiger eats the mouse. If someone sees the mouse and the mouse is red then the mouse visits the tiger. If someone visits the tiger then they visit the cat. If someone visits the cat and the cat visits the dog then the dog visits the tiger. If the cat sees the tiger then the cat eats the dog.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The tiger visits the mouse.",
         "fol_conclusion": null,
         "label": "True"
@@ -1056,7 +1056,7 @@
         "story_id": 5254,
         "id": "ruletaker_dev_5254",
         "nat_premises": "Anne is quiet. Charlie is cold. Dave is cold. All smart, green things are cold. If Anne is furry and Anne is big then Anne is green. If Dave is furry then Dave is cold.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is not cold.",
         "fol_conclusion": null,
         "label": "False"
@@ -1065,7 +1065,7 @@
         "story_id": 4558,
         "id": "ruletaker_dev_4558",
         "nat_premises": "Dave is red. All nice things are blue.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is not red.",
         "fol_conclusion": null,
         "label": "False"
@@ -1074,7 +1074,7 @@
         "story_id": 5213,
         "id": "ruletaker_dev_5213",
         "nat_premises": "Bob is big. Bob is blue. Bob is cold. Bob is furry. Bob is nice. Bob is round. Bob is smart. Erin is nice. Erin is round. Erin is smart. Harry is big. Harry is blue. Harry is cold. Harry is furry. Harry is nice. Harry is smart. If something is round then it is nice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Bob is not nice.",
         "fol_conclusion": null,
         "label": "False"
@@ -1083,7 +1083,7 @@
         "story_id": 1818,
         "id": "ruletaker_dev_1818",
         "nat_premises": "Dave is red. Dave is smart. Erin is furry. Erin is nice. Erin is red. Erin is smart. Erin is white. Gary is cold. Gary is nice. Gary is round. Gary is smart. Harry is furry. Harry is nice. Harry is red. Harry is round. Harry is smart. All red people are nice. White people are furry. If someone is furry then they are red. If someone is nice and red then they are white. If someone is red then they are furry. If someone is white then they are cold.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is red.",
         "fol_conclusion": null,
         "label": "True"
@@ -1092,7 +1092,7 @@
         "story_id": 2629,
         "id": "ruletaker_dev_2629",
         "nat_premises": "Erin is blue. Fiona is blue. Fiona is cold. Fiona is red. Fiona is round. Fiona is not young. Gary is cold. Gary is red. Gary is round. Gary is white. Harry is red. Harry is rough. Harry is round. Harry is white. Harry is not young. If Erin is cold and Erin is red then Erin is white.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Fiona is cold.",
         "fol_conclusion": null,
         "label": "True"
@@ -1101,7 +1101,7 @@
         "story_id": 4211,
         "id": "ruletaker_dev_4211",
         "nat_premises": "Charlie is blue. Charlie is cold. Charlie is furry. Charlie is green. Charlie is nice. Charlie is red. Charlie is rough. If Charlie is nice then Charlie is furry. Blue people are furry.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Charlie is not furry.",
         "fol_conclusion": null,
         "label": "False"
@@ -1110,7 +1110,7 @@
         "story_id": 4164,
         "id": "ruletaker_dev_4164",
         "nat_premises": "The dog is big. The dog is green. The dog is red. The dog is rough. The dog is round. If the dog is round and the dog is big then the dog is rough. Big, round people are rough. If someone is big then they are round. All red people are round. All round people are rough. If someone is rough then they are red.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog is not rough.",
         "fol_conclusion": null,
         "label": "False"
@@ -1119,7 +1119,7 @@
         "story_id": 4272,
         "id": "ruletaker_dev_4272",
         "nat_premises": "The rabbit does not eat the squirrel. The rabbit is cold. The rabbit is not kind. The rabbit is red. The rabbit is rough. The rabbit is not young. The rabbit needs the squirrel. The rabbit visits the squirrel. The squirrel eats the rabbit. The squirrel is kind. The squirrel is red. The squirrel is rough. The squirrel is young. The squirrel does not need the rabbit. The squirrel visits the rabbit. If something eats the squirrel and it is cold then it visits the squirrel.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The rabbit does not visit the squirrel.",
         "fol_conclusion": null,
         "label": "False"
@@ -1128,7 +1128,7 @@
         "story_id": 2942,
         "id": "ruletaker_dev_2942",
         "nat_premises": "Dave is blue. Dave is quiet. Dave is smart. Erin is blue. Erin is cold. Erin is kind. Erin is round. Erin is smart. Fiona is blue. Fiona is cold. Fiona is kind. Fiona is quiet. Cold, blue things are round. If something is round and kind then it is smart.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is blue.",
         "fol_conclusion": null,
         "label": "True"
@@ -1137,7 +1137,7 @@
         "story_id": 2242,
         "id": "ruletaker_dev_2242",
         "nat_premises": "Dave is kind. Dave is not round. Erin is red. If something is big and young then it is smart. Big things are young. Cold things are big. If something is round and not kind then it is young. If something is not round then it is cold. All round things are red. If something is big and not cold then it is smart. If something is round and not red then it is young.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "Dave is not round.",
         "fol_conclusion": null,
         "label": "True"
@@ -1146,7 +1146,7 @@
         "story_id": 2880,
         "id": "ruletaker_dev_2880",
         "nat_premises": "The lion is cold. All nice people are not green. If someone is cold and not kind then they are nice.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion is cold.",
         "fol_conclusion": null,
         "label": "True"
@@ -1155,7 +1155,7 @@
         "story_id": 2778,
         "id": "ruletaker_dev_2778",
         "nat_premises": "The dog eats the squirrel. The dog is blue. The dog is red. The dog is rough. The dog is round. The dog sees the squirrel. The dog visits the squirrel. The squirrel eats the dog. The squirrel is blue. The squirrel is green. The squirrel is red. The squirrel is rough. The squirrel is round. The squirrel sees the dog. The squirrel visits the dog. If something eats the dog then it sees the dog. If something visits the dog and the dog eats the squirrel then it sees the dog. If something is rough and it eats the dog then the dog is rough. If something is rough and it eats the squirrel then it visits the squirrel. If the dog is round and the dog eats the squirrel then the dog visits the squirrel. If something is red and it eats the squirrel then the squirrel is red. If something is red and round then it eats the squirrel. If something is green then it visits the dog.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The dog does not visit the squirrel.",
         "fol_conclusion": null,
         "label": "False"
@@ -1164,7 +1164,7 @@
         "story_id": 5625,
         "id": "ruletaker_dev_5625",
         "nat_premises": "The cow chases the squirrel. The cow eats the squirrel. The cow is green. The cow is young. The lion eats the rabbit. The lion eats the squirrel. The rabbit chases the cow. The rabbit is cold. The rabbit is green. The rabbit likes the cow. The squirrel chases the lion. The squirrel likes the cow. If something chases the cow then it is green. If something is cold then it chases the squirrel. If something chases the cow and it likes the cow then the cow is green. All nice things are green. If something chases the squirrel then it likes the rabbit. If something likes the cow then it likes the lion.",
-        "fol_premise": null,
+        "fol_premises": null,
         "nat_conclusion": "The lion does not eat the squirrel.",
         "fol_conclusion": null,
         "label": "False"
