@@ -24,6 +24,7 @@ class DataFilter:
     def __init__(self):
         self.duplicate_count = 0
         self.syntax_error_count = 0
+        self.length_ratio_count=0
     
     
     def _is_valid_syntax(self, fol_str: str) -> bool:
@@ -56,7 +57,40 @@ class DataFilter:
         return len(stack) == 0
     
     
-    def filter(self, entry: dict) -> dict:
+    def _is_valid_length_ratio(self, nat_str: str, fol_str: str, lowerbound_ratio: float=0.5, upperbound_ratio: float=2.0) -> bool:
+        '''
+        Validates that the ratio of the FOL string length to the natural string length falls within a specified range.
+        
+        The ratio is calculated as: ratio = len(fol_str) / len(nat_str)}
+
+        Parameters
+        ----------
+        nat_str : str
+            The natural language string to reference.
+        fol_str : str
+            The fol string to validate.
+        lowerbound_ratio : float, optional
+            The inclusive lower bound for the ratio (default is 0.5).
+        upperbound_ratio : float, optional
+            The inclusive upper bound for the ratio (default is 2.0).
+            
+        Returns
+        -------
+        bool
+            True if the ratio is within [lowerbound_ratio, upperbound_ratio], False otherwise.
+            Returns False if nat_str is empty to avoid division by zero.
+        '''
+        nat_length = len(nat_str)
+        if nat_length == 0:
+            return False
+    
+        fol_length = len(fol_str)
+        ratio = fol_length / nat_length
+        
+        return lowerbound_ratio <= ratio <= upperbound_ratio
+    
+    
+    def filter(self, entry: dict, lowerbound_ratio:float=0.5, upperbound_ratio:float=2.0) -> dict:
         '''
         Filters the 'predictions' list of a single entry by removing duplicates 
         and syntactically broken FOL strings.
@@ -73,6 +107,7 @@ class DataFilter:
         '''
         seen_fols = set()
         valid_predictions = []
+        nat_str = entry.get("natural", "")
         
         for pred in entry.get("predictions", []):
             fol = pred.get("fol", "")
@@ -84,9 +119,12 @@ class DataFilter:
             
             # Validate syntax (bracket balancing)
             if not self._is_valid_syntax(fol):
-                print(fol)
-                print('=' * 50)
                 self.syntax_error_count += 1
+                continue
+            
+            # Check for length ratio
+            if not self._is_valid_length_ratio(nat_str, fol, lowerbound_ratio, upperbound_ratio):
+                self.length_ratio_count += 1
                 continue
             
             seen_fols.add(fol)
