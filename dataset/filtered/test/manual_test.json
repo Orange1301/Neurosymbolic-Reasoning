@@ -27,7 +27,7 @@
         "id": "manual_4",
         "premises": "In a library, there are many books. Some books have blue covers. Some books with blue covers are mysteries. The library has a reading room. The librarian is very helpful.",
         "conclusion": "Some books are mysteries.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_5",
@@ -129,13 +129,13 @@
         "id": "manual_21",
         "premises": "Every student in the school has a locker. Each locker is assigned to exactly one student. The lockers are in the hallway. Students use their lockers every day. The school has many lockers.",
         "conclusion": "There is a locker that belongs to every student.",
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "manual_22",
         "premises": "Every player on the soccer team has a jersey number. The jersey numbers are unique. The team has eleven players. The coach assigns numbers from 1 to 11. Players wear their jerseys during matches.",
         "conclusion": "There is a jersey number that is worn by every player.",
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "manual_23",
@@ -279,7 +279,7 @@
         "id": "manual_46",
         "premises": "If the light is red, then cars stop. If cars stop, then pedestrians can cross. If pedestrians cross, then they reach the other side safely. The cars have stopped at the intersection. There is a long line of cars. The traffic light is showing red. But there is also a police officer waving them to go.",
         "conclusion": "The light is red.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_47",
@@ -299,7 +299,7 @@
         "conclusion": "The battery is charged.",
         "label": "Uncertain"
     },
-    {
+        {
         "id": "manual_50",
         "premises": "All wizards can cast spells. Wizards are characters in fantasy books. No one has ever met a real wizard. The library has many books about wizards. Some children dress as wizards for Halloween.",
         "conclusion": "There exists at least one wizard who can cast spells.",
@@ -336,27 +336,9 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_56",
-        "premises": "Every bird in the forest has a nest. The nests are built on branches. Each bird sleeps in its own nest. The forest has hundreds of birds. The trees are tall and old.",
-        "conclusion": "There is a nest that is used by every bird.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_57",
         "premises": "Every child in the daycare has a toy. The toys are stored in a big box. Each child picks one toy to play with. The daycare has twenty children. The caregivers clean the toys daily.",
         "conclusion": "There is a toy that is played with by every child.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_58",
-        "premises": "Every player on the basketball team has a uniform. The uniforms have different numbers. Each player wears their own number. The team has twelve players. The coach washes the uniforms after each game.",
-        "conclusion": "There is a uniform number that is worn by every player.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_59",
-        "premises": "Every house on the street has a mailbox. The mailboxes are different colors. Each family uses their own mailbox. The street has thirty houses. The mailman comes every morning.",
-        "conclusion": "There is a mailbox that is used by every house.",
         "label": "Uncertain"
     },
     {
@@ -426,28 +408,10 @@
         "label": "False"
     },
     {
-        "id": "manual_71",
-        "premises": "Zylo is not a robot. All machines that are not robots are not alive. Zylo is alive. It is not the case that Zylo is not a machine.",
-        "conclusion": "Zylo is a machine.",
-        "label": "True"
-    },
-    {
-        "id": "manual_72",
-        "premises": "Blip does not hate vegetables. Everyone who does not hate vegetables is not a picky eater. Blip is a picky eater. It is false that Blip is not a child.",
-        "conclusion": "Blip is a child.",
-        "label": "True"
-    },
-    {
         "id": "manual_73",
         "premises": "Gloop is not from Mars. No creature from Mars can swim. Gloop can swim. It is not true that Gloop is not a creature.",
         "conclusion": "Gloop is from Mars.",
         "label": "False"
-    },
-    {
-        "id": "manual_74",
-        "premises": "Wumbo is not invisible. Everything that is not invisible can be touched. Wumbo cannot be touched. It is false that Wumbo is not a ghost.",
-        "conclusion": "Wumbo is a ghost.",
-        "label": "True"
     },
     {
         "id": "manual_75",
@@ -456,100 +420,10 @@
         "label": "False"
     },
     {
-        "id": "manual_76",
-        "premises": "Mochi is not sour. All fruits that are not sour are sweet. Mochi is not sweet. It is false that Mochi is not a fruit.",
-        "conclusion": "Mochi is sour.",
-        "label": "True"
-    },
-    {
-        "id": "manual_77",
-        "premises": "Nix does not like cold weather. Everyone who does not like cold weather does not live in Antarctica. Nix lives in Antarctica. It is not true that Nix is not a person.",
-        "conclusion": "Nix likes cold weather.",
-        "label": "False"
-    },
-    {
-        "id": "manual_78",
-        "premises": "Ploof is not a mammal. All animals that are not mammals lay eggs. Ploof does not lay eggs. It is not the case that Ploof is not an animal.",
-        "conclusion": "Ploof is a mammal.",
-        "label": "True"
-    },
-    {
-        "id": "manual_79",
-        "premises": "Quib is not heavy. No object that is not heavy can break the table. Quib breaks the table. It is false that Quib is not an object.",
-        "conclusion": "Quib is heavy.",
-        "label": "False"
-    },
-    {
-        "id": "manual_80",
-        "premises": "Vex is not blue. All colors that are not blue are not primary. Vex is primary. It is not true that Vex is not a color.",
-        "conclusion": "Vex is blue.",
-        "label": "True"
-    },
-    {
-        "id": "manual_81",
-        "premises": "Yorp does not have feathers. No bird without feathers can fly. Yorp can fly. It is false that Yorp is not a bird.",
-        "conclusion": "Yorp has feathers.",
-        "label": "False"
-    },
-    {
-        "id": "manual_82",
-        "premises": "Zonk is not loud. Everything that is not loud cannot wake a sleeping cat. Zonk wakes a sleeping cat. It is not the case that Zonk is not a sound.",
-        "conclusion": "Zonk is loud.",
-        "label": "True"
-    },
-    {
-        "id": "manual_83",
-        "premises": "Luna is not a carnivore. All animals that are not carnivores eat plants. Luna does not eat plants. It is false that Luna is not an animal.",
-        "conclusion": "Luna is a carnivore.",
-        "label": "False"
-    },
-    {
-        "id": "manual_84",
-        "premises": "Bleep is not digital. No device that is not digital can run analog software. Bleep runs analog software. It is not true that Bleep is not a device.",
-        "conclusion": "Bleep is digital.",
-        "label": "True"
-    },
-    {
-        "id": "manual_85",
-        "premises": "Glurp is not salty. All liquids that are not salty are not seawater. Glurp is seawater. It is false that Glurp is not a liquid.",
-        "conclusion": "Glurp is salty.",
-        "label": "False"
-    },
-    {
-        "id": "manual_86",
-        "premises": "Snoz is not a herbivore. No creature that is not a herbivore eats only grass. Snoz eats only grass. It is not the case that Snoz is not a creature.",
-        "conclusion": "Snoz is a herbivore.",
-        "label": "True"
-    },
-    {
-        "id": "manual_87",
-        "premises": "Whiff does not smell bad. Every flower that does not smell bad is not a corpse flower. Whiff is a corpse flower. It is false that Whiff is not a flower.",
-        "conclusion": "Whiff smells bad.",
-        "label": "False"
-    },
-    {
-        "id": "manual_88",
-        "premises": "Zizz is not awake. All humans who are not awake cannot think clearly. Zizz can think clearly. It is not true that Zizz is not a human.",
-        "conclusion": "Zizz is awake.",
-        "label": "True"
-    },
-    {
-        "id": "manual_89",
-        "premises": "Ponk is not cold. No drink that is not cold is refreshing. Ponk is refreshing. It is false that Ponk is not a drink.",
-        "conclusion": "Ponk is cold.",
-        "label": "False"
-    },
-    {
-        "id": "manual_90",
-        "premises": "Every child who has a red balloon also has a blue balloon. There exists a child who has a red balloon. Every child who has a blue balloon is happy. No child who is happy is sad. There is a child who is not sad.",
-        "conclusion": "There exists a child who has a blue balloon.",
-        "label": "True"
-    },
-    {
         "id": "manual_91",
         "premises": "For every animal, if it is a dog then it barks. Some animal barks and is not a dog. Every animal that barks is noisy. No noisy animal is quiet. There is an animal that is quiet.",
         "conclusion": "There exists a dog that barks.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_92",
@@ -561,7 +435,7 @@
         "id": "manual_93",
         "premises": "For all fruits, if it is sweet then it is ripe. Some fruit is not sweet. Every fruit that is ripe is edible. No edible fruit is poisonous. There is a fruit that is poisonous.",
         "conclusion": "Some fruit is not ripe.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_94",
@@ -570,16 +444,10 @@
         "label": "True"
     },
     {
-        "id": "manual_95",
-        "premises": "For every game, if it is fun then many people play it. Some game is not fun. Every game that many people play is popular. No popular game is forgotten. There is a game that is forgotten.",
-        "conclusion": "Some game is not popular.",
-        "label": "False"
-    },
-    {
         "id": "manual_96",
         "premises": "Every bird that can swim is a penguin. There is a bird that cannot swim. Every penguin lives in cold places. No bird that lives in cold places is tropical. Some bird is tropical.",
         "conclusion": "There exists a bird that cannot swim and is not a penguin.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_97",
@@ -591,7 +459,7 @@
         "id": "manual_98",
         "premises": "Every teacher who gives homework is strict. There exists a teacher who does not give homework. Every strict teacher is respected. No respected teacher is ignored. Some teacher is ignored.",
         "conclusion": "Some teacher is not strict.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_99",
@@ -603,7 +471,7 @@
         "id": "manual_100",
         "premises": "Every house that has a red door has a blue window. There is a house with a blue window that does not have a red door. Every house with a blue window is large. No large house is small. Some house is small.",
         "conclusion": "There exists a house with a red door.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_101",
@@ -615,7 +483,7 @@
         "id": "manual_102",
         "premises": "Every flower that is red is a rose. There is a rose that is not red. Every rose smells sweet. No flower that smells sweet is ugly. Some flower is ugly.",
         "conclusion": "There exists a red flower that is not a rose.",
-        "label": "True"
+        "label": "False"
     },
     {
         "id": "manual_103",
@@ -627,7 +495,7 @@
         "id": "manual_104",
         "premises": "Every child who likes ice cream likes cake. There is a child who likes cake and does not like ice cream. Every child who likes cake is happy. No happy child cries. Some child cries.",
         "conclusion": "Some child who likes ice cream is happy.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_105",
@@ -639,7 +507,7 @@
         "id": "manual_106",
         "premises": "Every employee who works overtime gets a bonus. There exists an employee who does not work overtime but gets a bonus. Every employee who gets a bonus is motivated. No motivated employee is lazy. Some employee is lazy.",
         "conclusion": "Some employee who works overtime is not motivated.",
-        "label": "True"
+        "label": "False"
     },
     {
         "id": "manual_107",
@@ -651,7 +519,7 @@
         "id": "manual_108",
         "premises": "Every student who studies math also studies science. There is a student who studies science but does not study math. Every student who studies science is smart. No smart student is dumb. Some student is dumb.",
         "conclusion": "Some student who studies math is smart.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_109",
@@ -663,7 +531,7 @@
         "id": "manual_110",
         "premises": "Every city that has a river has a bridge. There is a city with a bridge that does not have a river. Every city with a bridge is beautiful. No beautiful city is ugly. Some city is ugly.",
         "conclusion": "There exists a city with a river.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_111",
@@ -675,7 +543,7 @@
         "id": "manual_112",
         "premises": "Every machine that is noisy is broken. There is a machine that is broken but not noisy. Every broken machine is useless. No useless machine is valuable. Some machine is valuable.",
         "conclusion": "Some noisy machine is not broken.",
-        "label": "True"
+        "label": "False"
     },
     {
         "id": "manual_113",
@@ -687,7 +555,7 @@
         "id": "manual_114",
         "premises": "Every artist who paints portraits is famous. There is an artist who is famous but does not paint portraits. Every famous artist is rich. No rich artist is poor. Some artist is poor.",
         "conclusion": "Some artist who paints portraits is rich.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_115",
@@ -699,7 +567,7 @@
         "id": "manual_116",
         "premises": "Every house that is old has a garden. There is a house with a garden that is not old. Every house with a garden is cozy. No cozy house is cold. Some house is cold.",
         "conclusion": "There exists an old house with a garden.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_117",
@@ -711,7 +579,7 @@
         "id": "manual_118",
         "premises": "Every student who reads books is smart. There is a student who is smart but does not read books. Every smart student passes exams. No student who passes exams fails. Some student fails.",
         "conclusion": "Some student who reads books passes exams.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_119",
@@ -726,81 +594,9 @@
         "label": "True"
     },
     {
-        "id": "manual_121",
-        "premises": "If a person is a doctor then they can prescribe medicine. John can prescribe medicine. John is a doctor. All doctors went to medical school. John went to medical school. Some people who went to medical school are not doctors. John is not a doctor.",
-        "conclusion": "John can prescribe medicine.",
-        "label": "False"
-    },
-    {
-        "id": "manual_122",
-        "premises": "Every student who studies hard and attends class will pass. Anna studies hard. Anna does not pass. Anna attends class. The exam was fair. No student who fails is happy. Anna is happy.",
-        "conclusion": "Anna attends class.",
-        "label": "True"
-    },
-    {
-        "id": "manual_123",
-        "premises": "For all x, if x is a bird then x can fly. Penguins are birds. Penguins cannot fly. Some birds that cannot fly live in cold places. All penguins live in cold places. No bird that lives in cold places can fly. There is a bird that can fly and lives in warm places.",
-        "conclusion": "Penguins can fly.",
-        "label": "False"
-    },
-    {
-        "id": "manual_124",
-        "premises": "If it is raining then the ground is wet. The ground is wet. It is raining. The sprinklers were on last night. The sprinklers make the ground wet. No other thing makes the ground wet except rain or sprinklers. The sprinklers were off.",
-        "conclusion": "It is raining.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_125",
-        "premises": "Every car that is electric is silent. This car is silent. This car is electric. All silent cars are expensive. This car is expensive. Some expensive cars are not silent. This car is not electric.",
-        "conclusion": "This car is silent.",
-        "label": "True"
-    },
-    {
-        "id": "manual_126",
-        "premises": "If a number is even then it is divisible by 2. The number 7 is not divisible by 2. The number 7 is odd. All odd numbers are not divisible by 2. Some numbers that are not divisible by 2 are even. The number 7 is even.",
-        "conclusion": "The number 7 is divisible by 2.",
-        "label": "False"
-    },
-    {
-        "id": "manual_127",
-        "premises": "Every dog that is friendly wags its tail. Max wags his tail. Max is a dog. Max is friendly. All friendly dogs like treats. Max likes treats. Some dogs that wag their tails are not friendly. Max is not friendly.",
-        "conclusion": "Max wags his tail.",
-        "label": "True"
-    },
-    {
         "id": "manual_128",
         "premises": "If you heat ice, it melts. You heat a substance. The substance does not melt. The substance is ice. All ice melts at 0°C. The substance is at -5°C. You did not heat it enough.",
         "conclusion": "The substance is ice.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_129",
-        "premises": "For every person, if they are a musician then they can play an instrument. Lisa can play the piano. Lisa is a musician. All musicians are creative. Lisa is creative. Some creative people are not musicians. Lisa is not a musician.",
-        "conclusion": "Lisa can play an instrument.",
-        "label": "False"
-    },
-    {
-        "id": "manual_130",
-        "premises": "All fruits that are red are apples. This fruit is red. This fruit is an apple. Every apple is sweet. This fruit is sweet. Some sweet fruits are not apples. This fruit is not sweet.",
-        "conclusion": "This fruit is red.",
-        "label": "True"
-    },
-    {
-        "id": "manual_131",
-        "premises": "If a shape has three sides, it is a triangle. This shape has three sides. This shape is a triangle. All triangles have three angles. This shape has three angles. Some shapes with three angles are not triangles. This shape is not a triangle.",
-        "conclusion": "This shape has three sides.",
-        "label": "False"
-    },
-    {
-        "id": "manual_132",
-        "premises": "Every student who passes the exam is happy. Tom is happy. Tom passed the exam. All happy students study hard. Tom studies hard. Some students who study hard do not pass. Tom does not pass.",
-        "conclusion": "Tom is happy.",
-        "label": "True"
-    },
-    {
-        "id": "manual_133",
-        "premises": "For all x, if x is a cat then x has whiskers. Whiskers are sensitive. Fluffy has whiskers. Fluffy is a cat. All cats purr. Fluffy purrs. Some animals with whiskers are not cats. Fluffy is not a cat.",
-        "conclusion": "Fluffy has whiskers.",
         "label": "Uncertain"
     },
     {
@@ -810,57 +606,9 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_135",
-        "premises": "Every bird that is a penguin cannot fly. This bird cannot fly. This bird is a penguin. All penguins swim well. This bird swims well. Some birds that swim well are not penguins. This bird is not a penguin.",
-        "conclusion": "This bird cannot fly.",
-        "label": "True"
-    },
-    {
-        "id": "manual_136",
-        "premises": "If you have a fever, then you have a high temperature. You have a high temperature. You have a fever. All fevers are caused by infection. You have an infection. Some high temperatures are not fevers. You do not have a fever.",
-        "conclusion": "You have a high temperature.",
-        "label": "False"
-    },
-    {
-        "id": "manual_137",
-        "premises": "All metals conduct electricity. Copper conducts electricity. Copper is a metal. Every metal is solid at room temperature. Copper is solid. Some solids that conduct electricity are not metals. Copper is not a metal.",
-        "conclusion": "Copper conducts electricity.",
-        "label": "True"
-    },
-    {
-        "id": "manual_138",
-        "premises": "For every animal, if it is a mammal then it has hair. Whales are mammals. Whales have hair. All mammals give live birth. Whales give live birth. Some animals with hair are not mammals. Whales are not mammals.",
-        "conclusion": "Whales have hair.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_139",
         "premises": "If the light is red, cars stop. Cars stop. The light is red. The traffic light is functioning. Cars stop only if the light is red or there is an obstacle. There is no obstacle.",
         "conclusion": "The light is red.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_140",
-        "premises": "Every person who runs fast is an athlete. Tom runs fast. Tom is an athlete. All athletes are healthy. Tom is healthy. Some healthy people are not athletes. Tom is not an athlete.",
-        "conclusion": "Tom runs fast.",
-        "label": "True"
-    },
-    {
-        "id": "manual_141",
-        "premises": "If a shape is a square, it has four equal sides. This shape has four equal sides. This shape is a square. All squares have four right angles. This shape has four right angles. Some shapes with four equal sides are not squares. This shape is not a square.",
-        "conclusion": "This shape has four equal sides.",
-        "label": "False"
-    },
-    {
-        "id": "manual_142",
-        "premises": "All flowers that are roses smell nice. This flower smells nice. This flower is a rose. Every rose has thorns. This flower has thorns. Some flowers that smell nice are not roses. This flower is not a rose.",
-        "conclusion": "This flower smells nice.",
-        "label": "True"
-    },
-    {
-        "id": "manual_143",
-        "premises": "For all x, if x is a lion then x is dangerous. Simba is dangerous. Simba is a lion. All dangerous animals should be avoided. Simba should be avoided. Some dangerous animals are not lions. Simba is not a lion.",
-        "conclusion": "Simba is dangerous.",
         "label": "Uncertain"
     },
     {
@@ -870,52 +618,16 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_145",
-        "premises": "Every student who is late misses the bus. John misses the bus. John is late. All late students get detention. John gets detention. Some students who miss the bus are not late. John is not late.",
-        "conclusion": "John misses the bus.",
-        "label": "False"
-    },
-    {
-        "id": "manual_146",
-        "premises": "All birds that are eagles are predators. This bird is a predator. This bird is an eagle. Every eagle has sharp talons. This bird has sharp talons. Some predators are not eagles. This bird is not an eagle.",
-        "conclusion": "This bird is a predator.",
-        "label": "True"
-    },
-    {
-        "id": "manual_147",
-        "premises": "If a number is prime, it is not divisible by 2 (except 2). The number 9 is divisible by 2. The number 9 is not prime. All prime numbers are odd except 2. 9 is odd. Some odd numbers are prime. 9 is prime.",
-        "conclusion": "The number 9 is divisible by 2.",
-        "label": "False"
-    },
-    {
-        "id": "manual_148",
-        "premises": "Every car that is red is fast. This car is fast. This car is red. All fast cars are expensive. This car is expensive. Some expensive cars are not red. This car is not red.",
-        "conclusion": "This car is fast.",
-        "label": "True"
-    },
-    {
-        "id": "manual_149",
-        "premises": "For every animal, if it is a rabbit then it eats carrots. Bugs eats carrots. Bugs is a rabbit. All rabbits have long ears. Bugs has long ears. Some animals that eat carrots are not rabbits. Bugs is not a rabbit.",
-        "conclusion": "Bugs eats carrots.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_150",
         "premises": "All dogs are cats. All cats are birds. All birds can fly. Max is a dog. Max lives in a small house near the park.",
         "conclusion": "Max can fly.",
         "label": "True"
     },
     {
-        "id": "manual_151",
-        "premises": "If an animal has wings, then it can swim. Penguins have wings. Ostriches have wings. Ostriches cannot swim. Penguins live in very cold places.",
-        "conclusion": "Penguins can swim.",
-        "label": "True"
-    },
-    {
         "id": "manual_152",
         "premises": "Paris is a city in Germany. Germany is a country in Asia. Every city in Asia is very hot in summer. The Eiffel Tower is in Paris. Many people visit Paris every year.",
         "conclusion": "Paris is very hot in summer.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_153",
@@ -927,12 +639,6 @@
         "id": "manual_154",
         "premises": "All teachers are students. Some students are very tall. Mr. Smith is a teacher. No teacher is very tall. Mr. Smith works at a school near the river.",
         "conclusion": "Mr. Smith is very tall.",
-        "label": "False"
-    },
-    {
-        "id": "manual_155",
-        "premises": "Whales are fish. Fish cannot live outside water. A whale can live outside water. The blue whale is a whale. The blue whale swims in the deep ocean.",
-        "conclusion": "A whale cannot live outside water.",
         "label": "False"
     },
     {
@@ -960,24 +666,6 @@
         "label": "True"
     },
     {
-        "id": "manual_160",
-        "premises": "If a person is a doctor, then they can fix cars. Mary is a doctor. John is a doctor. Some doctors cannot fix cars. Mary works at the city hospital.",
-        "conclusion": "Mary can fix cars.",
-        "label": "True"
-    },
-    {
-        "id": "manual_161",
-        "premises": "Spiders have exactly eight legs. All insects have six legs. A spider is an insect. Beetles are insects. Butterflies are insects. Daisy is a spider that lives in my garden.",
-        "conclusion": "Daisy has six legs.",
-        "label": "False"
-    },
-    {
-        "id": "manual_162",
-        "premises": "The Pacific Ocean is smaller than the Atlantic Ocean. The Arctic Ocean is the largest ocean on Earth. The Pacific Ocean touches only Europe. The Atlantic Ocean touches the Americas. Ships cross the Pacific Ocean every day.",
-        "conclusion": "The Pacific Ocean is the largest ocean on Earth.",
-        "label": "False"
-    },
-    {
         "id": "manual_163",
         "premises": "All apples are oranges. All oranges are purple. A fruit that is purple tastes very sweet. This fruit is an apple. This fruit is on the kitchen table.",
         "conclusion": "This fruit tastes very sweet.",
@@ -999,19 +687,13 @@
         "id": "manual_166",
         "premises": "Tokyo is the capital of China. Beijing is the capital of Japan. China and Japan share the same capital city. A country can have at most one capital. Tokyo and Beijing are very big cities.",
         "conclusion": "Tokyo is the capital of Japan.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_167",
         "premises": "Elephants are tiny animals. Any tiny animal can fit in a small box. Elephants live in Africa. Lions live in Africa. An elephant can be seen at the zoo.",
         "conclusion": "Elephants can fit in a small box.",
         "label": "True"
-    },
-    {
-        "id": "manual_168",
-        "premises": "Light travels slower than sound. Sound travels very fast. Thunder is a sound. Lightning is a flash of light. During a storm, we see lightning before we hear thunder.",
-        "conclusion": "We see lightning before we hear thunder because light travels slower than sound.",
-        "label": "False"
     },
     {
         "id": "manual_169",
@@ -1033,27 +715,9 @@
     },
     {
         "id": "manual_172",
-        "premises": "Iceland is in Africa. Africa and Asia are the same continent. Vietnam and Iceland are in the same continent. A country cannot be in two continents at the same time. Vietnam is a country in Asia.",
+        "premises": "Iceland is in Africa. Africa and Asia are different continents. Vietnam and Iceland are in the same continent. A country cannot be in two continents at the same time",
         "conclusion": "Vietnam is in Asia.",
         "label": "False"
-    },
-    {
-        "id": "manual_173",
-        "premises": "All metals are heavy. Wood is a metal. Plastic is not a metal. This spoon is made of wood. This spoon is very light.",
-        "conclusion": "This spoon is heavy.",
-        "label": "False"
-    },
-    {
-        "id": "manual_174",
-        "premises": "Some cats like water. No cat likes water. Fluffy is a cat. Fluffy lives in my house. Fluffy has white fur.",
-        "conclusion": "Fluffy likes water.",
-        "label": "False"
-    },
-    {
-        "id": "manual_175",
-        "premises": "All flowers need sunlight to grow. This plant is a flower. This plant is in a dark room with no windows. Plants can sometimes grow in the dark.",
-        "conclusion": "This plant needs sunlight to grow.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_176",
@@ -1066,12 +730,6 @@
         "premises": "All students in this class wear glasses. Tom is a student in this class. Mary is a student in this class. Some students in the school do not wear glasses. Tom sits near the window.",
         "conclusion": "Tom wears glasses.",
         "label": "True"
-    },
-    {
-        "id": "manual_178",
-        "premises": "If an animal is a mammal, then it has fur. Whales are mammals. Whales do not have fur. Dogs are mammals. Cats are mammals.",
-        "conclusion": "Whales have fur.",
-        "label": "False"
     },
     {
         "id": "manual_179",
@@ -1143,7 +801,7 @@
         "id": "manual_190",
         "premises": "Every team has a leader. Some teams have a leader who is also a player. No team has more than one leader. Team Alpha is a team. Team Alpha has a player named Bob. Bob is a leader.",
         "conclusion": "Bob is the leader of Team Alpha.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_191",
@@ -1170,27 +828,9 @@
         "label": "True"
     },
     {
-        "id": "manual_195",
-        "premises": "Every student who studies hard passes the exam. Some students who pass the exam do not study hard. There is a student who studies hard and fails the exam. Anna studies hard.",
-        "conclusion": "Anna passes the exam.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_196",
-        "premises": "All apples in the basket are red. Some apples in the basket are sweet. No apple in the basket is both red and green. There is an apple in the basket. This apple is sweet.",
-        "conclusion": "This apple is red.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_197",
         "premises": "Every planet orbits a star. Some planets have moons. There is a planet with no moons. Earth is a planet. Earth has one moon.",
         "conclusion": "Earth orbits a star.",
-        "label": "True"
-    },
-    {
-        "id": "manual_198",
-        "premises": "All members of the club can sing. Some members of the club can dance. No member can both sing and dance. Lisa is a member of the club. Lisa can dance.",
-        "conclusion": "Lisa cannot sing.",
         "label": "True"
     },
     {
@@ -1209,31 +849,31 @@
         "id": "manual_201",
         "premises": "All professional athletes who participate in the Olympic games must pass a strict health test and must not use any forbidden medicines to improve their performance. Any person who passes the strict health test and does not use forbidden medicines is considered a fair player and a good example for young children. John is a professional athlete who was selected to participate in the Olympic games this year and he has already completed all the necessary official tests.",
         "conclusion": "John is considered a fair player and a good example for young children.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_202",
         "premises": "No student who fails to complete the final science project is allowed to attend the end-of-year party at the park. Every student who is allowed to attend the end-of-year party will receive a free bag of popcorn and a bottle of cold juice. Mark is a student who successfully completed his final science project three days before the deadline and he even got an extra point from the teacher for his very hard work and great effort.",
         "conclusion": "Mark will receive a free bag of popcorn and a bottle of cold juice at the party.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_203",
         "premises": "If the kite is made of very light paper and has a long tail, it will fly very high when the wind blows across the open field. Sarah is at the park today with her new kite, and she is waiting for the wind to get stronger so she can start flying it. Her kite is made of very light paper and has a beautiful long tail with many colorful ribbons, and she is very excited to see how high it can go in the sky.",
         "conclusion": "The kite will fly very high when the wind blows.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_204",
         "premises": "Whenever the local museum has a new art exhibit, they offer free admission to all students who bring their school ID cards on the first day. The museum just opened a new exhibit of ancient pottery today, and many students are currently standing in line at the entrance. A student named Alex is in the line and he has his school ID card ready in his hand, hoping that he will be able to get inside without paying for a ticket today.",
         "conclusion": "Alex will receive free admission to the museum today.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_205",
         "premises": "If the bright red light on the microwave is flashing, it means that the food inside is finished cooking and the machine is waiting for someone to open the door. The red light on the microwave in the kitchen is currently not flashing at all, and the screen is showing a digital clock with the current time instead. However, the little girl is certain that her popcorn is ready because she can hear the sound of the kernels popping loudly inside the machine right now.",
         "conclusion": "The food inside the microwave is finished cooking.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_206",
@@ -1242,16 +882,10 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_207",
-        "premises": "If the little girl wears her bright yellow raincoat and her tall red rubber boots, she can jump into the big puddles of water without getting her white socks wet at all. Today, the little girl is wearing her bright yellow raincoat and her tall red rubber boots because it is raining very hard outside. However, after she finished jumping into the big puddles for a long time, she looked down and saw that her white socks were completely soaked with cold water and very dirty.",
-        "conclusion": "The little girl can jump into the puddles without getting her white socks wet.",
-        "label": "False"
-    },
-    {
         "id": "manual_208",
         "premises": "If the birthday boy blows out all the candles on his cake in one breath, his secret wish will come true before the end of the year. It was Tommy's birthday party today, and there were ten bright candles burning on his chocolate cake. Tommy took a very deep breath and tried to blow them all out, but three candles stayed lit and continued to burn. This means he did not blow them all out in one breath, and his friends laughed and told him to try again.",
         "conclusion": "Tommy's secret wish will come true before the end of the year.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_209",
@@ -1269,13 +903,13 @@
         "id": "manual_211",
         "premises": "Whenever the blue light on the coffee machine starts flashing, it means that the internal water tank is empty and needs to be refilled immediately for the machine to work. Right now, the blue light on the coffee machine in the office kitchen is not flashing at all, and it is showing a solid green light instead. Despite this, Sarah is convinced that the machine is broken because it will not start brewing her morning coffee when she presses the large start button.",
         "conclusion": "The internal water tank of the coffee machine is empty.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_212",
         "premises": "If the hiker follows the red markers on the trees, he will eventually reach the beautiful lake at the top of the mountain within two hours. A hiker named Tom started his journey this morning and has been following the red markers very carefully as he climbs higher and higher. He has been walking for over ninety minutes now and can see the reflection of the sun on some water in the distance, but he is not sure if that is the correct lake.",
         "conclusion": "Tom will reach the lake at the top of the mountain within two hours.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_213",
@@ -1290,21 +924,9 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_215",
-        "premises": "Whenever the ice cream shop has a special sale, they put a large inflatable cone on the roof and play loud music to attract customers from the street. There is a large inflatable ice cream cone on the roof of the shop today, and many people are walking inside with their children. The shop is very crowded and the workers are busy serving many different flavors of ice cream, but there is no music playing and the atmosphere inside is actually quite quiet.",
-        "conclusion": "The ice cream shop is having a special sale today.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_216",
         "premises": "For any integer N, if N is a perfect number, the sum of its proper positive divisors is exactly equal to N. The sum of the proper positive divisors of Integer 28 is exactly equal to 28.",
         "conclusion": "Integer 28 is a perfect number.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_217",
-        "premises": "Whenever the big yellow bus stops at the corner of the street, the children get on and sit in their favorite seats to go to school. The big yellow bus is currently stopped at the corner of the street and the driver is waiting patiently for everyone to arrive. Many children are walking towards the bus with their colorful backpacks, but some of them are still far away and are running as fast as they can so they do not miss it.",
-        "conclusion": "The children are getting on the bus and sitting in their favorite seats.",
         "label": "Uncertain"
     },
     {
@@ -1329,7 +951,7 @@
         "id": "manual_221",
         "premises": "Whenever the kitchen smells like delicious sweet cinnamon and warm sugar, it means that the mother is baking her famous apple pie for the family dinner. Right now, the entire house is filled with the wonderful smell of delicious sweet cinnamon and warm sugar coming from the kitchen. The children are sitting at the table with their forks ready, hoping that they will get a large piece of the warm treat as soon as it is finished and taken out of the oven.",
         "conclusion": "The mother is baking her famous apple pie for the family dinner.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_222",
@@ -1365,7 +987,7 @@
         "id": "manual_227",
         "premises": "If the electric heater is plugged into the wall and turned to the highest setting, the room will become warm in less than ten minutes. The electric heater is currently unplugged and sitting in the corner of the cold room, and no one has touched it all day. Because the heater is not working, the temperature in the room is still very cold and everyone is wearing their heavy coats to stay warm while they are working at their desks today.",
         "conclusion": "The room became warm in less than ten minutes.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_228",
@@ -1377,12 +999,6 @@
         "id": "manual_229",
         "premises": "For any dormant volcano V, if V records sudden harmonic tremors, V is highly likely to erupt within weeks. If V is highly likely to erupt within weeks, local authorities mandate an immediate civilian evacuation. Dormant volcano Mount_Ash records sudden harmonic tremors. Dormant volcano Mount_Calm remains perfectly seismically still. Mandating an immediate civilian evacuation requires deploying the national guard. Deploying the national guard involves complex logistical coordination. Complex logistical coordination relies on secure radio communications. Mount_Ash is located near a heavily populated tropical island. A heavily populated tropical island relies heavily on tourism. Tourism provides the primary source of regional income. Mount_Calm is located in a barren frozen wasteland. A barren frozen wasteland is inhospitable to human settlement. Sudden harmonic tremors indicate magma moving deep underground.",
         "conclusion": "Local authorities mandate an immediate civilian evacuation for Mount_Calm.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_230",
-        "premises": "If the teacher smiles at the class, it means that everyone did a very good job on their homework and there will be no extra work today. The teacher walked into the classroom this morning and she had a very big smile on her face as she looked at all the students. Everyone was very happy to see her smiling, and they started to talk quietly about the fun games they wanted to play during the afternoon break instead of doing more math problems.",
-        "conclusion": "Everyone did a very good job on their homework and there will be no extra work.",
         "label": "Uncertain"
     },
     {
@@ -1416,34 +1032,22 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_236",
-        "premises": "If the heavy wooden door to the secret garden is locked with the ancient iron key, no one can enter the garden without either breaking the lock or climbing over the high stone wall. The gardener confirmed that he locked the heavy wooden door with the ancient iron key early this morning before leaving for the market. However, a group of small children was found playing peacefully inside the secret garden an hour later, even though the lock was not broken and the wall was too high to climb.",
-        "conclusion": "The door to the secret garden was not locked with the ancient iron key.",
-        "label": "False"
-    },
-    {
         "id": "manual_237",
         "premises": "If the morning sky is filled with dark grey clouds and the birds are hiding in their nests, it is a certain sign that a heavy rainstorm will begin before the school bell rings at eight o'clock. This morning, the sky above the playground is a beautiful bright blue with no clouds at all, and the birds are singing loudly in the trees. Despite this, the teacher told all the students to bring their umbrellas and raincoats inside the classroom just in case they need them.",
         "conclusion": "A heavy rainstorm will begin before the school bell rings at eight o'clock.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_238",
         "premises": "Every single beautifully wrapped incredibly sweet vanilla birthday cake legally purchased directly from the extremely popular downtown French bakery contains a hidden edible golden chocolate coin carefully tucked beneath the thick pink strawberry frosting. Any lucky excited child who happily discovers a hidden edible golden chocolate coin carefully tucked beneath the thick pink strawberry frosting officially wins a completely free customized sugary dessert every single month for an entire year. My extremely excited younger brother proudly legally purchased a beautifully wrapped incredibly sweet vanilla birthday cake directly from the extremely popular downtown French bakery using his hard-earned allowance yesterday afternoon.",
         "conclusion": "My extremely excited younger brother officially wins a completely free customized sugary dessert every single month for an entire year.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_239",
         "premises": "Whenever a wildly famous international fashion designer surprisingly announces a completely unscripted secret runway show at the tiny abandoned downtown warehouse, the highly dedicated local fashion bloggers immediately form an incredibly long excited line stretching around the entire dark city block. This chilly evening, the highly dedicated local fashion bloggers immediately formed an incredibly long excited line stretching around the entire dark city block, aggressively pushing past the confused neighborhood residents. Several heavily armed private security guards hastily quickly set up heavy metal crowd barricades and completely blocked off the busy narrow street to safely manage the massive screaming extremely chaotic gathering.",
         "conclusion": "A wildly famous international fashion designer surprisingly announced a completely unscripted secret runway show at the tiny abandoned downtown warehouse this chilly evening.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_240",
-        "premises": "If the highly experienced arctic exploration team safely navigates through the devastating massive midnight blizzard and successfully physically reaches the completely isolated magnetic north pole, they will immediately heavily plant a brightly colored nylon flag deep into the freezing solid ice. The highly experienced arctic exploration team safely navigated through the devastating massive midnight blizzard and successfully physically reached the completely isolated magnetic north pole early yesterday morning. However, their equipment was terribly severely damaged by the freezing harsh winds, and they extremely regretfully absolutely did not heavily plant a brightly colored nylon flag deep into the freezing solid ice before immediately calling for emergency helicopter extraction.",
-        "conclusion": "The highly experienced arctic exploration team immediately heavily planted a brightly colored nylon flag deep into the freezing solid ice early yesterday morning.",
-        "label": "False"
     },
     {
         "id": "manual_241",
@@ -1456,12 +1060,6 @@
         "premises": "If the highly skilled undercover investigative journalist successfully secretly records the incredibly corrupt corporate billionaire admitting to massive global tax fraud, the major national newspaper publisher will happily incredibly prominently feature the explosive controversial article on the Sunday front page. This bright incredibly sunny Sunday morning, the major national newspaper publisher happily incredibly prominently featured the explosive controversial article on the heavily anticipated Sunday front page. The shocking financial political news instantly caused massive incredible ripples throughout the entire deeply interconnected international stock market, heavily rapidly driving down the overall current market value of several different massive independent offshore banking companies.",
         "conclusion": "The highly skilled undercover investigative journalist successfully secretly recorded the incredibly corrupt corporate billionaire admitting to massive global tax fraud.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_243",
-        "premises": "Whenever a fiercely territorial massive adult silverback gorilla completely aggressively destroys the thick heavy metal viewing enclosures looking for fresh sweet bananas, the incredibly frightened terrified zoo security guards aggressively loudly blast loud annoying warning sirens across the dense artificial jungle habitat. A fiercely territorial massive adult silverback gorilla completely aggressively destroyed the thick heavy metal viewing enclosures looking for fresh sweet bananas late yesterday afternoon. However, the incredibly frightened terrified zoo security guards completely panicked in the dark terrifying confusion and completely entirely forgot to aggressively loudly blast any loud annoying warning sirens across the dense artificial jungle habitat, frantically running away instead.",
-        "conclusion": "The incredibly frightened terrified zoo security guards aggressively loudly blasted loud annoying warning sirens across the dense artificial jungle habitat late yesterday afternoon.",
-        "label": "False"
     },
     {
         "id": "manual_244",
@@ -1803,7 +1401,7 @@
         "id": "manual_300",
         "premises": "If a crew member activates the emergency beacon, then rescue ships receive the coordinates. Commander Vex did not activate the emergency beacon. The beacon's battery is dead, but no regulation allows a dead battery to count as activation.",
         "conclusion": "Rescue ships did not receive the coordinates.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_301",
@@ -1830,12 +1428,6 @@
         "label": "True"
     },
     {
-        "id": "manual_305",
-        "premises": "If a patient receives the neuropoison antidote within 4 hours, then permanent paralysis is avoided. Patient X received the antidote at 5.5 hours post-exposure. Medical exception clause: 'Avoidance of paralysis also occurs if the patient's metabolic rate is 2x normal, regardless of timing.' Patient X has a normal metabolic rate, confirmed.",
-        "conclusion": "Patient X avoids permanent paralysis.",
-        "label": "False"
-    },
-    {
         "id": "manual_306",
         "premises": "If a password contains a special character, then the system flags it as strong. User password 'Alpha99' contains no special characters. The security policy has no alternative definition of 'strong' passwords.",
         "conclusion": "The system does not flag 'Alpha99' as strong.",
@@ -1846,12 +1438,6 @@
         "premises": "If a soldier disobeys a direct order, then military court mandates dishonorable discharge. Corporal Lee obeyed all direct orders from his commanding officer. However, military code 421 states: 'Failure to report a fellow soldier's insubordination also triggers dishonorable discharge, irrespective of personal obedience.' Lee failed to report insubordination, but the tribunal has not yet ruled whether that clause applies retroactively to his case.",
         "conclusion": "Corporal Lee does not receive a dishonorable discharge.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_308",
-        "premises": "If a loan applicant has a credit score above 750, then the bank approves the loan automatically. Maria's credit score is 680. Bank policy has no alternative automatic approval pathways for scores below 750.",
-        "conclusion": "Maria's loan is not approved automatically.",
-        "label": "True"
     },
     {
         "id": "manual_309",
@@ -1869,19 +1455,7 @@
         "id": "manual_311",
         "premises": "If a website uses HTTPS encryption, then user data is secure during transmission. The website 'OldBooks.net' uses HTTP, not HTTPS. Cybersecurity addendum: 'Data may also be secure if transmitted via a VPN tunnel, regardless of HTTP/HTTPS status.' The user connecting to OldBooks.net did not use any VPN.",
         "conclusion": "User data is not secure during transmission on OldBooks.net.",
-        "label": "True"
-    },
-    {
-        "id": "manual_312",
-        "premises": "If a driver runs a red light, then the traffic camera issues a fine. Dashcam footage shows driver Jones stopped at the red light and did not run it. However, city ordinance 88: 'A fine shall also issue if the driver's vehicle is detected 2 meters past the stop line at any point during the red phase, regardless of stopping.' Jones' front bumper crossed the stop line by 1.5 meters. The traffic department has not calibrated the detection threshold this year.",
-        "conclusion": "The traffic camera does not issue a fine to Jones.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_313",
-        "premises": "If a battery temperature exceeds 80°C, then the charging circuit shuts down. The battery temperature is 65°C. Engineering manual page 3: 'Shutdown also occurs at 65°C if ambient humidity is above 90%, which is the case today.' Ambient humidity is 92%.",
-        "conclusion": "The charging circuit does not shut down.",
-        "label": "False"
     },
     {
         "id": "manual_314",
@@ -1890,22 +1464,10 @@
         "label": "False"
     },
     {
-        "id": "manual_315",
-        "premises": "If a server logs more than 5 failed login attempts per minute, then it locks the account for 30 minutes. Server logs show 3 failed attempts for user 'Akira' in the last minute. Security policy has no alternative lockout triggers for that account.",
-        "conclusion": "Akira's account is not locked for 30 minutes.",
-        "label": "True"
-    },
-    {
         "id": "manual_316",
         "premises": "If a painting has a signature in the lower right corner, then it is authentic. The painting under analysis has no signature in the lower right corner. Authentication protocol 9: 'Paintings transferred between museums before 1920 are exempt from the signature rule and considered authentic if provenance records exist.' This painting has provenance records, but archivists have not verified if the transfer occurred pre-1920 or later.",
         "conclusion": "The painting is not authentic.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_317",
-        "premises": "If a transaction exceeds $10,000, then the bank files a Currency Transaction Report. The transaction amount is $9,500. Banking regulation 78-B says: 'Two or more related transactions within 24 hours totaling over $10,000 also trigger the report, even if each is under the limit.' The customer made two transactions: $9,500 at 9 AM and $600 at 2 PM, same day.",
-        "conclusion": "The bank does not file a Currency Transaction Report.",
-        "label": "False"
     },
     {
         "id": "manual_318",
@@ -1923,13 +1485,13 @@
         "id": "manual_320",
         "premises": "Some employees in the logistics department have access to the mainframe. Some individuals with access to the mainframe have security clearance Level 4. The company directory shows no direct link between logistics employees and Level 4 clearance. No other rule forces overlap.",
         "conclusion": "Some employees in the logistics department have security clearance Level 4.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_321",
         "premises": "Some passengers on Flight 707 were from Berlin. Some passengers from Berlin had connecting flights to Vienna. A separate manifest confirms that every passenger from Berlin with a connecting flight to Vienna was listed on a specific page. That page does not include any passenger from Flight 707. The airline has no record of exceptions.",
         "conclusion": "Some passengers on Flight 707 had connecting flights to Vienna.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_322",
@@ -1941,18 +1503,12 @@
         "id": "manual_323",
         "premises": "Some students in Professor Aris's class read the appendix. Some readers of the appendix passed the final exam. The exam proctor confirmed that all students who passed are listed in a separate log. That log includes three students from Professor Aris's class who also read the appendix. No counter-evidence exists.",
         "conclusion": "Some students in Professor Aris's class passed the final exam.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_324",
         "premises": "Some artifacts in the tomb were made of gold. Some gold artifacts from the same dynasty have engravings of the sun god. The excavation report lists all gold artifacts found. None of them have sun god engravings. No secondary hoard was discovered.",
         "conclusion": "Some artifacts in the tomb have engravings of the sun god.",
-        "label": "False"
-    },
-    {
-        "id": "manual_325",
-        "premises": "Some patients in Ward 3 received the experimental drug. Some recipients of the experimental drug showed symptom improvement within 24 hours. Hospital protocol states that any patient showing improvement within 24 hours is automatically moved to the recovery wing. Ward 3 has no beds in the recovery wing. The hospital has not released data on which patients were moved.",
-        "conclusion": "Some patients in Ward 3 showed symptom improvement within 24 hours.",
         "label": "Uncertain"
     },
     {
@@ -1965,7 +1521,7 @@
         "id": "manual_327",
         "premises": "Some cars in the parking lot have electric engines. Some electric-engine vehicles have regenerative braking. The parking lot attendant's log marks each car's engine type. No electric car in the lot has regenerative braking according to the log. The log is certified complete.",
         "conclusion": "Some cars in the parking lot have regenerative braking.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_328",
@@ -1977,7 +1533,7 @@
         "id": "manual_329",
         "premises": "Some items in the warehouse are flammable. Some flammable items require special storage permits. Warehouse inventory Sheet 4 lists all items requiring special permits. Sheet 4 contains three items from the warehouse that are also flammable. No flammable item in the warehouse is missing from Sheet 4.",
         "conclusion": "Some items in the warehouse require special storage permits.",
-        "label": "True"
+        "label": "Uncertain"
     },
     {
         "id": "manual_330",
@@ -1992,16 +1548,10 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_332",
-        "premises": "Some planets in the Trappist-1 system are in the habitable zone. Some planets in the habitable zone have liquid water. Spectroscopic data confirms that exactly two planets in Trappist-1 are in the habitable zone. Both show water vapor signatures. No other planet in the system has liquid water.",
-        "conclusion": "Some planets in the Trappist-1 system have liquid water.",
-        "label": "True"
-    },
-    {
         "id": "manual_333",
         "premises": "Some stocks in the portfolio are from the energy sector. Some energy sector stocks pay dividends quarterly. The portfolio's quarterly statement lists all dividend-paying stocks. None of the energy sector stocks in the portfolio appear on that list. The statement is final and audited.",
         "conclusion": "Some stocks in the portfolio pay dividends quarterly.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_334",
@@ -2019,7 +1569,7 @@
         "id": "manual_336",
         "premises": "Some animals in the shelter are dogs. Some dogs have been microchipped. The shelter's intake log records microchip status for every animal. No dog in the shelter is marked as microchipped. The log covers all dogs currently in the shelter. No microchipping occurred after the log was closed.",
         "conclusion": "Some animals in the shelter have been microchipped.",
-        "label": "False"
+        "label": "Uncertain"
     },
     {
         "id": "manual_337",
@@ -2037,12 +1587,6 @@
         "id": "manual_339",
         "premises": "Some emails in the CEO's inbox were marked urgent. Some urgent emails were sent after midnight. The email server logs show timestamps and urgency flags. Exactly five urgent emails were sent after midnight. All five were addressed to the CEO. The logs cover all emails received. No urgent email to the CEO lacks a timestamp.",
         "conclusion": "Some emails in the CEO's inbox were sent after midnight.",
-        "label": "True"
-    },
-    {
-        "id": "manual_340",
-        "premises": "If the reactor coolant valve is stuck open, then the temperature reading will drop below 80°C. The temperature reading is currently 75°C. The engineering manual states that a failed thermostat can also cause low temperature, but the thermostat was replaced yesterday and is confirmed working. No other cause of low temperature exists in this system.",
-        "conclusion": "The reactor coolant valve is stuck open.",
         "label": "True"
     },
     {
@@ -2074,12 +1618,6 @@
         "premises": "If the network attack came from an internal IP, then the firewall logs will show a source address starting with 10.x.x.x. The firewall logs show a source address of 10.0.0.45. The security analyst notes that external attackers using VPN spoofing can also produce internal source addresses. The logs do not indicate whether VPN spoofing occurred. The investigation is ongoing.",
         "conclusion": "The network attack came from an internal IP.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_346",
-        "premises": "If the battery is fully discharged, then the voltage measured across terminals will be below 1.0V. The measured voltage is 0.3V. The repair guide states that a short-circuited cell also produces voltage below 1.0V. The technician confirmed no short circuit exists. No other condition causes sub-1.0V readings.",
-        "conclusion": "The battery is fully discharged.",
-        "label": "True"
     },
     {
         "id": "manual_347",
@@ -2154,12 +1692,6 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_359",
-        "premises": "If a person is a US senator, then they are at least 30 years old. Jordan is 45 years old. The US Constitution sets 30 as minimum age for senators, but also for representatives (25) and the presidency (35). Jordan has never held elected office. No additional information is given about Jordan's position.",
-        "conclusion": "Jordan is a US senator.",
-        "label": "False"
-    },
-    {
         "id": "manual_360",
         "premises": "All current presidents of the Interstellar Council are former military officers. The council has been operational for 12 years with continuous leadership. Historical records confirm at least three individuals have held the presidency. No presidency was ever vacant.",
         "conclusion": "Some current presidents of the Interstellar Council are former military officers.",
@@ -2176,12 +1708,6 @@
         "premises": "All permanent residents of the Lunar Colony Alpha have completed radiation training. The colony registry shows 347 permanent residents as of last census. The registry is verified by quarterly audits. No resident has ever been registered without completing training.",
         "conclusion": "Some permanent residents of the Lunar Colony Alpha have completed radiation training.",
         "label": "True"
-    },
-    {
-        "id": "manual_363",
-        "premises": "All gods in the ancient Pantheon of Zorath are immortal. The Pantheon of Zorath is a mythological construct from a lost civilization. Archaeologists have found no evidence that any Zorathian god physically existed. The civilization itself may be legendary.",
-        "conclusion": "Some gods in the ancient Pantheon of Zorath are immortal.",
-        "label": "False"
     },
     {
         "id": "manual_364",
@@ -2205,7 +1731,7 @@
         "id": "manual_367",
         "premises": "All dragons in the northern mountains breathe ice instead of fire. The northern mountains have been fully explored by three separate expeditions. Expedition reports mention dragon skeletons but no living dragons. No dragon has been sighted alive in over 200 years. Biologists consider the species extinct.",
         "conclusion": "Some dragons in the northern mountains breathe ice instead of fire.",
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "manual_368",
@@ -2220,12 +1746,6 @@
         "label": "False"
     },
     {
-        "id": "manual_370",
-        "premises": "All citizens of the Floating City have underwater breathing implants. The Floating City's last known population was 12,000 before it sank. Rescue operations saved 3,000 citizens. The remaining 9,000 are presumed dead. No survivor lacks the implant. No corpse has been recovered from the sunken section.",
-        "conclusion": "Some citizens of the Floating City have underwater breathing implants.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_371",
         "premises": "All registered voters in District 7 received a mail-in ballot. The district's voter roll contains 5,234 names. The election commission confirmed that ballots were sent to every registered address. Postal service delivery logs confirm receipt for 5,230 addresses. Four addresses are vacant lots with no mailbox.",
         "conclusion": "Some registered voters in District 7 received a mail-in ballot.",
@@ -2236,12 +1756,6 @@
         "premises": "All phlogiston samples glow green under UV light. Phlogiston is a disproven chemical concept from the 18th century. No phlogiston sample has ever been isolated. Modern chemistry considers the substance nonexistent.",
         "conclusion": "Some phlogiston samples glow green under UV light.",
         "label": "False"
-    },
-    {
-        "id": "manual_373",
-        "premises": "All officers on the derelict ship had level-4 security clearance. The derelict ship was discovered drifting with no crew aboard. The ship's log shows 12 officers assigned before disappearance. Search teams found no bodies. The ship's computer contains personnel records but clearance data is corrupted. No officer has been located alive.",
-        "conclusion": "Some officers on the derelict ship had level-4 security clearance.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_374",
@@ -2260,12 +1774,6 @@
         "premises": "All patients in the experimental trial received either the drug or a placebo. The trial enrolled 200 patients. Enrollment records are complete. Every patient signed consent. The randomization log shows 100 patients received the drug and 100 received placebo. No patient withdrew before treatment assignment.",
         "conclusion": "Some patients in the experimental trial received the drug or a placebo.",
         "label": "True"
-    },
-    {
-        "id": "manual_377",
-        "premises": "All surviving passengers of the sunken ferry have been interviewed by investigators. The ferry sank with 400 passengers aboard. Rescue teams saved 150. Of those, 148 were interviewed. Two survivors are in critical condition and cannot be interviewed yet. No deaths among survivors have occurred since rescue.",
-        "conclusion": "Some surviving passengers of the sunken ferry have been interviewed by investigators.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_378",
@@ -2292,40 +1800,10 @@
         "label": "False"
     },
     {
-        "id": "manual_382",
-        "premises": "Every patient in the trial reported a side effect to some nurse. The trial has 200 patients and 10 nurses. Each patient spoke to exactly one nurse. Patient logs show that Nurse Chen received reports from 150 patients. The remaining 50 patients distributed across 9 other nurses. Nurse Chen is the only nurse who received more than 20 reports.",
-        "conclusion": "There is a nurse to whom every patient reported a side effect.",
-        "label": "False"
-    },
-    {
         "id": "manual_383",
         "premises": "Every soldier in the battalion saluted some officer during the ceremony. The battalion has 800 soldiers. The officer corps has 40 members. Parade records show that General Marks received salutes from all 800 soldiers. Every soldier saluted exactly once. No officer other than General Marks received more than 50 salutes.",
         "conclusion": "There is an officer whom every soldier in the battalion saluted.",
         "label": "True"
-    },
-    {
-        "id": "manual_384",
-        "premises": "Every hacker in the competition exploited a vulnerability in the system. The competition had 50 hackers. The system had 12 known vulnerabilities. Each hacker exploited exactly one vulnerability. Vulnerability CVE-2024-001 was exploited by 45 hackers. The remaining 5 hackers exploited 5 different vulnerabilities. No other vulnerability was exploited by more than 2 hackers.",
-        "conclusion": "There is a vulnerability that every hacker exploited.",
-        "label": "False"
-    },
-    {
-        "id": "manual_385",
-        "premises": "Each fan at the concert sent a request to a band member. The concert had 5,000 fans and 4 band members. Each fan sent exactly one request. Drummer Alex received requests from 5,000 fans. The other three band members received zero requests. The band's manager verified the count.",
-        "conclusion": "There is a band member to whom every fan sent a request.",
-        "label": "True"
-    },
-    {
-        "id": "manual_386",
-        "premises": "Every professor in the university advised a student on their thesis. The university has 300 professors and 4,000 students. Each professor advised exactly one student for the current thesis cycle. Student records show that Student ID 4721 was advised by 300 professors simultaneously, which is allowed under the new policy. No other student was advised by more than 2 professors.",
-        "conclusion": "There is a student who was advised by every professor.",
-        "label": "True"
-    },
-    {
-        "id": "manual_387",
-        "premises": "Every driver on the highway flashed their headlights at some car. The highway had 1,000 drivers and 800 cars visible at that hour. Each driver flashed at exactly one car. A black sedan was flashed by 900 drivers. The remaining 100 drivers flashed 100 different cars. No car other than the black sedan received more than 5 flashes.",
-        "conclusion": "There is a car that every driver flashed their headlights at.",
-        "label": "False"
     },
     {
         "id": "manual_388",
@@ -2337,12 +1815,6 @@
         "id": "manual_389",
         "premises": "Every node in the network sent a packet to some gateway. The network has 10,000 nodes and 4 gateways. Each node sent exactly one packet. Gateway G3 received packets from all 10,000 nodes. The other three gateways received a total of 0 packets. The network log shows no packet loss.",
         "conclusion": "There is a gateway to which every node sent a packet.",
-        "label": "True"
-    },
-    {
-        "id": "manual_390",
-        "premises": "Every witness at the trial pointed to a suspect in the lineup. The trial had 12 witnesses. The lineup had 5 suspects. Each witness pointed to exactly one suspect. Suspect A was identified by 12 witnesses. The other four suspects were identified by zero witnesses. The lineup was conducted under controlled conditions.",
-        "conclusion": "There is a suspect to whom every witness pointed.",
         "label": "True"
     },
     {
@@ -2374,12 +1846,6 @@
         "premises": "Some representative in parliament voted against every bill in the session. Parliament has 300 representatives. The session had 45 bills. Representative Jones voted 'no' on all 45 bills, as recorded in the official journal. No other representative voted against more than 20 bills. The journal is certified accurate.",
         "conclusion": "Every bill in the session was voted against by some representative.",
         "label": "True"
-    },
-    {
-        "id": "manual_396",
-        "premises": "Each camera in the security system recorded a car passing through a gate. The system has 12 cameras. The facility has 8 gates. Each camera covers exactly one gate. Camera 4 at Gate D recorded 500 cars. The remaining 11 cameras recorded a total of 300 cars, each distributed across different gates. No single gate was recorded by more than 3 cameras. The central log has no missing data.",
-        "conclusion": "There is a gate that every camera recorded.",
-        "label": "False"
     },
     {
         "id": "manual_397",
@@ -2544,18 +2010,6 @@
         "label": "True"
     },
     {
-        "id": "manual_424",
-        "premises": "It is not true that not all members of the board approved the merger. The board has 7 members. Voting records show 4 approved, 2 opposed, 1 abstained. The statement 'not all approved' means 'some did not approve,' which is true because 2 opposed and 1 abstained. The secretary confirmed the tally.",
-        "conclusion": "Some members of the board approved the merger.",
-        "label": "False"
-    },
-    {
-        "id": "manual_425",
-        "premises": "It is false that some of the packages were not damaged during transit. The shipment contained 500 packages. Inspection reports show 498 packages undamaged, 2 packages with minor dents. The claim 'some packages were damaged' is true (2 damaged). Therefore 'some were not damaged' is also true (498 not damaged). The statement 'it is false that some were not damaged' would mean all were damaged, which is false. The inspector's log is complete.",
-        "conclusion": "Every package was damaged during transit.",
-        "label": "False"
-    },
-    {
         "id": "manual_426",
         "premises": "No employee in the research division is without a security badge. The research division has 40 employees. Security records show all 40 have been issued badges. The access log confirms each badge was activated. No badge has been revoked. The facility manager verified the list.",
         "conclusion": "Every employee in the research division has a security badge.",
@@ -2568,34 +2022,16 @@
         "label": "True"
     },
     {
-        "id": "manual_428",
-        "premises": "There is no citizen in the district who did not vote in the election. The district has 10,000 registered voters. Turnout records show 9,950 voted, 50 did not. The statement 'no citizen did not vote' means every citizen voted. That is false because 50 did not vote. The election commission certified the numbers.",
-        "conclusion": "Every citizen in the district voted in the election.",
-        "label": "False"
-    },
-    {
         "id": "manual_429",
         "premises": "It is not true that all of the company's servers are not encrypted. The company has 50 servers. The IT security audit shows 45 servers encrypted, 5 not encrypted. The claim 'all servers are not encrypted' (i.e., none are encrypted) is false. The audit report is final and accepted by management.",
         "conclusion": "Some of the company's servers are encrypted.",
         "label": "True"
     },
     {
-        "id": "manual_430",
-        "premises": "No member of the expedition team returned without frostbite. The expedition had 12 members. Medical reports show 10 returned with frostbite, 2 returned without any cold injury. The statement 'no member returned without frostbite' means every member had frostbite. That is false because 2 had none. The field doctor's log is complete.",
-        "conclusion": "Every member of the expedition team had frostbite.",
-        "label": "False"
-    },
-    {
         "id": "manual_431",
         "premises": "It is false that it is not the case that some of the transactions were flagged as fraudulent. The bank processed 5,000 transactions yesterday. Fraud detection flagged 12. The statement 'some were flagged' is true. Its negation 'none were flagged' is false. Therefore 'it is false that none were flagged' is true, which is equivalent to 'it is false that it is not the case that some were flagged.' The fraud department confirmed the flags.",
         "conclusion": "Some transactions were flagged as fraudulent.",
         "label": "True"
-    },
-    {
-        "id": "manual_432",
-        "premises": "There is no vehicle in the parking lot that is not registered with security. The parking lot has 200 spaces, all occupied. Security logs show 198 vehicles registered, 2 unregistered. The statement 'no vehicle is unregistered' would mean all 200 are registered. That is false because 2 are unregistered. The gate logs match the count.",
-        "conclusion": "Every vehicle in the parking lot is registered with security.",
-        "label": "False"
     },
     {
         "id": "manual_433",
@@ -2616,12 +2052,6 @@
         "label": "True"
     },
     {
-        "id": "manual_436",
-        "premises": "There is no student in the graduating class who did not complete a capstone project. The class has 400 students. Academic records show 398 completed capstone projects, 2 were granted waivers for medical reasons. The statement 'no student did not complete' means every student completed. That is false because 2 did not complete (they had waivers, but waivers mean non-completion by policy). The registrar confirmed the policy.",
-        "conclusion": "Every student in the graduating class completed a capstone project.",
-        "label": "False"
-    },
-    {
         "id": "manual_437",
         "premises": "It is not the case that it is not true that some of the sensors malfunctioned during the test. The test used 50 sensors. Diagnostic logs show 8 malfunctioned, 42 functioned normally. The statement 'some malfunctioned' is true. Its double negation 'it is not the case that it is not true that some malfunctioned' is logically equivalent. The engineering team verified the logs.",
         "conclusion": "Some sensors malfunctioned during the test.",
@@ -2640,34 +2070,10 @@
         "label": "True"
     },
     {
-        "id": "manual_440",
-        "premises": "Agent Cross believes that some double agent is working in the London office. Agent Cross does not know the identity of any double agent. The London office has 50 employees. Security logs show no specific person has been flagged by Cross as a double agent. Cross's belief is based on circumstantial patterns, not individual identification.",
-        "conclusion": "There is some double agent in the London office whom Agent Cross believes to be working there.",
-        "label": "False"
-    },
-    {
         "id": "manual_441",
         "premises": "The law requires that every truck driver must carry a medical certificate. The transportation department has issued certificates to all 12,000 registered truck drivers. Inspector Gomez verified that each driver possesses a certificate. No driver has been found without one. The law is uniformly enforced.",
         "conclusion": "Every truck driver carries a medical certificate.",
         "label": "True"
-    },
-    {
-        "id": "manual_442",
-        "premises": "Professor Aris knows that some student in her seminar plagiarized the term paper. The seminar has 15 students. Professor Aris reviewed all 15 papers but could not identify which specific student plagiarized because the plagiarism detection software only flagged the passage without a name. The software output is anonymized. She has no additional information.",
-        "conclusion": "There is some student in Professor Aris's seminar whom she knows plagiarized the term paper.",
-        "label": "False"
-    },
-    {
-        "id": "manual_443",
-        "premises": "The system administrator believes that no user can access the root directory without a special token. The security policy requires a token for root access. The administrator has issued tokens to 5 users. Access logs show that only those 5 have ever entered the root directory. The administrator has no evidence of unauthorized access.",
-        "conclusion": "Every user who accesses the root directory has a special token.",
-        "label": "True"
-    },
-    {
-        "id": "manual_444",
-        "premises": "Dr. Ellis hopes that every patient in the oncology ward recovers completely. The ward has 12 patients. Dr. Ellis has different hopes for each patient based on their prognosis. She knows that patient 3 has a terminal condition but still hopes for a miracle. Her hope is not uniform in intensity but applies to all 12 individually.",
-        "conclusion": "There is a complete recovery that Dr. Ellis hopes every patient in the oncology ward achieves.",
-        "label": "False"
     },
     {
         "id": "manual_445",
@@ -2682,21 +2088,9 @@
         "label": "True"
     },
     {
-        "id": "manual_447",
-        "premises": "The detective knows that some weapon in the safe room was used in the murder. The safe room contains 6 weapons: a knife, a rope, a pistol, a candlestick, a wrench, and a lead pipe. Forensic analysis matched the pistol to the bullet fragments. The detective knows the pistol was used. He does not know about the other five.",
-        "conclusion": "There is a weapon in the safe room that the detective knows was used in the murder.",
-        "label": "True"
-    },
-    {
         "id": "manual_448",
         "premises": "The university policy requires that every graduate student must complete an ethics training module. The registrar's office has records for all 2,300 graduate students. Completion data shows 2,295 have finished the module. Five students have not. The policy is enforced at graduation, not before. The incomplete students are still enrolled.",
         "conclusion": "Every graduate student has completed the ethics training module.",
-        "label": "False"
-    },
-    {
-        "id": "manual_449",
-        "premises": "The air traffic controller believes that some plane in the holding pattern is running low on fuel. The holding pattern has 7 planes. The controller received low-fuel alerts from planes 3, 5, and 7. However, the alert system does not identify which plane sent which alert because the display is aggregated. The controller cannot match alerts to specific tail numbers. No additional data is available.",
-        "conclusion": "There is a plane in the holding pattern that the air traffic controller believes is running low on fuel.",
         "label": "False"
     },
     {
@@ -2706,75 +2100,9 @@
         "label": "True"
     },
     {
-        "id": "manual_451",
-        "premises": "The intelligence analyst knows that no foreign agent has accessed the secure server without leaving a digital footprint. The server logs show 12,000 access events in the past month. Each event is tied to a verified user ID. The analyst reviewed all logs and found no anonymous or unauthorized entries. The system has no known vulnerabilities.",
-        "conclusion": "Every access to the secure server leaves a digital footprint.",
-        "label": "True"
-    },
-    {
-        "id": "manual_452",
-        "premises": "The CEO believes that every department head will submit a budget by Friday. The company has 8 department heads. The CEO sent an email reminder to all 8. As of Thursday, 6 have submitted. The other 2 have not responded. The CEO remains confident based on past performance but has no confirmation for the last two.",
-        "conclusion": "There is a budget that the CEO believes every department head will submit by Friday.",
-        "label": "False"
-    },
-    {
         "id": "manual_453",
         "premises": "The hospital protocol requires that any nurse who administers anesthesia must be certified in advanced cardiac life support. The anesthesia log for today shows 15 administrations. Each administration was performed by a nurse. Credentialing records confirm that all 15 nurses who administered anesthesia today hold ACLS certification. No uncertified nurse administered anesthesia.",
         "conclusion": "Every nurse who administered anesthesia today is certified in advanced cardiac life support.",
-        "label": "True"
-    },
-    {
-        "id": "manual_454",
-        "premises": "The archaeologist knows that some artifact in Tomb 7 is made of meteoric iron. Tomb 7 contains 12 artifacts. X-ray fluorescence analysis identified artifact #4 as containing high nickel content consistent with meteoric iron. The archaeologist has the report. He does not know about the other 11 artifacts because they were not tested. The test is destructive, so only #4 was analyzed.",
-        "conclusion": "There is an artifact in Tomb 7 that the archaeologist knows is made of meteoric iron.",
-        "label": "True"
-    },
-    {
-        "id": "manual_455",
-        "premises": "The software license states that no user may install the program on more than three devices. The license compliance audit tracked 500 users. Results show 480 users installed on 1–3 devices. 20 users installed on 4 or more devices. The audit is complete and legally binding. The software company has issued violation notices to the 20 users.",
-        "conclusion": "Every user installed the program on three or fewer devices.",
-        "label": "False"
-    },
-    {
-        "id": "manual_456",
-        "premises": "The commanding officer ordered that every soldier in the platoon must memorize the evacuation routes. The platoon has 40 soldiers. The CO conducted individual drills the next day. 38 soldiers correctly recited all routes. 2 soldiers failed. The CO documented the failures in the training log. No retest has been scheduled.",
-        "conclusion": "Every soldier in the platoon memorized the evacuation routes.",
-        "label": "False"
-    },
-    {
-        "id": "manual_457",
-        "premises": "The psychologist believes that some child in the study has experienced trauma. The study has 200 children. The psychologist administered a screening questionnaire. 35 children scored above the trauma threshold. However, the questionnaire is anonymous for ethical reasons. The psychologist knows the number but not which children. No identifying data was collected.",
-        "conclusion": "There is a child in the study whom the psychologist believes has experienced trauma.",
-        "label": "False"
-    },
-    {
-        "id": "manual_458",
-        "premises": "The building code requires that every apartment must have a smoke detector on each floor. The inspector visited 150 apartments today. 148 had smoke detectors on all floors. 2 apartments had detectors only on the first floor, missing the second floor. The inspector issued violations for the 2. The code has no exceptions.",
-        "conclusion": "Every apartment has a smoke detector on each floor.",
-        "label": "False"
-    },
-    {
-        "id": "manual_459",
-        "premises": "The chess grandmaster knows that no legal move from the current position leads to checkmate in one. The position has 12 legal moves. The grandmaster analyzed each move using a chess engine. The engine confirmed that none of the 12 delivers checkmate in one. The grandmaster verified the engine's calculation. The analysis is exhaustive.",
-        "conclusion": "Every legal move from the current position does not lead to checkmate in one.",
-        "label": "True"
-    },
-    {
-        "id": "manual_460",
-        "premises": "If the experimental warp drive is activated within 50 km of a gravity well, then the ship's inertial dampeners will fail catastrophically. The engineering manual adds that a simultaneous electromagnetic pulse can also cause dampener failure, but only if the pulse exceeds 10,000 tesla. Chief Engineer Voss inspected the drive logs from the *Odyssey* incident. The logs show the warp drive was activated at a distance of 42 km from the nearby neutron star. No electromagnetic pulse above 500 tesla was recorded in the ship's environmental sensors during that window. The neutron star emits negligible electromagnetic radiation in the relevant spectrum, confirmed by astrometric data. Starfleet regulations state that no other known mechanism can cause catastrophic dampener failure under these conditions.",
-        "conclusion": "The *Odyssey*'s inertial dampeners failed catastrophically.",
-        "label": "True"
-    },
-    {
-        "id": "manual_461",
-        "premises": "If a patient receives the neurotoxin antidote within 4 hours, then permanent nerve damage is avoided entirely. The hospital's toxicology protocol adds that a patient with a metabolic rate 50% above normal can also avoid damage if treated within 6 hours. Patient X was exposed to the neurotoxin at 08:00. The emergency room log shows the antidote was administered at 12:30, which is 4.5 hours post-exposure. Patient X's metabolic rate was measured at admission and found to be exactly average for their age and weight. No other exceptions to the 4-hour rule exist in the medical literature. The attending physician confirmed the metabolic panel results are accurate and complete.",
-        "conclusion": "Patient X avoided permanent nerve damage.",
-        "label": "False"
-    },
-    {
-        "id": "manual_462",
-        "premises": "Some members of the city planning commission voted against the waterfront development project. The commission has 9 members total. Voting records from the public hearing show that 4 members voted yes, 3 voted no, and 2 abstained. The commission's bylaws define 'voting against' as casting a no vote; abstentions are recorded separately and do not count as against. The clerk's office certified the vote tally as complete and accurate. No member changed their vote after the hearing. The mayor has not yet reviewed the abstention records for any special interpretation.",
-        "conclusion": "Not all members of the city planning commission voted for the waterfront development project.",
         "label": "True"
     },
     {
@@ -2800,12 +2128,6 @@
         "premises": "No passenger on the red-eye flight from Tokyo had a confirmed connecting reservation to Sydney. The flight carried 210 passengers, according to the manifest. The airline's booking system shows that 45 passengers had onward tickets to Melbourne, 30 to Brisbane, and the remaining 135 ended their journey in Tokyo. Zero passengers had Sydney as a final or connecting destination in the system. The check-in agent confirmed that no one requested a Sydney connection at the gate. The baggage tags were all coded for Tokyo, Melbourne, or Brisbane exclusively. The transfer desk received no inquiries about Sydney connections during the flight's layover window.",
         "conclusion": "Some passengers on the red-eye flight from Tokyo did not have a confirmed connecting reservation to Sydney.",
         "label": "True"
-    },
-    {
-        "id": "manual_467",
-        "premises": "The security guard believes that some person in the building after midnight is an intruder. The building has motion sensors covering all entrances and hallways. The sensors detected 4 people inside after midnight: employees A, B, C, and an unidentified signature. The guard cannot see the video feed because the monitors are offline for maintenance. He only has the raw sensor counts, which do not distinguish identities. The access log shows A, B, and C badged in before midnight and never badged out. The unidentified signature has no corresponding access record. The guard has no way to match the intruder belief to a specific individual.",
-        "conclusion": "There is a person in the building after midnight whom the security guard believes is an intruder.",
-        "label": "False"
     },
     {
         "id": "manual_468",
@@ -2838,12 +2160,6 @@
         "label": "False"
     },
     {
-        "id": "manual_473",
-        "premises": "The intelligence analyst knows that some communication intercept from the suspect's phone contains a threat indicator. The surveillance team intercepted 340 messages from the suspect's phone over 30 days. Natural language processing flagged 12 messages as containing threat-related keywords. However, the analyst cannot see which messages were flagged because the NLP system only provides an aggregate count for privacy reasons. The analyst knows the number 12 but not the specific message IDs. The raw message text is sealed pending a warrant. The analyst has no additional metadata to identify individual messages. The review process has not yet unsealed any messages for individual inspection.",
-        "conclusion": "There is a communication intercept from the suspect's phone that the analyst knows contains a threat indicator.",
-        "label": "False"
-    },
-    {
         "id": "manual_474",
         "premises": "Every tenant in the apartment building has paid their rent for the current month. The building has 45 units, all occupied. The property manager's ledger shows payments received from 44 units. One unit, #12, shows no payment recorded. The manager contacted tenant #12, who claims to have paid by check but cannot provide a check number. The bank statement for tenant #12 does not show the check clearing. The manager's deposit slips for this month list 44 checks and 0 cash payments. The building's policy requires payment by the 5th; today is the 10th. No rent assistance or deferral has been approved for unit #12.",
         "conclusion": "Every tenant in the apartment building has paid their rent for the current month.",
@@ -2868,12 +2184,6 @@
         "label": "False"
     },
     {
-        "id": "manual_478",
-        "premises": "The professor knows that no student in the lecture hall cheated on the final exam. The lecture hall had 200 students during the exam. Proctors observed all students continuously. No student was seen looking at another's paper or using unauthorized materials. The exam software's plagiarism detector flagged zero similarities between any two submissions beyond chance. The professor personally reviewed a random sample of 50 exams and found no irregularities. The university's honor council has received no reports of cheating from this exam. The professor's knowledge is based on direct observation and the proctors' unanimous reports. All evidence is consistent with no cheating.",
-        "conclusion": "Every student in the lecture hall did not cheat on the final exam.",
-        "label": "True"
-    },
-    {
         "id": "manual_479",
         "premises": "The algorithm predicts that some user in the test group will click on the advertisement. The test group has 10,000 users. The algorithm outputs a probability score for each user individually. It predicts a click for user #7,482 with 94% confidence based on browsing history. For all other 9,999 users, the prediction confidence is below 50%. The algorithm's predictions are probabilistic, not deterministic. The product manager knows the algorithm flagged user #7,482 as the most likely but cannot be certain. No user has yet been shown the advertisement because the campaign starts tomorrow. The algorithm's training data had no false positive examples for users with >90% confidence. The development team has not validated the prediction on this specific user segment.",
         "conclusion": "There is a user in the test group whom the algorithm predicts will click on the advertisement.",
@@ -2889,18 +2199,6 @@
         "id": "manual_481",
         "premises": "If water freezes at 50°C, then ice forms when the temperature drops to 50°C. Water freezes at 50°C. The current temperature is 50°C. The container is sealed and pure. No impurities alter the freezing point.",
         "conclusion": "Ice forms in the container.",
-        "label": "True"
-    },
-    {
-        "id": "manual_482",
-        "premises": "If humans have three hearts, then human survival requires at least two functional hearts. Humans have three hearts. A medical textbook confirms this anatomy. Patient X has one failed heart but two working hearts. The other two hearts are undamaged.",
-        "conclusion": "Patient X can survive with one failed heart.",
-        "label": "True"
-    },
-    {
-        "id": "manual_483",
-        "premises": "If triangles have five sides, then a triangle's perimeter is the sum of five lengths. Triangles have five sides. Shape T is a triangle. Its five side lengths are 2, 3, 4, 5, and 6 units. Geometry rules apply consistently.",
-        "conclusion": "The perimeter of shape T is 20 units.",
         "label": "True"
     },
     {
@@ -2931,13 +2229,13 @@
         "id": "manual_488",
         "premises": "If water boils at 0°C, then a pot of water at 0°C will boil. Water boils at 0°C. The pot is on a stove at sea level. The water temperature is exactly 0°C. The stove is off. No heat is being added. The room temperature is 20°C.",
         "conclusion": "The water is boiling.",
-        "label": "False"
+        "label": "True"
     },
     {
         "id": "manual_489",
         "premises": "If humans have one lung, then human blood oxygenation requires that single lung to function perfectly. Humans have one lung. Patient Y has one lung that is 50% blocked by a tumor. The tumor reduces oxygen exchange by half. The patient's oxygen saturation is 85%. Normal saturation is 95% or above. No other organ compensates.",
         "conclusion": "Patient Y has normal blood oxygenation.",
-        "label": "False"
+        "label": "True"
     },
     {
         "id": "manual_490",
@@ -2982,21 +2280,9 @@
         "label": "False"
     },
     {
-        "id": "manual_497",
-        "premises": "If the moon is made of cheddar cheese, then lunar gravity is caused by cheese density. The moon is made of cheddar cheese. Cheddar cheese has a density of 1.05 g/cm³. The moon's observed density is 3.34 g/cm³. A cheese moon would have lower gravity. Orbital mechanics depend on mass. The actual mass of the moon is known. The cheese hypothesis contradicts mass measurements.",
-        "conclusion": "Lunar gravity is caused by cheese density.",
-        "label": "False"
-    },
-    {
         "id": "manual_498",
         "premises": "If the sun sets in the south, then the evening sky glows red in the south. The sun sets in the south. The observer is in the northern hemisphere at 40° latitude. Atmospheric scattering affects sunset colors. The time is sunset. Clouds are absent. The air is clear. The sunset glow appears in the direction of the setting sun.",
         "conclusion": "The evening sky glows red in the south.",
         "label": "False"
-    },
-    {
-        "id": "manual_499",
-        "premises": "If the Earth has two moons, then high tides occur twice as often. The Earth has two moons: Luna and a second moon called Nereus. Nereus orbits every 15 days. Luna orbits every 30 days. Both moons align with the Earth every 30 days. Tides are highest when moons align. The alignment occurs once every 30 days. No other tidal forces exist.",
-        "conclusion": "The highest tides occur once every 30 days.",
-        "label": "True"
     }
 ]
