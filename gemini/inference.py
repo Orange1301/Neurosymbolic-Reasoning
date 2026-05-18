@@ -36,13 +36,19 @@ Input:
     "id": "example_02",
     "premises": "If the sun is out, Alice goes for a walk. Alice is going for a walk.",
     "conclusion": "The sun is out."
+  }},
+  {{
+    "id": "example_03",
+    "premises": "If a box is blue, it is heavy. Ben has a blue box.",
+    "conclusion": "Ben's box contains gold."
   }}
 ]
 
 Output:
 {{
   "example_01": "True",
-  "example_02": "Uncertain"
+  "example_02": "Uncertain",
+  "example_03": "Uncertain
 }}
 ---
 
@@ -124,4 +130,4 @@ with open('test_data.json', 'r', encoding='utf=8') as f:
 
 for d in data:
     d.pop("label", None)  
-run_large_scale_test(data, 150)
+run_large_scale_test(data, 90)
