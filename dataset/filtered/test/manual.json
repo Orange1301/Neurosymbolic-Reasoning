@@ -1,5 +1,11 @@
 [
     {
+        "id": "manual_0",
+        "premises": "There are many animals in the forest. Some squirrels are brown. Some brown animals are fast climbers. The squirrels like to hide nuts. The forest has tall trees.",
+        "conclusion": "Some squirrels are fast climbers.",
+        "label": "Uncertain"
+    },
+    {
         "id": "manual_1",
         "premises": "In a small town, there are several shops. Some bakeries sell bread. Some places that sell bread also sell cakes. The town has a post office. People often buy fresh bread in the morning.",
         "conclusion": "Some bakeries sell cakes.",
@@ -18,6 +24,18 @@
         "label": "Uncertain"
     },
     {
+        "id": "manual_4",
+        "premises": "In a library, there are many books. Some books have blue covers. Some books with blue covers are mysteries. The library has a reading room. The librarian is very helpful.",
+        "conclusion": "Some books are mysteries.",
+        "label": "True"
+    },
+    {
+        "id": "manual_5",
+        "premises": "If it is raining heavily outside, then the ground will be wet. Today, it is not raining heavily outside. The sun is shining brightly. Children are playing in the park. The birds are singing.",
+        "conclusion": "The ground is not wet.",
+        "label": "Uncertain"
+    },
+    {
         "id": "manual_6",
         "premises": "If a person eats too much candy, then they will get a stomachache. Tom did not eat too much candy. Tom ate a healthy salad for lunch. He drank a glass of water. He feels fine now.",
         "conclusion": "Tom will not get a stomachache.",
@@ -27,6 +45,30 @@
         "id": "manual_7",
         "premises": "If a car runs out of gas, then the engine stops. My car has not run out of gas. I filled the tank yesterday. I drove only a short distance. The gas gauge shows half full.",
         "conclusion": "My car's engine will not stop.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_8",
+        "premises": "If you study very hard for the test, you will get a good grade. Maria did not study very hard for the test. She watched TV all evening. She went to bed early. She ate a big breakfast.",
+        "conclusion": "Maria will not get a good grade.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_9",
+        "premises": "If a plant receives enough sunlight, it will grow green leaves. The plant on the windowsill does not receive enough sunlight. The window faces north. There is a tall building blocking the sun. The plant looks a bit yellow.",
+        "conclusion": "The plant will not grow green leaves.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_10",
+        "premises": "If the cat is sleeping on the rug, then there will be fur on the rug. There is fur on the rug. The rug is soft and warm. The cat likes to nap in sunny spots. The living room is quiet.",
+        "conclusion": "The cat is sleeping on the rug.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_11",
+        "premises": "If it is snowing outside, then the temperature is below freezing. The temperature is below freezing. The ground is white. People are wearing heavy coats. The heating is on.",
+        "conclusion": "It is snowing outside.",
         "label": "Uncertain"
     },
     {
@@ -45,6 +87,12 @@
         "id": "manual_14",
         "premises": "If a fruit is ripe, then it is sweet. This apple is sweet. The apple is red and shiny. It was picked from the tree yesterday. Other apples on the tree are green.",
         "conclusion": "This apple is ripe.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_15",
+        "premises": "All unicorns have a magical horn. Unicorns are mythical creatures that live in enchanted forests. No one has ever seen a real unicorn. Many stories talk about their beauty. The horn is said to cure any illness.",
+        "conclusion": "There exists at least one unicorn that has a magical horn.",
         "label": "Uncertain"
     },
     {
@@ -76,6 +124,18 @@
         "premises": "In a small village, every person has a favorite animal. Each person loves one animal that they keep as a pet. The animals include dogs, cats, and rabbits. No two persons share the same pet. The village has ten people.",
         "conclusion": "There is one animal that is the favorite of every person in the village.",
         "label": "Uncertain"
+    },
+    {
+        "id": "manual_21",
+        "premises": "Every student in the school has a locker. Each locker is assigned to exactly one student. The lockers are in the hallway. Students use their lockers every day. The school has many lockers.",
+        "conclusion": "There is a locker that belongs to every student.",
+        "label": "False"
+    },
+    {
+        "id": "manual_22",
+        "premises": "Every player on the soccer team has a jersey number. The jersey numbers are unique. The team has eleven players. The coach assigns numbers from 1 to 11. Players wear their jerseys during matches.",
+        "conclusion": "There is a jersey number that is worn by every player.",
+        "label": "False"
     },
     {
         "id": "manual_23",
@@ -239,7 +299,7 @@
         "conclusion": "The battery is charged.",
         "label": "Uncertain"
     },
-    {
+        {
         "id": "manual_50",
         "premises": "All wizards can cast spells. Wizards are characters in fantasy books. No one has ever met a real wizard. The library has many books about wizards. Some children dress as wizards for Halloween.",
         "conclusion": "There exists at least one wizard who can cast spells.",
@@ -342,6 +402,24 @@
         "label": "Uncertain"
     },
     {
+        "id": "manual_70",
+        "premises": "Ocha is yellow. Yellow is not a dark color. Alex doesn't like fruits that don't have a dark color. It is not true that Ocha is not a fruit.",
+        "conclusion": "Alex likes Ocha.",
+        "label": "False"
+    },
+    {
+        "id": "manual_73",
+        "premises": "Gloop is not from Mars. No creature from Mars can swim. Gloop can swim. It is not true that Gloop is not a creature.",
+        "conclusion": "Gloop is from Mars.",
+        "label": "False"
+    },
+    {
+        "id": "manual_75",
+        "premises": "Fizz does not run fast. No animal that runs fast is slow. Fizz is slow. It is not the case that Fizz is not an animal.",
+        "conclusion": "Fizz runs fast.",
+        "label": "False"
+    },
+    {
         "id": "manual_91",
         "premises": "For every animal, if it is a dog then it barks. Some animal barks and is not a dog. Every animal that barks is noisy. No noisy animal is quiet. There is an animal that is quiet.",
         "conclusion": "There exists a dog that barks.",
@@ -420,6 +498,24 @@
         "label": "Uncertain"
     },
     {
+        "id": "manual_105",
+        "premises": "For all books, if it is a mystery then it is exciting. Some book is exciting and not a mystery. Every exciting book is popular. No popular book is boring. There is a boring book.",
+        "conclusion": "Some mystery book is not exciting.",
+        "label": "False"
+    },
+    {
+        "id": "manual_106",
+        "premises": "Every employee who works overtime gets a bonus. There exists an employee who does not work overtime but gets a bonus. Every employee who gets a bonus is motivated. No motivated employee is lazy. Some employee is lazy.",
+        "conclusion": "Some employee who works overtime is not motivated.",
+        "label": "False"
+    },
+    {
+        "id": "manual_107",
+        "premises": "For every fruit, if it is tropical then it is sweet. Some fruit is sweet and not tropical. Every sweet fruit is delicious. No delicious fruit is sour. There is a sour fruit.",
+        "conclusion": "Some tropical fruit is not sweet.",
+        "label": "False"
+    },
+    {
         "id": "manual_108",
         "premises": "Every student who studies math also studies science. There is a student who studies science but does not study math. Every student who studies science is smart. No smart student is dumb. Some student is dumb.",
         "conclusion": "Some student who studies math is smart.",
@@ -492,6 +588,12 @@
         "label": "False"
     },
     {
+        "id": "manual_120",
+        "premises": "Every animal that lives in water and has gills is a fish. Whales live in water. Whales do not have gills. All mammals breathe air. Whales are mammals. Every animal that breathes air is not a fish. There is an animal that lives in water and is not a fish.",
+        "conclusion": "Whales are not fish.",
+        "label": "True"
+    },
+    {
         "id": "manual_128",
         "premises": "If you heat ice, it melts. You heat a substance. The substance does not melt. The substance is ice. All ice melts at 0°C. The substance is at -5°C. You did not heat it enough.",
         "conclusion": "The substance is ice.",
@@ -546,6 +648,12 @@
         "label": "Uncertain"
     },
     {
+        "id": "manual_157",
+        "premises": "Every fruit is a vegetable. Every vegetable is green. Broccoli is a vegetable. An apple is a fruit. A banana is a fruit. Bananas are yellow.",
+        "conclusion": "An apple is green.",
+        "label": "True"
+    },
+    {
         "id": "manual_158",
         "premises": "London is the capital of France. France is a country in South America. The capital of a country in South America is always very crowded. London is located on a river.",
         "conclusion": "London is very crowded.",
@@ -555,6 +663,12 @@
         "id": "manual_159",
         "premises": "All chairs are tables. All tables are made of glass. A table that is made of glass can break easily. This object is a chair. This object is in my room.",
         "conclusion": "This object is made of glass.",
+        "label": "True"
+    },
+    {
+        "id": "manual_163",
+        "premises": "All apples are oranges. All oranges are purple. A fruit that is purple tastes very sweet. This fruit is an apple. This fruit is on the kitchen table.",
+        "conclusion": "This fruit tastes very sweet.",
         "label": "True"
     },
     {
@@ -576,10 +690,58 @@
         "label": "True"
     },
     {
+        "id": "manual_167",
+        "premises": "Elephants are tiny animals. Any tiny animal can fit in a small box. Elephants live in Africa. Lions live in Africa. An elephant can be seen at the zoo.",
+        "conclusion": "Elephants can fit in a small box.",
+        "label": "True"
+    },
+    {
+        "id": "manual_169",
+        "premises": "All pencils are pens. All pens write with blue ink. This is a pencil. This is on my desk. I use it to write letters.",
+        "conclusion": "This writes with blue ink.",
+        "label": "True"
+    },
+    {
         "id": "manual_170",
         "premises": "If a shape is a square, then it has five sides. My drawing is a square. A shape with five sides is called a pentagon. Triangles have three sides.",
         "conclusion": "My drawing has five sides.",
         "label": "True"
+    },
+    {
+        "id": "manual_171",
+        "premises": "All rivers flow north. The Nile is a river. The Amazon is a river. The Nile is in Africa. The Amazon is in South America.",
+        "conclusion": "The Nile flows north.",
+        "label": "True"
+    },
+    {
+        "id": "manual_172",
+        "premises": "Iceland is in Africa. Africa and Asia are different continents. Vietnam and Iceland are in the same continent. A country cannot be in two continents at the same time",
+        "conclusion": "Vietnam is in Asia.",
+        "label": "False"
+    },
+    {
+        "id": "manual_176",
+        "premises": "If it is raining, then the ground is wet. The ground is wet now. It might have rained. Sometimes the ground is wet because someone spilled water.",
+        "conclusion": "It is raining now.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_177",
+        "premises": "All students in this class wear glasses. Tom is a student in this class. Mary is a student in this class. Some students in the school do not wear glasses. Tom sits near the window.",
+        "conclusion": "Tom wears glasses.",
+        "label": "True"
+    },
+    {
+        "id": "manual_179",
+        "premises": "All triangles are red. This shape is red. Some red shapes are triangles. Squares are never red. This shape is a circle.",
+        "conclusion": "This shape is a triangle.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_180",
+        "premises": "Every person in this room owns exactly one hat. Some people in this room own a red hat. No person in this room owns more than one red hat. There is at least one person in this room. John is a person in this room. John owns a red hat.",
+        "conclusion": "There is at least one person in this room who does not own a red hat.",
+        "label": "Uncertain"
     },
     {
         "id": "manual_181",
@@ -603,6 +765,60 @@
         "id": "manual_184",
         "premises": "Every box contains at least one red ball. Some boxes contain only red balls. There is a box that contains a blue ball. Box A is a box. Box A contains a blue ball.",
         "conclusion": "Box A contains a red ball.",
+        "label": "True"
+    },
+    {
+        "id": "manual_185",
+        "premises": "All flowers need water. Some flowers do not need sunlight. A rose is a flower. A cactus is a flower. The rose needs sunlight. The cactus does not need sunlight.",
+        "conclusion": "The cactus needs water.",
+        "label": "True"
+    },
+    {
+        "id": "manual_186",
+        "premises": "Every dog in the park is playing with some toy. Some dogs in the park are not playing with a ball. There is a dog in the park playing with a stick. Max is a dog in the park. Max is playing with a ball.",
+        "conclusion": "Max is playing with a toy.",
+        "label": "True"
+    },
+    {
+        "id": "manual_187",
+        "premises": "Some birds can swim. All penguins are birds. No bird that can swim can fly. Some penguins can fly. Tweety is a penguin.",
+        "conclusion": "Tweety can swim.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_188",
+        "premises": "Every town has a mayor. Some towns have a park. No town has both a park and a beach. Springfield is a town. Springfield has a mayor. Springfield has a beach.",
+        "conclusion": "Springfield does not have a park.",
+        "label": "True"
+    },
+    {
+        "id": "manual_189",
+        "premises": "All cars in the lot are either red or blue. Some cars in the lot are red. There is at least one blue car in the lot. No car is both red and blue. Car X is in the lot. Car X is not blue.",
+        "conclusion": "Car X is red.",
+        "label": "True"
+    },
+    {
+        "id": "manual_190",
+        "premises": "Every team has a leader. Some teams have a leader who is also a player. No team has more than one leader. Team Alpha is a team. Team Alpha has a player named Bob. Bob is a leader.",
+        "conclusion": "Bob is the leader of Team Alpha.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_191",
+        "premises": "All fruits contain seeds. Some fruits are sweet. There exists a fruit that is not sweet. A tomato is a fruit. A banana is a fruit. The tomato is not sweet.",
+        "conclusion": "The tomato contains seeds.",
+        "label": "True"
+    },
+    {
+        "id": "manual_192",
+        "premises": "Every person who lives in the blue house owns a pet. Some people who own a pet do not own a dog. There is a person who lives in the blue house and owns a cat. Alice lives in the blue house. Alice does not own a cat.",
+        "conclusion": "Alice owns a dog.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_193",
+        "premises": "All squares are rectangles. Some rectangles are not squares. Every shape with four equal sides is a square. Shape S is a rectangle. Shape S has four equal sides.",
+        "conclusion": "Shape S is a square.",
         "label": "True"
     },
     {

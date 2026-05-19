@@ -129,3 +129,5 @@ dataset/RuleTaker/raw/
 *.out
 *.snm
 *.toc
+
+temp/

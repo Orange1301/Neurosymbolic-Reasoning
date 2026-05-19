@@ -9,8 +9,78 @@ class Engine:
         self.prover9_path = prover9_path
         self.prover = Prover9()
         self.prover.config_prover9(prover9_path)
+
+    def _transform_xor(self, text):
+        """
+        Transform A ⊕ B to ¬(A ⟷ B)
+        """
+        while '⊕' in text:
+            idx = text.find('⊕')
+            
+            # Find left component
+            lhs_end = idx
+            while lhs_end > 0 and text[lhs_end-1].isspace():
+                lhs_end -= 1
+                
+            curr = lhs_end - 1
+    
+            if text[curr] == ')':
+                balance = 0
+                while curr >= 0:
+                    if text[curr] == ')': balance += 1
+                    elif text[curr] == '(': balance -= 1
+                    curr -= 1
+                    if balance == 0: break
+                while curr >= 0 and (text[curr].isalnum() or text[curr] == '_'):
+                    curr -= 1
+                lhs_start = curr + 1
+            else:
+                while curr >= 0 and (text[curr].isalnum() or text[curr] == '_'):
+                    curr -= 1
+                lhs_start = curr + 1
+                
+            lhs = text[lhs_start:lhs_end]
+    
+            # Find right component
+            rhs_start = idx + 1
+            while rhs_start < len(text) and text[rhs_start].isspace():
+                rhs_start += 1
+                
+            curr = rhs_start
+            if text[curr].isalnum() or text[curr] == '_':
+                while curr < len(text) and (text[curr].isalnum() or text[curr] == '_'):
+                    curr += 1
+                if curr < len(text) and text[curr] == '(':
+                    balance = 0
+                    while curr < len(text):
+                        if text[curr] == '(': balance += 1
+                        elif text[curr] == ')': balance -= 1
+                        curr += 1
+                        if balance == 0: break
+                rhs_end = curr
+            elif text[curr] == '(':
+                balance = 0
+                while curr < len(text):
+                    if text[curr] == '(': balance += 1
+                    elif text[curr] == ')': balance -= 1
+                    curr += 1
+                    if balance == 0: break
+                rhs_end = curr
+            else:
+                rhs_end = curr + 1
+                
+            rhs = text[rhs_start:rhs_end]
+    
+            # Transform XOR
+            new_expression = f"¬({lhs} ⟷ {rhs})"
+            text = text[:lhs_start] + new_expression + text[rhs_end:]
+    
+        return text
     
     def _translate_fol(self, fol_text: str):
+        # Transform XOR
+        fol_text = self._transform_xor(fol_text)
+        
         # '-' --> '_'
         fol_text = re.sub(r'(?<=[a-zA-Z0-9])-(?=[a-zA-Z0-9])', '_', fol_text)
 
@@ -23,7 +93,8 @@ class Engine:
             '¬': '-',
             '→': '->', 
             '⟷': '<->',
-            '↔': '<->'
+            '↔': '<->',
+            '≠': '!='
         }
         for k, v in replacements.items():
             fol_text = fol_text.replace(k, v)
@@ -36,7 +107,7 @@ class Engine:
         reserved_words = {'all', 'exists', 'u', 'v', 'w', 'x', 'y', 'z'}
         
         for w in set(words):
-            if w not in reserved_words:
+            if w not in reserved_words and len(w) > 2:
                 fol_text = re.sub(fr'\b{w}\b', f'c_{w}', fol_text)
         return fol_text
 
@@ -47,7 +118,8 @@ class Engine:
                 if line.strip():
                     self.parser.parse(line)
             return True
-        except Exception:
+        except Exception as e:
+            print(e)
             return False
 
     def _check_conclusion(self, premises, conclusion):
@@ -71,7 +143,6 @@ class Engine:
             parsed_premises = [self.parser.parse(p) for p in translated_premises]
             parsed_conclusion = self.parser.parse(translated_conclusion)
         except Exception as e:
-            print(e)
             raise f"Error: {e}"
 
         # Check conclusion
@@ -95,6 +166,7 @@ class Engine:
     def check_conclusion(self, data):
         fol_list = data["predictions"]
         new_fol_list = []
+        error_list = []
         for fol in fol_list:
             try:
                 premises = fol["fol"].split("\n")[:-1]
@@ -108,11 +180,15 @@ class Engine:
                 else:
                     fol["label"] = "Uncertain"
                 new_fol_list.append(fol)
-            except:
+            except Exception as e:
+                error_list.append({
+                    "premises": "\n".join(fol["fol"].split("\n")[:-1]),
+                    "conclusion": fol["fol"].split("\n")[-1],
+                    "error": repr(e)
+                })
                 continue
-
         data["predictions"] = new_fol_list
-        return data
+        return data, error_list
                 
 
     
@@ -127,66 +203,78 @@ class Engine:
 
 #     print(f"Result: {check_conclusion(premises, conclusion)}")
 
-#     # TEST ON MOCK DATA ----------------
-#     # import json
-#     # with open('mock_data.json', 'r', encoding='utf-8') as f:
-#     #     test_data = json.load(f)
+# TEST ON MOCK DATA ----------------
+import json
 
-#     # wrong_data = []
-#     # total = 0
-#     # count_correct = 0
-#     # count_wrong = 0
-#     # count_error = 0
-#     # for data in test_data:
-#     #     total += 1
-#     #     try:
-#     #         # fol_list = data["fol"].split('\n')
-#     #         # predicted = check_conclusion(fol_list[:-1], fol_list[-1])
-#     #         predicted = check_conclusion(data["fol_premises"].split('\n'), data["fol_conclusion"])
-#     #         label = data["label"]
+def main():
+    with open('mock_data.json', 'r', encoding='utf-8') as f:
+        test_data = json.load(f)
 
-#     #         if (predicted != label):
-#     #             count_wrong += 1
-#     #             wrong_data.append(data)
-#     #             print((data["id"], predicted, label))
-#     #         else:
-#     #             count_correct += 1
-#     #     except Exception as e:
-#     #         count_error += 1
-#     #         story_id = data["id"]
-#     #         wrong_data.append(data)
-#     #         print(f"{story_id}: {e}")
+    engine = Engine()
 
-#     # # with open("wrong_folio_train.json", "w", encoding="utf-8") as f:
-#     # #     json.dump(wrong_data, f, ensure_ascii=False, indent=4)
-#     # print([d["id"] for d in wrong_data])
+    wrong_data = []; labels = {}
+    total = 0
+    count_correct = 0
+    count_wrong = 0
+    count_error = 0
+    for id, fol in test_data.items():
+        total += 1
+        try:
+            # fol_list = data["fol"].split('\n')
+            # predicted = check_conclusion(fol_list[:-1], fol_list[-1])
+            fol_list = fol.split('. ')
+            premises, conclusion = fol_list[:-1], fol_list[-1]
+            predicted = engine._check_conclusion(premises, conclusion)
+            labels[id] = predicted
+            # label = data["label"]
 
-#     # print("Total: ", total)
-#     # print("Correct: ", count_correct)
-#     # print("Wrong: ", count_wrong)
-#     # print("Error:", count_error)
+        #     if (predicted != label):
+        #         count_wrong += 1
+        #         wrong_data.append(data)
+        #         print((data["id"], predicted, label))
+        #     else:
+        #         count_correct += 1
+        except Exception as e:
+            count_error += 1
+            story_id = id
+            wrong_data.append(id)
+            print(f"{story_id}: {e}")
 
-#     # '''
-#     # For folio_train.json: 
-#     # - Total:  955
-#     # - Correct:  540
-#     # - Wrong:  373
-#     # - Error: 42
+    # with open("wrong_folio_train.json", "w", encoding="utf-8") as f:
+    #     json.dump(wrong_data, f, ensure_ascii=False, indent=4)
+    # print([d["id"] for d in wrong_data])
+    print(wrong_data)
+    print(len(wrong_data))
 
-#     # For folio_valid.json:
-#     # - Total:  97
-#     # - Correct:  68
-#     # - Wrong:  29
-#     # - Error: 0
+    with open("predicted_labels.json", "w", encoding="utf-8") as f:
+        json.dump(labels, f, ensure_ascii=False, indent=4)
 
-#     # For folio_test.json:
-#     # - Total:  97
-#     # - Correct:  68
-#     # - Wrong:  28
-#     # - Error: 1
+    # print("Total: ", total)
+    # print("Correct: ", count_correct)
+    # print("Wrong: ", count_wrong)
+    # print("Error:", count_error)
 
-#     # FACT: The wrong answers and errors are not the engine's fault, it's because those samples' fols are incorrect.
-#     # '''
+'''
+For folio_train.json: 
+- Total:  955
+- Correct:  540
+- Wrong:  373
+- Error: 42
 
-# if __name__ == "__main__":
-#     main()
+For folio_valid.json:
+- Total:  97
+- Correct:  68
+- Wrong:  29
+- Error: 0
+
+For folio_test.json:
+- Total:  97
+- Correct:  68
+- Wrong:  28
+- Error: 1
+
+FACT: The wrong answers and errors are not the engine's fault, it's because those samples' fols are incorrect.
+'''
+
+if __name__ == "__main__":
+    main()

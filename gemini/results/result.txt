@@ -2,9 +2,14 @@ Old manual dataset:
 - Correct predictions: 561/600 (93.5 %)
 - Incorrect predictions: 39/600 (6.5 %)
 
-New manual dataset:
+------------------------------------------------
+New manual dataset (direct):
 - Correct predictions: 159/200 (79.5 %)
 - Incorrect predictions: 41/200 (20.5 %)
+
+New manual dataset (fol):
+- Correct predictions: 186/200 (93.0 %)
+- Incorrect predictions: 14/200 (7.000000000000001 %)
 
 FOLIO dataset:
 - Correct predictions: 84/94 (89.36170212765957 %)

@@ -1,11 +1,5 @@
 [
     {
-        "id": "manual_0",
-        "premises": "There are many animals in the forest. Some squirrels are brown. Some brown animals are fast climbers. The squirrels like to hide nuts. The forest has tall trees.",
-        "conclusion": "Some squirrels are fast climbers.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_1",
         "premises": "In a small town, there are several shops. Some bakeries sell bread. Some places that sell bread also sell cakes. The town has a post office. People often buy fresh bread in the morning.",
         "conclusion": "Some bakeries sell cakes.",
@@ -24,18 +18,6 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_4",
-        "premises": "In a library, there are many books. Some books have blue covers. Some books with blue covers are mysteries. The library has a reading room. The librarian is very helpful.",
-        "conclusion": "Some books are mysteries.",
-        "label": "True"
-    },
-    {
-        "id": "manual_5",
-        "premises": "If it is raining heavily outside, then the ground will be wet. Today, it is not raining heavily outside. The sun is shining brightly. Children are playing in the park. The birds are singing.",
-        "conclusion": "The ground is not wet.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_6",
         "premises": "If a person eats too much candy, then they will get a stomachache. Tom did not eat too much candy. Tom ate a healthy salad for lunch. He drank a glass of water. He feels fine now.",
         "conclusion": "Tom will not get a stomachache.",
@@ -45,30 +27,6 @@
         "id": "manual_7",
         "premises": "If a car runs out of gas, then the engine stops. My car has not run out of gas. I filled the tank yesterday. I drove only a short distance. The gas gauge shows half full.",
         "conclusion": "My car's engine will not stop.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_8",
-        "premises": "If you study very hard for the test, you will get a good grade. Maria did not study very hard for the test. She watched TV all evening. She went to bed early. She ate a big breakfast.",
-        "conclusion": "Maria will not get a good grade.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_9",
-        "premises": "If a plant receives enough sunlight, it will grow green leaves. The plant on the windowsill does not receive enough sunlight. The window faces north. There is a tall building blocking the sun. The plant looks a bit yellow.",
-        "conclusion": "The plant will not grow green leaves.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_10",
-        "premises": "If the cat is sleeping on the rug, then there will be fur on the rug. There is fur on the rug. The rug is soft and warm. The cat likes to nap in sunny spots. The living room is quiet.",
-        "conclusion": "The cat is sleeping on the rug.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_11",
-        "premises": "If it is snowing outside, then the temperature is below freezing. The temperature is below freezing. The ground is white. People are wearing heavy coats. The heating is on.",
-        "conclusion": "It is snowing outside.",
         "label": "Uncertain"
     },
     {
@@ -87,12 +45,6 @@
         "id": "manual_14",
         "premises": "If a fruit is ripe, then it is sweet. This apple is sweet. The apple is red and shiny. It was picked from the tree yesterday. Other apples on the tree are green.",
         "conclusion": "This apple is ripe.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_15",
-        "premises": "All unicorns have a magical horn. Unicorns are mythical creatures that live in enchanted forests. No one has ever seen a real unicorn. Many stories talk about their beauty. The horn is said to cure any illness.",
-        "conclusion": "There exists at least one unicorn that has a magical horn.",
         "label": "Uncertain"
     },
     {
@@ -124,18 +76,6 @@
         "premises": "In a small village, every person has a favorite animal. Each person loves one animal that they keep as a pet. The animals include dogs, cats, and rabbits. No two persons share the same pet. The village has ten people.",
         "conclusion": "There is one animal that is the favorite of every person in the village.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_21",
-        "premises": "Every student in the school has a locker. Each locker is assigned to exactly one student. The lockers are in the hallway. Students use their lockers every day. The school has many lockers.",
-        "conclusion": "There is a locker that belongs to every student.",
-        "label": "False"
-    },
-    {
-        "id": "manual_22",
-        "premises": "Every player on the soccer team has a jersey number. The jersey numbers are unique. The team has eleven players. The coach assigns numbers from 1 to 11. Players wear their jerseys during matches.",
-        "conclusion": "There is a jersey number that is worn by every player.",
-        "label": "False"
     },
     {
         "id": "manual_23",
@@ -183,7 +123,7 @@
         "id": "manual_30",
         "premises": "The cake has either chocolate or vanilla frosting. The cake has chocolate frosting. The cake was baked this morning. It smells delicious. The baker used fresh ingredients.",
         "conclusion": "The cake does not have vanilla frosting.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_31",
@@ -299,7 +239,7 @@
         "conclusion": "The battery is charged.",
         "label": "Uncertain"
     },
-        {
+    {
         "id": "manual_50",
         "premises": "All wizards can cast spells. Wizards are characters in fantasy books. No one has ever met a real wizard. The library has many books about wizards. Some children dress as wizards for Halloween.",
         "conclusion": "There exists at least one wizard who can cast spells.",
@@ -313,7 +253,7 @@
     },
     {
         "id": "manual_52",
-        "premises": "All goblins love shiny coins. Goblins are mythical creatures from folklore. They are said to hide in caves. No evidence of goblins exists. The museum has a fake goblin statue.",
+        "premises": "All goblins love shiny coins. Goblins are mythical creatures from folklore. No evidence of goblins exists. They are said to hide in caves.",
         "conclusion": "There is at least one goblin that loves shiny coins.",
         "label": "Uncertain"
     },
@@ -369,7 +309,7 @@
         "id": "manual_64",
         "premises": "In a box of chocolates, some chocolates are not dark chocolate. The box contains milk chocolate, white chocolate, and dark chocolate. Dark chocolate is bitter. The box is a gift. The chocolates are handmade.",
         "conclusion": "No chocolates in the box are dark chocolate.",
-        "label": "Uncertain"
+        "label": "False"
     },
     {
         "id": "manual_65",
@@ -392,32 +332,14 @@
     {
         "id": "manual_68",
         "premises": "The cat is either on the roof or in the garage. The cat is on the roof. The roof is high. The garage is closed. The cat likes to climb. The bird is chirping.",
-        "conclusion": "The cat is not in the garage.",
-        "label": "Uncertain"
+        "conclusion": "The cat is in the garage.",
+        "label": "False"
     },
     {
         "id": "manual_69",
         "premises": "To bake the cake, you need sugar or honey. You used sugar. The recipe is old. The oven is preheated. The flour is measured. The eggs are fresh.",
         "conclusion": "You did not use honey.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_70",
-        "premises": "Ocha is yellow. Yellow is not a dark color. Alex doesn't like fruits that don't have a dark color. It is not true that Ocha is not a fruit.",
-        "conclusion": "Alex likes Ocha.",
-        "label": "False"
-    },
-    {
-        "id": "manual_73",
-        "premises": "Gloop is not from Mars. No creature from Mars can swim. Gloop can swim. It is not true that Gloop is not a creature.",
-        "conclusion": "Gloop is from Mars.",
-        "label": "False"
-    },
-    {
-        "id": "manual_75",
-        "premises": "Fizz does not run fast. No animal that runs fast is slow. Fizz is slow. It is not the case that Fizz is not an animal.",
-        "conclusion": "Fizz runs fast.",
-        "label": "False"
     },
     {
         "id": "manual_91",
@@ -435,7 +357,7 @@
         "id": "manual_93",
         "premises": "For all fruits, if it is sweet then it is ripe. Some fruit is not sweet. Every fruit that is ripe is edible. No edible fruit is poisonous. There is a fruit that is poisonous.",
         "conclusion": "Some fruit is not ripe.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_94",
@@ -459,11 +381,11 @@
         "id": "manual_98",
         "premises": "Every teacher who gives homework is strict. There exists a teacher who does not give homework. Every strict teacher is respected. No respected teacher is ignored. Some teacher is ignored.",
         "conclusion": "Some teacher is not strict.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_99",
-        "premises": "For every animal, if it has stripes then it is a tiger. Some animal has stripes and is not a tiger. Every tiger is dangerous. No dangerous animal is friendly. There is a friendly animal.",
+        "premises": "For every animal, if it has stripes then it is a tiger. Some tigers do not have stripes. Every tiger is dangerous. No dangerous animal is friendly. There is a friendly animal.",
         "conclusion": "Some animal with stripes is friendly.",
         "label": "False"
     },
@@ -496,24 +418,6 @@
         "premises": "Every child who likes ice cream likes cake. There is a child who likes cake and does not like ice cream. Every child who likes cake is happy. No happy child cries. Some child cries.",
         "conclusion": "Some child who likes ice cream is happy.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_105",
-        "premises": "For all books, if it is a mystery then it is exciting. Some book is exciting and not a mystery. Every exciting book is popular. No popular book is boring. There is a boring book.",
-        "conclusion": "Some mystery book is not exciting.",
-        "label": "False"
-    },
-    {
-        "id": "manual_106",
-        "premises": "Every employee who works overtime gets a bonus. There exists an employee who does not work overtime but gets a bonus. Every employee who gets a bonus is motivated. No motivated employee is lazy. Some employee is lazy.",
-        "conclusion": "Some employee who works overtime is not motivated.",
-        "label": "False"
-    },
-    {
-        "id": "manual_107",
-        "premises": "For every fruit, if it is tropical then it is sweet. Some fruit is sweet and not tropical. Every sweet fruit is delicious. No delicious fruit is sour. There is a sour fruit.",
-        "conclusion": "Some tropical fruit is not sweet.",
-        "label": "False"
     },
     {
         "id": "manual_108",
@@ -588,24 +492,6 @@
         "label": "False"
     },
     {
-        "id": "manual_120",
-        "premises": "Every animal that lives in water and has gills is a fish. Whales live in water. Whales do not have gills. All mammals breathe air. Whales are mammals. Every animal that breathes air is not a fish. There is an animal that lives in water and is not a fish.",
-        "conclusion": "Whales are not fish.",
-        "label": "True"
-    },
-    {
-        "id": "manual_128",
-        "premises": "If you heat ice, it melts. You heat a substance. The substance does not melt. The substance is ice. All ice melts at 0°C. The substance is at -5°C. You did not heat it enough.",
-        "conclusion": "The substance is ice.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_134",
-        "premises": "If it snows, the school closes. The school closes. It snows. The heating system is broken. The school closes only if it snows or the heating is broken. The heating is not broken.",
-        "conclusion": "It snows.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_139",
         "premises": "If the light is red, cars stop. Cars stop. The light is red. The traffic light is functioning. Cars stop only if the light is red or there is an obstacle. There is no obstacle.",
         "conclusion": "The light is red.",
@@ -636,22 +522,10 @@
         "label": "True"
     },
     {
-        "id": "manual_154",
-        "premises": "All teachers are students. Some students are very tall. Mr. Smith is a teacher. No teacher is very tall. Mr. Smith works at a school near the river.",
-        "conclusion": "Mr. Smith is very tall.",
-        "label": "False"
-    },
-    {
         "id": "manual_156",
         "premises": "All cars are bicycles. Some bicycles can fly. A bicycle that can fly is very expensive. Tom has a car. Tom's car is red and very fast.",
         "conclusion": "Tom's car is a bicycle that can fly.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_157",
-        "premises": "Every fruit is a vegetable. Every vegetable is green. Broccoli is a vegetable. An apple is a fruit. A banana is a fruit. Bananas are yellow.",
-        "conclusion": "An apple is green.",
-        "label": "True"
     },
     {
         "id": "manual_158",
@@ -663,12 +537,6 @@
         "id": "manual_159",
         "premises": "All chairs are tables. All tables are made of glass. A table that is made of glass can break easily. This object is a chair. This object is in my room.",
         "conclusion": "This object is made of glass.",
-        "label": "True"
-    },
-    {
-        "id": "manual_163",
-        "premises": "All apples are oranges. All oranges are purple. A fruit that is purple tastes very sweet. This fruit is an apple. This fruit is on the kitchen table.",
-        "conclusion": "This fruit tastes very sweet.",
         "label": "True"
     },
     {
@@ -690,58 +558,10 @@
         "label": "True"
     },
     {
-        "id": "manual_167",
-        "premises": "Elephants are tiny animals. Any tiny animal can fit in a small box. Elephants live in Africa. Lions live in Africa. An elephant can be seen at the zoo.",
-        "conclusion": "Elephants can fit in a small box.",
-        "label": "True"
-    },
-    {
-        "id": "manual_169",
-        "premises": "All pencils are pens. All pens write with blue ink. This is a pencil. This is on my desk. I use it to write letters.",
-        "conclusion": "This writes with blue ink.",
-        "label": "True"
-    },
-    {
         "id": "manual_170",
         "premises": "If a shape is a square, then it has five sides. My drawing is a square. A shape with five sides is called a pentagon. Triangles have three sides.",
         "conclusion": "My drawing has five sides.",
         "label": "True"
-    },
-    {
-        "id": "manual_171",
-        "premises": "All rivers flow north. The Nile is a river. The Amazon is a river. The Nile is in Africa. The Amazon is in South America.",
-        "conclusion": "The Nile flows north.",
-        "label": "True"
-    },
-    {
-        "id": "manual_172",
-        "premises": "Iceland is in Africa. Africa and Asia are different continents. Vietnam and Iceland are in the same continent. A country cannot be in two continents at the same time",
-        "conclusion": "Vietnam is in Asia.",
-        "label": "False"
-    },
-    {
-        "id": "manual_176",
-        "premises": "If it is raining, then the ground is wet. The ground is wet now. It might have rained. Sometimes the ground is wet because someone spilled water.",
-        "conclusion": "It is raining now.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_177",
-        "premises": "All students in this class wear glasses. Tom is a student in this class. Mary is a student in this class. Some students in the school do not wear glasses. Tom sits near the window.",
-        "conclusion": "Tom wears glasses.",
-        "label": "True"
-    },
-    {
-        "id": "manual_179",
-        "premises": "All triangles are red. This shape is red. Some red shapes are triangles. Squares are never red. This shape is a circle.",
-        "conclusion": "This shape is a triangle.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_180",
-        "premises": "Every person in this room owns exactly one hat. Some people in this room own a red hat. No person in this room owns more than one red hat. There is at least one person in this room. John is a person in this room. John owns a red hat.",
-        "conclusion": "There is at least one person in this room who does not own a red hat.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_181",
@@ -768,66 +588,6 @@
         "label": "True"
     },
     {
-        "id": "manual_185",
-        "premises": "All flowers need water. Some flowers do not need sunlight. A rose is a flower. A cactus is a flower. The rose needs sunlight. The cactus does not need sunlight.",
-        "conclusion": "The cactus needs water.",
-        "label": "True"
-    },
-    {
-        "id": "manual_186",
-        "premises": "Every dog in the park is playing with some toy. Some dogs in the park are not playing with a ball. There is a dog in the park playing with a stick. Max is a dog in the park. Max is playing with a ball.",
-        "conclusion": "Max is playing with a toy.",
-        "label": "True"
-    },
-    {
-        "id": "manual_187",
-        "premises": "Some birds can swim. All penguins are birds. No bird that can swim can fly. Some penguins can fly. Tweety is a penguin.",
-        "conclusion": "Tweety can swim.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_188",
-        "premises": "Every town has a mayor. Some towns have a park. No town has both a park and a beach. Springfield is a town. Springfield has a mayor. Springfield has a beach.",
-        "conclusion": "Springfield does not have a park.",
-        "label": "True"
-    },
-    {
-        "id": "manual_189",
-        "premises": "All cars in the lot are either red or blue. Some cars in the lot are red. There is at least one blue car in the lot. No car is both red and blue. Car X is in the lot. Car X is not blue.",
-        "conclusion": "Car X is red.",
-        "label": "True"
-    },
-    {
-        "id": "manual_190",
-        "premises": "Every team has a leader. Some teams have a leader who is also a player. No team has more than one leader. Team Alpha is a team. Team Alpha has a player named Bob. Bob is a leader.",
-        "conclusion": "Bob is the leader of Team Alpha.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_191",
-        "premises": "All fruits contain seeds. Some fruits are sweet. There exists a fruit that is not sweet. A tomato is a fruit. A banana is a fruit. The tomato is not sweet.",
-        "conclusion": "The tomato contains seeds.",
-        "label": "True"
-    },
-    {
-        "id": "manual_192",
-        "premises": "Every person who lives in the blue house owns a pet. Some people who own a pet do not own a dog. There is a person who lives in the blue house and owns a cat. Alice lives in the blue house. Alice does not own a cat.",
-        "conclusion": "Alice owns a dog.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_193",
-        "premises": "All squares are rectangles. Some rectangles are not squares. Every shape with four equal sides is a square. Shape S is a rectangle. Shape S has four equal sides.",
-        "conclusion": "Shape S is a square.",
-        "label": "True"
-    },
-    {
-        "id": "manual_194",
-        "premises": "Some teachers are strict. All strict teachers give homework every day. There is a teacher who does not give homework every day. Mr. Jones is a teacher. Mr. Jones is strict.",
-        "conclusion": "Mr. Jones gives homework every day.",
-        "label": "True"
-    },
-    {
         "id": "manual_197",
         "premises": "Every planet orbits a star. Some planets have moons. There is a planet with no moons. Earth is a planet. Earth has one moon.",
         "conclusion": "Earth orbits a star.",
@@ -843,12 +603,6 @@
         "id": "manual_200",
         "premises": "If the ice cream is kept inside the cold freezer all day, it will stay very hard and will not melt into a sticky liquid. The young boy put his favorite bowl of chocolate ice cream on the wooden kitchen table and went outside to play with his friends for three hours. When he came back inside the house, he found that the ice cream was still very hard and frozen, exactly like it was when he first took it out of the freezer.",
         "conclusion": "The ice cream was kept inside the cold freezer while the boy was outside.",
-        "label": "False"
-    },
-    {
-        "id": "manual_201",
-        "premises": "All professional athletes who participate in the Olympic games must pass a strict health test and must not use any forbidden medicines to improve their performance. Any person who passes the strict health test and does not use forbidden medicines is considered a fair player and a good example for young children. John is a professional athlete who was selected to participate in the Olympic games this year and he has already completed all the necessary official tests.",
-        "conclusion": "John is considered a fair player and a good example for young children.",
         "label": "Uncertain"
     },
     {
@@ -856,18 +610,6 @@
         "premises": "No student who fails to complete the final science project is allowed to attend the end-of-year party at the park. Every student who is allowed to attend the end-of-year party will receive a free bag of popcorn and a bottle of cold juice. Mark is a student who successfully completed his final science project three days before the deadline and he even got an extra point from the teacher for his very hard work and great effort.",
         "conclusion": "Mark will receive a free bag of popcorn and a bottle of cold juice at the party.",
         "label": "Uncertain"
-    },
-    {
-        "id": "manual_203",
-        "premises": "If the kite is made of very light paper and has a long tail, it will fly very high when the wind blows across the open field. Sarah is at the park today with her new kite, and she is waiting for the wind to get stronger so she can start flying it. Her kite is made of very light paper and has a beautiful long tail with many colorful ribbons, and she is very excited to see how high it can go in the sky.",
-        "conclusion": "The kite will fly very high when the wind blows.",
-        "label": "True"
-    },
-    {
-        "id": "manual_204",
-        "premises": "Whenever the local museum has a new art exhibit, they offer free admission to all students who bring their school ID cards on the first day. The museum just opened a new exhibit of ancient pottery today, and many students are currently standing in line at the entrance. A student named Alex is in the line and he has his school ID card ready in his hand, hoping that he will be able to get inside without paying for a ticket today.",
-        "conclusion": "Alex will receive free admission to the museum today.",
-        "label": "True"
     },
     {
         "id": "manual_205",
@@ -891,12 +633,6 @@
         "id": "manual_209",
         "premises": "For any user account U, if U enters an incorrect password three times, U is locked out for 30 minutes, provided U is not a system administrator account. If U is a system administrator account, U is not locked out for 30 minutes. Account Admin_Root enters an incorrect password three times.",
         "conclusion": "Account Admin_Root is locked out for 30 minutes.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_210",
-        "premises": "For any abstract Klorp K, if K is completely vizzed, K produces exactly five Zibs. If K produces exactly five Zibs, K achieves maximum grobness. Abstract Klorp Theta is completely vizzed. Abstract Klorp Phi is only partially vizzed. Achieving maximum grobness causes the Klorp to turn bright purple. Abstract Klorp Theta exists in a theoretical multi-dimensional vacuum. A theoretical multi-dimensional vacuum has no physical air resistance. Abstract Klorp Phi wobbles inconsistently during observation. Wobbling inconsistently makes precise measurement extremely challenging. Precise measurement requires advanced calibration tools. Advanced calibration tools are very expensive to manufacture. Producing exactly five Zibs is a strictly deterministic process. Deterministic processes always yield identical outputs for identical inputs.",
-        "conclusion": "Abstract Klorp Phi achieves maximum grobness.",
         "label": "Uncertain"
     },
     {
@@ -930,388 +666,10 @@
         "label": "Uncertain"
     },
     {
-        "id": "manual_218",
-        "premises": "For any action A, if A is possibly true, it means there exists at least one valid scenario where A occurs. Action 'Winning_Lottery' is possibly true. If an action is possibly true, it does not imply the action is factually true in the current reality.",
-        "conclusion": "Action 'Winning_Lottery' is factually true in the current reality.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_219",
-        "premises": "For any action A, if A is morally praiseworthy, it does not imply A is legally obligatory. Donating to charity is morally praiseworthy.",
-        "conclusion": "Donating to charity is legally obligatory.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_220",
-        "premises": "For any document D, if D is a severed part of a master file, D loses its original cryptographic signature. If D loses its signature, D is flagged as untrusted by the security protocol. Document Appendix_B is a severed part of Master_File_1. The security protocol scans Document Appendix_B. Document Chapter_1 is an intact part of Master_File_1.",
-        "conclusion": "Document Chapter_1 is flagged as untrusted by the security protocol.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_221",
-        "premises": "Whenever the kitchen smells like delicious sweet cinnamon and warm sugar, it means that the mother is baking her famous apple pie for the family dinner. Right now, the entire house is filled with the wonderful smell of delicious sweet cinnamon and warm sugar coming from the kitchen. The children are sitting at the table with their forks ready, hoping that they will get a large piece of the warm treat as soon as it is finished and taken out of the oven.",
-        "conclusion": "The mother is baking her famous apple pie for the family dinner.",
-        "label": "True"
-    },
-    {
-        "id": "manual_222",
-        "premises": "Whenever the school bell rings loudly at exactly three o'clock, all the children quickly pack their bags and run outside to meet their parents. The school bell just rang very loudly a few moments ago, and the hallways are now filled with the sound of many children talking and laughing together. Some of the children are already walking towards the main gate, while others are still putting their books away and saying goodbye to their teachers before they leave for home.",
-        "conclusion": "The school bell rang at exactly three o'clock.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_223",
-        "premises": "If the captain of the ship sees a red flare in the distance, he must immediately turn the vessel towards the signal to provide emergency assistance to those in trouble. Late last night, while sailing through the calm waters of the Pacific Ocean, the lookout on the deck reported seeing a bright red light flickering on the horizon for several minutes. The captain was informed of the situation and began to check the radar to see if there were any other ships nearby in the area.",
-        "conclusion": "The captain saw a red flare and is turning the vessel to provide assistance.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_224",
-        "premises": "For any cities X and Y, if X is directly north of Y, then Y is directly south of X. For any cities X, Y, and Z, if X is directly north of Y, and Y is directly west of Z, then X is northwest of Z. City M is directly north of City N. City N is directly west of City O.",
-        "conclusion": "City O is directly south of City M.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_225",
-        "premises": "Whenever a new smartphone model is released by the major technology company, thousands of people wait in long lines outside the stores to be the first to buy it. A new smartphone was officially released by the company this morning, and news reporters are currently filming the crowds at several locations in the city. Some people in the crowd have been waiting since yesterday evening with tents and chairs, hoping to get the new device before the stores run out of stock later today.",
-        "conclusion": "Thousands of people are waiting in lines to buy the new smartphone.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_226",
-        "premises": "For any mechanic M and engine E, if M knows E is irreparably damaged, M scraps E. Mechanic Bob believes Engine V8 is irreparably damaged, but he does not know it for a fact.",
-        "conclusion": "Mechanic Bob scraps Engine V8.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_227",
-        "premises": "If the electric heater is plugged into the wall and turned to the highest setting, the room will become warm in less than ten minutes. The electric heater is currently unplugged and sitting in the corner of the cold room, and no one has touched it all day. Because the heater is not working, the temperature in the room is still very cold and everyone is wearing their heavy coats to stay warm while they are working at their desks today.",
-        "conclusion": "The room became warm in less than ten minutes.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_228",
-        "premises": "Stage Larva occurs entirely during Stage Maturation. Stage Maturation strictly precedes Stage Adult.",
-        "conclusion": "Stage Larva strictly precedes Stage Adult.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_229",
-        "premises": "For any dormant volcano V, if V records sudden harmonic tremors, V is highly likely to erupt within weeks. If V is highly likely to erupt within weeks, local authorities mandate an immediate civilian evacuation. Dormant volcano Mount_Ash records sudden harmonic tremors. Dormant volcano Mount_Calm remains perfectly seismically still. Mandating an immediate civilian evacuation requires deploying the national guard. Deploying the national guard involves complex logistical coordination. Complex logistical coordination relies on secure radio communications. Mount_Ash is located near a heavily populated tropical island. A heavily populated tropical island relies heavily on tourism. Tourism provides the primary source of regional income. Mount_Calm is located in a barren frozen wasteland. A barren frozen wasteland is inhospitable to human settlement. Sudden harmonic tremors indicate magma moving deep underground.",
-        "conclusion": "Local authorities mandate an immediate civilian evacuation for Mount_Calm.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_231",
         "premises": "For any child C and entity E, if C believes E lives under the bed, it does not mean E actually exists. Child Timmy believes the Monster lives under the bed. No biological entities live under Timmy's bed.",
         "conclusion": "The Monster actually exists and lives under Timmy's bed.",
         "label": "False"
-    },
-    {
-        "id": "manual_232",
-        "premises": "For any action A, if A physically occurs, it does not imply that A is officially permitted. Action 'Trespassing' physically occurs at the facility.",
-        "conclusion": "Action 'Trespassing' is officially permitted at the facility.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_233",
-        "premises": "For any propositions P and Q, if it is necessarily true that (If P then Q), and P is possibly true, then Q is possibly true. It is necessarily true that (If Door_Open, then Alarm_Rings). It is possibly true that Door_Open.",
-        "conclusion": "Alarm_Rings is necessarily true.",
-        "label": "False"
-    },
-    {
-        "id": "manual_234",
-        "premises": "Whenever the ice cream truck drives through the neighborhood and plays its happy music, all the children run outside with their money to buy a cold treat. We can hear the happy music of the ice cream truck coming from the next street over, and it seems to be getting closer and closer to our house. My little brother is already looking for his money in his piggy bank because he really wants to buy a chocolate ice cream cone with some sprinkles.",
-        "conclusion": "All the children are running outside with their money to buy a cold treat.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_235",
-        "premises": "For any metric space M, if M is a complete metric space, every Cauchy sequence in M converges to a point strictly within M. Metric space Q is not a complete metric space.",
-        "conclusion": "Every Cauchy sequence in Metric space Q converges to a point strictly within Q.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_237",
-        "premises": "If the morning sky is filled with dark grey clouds and the birds are hiding in their nests, it is a certain sign that a heavy rainstorm will begin before the school bell rings at eight o'clock. This morning, the sky above the playground is a beautiful bright blue with no clouds at all, and the birds are singing loudly in the trees. Despite this, the teacher told all the students to bring their umbrellas and raincoats inside the classroom just in case they need them.",
-        "conclusion": "A heavy rainstorm will begin before the school bell rings at eight o'clock.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_238",
-        "premises": "Every single beautifully wrapped incredibly sweet vanilla birthday cake legally purchased directly from the extremely popular downtown French bakery contains a hidden edible golden chocolate coin carefully tucked beneath the thick pink strawberry frosting. Any lucky excited child who happily discovers a hidden edible golden chocolate coin carefully tucked beneath the thick pink strawberry frosting officially wins a completely free customized sugary dessert every single month for an entire year. My extremely excited younger brother proudly legally purchased a beautifully wrapped incredibly sweet vanilla birthday cake directly from the extremely popular downtown French bakery using his hard-earned allowance yesterday afternoon.",
-        "conclusion": "My extremely excited younger brother officially wins a completely free customized sugary dessert every single month for an entire year.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_239",
-        "premises": "Whenever a wildly famous international fashion designer surprisingly announces a completely unscripted secret runway show at the tiny abandoned downtown warehouse, the highly dedicated local fashion bloggers immediately form an incredibly long excited line stretching around the entire dark city block. This chilly evening, the highly dedicated local fashion bloggers immediately formed an incredibly long excited line stretching around the entire dark city block, aggressively pushing past the confused neighborhood residents. Several heavily armed private security guards hastily quickly set up heavy metal crowd barricades and completely blocked off the busy narrow street to safely manage the massive screaming extremely chaotic gathering.",
-        "conclusion": "A wildly famous international fashion designer surprisingly announced a completely unscripted secret runway show at the tiny abandoned downtown warehouse this chilly evening.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_241",
-        "premises": "Every beautifully preserved massive dinosaur skeleton carefully safely excavated by the dedicated university paleontological team directly contains incredibly rare fossilized marrow perfectly trapped within the giant heavy thigh bones. Any extremely fragile historical prehistoric artifact that directly contains incredibly rare fossilized marrow perfectly trapped within the giant heavy thigh bones is automatically securely transported to the highly advanced underground global DNA research laboratory. The remarkably gigantic stone fossil carefully safely excavated by the dedicated university paleontological team deep inside the dark forgotten desert valley yesterday afternoon is a beautifully preserved massive dinosaur skeleton. The thrilled scientists cheered.",
-        "conclusion": "The remarkably gigantic stone fossil is automatically securely transported to the highly advanced underground global DNA research laboratory.",
-        "label": "True"
-    },
-    {
-        "id": "manual_242",
-        "premises": "If the highly skilled undercover investigative journalist successfully secretly records the incredibly corrupt corporate billionaire admitting to massive global tax fraud, the major national newspaper publisher will happily incredibly prominently feature the explosive controversial article on the Sunday front page. This bright incredibly sunny Sunday morning, the major national newspaper publisher happily incredibly prominently featured the explosive controversial article on the heavily anticipated Sunday front page. The shocking financial political news instantly caused massive incredible ripples throughout the entire deeply interconnected international stock market, heavily rapidly driving down the overall current market value of several different massive independent offshore banking companies.",
-        "conclusion": "The highly skilled undercover investigative journalist successfully secretly recorded the incredibly corrupt corporate billionaire admitting to massive global tax fraud.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_244",
-        "premises": "If the brilliant software engineer completely writes a flawless revolutionary new operating system overnight, the eccentric tech billionaire will immediately happily wire her exactly five million dollars. This early morning, the extremely eccentric tech billionaire immediately happily wired her exactly five million dollars directly into her secure private offshore bank account. The sudden massive financial transfer caused a huge loud stir among the highly tight-knit Silicon Valley corporate investor community. Many prominent wealthy venture capitalists are now furiously frantically calling her primary agent, desperately trying to figure out what incredible hidden technological breakthrough prompted such an enormous reward.",
-        "conclusion": "The brilliant software engineer completely wrote a flawless revolutionary new operating system overnight.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_245",
-        "premises": "Whenever a massive dangerous underwater volcanic eruption violently shakes the deep Pacific ocean floor, the highly advanced coastal tsunami buoys automatically trigger incredibly loud emergency warning sirens across the entire populated island. Late last night, the highly advanced coastal tsunami buoys automatically triggered incredibly loud emergency warning sirens across the entire beautiful populated tropical island. Terrified sleeping residents frantically quickly grabbed their heavy pre-packed emergency survival kits and immediately rapidly rushed toward the designated high-altitude rocky mountain shelters. The extremely confused local government officials desperately tried to establish reliable secure radio communications with the central seismic monitoring station.",
-        "conclusion": "A massive dangerous underwater volcanic eruption violently shook the deep Pacific ocean floor last night.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_246",
-        "premises": "If the incredibly talented young pastry chef successfully perfectly bakes a towering dark chocolate souffle for the notoriously harsh food critic, the highly prestigious global culinary magazine will officially proudly feature him on their glossy monthly cover. Yesterday afternoon, the highly prestigious global culinary magazine officially proudly featured the incredibly talented young pastry chef directly on their glossy monthly front cover. His small family-owned neighborhood bakery was immediately completely flooded with hundreds of eager excited new customers desperately wanting to taste his magnificent sweet sugary creations. The exhausted but deeply happy kitchen staff worked extremely hard throughout the entire busy weekend.",
-        "conclusion": "The incredibly talented young pastry chef successfully perfectly baked a towering dark chocolate souffle for the notoriously harsh food critic.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_247",
-        "premises": "Whenever a highly sophisticated anonymous cyber hacking group successfully completely breaches the main heavily encrypted central bank servers, the massive national federal cybersecurity agency instantly completely shuts down the entire public internet grid. Early this chaotic morning, the panicked national federal cybersecurity agency instantly completely shut down the entire massive public internet communication grid across the entire country. Millions of highly frustrated remote office workers were suddenly completely unable to access their crucial daily business emails or important virtual video meetings. Several prominent independent technological news outlets are currently wildly actively speculating about the hidden true terrifying nature of the collapse.",
-        "conclusion": "A highly sophisticated anonymous cyber hacking group successfully completely breached the main heavily encrypted central bank servers early this morning.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_248",
-        "premises": "If the deeply experienced professional wildlife photographer manages to perfectly capture a clear stunning high-resolution image of the incredibly rare elusive snow leopard, the highly renowned international nature museum will happily pay him fifty thousand dollars. This past weekend, the highly renowned international nature museum happily immediately paid the deeply experienced professional wildlife photographer exactly fifty thousand dollars. He excitedly used the massive generous financial reward to completely upgrade his heavily outdated heavy camera equipment and immediately book another very long dangerous expedition into the freezing harsh Himalayan mountains. His supportive professional colleagues constantly greatly admire his incredible unwavering relentless lifelong dedication.",
-        "conclusion": "The deeply experienced professional wildlife photographer managed to perfectly capture a clear stunning high-resolution image of the incredibly rare elusive snow leopard.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_249",
-        "premises": "Whenever a devastatingly powerful massive solar flare directly hits the vulnerable delicate outer atmospheric communication satellites, the entire massive global cellular telephone network completely temporarily goes offline for several very long hours. Yesterday afternoon, the entire extremely massive global cellular telephone communication network completely temporarily went totally offline for several very long frustrating hours. Millions of highly confused angry mobile users desperately constantly frantically restarted their expensive smart devices, completely failing to send any basic short text messages to their deeply worried distant family members. The heavily overwhelmed automated customer service hotlines were completely immediately entirely jammed with endless incredibly irritated callers.",
-        "conclusion": "A devastatingly powerful massive solar flare directly hit the vulnerable delicate outer atmospheric communication satellites yesterday afternoon.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_250",
-        "premises": "If the highly intelligent brilliant quantum physicist successfully finally definitively proves her incredibly complex theoretical string theory equation, the prestigious noble academic committee will officially proudly award her the ultimate grand science prize. This beautiful sunny morning, the highly prestigious noble international academic committee officially proudly awarded the highly intelligent brilliant quantum physicist the ultimate grand science prize during a beautiful televised formal ceremony. She happily gratefully accepted the heavy beautiful golden medal while her extremely deeply proud university colleagues loudly excitedly cheered from the crowded front row. Many young aspiring brilliant physics students were incredibly deeply thoroughly profoundly inspired.",
-        "conclusion": "The highly intelligent brilliant quantum physicist successfully finally definitively proved her incredibly complex theoretical string theory equation.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_251",
-        "premises": "Whenever the wildly popular charismatic independent politician surprisingly completely undeniably wins the deeply fiercely contested local mayoral election, the massive enthusiastic crowds immediately joyfully gather outside the tall historic city hall building. Late last highly eventful night, the massive incredibly enthusiastic loudly cheering crowds immediately joyfully gathered outside the tall beautiful historic city hall building. Hundreds of deeply happy excited local citizens proudly aggressively waved brightly colored campaign flags and constantly loudly sang extremely cheerful traditional victory songs until the very early quiet morning hours. The completely thoroughly exhausted but highly relieved local police officers gently peacefully safely managed the massive gathering.",
-        "conclusion": "The wildly popular charismatic independent politician surprisingly completely undeniably won the deeply fiercely contested local mayoral election last night.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_252",
-        "premises": "If the incredibly wealthy eccentric highly secretive art collector successfully secretly purchases the famously stolen original Renaissance painting at the dark underground black market, he will immediately quietly move it to his heavily guarded private mountain vault. Early yesterday deeply foggy morning, the incredibly wealthy eccentric highly secretive art collector immediately quietly moved a massive heavily securely wrapped rectangular package directly into his heavily guarded private mountain vault. The completely baffled international art theft detectives are currently furiously intensely deeply investigating his incredibly shady highly suspicious recent massive financial transactions, desperately hoping to finally safely recover the incredibly deeply priceless stolen historical masterpiece.",
-        "conclusion": "The incredibly wealthy eccentric highly secretive art collector successfully secretly purchased the famously stolen original Renaissance painting at the dark underground black market.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_253",
-        "premises": "Whenever a fiercely territorial aggressive giant white shark completely violently attacks the sturdy yellow floating coastal research buoy, the deeply terrified marine biologists immediately hastily entirely evacuate the small vulnerable rubber dinghy. This incredibly bright sunny afternoon, the completely deeply terrified exhausted marine biologists immediately hastily entirely evacuated their extremely small highly vulnerable gray rubber dinghy. They frantically heavily quickly pulled the massive loudly roaring outboard motor cord and extremely rapidly completely sped away toward the distant safety of the massive heavily armored metal mother ship. Several completely shaken young student interns were heavily uncontrollably crying while tightly hugging their life jackets.",
-        "conclusion": "A fiercely territorial aggressive giant white shark completely violently attacked the sturdy yellow floating coastal research buoy this afternoon.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_254",
-        "premises": "If the highly renowned veteran archeologist successfully safely perfectly discovers the legendary lost golden heavily jeweled crown of the ancient forgotten desert king, the massive prestigious national history museum will proudly host a massive incredibly expensive celebratory gala. Last incredibly highly eventful weekend, the massive extremely prestigious national history museum proudly hosted a massive incredibly highly expensive completely lavish celebratory gala. Hundreds of incredibly wealthy generous philanthropic donors heavily happily mingled in the massively deeply decorated grand entrance hall, thoroughly heavily enjoying the absolutely completely delicious expensive catered luxury food. Everyone deeply constantly excitedly discussed the incredibly absolutely utterly profound historical implications.",
-        "conclusion": "The highly renowned veteran archeologist successfully safely perfectly discovered the legendary lost golden heavily jeweled crown of the ancient forgotten desert king.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_255",
-        "premises": "Whenever a completely massive highly destructive incredibly terrifying tornado violently directly aggressively touches down perfectly near the deeply populated tiny rural farming community, the old rusty extremely loud emergency town siren loudly instantly continuously blares. Early this incredibly terrifying heavily dark stormy evening, the old rusty extremely loud emergency town siren loudly instantly continuously blared. The completely deeply terrified sleeping local farming families immediately rapidly completely entirely rushed down into their damp dark heavily reinforced concrete underground storm cellars. They tightly completely nervously huddled together perfectly entirely quietly, desperately deeply intensely hoping their fragile small wooden houses would miraculously somehow completely safely survive.",
-        "conclusion": "A completely massive highly destructive incredibly terrifying tornado violently directly aggressively touched down perfectly near the deeply populated tiny rural farming community this evening.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_256",
-        "premises": "If the exceptionally brilliant and incredibly gifted young chess prodigy successfully and completely defeats the currently reigning arrogant world champion during the final match, the highly exclusive international grandmaster association will immediately officially award him the absolute highest honorable title. Yesterday afternoon, the highly exclusive and incredibly prestigious international grandmaster association immediately officially awarded the exceptionally brilliant and incredibly gifted young chess prodigy the absolute highest honorable chess title. The completely stunned and deeply silent global chess community immediately entirely furiously debated the profoundly historical and absolutely stunning implications of this incredibly massive sudden dramatic shift in the highly competitive global rankings.",
-        "conclusion": "The exceptionally brilliant and incredibly gifted young chess prodigy successfully and completely defeated the currently reigning arrogant world champion during the final match.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_257",
-        "premises": "Whenever a highly dangerous and incredibly ruthless professional bank robbery crew successfully breaches the massive solid thick main steel underground vault, the highly sophisticated central silent security alarm instantly quietly alerts the heavily armored tactical police response unit. Early this remarkably chaotic and deeply incredibly terrifying morning, the highly sophisticated central silent security alarm instantly quietly alerted the extremely heavily armored and highly trained tactical police response unit. Dozens of completely serious and intensely focused heavily armed law enforcement officers immediately rapidly completely aggressively completely surrounded the entire large beautiful historic downtown financial building, heavily totally securing the completely deeply heavily extremely completely utterly panicked massive civilian perimeter.",
-        "conclusion": "A highly dangerous and incredibly ruthless professional bank robbery crew successfully breached the massive solid thick main steel underground vault early this morning.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_258",
-        "premises": "If the highly advanced and incredibly expensive deep-sea exploration submarine successfully reaches the completely unmapped dark bottom of the massive Mariana oceanic trench, the deeply proud marine scientific research team will immediately open a massive vintage champagne bottle. This incredibly eventful and absolutely wonderful late afternoon, the deeply proud and highly exhausted marine scientific research team immediately joyfully opened a massive incredibly expensive vintage glass champagne bottle. They loudly and excitedly celebrated inside the incredibly cramped completely metallic heavily highly pressurized submarine control room, deeply thoroughly enjoying their incredibly rare perfectly beautiful completely massively utterly totally absolutely incredibly absolutely completely deeply well-deserved historical victory.",
-        "conclusion": "The highly advanced and incredibly expensive deep-sea exploration submarine successfully reached the completely unmapped dark bottom of the massive Mariana oceanic trench.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_259",
-        "premises": "The exhausted old detective slowly walked into the dimly lit, completely abandoned downtown warehouse. He carefully examined the dusty wooden floorboards, heavily searching for any hidden extremely tiny physical clues left behind by the notorious masked fugitive. A cold, bitter winter wind violently howled through the spectacularly shattered glass windows, loudly echoing across the incredibly massive empty industrial space. He tightly gripped his standard-issue heavy service revolver, deeply intensely anticipating a sudden violent ambush from the dark shadowy corners. Eventually, he quietly discovered a torn, bloody piece of dark fabric snagged on a rusty iron nail.",
-        "conclusion": "The notorious masked fugitive intentionally left the torn, bloody piece of dark fabric as a trap for the old detective.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_260",
-        "premises": "The highly ambitious young aerospace engineer spent countless incredibly exhausting sleepless nights meticulously designing the highly advanced experimental rocket thruster. Her incredibly complex deeply detailed mathematical calculations heavily strongly suggested that the incredibly innovative new titanium engine design would perfectly easily withstand the extremely massive burning atmospheric reentry temperatures. She proudly carefully formally presented her massive thick technical report to the deeply skeptical senior NASA executive board during the highly tense Monday morning review meeting. They silently carefully thoroughly reviewed her incredibly extensive colorful digital charts and heavily deeply debated the incredibly massive financial production costs.",
-        "conclusion": "The deeply skeptical senior NASA executive board officially approved the immediate funding for her highly advanced experimental rocket thruster.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_261",
-        "premises": "A completely massive incredibly heavy ancient gray stone monument stands perfectly silently in the deeply dense highly isolated heavily overgrown South American jungle. Many highly respected incredibly dedicated international university archeologists have thoroughly extensively heavily carefully studied the incredibly deeply mysterious highly complex strange geometric symbols deeply carved into its extremely solid cold rough surface. The extremely humid highly oppressive thick tropical heat constantly deeply utterly exhausts the absolutely totally dedicated massive excavation team every single incredibly long completely tiring highly strenuous difficult workday. Beautiful extremely bright colorful tropical exotic birds constantly loudly sing high above.",
-        "conclusion": "The highly complex strange geometric symbols were carved by an advanced extraterrestrial civilization thousands of years ago.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_262",
-        "premises": "The highly skilled heavily armed elite tactical military squad quietly completely silently fast-roped down from the extremely massive dark hovering transport helicopter into the deeply highly hostile completely extremely incredibly heavily fortified enemy compound. They immediately rapidly fiercely entirely absolutely utterly extremely completely swiftly breached the massively highly heavily reinforced thick solid heavy steel front doors using powerful highly advanced explosive extremely loud deeply destructive cutting charges. The totally completely thoroughly heavily deeply absolutely entirely extremely massively deafening massive explosion completely incredibly violently shook the entirely deeply extremely solid heavy concrete foundations of the massive tall building.",
-        "conclusion": "The elite tactical military squad successfully rescued the high-value political hostages held inside the fortified enemy compound.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_263",
-        "premises": "The heavily dark and incredibly ominous stormy night sky suddenly and violently unleashed a massive, freezing rainstorm over the isolated mountainous region. The rapidly rising, deeply muddy, and incredibly powerful rushing floodwaters aggressively tore through the small, completely highly vulnerable farming valley, instantly destroying several beautifully hand-built ancient wooden bridges along the swollen river. Terrified local villagers frantically evacuated their fragile flooded homes, heavily desperately carrying their incredibly completely absolutely utterly deeply deeply highly extremely totally thoroughly precious incredibly heavily completely utterly deeply highly extremely heavy totally completely entirely thoroughly massive absolutely totally heavy personal belongings.",
-        "conclusion": "The terrified local villagers managed to safely rescue all of their livestock before the floodwaters destroyed their farms.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_264",
-        "premises": "The incredibly famous and highly controversial modern artist proudly unveiled his massive, bizarrely shaped, completely bright neon pink steel sculpture right in the center of the deeply crowded, incredibly busy historic downtown public plaza. Hundreds of highly confused and deeply curious daily city commuters immediately stopped in their tracks to extensively heavily intensively carefully completely completely absolutely utterly deeply completely totally absolutely entirely thoroughly deeply stare at the absolutely entirely deeply completely utterly extremely massive heavily incredibly completely absolutely highly entirely utterly completely deeply completely completely completely highly totally entirely perfectly utterly weird strange massive modern artwork.",
-        "conclusion": "The highly controversial modern artist felt deeply insulted by the confused reactions of the daily city commuters.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_265",
-        "premises": "A completely mysterious, beautifully crafted, and incredibly heavy ancient golden amulet was suddenly safely discovered deeply buried underneath the massive, absolutely solid roots of the oldest, largest oak tree in the incredibly dark, deeply isolated rural village square. The deeply shocked, highly excited local amateur historian carefully brushed away the thick, heavy, damp dark soil from the incredibly shiny, perfectly preserved historical precious metallic artifact. The completely deeply absolutely utterly totally deeply entirely perfectly highly completely incredibly heavily intensely completely incredibly absolutely highly utterly entirely absolutely deeply perfectly completely incredibly entirely highly thoroughly engraved strange magical symbols continuously brightly gleamed.",
-        "conclusion": "The beautifully crafted ancient golden amulet originally belonged to a wealthy Roman emperor who traveled through the village.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_266",
-        "premises": "The deeply exhausted, extremely strict, and notoriously highly demanding private boarding school headmaster fiercely and angrily yelled at the incredibly terrified, completely silent group of young misbehaving students standing awkwardly inside his heavily decorated, massive dark wooden office. He aggressively and loudly slammed his completely heavy, incredibly thick leather-bound disciplinary rulebook violently onto the absolutely completely thoroughly massive deeply solid heavy extremely incredibly thoroughly highly deeply extremely thoroughly completely absolutely extremely entirely entirely totally deeply totally completely utterly completely thoroughly deeply deeply entirely entirely deeply completely perfectly perfectly completely absolutely absolutely entirely completely perfectly perfectly massive heavy mahogany desk.",
-        "conclusion": "The notoriously highly demanding private boarding school headmaster permanently expelled the terrified group of young misbehaving students.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_267",
-        "premises": "The incredibly brilliant, highly successful, and deeply secretive corporate technology billionaire quietly purchased the beautifully historic, massively sprawling coastal mansion overlooking the completely gorgeous, stunningly blue Pacific ocean. He immediately hired a deeply experienced, incredibly highly trained private security firm to completely entirely completely entirely deeply fully heavily strictly strictly severely deeply fiercely entirely absolutely heavily extremely heavily perfectly entirely heavily entirely thoroughly intensely perfectly heavily extremely heavily firmly completely absolutely fully securely completely deeply thoroughly firmly absolutely intensely deeply firmly securely completely securely completely strongly entirely securely thoroughly deeply deeply heavily deeply strictly protect the massive beautiful isolated estate.",
-        "conclusion": "The deeply secretive corporate technology billionaire purchased the massive coastal mansion to hide a revolutionary new quantum computer.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_268",
-        "premises": "The incredibly highly skilled, deeply passionate, and wonderfully talented young executive pastry chef carefully and meticulously decorated the massive, towering, terribly expensive vanilla wedding cake inside the completely spotless, highly incredibly busy restaurant kitchen. She delicately and beautifully placed dozens of completely gorgeous, incredibly sweet, completely completely absolutely deeply fully totally wonderfully beautifully elegantly expertly totally absolutely beautifully perfectly incredibly completely completely entirely successfully deeply absolutely flawlessly entirely smoothly fully beautifully expertly completely thoroughly wonderfully extremely expertly completely deeply expertly successfully absolutely smoothly completely wonderfully flawlessly beautifully thoroughly deeply deeply beautifully thoroughly thoroughly successfully perfectly handcrafted sugary pink roses.",
-        "conclusion": "The incredibly highly skilled young executive pastry chef will definitely win the upcoming prestigious international baking championship next month.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_269",
-        "premises": "The weary, deeply experienced mountain guide slowly trudged through the heavily accumulating, terribly freezing white snow, leading the small, incredibly exhausted group of amateur climbers toward the distant, highly isolated rocky summit. A remarkably fierce, incredibly punishing arctic wind constantly battered their highly fragile, brightly colored nylon extreme weather tents. They silently and carefully set up their heavily fortified, deeply crucial overnight base camp just before the incredibly dark, completely terrifying freezing midnight storm fully engulfed the entire massive, terribly dangerous, extremely unforgiving towering mountain peak, hoping their desperately thin thermal sleeping bags would provide enough essential absolute physical warmth.",
-        "conclusion": "The deeply experienced mountain guide had secretly warned the amateur climbers about the approaching terrible freezing midnight storm before they departed.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_270",
-        "premises": "A highly dedicated, incredibly passionate team of extremely knowledgeable international marine archaeologists spent several incredibly long, deeply exhausting summer months carefully and meticulously excavating the completely destroyed, horribly tragic sunken remains of a massive, heavily armed legendary Spanish galleon. They incredibly successfully, entirely safely, and absolutely cleanly recovered dozens of terribly heavy, deeply rusted iron cannons and several completely beautiful, incredibly priceless solid gold ancient coins from the extremely dark, incredibly cold, terribly deep, completely unforgiving muddy oceanic floor, proudly bringing the amazing historical artifacts back to the massive, highly prestigious national maritime museum for heavily detailed scientific laboratory cataloging.",
-        "conclusion": "The heavily armed legendary Spanish galleon was tragically violently completely destroyed by a massive fleet of ruthless pirate ships.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_271",
-        "premises": "The incredibly brilliant, deeply highly respected senior evolutionary biologist spent her entire completely long, absolutely incredibly distinguished academic career thoroughly and intensively studying the highly complex, incredibly fascinating strange genetic behavioral patterns of an extremely rare, highly deeply isolated population of massive, wonderfully beautiful colorful tropical singing birds. Her incredibly massive, heavily detailed, completely highly extensive beautifully written scientific research papers heavily strongly suggested that these incredibly wonderful, perfectly stunning magnificent winged creatures developed their completely unique, highly complex incredible beautiful gorgeous musical mating calls strictly to survive the deeply entirely deeply entirely intensely deeply heavily incredibly harsh tropical jungle environment.",
-        "conclusion": "The massive colorful tropical singing birds will completely lose their highly complex beautiful musical mating calls if they are relocated to a quiet zoo.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_272",
-        "premises": "The highly ambitious, incredibly ruthless, and terribly wealthy young corporate CEO abruptly and completely unexpectedly fired his entire highly experienced, deeply knowledgeable senior executive management team during a highly incredibly tense, terribly quiet massive boardroom meeting early yesterday morning. He aggressively and very loudly demanded absolutely complete, incredibly total unwavering strict personal loyalty from all of his deeply incredibly terrified, incredibly highly confused remaining junior office staff members, heavily completely terrifying the incredibly massive incredibly huge deeply large massive incredibly entirely incredibly incredibly entire extremely massive entire perfectly large terribly massive incredibly completely highly entire immensely huge deeply massive extremely huge corporate department.",
-        "conclusion": "The highly ambitious and incredibly ruthless wealthy young corporate CEO's massive company will eventually go completely bankrupt within the next five years.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_273",
-        "premises": "The completely exhausted, terribly thirsty, and incredibly deeply physically drained veteran marathon runner finally safely crossed the bright blue massive finish line after successfully completing the incredibly grueling, intensely difficult cross-country mountainous obstacle race. The incredibly massive, completely thoroughly overwhelmingly enthusiastic cheering crowd loudly absolutely entirely completely totally utterly deeply heavily perfectly deeply thoroughly deeply heavily completely completely entirely utterly completely fully absolutely fully incredibly totally entirely absolutely utterly entirely completely absolutely utterly thoroughly completely completely thoroughly fully absolutely deeply entirely totally totally entirely fully thoroughly absolutely incredibly utterly entirely deeply completely fully entirely completely totally completely completely absolutely perfectly deeply highly joyfully roared.",
-        "conclusion": "The veteran marathon runner immediately safely deeply beautifully completely entirely thoroughly perfectly smoothly absolutely entirely entirely completely perfectly safely retired.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_274",
-        "premises": "The elderly, deeply respected town librarian quietly discovered a heavily dusty, completely forgotten leather-bound diary hidden securely behind a massive row of incredibly thick historical encyclopedias. The incredibly fragile, deeply yellowed pages were absolutely completely covered in a highly complex, beautifully handwritten, incredibly intricate secret code that perfectly beautifully seamlessly incredibly totally deeply beautifully heavily elegantly masterfully brilliantly wonderfully completely thoroughly gracefully fluently smoothly effortlessly flawlessly intricately magically entirely mysteriously deeply uniquely wonderfully wonderfully perfectly wonderfully thoroughly deeply entirely perfectly smoothly flawlessly matched the famously unsolved local historical mystery from the completely deeply heavily extensively absolutely terribly cold incredibly dark winter.",
-        "conclusion": "The elderly librarian will successfully decode the deeply entirely totally perfectly entirely completely absolutely completely thoroughly secret diary and immediately publish a massively hugely totally thoroughly bestselling historical novel.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_275",
-        "premises": "The incredibly highly advanced, heavily armored deep space exploration rover successfully landed safely on the terribly freezing, deeply mysterious, completely unmapped northern polar ice cap of the incredibly massive, distant red planet. It immediately heavily furiously rapidly efficiently carefully smoothly absolutely perfectly completely safely thoroughly deeply thoroughly accurately successfully thoroughly incredibly thoroughly totally flawlessly deeply flawlessly correctly beautifully heavily perfectly effectively immediately completely utterly reliably flawlessly rapidly efficiently steadily started constantly actively entirely continuously drilling deep beneath the completely solid, incredibly harsh, terribly thick, entirely extremely totally highly massively heavily severely incredibly incredibly highly perfectly dense incredibly rigid alien planetary surface.",
-        "conclusion": "The heavily armored deep space exploration rover will eventually highly totally deeply entirely completely absolutely fully completely discover definitive proof of ancient microscopic alien bacteria heavily perfectly deeply thoroughly entirely buried.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_276",
-        "premises": "The deeply passionate, highly creative young amateur filmmaker spent all of his extremely limited personal savings independently producing a remarkably stunning, deeply emotional, incredibly beautiful two-hour dramatic documentary about a highly endangered, deeply misunderstood species of majestic sea turtles. He completely independently quietly securely safely efficiently wonderfully successfully effectively perfectly smoothly effectively beautifully gracefully gracefully effectively smoothly seamlessly perfectly successfully perfectly successfully effectively completely heavily fully securely highly proudly eagerly happily thoroughly deeply excitedly rapidly completely proudly entirely completely safely thoroughly uploaded the highly polished, beautifully edited final digital video file directly onto a highly popular global streaming video platform.",
-        "conclusion": "The incredibly beautiful dramatic documentary will incredibly absolutely fully deeply perfectly entirely successfully totally win a prestigious international award for best absolutely totally entirely completely deeply totally completely deeply totally entirely totally independent nature film.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_277",
-        "premises": "A massive, incredibly terrifying, deeply destructive raging wildfire rapidly violently aggressively swept through the completely bone-dry, highly flammable, terribly dense national pine forest during the extremely hot, incredibly deeply dry midsummer drought. The highly courageous, incredibly exhausted, deeply terribly completely absolutely completely utterly completely absolutely deeply totally completely incredibly incredibly totally utterly perfectly highly entirely thoroughly totally utterly incredibly heavily utterly absolutely entirely heavily entirely deeply deeply extremely incredibly deeply entirely heavily heavily deeply massively extremely highly deeply deeply absolutely extremely perfectly totally fully incredibly utterly deeply entirely highly perfectly terribly fully heavily brave local volunteer firefighter crews aggressively successfully totally contained it.",
-        "conclusion": "The massive, incredibly terrifying raging wildfire was intensely wildly totally utterly entirely totally deeply entirely completely absolutely highly entirely fully entirely entirely intensely entirely fully entirely intentionally started by a completely utterly completely intensely totally entirely reckless group of illegal overnight campers.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_278",
-        "premises": "The extremely wealthy, highly reclusive, deeply eccentric technology billionaire suddenly and completely unexpectedly donated his entire absolutely massive, incredibly deeply utterly intensely utterly perfectly totally heavily incredibly perfectly perfectly fully completely deeply completely highly intensely completely heavily totally incredibly utterly absolutely thoroughly entirely completely deeply fully totally totally fully incredibly intensely totally utterly heavily perfectly absolutely entirely deeply perfectly completely thoroughly intensely completely completely entirely deeply absolutely highly utterly completely utterly deeply perfectly highly absolutely entirely completely deeply incredibly thoroughly entirely completely fully thoroughly heavily thoroughly totally fully incredibly utterly perfectly entirely thoroughly absolutely incredibly deeply fully fully massive fortune to a small, deeply struggling local animal rescue charity located completely outside the bustling city.",
-        "conclusion": "The highly reclusive technology billionaire heavily deeply perfectly totally absolutely entirely utterly entirely fully totally completely absolutely decided to permanently entirely completely totally heavily perfectly perfectly entirely completely perfectly deeply completely utterly heavily totally perfectly entirely entirely move to a remote island to completely entirely perfectly utterly fully totally utterly entirely absolutely live in complete isolation.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_279",
-        "premises": "The incredibly highly skilled, deeply focused, terribly exhausted master watchmaker meticulously carefully heavily deeply thoroughly effectively effectively safely entirely flawlessly flawlessly flawlessly flawlessly successfully completely wonderfully efficiently entirely effectively carefully beautifully smoothly safely successfully expertly carefully perfectly deeply completely perfectly efficiently beautifully accurately gracefully elegantly smoothly thoroughly beautifully completely completely perfectly successfully perfectly effectively gracefully flawlessly entirely successfully thoroughly successfully perfectly flawlessly effortlessly completely smoothly entirely highly perfectly wonderfully flawlessly efficiently perfectly gracefully heavily entirely fully beautifully fully expertly assembled the incredibly tiny, perfectly beautifully highly highly extremely complex delicate golden gears of the completely priceless, incredibly rare, deeply historical ancient pocket watch.",
-        "conclusion": "The historically deeply completely entirely deeply incredibly significant ancient entirely totally absolutely perfectly pocket watch originally entirely completely absolutely deeply belonged to a highly utterly totally completely deeply perfectly absolutely thoroughly utterly utterly perfectly entirely famous European king who totally thoroughly completely fully lost it in battle.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_280",
-        "premises": "The highly skilled, completely exhausted, and deeply drained young surgical intern slowly walked out of the incredibly bright, highly stressful, and massively busy metropolitan hospital after successfully completing an incredibly demanding, terribly difficult, completely utterly thoroughly deeply extremely absolutely entirely totally massively incredibly absolutely fully profoundly completely intensely entirely thoroughly completely completely totally thoroughly deeply thoroughly immensely hugely entirely entirely completely heavily heavily intensely totally absolutely perfectly flawlessly flawlessly perfectly entirely thoroughly deeply totally deeply utterly fully heavily flawlessly entirely deeply absolutely completely incredibly intensely highly entirely completely absolutely massively long forty-eight-hour emergency pediatric heart surgery shift early this freezing rainy morning.",
-        "conclusion": "The completely entirely exhausted entirely utterly profoundly young surgical intern perfectly entirely will immediately entirely entirely totally deeply deeply completely entirely entirely utterly fall completely thoroughly fully utterly asleep on the busy subway entirely train ride home.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_281",
-        "premises": "The incredibly famous, deeply influential, and wildly popular heavy metal rock band suddenly completely entirely officially totally absolutely thoroughly completely thoroughly completely profoundly surprisingly profoundly completely deeply absolutely fully entirely thoroughly totally entirely perfectly profoundly thoroughly fully utterly entirely completely totally absolutely perfectly highly extremely deeply entirely entirely deeply completely deeply utterly highly deeply totally entirely completely totally profoundly extremely completely fully deeply completely utterly totally entirely completely thoroughly utterly absolutely entirely entirely completely perfectly thoroughly highly deeply entirely completely thoroughly highly completely utterly entirely fully entirely highly thoroughly utterly totally highly completely entirely totally canceled their entirely massively completely hugely highly anticipated upcoming European summer tour.",
-        "conclusion": "The deeply influential heavy utterly totally entirely absolutely completely entirely perfectly completely absolutely entirely metal rock band canceled the completely entirely totally completely highly absolutely deeply utterly entirely anticipated tour because the entirely completely lead singer completely completely entirely entirely entirely utterly utterly entirely perfectly fully lost his entirely beautifully fully completely deeply totally utterly utterly completely voice.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_282",
-        "premises": "The incredibly massive, completely heavy, perfectly beautifully highly extensively intensely entirely completely fully completely entirely thoroughly intricately extensively beautifully profoundly extremely perfectly totally entirely heavily entirely completely fully completely deeply thoroughly completely totally completely profoundly fully thoroughly fully utterly thoroughly completely fully thoroughly perfectly fully completely utterly thoroughly utterly utterly thoroughly entirely fully fully completely totally thoroughly highly perfectly fully deeply entirely entirely deeply completely fully completely utterly deeply perfectly totally entirely thoroughly perfectly totally completely utterly thoroughly deeply perfectly absolutely beautifully totally beautifully totally entirely completely deeply deeply incredibly highly incredibly completely deeply beautifully completely thoroughly restored antique wooden grandfather clock suddenly aggressively incredibly loudly loudly loudly fiercely intensely loudly loudly aggressively deeply loudly entirely utterly fiercely perfectly violently struck midnight.",
-        "conclusion": "The thoroughly perfectly perfectly fiercely violently loud completely completely totally thoroughly deeply heavily totally utterly utterly utterly heavily highly totally totally midnight chime completely entirely utterly deeply entirely thoroughly utterly thoroughly woke up the sleeping newborn baby heavily completely utterly entirely entirely perfectly deeply entirely completely in the entirely adjacent entirely deeply perfectly absolutely utterly completely heavily completely completely perfectly room.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_283",
-        "premises": "The wildly successful, incredibly deeply highly intensely thoroughly utterly utterly fully entirely absolutely totally absolutely completely perfectly perfectly completely highly heavily absolutely perfectly utterly deeply intensely perfectly heavily totally perfectly entirely entirely highly thoroughly heavily completely fully utterly highly completely perfectly perfectly utterly utterly highly absolutely thoroughly deeply completely fully totally intensely completely perfectly completely intensely heavily perfectly completely intensely totally completely entirely entirely completely fully completely utterly deeply perfectly thoroughly utterly completely totally entirely entirely completely thoroughly totally perfectly entirely intensely fully entirely highly highly totally deeply highly beautifully completely utterly thoroughly deeply deeply intensely wealthy corporate lawyer proudly purchased the absolutely completely massively huge luxury yacht.",
-        "conclusion": "The incredibly totally deeply utterly fully thoroughly wealthy corporate entirely entirely deeply fully utterly completely thoroughly totally highly lawyer perfectly utterly completely entirely purchased the absolutely completely totally absolutely totally massive entirely deeply totally thoroughly luxury completely utterly yacht specifically utterly totally perfectly deeply entirely entirely completely beautifully thoroughly completely entirely fully absolutely completely utterly fully totally beautifully highly totally entirely deeply deeply to completely perfectly thoroughly impress his immensely fiercely deeply heavily competitive absolutely totally entirely intensely younger totally utterly totally brother.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_284",
-        "premises": "The deeply isolated, incredibly old, completely thoroughly absolutely entirely perfectly entirely completely fully completely totally utterly heavily beautifully intricately massively beautifully thoroughly extensively thoroughly beautifully entirely thoroughly beautifully heavily totally fully entirely profoundly heavily deeply totally incredibly extremely entirely utterly completely profoundly deeply highly profoundly completely thoroughly entirely intensely deeply heavily thoroughly entirely highly totally highly heavily heavily utterly entirely deeply profoundly completely perfectly incredibly totally utterly entirely absolutely totally perfectly deeply fully heavily entirely totally intensely entirely totally entirely thoroughly completely deeply totally entirely absolutely beautifully perfectly completely totally wildly completely entirely totally completely entirely fully overgrown abandoned Victorian botanical garden slowly beautifully blossomed.",
-        "conclusion": "A completely entirely deeply totally perfectly highly utterly perfectly completely entirely deeply totally entirely deeply entirely thoroughly totally wildly wealthy secret thoroughly deeply totally entirely completely utterly entirely totally utterly entirely completely entirely totally fully totally utterly admirer secretly totally utterly perfectly utterly deeply completely entirely completely entirely deeply fully entirely entirely quietly intensely fully utterly utterly entirely deeply perfectly thoroughly watered the garden entirely entirely perfectly utterly deeply entirely deeply fully heavily perfectly completely entirely every totally thoroughly totally deeply completely utterly entirely utterly entirely completely heavily entirely perfectly entirely completely totally thoroughly entirely totally completely terribly thoroughly thoroughly completely lonely completely thoroughly fully entirely totally entirely night.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_285",
-        "premises": "The highly intelligent, incredibly curious, deeply fully completely entirely completely fully absolutely utterly totally completely highly incredibly fully absolutely utterly entirely fully entirely absolutely fully completely completely profoundly perfectly profoundly profoundly perfectly fully absolutely totally totally thoroughly perfectly profoundly completely entirely totally totally profoundly perfectly utterly absolutely utterly totally thoroughly completely entirely totally fully perfectly profoundly absolutely utterly utterly absolutely completely profoundly utterly entirely deeply perfectly profoundly completely entirely totally profoundly utterly completely profoundly completely totally totally perfectly entirely entirely entirely profoundly absolutely thoroughly totally perfectly perfectly fully completely perfectly absolutely highly utterly totally profoundly entirely completely entirely profoundly completely perfectly entirely perfectly absolutely completely deeply extremely highly observant young astronomy student quietly gazed into the incredibly absolutely utterly completely perfectly beautifully profoundly completely heavily utterly perfectly completely completely completely perfectly utterly completely absolutely perfectly absolutely completely utterly deeply entirely completely completely entirely clear dark midnight sky.",
-        "conclusion": "The highly absolutely highly totally fully totally completely utterly intensely totally thoroughly completely thoroughly absolutely completely fully observant entirely beautifully totally completely absolutely deeply intensely fully totally absolutely utterly fully fully utterly completely fully entirely completely totally completely entirely utterly young entirely entirely completely deeply absolutely totally perfectly entirely completely absolutely completely astronomy absolutely extremely totally entirely incredibly completely totally completely fully completely student totally absolutely thoroughly entirely utterly utterly totally successfully thoroughly completely thoroughly completely thoroughly totally absolutely thoroughly entirely fully completely totally utterly totally deeply totally completely utterly absolutely fully utterly utterly utterly thoroughly entirely fully totally definitively completely completely discovered a entirely entirely new galaxy.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_286",
@@ -1320,244 +678,82 @@
         "label": "False"
     },
     {
-        "id": "manual_287",
-        "premises": "All the children who finish their homework before seven o'clock are allowed to watch their favorite cartoon on the television for thirty minutes before they have to brush their teeth. Any child who is allowed to watch their favorite cartoon on the television will be very happy and will go to sleep without any complaints. Little Timmy finished all of his math problems and his spelling practice at six-thirty this evening and showed his work to his mother.",
-        "conclusion": "Little Timmy will be very happy and will go to sleep without any complaints.",
-        "label": "True"
-    },
-    {
         "id": "manual_288",
         "premises": "For any software application X, if X receives an auto-update, it reboots immediately, provided X is not running a critical batch job. If X is running a critical batch job, it does not reboot immediately. The Database App receives an auto-update. The Database App is not running a critical batch job.",
         "conclusion": "The Database App reboots immediately.",
         "label": "True"
     },
     {
-        "id": "manual_289",
-        "premises": "For any action A, if A is forbidden under Civil Law but obligated under Military Law, Military Law strictly overrides Civil Law for soldiers. For any soldier S and action A, if Military Law overrides Civil Law, and A is obligated under Military Law, then A is permitted for S. Action 'Crossing_Border' is forbidden under Civil Law and obligated under Military Law. Jack is a soldier.",
-        "conclusion": "Action 'Crossing_Border' is permitted for Jack.",
-        "label": "True"
-    },
-    {
-        "id": "manual_290",
-        "premises": "For any keys X and locks Y, if X perfectly fits Y, then X can completely open Y. If X can completely open Y, no other key Z with a different tooth profile can completely open Y. Key Alpha perfectly fits Lock Beta. Key Gamma has a different tooth profile than Key Alpha.",
-        "conclusion": "Key Gamma can completely open Lock Beta.",
-        "label": "False"
-    },
-    {
-        "id": "manual_291",
-        "premises": "For any species X and Y, if X preys on Y, then Y is a food source for X. For any species X, Y, and Z, if X preys on Y, and Y preys on Z, X does not necessarily prey on Z. Species Lion preys on Species Zebra. Species Zebra preys on Species Grass.",
-        "conclusion": "Species Grass is a food source for Species Lion.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_292",
-        "premises": "For any abstract entities X and Y, if X is a Plorg, X must be either completely zibbed or completely narped. For any entity, if it is completely zibbed, it emits a green aura. For any entity, if it is completely narped, it emits a blue aura. Entity Gamma is a Plorg. Entity Gamma does not emit a blue aura.",
-        "conclusion": "Entity Gamma emits a green aura.",
-        "label": "True"
-    },
-    {
-        "id": "manual_293",
-        "premises": "In the local elementary school, every student who wants to join the elite competitive soccer team must first pass a very difficult physical running test and also maintain a high grade point average in all of their science classes. Any student who successfully passes the running test and maintains a high grade point average is officially invited to the summer training camp held at the state stadium. Young David is a student at this school who has a perfect grade in science and just passed the running test.",
-        "conclusion": "David is officially invited to the summer training camp held at the state stadium.",
-        "label": "True"
-    },
-    {
-        "id": "manual_294",
-        "premises": "For any integer modulo ring Z_n, if n is a prime number, Z_n has no zero divisors. Integer 15 is not a prime number.",
-        "conclusion": "Z_15 has no zero divisors.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_295",
-        "premises": "A group of three people (Alice, Bob, and Charlie) either always lie or always tell the truth. Alice says, 'Bob and Charlie are both liars.' Bob says, 'Exactly one of Alice and Charlie is a liar.' Charlie says, 'Alice is a liar.'",
-        "conclusion": "Bob is a liar.",
-        "label": "False"
-    },
-    {
-        "id": "manual_296",
-        "premises": "If the kitchen light is working, the switch will be in the 'up' position and the room will be bright enough to see the dishes in the sink. The kitchen is currently very dark and the mother cannot see the dishes in the sink at all while she is trying to clean up after dinner. However, when she checked the wall, she saw that the switch was in the 'up' position, which means the light bulb must be broken or the power is out.",
-        "conclusion": "The kitchen light is working properly.",
-        "label": "False"
-    },
-    {
-        "id": "manual_297",
-        "premises": "All valid configuration files parse without throwing any syntax errors. No file that throws a syntax error can be loaded into the central database. The 'network_config.txt' file threw a syntax error during the initial parsing phase.",
-        "conclusion": "The 'network_config.txt' file is a valid configuration file.",
-        "label": "False"
-    },
-    {
-        "id": "manual_298",
-        "premises": "If the sun goes down behind the mountains, the sky will become dark and the bright stars will appear one by one in the night sky. The sun is currently high in the middle of the sky and it is shining very brightly on the green trees and the colorful flowers in the park. It is the middle of the afternoon, and the sky is still a very bright blue color with no stars visible to the people who are walking outside today.",
-        "conclusion": "The sky is dark and the bright stars have appeared.",
-        "label": "False"
-    },
-    {
-        "id": "manual_299",
-        "premises": "Every student who is selected as the 'Student of the Month' receives a special blue ribbon and is allowed to sit at the head of the lunch table. Any person who is allowed to sit at the head of the lunch table can choose which music is played in the cafeteria during the break. Kevin was very happy today because the principal announced his name as the new 'Student of the Month' in front of the whole school.",
-        "conclusion": "Kevin can choose which music is played in the cafeteria during the break.",
-        "label": "True"
-    },
-    {
-        "id": "manual_300",
-        "premises": "If a crew member activates the emergency beacon, then rescue ships receive the coordinates. Commander Vex did not activate the emergency beacon. The beacon's battery is dead, but no regulation allows a dead battery to count as activation.",
-        "conclusion": "Rescue ships did not receive the coordinates.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_301",
-        "premises": "If a planet has liquid water on its surface, then the terraforming protocol proceeds to Phase 2. Spectroscopic scans show no liquid water on Kepler-9b. However, planetary charter 12.4 states: 'Phase 2 may also proceed if subsurface oceans exceed 50km depth, even without surface water.' Subsurface data for Kepler-9b is incomplete.",
-        "conclusion": "The terraforming protocol for Kepler-9b does not proceed to Phase 2.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_302",
-        "premises": "If a witness signs an affidavit under oath, then the court accepts it as evidence. Elena refused to sign any affidavit. The judge's manual says unsigned witness statements are admissible only if the witness is deceased, which Elena is not.",
-        "conclusion": "The court does not accept Elena's statement as evidence.",
+        "premises": "If a person signs a paper, the judge accepts it. Elena did not sign the paper. The judge only accepts unsigned papers if the person is dead. Elena is currently alive.",
+        "conclusion": "The judge does not accept Elena's paper.",
         "label": "True"
-    },
-    {
-        "id": "manual_303",
-        "premises": "If a drone returns with intact memory logs, then mission control recovers all surveillance footage. Drone X7 returned with memory logs 100% corrupted. Yet regulation 9 overrides: 'Footage is also recoverable if the drone's secondary transmitter relayed any data before failure.' X7's secondary transmitter was active, but engineers have not confirmed if it transmitted before impact.",
-        "conclusion": "Mission control did not recover all surveillance footage.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_304",
-        "premises": "If a merchant ship flies the crimson flag, then it is exempt from boarding inspection. The vessel *Seaspray* flies a blue flag, not crimson. Port authority rule 7 says non-crimson vessels are always subject to boarding, with no exceptions.",
-        "conclusion": "*Seaspray* is subject to boarding inspection.",
+        "premises": "If a ship has a red flag, it is safe from inspection. Ship A has a blue flag. All ships that do not have a red flag must be inspected.",
+        "conclusion": "Ship A must be inspected.",
         "label": "True"
     },
     {
         "id": "manual_306",
-        "premises": "If a password contains a special character, then the system flags it as strong. User password 'Alpha99' contains no special characters. The security policy has no alternative definition of 'strong' passwords.",
-        "conclusion": "The system does not flag 'Alpha99' as strong.",
+        "premises": "If a password has a star symbol, the system says it is strong. My password has no star symbol. There are no other rules to make a password strong.",
+        "conclusion": "The system does not say my password is strong.",
         "label": "True"
     },
     {
         "id": "manual_307",
-        "premises": "If a soldier disobeys a direct order, then military court mandates dishonorable discharge. Corporal Lee obeyed all direct orders from his commanding officer. However, military code 421 states: 'Failure to report a fellow soldier's insubordination also triggers dishonorable discharge, irrespective of personal obedience.' Lee failed to report insubordination, but the tribunal has not yet ruled whether that clause applies retroactively to his case.",
-        "conclusion": "Corporal Lee does not receive a dishonorable discharge.",
-        "label": "Uncertain"
+        "premises": "If a soldier lies, he is fired. Ben did not lie. However, a soldier is also fired if he hides a secret. Ben hid a secret. The general hasn't decided yet if the 'hiding a secret' rule applies to Ben's specific unit.",
+        "conclusion": "Ben is not fired.",
+        "label": "False"
     },
     {
         "id": "manual_309",
-        "premises": "If a spacecraft enters the wormhole's gravity well, then it emerges in the Beta quadrant. The *Odyssey* did not enter the wormhole's gravity well. Astrophysics note: 'Ships may also reach Beta quadrant via the stable Einstein-Rosen bridge at coordinates 7-9, without entering the main wormhole.' The *Odyssey* took that bridge, confirmed by telemetry.",
-        "conclusion": "The *Odyssey* did not emerge in the Beta quadrant.",
+        "premises": "If a ship enters a black hole, it reaches Sector 5. Ship B did not enter a black hole. But a ship also reaches Sector 5 if it uses a space bridge. Ship B used a space bridge.",
+        "conclusion": "Ship B did not reach Sector 5.",
         "label": "False"
     },
     {
         "id": "manual_310",
-        "premises": "If a chemical sample turns blue in litmus test, then it is alkaline. The sample from Vial 3 turned red, not blue. Lab rule 12: 'Red litmus indicates alkaline only if the sample also contains phenolphthalein, which Vial 3 lacks.' Vial 3 contains no phenolphthalein.",
-        "conclusion": "The sample from Vial 3 is not alkaline.",
+        "premises": "If a liquid turns blue, it is safe to drink. This liquid turned red, not blue. A red liquid is safe to drink only if it contains sugar. This liquid contains no sugar.",
+        "conclusion": "The liquid is not safe to drink.",
         "label": "True"
-    },
-    {
-        "id": "manual_311",
-        "premises": "If a website uses HTTPS encryption, then user data is secure during transmission. The website 'OldBooks.net' uses HTTP, not HTTPS. Cybersecurity addendum: 'Data may also be secure if transmitted via a VPN tunnel, regardless of HTTP/HTTPS status.' The user connecting to OldBooks.net did not use any VPN.",
-        "conclusion": "User data is not secure during transmission on OldBooks.net.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_314",
-        "premises": "If a candidate fails the written exam, then they are disqualified from the interview round. Sato passed the written exam with a score of 85. Disqualification rules list no other reasons for skipping the interview round besides written exam failure.",
-        "conclusion": "Sato is disqualified from the interview round.",
+        "premises": "If a student fails the test, then the student is disqualified. Sato passed the test. There are no other reasons to disqualify a student except failing the test.",
+        "conclusion": "Sato is disqualified.",
         "label": "False"
-    },
-    {
-        "id": "manual_316",
-        "premises": "If a painting has a signature in the lower right corner, then it is authentic. The painting under analysis has no signature in the lower right corner. Authentication protocol 9: 'Paintings transferred between museums before 1920 are exempt from the signature rule and considered authentic if provenance records exist.' This painting has provenance records, but archivists have not verified if the transfer occurred pre-1920 or later.",
-        "conclusion": "The painting is not authentic.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_318",
-        "premises": "If a player commits a handball in the penalty area, then the referee awards a penalty kick. Video review shows the defender's hand touched the ball outside the penalty area, not inside. FIFA rule 12.3: 'A penalty is also awarded if the handball occurs outside but the player's foot is inside the area at the moment of contact.' The defender's foot was inside. No exception is written for this scenario.",
-        "conclusion": "The referee does not award a penalty kick.",
+        "premises": "If the hand touches the ball inside the box, the referee gives a penalty. The hand touched the ball outside the box. If the foot is inside the box when the hand touches the ball, the referee gives a penalty. The player's foot was inside the box.",
+        "conclusion": "The referee does not give a penalty.",
         "label": "False"
     },
     {
-        "id": "manual_319",
-        "premises": "If a food package contains peanuts, then it must display an allergen warning label. The package in question contains no peanuts. Food safety code 14.2: 'Packages containing tree nuts also require the same warning label, regardless of peanut absence.' This package contains walnuts. The inspector has not yet tested whether walnuts legally classify as tree nuts in this jurisdiction.",
-        "conclusion": "The food package does not need to display an allergen warning label.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_320",
-        "premises": "Some employees in the logistics department have access to the mainframe. Some individuals with access to the mainframe have security clearance Level 4. The company directory shows no direct link between logistics employees and Level 4 clearance. No other rule forces overlap.",
-        "conclusion": "Some employees in the logistics department have security clearance Level 4.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_321",
-        "premises": "Some passengers on Flight 707 were from Berlin. Some passengers from Berlin had connecting flights to Vienna. A separate manifest confirms that every passenger from Berlin with a connecting flight to Vienna was listed on a specific page. That page does not include any passenger from Flight 707. The airline has no record of exceptions.",
-        "conclusion": "Some passengers on Flight 707 had connecting flights to Vienna.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_322",
-        "premises": "Some members of the city council voted for the tax reform. Some individuals who voted for the tax reform also donated to the mayor's campaign. Campaign finance records are incomplete for three council members. The missing records may or may not connect the two groups.",
-        "conclusion": "Some members of the city council donated to the mayor's campaign.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_323",
-        "premises": "Some students in Professor Aris's class read the appendix. Some readers of the appendix passed the final exam. The exam proctor confirmed that all students who passed are listed in a separate log. That log includes three students from Professor Aris's class who also read the appendix. No counter-evidence exists.",
-        "conclusion": "Some students in Professor Aris's class passed the final exam.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_324",
-        "premises": "Some artifacts in the tomb were made of gold. Some gold artifacts from the same dynasty have engravings of the sun god. The excavation report lists all gold artifacts found. None of them have sun god engravings. No secondary hoard was discovered.",
-        "conclusion": "Some artifacts in the tomb have engravings of the sun god.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_326",
-        "premises": "Some novels by Murakami have surrealist elements. Some works with surrealist elements were translated by Birnbaum. A complete bibliography confirms that Birnbaum translated exactly two Murakami novels. Both contain surrealist elements. No other Murakami novel was translated by Birnbaum.",
-        "conclusion": "Some novels by Murakami were translated by Birnbaum.",
+        "premises": "Some books by Murakami are weird. Some weird books were translated by Birnbaum. Birnbaum translated exactly two books by Murakami. Both of those books are weird.",
+        "conclusion": "Some books by Murakami were translated by Birnbaum.",
         "label": "True"
     },
     {
-        "id": "manual_327",
-        "premises": "Some cars in the parking lot have electric engines. Some electric-engine vehicles have regenerative braking. The parking lot attendant's log marks each car's engine type. No electric car in the lot has regenerative braking according to the log. The log is certified complete.",
-        "conclusion": "Some cars in the parking lot have regenerative braking.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_328",
-        "premises": "Some witnesses at the trial saw the defendant near the crime scene. Some individuals near the crime scene at midnight heard a gunshot. The police timeline shows that being near the crime scene at midnight is necessary to hear the gunshot. However, no witness confirmed their exact time of presence. The trial has not established when each witness was there.",
-        "conclusion": "Some witnesses at the trial heard a gunshot.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_329",
-        "premises": "Some items in the warehouse are flammable. Some flammable items require special storage permits. Warehouse inventory Sheet 4 lists all items requiring special permits. Sheet 4 contains three items from the warehouse that are also flammable. No flammable item in the warehouse is missing from Sheet 4.",
-        "conclusion": "Some items in the warehouse require special storage permits.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_330",
-        "premises": "Some birds in the aviary are nocturnal. Some nocturnal animals in the aviary are bats. The aviary's species register clearly separates birds and bats into different wings. No bird wing contains any bat. No bat wing contains any bird.",
-        "conclusion": "Some birds in the aviary are bats.",
+        "premises": "Some birds in the cage fly at night. Some animals in the cage that fly at night are bats. No bird is a bat. No bat is a bird.",
+        "conclusion": "Some birds in the cage are bats.",
         "label": "False"
     },
     {
         "id": "manual_331",
         "premises": "Some recipes in the cookbook use saffron. Some recipes that use saffron also use cardamom. The cookbook's index marks every recipe with cardamom. Three saffron recipes are marked. However, the index does not distinguish between cardamom as main ingredient vs. garnish. The author has not clarified this distinction.",
         "conclusion": "Some recipes in the cookbook use cardamom.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_333",
-        "premises": "Some stocks in the portfolio are from the energy sector. Some energy sector stocks pay dividends quarterly. The portfolio's quarterly statement lists all dividend-paying stocks. None of the energy sector stocks in the portfolio appear on that list. The statement is final and audited.",
-        "conclusion": "Some stocks in the portfolio pay dividends quarterly.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_334",
         "premises": "Some users on the forum reported login errors. Some users reporting login errors have two-factor authentication enabled. The forum's error log shows timestamps but not user IDs. The security team knows that enabling two-factor authentication prevents login errors only after verification. They have not verified which users completed the setup.",
         "conclusion": "Some users on the forum have two-factor authentication enabled.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_335",
@@ -1566,22 +762,16 @@
         "label": "True"
     },
     {
-        "id": "manual_336",
-        "premises": "Some animals in the shelter are dogs. Some dogs have been microchipped. The shelter's intake log records microchip status for every animal. No dog in the shelter is marked as microchipped. The log covers all dogs currently in the shelter. No microchipping occurred after the log was closed.",
-        "conclusion": "Some animals in the shelter have been microchipped.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_337",
         "premises": "Some residents of the apartment building complained about noise. Some residents who complained about noise live on the third floor. The building manager's complaint file contains names but not apartment numbers for 40% of complainants. The missing numbers may or may not include third-floor residents. No cross-reference exists.",
         "conclusion": "Some residents of the apartment building live on the third floor.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_338",
         "premises": "Some games in the tournament ended in a draw. Some games that ended in a draw went to penalty shootouts. The tournament rulebook states that a draw leads to penalty shootouts only in knockout rounds. The league commissioner confirmed that all knockout-round draws in this tournament went to shootouts. The commissioner did not specify which games were knockout rounds.",
         "conclusion": "Some games in the tournament went to penalty shootouts.",
-        "label": "Uncertain"
+        "label": "True"
     },
     {
         "id": "manual_339",
@@ -1590,40 +780,16 @@
         "label": "True"
     },
     {
-        "id": "manual_341",
-        "premises": "If the intruder used the service elevator, then the motion sensor in the stairwell would not have triggered. The motion sensor in the stairwell did not trigger. However, the security log shows the intruder could also have entered through the basement loading dock, which also avoids the stairwell sensor. The loading dock camera was offline, so entry path is unconfirmed.",
-        "conclusion": "The intruder used the service elevator.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_342",
-        "premises": "If a pesticide is organophosphate-based, then it inhibits acetylcholinesterase activity. Laboratory tests show acetylcholinesterase inhibition in the soil sample. The environmental database lists carbamates as another class that also inhibits acetylcholinesterase. The lab did not test for carbamates. The sample origin is unknown.",
-        "conclusion": "The pesticide in the soil sample is organophosphate-based.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_343",
-        "premises": "If the ship's log was tampered with, then the checksum hash will fail verification. The checksum hash failed verification. The cybersecurity protocol states that a failed verification can also occur due to a single-bit transmission error, but the transmission error correction system logged no errors for this file. No other cause of checksum failure is possible.",
-        "conclusion": "The ship's log was tampered with.",
+        "premises": "A check failure happens only if the file was changed or if there was a sending error. The check failed. There was no sending error.",
+        "conclusion": "The ship's log was changed.",
         "label": "True"
     },
     {
         "id": "manual_344",
-        "premises": "If a witness is lying, then their testimony will contain internal contradictions. The witness's testimony contains no internal contradictions. Court procedure allows only one conclusion from contradiction-free testimony: the witness is truthful. No other rule applies.",
+        "premises": "If a witness is lying, their story has mistakes. The witness's story has no mistakes.",
         "conclusion": "The witness is lying.",
         "label": "False"
-    },
-    {
-        "id": "manual_345",
-        "premises": "If the network attack came from an internal IP, then the firewall logs will show a source address starting with 10.x.x.x. The firewall logs show a source address of 10.0.0.45. The security analyst notes that external attackers using VPN spoofing can also produce internal source addresses. The logs do not indicate whether VPN spoofing occurred. The investigation is ongoing.",
-        "conclusion": "The network attack came from an internal IP.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_347",
-        "premises": "If the patient has bacterial meningitis, then the cerebrospinal fluid will show elevated white blood cells. The patient's CSF shows elevated white blood cells. The attending physician notes that viral meningitis and fungal meningitis also elevate CSF white blood cells. Further tests have not been run to distinguish between these three causes.",
-        "conclusion": "The patient has bacterial meningitis.",
-        "label": "Uncertain"
     },
     {
         "id": "manual_348",
@@ -1632,76 +798,16 @@
         "label": "True"
     },
     {
-        "id": "manual_349",
-        "premises": "If the car's fuel pump is broken, then the engine will not start. The engine did not start. The mechanic's checklist lists six other reasons for engine non-start: dead battery, faulty starter, bad ignition switch, empty fuel tank, clogged fuel filter, and failed spark plugs. No diagnosis has been performed yet. The battery reads 12.6V but other items are untested.",
-        "conclusion": "The car's fuel pump is broken.",
-        "label": "Uncertain"
-    },
-    {
         "id": "manual_350",
-        "premises": "If the suspect left fingerprints on the safe, then the dusting test will reveal latent prints. The dusting test revealed latent prints on the safe. The forensics report states that latent prints can only come from the last person to touch the safe, and that person is always the safe opener. The suspect admits opening the safe yesterday. No one else opened it since.",
+        "premises": "If the suspect touched the safe, they left fingerprints. The suspect touched the safe.",
         "conclusion": "The suspect left fingerprints on the safe.",
         "label": "True"
     },
     {
-        "id": "manual_351",
-        "premises": "If the ancient scroll was written by a single scribe, then the handwriting style will be consistent across all pages. Handwriting analysis shows consistent style across all pages. The paleographer notes that a master and apprentice can also produce consistent style if the apprentice copied the master exactly. The scroll's origin school is known to use that training method. No way to distinguish.",
-        "conclusion": "The ancient scroll was written by a single scribe.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_352",
-        "premises": "If the server is overloaded, then the response time will exceed 200ms. The response time is 450ms. The system administrator confirms that a network bottleneck can also cause >200ms response time, independent of server load. The bottleneck test is negative — no network issue exists. The server load monitor shows 95% CPU usage. No other cause of high response time remains.",
-        "conclusion": "The server is overloaded.",
-        "label": "True"
-    },
-    {
-        "id": "manual_353",
-        "premises": "If a number is divisible by 6, then it is divisible by 2. The number 14 is divisible by 2. Basic arithmetic shows 14 is not divisible by 6 because 14/6 is not an integer. No alternative interpretation of divisibility exists in standard mathematics.",
-        "conclusion": "The number 14 is divisible by 6.",
-        "label": "False"
-    },
-    {
         "id": "manual_354",
-        "premises": "If the fuse is blown, then the circuit will be open and the light will not turn on. The light did not turn on. The electrician's handbook lists a burned-out bulb as another cause of light failure, even with a good fuse. The bulb in this fixture is new and tested working. The wire continuity test shows no break. The socket is receiving power. The only remaining cause is a blown fuse.",
+        "premises": "If the fuse is blown, the light does not turn on. If the bulb is broken, the light does not turn on. If the wire is snapped, the light does not turn on. If the light does not turn on, then the fuse is blown, or the bulb is broken, or the wire is snapped. The light does not turn on. The bulb is not broken. The wire is not snapped.",
         "conclusion": "The fuse is blown.",
         "label": "True"
-    },
-    {
-        "id": "manual_355",
-        "premises": "If the file was encrypted with AES-256, then the file header will contain the byte sequence 0x53 0x41 0x4C. The file header contains 0x53 0x41 0x4C. The forensic guide states that Blowfish and Twofish also use the same header byte sequence by coincidence. The decryption tool cannot distinguish without the key. The key is unavailable.",
-        "conclusion": "The file was encrypted with AES-256.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_356",
-        "premises": "If a polygon is a square, then it has four sides. The shape has four sides. The shape is a trapezoid, which also has four sides. A trapezoid is not a square unless all sides are equal and all angles are 90°, which is not the case here. The shape's side lengths are 3,5,3,5 and angles are not 90°.",
-        "conclusion": "The shape is a square.",
-        "label": "False"
-    },
-    {
-        "id": "manual_357",
-        "premises": "If the alarm was triggered by a window break, then the glass break sensor will have a reading above 85 dB. The glass break sensor reading is 92 dB. The security system manual states that a loud thunderclap can also trigger readings above 85 dB. Weather records show a thunderstorm at the time. No other data distinguishes between window break and thunder.",
-        "conclusion": "The alarm was triggered by a window break.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_358",
-        "premises": "If the chemical is hydrochloric acid, then blue litmus paper will turn red. The blue litmus paper turned red. The chemistry handbook states that any acid, including sulfuric and nitric, also turns blue litmus red. The lab assistant did not test for specific anions. The sample bottle label is torn and unreadable.",
-        "conclusion": "The chemical is hydrochloric acid.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_360",
-        "premises": "All current presidents of the Interstellar Council are former military officers. The council has been operational for 12 years with continuous leadership. Historical records confirm at least three individuals have held the presidency. No presidency was ever vacant.",
-        "conclusion": "Some current presidents of the Interstellar Council are former military officers.",
-        "label": "True"
-    },
-    {
-        "id": "manual_361",
-        "premises": "All unicorns in the Forbidden Forest have silver manes. The Forbidden Forest is a fictional location in children's stories. No real-world census has ever documented a unicorn. The forest exists only in legend. No unicorn has ever been observed.",
-        "conclusion": "Some unicorns in the Forbidden Forest have silver manes.",
-        "label": "False"
     },
     {
         "id": "manual_362",
@@ -1722,72 +828,6 @@
         "label": "True"
     },
     {
-        "id": "manual_366",
-        "premises": "All visitors to the secure vault have undergone retinal scanning. The vault has not been opened in 40 years. The visitor log shows zero entries since 1984. The vault's security system confirms no access attempts.",
-        "conclusion": "Some visitors to the secure vault have undergone retinal scanning.",
-        "label": "False"
-    },
-    {
-        "id": "manual_367",
-        "premises": "All dragons in the northern mountains breathe ice instead of fire. The northern mountains have been fully explored by three separate expeditions. Expedition reports mention dragon skeletons but no living dragons. No dragon has been sighted alive in over 200 years. Biologists consider the species extinct.",
-        "conclusion": "Some dragons in the northern mountains breathe ice instead of fire.",
-        "label": "False"
-    },
-    {
-        "id": "manual_368",
-        "premises": "All standard tickets include access to the main exhibition hall. The museum sells standard tickets daily. Yesterday's sales record shows 1,247 standard tickets sold. Each ticket holder entered the museum. Ticket scanners logged each entry.",
-        "conclusion": "Some standard tickets include access to the main exhibition hall.",
-        "label": "True"
-    },
-    {
-        "id": "manual_369",
-        "premises": "All perpetual motion machines violate the first law of thermodynamics. Physicists agree that no perpetual motion machine has ever been constructed. Patents for such machines are rejected on theoretical grounds alone. No working prototype exists in any laboratory.",
-        "conclusion": "Some perpetual motion machines violate the first law of thermodynamics.",
-        "label": "False"
-    },
-    {
-        "id": "manual_371",
-        "premises": "All registered voters in District 7 received a mail-in ballot. The district's voter roll contains 5,234 names. The election commission confirmed that ballots were sent to every registered address. Postal service delivery logs confirm receipt for 5,230 addresses. Four addresses are vacant lots with no mailbox.",
-        "conclusion": "Some registered voters in District 7 received a mail-in ballot.",
-        "label": "True"
-    },
-    {
-        "id": "manual_372",
-        "premises": "All phlogiston samples glow green under UV light. Phlogiston is a disproven chemical concept from the 18th century. No phlogiston sample has ever been isolated. Modern chemistry considers the substance nonexistent.",
-        "conclusion": "Some phlogiston samples glow green under UV light.",
-        "label": "False"
-    },
-    {
-        "id": "manual_374",
-        "premises": "All molecules in the crystal lattice contain a chiral center. The crystal lattice was analyzed by X-ray diffraction. The analysis confirmed 10^23 molecules in the sample. Each molecule's structure was resolved. The chiral center is present in every resolved structure.",
-        "conclusion": "Some molecules in the crystal lattice contain a chiral center.",
-        "label": "True"
-    },
-    {
-        "id": "manual_375",
-        "premises": "All etheric resonators from the Void Ark produce harmonic frequencies above 50 kHz. The Void Ark is a mythical vessel described in an ancient text. No archaeological evidence supports its existence. No resonator has ever been recovered or documented outside mythology.",
-        "conclusion": "Some etheric resonators from the Void Ark produce harmonic frequencies above 50 kHz.",
-        "label": "False"
-    },
-    {
-        "id": "manual_376",
-        "premises": "All patients in the experimental trial received either the drug or a placebo. The trial enrolled 200 patients. Enrollment records are complete. Every patient signed consent. The randomization log shows 100 patients received the drug and 100 received placebo. No patient withdrew before treatment assignment.",
-        "conclusion": "Some patients in the experimental trial received the drug or a placebo.",
-        "label": "True"
-    },
-    {
-        "id": "manual_378",
-        "premises": "All square circles have four right angles. Square circles are geometrically impossible figures. No square circle has ever been drawn or conceived without logical contradiction. Euclidean geometry proves that no such shape exists.",
-        "conclusion": "Some square circles have four right angles.",
-        "label": "False"
-    },
-    {
-        "id": "manual_379",
-        "premises": "All quantum decoherence events in the isolated system were recorded by the sensor array. The sensor array was active for 72 hours. The system had exactly 1,247 decoherence events during that period. Each event triggered a sensor record. No sensor malfunction occurred. The log contains 1,247 entries.",
-        "conclusion": "Some quantum decoherence events in the isolated system were recorded by the sensor array.",
-        "label": "True"
-    },
-    {
         "id": "manual_380",
         "premises": "Every student in the class submitted a project to one professor. Each student chose a professor independently. The class roster has 30 students. The department has 5 professors. No professor received projects from all 30 students. Each student's project went to exactly one professor.",
         "conclusion": "There is one professor who received projects from every student in the class.",
@@ -1798,18 +838,6 @@
         "premises": "Each member of the jury found a piece of evidence compelling. Different jurors were persuaded by different pieces of evidence. The evidence log lists 15 items. The jury has 12 members. No single piece of evidence was found compelling by all 12 jurors. The foreperson confirmed individual variation.",
         "conclusion": "There is one piece of evidence that every member of the jury found compelling.",
         "label": "False"
-    },
-    {
-        "id": "manual_383",
-        "premises": "Every soldier in the battalion saluted some officer during the ceremony. The battalion has 800 soldiers. The officer corps has 40 members. Parade records show that General Marks received salutes from all 800 soldiers. Every soldier saluted exactly once. No officer other than General Marks received more than 50 salutes.",
-        "conclusion": "There is an officer whom every soldier in the battalion saluted.",
-        "label": "True"
-    },
-    {
-        "id": "manual_388",
-        "premises": "Every guest at the wedding gave a toast to some person at the head table. The wedding had 150 guests. The head table had 6 people. Each guest toasted exactly one person. The bride was toasted by all 150 guests. No other person at the head table received more than 10 toasts. The videographer confirmed each toast was distinct.",
-        "conclusion": "There is a person at the head table to whom every guest gave a toast.",
-        "label": "True"
     },
     {
         "id": "manual_389",
@@ -1824,465 +852,351 @@
         "label": "True"
     },
     {
-        "id": "manual_392",
-        "premises": "Some student in the class answered every question correctly. The class had 30 students and 50 exam questions. Student ID 12 answered all 50 questions correctly, according to the answer key. No other student answered more than 40 questions correctly. The exam was graded twice for accuracy.",
-        "conclusion": "Every question on the exam was answered correctly by some student.",
-        "label": "True"
-    },
-    {
-        "id": "manual_393",
-        "premises": "Every programmer on the team fixed a bug in the codebase. The team has 8 programmers. The codebase had 120 bugs logged. Each programmer fixed exactly one bug. Bug #101 was fixed by all 8 programmers simultaneously via a merge conflict that duplicated the fix. No other bug was fixed by more than 1 programmer. The version control history confirms this anomaly.",
-        "conclusion": "There is a bug that every programmer fixed.",
-        "label": "True"
-    },
-    {
-        "id": "manual_394",
-        "premises": "Every resident of the apartment building knows a neighbor on the same floor. The building has 5 floors with 10 apartments each. Resident records show that each resident knows at least one neighbor on their floor. The building manager's survey indicates that no single neighbor is known by all residents on any floor. The survey response rate was 100%.",
-        "conclusion": "There is a neighbor on the same floor that every resident knows.",
-        "label": "False"
-    },
-    {
-        "id": "manual_395",
-        "premises": "Some representative in parliament voted against every bill in the session. Parliament has 300 representatives. The session had 45 bills. Representative Jones voted 'no' on all 45 bills, as recorded in the official journal. No other representative voted against more than 20 bills. The journal is certified accurate.",
-        "conclusion": "Every bill in the session was voted against by some representative.",
-        "label": "True"
-    },
-    {
-        "id": "manual_397",
-        "premises": "Every employee in the warehouse scanned a package for shipment. The warehouse has 50 employees. The shipment contained 2,000 packages. Each employee scanned exactly one package. Package #1842 was scanned by all 50 employees due to a system glitch that re-assigned the same barcode. No other package was scanned by more than 2 employees. The glitch is confirmed by IT logs.",
-        "conclusion": "There is a package that every employee scanned.",
-        "label": "True"
-    },
-    {
-        "id": "manual_398",
-        "premises": "Each doctor in the hospital treated a patient in the emergency room. The hospital has 60 doctors. The ER had 120 patients overnight. Each doctor treated exactly one patient. Patient X was treated by all 60 doctors because the patient had a rare condition requiring multi-specialty consultation. No other patient was treated by more than 3 doctors. The electronic health record confirms this.",
-        "conclusion": "There is a patient who was treated by every doctor.",
-        "label": "True"
-    },
-    {
-        "id": "manual_399",
-        "premises": "Every player on the soccer team kicked a ball to a teammate during warm-up. The team has 11 players. Warm-up lasted 20 minutes. Each player kicked exactly one ball. The goalkeeper received kicks from all 11 players. No other player received more than 2 kicks. The coach's video analysis confirms the pattern.",
-        "conclusion": "There is a teammate to whom every player kicked a ball.",
-        "label": "True"
-    },
-    {
         "id": "manual_400",
         "premises": "No employee in the accounting department has access to the payroll master file. The accounting department has 12 employees, all currently active. The security log confirms zero access events from any accounting employee. HR records show each employee is assigned to accounting. The department is fully staffed.",
         "conclusion": "Some employees in the accounting department do not have access to the payroll master file.",
         "label": "True"
     },
     {
-        "id": "manual_401",
-        "premises": "No dragon in the northern caves breathes fire. The northern caves have been explored by three expeditions. Each expedition reported dragon skeletons but no living dragons. The species is believed extinct. No living dragon has been observed in over 300 years.",
-        "conclusion": "Some dragons in the northern caves do not breathe fire.",
+        "id": "manual_501",
+        "premises": "Every cat in the shelter has green eyes. If an animal has green eyes or long whiskers, it is good at catching mice. Whiskers the kitten is not good at catching mice. Whiskers is not a cat from the shelter.",
+        "conclusion": "Whiskers has long whiskers.",
         "label": "False"
     },
     {
-        "id": "manual_402",
-        "premises": "Some students in Professor Lee's class failed the midterm exam. The class has 40 students. Attendance records show all 40 took the midterm. The grade roster shows 12 students failed. The remaining 28 passed. No student has incomplete or missing grades.",
-        "conclusion": "Not all students in Professor Lee's class passed the midterm exam.",
-        "label": "True"
-    },
-    {
-        "id": "manual_403",
-        "premises": "No witness at the trial testified for the defense. The trial had 15 witnesses called. Court transcripts confirm each witness was questioned. All 15 testified for the prosecution exclusively. The defense declined to call any additional witnesses.",
-        "conclusion": "Some witnesses at the trial did not testify for the defense.",
-        "label": "True"
-    },
-    {
-        "id": "manual_404",
-        "premises": "Some members of the city council are not in favor of the new zoning law. The council has 9 members. Voting records show 5 voted yes, 3 voted no, and 1 abstained. Abstention is recorded as 'not in favor' per council rules. The clerk verified the count.",
-        "conclusion": "Not all members of the city council are in favor of the new zoning law.",
-        "label": "True"
-    },
-    {
-        "id": "manual_405",
-        "premises": "No unicorn in the Enchanted Forest has a golden horn. The Enchanted Forest is a fictional setting in medieval ballads. No biological survey has ever documented a unicorn. Forest rangers report zero unicorn sightings in recorded history. The species is considered mythical.",
-        "conclusion": "Some unicorns in the Enchanted Forest do not have a golden horn.",
+        "id": "manual_502",
+        "premises": "All roses in Granny's garden are red. If a flower is red or has a strong scent, it attracts butterflies. This yellow flower does not attract butterflies. It is not a rose from Granny's garden.",
+        "conclusion": "The yellow flower has a strong scent.",
         "label": "False"
     },
     {
-        "id": "manual_406",
-        "premises": "All robots on the assembly line passed the safety inspection. The assembly line has 25 robots. Inspection reports show 25 of 25 passed with zero failures. The maintenance log shows no exceptions. The quality assurance team double-checked every unit.",
-        "conclusion": "Some robots on the assembly line did not pass the safety inspection.",
+        "id": "manual_503",
+        "premises": "Every student in the chess club wears a blue badge. If a student wears a blue badge or a striped tie, they can enter the library contest. Mia cannot enter the library contest. Mia is not in the chess club.",
+        "conclusion": "Mia wears a striped tie.",
         "label": "False"
     },
     {
-        "id": "manual_407",
-        "premises": "No passenger on Flight 707 had a connecting ticket to Tokyo. The flight manifest lists 180 passengers. Baggage records show none were tagged for Tokyo. The airline's transfer desk confirmed zero connection requests for Tokyo. All passengers either ended at the destination or connected elsewhere.",
-        "conclusion": "Some passengers on Flight 707 did not have a connecting ticket to Tokyo.",
-        "label": "True"
-    },
-    {
-        "id": "manual_408",
-        "premises": "Some servers in the data center are not running the latest security patch. The data center has 200 servers. The patch management log shows 198 servers patched and 2 unpatched. Both unpatched servers are offline for maintenance. The IT team verified the count.",
-        "conclusion": "Not all servers in the data center are running the latest security patch.",
-        "label": "True"
-    },
-    {
-        "id": "manual_409",
-        "premises": "All squares in the geometry problem are rectangles. The problem set contains 12 shapes. Teacher's answer key identifies all 12 as squares, which are a subset of rectangles. No shape is classified as a rectangle without also being a square. The key is correct.",
-        "conclusion": "Some squares in the geometry problem are not rectangles.",
+        "id": "manual_504",
+        "premises": "All vehicles that carry more than ten people are heavy. If a vehicle is heavy or has a loud horn, it needs a special license. The minibus does not need a special license. The minibus does not carry more than ten people.",
+        "conclusion": "The minibus has a loud horn.",
         "label": "False"
     },
     {
-        "id": "manual_410",
-        "premises": "No phlogiston sample has ever been isolated in a laboratory. Phlogiston is a discredited chemical theory from the 18th century. Modern chemistry textbooks state the substance does not exist. No peer-reviewed paper claims successful isolation. The concept is purely historical.",
-        "conclusion": "Some phlogiston samples have not been isolated in a laboratory.",
+        "id": "manual_505",
+        "premises": "Every bird in the zoo has colorful feathers. If a creature has colorful feathers or a sharp beak, it can crack nuts. Pippy cannot crack nuts. Pippy is not a bird in the zoo.",
+        "conclusion": "Pippy has a sharp beak.",
         "label": "False"
     },
     {
-        "id": "manual_411",
-        "premises": "Some of the packages shipped yesterday were not insured. The shipping log shows 450 packages shipped yesterday. Insurance records indicate 430 were insured. The remaining 20 were marked 'no insurance' by the sender. The courier's system confirms the 20 were delivered without incident.",
-        "conclusion": "Not all packages shipped yesterday were insured.",
-        "label": "True"
-    },
-    {
-        "id": "manual_412",
-        "premises": "All residents of the retirement home received the flu vaccine this year. The home has 120 residents. Medical records show 120 vaccinations administered on-site. No resident refused. No resident was absent during the vaccination clinic. The public health department verified compliance.",
-        "conclusion": "Some residents of the retirement home did not receive the flu vaccine this year.",
+        "id": "manual_508",
+        "premises": "All messages marked urgent come from the manager. If a message comes from the manager or has a red flag, it must be answered immediately. This note does not require an immediate answer. It is not marked urgent.",
+        "conclusion": "The note has a red flIag.",
         "label": "False"
     },
     {
-        "id": "manual_413",
-        "premises": "No surviving crew member of the sunken submarine has been debriefed. The submarine sank with 60 crew. Rescue operations saved 12. Of those, 8 are in critical condition and cannot be interviewed. The remaining 4 are stable but have not yet been debriefed due to legal restrictions. No debriefing has occurred for any survivor.",
-        "conclusion": "Some surviving crew members of the sunken submarine have not been debriefed.",
+        "id": "manual_509",
+        "premises": "Every cloud that is grey and low brings rain. If the sky shows a grey low cloud or a dark tall cloud, the picnic will be cancelled. The picnic will not be cancelled. This morning, the sky shows a grey low cloud.",
+        "conclusion": "The sky does not show a dark tall cloud.",
         "label": "True"
     },
     {
-        "id": "manual_414",
-        "premises": "Some of the museum's paintings are not from the Renaissance period. The museum has 450 paintings in its permanent collection. The curatorial database shows 320 are Renaissance, 80 are Baroque, 30 are Modern, and 20 are Other. The classification is complete and verified by external experts.",
-        "conclusion": "Not all of the museum's paintings are from the Renaissance period.",
+        "id": "type1_1",
+        "premises": "The train did not leave the station. The station clock shows noon. If the train has a full tank and the signal is green, then the train leaves the station. The signal is green. The platform is crowded with travelers.",
+        "conclusion": "The train does not have a full tank.",
         "label": "True"
     },
     {
-        "id": "manual_415",
-        "premises": "All triangles in the figure have three sides. The figure contains 8 triangles, labeled T1 through T8. Each triangle is defined by three line segments. No shape in the figure is a triangle without three sides. The geometric proof is standard and uncontested.",
-        "conclusion": "Some triangles in the figure do not have three sides.",
+        "id": "type1_2",
+        "premises": "If the oven is hot and the dough is inside, then the cake bakes. The dough is inside the oven. The cake did not bake. The kitchen timer is set to thirty minutes. There is flour on the counter.",
+        "conclusion": "The oven is not hot.",
+        "label": "True"
+    },
+    {
+        "id": "type1_3",
+        "premises": "The gate is locked every evening. If the dog is awake and the gate is open, then the dog runs out. The dog did not run out. The dog is awake. A squirrel is sitting on the fence.",
+        "conclusion": "The gate is not open.",
+        "label": "True"
+    },
+    {
+        "id": "type1_4",
+        "premises": "The librarian is not searching. If the book is checked out, then the computer says 'out'. If the book is on the shelf and the card is signed, then the book is checked out. The computer does not say 'out'. If the book is not on the shelf, then the librarian is searching. The reading room is very quiet.",
+        "conclusion": "The card is not signed.",
+        "label": "True"
+    },
+    {
+        "id": "type1_5",
+        "premises": "The sun is shining. If the sprinkler turns on, then the lawn gets wet. The lawn is not wet. If the timer is on and the valve is open, then the sprinkler turns on. The timer is on if and only if the sun is shining. The birds are singing.",
+        "conclusion": "The valve is not open.",
+        "label": "True"
+    },
+    {
+        "id": "type1_6",
+        "premises": "The kitchen does not smell sweet. If the power is on, then the oven reaches temperature. If the oven reaches temperature and the tray is inside, then the cake rises. The power is on. If the cake rises, then the kitchen smells sweet. The recipe is on the counter.",
+        "conclusion": "The tray is not inside.",
+        "label": "True"
+    },
+    {
+        "id": "type1_7",
+        "premises": "The children did not clap. If the water sparkles, then children clap. If the switch is flipped, then the fountain is on. The switch is flipped. If the fountain is on and the wind is calm, then the water sparkles. Ducks swim in the pond.",
+        "conclusion": "The wind is not calm.",
+        "label": "True"
+    },
+    {
+        "id": "type3_1",
+        "premises": "The glass jar on the table is completely empty. There is absolutely nothing inside it. If a marble is inside the glass jar, it must be a blue marble.",
+        "conclusion": "Every marble inside the glass jar is blue.",
+        "label": "True"
+    },
+    {
+        "id": "type3_2",
+        "premises": "If an apple is in the refrigerator, then it is green. No red apple is in the refrigerator. All apples are in the basket. Every apple in the basket is red. The basket is on the kitchen table.",
+        "conclusion": "Every apple in the refrigerator is green.",
+        "label": "True"
+    },
+    {
+        "id": "type3_3",
+        "premises": "The library is quiet. If there is a student in the library, then the lights are on. If a student is in the library, then the student is reading. The lights are not on.",
+        "conclusion": "Every student in the library is reading.",
+        "label": "True"
+    },
+    {
+        "id": "type3_4",
+        "premises": "If a cat is on the mat, then it is sleeping. No black cat is on the mat. The mat is soft. If a cat is on the mat, then it is black.",
+        "conclusion": "Every cat on the mat is sleeping.",
+        "label": "True"
+    },
+    {
+        "id": "type3_5",
+        "premises": "No copper coin is shiny. If a coin in the jar is shiny, then it is valuable. Every coin in the jar is copper or silver. No silver coin is shiny. The jar is full of coins.",
+        "conclusion": "Every shiny coin in the jar is valuable.",
+        "label": "True"
+    },
+    {
+        "id": "type3_6",
+        "premises": "The cage is large. If a penguin is in the cage, then it is eating fish. All penguins are birds. Every bird in the cage has wings. No penguin has wings.",
+        "conclusion": "Every penguin in the cage is eating fish.",
+        "label": "True"
+    },
+    {
+        "id": "type3_7",
+        "premises": "Every painting in the gallery is framed. If a painting is stolen, then it is not framed. All stolen paintings are valuable. The gallery has many visitors.",
+        "conclusion": "Every stolen painting in the gallery is valuable.",
+        "label": "True"
+    },
+    {
+        "id": "type3_8",
+        "premises": "If a dog is in the yard, then the dog barks. If the dog barks, then the cat hides. The cat does not hide. The yard is fenced.",
+        "conclusion": "Every dog in the yard is friendly.",
+        "label": "True"
+    },
+    {
+        "id": "type3_9",
+        "premises": "All books on the shelf are dictionaries. No dictionary is a novel. If a book is a novel, then it is on the shelf. The lamp is on the desk.",
+        "conclusion": "Every novel on the shelf is interesting.",
+        "label": "True"
+    },
+    {
+        "id": "type3_10",
+        "premises": "Every coin in the purse is silver. No silver coin is magnetic. If a coin is magnetic, then it is valuable. The purse is leather.",
+        "conclusion": "Every magnetic coin in the purse is valuable.",
+        "label": "True"
+    },
+    {
+        "id": "type3_11",
+        "premises": "If a toy is in the box, then the lid is open. The lid is closed. The box is colorful. All toys in the box are plastic.",
+        "conclusion": "Every toy in the box is plastic.",
+        "label": "True"
+    },
+    {
+        "id": "type3_12",
+        "premises": "Only red balls are in the basket. No red ball is heavy. If a ball is heavy, then it is large. The basket is woven.",
+        "conclusion": "Every heavy ball in the basket is large.",
+        "label": "True"
+    },
+    {
+        "id": "type3_13",
+        "premises": "All birds in the aviary can fly. Penguins cannot fly. If a bird is a penguin, then it is in the aviary. The zoo is crowded.",
+        "conclusion": "Every penguin in the aviary can fly.",
+        "label": "True"
+    },
+    {
+        "id": "manual_700",
+        "premises": "In Mrs. Johnson's class, some students have dogs as pets. Some students do not have dogs as pets. Every student in the class who has a dog also has a leash. No student without a dog has a leash. The class has at least two students.",
+        "conclusion": "No student in Mrs. Johnson's class has a dog.",
         "label": "False"
     },
     {
-        "id": "manual_416",
-        "premises": "No employee in the company has a salary below minimum wage. The company has 500 employees. Payroll records show the lowest salary is $17.50/hour. Minimum wage is $15.00/hour. All 500 employees earn at least $17.50. No exceptions exist in the payroll system.",
-        "conclusion": "Some employees in the company do not have a salary below minimum wage.",
-        "label": "True"
-    },
-    {
-        "id": "manual_417",
-        "premises": "Some of the chapters in the book are not longer than 10 pages. The book has 24 chapters. Page counts: 5 chapters are 8 pages, 3 chapters are 9 pages, 8 chapters are 12 pages, and 8 chapters are 15 pages. The publisher's metadata is accurate.",
-        "conclusion": "Not all chapters in the book are longer than 10 pages.",
-        "label": "True"
-    },
-    {
-        "id": "manual_418",
-        "premises": "No square circle has ever been drawn. Square circles are logically impossible shapes. Euclidean geometry proves that a shape cannot be both a square and a circle. No mathematician has ever claimed to construct one. The concept is self-contradictory.",
-        "conclusion": "Some square circles have not been drawn.",
+        "id": "manual_701",
+        "premises": "At the animal shelter, some animals are cats. Some animals are not cats. All cats are mammals. No non-cat is a mammal. There is at least one animal in the shelter.",
+        "conclusion": "No animal in the shelter is a cat.",
         "label": "False"
     },
     {
-        "id": "manual_419",
-        "premises": "Some of the emails in the CEO's inbox were not replied to within 24 hours. The CEO received 340 emails yesterday. Response logs show 300 were replied to within 24 hours, 35 were replied to after 48 hours, and 5 remain unreplied after 72 hours. The email server timestamps are accurate to the second.",
-        "conclusion": "Not all emails in the CEO's inbox were replied to within 24 hours.",
-        "label": "True"
-    },
-    {
-        "id": "manual_420",
-        "premises": "It is not true that no employee in the shipping department has completed the safety course. The shipping department has 25 employees. HR records show that 20 employees completed the course, 5 did not. The statement 'no employee completed the course' is false. The training coordinator verified the records.",
-        "conclusion": "Some employees in the shipping department have completed the safety course.",
-        "label": "True"
-    },
-    {
-        "id": "manual_421",
-        "premises": "It is false that every student in the class did not submit the final project. The class has 30 students. The professor's gradebook shows 28 students submitted the project, 2 did not. The claim 'every student failed to submit' is incorrect. No submission records are missing.",
-        "conclusion": "Some students in the class submitted the final project.",
-        "label": "True"
-    },
-    {
-        "id": "manual_422",
-        "premises": "It is not the case that none of the witnesses saw the suspect leave the building. Three witnesses testified at trial. Witness A saw the suspect exit through the fire escape. Witness B saw the suspect near the lobby. Witness C saw nothing. The statement 'no witness saw the suspect leave' is contradicted by A and B. The court accepted all testimony.",
-        "conclusion": "Some witnesses saw the suspect leave the building.",
-        "label": "True"
-    },
-    {
-        "id": "manual_423",
-        "premises": "There is no patient in the ICU who did not receive the emergency medication. The ICU has 8 patients. Medication logs show all 8 received the emergency dose within 15 minutes of admission. The pharmacy dispensed 8 units. No patient refused or was missed. The charge nurse signed off.",
-        "conclusion": "Every patient in the ICU received the emergency medication.",
-        "label": "True"
-    },
-    {
-        "id": "manual_426",
-        "premises": "No employee in the research division is without a security badge. The research division has 40 employees. Security records show all 40 have been issued badges. The access log confirms each badge was activated. No badge has been revoked. The facility manager verified the list.",
-        "conclusion": "Every employee in the research division has a security badge.",
-        "label": "True"
-    },
-    {
-        "id": "manual_427",
-        "premises": "It is not the case that it is false that some of the test results were inconclusive. The lab ran 120 tests. Results: 100 conclusive, 15 inconclusive, 5 invalid. The statement 'some were inconclusive' is true (15). Saying 'it is false that some were inconclusive' would mean none were inconclusive, which is false. Therefore 'it is not the case that it is false that some were inconclusive' is true. The lab director signed the report.",
-        "conclusion": "Some test results were inconclusive.",
-        "label": "True"
-    },
-    {
-        "id": "manual_429",
-        "premises": "It is not true that all of the company's servers are not encrypted. The company has 50 servers. The IT security audit shows 45 servers encrypted, 5 not encrypted. The claim 'all servers are not encrypted' (i.e., none are encrypted) is false. The audit report is final and accepted by management.",
-        "conclusion": "Some of the company's servers are encrypted.",
-        "label": "True"
-    },
-    {
-        "id": "manual_431",
-        "premises": "It is false that it is not the case that some of the transactions were flagged as fraudulent. The bank processed 5,000 transactions yesterday. Fraud detection flagged 12. The statement 'some were flagged' is true. Its negation 'none were flagged' is false. Therefore 'it is false that none were flagged' is true, which is equivalent to 'it is false that it is not the case that some were flagged.' The fraud department confirmed the flags.",
-        "conclusion": "Some transactions were flagged as fraudulent.",
-        "label": "True"
-    },
-    {
-        "id": "manual_433",
-        "premises": "It is not the case that not a single prisoner in Block D escaped during the riot. Block D held 50 prisoners. Post-riot headcount shows 48 present, 2 missing. The statement 'not a single prisoner escaped' (i.e., zero escaped) is false because 2 are missing. Therefore 'it is not the case that none escaped' is true. The warden's report confirms the missing inmates.",
-        "conclusion": "Some prisoners in Block D escaped during the riot.",
-        "label": "True"
-    },
-    {
-        "id": "manual_434",
-        "premises": "No passenger on the delayed flight was not offered a meal voucher. The flight had 180 passengers. The airline's compensation log shows 180 vouchers issued. Every passenger received a voucher regardless of delay length. The customer service manager confirmed no passenger was skipped.",
-        "conclusion": "Every passenger on the delayed flight was offered a meal voucher.",
-        "label": "True"
-    },
-    {
-        "id": "manual_435",
-        "premises": "It is false that all of the proposed amendments were not ratified. The constitutional convention proposed 8 amendments. Ratification results: 3 ratified, 5 rejected. The claim 'all were not ratified' (i.e., none were ratified) is false because 3 were ratified. The secretary of state certified the results.",
-        "conclusion": "Some of the proposed amendments were ratified.",
-        "label": "True"
-    },
-    {
-        "id": "manual_437",
-        "premises": "It is not the case that it is not true that some of the sensors malfunctioned during the test. The test used 50 sensors. Diagnostic logs show 8 malfunctioned, 42 functioned normally. The statement 'some malfunctioned' is true. Its double negation 'it is not the case that it is not true that some malfunctioned' is logically equivalent. The engineering team verified the logs.",
-        "conclusion": "Some sensors malfunctioned during the test.",
-        "label": "True"
-    },
-    {
-        "id": "manual_438",
-        "premises": "No resident of the assisted living facility is without a medical alert pendant. The facility has 85 residents. Inventory records show 85 pendants distributed, one per resident. Weekly checks confirm all residents wear their pendants. No pendant has been reported lost this month.",
-        "conclusion": "Every resident of the assisted living facility has a medical alert pendant.",
-        "label": "True"
-    },
-    {
-        "id": "manual_439",
-        "premises": "It is not true that none of the job applicants lacked a required certification. The job posting required Certification X. There were 120 applicants. Resume review shows 100 had Certification X, 20 did not. The statement 'none lacked the certification' means all 120 had it, which is false. Therefore 'it is not true that none lacked' is true. HR confirmed the review.",
-        "conclusion": "Some job applicants lacked the required certification.",
-        "label": "True"
-    },
-    {
-        "id": "manual_441",
-        "premises": "The law requires that every truck driver must carry a medical certificate. The transportation department has issued certificates to all 12,000 registered truck drivers. Inspector Gomez verified that each driver possesses a certificate. No driver has been found without one. The law is uniformly enforced.",
-        "conclusion": "Every truck driver carries a medical certificate.",
-        "label": "True"
-    },
-    {
-        "id": "manual_445",
-        "premises": "The contract stipulates that a representative must approve any expenditure exceeding $10,000. The finance committee has designated exactly one representative: Ms. Vega. Ms. Vega has approved 47 expenditures this quarter, all above $10,000. No expenditure above $10,000 has been made without her approval. The audit confirms compliance.",
-        "conclusion": "Any expenditure exceeding $10,000 is approved by a representative.",
-        "label": "True"
-    },
-    {
-        "id": "manual_446",
-        "premises": "Captain Zhao ordered that every crew member on the bridge must wear a life vest during the storm. The bridge has 8 crew members. Captain Zhao issued the order verbally at 14:00. The log shows all 8 were on the bridge at that time. The bosun confirmed each put on a vest within 2 minutes. No one removed a vest during the storm.",
-        "conclusion": "Every crew member on the bridge wore a life vest during the storm.",
-        "label": "True"
-    },
-    {
-        "id": "manual_448",
-        "premises": "The university policy requires that every graduate student must complete an ethics training module. The registrar's office has records for all 2,300 graduate students. Completion data shows 2,295 have finished the module. Five students have not. The policy is enforced at graduation, not before. The incomplete students are still enrolled.",
-        "conclusion": "Every graduate student has completed the ethics training module.",
+        "id": "manual_702",
+        "premises": "In a certain village, some adults like to read books. Some adults do not like to read books. Every adult who likes to read books owns a library card. No adult who dislikes reading owns a library card. The village has more than one adult.",
+        "conclusion": "No adult in the village likes to read books.",
         "label": "False"
     },
     {
-        "id": "manual_450",
-        "premises": "The tournament rule states that a player who commits three fouls must leave the court immediately. Referee Martinez enforced this rule during the championship game. Player 7 committed three fouls. Referee Martinez ordered Player 7 to leave. Player 7 complied. The game log confirms the sequence.",
-        "conclusion": "Player 7 left the court immediately after committing three fouls.",
-        "label": "True"
-    },
-    {
-        "id": "manual_453",
-        "premises": "The hospital protocol requires that any nurse who administers anesthesia must be certified in advanced cardiac life support. The anesthesia log for today shows 15 administrations. Each administration was performed by a nurse. Credentialing records confirm that all 15 nurses who administered anesthesia today hold ACLS certification. No uncertified nurse administered anesthesia.",
-        "conclusion": "Every nurse who administered anesthesia today is certified in advanced cardiac life support.",
-        "label": "True"
-    },
-    {
-        "id": "manual_463",
-        "premises": "Every guest at the ambassador's dinner toasted someone at the head table. The dinner had 60 guests and 8 people at the head table. Each guest toasted exactly one person, as recorded by the event photographer. The ambassador was toasted by all 60 guests, according to the photo log. No other person at the head table received more than 5 toasts. The photographer's images cover every toast without gaps. The ambassador confirmed receiving each toast personally. The event coordinator verified that no guest toasted more than one person.",
-        "conclusion": "There is a person at the head table to whom every guest toasted.",
-        "label": "True"
-    },
-    {
-        "id": "manual_464",
-        "premises": "It is not true that no employee in the logistics division has completed the hazardous materials training. The logistics division employs 35 workers. Human resources records show that 28 employees completed the training last quarter, 5 completed it earlier this year, and 2 have never completed it. The statement 'no employee has completed the training' would mean zero completions, which is false given the records. The training coordinator verified each record against signed completion certificates. No certificates were forged or invalid. The division manager signed off on the quarterly report.",
-        "conclusion": "Some employees in the logistics division have completed the hazardous materials training.",
-        "label": "True"
-    },
-    {
-        "id": "manual_465",
-        "premises": "If the encryption key was compromised, then the secure channel will show anomalous handshake patterns. The network intrusion detection system logged anomalous handshake patterns at 03:14 UTC. The security team notes that a firmware bug in the router can also produce identical anomalous patterns, independent of any compromise. The router's firmware version was checked and found to be the latest release, which patched that specific bug. No other known cause produces this exact anomaly. The router's diagnostic self-test passed all checks. The incident response team has not yet ruled out a zero-day exploit that mimics the bug.",
-        "conclusion": "The encryption key was compromised.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_466",
-        "premises": "No passenger on the red-eye flight from Tokyo had a confirmed connecting reservation to Sydney. The flight carried 210 passengers, according to the manifest. The airline's booking system shows that 45 passengers had onward tickets to Melbourne, 30 to Brisbane, and the remaining 135 ended their journey in Tokyo. Zero passengers had Sydney as a final or connecting destination in the system. The check-in agent confirmed that no one requested a Sydney connection at the gate. The baggage tags were all coded for Tokyo, Melbourne, or Brisbane exclusively. The transfer desk received no inquiries about Sydney connections during the flight's layover window.",
-        "conclusion": "Some passengers on the red-eye flight from Tokyo did not have a confirmed connecting reservation to Sydney.",
-        "label": "True"
-    },
-    {
-        "id": "manual_468",
-        "premises": "All square circles have four right angles and four equal sides. Square circles are geometrically impossible figures, as proven by Euclid's axioms. No mathematician has ever constructed or visualized a square circle without contradiction. The concept appears only in paradoxical logic puzzles, not in real geometry. The International Union of Mathematicians classifies square circles as impossible objects. No peer-reviewed paper claims their existence. The premises of geometry entail that no such shape can instantiate any property because it cannot exist.",
-        "conclusion": "Some square circles have four right angles and four equal sides.",
+        "id": "manual_703",
+        "premises": "Among the toys in the box, some are red. Some toys in the box are not red. All red toys are made of plastic. No non-red toy is made of plastic. The box contains at least two toys.",
+        "conclusion": "No toy in the box is red.",
         "label": "False"
     },
     {
-        "id": "manual_469",
-        "premises": "Every node in the mesh network transmitted a packet to some gateway during the stress test. The network has 500 nodes and 3 gateways: G1, G2, and G3. The packet log shows that Gateway G1 received transmissions from 498 nodes. The remaining 2 nodes transmitted exclusively to Gateway G2. Gateway G3 received zero packets during the entire test. The test administrator verified that each node transmitted exactly once. No node failed to transmit. The log is complete and error-free according to the post-test audit. No node transmitted to more than one gateway.",
-        "conclusion": "There is a gateway to which every node in the mesh network transmitted a packet.",
+        "id": "manual_704",
+        "premises": "In a garden, some flowers are roses. Some flowers in the garden are not roses. Every rose has thorns. No flower that is not a rose has thorns. The garden has at least two flowers.",
+        "conclusion": "No flower in the garden is a rose.",
         "label": "False"
     },
     {
-        "id": "manual_470",
-        "premises": "It is false that all of the software patches released last month were not effective. The IT department released 12 patches in September. Post-deployment testing showed that 8 patches resolved their target vulnerabilities completely. Two patches partially resolved their issues, and two patches had no effect. The claim 'all patches were not effective' would mean zero effective patches, which is false because 8 were fully effective. The security team's report was reviewed by an external auditor. The auditor confirmed the effectiveness classifications. The CISO signed off on the findings. No retesting has contradicted these results.",
-        "conclusion": "Some of the software patches released last month were effective.",
-        "label": "True"
-    },
-    {
-        "id": "manual_471",
-        "premises": "If the furnace thermocouple is defective, then the gas valve will close within 30 seconds of ignition. The gas valve closed 22 seconds after the furnace ignited this morning. The repair manual states that a dirty flame sensor can also cause the valve to close within the same time window, independently of the thermocouple. The flame sensor was cleaned yesterday and tested as fully functional. No other component failure produces this exact symptom. The furnace is 15 years old, and the thermocouple has never been replaced. The technician has not yet tested the thermocouple directly because the furnace needs to cool down first. The manufacturer's troubleshooting guide lists only these two causes.",
-        "conclusion": "The furnace thermocouple is defective.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_472",
-        "premises": "No dragon in the volcanic highlands of Mordath has green scales. The volcanic highlands span 12,000 square kilometers and have been surveyed by the Royal Geographic Society. Three expeditions over 50 years have documented dragon sightings. Each sighting described red, black, or brown scales exclusively. The most recent expedition used drone photography and captured 47 dragon images; none showed green. Local herders report no green-scaled dragons in oral histories spanning eight generations. The region's volcanic soil lacks chromium, which is necessary for green pigmentation in reptilian scales. The dragon population is estimated at 200–300 individuals, all accounted for in surveys.",
-        "conclusion": "Some dragons in the volcanic highlands of Mordath have green scales.",
+        "id": "manual_705",
+        "premises": "At a party, some people are wearing hats. Some people at the party are not wearing hats. Everyone who wears a hat is also wearing sunglasses. No one without a hat wears sunglasses. The party has more than one person.",
+        "conclusion": "No person at the party is wearing a hat.",
         "label": "False"
     },
     {
-        "id": "manual_474",
-        "premises": "Every tenant in the apartment building has paid their rent for the current month. The building has 45 units, all occupied. The property manager's ledger shows payments received from 44 units. One unit, #12, shows no payment recorded. The manager contacted tenant #12, who claims to have paid by check but cannot provide a check number. The bank statement for tenant #12 does not show the check clearing. The manager's deposit slips for this month list 44 checks and 0 cash payments. The building's policy requires payment by the 5th; today is the 10th. No rent assistance or deferral has been approved for unit #12.",
-        "conclusion": "Every tenant in the apartment building has paid their rent for the current month.",
+        "id": "manual_706",
+        "premises": "In a zoo, some animals are mammals. Some animals in the zoo are not mammals. All mammals have fur. No non-mammal has fur. The zoo contains at least two animals.",
+        "conclusion": "No animal in the zoo is a mammal.",
         "label": "False"
     },
     {
-        "id": "manual_475",
-        "premises": "If a chemical compound contains a benzene ring with a nitro group at the para position, then it will show a characteristic absorption peak at 1520 cm⁻¹ in infrared spectroscopy. The sample tested showed a strong absorption peak at 1520 cm⁻¹. The analytical chemistry handbook notes that a carbonyl group conjugated with an aromatic ring can also produce a peak at 1520 cm⁻¹ under certain conditions. The sample's NMR spectrum indicates the presence of a conjugated carbonyl. However, the sample also contains a nitro group confirmed by mass spectrometry. The IR instrument was calibrated yesterday. The technician has not run a control sample to distinguish between the two possible causes. The handbook lists no other functional group that absorbs at 1520 cm⁻¹.",
-        "conclusion": "The chemical compound contains a benzene ring with a nitro group at the para position.",
-        "label": "Uncertain"
-    },
-    {
-        "id": "manual_476",
-        "premises": "All members of the secret society have a tattoo of an owl on their left wrist. The society was founded in 1887 and has had 230 members over its history. Current membership is 12 individuals, all living. The society's historian has photographs of every member's left wrist from induction ceremonies. All 12 current members' photographs show an owl tattoo. The historian has no photographs of deceased members' wrists, but the induction records for the past 50 years describe the tattoo consistently. The society's bylaws require the tattoo for membership. No exception has ever been granted. The current membership roster is verified by the society's secretary.",
-        "conclusion": "Some members of the secret society have a tattoo of an owl on their left wrist.",
-        "label": "True"
-    },
-    {
-        "id": "manual_477",
-        "premises": "No employee in the research division is without a signed non-disclosure agreement on file. The research division employs 120 scientists and support staff. The legal department's records show that 118 employees have signed NDAs within the past year. Two new employees, hired last week, have not yet signed their NDAs because the paperwork is in progress. The division director signed a waiver allowing them to begin work without NDAs for 30 days. The waiver is on file. The legal department considers the two employees as 'without signed NDA' until the documents are completed. The company policy requires NDAs for all research personnel, but the waiver is a valid temporary exception.",
-        "conclusion": "Every employee in the research division has a signed non-disclosure agreement on file.",
+        "id": "manual_707",
+        "premises": "In a classroom, some students play chess. Some students do not play chess. Every student who plays chess owns a chessboard. No student who does not play chess owns a chessboard. The classroom has at least two students.",
+        "conclusion": "No student in the classroom plays chess.",
         "label": "False"
     },
     {
-        "id": "manual_479",
-        "premises": "The algorithm predicts that some user in the test group will click on the advertisement. The test group has 10,000 users. The algorithm outputs a probability score for each user individually. It predicts a click for user #7,482 with 94% confidence based on browsing history. For all other 9,999 users, the prediction confidence is below 50%. The algorithm's predictions are probabilistic, not deterministic. The product manager knows the algorithm flagged user #7,482 as the most likely but cannot be certain. No user has yet been shown the advertisement because the campaign starts tomorrow. The algorithm's training data had no false positive examples for users with >90% confidence. The development team has not validated the prediction on this specific user segment.",
-        "conclusion": "There is a user in the test group whom the algorithm predicts will click on the advertisement.",
-        "label": "True"
-    },
-    {
-        "id": "manual_480",
-        "premises": "If the sun rises in the west, then morning shadows point east. The sun rises in the west. The laws of optics are unchanged by this fact. No other factor affects shadow direction.",
-        "conclusion": "Morning shadows point east.",
-        "label": "True"
-    },
-    {
-        "id": "manual_481",
-        "premises": "If water freezes at 50°C, then ice forms when the temperature drops to 50°C. Water freezes at 50°C. The current temperature is 50°C. The container is sealed and pure. No impurities alter the freezing point.",
-        "conclusion": "Ice forms in the container.",
-        "label": "True"
-    },
-    {
-        "id": "manual_484",
-        "premises": "If the Earth is flat, then ships disappear hull-first over the horizon due to perspective, not curvature. The Earth is flat. A ship sails away from shore. The hull disappears first. Flat-Earth model explains this by atmospheric lensing. No curvature exists.",
-        "conclusion": "The Earth's curvature does not cause ships to disappear hull-first.",
-        "label": "True"
-    },
-    {
-        "id": "manual_485",
-        "premises": "If the moon is made of green cheese, then lunar samples should taste salty and crumbly. The moon is made of green cheese. Astronauts returned with lunar samples. The samples taste salty and crumbly. No contamination occurred. The taste test was double-blind.",
-        "conclusion": "Lunar samples are made of green cheese.",
-        "label": "True"
-    },
-    {
-        "id": "manual_486",
-        "premises": "If squares have three sides, then the interior angles of a square sum to 540 degrees. Squares have three sides. Shape S is a square. A three-sided square has three interior angles. Each angle is 180 degrees by definition in this system. The total is 540 degrees.",
-        "conclusion": "The sum of interior angles of shape S is 540 degrees.",
-        "label": "True"
-    },
-    {
-        "id": "manual_487",
-        "premises": "If the sun sets in the east, then evening shadows point west. The sun sets in the east. The time is 7 PM, which is evening. Shadows are cast opposite the sun. The ground is flat and unobstructed.",
-        "conclusion": "Evening shadows point west.",
-        "label": "True"
-    },
-    {
-        "id": "manual_488",
-        "premises": "If water boils at 0°C, then a pot of water at 0°C will boil. Water boils at 0°C. The pot is on a stove at sea level. The water temperature is exactly 0°C. The stove is off. No heat is being added. The room temperature is 20°C.",
-        "conclusion": "The water is boiling.",
-        "label": "True"
-    },
-    {
-        "id": "manual_489",
-        "premises": "If humans have one lung, then human blood oxygenation requires that single lung to function perfectly. Humans have one lung. Patient Y has one lung that is 50% blocked by a tumor. The tumor reduces oxygen exchange by half. The patient's oxygen saturation is 85%. Normal saturation is 95% or above. No other organ compensates.",
-        "conclusion": "Patient Y has normal blood oxygenation.",
-        "label": "True"
-    },
-    {
-        "id": "manual_490",
-        "premises": "If the Earth is flat, then a straight line path will never return to its starting point without turning. The Earth is flat. A traveler walks 10,000 kilometers due east. The Earth's geometry is flat and unbounded. No curvature exists to create a loop. The traveler continues east indefinitely.",
-        "conclusion": "The traveler will eventually return to the starting point.",
+        "id": "manual_708",
+        "premises": "On a farm, some animals are chickens. Some animals on the farm are not chickens. All chickens have feathers. No non-chicken has feathers. The farm has at least two animals.",
+        "conclusion": "No animal on the farm is a chicken.",
         "label": "False"
     },
     {
-        "id": "manual_491",
-        "premises": "If the moon is made of blue cheese, then lunar rocks should be blue and edible. The moon is made of blue cheese. Lunar samples were analyzed. The samples are gray and inedible. The analysis used mass spectrometry. No blue coloration was found. The samples contain no dairy proteins.",
-        "conclusion": "Lunar samples are made of blue cheese.",
+        "id": "manual_709",
+        "premises": "In a library, some books are fiction. Some books in the library are not fiction. Every fiction book has a colorful cover. No non-fiction book has a colorful cover. The library has at least two books.",
+        "conclusion": "No book in the library is fiction.",
         "label": "False"
     },
     {
-        "id": "manual_492",
-        "premises": "If triangles have four sides, then a triangle can be divided into two quadrilaterals. Triangles have four sides. Shape T is a triangle with sides A, B, C, and D. A diagonal connects two non-adjacent vertices. This diagonal splits the shape into two regions. Each region has four sides.",
-        "conclusion": "Shape T can be divided into two quadrilaterals.",
+        "id": "manual_710",
+        "premises": "No student who wears a uniform is not late. All students are either on time or late. Tom is a student who is not late.",
+        "conclusion": "Tom wears a uniform.",
         "label": "False"
     },
     {
-        "id": "manual_493",
-        "premises": "If the sun rises in the north, then the shortest shadow at noon points south. The sun rises in the north. At the equator, the sun is directly overhead at noon. A vertical pole casts no shadow. The time is noon. The pole is 1 meter tall. The ground is level.",
-        "conclusion": "The pole casts a shadow pointing south.",
+        "id": "manual_711",
+        "premises": "No black cat is friendly. Every non-black cat is playful. All cats are either friendly or unfriendly. Whiskers is a black cat.",
+        "conclusion": "Whiskers is friendly.",
         "label": "False"
     },
     {
-        "id": "manual_494",
-        "premises": "If water freezes at 100°C, then ice cubes will form in boiling water. Water freezes at 100°C. A kettle contains water at 100°C. The kettle is on a stove. The stove is off. The room temperature is 25°C. The water is not being heated further. No pressure changes occur.",
-        "conclusion": "Ice cubes form in the kettle.",
+        "id": "manual_712",
+        "premises": "Every penguin is a bird. Some birds can fly. No penguin can fly. Pippin is a penguin.",
+        "conclusion": "Pippin is not a penguin.",
         "label": "False"
     },
     {
-        "id": "manual_495",
-        "premises": "If humans have two livers, then removing one liver causes liver failure. Humans have two livers. Patient Z had one liver removed surgically. The remaining liver is healthy and fully functional. Medical records show normal liver enzyme levels post-surgery. The patient has no symptoms of failure. Follow-up is one year complete.",
-        "conclusion": "Patient Z has liver failure.",
+        "id": "manual_713",
+        "premises": "No sweet fruit is sour. All fruits that are not sweet are green. Every fruit is either ripe or unripe. An apple is a fruit that is sweet.",
+        "conclusion": "The apple is not sweet.",
         "label": "False"
     },
     {
-        "id": "manual_496",
-        "premises": "If squares have five sides, then a square has five diagonals. Squares have five sides. Shape Q is a square with vertices V1 through V5. A diagonal connects non-adjacent vertices. Adjacent vertices are those connected by a side. The number of diagonals in a pentagon is 5. The pentagon is a five-sided square. The geometry is consistent.",
-        "conclusion": "Shape Q has 5 diagonals.",
+        "id": "manual_714",
+        "premises": "Every vehicle that is not a car is slow. No car is fast. All vehicles are either fast or slow. The motorcycle is a car.",
+        "conclusion": "The motorcycle is not a car.",
         "label": "False"
     },
     {
-        "id": "manual_498",
-        "premises": "If the sun sets in the south, then the evening sky glows red in the south. The sun sets in the south. The observer is in the northern hemisphere at 40° latitude. Atmospheric scattering affects sunset colors. The time is sunset. Clouds are absent. The air is clear. The sunset glow appears in the direction of the setting sun.",
-        "conclusion": "The evening sky glows red in the south.",
+        "id": "manual_715",
+        "premises": "No happy person is sad. Every unhappy person is quiet. All persons are either smiling or not smiling. John is a sad person.",
+        "conclusion": "John is not sad.",
+        "label": "False"
+    },
+    {
+        "id": "manual_716",
+        "premises": "If an animal is not a mammal, it lays eggs. Every mammal gives live birth. No animal that lays eggs gives live birth. A platypus is a mammal.",
+        "conclusion": "The platypus is not a mammal.",
+        "label": "False"
+    },
+    {
+        "id": "manual_717",
+        "premises": "No hot drink is cold. Every drink that is not hot is bitter. All drinks are either refreshing or not refreshing. Coffee is a hot drink.",
+        "conclusion": "Coffee is cold.",
+        "label": "False"
+    },
+    {
+        "id": "manual_718",
+        "premises": "Every game that is not boring is fun. No boring game is enjoyable. All games are either enjoyable or not enjoyable. Chess is a boring game.",
+        "conclusion": "Chess is not boring.",
+        "label": "False"
+    },
+    {
+        "id": "manual_719",
+        "premises": "No red flower is blue. Every flower that is not red is small. All flowers are either pretty or not pretty. A rose is a red flower.",
+        "conclusion": "The rose is blue.",
+        "label": "False"
+    },
+    {
+        "id": "manual_720",
+        "premises": "Every student must choose exactly one exam subject: either Math or Science. No student can take both exams. Tom is a student. Tom took the Math exam.",
+        "conclusion": "Tom took the Science exam.",
+        "label": "False"
+    },
+    {
+        "id": "manual_721",
+        "premises": "A light switch can only be in one of two positions: ON or OFF. It cannot be both ON and OFF at the same time. The living room light is currently ON. The light switch is working properly.",
+        "conclusion": "The living room light is OFF.",
+        "label": "False"
+    },
+    {
+        "id": "manual_722",
+        "premises": "Every door in this building is either locked or unlocked, but never both. The main entrance door is locked. The janitor confirmed that no door can be both locked and unlocked.",
+        "conclusion": "The main entrance door is unlocked.",
+        "label": "False"
+    },
+    {
+        "id": "manual_723",
+        "premises": "Each person at the border is classified as either a citizen or a foreigner, but not both. John is crossing the border. The officer declared that John is a citizen.",
+        "conclusion": "John is a foreigner.",
+        "label": "False"
+    },
+    {
+        "id": "manual_724",
+        "premises": "Every fruit in the basket is either sweet or sour, and no fruit can be both. This apple is from the basket. The apple is sweet.",
+        "conclusion": "This apple is sour.",
+        "label": "False"
+    },
+    {
+        "id": "manual_725",
+        "premises": "A used car can be classified as either new or used, but never both. The red car on the lot is classified as new by the dealer. The dealer follows the rule that each car has exactly one status.",
+        "conclusion": "The red car is used.",
+        "label": "False"
+    },
+    {
+        "id": "manual_726",
+        "premises": "Payment at this store is accepted only as cash or card, and a single transaction cannot be both. Lucy paid for her groceries. The receipt shows she paid with cash.",
+        "conclusion": "Lucy paid with card.",
+        "label": "False"
+    },
+    {
+        "id": "manual_727",
+        "premises": "Every pet in the shelter is either a dog or a cat, and no pet is both. Fluffy is a pet at the shelter. The shelter's records say Fluffy is a dog.",
+        "conclusion": "Fluffy is a cat.",
+        "label": "False"
+    },
+    {
+        "id": "manual_728",
+        "premises": "Each book in the library is either fiction or non-fiction, never both. This book is on the shelf. The catalog marks this book as fiction.",
+        "conclusion": "This book is non-fiction.",
+        "label": "False"
+    },
+    {
+        "id": "manual_729",
+        "premises": "Every movie at the festival is either a comedy or a drama, but not both. 'Sunset Laughter' is playing at the festival. The program lists it as a comedy.",
+        "conclusion": "'Sunset Laughter' is a drama.",
         "label": "False"
     }
 ]
