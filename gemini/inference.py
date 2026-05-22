@@ -131,7 +131,7 @@ import json
 import os
 
 def save_results_to_file(results_dict, filename="predictions.json"):
-    """Ghi tiếp (cập nhật) kết quả vào file JSON một cách an toàn."""
+    """Write/update the output file."""
     data = {}
 
     if os.path.exists(filename):
@@ -149,7 +149,7 @@ def save_results_to_file(results_dict, filename="predictions.json"):
         print(f"Error when writting file: {e}")
 
 def run_large_scale_test(all_samples, batch_size=150, output_file="predictions.json", return_fol=False):
-    """Chia nhỏ tập test thành từng batch, gọi API và lưu file liên tục."""
+    """Split the input data into batches, call API to predict and save results."""
     total_samples = len(all_samples)
     print(f"Total samples: {total_samples} - Batch size={batch_size}...")
 

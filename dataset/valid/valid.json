@@ -1,0 +1,242 @@
+[
+    {
+        "id": "manual_0",
+        "nat_premises": "There are many animals in the forest. Some squirrels are brown. Some brown animals are fast climbers. The squirrels like to hide nuts. The forest has tall trees.",
+        "nat_conclusion": "Some squirrels are fast climbers.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_4",
+        "nat_premises": "In a library, there are many books. Some books have blue covers. Some books with blue covers are mysteries. The library has a reading room. The librarian is very helpful.",
+        "nat_conclusion": "Some books are mysteries.",
+        "label": "True"
+    },
+    {
+        "id": "manual_5",
+        "nat_premises": "If it is raining heavily outside, then the ground will be wet. Today, it is not raining heavily outside. The sun is shining brightly. Children are playing in the park. The birds are singing.",
+        "nat_conclusion": "The ground is not wet.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_8",
+        "nat_premises": "If you study very hard for the test, you will get a good grade. Maria did not study very hard for the test. She watched TV all evening. She went to bed early. She ate a big breakfast.",
+        "nat_conclusion": "Maria will not get a good grade.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_9",
+        "nat_premises": "If a plant receives enough sunlight, it will grow green leaves. The plant on the windowsill does not receive enough sunlight. The window faces north. There is a tall building blocking the sun. The plant looks a bit yellow.",
+        "nat_conclusion": "The plant will not grow green leaves.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_10",
+        "nat_premises": "If the cat is sleeping on the rug, then there will be fur on the rug. There is fur on the rug. The rug is soft and warm. The cat likes to nap in sunny spots. The living room is quiet.",
+        "nat_conclusion": "The cat is sleeping on the rug.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_11",
+        "nat_premises": "If it is snowing outside, then the temperature is below freezing. The temperature is below freezing. The ground is white. People are wearing heavy coats. The heating is on.",
+        "nat_conclusion": "It is snowing outside.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_15",
+        "nat_premises": "All unicorns have a magical horn. Unicorns are mythical creatures that live in enchanted forests. No one has ever seen a real unicorn. Many stories talk about their beauty. The horn is said to cure any illness.",
+        "nat_conclusion": "There exists at least one unicorn that has a magical horn.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_21",
+        "nat_premises": "Every student in the school has a locker. Each locker is assigned to exactly one student. The lockers are in the hallway. Students use their lockers every day. The school has many lockers.",
+        "nat_conclusion": "There is a locker that belongs to every student.",
+        "label": "False"
+    },
+    {
+        "id": "manual_22",
+        "nat_premises": "Every player on the soccer team has a jersey number. The jersey numbers are unique. The team has eleven players. The coach assigns numbers from 1 to 11. Players wear their jerseys during matches.",
+        "nat_conclusion": "There is a jersey number that is worn by every player.",
+        "label": "False"
+    },
+    {
+        "id": "manual_70",
+        "nat_premises": "Ocha is yellow. Yellow is not a dark color. Alex doesn't like fruits that don't have a dark color. It is not true that Ocha is not a fruit.",
+        "nat_conclusion": "Alex likes Ocha.",
+        "label": "False"
+    },
+    {
+        "id": "manual_73",
+        "nat_premises": "Gloop is not from Mars. No creature from Mars can swim. Gloop can swim. It is not true that Gloop is not a creature.",
+        "nat_conclusion": "Gloop is from Mars.",
+        "label": "False"
+    },
+    {
+        "id": "manual_75",
+        "nat_premises": "Fizz does not run fast. No animal that runs fast is slow. Fizz is slow. It is not the case that Fizz is not an animal.",
+        "nat_conclusion": "Fizz runs fast.",
+        "label": "False"
+    },
+    {
+        "id": "manual_105",
+        "nat_premises": "For all books, if it is a mystery then it is exciting. Some book is exciting and not a mystery. Every exciting book is popular. No popular book is boring. There is a boring book.",
+        "nat_conclusion": "Some mystery book is not exciting.",
+        "label": "False"
+    },
+    {
+        "id": "manual_106",
+        "nat_premises": "Every employee who works overtime gets a bonus. There exists an employee who does not work overtime but gets a bonus. Every employee who gets a bonus is motivated. No motivated employee is lazy. Some employee is lazy.",
+        "nat_conclusion": "Some employee who works overtime is not motivated.",
+        "label": "False"
+    },
+    {
+        "id": "manual_107",
+        "nat_premises": "For every fruit, if it is tropical then it is sweet. Some fruit is sweet and not tropical. Every sweet fruit is delicious. No delicious fruit is sour. There is a sour fruit.",
+        "nat_conclusion": "Some tropical fruit is not sweet.",
+        "label": "False"
+    },
+    {
+        "id": "manual_120",
+        "nat_premises": "Every animal that lives in water and has gills is a fish. Whales live in water. Whales do not have gills. All mammals breathe air. Whales are mammals. Every animal that breathes air is not a fish. There is an animal that lives in water and is not a fish.",
+        "nat_conclusion": "Whales are not fish.",
+        "label": "True"
+    },
+    {
+        "id": "manual_157",
+        "nat_premises": "Every fruit is a vegetable. Every vegetable is green. Broccoli is a vegetable. An apple is a fruit. A banana is a fruit. Bananas are yellow.",
+        "nat_conclusion": "An apple is green.",
+        "label": "True"
+    },
+    {
+        "id": "manual_163",
+        "nat_premises": "All apples are oranges. All oranges are purple. A fruit that is purple tastes very sweet. This fruit is an apple. This fruit is on the kitchen table.",
+        "nat_conclusion": "This fruit tastes very sweet.",
+        "label": "True"
+    },
+    {
+        "id": "manual_167",
+        "nat_premises": "Elephants are tiny animals. Any tiny animal can fit in a small box. Elephants live in Africa. Lions live in Africa. An elephant can be seen at the zoo.",
+        "nat_conclusion": "Elephants can fit in a small box.",
+        "label": "True"
+    },
+    {
+        "id": "manual_169",
+        "nat_premises": "All pencils are pens. All pens write with blue ink. This is a pencil. This is on my desk. I use it to write letters.",
+        "nat_conclusion": "This writes with blue ink.",
+        "label": "True"
+    },
+    {
+        "id": "manual_172",
+        "nat_premises": "Iceland is in Africa. Africa and Asia are different continents. Vietnam and Iceland are in the same continent. A country cannot be in two continents at the same time",
+        "nat_conclusion": "Vietnam is in Asia.",
+        "label": "False"
+    },
+    {
+        "id": "manual_176",
+        "nat_premises": "If it is raining, then the ground is wet. The ground is wet now. It might have rained. Sometimes the ground is wet because someone spilled water.",
+        "nat_conclusion": "It is raining now.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_177",
+        "nat_premises": "All students in this class wear glasses. Tom is a student in this class. Mary is a student in this class. Some students in the school do not wear glasses. Tom sits near the window.",
+        "nat_conclusion": "Tom wears glasses.",
+        "label": "True"
+    },
+    {
+        "id": "manual_179",
+        "nat_premises": "All triangles are red. This shape is red. Some red shapes are triangles. Squares are never red. This shape is a circle.",
+        "nat_conclusion": "This shape is a triangle.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_180",
+        "nat_premises": "Every person in this room owns exactly one hat. Some people in this room own a red hat. No person in this room owns more than one red hat. There is at least one person in this room. John is a person in this room. John owns a red hat.",
+        "nat_conclusion": "There is at least one person in this room who does not own a red hat.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_185",
+        "nat_premises": "All flowers need water. Some flowers do not need sunlight. A rose is a flower. A cactus is a flower. The rose needs sunlight. The cactus does not need sunlight.",
+        "nat_conclusion": "The cactus needs water.",
+        "label": "True"
+    },
+    {
+        "id": "manual_186",
+        "nat_premises": "Every dog in the park is playing with some toy. Some dogs in the park are not playing with a ball. There is a dog in the park playing with a stick. Max is a dog in the park. Max is playing with a ball.",
+        "nat_conclusion": "Max is playing with a toy.",
+        "label": "True"
+    },
+    {
+        "id": "manual_187",
+        "nat_premises": "Some birds can swim. All penguins are birds. No bird that can swim can fly. Some penguins can fly. Tweety is a penguin.",
+        "nat_conclusion": "Tweety can swim.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_188",
+        "nat_premises": "Every town has a mayor. Some towns have a park. No town has both a park and a beach. Springfield is a town. Springfield has a mayor. Springfield has a beach.",
+        "nat_conclusion": "Springfield does not have a park.",
+        "label": "True"
+    },
+    {
+        "id": "manual_189",
+        "nat_premises": "All cars in the lot are either red or blue. Some cars in the lot are red. There is at least one blue car in the lot. No car is both red and blue. Car X is in the lot. Car X is not blue.",
+        "nat_conclusion": "Car X is red.",
+        "label": "True"
+    },
+    {
+        "id": "manual_190",
+        "nat_premises": "Every team has a leader. Some teams have a leader who is also a player. No team has more than one leader. Team Alpha is a team. Team Alpha has a player named Bob. Bob is a leader.",
+        "nat_conclusion": "Bob is the leader of Team Alpha.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_191",
+        "nat_premises": "All fruits contain seeds. Some fruits are sweet. There exists a fruit that is not sweet. A tomato is a fruit. A banana is a fruit. The tomato is not sweet.",
+        "nat_conclusion": "The tomato contains seeds.",
+        "label": "True"
+    },
+    {
+        "id": "manual_192",
+        "nat_premises": "Every person who lives in the blue house owns a pet. Some people who own a pet do not own a dog. There is a person who lives in the blue house and owns a cat. Alice lives in the blue house. Alice does not own a cat.",
+        "nat_conclusion": "Alice owns a dog.",
+        "label": "Uncertain"
+    },
+    {
+        "id": "manual_193",
+        "nat_premises": "All squares are rectangles. Some rectangles are not squares. Every shape with four equal sides is a square. Shape S is a rectangle. Shape S has four equal sides.",
+        "nat_conclusion": "Shape S is a square.",
+        "label": "True"
+    },
+    {
+        "id": "manual_171",
+        "nat_premises": "All rivers flow north. The Nile is a river. The Amazon is a river. The Nile is in Africa. The Amazon is in South America.",
+        "nat_conclusion": "The Nile flows north.",
+        "label": "True"
+    },
+    {
+        "id": "manual_198",
+        "nat_premises": "Some members of the club can dance. No member can both sing and dance. Lisa is a member of the club. Lisa can dance.",
+        "nat_conclusion": "Lisa cannot sing.",
+        "label": "True"
+    },
+    {
+        "id": "manual_506",
+        "nat_premises": "All toys in the red box are made of wood. If a toy is made of wood or has wheels, it belongs on the top shelf. The toy robot is not on the top shelf. The toy robot did not come from the red box.",
+        "nat_conclusion": "The toy robot has wheels.",
+        "label": "False"
+    },
+    {
+        "id": "manual_507",
+        "nat_premises": "Every cake in the bakery window has chocolate icing. If a dessert has chocolate icing or whipped cream, it is sold by noon. The vanilla slice was not sold by noon. The vanilla slice is not a cake from the bakery window.",
+        "nat_conclusion": "The vanilla slice has whipped cream.",
+        "label": "False"
+    },
+    {
+        "id": "manual_508",
+        "nat_premises": "All messages marked urgent come from the manager. If a message comes from the manager or has a red flag, it must be answered immediately. This note does not require an immediate answer. It is not marked urgent.",
+        "nat_conclusion": "The note has a red flag.",
+        "label": "False"
+    }
+]
