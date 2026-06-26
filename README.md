@@ -18,6 +18,16 @@ We tested the 2 approaches on 3 different models:
 
 This source code contains code for implementing and evaluating these approaches on these models.
 
+# Result
+The table below shows the testing accuracy of each model with each approach:
+
+| Model | Direct | FOL-Base | FOL-Loop |
+|:------|-------:|---------:|---------:|
+| mT5-base | **38.00%** | 0% | 0% |
+| Deepseek-distill-Qwen-7B | 35.50% | 68.50% | **72.50%** |
+| Gemini-2.5-Flash | 79.50% | **93.00%** | - |
+
+
 ## Project structure
 ```
 NEUROSYMBOLIC-REASONING/
